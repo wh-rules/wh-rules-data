@@ -1,0 +1,10 @@
+{
+  "default": {
+    "enh:saga-of-the-beastslayer:Wolf-Touched": [
+      {
+        "en": "In the Declare Battle Formations step, the bearer can be attached to a Wulfen or Wulfen with Storm Shields unit.",
+        "ru": "В шаге Declare Battle Formations носителя можно присоединить к юниту Wulfen или Wulfen with Storm Shields."
+      }
+    ]
+  }
+}

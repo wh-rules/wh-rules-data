@@ -1,0 +1,2735 @@
+{
+  "default": {
+    "entries": [
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a unit that cannot FLY",
+              "ru": "по отряду без FLY"
+            }
+          }
+        ],
+        "hash": "1c8c1f3a",
+        "kind": "ability",
+        "name": "Archaeopter Stratoraptor: Strafing Run",
+        "ref": {
+          "kind": "ability",
+          "unit": "archaeopter-stratoraptor"
+        },
+        "reviewed": true,
+        "sid": "06c4375b-ee7a-4552-a5d0-2a55dcd6acdb:archaeopter-stratoraptor",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "6c8ef7e3",
+        "kind": "ability",
+        "name": "Belisarius Cawl: Invocation of Machine Vengeance (Aura)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "Canticles of the Omnissiah",
+          "unit": "belisarius-cawl"
+        },
+        "reviewed": true,
+        "sid": "b5752ed7-9b3d-4820-a0f3-c70ff1c925f0:belisarius-cawl",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Battleline",
+            "when": {
+              "en": "while this ability is the one selected",
+              "ru": "пока выбрана эта способность"
+            }
+          },
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "target": "aura",
+            "value": 1,
+            "when": {
+              "en": "while this ability is the one selected",
+              "ru": "пока выбрана эта способность"
+            }
+          }
+        ],
+        "hash": "2093ec8e",
+        "kind": "ability",
+        "name": "Belisarius Cawl: Mantra of Discipline",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "ADEPTUS MECHANICUS"
+              ]
+            }
+          ],
+          "set": "Canticles of the Omnissiah",
+          "unit": "belisarius-cawl"
+        },
+        "reviewed": true,
+        "sid": "0c6ffd3b-58d1-45db-9f61-c342ddc58ba0:belisarius-cawl",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of another friendly ADEPTUS MECHANICUS unit",
+              "ru": "пока в пределах 3\" от другого дружественного отряда ADEPTUS MECHANICUS"
+            }
+          }
+        ],
+        "hash": "402acad0",
+        "kind": "ability",
+        "name": "Belisarius Cawl: Mechanicus Bodyguard",
+        "ref": {
+          "kind": "ability",
+          "unit": "belisarius-cawl"
+        },
+        "reviewed": true,
+        "sid": "1887939d-3115-460c-88b3-f8f6dbfa70e0:belisarius-cawl",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "aura",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "73b0c7da",
+        "kind": "ability",
+        "name": "Belisarius Cawl: Shroudpsalm (Aura)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "ADEPTUS MECHANICUS"
+              ]
+            }
+          ],
+          "set": "Canticles of the Omnissiah",
+          "unit": "belisarius-cawl"
+        },
+        "reviewed": true,
+        "sid": "087b86ef-bc68-421c-89b3-c93aa5854ad9:belisarius-cawl",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "protocol-protector"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "a",
+            "target": "unit",
+            "value": 2,
+            "when": {
+              "en": "while that unit is in Protector Protocol",
+              "ru": "пока отряд в Protector Protocol"
+            }
+          },
+          {
+            "cond": [
+              "protocol-conqueror"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "target": "unit",
+            "value": 2,
+            "when": {
+              "en": "while that unit is in Conqueror Protocol",
+              "ru": "пока отряд в Conqueror Protocol"
+            }
+          },
+          {
+            "cond": [
+              "protocol-aegis"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "target": "unit",
+            "value": 1,
+            "when": {
+              "en": "while that unit is in Aegis Protocol",
+              "ru": "пока отряд в Aegis Protocol"
+            }
+          }
+        ],
+        "hash": "07a9dad8",
+        "kind": "ability",
+        "name": "Cybernetica Datasmith: Battle Protocols",
+        "ref": {
+          "kind": "ability",
+          "unit": "cybernetica-datasmith"
+        },
+        "reviewed": true,
+        "sid": "1aca726c-3b92-4965-a0f2-97b3228ed49d:cybernetica-datasmith",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Infantry",
+            "when": {
+              "en": "if no KASTELAN ROBOT models are left in this unit",
+              "ru": "если в отряде не осталось моделей KASTELAN ROBOT"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "target": "led",
+            "value": "Infantry",
+            "when": {
+              "en": "if no KASTELAN ROBOT models are left in this unit",
+              "ru": "если в отряде не осталось моделей KASTELAN ROBOT"
+            }
+          }
+        ],
+        "hash": "e9f8f595",
+        "kind": "ability",
+        "name": "Cybernetica Datasmith: Data-severed",
+        "ref": {
+          "kind": "ability",
+          "unit": "cybernetica-datasmith"
+        },
+        "reviewed": true,
+        "sid": "b1c19c06-a678-4713-9b77-0048297e3a52:cybernetica-datasmith",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-led"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "when": {
+              "en": "while a CHARACTER model is leading this unit",
+              "ru": "пока отряд возглавляет модель CHARACTER"
+            }
+          }
+        ],
+        "hash": "07936a71",
+        "kind": "ability",
+        "name": "Fulgurite Electro-Priests: Electro-infusion",
+        "ref": {
+          "kind": "ability",
+          "unit": "fulgurite-electro-priests"
+        },
+        "reviewed": true,
+        "sid": "3c8449cb-941b-401e-8c98-1ff3a8a0f9d9:fulgurite-electro-priests",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "against targets other than MONSTERS and VEHICLES",
+              "ru": "по целям, кроме MONSTER и VEHICLE"
+            }
+          }
+        ],
+        "hash": "333283af",
+        "kind": "ability",
+        "name": "Hastarii Exterminators: Broad‑spectrum Targeting Augurs",
+        "ref": {
+          "kind": "ability",
+          "unit": "hastarii-exterminators"
+        },
+        "reviewed": true,
+        "sid": "ee9ce49a-c67c-4233-a708-dd5510d8d6f8:hastarii-exterminators",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "against MONSTER or VEHICLE targets",
+              "ru": "по целям MONSTER или VEHICLE"
+            }
+          }
+        ],
+        "hash": "200f6866",
+        "kind": "ability",
+        "name": "Hastarii Fusiliers: Monocular Targeting Helms",
+        "ref": {
+          "kind": "ability",
+          "unit": "hastarii-fusiliers"
+        },
+        "reviewed": true,
+        "sid": "6b5e7c68-c1e8-4061-99b9-60b130b16e42:hastarii-fusiliers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "leader",
+            "value": "Feel No Pain 4+",
+            "when": null
+          }
+        ],
+        "hash": "c377d4d6",
+        "kind": "ability",
+        "name": "Kastelan Robots: Robotic Bodyguard",
+        "ref": {
+          "kind": "ability",
+          "unit": "kastelan-robots"
+        },
+        "reviewed": true,
+        "sid": "14823b5c-5dfa-4cbd-8a77-554487de9c3a:kastelan-robots",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "once per battle, until the end of the phase it is used",
+              "ru": "раз за битву, до конца фазы применения"
+            }
+          },
+          {
+            "on": "profile",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "set",
+            "stat": "inv",
+            "target": "led",
+            "value": "4+",
+            "when": {
+              "en": "once per battle, until the end of the phase it is used",
+              "ru": "раз за битву, до конца фазы применения"
+            }
+          }
+        ],
+        "hash": "78e01e08",
+        "kind": "ability",
+        "name": "Manipulus Skand: Defend the Divine Work (Once per battle, per unit)",
+        "ref": {
+          "kind": "ability",
+          "unit": "manipulus-skand"
+        },
+        "reviewed": true,
+        "sid": "4430c1b2-4142-4d61-b107-25e763d9348d:manipulus-skand",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "aura",
+            "value": "4+",
+            "when": {
+              "en": "against ranged attacks",
+              "ru": "против стрелковых атак"
+            }
+          }
+        ],
+        "hash": "72821a2b",
+        "kind": "ability",
+        "name": "Onager Dunecrawler: Emanatus Force Field",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [
+                "ADEPTUS MECHANICUS BATTLELINE"
+              ],
+              "targets": [
+                "ADEPTUS MECHANICUS BATTLELINE"
+              ]
+            }
+          ],
+          "unit": "onager-dunecrawler"
+        },
+        "reviewed": true,
+        "sid": "34fc460d-17ad-4f87-a136-41f4d23a76ab:onager-dunecrawler",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "8cd8ce87",
+        "kind": "ability",
+        "name": "Purge Corps Serberys Sulphurhounds: Pinning Fire",
+        "ref": {
+          "kind": "ability",
+          "unit": "purge-corps-serberys-sulphurhounds"
+        },
+        "reviewed": true,
+        "sid": "24abbe34-307d-4463-b783-01985d23f7d7:purge-corps-serberys-sulphurhounds",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": null
+          }
+        ],
+        "hash": "7edac6d1",
+        "kind": "ability",
+        "name": "Purge Corps Skitarii Vanguard: Omnispex",
+        "ref": {
+          "kind": "ability",
+          "unit": "purge-corps-skitarii-vanguard"
+        },
+        "reviewed": true,
+        "sid": "f5ef9cfa-b388-47b1-8c7a-c985d104ec26:purge-corps-skitarii-vanguard",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "618490ed",
+        "kind": "ability",
+        "name": "Purge Corps Skitarii Vanguard: Rad-saturation (Aura)",
+        "ref": {
+          "kind": "ability",
+          "unit": "purge-corps-skitarii-vanguard"
+        },
+        "reviewed": true,
+        "sid": "5fd37be5-22d0-41d2-afa5-f5c0c9a92000:purge-corps-skitarii-vanguard",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "0e9970ab",
+        "kind": "ability",
+        "name": "Secutarii Peltasts: Blind Barrage",
+        "ref": {
+          "kind": "ability",
+          "unit": "secutarii-peltasts"
+        },
+        "reviewed": true,
+        "sid": "pack:secutarii-peltasts:blind-barrage",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "3cf67aea",
+        "kind": "ability",
+        "name": "Sicarian Ruststalkers: Optimised Gait",
+        "ref": {
+          "kind": "ability",
+          "unit": "sicarian-ruststalkers"
+        },
+        "reviewed": true,
+        "sid": "c54d3765-7205-4c3b-aa8d-adae50dde22d:sicarian-ruststalkers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "cbd7fe7d",
+        "kind": "ability",
+        "name": "Skitarii Vanguard: Rad-saturation",
+        "ref": {
+          "kind": "ability",
+          "unit": "skitarii-vanguard"
+        },
+        "reviewed": true,
+        "sid": "336210fa-5416-435b-8a30-8f000a820c90:skitarii-vanguard",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "belleros energy cannon against INFANTRY, ferrumite cannon against a MONSTER or VEHICLE",
+              "ru": "belleros energy cannon по INFANTRY, ferrumite cannon по MONSTER или VEHICLE"
+            }
+          }
+        ],
+        "hash": "7da6aee4",
+        "kind": "ability",
+        "name": "Skorpius Disintegrator: Blistering Salvoes",
+        "ref": {
+          "kind": "ability",
+          "unit": "skorpius-disintegrator"
+        },
+        "reviewed": true,
+        "sid": "c11347bd-b4dc-4660-a049-bb4618070032:skorpius-disintegrator",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Feel No Pain 5+",
+            "when": null
+          }
+        ],
+        "hash": "9af7334b",
+        "kind": "ability",
+        "name": "Tech-Priest Dominus: Lord of the Machine Cult",
+        "ref": {
+          "kind": "ability",
+          "unit": "tech-priest-dominus"
+        },
+        "reviewed": true,
+        "sid": "2b590878-2876-48cf-acfd-eae26ed398ef:tech-priest-dominus",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of a friendly ADEPTUS MECHANICUS VEHICLE unit and not leading a unit",
+              "ru": "пока в пределах 3\" от дружественного отряда ADEPTUS MECHANICUS VEHICLE и не ведёт отряд"
+            }
+          }
+        ],
+        "hash": "3337914a",
+        "kind": "ability",
+        "name": "Tech-Priest Enginseer: Enginseer",
+        "ref": {
+          "kind": "ability",
+          "unit": "tech-priest-enginseer"
+        },
+        "reviewed": true,
+        "sid": "673d57bc-ac5a-4d00-805c-5543dd8c2dbb:tech-priest-enginseer",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "aura",
+            "value": "Feel No Pain 5+",
+            "when": {
+              "en": "until your next Command phase, VEHICLE models only",
+              "ru": "до вашей следующей Command phase, только VEHICLE"
+            }
+          }
+        ],
+        "hash": "bb4cdbc6",
+        "kind": "ability",
+        "name": "Tech-Priest Enginseer: Omnissiah’s Blessing",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [
+                "ADEPTUS MECHANICUS"
+              ],
+              "targets": [
+                "ADEPTUS MECHANICUS"
+              ]
+            }
+          ],
+          "unit": "tech-priest-enginseer"
+        },
+        "reviewed": true,
+        "sid": "dc5cdab8-d4dd-4988-a586-be5533ff02f1:tech-priest-enginseer",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "only": {
+              "name": "Omnissian axe"
+            },
+            "op": "set",
+            "stat": "a",
+            "value": "6",
+            "when": {
+              "en": "for the rest of the battle, once a friendly VEHICLE was destroyed within 12\"",
+              "ru": "до конца битвы, если дружественный VEHICLE уничтожен в 12\""
+            }
+          }
+        ],
+        "hash": "bacbdb9e",
+        "kind": "ability",
+        "name": "Tech-Priest Enginseer: Vengeance for the Omnissiah",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [
+                "ADEPTUS MECHANICUS VEHICLE"
+              ],
+              "targets": [
+                "ADEPTUS MECHANICUS VEHICLE"
+              ]
+            }
+          ],
+          "unit": "tech-priest-enginseer"
+        },
+        "reviewed": true,
+        "sid": "1e0b085e-afa3-45ef-91ac-7da966bed7d9:tech-priest-enginseer",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          },
+          {
+            "on": "profile",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "set",
+            "stat": "inv",
+            "target": "led",
+            "value": "4+",
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "fe0d06ce",
+        "kind": "ability",
+        "name": "Tech-Priest Manipulus: Defend the Divine Work",
+        "ref": {
+          "kind": "ability",
+          "unit": "tech-priest-manipulus"
+        },
+        "reviewed": true,
+        "sid": "4bc24a5b-2219-483b-8e94-c2c92e8515f4:tech-priest-manipulus",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "LETHAL HITS",
+            "when": null
+          }
+        ],
+        "hash": "abe50645",
+        "kind": "ability",
+        "name": "Tech-Priest Manipulus: Galvanic Field",
+        "ref": {
+          "kind": "ability",
+          "unit": "tech-priest-manipulus"
+        },
+        "reviewed": true,
+        "sid": "f0ee762e-c490-43f8-b16b-5bf6aa56b1ea:tech-priest-manipulus",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "be69986d",
+        "kind": "ability",
+        "name": "Technoarcheologist: Seekers of Divine Arcana",
+        "ref": {
+          "kind": "ability",
+          "unit": "technoarcheologist"
+        },
+        "reviewed": true,
+        "sid": "d06c940f-819a-4e2c-a905-352a9a633fad:technoarcheologist",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "0c9a1c4e",
+        "kind": "ability",
+        "name": "Thulia Ghuld: Adaptive Tactics",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "SKITARII",
+                "THULIA GHULD"
+              ]
+            }
+          ],
+          "set": "Rod of the War Forge",
+          "unit": "thulia-ghuld"
+        },
+        "reviewed": true,
+        "sid": "b271c952-e022-4c4f-a677-1ea9821e6dd4:thulia-ghuld",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "7b2f79b1",
+        "kind": "ability",
+        "name": "Thulia Ghuld: Fanatical Devotion",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "SKITARII",
+                "THULIA GHULD"
+              ]
+            }
+          ],
+          "set": "Rod of the War Forge",
+          "unit": "thulia-ghuld"
+        },
+        "reviewed": true,
+        "sid": "d3699b65-50d4-4945-a597-88928dea446e:thulia-ghuld",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of another friendly ADEPTUS MECHANICUS unit",
+              "ru": "пока в пределах 3\" от другого дружественного отряда ADEPTUS MECHANICUS"
+            }
+          }
+        ],
+        "hash": "402acad0",
+        "kind": "ability",
+        "name": "Thulia Ghuld: Mechanicus Bodyguard",
+        "ref": {
+          "kind": "ability",
+          "unit": "thulia-ghuld"
+        },
+        "reviewed": true,
+        "sid": "1887939d-3115-460c-88b3-f8f6dbfa70e0:thulia-ghuld",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "dd520465",
+        "kind": "ability",
+        "name": "Thulia Ghuld: The Fires of Mars",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "SKITARII",
+                "THULIA GHULD"
+              ]
+            }
+          ],
+          "set": "Rod of the War Forge",
+          "unit": "thulia-ghuld"
+        },
+        "reviewed": true,
+        "sid": "16118a77-1935-4242-9170-934f9416cf42:thulia-ghuld",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "leader",
+            "value": "Feel No Pain 5+",
+            "when": null
+          }
+        ],
+        "hash": "05ab595a",
+        "kind": "ability",
+        "name": "X-101: Bound Creation",
+        "ref": {
+          "kind": "ability",
+          "unit": "x-101"
+        },
+        "reviewed": true,
+        "sid": "pack:x-101:bound-creation",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-led"
+            ],
+            "on": "ranged",
+            "op": "improve",
+            "stat": "bs",
+            "value": 1,
+            "when": {
+              "en": "while a TECH-PRIEST is leading this unit",
+              "ru": "пока отряд ведёт TECH-PRIEST"
+            }
+          },
+          {
+            "cond": [
+              "unit-led"
+            ],
+            "on": "melee",
+            "op": "improve",
+            "stat": "ws",
+            "value": 1,
+            "when": {
+              "en": "while a TECH-PRIEST is leading this unit",
+              "ru": "пока отряд ведёт TECH-PRIEST"
+            }
+          }
+        ],
+        "hash": "851fca29",
+        "kind": "ability",
+        "name": "X-101: Mindlock",
+        "ref": {
+          "kind": "ability",
+          "unit": "x-101"
+        },
+        "reviewed": true,
+        "sid": "pack:x-101:mindlock",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "imperative-protector"
+            ],
+            "on": "ranged",
+            "op": "improve",
+            "stat": "bs",
+            "value": 1,
+            "when": {
+              "en": "while the Protector Imperative is active for your army",
+              "ru": "пока для армии активен Protector Imperative"
+            }
+          },
+          {
+            "cond": [
+              "imperative-conqueror"
+            ],
+            "on": "melee",
+            "op": "improve",
+            "stat": "ws",
+            "value": 1,
+            "when": {
+              "en": "while the Conqueror Imperative is active for your army",
+              "ru": "пока для армии активен Conqueror Imperative"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "per attack under the Conqueror Imperative, if the unit is Battleline or within 6\" of a friendly Battleline unit",
+              "ru": "за атаку при Conqueror Imperative, если отряд Battleline или в 6\" от дружественного отряда Battleline"
+            }
+          },
+          {
+            "cond": [
+              "imperative-protector"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "HEAVY",
+            "when": {
+              "en": "while the Protector Imperative is active for your army",
+              "ru": "пока для армии активен Protector Imperative"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "vs": "melee",
+            "when": {
+              "en": "under the Protector Imperative, if the unit is Battleline or within 6\" of a friendly Battleline unit",
+              "ru": "при Protector Imperative, если отряд Battleline или в пределах 6\" от дружественного отряда Battleline"
+            }
+          }
+        ],
+        "hash": "5658f6b2",
+        "kind": "armyRule",
+        "name": "Doctrina Imperatives",
+        "ref": {
+          "kind": "armyRule"
+        },
+        "reviewed": true,
+        "sid": "53a34500-653b-4767-ac3b-c23a2c84c383",
+        "ver": 925
+      },
+      {
+        "det": "Cohort Acquisitus",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "scope": 0,
+            "stat": "keyword",
+            "value": "Recon Augury",
+            "when": null
+          }
+        ],
+        "hash": "5dd87635",
+        "kind": "detachmentRule",
+        "name": "Noospheric Recon",
+        "ref": {
+          "det": "cohort-acquisitus",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "2d23adcd-7645-4d4d-99d1-46f03914ae88",
+        "ver": 995
+      },
+      {
+        "det": "Cohort Cybernetica",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 2,
+            "when": null
+          },
+          {
+            "cond": [
+              "unit-not-battle-shocked"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "unless the unit is Battle-shocked",
+              "ru": "если отряд не Battle-shocked"
+            }
+          }
+        ],
+        "hash": "f21761c4",
+        "kind": "detachmentRule",
+        "name": "Cyber-psalm Programming",
+        "ref": {
+          "det": "cohort-cybernetica",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "fb242fc6-ca2a-4370-b362-03742b21fb93",
+        "ver": 925
+      },
+      {
+        "det": "Data-psalm Conclave",
+        "effects": [
+          {
+            "cond": [
+              "benediction-panegyric-procession",
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "under the Panegyric Procession Benediction, per ranged attack within half range",
+              "ru": "при благословении Panegyric Procession, за стрелковую атаку в пределах половины дальности"
+            }
+          },
+          {
+            "cond": [
+              "benediction-citation-in-savagery",
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "under the Citation in Savagery Benediction, if the unit made a Charge move this turn",
+              "ru": "при благословении Citation in Savagery, если отряд совершил чардж в этом ходу"
+            }
+          },
+          {
+            "cond": [
+              "benediction-citation-in-savagery",
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "under the Citation in Savagery Benediction, if the unit made a Charge move this turn",
+              "ru": "при благословении Citation in Savagery, если отряд совершил чардж в этом ходу"
+            }
+          },
+          {
+            "cond": [
+              "benediction-panegyric-procession"
+            ],
+            "op": "state",
+            "when": {
+              "en": "the Benediction selected at the start of the battle",
+              "ru": "Benediction, выбранная в начале битвы"
+            }
+          },
+          {
+            "cond": [
+              "benediction-citation-in-savagery"
+            ],
+            "op": "state",
+            "when": {
+              "en": "the Benediction selected at the start of the battle",
+              "ru": "Benediction, выбранная в начале битвы"
+            }
+          }
+        ],
+        "hash": "285b0847",
+        "kind": "detachmentRule",
+        "name": "Benedictions of the Omnissiah",
+        "ref": {
+          "det": "data-psalm-conclave",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "46d34802-7b56-4948-8651-f39dae58a197",
+        "ver": 925
+      },
+      {
+        "det": "Haloscreed Battle Clade",
+        "effects": [
+          {
+            "cond": [
+              "unit-halo-override",
+              "override-electromotive-energisation"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 2,
+            "when": {
+              "en": "for a unit given the Halo Override keyword with the Electromotive Energisation ability",
+              "ru": "для отряда, получившего Halo Override со способностью Electromotive Energisation"
+            }
+          },
+          {
+            "cond": [
+              "unit-halo-override",
+              "override-microactuator-bracing"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "value": 1,
+            "when": {
+              "en": "for a unit given the Halo Override keyword with the Microactuator Bracing ability",
+              "ru": "для отряда, получившего Halo Override со способностью Microactuator Bracing"
+            }
+          },
+          {
+            "cond": [
+              "unit-halo-override",
+              "override-muted-servomotors"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Stealth",
+            "when": {
+              "en": "for a unit given the Halo Override keyword with the Muted Servomotors ability",
+              "ru": "для отряда, получившего Halo Override со способностью Muted Servomotors"
+            }
+          },
+          {
+            "cond": [
+              "unit-halo-override"
+            ],
+            "op": "state",
+            "when": {
+              "en": "a unit given the Halo Override keyword this Command phase",
+              "ru": "отряд с ключевым словом Halo Override с этой фазы командования"
+            }
+          },
+          {
+            "cond": [
+              "override-electromotive-energisation"
+            ],
+            "op": "state",
+            "when": {
+              "en": "the Override ability selected this Command phase",
+              "ru": "способность Override, выбранная в эту фазу командования"
+            }
+          },
+          {
+            "cond": [
+              "override-microactuator-bracing"
+            ],
+            "op": "state",
+            "when": {
+              "en": "the Override ability selected this Command phase",
+              "ru": "способность Override, выбранная в эту фазу командования"
+            }
+          },
+          {
+            "cond": [
+              "override-predation-protocols"
+            ],
+            "op": "state",
+            "when": {
+              "en": "the Override ability selected this Command phase",
+              "ru": "способность Override, выбранная в эту фазу командования"
+            }
+          },
+          {
+            "cond": [
+              "override-muted-servomotors"
+            ],
+            "op": "state",
+            "when": {
+              "en": "the Override ability selected this Command phase",
+              "ru": "способность Override, выбранная в эту фазу командования"
+            }
+          }
+        ],
+        "hash": "0de92e95",
+        "kind": "detachmentRule",
+        "name": "Noospheric Transference",
+        "ref": {
+          "det": "haloscreed-battle-clade",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "d2354f79-c195-4cb4-bcd7-0e783201902c",
+        "ver": 925
+      },
+      {
+        "det": "Lords of the Forge",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "scope": 0,
+            "stat": "inv",
+            "value": "4+",
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "scope": 0,
+            "stat": "core",
+            "value": "Feel No Pain 5+",
+            "when": null
+          }
+        ],
+        "hash": "9a150a73",
+        "kind": "detachmentRule",
+        "name": "War-form Mantles",
+        "ref": {
+          "det": "lords-of-the-forge",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "37213252-fa9f-46b7-8a8e-4b5d83ae0a22",
+        "ver": 995
+      },
+      {
+        "det": "Luminen Auto-Choir",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "scope": 0,
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": null
+          }
+        ],
+        "hash": "e0235ebc",
+        "kind": "detachmentRule",
+        "name": "Cyber-static Canticles",
+        "ref": {
+          "det": "luminen-auto-choir",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "a99aefbc-1a7f-4452-9889-867c64a9d153",
+        "ver": 925
+      },
+      {
+        "det": "Skitarii Hunter Cohort",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "568f8cf5",
+        "kind": "detachmentRule",
+        "name": "Stealth Optimisation",
+        "ref": {
+          "det": "skitarii-hunter-cohort",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "a17d231c-9e86-4986-b9a9-577f25cf8e0c",
+        "ver": 925
+      },
+      {
+        "det": "Cohort Acquisitus",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Infiltrators",
+            "when": null
+          }
+        ],
+        "hash": "1810055e",
+        "kind": "enhancement",
+        "name": "Explorator Dispensation",
+        "ref": {
+          "det": "cohort-acquisitus",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "070d6e51-e685-4f6b-bfa2-64f2d6807ce3",
+        "ver": 925
+      },
+      {
+        "det": "Cohort Acquisitus",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Lone Operative 15\"",
+            "when": null
+          }
+        ],
+        "hash": "6850e19e",
+        "kind": "enhancement",
+        "name": "Stealth-screened Cybercanids (Upgrade)",
+        "ref": {
+          "det": "cohort-acquisitus",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "5a7312e4-d267-4775-a7e6-1328941bfc9f",
+        "ver": 925
+      },
+      {
+        "det": "Cohort Cybernetica",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-VEHICLE 4+",
+            "when": null
+          }
+        ],
+        "hash": "649a680c",
+        "kind": "enhancement",
+        "name": "Arch-negator",
+        "ref": {
+          "det": "cohort-cybernetica",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "04ebb33a-9b1f-4190-beea-d34b105f73ae",
+        "ver": 925
+      },
+      {
+        "det": "Cohort Cybernetica",
+        "effects": [],
+        "hash": "02e7d351",
+        "kind": "enhancement",
+        "name": "Lord of Machines",
+        "ref": {
+          "det": "cohort-cybernetica",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "ef617056-0ddf-415e-944f-36e532ec8bbd",
+        "ver": 995
+      },
+      {
+        "det": "Cohort Cybernetica",
+        "effects": [],
+        "hash": "58d76b61",
+        "kind": "enhancement",
+        "name": "Necromechanic",
+        "ref": {
+          "det": "cohort-cybernetica",
+          "kind": "enhancement",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [
+                "LEGIO CYBERNETICA",
+                "ADEPTUS MECHANICUS VEHICLE"
+              ],
+              "targets": [
+                "LEGIO CYBERNETICA",
+                "ADEPTUS MECHANICUS VEHICLE"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "843a24a0-aa26-4ceb-a889-356c2fcb0f97",
+        "ver": 925
+      },
+      {
+        "det": "Data-psalm Conclave",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "set",
+            "stat": "d",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "6c85884b",
+        "kind": "enhancement",
+        "name": "Mantle of the Gnosticarch",
+        "ref": {
+          "det": "data-psalm-conclave",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "081fbb43-b5b8-460b-820a-179b8029f596",
+        "ver": 925
+      },
+      {
+        "det": "Data-psalm Conclave",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "ld",
+            "value": "6+",
+            "when": null
+          }
+        ],
+        "hash": "189b1239",
+        "kind": "enhancement",
+        "name": "Mechanicus Locum",
+        "ref": {
+          "det": "data-psalm-conclave",
+          "kind": "enhancement",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "CULT MECHANICUS"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "728a30a4-6408-4ab1-b1f2-54e7da8cacee",
+        "ver": 925
+      },
+      {
+        "det": "Data-psalm Conclave",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Fights First",
+            "when": null
+          }
+        ],
+        "hash": "022d6b35",
+        "kind": "enhancement",
+        "name": "Temporcopia",
+        "ref": {
+          "det": "data-psalm-conclave",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "43866891-3180-4b74-8e66-f85748cef297",
+        "ver": 925
+      },
+      {
+        "det": "Eradication Cohort",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "range",
+            "target": "led",
+            "value": 6,
+            "when": null
+          },
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "s",
+            "target": "led",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "d52a9d4c",
+        "kind": "enhancement",
+        "name": "Belicosa-class Capacitor Vanes",
+        "ref": {
+          "det": "eradication-cohort",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "90b8de0c-70e0-4aae-85b7-0b45e64ecbf6",
+        "ver": 925
+      },
+      {
+        "det": "Eradication Cohort",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "target": "led",
+            "value": "Skitarii",
+            "when": null
+          }
+        ],
+        "hash": "a7771d15",
+        "kind": "enhancement",
+        "name": "Martial Signatum Amplificator",
+        "ref": {
+          "det": "eradication-cohort",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "9fb4f320-8870-48c5-9e73-76725e9691fa",
+        "ver": 925
+      },
+      {
+        "det": "Eradication Cohort",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 2,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "1105f866",
+        "kind": "enhancement",
+        "name": "Omnissiah’s Fury",
+        "ref": {
+          "det": "eradication-cohort",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "36413881-7693-4d35-b23a-27a39aedfe12",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading"
+        ],
+        "det": "Explorator Maniple",
+        "effects": [],
+        "hash": "e7bdd94f",
+        "kind": "enhancement",
+        "name": "Artisan",
+        "ref": {
+          "det": "explorator-maniple",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "2209e188-e543-49d4-ad5c-e599bd1b94fb",
+        "ver": 995
+      },
+      {
+        "appliesWhile": [
+          "unit-leading"
+        ],
+        "det": "Explorator Maniple",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "led",
+            "value": "4+",
+            "when": {
+              "en": "while the bearer leads the unit and it is within range of your Acquisition objective marker",
+              "ru": "пока носитель ведёт отряд и тот в радиусе вашего маркера Acquisition"
+            }
+          }
+        ],
+        "hash": "69a631a2",
+        "kind": "enhancement",
+        "name": "Genetor",
+        "ref": {
+          "det": "explorator-maniple",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "f129d8e9-3079-4b45-bf8c-74e62b1d5eb8",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading"
+        ],
+        "det": "Explorator Maniple",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "while the bearer is leading a unit, against a unit within range of your Acquisition objective marker",
+              "ru": "пока носитель ведёт отряд, по отряду в радиусе вашего Acquisition objective marker"
+            }
+          }
+        ],
+        "hash": "5d6c4484",
+        "kind": "enhancement",
+        "name": "Logis",
+        "ref": {
+          "det": "explorator-maniple",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "0cb351b2-a2c6-4fdf-964f-83281828a311",
+        "ver": 925
+      },
+      {
+        "det": "Haloscreed Battle Clade",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 3,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "87030479",
+        "kind": "enhancement",
+        "name": "Inloaded Lethality",
+        "ref": {
+          "det": "haloscreed-battle-clade",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "246ea89e-51d1-4660-92bd-64baaac14039",
+        "ver": 925
+      },
+      {
+        "det": "Haloscreed Battle Clade",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "range",
+            "target": "led",
+            "value": 6,
+            "when": null
+          }
+        ],
+        "hash": "18087725",
+        "kind": "enhancement",
+        "name": "Sanctified Ordnance",
+        "ref": {
+          "det": "haloscreed-battle-clade",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "0a6da199-5297-4eb9-b320-5ab60423d571",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading-kastelan-robots"
+        ],
+        "det": "Haloscreed Battle Clade",
+        "effects": [
+          {
+            "cond": [
+              "unit-leading-kastelan-robots"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "target": "led",
+            "value": "Halo Override",
+            "when": {
+              "en": "while the bearer is attached to a Kastelan Robots unit",
+              "ru": "пока носитель присоединён к отряду Kastelan Robots"
+            }
+          }
+        ],
+        "hash": "fc5884dd",
+        "kind": "enhancement",
+        "name": "Transoracular Dyad Wafers",
+        "ref": {
+          "det": "haloscreed-battle-clade",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "2a96585b-c6fd-4271-b617-56698f4df264",
+        "ver": 925
+      },
+      {
+        "det": "Lords of the Forge",
+        "effects": [
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Mobile",
+            "when": {
+              "en": "if this unit is an attached unit at the start of the first battle round",
+              "ru": "если в начале первого раунда отряд присоединённый"
+            }
+          },
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "target": "led",
+            "value": "Mobile",
+            "when": {
+              "en": "if this unit is an attached unit at the start of the first battle round",
+              "ru": "если в начале первого раунда отряд присоединённый"
+            }
+          }
+        ],
+        "hash": "a5a3fed9",
+        "kind": "enhancement",
+        "name": "Vingh’s Wafers of Dynamism",
+        "ref": {
+          "det": "lords-of-the-forge",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "2869e91e-b7a6-41b0-ab24-b01ca6a55a29",
+        "ver": 995
+      },
+      {
+        "det": "Luminen Auto-Choir",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "31245ec6",
+        "kind": "enhancement",
+        "name": "Electromiasmic Brazier",
+        "ref": {
+          "det": "luminen-auto-choir",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "f8645d3a-a3b2-49df-a2c3-172d8825cceb",
+        "ver": 925
+      },
+      {
+        "det": "Purge Corps Deltic-9",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "ANTI-INFANTRY 4+",
+            "when": null
+          }
+        ],
+        "hash": "a44941f8",
+        "kind": "enhancement",
+        "name": "Empowered Mechanisms",
+        "ref": {
+          "det": "cp:adeptus-mechanicus",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "c434dc26-c687-4677-b72d-c879da0c169b",
+        "ver": 925
+      },
+      {
+        "det": "Rad-Zone Corps",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-INFANTRY 2+",
+            "when": null
+          },
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-MONSTER 4+",
+            "when": null
+          }
+        ],
+        "hash": "1ad407f7",
+        "kind": "enhancement",
+        "name": "Autoclavic Denunciation",
+        "ref": {
+          "det": "rad-zone-corps",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "0f7669e1-e987-4557-9722-4aa1f8742217",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading"
+        ],
+        "det": "Rad-Zone Corps",
+        "effects": [
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Stealth",
+            "when": {
+              "en": "while the bearer is leading a unit",
+              "ru": "пока носитель ведёт отряд"
+            }
+          }
+        ],
+        "hash": "e4e604d3",
+        "kind": "enhancement",
+        "name": "Malphonic Susurrus",
+        "ref": {
+          "det": "rad-zone-corps",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "4a33a897-bd07-4d57-a477-ef7ebf8dab38",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading"
+        ],
+        "det": "Rad-Zone Corps",
+        "effects": [
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while the bearer is leading a unit",
+              "ru": "пока носитель ведёт отряд"
+            }
+          }
+        ],
+        "hash": "304ecf6c",
+        "kind": "enhancement",
+        "name": "Peerless Eradicator",
+        "ref": {
+          "det": "rad-zone-corps",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "6f6d7403-0605-4345-b7d6-d304b861a7a0",
+        "ver": 925
+      },
+      {
+        "det": "Skitarii Hunter Cohort",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Infiltrators",
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Scouts 6\"",
+            "when": null
+          }
+        ],
+        "hash": "84a78712",
+        "kind": "enhancement",
+        "name": "Clandestine Infiltrator",
+        "ref": {
+          "det": "skitarii-hunter-cohort",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "ef50da0d-ca9d-49d9-b0db-d990d60b1c07",
+        "ver": 925
+      },
+      {
+        "det": "Cohort Acquisitus",
+        "effects": [],
+        "hash": "4848452b",
+        "kind": "stratagem",
+        "name": "Defect Scrutiny",
+        "ref": {
+          "det": "cohort-acquisitus",
+          "kind": "stratagem",
+          "name": "Defect Scrutiny"
+        },
+        "reviewed": true,
+        "sid": "c5c70e06-87e7-4ed4-a1d9-b5828d640d87",
+        "ver": 925
+      },
+      {
+        "det": "Cohort Cybernetica",
+        "dur": "round",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "set",
+            "stat": "bs",
+            "value": "3+",
+            "when": {
+              "en": "but only against units within range of the selected marker",
+              "ru": "но только против юнитов у выбранного маркера"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "but only against units within range of the selected marker",
+              "ru": "но только против юнитов у выбранного маркера"
+            }
+          }
+        ],
+        "hash": "33bc9d22",
+        "kind": "stratagem",
+        "name": "Auto-divinatory Targeting",
+        "ref": {
+          "det": "cohort-cybernetica",
+          "kind": "stratagem",
+          "name": "Auto-divinatory Targeting"
+        },
+        "reviewed": true,
+        "sid": "bb586cc5-9709-418d-b4c6-cfe1fd80928e",
+        "ver": 925
+      },
+      {
+        "det": "Cohort Cybernetica",
+        "dur": "round",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 6+",
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+ (vs mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "b72b2093",
+        "kind": "stratagem",
+        "name": "Benevolence of the Omnissiah",
+        "ref": {
+          "det": "cohort-cybernetica",
+          "kind": "stratagem",
+          "name": "Benevolence of the Omnissiah"
+        },
+        "reviewed": true,
+        "sid": "e9b63132-d31d-4435-a89e-4c9a49a7bf50",
+        "ver": 925
+      },
+      {
+        "det": "Cohort Cybernetica",
+        "dur": "round",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 3,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "7578ea72",
+        "kind": "stratagem",
+        "name": "Motive Imperative",
+        "ref": {
+          "det": "cohort-cybernetica",
+          "kind": "stratagem",
+          "name": "Motive Imperative"
+        },
+        "reviewed": true,
+        "sid": "85cd645b-36de-4c71-94fb-d1dd8b63d61d",
+        "ver": 925
+      },
+      {
+        "det": "Data-psalm Conclave",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "47ce045f",
+        "kind": "stratagem",
+        "name": "Chant of the Remorseless Fist",
+        "ref": {
+          "det": "data-psalm-conclave",
+          "kind": "stratagem",
+          "name": "Chant of the Remorseless Fist"
+        },
+        "reviewed": true,
+        "sid": "df721828-da79-4f3a-adfc-7a2b9dc1cad9",
+        "ver": 925
+      },
+      {
+        "det": "Data-psalm Conclave",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+ (vs mortal wounds)",
+            "when": {
+              "en": "CULT MECHANICUS models only, while this stratagem is in force",
+              "ru": "только модели CULT MECHANICUS, пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "26d88d82",
+        "kind": "stratagem",
+        "name": "Incantation of the Iron Soul",
+        "ref": {
+          "det": "data-psalm-conclave",
+          "kind": "stratagem",
+          "name": "Incantation of the Iron Soul"
+        },
+        "reviewed": true,
+        "sid": "87035c38-ee30-42d3-8590-098f1cdd797b",
+        "ver": 925
+      },
+      {
+        "det": "Data-psalm Conclave",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "CULT MECHANICUS models only",
+              "ru": "только модели CULT MECHANICUS"
+            }
+          }
+        ],
+        "hash": "d172fab4",
+        "kind": "stratagem",
+        "name": "Luminescent Blessing",
+        "ref": {
+          "det": "data-psalm-conclave",
+          "kind": "stratagem",
+          "name": "Luminescent Blessing"
+        },
+        "reviewed": true,
+        "sid": "2a8a67fa-6d84-4862-b69d-37cfa44b9fd6",
+        "ver": 925
+      },
+      {
+        "det": "Data-psalm Conclave",
+        "effects": [],
+        "hash": "75307761",
+        "kind": "stratagem",
+        "name": "Tribute of Emphatic Veneration",
+        "ref": {
+          "det": "data-psalm-conclave",
+          "kind": "stratagem",
+          "name": "Tribute of Emphatic Veneration"
+        },
+        "reviewed": true,
+        "sid": "c6dd192f-f94c-4862-9822-b630c7872c5c",
+        "ver": 995
+      },
+      {
+        "det": "Eradication Cohort",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LANCE",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "38a2a2a7",
+        "kind": "stratagem",
+        "name": "Servo-Driven Charge",
+        "ref": {
+          "det": "eradication-cohort",
+          "kind": "stratagem",
+          "name": "Servo-Driven Charge"
+        },
+        "reviewed": true,
+        "sid": "0615ff22-fe2b-4fed-a233-75033fdca00e",
+        "ver": 925
+      },
+      {
+        "det": "Eradication Cohort",
+        "effects": [],
+        "hash": "ffe87ff2",
+        "kind": "stratagem",
+        "name": "Unrelenting Aggression",
+        "ref": {
+          "det": "eradication-cohort",
+          "kind": "stratagem",
+          "name": "Unrelenting Aggression"
+        },
+        "reviewed": true,
+        "sid": "2a6b9771-679c-479a-be4f-0f9248641e10",
+        "ver": 925
+      },
+      {
+        "det": "Explorator Maniple",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against an enemy unit within range of your Acquisition objective marker",
+              "ru": "по вражескому отряду в радиусе вашего Acquisition objective marker"
+            }
+          }
+        ],
+        "hash": "e29b5af5",
+        "kind": "stratagem",
+        "name": "Auto-oracular Retrieval",
+        "ref": {
+          "det": "explorator-maniple",
+          "kind": "stratagem",
+          "name": "Auto-oracular Retrieval"
+        },
+        "reviewed": true,
+        "sid": "66f322cb-8c53-4c82-9dd4-29eba0609afc",
+        "ver": 925
+      },
+      {
+        "det": "Explorator Maniple",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "23e16f0a",
+        "kind": "stratagem",
+        "name": "Incense Exhausts",
+        "ref": {
+          "det": "explorator-maniple",
+          "kind": "stratagem",
+          "name": "Incense Exhausts"
+        },
+        "reviewed": true,
+        "sid": "e4005739-ca42-4298-9462-752d4d07cea1",
+        "ver": 925
+      },
+      {
+        "det": "Lords of the Forge",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "ap",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "9e50d86d",
+        "kind": "stratagem",
+        "name": "Scriptural Prognosis",
+        "ref": {
+          "det": "lords-of-the-forge",
+          "kind": "stratagem",
+          "name": "Scriptural Prognosis"
+        },
+        "reviewed": true,
+        "sid": "45ceb232-8964-463c-bebe-2677603b1444",
+        "ver": 925
+      },
+      {
+        "det": "Purge Corps Deltic-9",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "c3a9bf63",
+        "kind": "stratagem",
+        "name": "Lockdown Protocols",
+        "ref": {
+          "det": "cp:adeptus-mechanicus",
+          "kind": "stratagem",
+          "name": "Lockdown Protocols"
+        },
+        "reviewed": true,
+        "sid": "189fe04e-bb44-4051-85d7-e52e0274f49a",
+        "ver": 995
+      },
+      {
+        "det": "Rad-Zone Corps",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 6,
+            "when": {
+              "en": "in a phase it Advanced (no Advance roll)",
+              "ru": "в фазе с Advance (без броска)"
+            }
+          }
+        ],
+        "hash": "574493a2",
+        "kind": "stratagem",
+        "name": "Aggressor Imperative",
+        "ref": {
+          "det": "rad-zone-corps",
+          "kind": "stratagem",
+          "name": "Aggressor Imperative"
+        },
+        "reviewed": true,
+        "sid": "5988385b-4997-4228-9e6d-4f4b85d270a8",
+        "ver": 925
+      },
+      {
+        "det": "Rad-Zone Corps",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "7ffbc77a",
+        "kind": "stratagem",
+        "name": "Baleful Halo",
+        "ref": {
+          "det": "rad-zone-corps",
+          "kind": "stratagem",
+          "name": "Baleful Halo"
+        },
+        "reviewed": true,
+        "sid": "e1fcf12a-9177-4f04-bb48-7eec3ff9414f",
+        "ver": 995
+      },
+      {
+        "det": "Rad-Zone Corps",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "74b1f1f1",
+        "kind": "stratagem",
+        "name": "Bulwark Imperative",
+        "ref": {
+          "det": "rad-zone-corps",
+          "kind": "stratagem",
+          "name": "Bulwark Imperative"
+        },
+        "reviewed": true,
+        "sid": "5ca929e2-f7b2-467f-bde5-0bbc37bbea76",
+        "ver": 925
+      },
+      {
+        "det": "Rad-Zone Corps",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "bc3f9fb7",
+        "kind": "stratagem",
+        "name": "Lethal Dosage",
+        "ref": {
+          "det": "rad-zone-corps",
+          "kind": "stratagem",
+          "name": "Lethal Dosage"
+        },
+        "reviewed": true,
+        "sid": "8caaa11d-0b04-485d-b7a0-1051940ba64d",
+        "ver": 925
+      },
+      {
+        "det": "Skitarii Hunter Cohort",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "cc43863e",
+        "kind": "stratagem",
+        "name": "Binharic Offence",
+        "ref": {
+          "det": "skitarii-hunter-cohort",
+          "kind": "stratagem",
+          "name": "Binharic Offence"
+        },
+        "reviewed": true,
+        "sid": "e532731c-37b8-43d9-9d77-d4263507e900",
+        "ver": 925
+      },
+      {
+        "det": "Skitarii Hunter Cohort",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "2dcc4ebb",
+        "kind": "stratagem",
+        "name": "Bionic Endurance",
+        "ref": {
+          "det": "skitarii-hunter-cohort",
+          "kind": "stratagem",
+          "name": "Bionic Endurance"
+        },
+        "reviewed": true,
+        "sid": "b6df434f-d754-4673-aa84-4ec62abb19d6",
+        "ver": 925
+      },
+      {
+        "det": "Skitarii Hunter Cohort",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "if no other enemy units are within 6\" of the target",
+              "ru": "если в 6\" от цели нет других отрядов противника"
+            }
+          }
+        ],
+        "hash": "bf79f996",
+        "kind": "stratagem",
+        "name": "Isolate and Destroy",
+        "ref": {
+          "det": "skitarii-hunter-cohort",
+          "kind": "stratagem",
+          "name": "Isolate and Destroy"
+        },
+        "reviewed": true,
+        "sid": "8873139d-a32b-459e-b0a6-98d0ea2ea25a",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Smoke",
+            "when": null
+          }
+        ],
+        "hash": "46cafc31",
+        "kind": "wargear",
+        "name": "Archaeopter Fusilave: Chaff Launcher",
+        "ref": {
+          "item": "chaff launcher",
+          "kind": "wargear",
+          "unit": "archaeopter-fusilave"
+        },
+        "reviewed": true,
+        "sid": "8356be94-9f5e-422d-ae18-98ce1bd89810:archaeopter-fusilave",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Smoke",
+            "when": null
+          }
+        ],
+        "hash": "46cafc31",
+        "kind": "wargear",
+        "name": "Archaeopter Stratoraptor: Chaff Launcher",
+        "ref": {
+          "item": "chaff launcher",
+          "kind": "wargear",
+          "unit": "archaeopter-stratoraptor"
+        },
+        "reviewed": true,
+        "sid": "8356be94-9f5e-422d-ae18-98ce1bd89810:archaeopter-stratoraptor",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Smoke",
+            "when": null
+          }
+        ],
+        "hash": "46cafc31",
+        "kind": "wargear",
+        "name": "Archaeopter Transvector: Chaff Launcher",
+        "ref": {
+          "item": "chaff launcher",
+          "kind": "wargear",
+          "unit": "archaeopter-transvector"
+        },
+        "reviewed": true,
+        "sid": "8356be94-9f5e-422d-ae18-98ce1bd89810:archaeopter-transvector",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": null
+          }
+        ],
+        "hash": "70d639ac",
+        "kind": "wargear",
+        "name": "Secutarii Hoplites: Omnispex",
+        "ref": {
+          "item": "omnispex",
+          "kind": "wargear",
+          "unit": "secutarii-hoplites"
+        },
+        "reviewed": true,
+        "sid": "pack:secutarii-hoplites:omnispex",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": null
+          }
+        ],
+        "hash": "70d639ac",
+        "kind": "wargear",
+        "name": "Secutarii Peltasts: Omnispex",
+        "ref": {
+          "item": "omnispex",
+          "kind": "wargear",
+          "unit": "secutarii-peltasts"
+        },
+        "reviewed": true,
+        "sid": "pack:secutarii-peltasts:omnispex",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": null
+          }
+        ],
+        "hash": "c40143bc",
+        "kind": "wargear",
+        "name": "Skitarii Rangers: Omnispex",
+        "ref": {
+          "item": "omnispex",
+          "kind": "wargear",
+          "unit": "skitarii-rangers"
+        },
+        "reviewed": true,
+        "sid": "3970cd7b-a8ee-4429-96e1-99d8a57709a2:skitarii-rangers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": null
+          }
+        ],
+        "hash": "c40143bc",
+        "kind": "wargear",
+        "name": "Skitarii Vanguard: Omnispex",
+        "ref": {
+          "item": "omnispex",
+          "kind": "wargear",
+          "unit": "skitarii-vanguard"
+        },
+        "reviewed": true,
+        "sid": "3970cd7b-a8ee-4429-96e1-99d8a57709a2:skitarii-vanguard",
+        "ver": 925
+      }
+    ],
+    "formatVersion": 1,
+    "slug": "adeptus-mechanicus"
+  }
+}

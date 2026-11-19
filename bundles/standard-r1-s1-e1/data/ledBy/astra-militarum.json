@@ -1,0 +1,384 @@
+{
+  "default": {
+    "attilan-rough-riders": [
+      [
+        "Lord Solar Leontus",
+        "leader"
+      ]
+    ],
+    "bullgryn-squad": [
+      [
+        "Abhuman Detail",
+        "leader",
+        {
+          "by": [
+            "Commissar"
+          ],
+          "det": "Grizzled Company",
+          "enh": 1
+        }
+      ],
+      [
+        "Exemplar of Duty",
+        "leader",
+        {
+          "by": [
+            "Commissar"
+          ],
+          "det": "Abhuman Auxiliaries",
+          "enh": 1
+        }
+      ]
+    ],
+    "cadian-command-squad": [
+      [
+        "Nork Deddog",
+        "support"
+      ],
+      [
+        "Ogryn Bodyguard",
+        "support"
+      ]
+    ],
+    "cadian-shock-troops": [
+      [
+        "Cadian Castellan",
+        "leader"
+      ],
+      [
+        "Cadian Command Squad",
+        "leader"
+      ],
+      [
+        "Commissar",
+        "leader"
+      ],
+      [
+        "Commissar Graves on Foot",
+        "leader"
+      ],
+      [
+        "Commissar Yarrick",
+        "leader"
+      ],
+      [
+        "Hell’s Last",
+        "leader"
+      ],
+      [
+        "Lord Solar Leontus",
+        "leader"
+      ],
+      [
+        "Ministorum Priest",
+        "leader"
+      ],
+      [
+        "Primaris Psyker",
+        "leader"
+      ],
+      [
+        "Tech-Priest Enginseer",
+        "leader"
+      ],
+      [
+        "Ursula Creed",
+        "leader"
+      ]
+    ],
+    "catachan-command-squad": [
+      [
+        "Nork Deddog",
+        "support"
+      ],
+      [
+        "Ogryn Bodyguard",
+        "support"
+      ]
+    ],
+    "catachan-jungle-fighters": [
+      [
+        "‘Iron Hand’ Straken",
+        "leader"
+      ],
+      [
+        "Catachan Command Squad",
+        "leader"
+      ],
+      [
+        "Commissar",
+        "leader"
+      ],
+      [
+        "Commissar Graves on Foot",
+        "leader"
+      ],
+      [
+        "Commissar Yarrick",
+        "leader"
+      ],
+      [
+        "Lord Solar Leontus",
+        "leader"
+      ],
+      [
+        "Ministorum Priest",
+        "leader"
+      ],
+      [
+        "Primaris Psyker",
+        "leader"
+      ],
+      [
+        "Sergeant Harker",
+        "leader"
+      ],
+      [
+        "Tech-Priest Enginseer",
+        "leader"
+      ]
+    ],
+    "death-korps-grenadier-squad": [
+      [
+        "Commissar",
+        "leader"
+      ],
+      [
+        "Commissar Graves on Foot",
+        "leader"
+      ],
+      [
+        "Commissar Yarrick",
+        "leader"
+      ],
+      [
+        "Krieg Command Squad",
+        "leader"
+      ],
+      [
+        "Lord Solar Leontus",
+        "leader"
+      ],
+      [
+        "Ministorum Priest",
+        "leader"
+      ],
+      [
+        "Primaris Psyker",
+        "leader"
+      ],
+      [
+        "Quartermaster Cadre Squad",
+        "leader"
+      ],
+      [
+        "Tech-Priest Enginseer",
+        "leader"
+      ]
+    ],
+    "death-korps-of-krieg": [
+      [
+        "Commissar",
+        "leader"
+      ],
+      [
+        "Commissar Graves on Foot",
+        "leader"
+      ],
+      [
+        "Commissar Yarrick",
+        "leader"
+      ],
+      [
+        "Krieg Command Squad",
+        "leader"
+      ],
+      [
+        "Lord Solar Leontus",
+        "leader"
+      ],
+      [
+        "Ministorum Priest",
+        "leader"
+      ],
+      [
+        "Primaris Psyker",
+        "leader"
+      ],
+      [
+        "Quartermaster Cadre Squad",
+        "leader"
+      ],
+      [
+        "Tech-Priest Enginseer",
+        "leader"
+      ]
+    ],
+    "death-riders": [
+      [
+        "Death Rider Commissar",
+        "leader"
+      ],
+      [
+        "Lord Marshal Dreir",
+        "leader"
+      ],
+      [
+        "Lord Solar Leontus",
+        "leader"
+      ]
+    ],
+    "kasrkin": [
+      [
+        "Cadian Castellan",
+        "leader"
+      ],
+      [
+        "Commissar",
+        "leader"
+      ],
+      [
+        "Commissar Graves on Foot",
+        "leader"
+      ],
+      [
+        "Commissar Yarrick",
+        "leader"
+      ],
+      [
+        "Lord Solar Leontus",
+        "leader"
+      ],
+      [
+        "Ministorum Priest",
+        "leader"
+      ],
+      [
+        "Primaris Psyker",
+        "leader"
+      ],
+      [
+        "Tech-Priest Enginseer",
+        "leader"
+      ],
+      [
+        "Ursula Creed",
+        "leader"
+      ]
+    ],
+    "krieg-combat-engineers": [
+      [
+        "Commissar",
+        "leader"
+      ],
+      [
+        "Commissar Graves on Foot",
+        "leader"
+      ],
+      [
+        "Commissar Yarrick",
+        "leader"
+      ],
+      [
+        "Krieg Command Squad",
+        "leader"
+      ],
+      [
+        "Lord Solar Leontus",
+        "leader"
+      ],
+      [
+        "Ministorum Priest",
+        "leader"
+      ],
+      [
+        "Primaris Psyker",
+        "leader"
+      ],
+      [
+        "Quartermaster Cadre Squad",
+        "leader"
+      ],
+      [
+        "Tech-Priest Enginseer",
+        "leader"
+      ]
+    ],
+    "krieg-command-squad": [
+      [
+        "Nork Deddog",
+        "support"
+      ],
+      [
+        "Ogryn Bodyguard",
+        "support"
+      ]
+    ],
+    "militarum-tempestus-command-squad": [
+      [
+        "Nork Deddog",
+        "support"
+      ],
+      [
+        "Ogryn Bodyguard",
+        "support"
+      ]
+    ],
+    "ogryn-squad": [
+      [
+        "Abhuman Detail",
+        "leader",
+        {
+          "by": [
+            "Commissar"
+          ],
+          "det": "Grizzled Company",
+          "enh": 1
+        }
+      ],
+      [
+        "Exemplar of Duty",
+        "leader",
+        {
+          "by": [
+            "Commissar"
+          ],
+          "det": "Abhuman Auxiliaries",
+          "enh": 1
+        }
+      ]
+    ],
+    "ratlings": [
+      [
+        "Provisionally Prepared",
+        "leader"
+      ]
+    ],
+    "tempestus-scions": [
+      [
+        "Commissar",
+        "leader"
+      ],
+      [
+        "Commissar Graves on Foot",
+        "leader"
+      ],
+      [
+        "Commissar Yarrick",
+        "leader"
+      ],
+      [
+        "Militarum Tempestus Command Squad",
+        "leader"
+      ],
+      [
+        "Ministorum Priest",
+        "leader"
+      ],
+      [
+        "Primaris Psyker",
+        "leader"
+      ]
+    ]
+  }
+}

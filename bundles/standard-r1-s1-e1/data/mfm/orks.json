@@ -1,0 +1,1264 @@
+{
+  "default": {
+    "detachments": [
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Boss Boomer (Upgrade)",
+            "points": 10
+          },
+          {
+            "name": "Targetin’ Gizmos (Upgrade)",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Blitz Brigade"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Blitzboss",
+            "points": 20
+          },
+          {
+            "name": "Brutal But Kunnin’",
+            "points": 30
+          },
+          {
+            "name": "Da Gobshot Thunderbuss",
+            "points": 20
+          },
+          {
+            "name": "Morgog’s Finkin’ Cap",
+            "points": 50
+          },
+          {
+            "name": "Proper Killy",
+            "points": 15
+          },
+          {
+            "name": "Surly as a Squiggoth",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Brute Bosses"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Tellyporta Boss",
+            "points": 20
+          },
+          {
+            "name": "Wimp-kickaz (Upgrade)",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Bully Boyz"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Glory Hog",
+            "points": 25
+          },
+          {
+            "name": "It Came from da Drops",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Da Big Hunt"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Cybork Boosta",
+            "points": 10
+          },
+          {
+            "name": "Dreadherder",
+            "points": 30
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Dread Mob"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Flyboss (Upgrade)",
+            "points": 20
+          },
+          {
+            "name": "Impulsive Recon (Upgrade)",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Flyboyz"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "'Ardboyz (Upgrade)",
+            "points": 25
+          },
+          {
+            "name": "Ferocious Show Off",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Green Tide"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Competitive Streak",
+            "points": 15
+          },
+          {
+            "name": "Smoky Gubbinz (Upgrade)",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Kult of Speed"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Enhanced Runt-maw (Upgrade)",
+            "points": 10
+          },
+          {
+            "name": "Mekwaaagh! Mastermind",
+            "points": 30
+          },
+          {
+            "name": "Temperamental Shokka (Upgrade)",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Madcap Meks"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Extra Sneaky (Upgrade)",
+            "points": 10
+          },
+          {
+            "name": "Minefield Detail (Upgrade)",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Runt Swarm"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Supa-glowy Fing",
+            "points": 25
+          },
+          {
+            "name": "Targetin' Squigs",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Shoota Boyz"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Kill Kommanda",
+            "points": 20
+          },
+          {
+            "name": "Throat-slittas (Upgrade)",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Taktikal Brigade"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Da Boss is Watchin'",
+            "points": 25
+          },
+          {
+            "name": "Follow Me Ladz",
+            "points": 20
+          },
+          {
+            "name": "Headwoppa’s Killchoppa",
+            "points": 15
+          },
+          {
+            "name": "Kunnin’ But Brutal",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold",
+          "Purge the Foe"
+        ],
+        "name": "War Horde"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Kaptin's Hat",
+            "points": 25
+          },
+          {
+            "name": "Supa-snazz Dakka (Upgrade)",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Wreckas"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Da Krunch",
+            "points": 10
+          },
+          {
+            "name": "'Eadbanger",
+            "points": 15
+          },
+          {
+            "name": "Warphead",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Wurrband"
+      }
+    ],
+    "id": "orks",
+    "legends": [
+      {
+        "name": "Big Trakk",
+        "options": [
+          {
+            "models": 1,
+            "points": 90
+          }
+        ]
+      },
+      {
+        "name": "Boss Zagstruk",
+        "options": [
+          {
+            "models": 1,
+            "points": 90
+          }
+        ]
+      },
+      {
+        "name": "Burna Boyz",
+        "options": [
+          {
+            "models": 5,
+            "points": 60
+          },
+          {
+            "models": 10,
+            "points": 120
+          }
+        ]
+      },
+      {
+        "name": "Grot Mega-Tank",
+        "options": [
+          {
+            "models": 1,
+            "points": 110
+          }
+        ]
+      },
+      {
+        "name": "Grot Tanks",
+        "options": [
+          {
+            "models": 4,
+            "points": 155
+          },
+          {
+            "models": 8,
+            "points": 310
+          }
+        ]
+      },
+      {
+        "name": "Kaptin Badrukk",
+        "options": [
+          {
+            "models": 1,
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Kill Tank",
+        "options": [
+          {
+            "models": 1,
+            "points": 300
+          }
+        ]
+      },
+      {
+        "name": "Lifta Wagon",
+        "options": [
+          {
+            "models": 1,
+            "points": 135
+          }
+        ]
+      },
+      {
+        "name": "Lootas",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 50
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 100
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 60
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 110
+          }
+        ]
+      },
+      {
+        "name": "Mad Dok Grotsnik",
+        "options": [
+          {
+            "models": 1,
+            "points": 65
+          }
+        ]
+      },
+      {
+        "name": "Mekboy Workshop",
+        "options": [
+          {
+            "models": 1,
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Warboss on Warbike",
+        "options": [
+          {
+            "models": 1,
+            "points": 75
+          }
+        ]
+      }
+    ],
+    "name": "Orks",
+    "slug": "orks",
+    "sourceUrl": "https://mfm.warhammer-community.com/en/orks",
+    "subfactions": [],
+    "units": [
+      {
+        "name": "Bannernob",
+        "options": [
+          {
+            "models": 1,
+            "points": 30
+          }
+        ]
+      },
+      {
+        "name": "Battlewagon",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 160
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 180
+          }
+        ]
+      },
+      {
+        "name": "Beastboss",
+        "options": [
+          {
+            "models": 1,
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Beastboss on Squigosaur",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 140
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 155
+          }
+        ]
+      },
+      {
+        "name": "Beast Snagga Boyz",
+        "options": [
+          {
+            "models": 10,
+            "note": "1st-3rd",
+            "points": 80
+          },
+          {
+            "models": 20,
+            "note": "1st-3rd",
+            "points": 160
+          },
+          {
+            "models": 10,
+            "note": "4th+",
+            "points": 90
+          },
+          {
+            "models": 20,
+            "note": "4th+",
+            "points": 170
+          }
+        ]
+      },
+      {
+        "name": "Bigboss",
+        "options": [
+          {
+            "models": 1,
+            "points": 50
+          }
+        ]
+      },
+      {
+        "name": "Big’ed Bossbunka",
+        "options": [
+          {
+            "models": 1,
+            "points": 135
+          }
+        ]
+      },
+      {
+        "name": "Big Mek",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 100
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 115
+          }
+        ]
+      },
+      {
+        "name": "Big Mek Dakkarig",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 160
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 180
+          }
+        ]
+      },
+      {
+        "name": "Big Mek in Mega Armour",
+        "options": [
+          {
+            "models": 1,
+            "points": 90
+          }
+        ]
+      },
+      {
+        "name": "Big Mek with Shokk Attack Gun",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 110
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 125
+          }
+        ]
+      },
+      {
+        "name": "Blitza-Bommer",
+        "options": [
+          {
+            "models": 1,
+            "points": 115
+          }
+        ]
+      },
+      {
+        "name": "Boss Snikrot",
+        "options": [
+          {
+            "models": 1,
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Boyz",
+        "options": [
+          {
+            "models": 10,
+            "note": "1st-3rd",
+            "points": 85
+          },
+          {
+            "models": 20,
+            "note": "1st-3rd",
+            "points": 170
+          },
+          {
+            "models": 10,
+            "note": "4th+",
+            "points": 95
+          },
+          {
+            "models": 20,
+            "note": "4th+",
+            "points": 180
+          }
+        ]
+      },
+      {
+        "name": "Breaka Boyz",
+        "options": [
+          {
+            "models": 6,
+            "note": "1st-2nd",
+            "points": 120
+          },
+          {
+            "models": 6,
+            "note": "3rd+",
+            "points": 130
+          }
+        ]
+      },
+      {
+        "name": "Burna-Bommer",
+        "options": [
+          {
+            "models": 1,
+            "points": 125
+          }
+        ]
+      },
+      {
+        "name": "Dakkajet",
+        "options": [
+          {
+            "models": 1,
+            "points": 125
+          }
+        ]
+      },
+      {
+        "name": "Deff Dread",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 130
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 140
+          }
+        ]
+      },
+      {
+        "name": "Deffkilla Wartrike",
+        "options": [
+          {
+            "models": 1,
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Deffkoptas",
+        "options": [
+          {
+            "models": 3,
+            "note": "1st-2nd",
+            "points": 85
+          },
+          {
+            "models": 6,
+            "note": "1st-2nd",
+            "points": 170
+          },
+          {
+            "models": 3,
+            "note": "3rd+",
+            "points": 95
+          },
+          {
+            "models": 6,
+            "note": "3rd+",
+            "points": 180
+          }
+        ]
+      },
+      {
+        "name": "Flash Gitz",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 110
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 220
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 150
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 260
+          }
+        ]
+      },
+      {
+        "name": "Gargantuan Squiggoth",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 500
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 600
+          }
+        ]
+      },
+      {
+        "name": "Ghazghkull Thraka",
+        "options": [
+          {
+            "models": 1,
+            "points": 290
+          }
+        ]
+      },
+      {
+        "name": "Gorkanaut",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 325
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 355
+          }
+        ]
+      },
+      {
+        "name": "Gretchin",
+        "options": [
+          {
+            "models": 10,
+            "points": 45
+          },
+          {
+            "models": 20,
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Gunwagon",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 150
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 160
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Zzap Gun",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Hunta Rig",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 165
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 185
+          }
+        ]
+      },
+      {
+        "name": "Killa Kans",
+        "options": [
+          {
+            "models": 3,
+            "note": "1st-2nd",
+            "points": 130
+          },
+          {
+            "models": 6,
+            "note": "1st-2nd",
+            "points": 275
+          },
+          {
+            "models": 3,
+            "note": "3rd+",
+            "points": 170
+          },
+          {
+            "models": 6,
+            "note": "3rd+",
+            "points": 315
+          }
+        ]
+      },
+      {
+        "name": "Kill Rig",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 175
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 195
+          }
+        ]
+      },
+      {
+        "name": "Kommandos",
+        "options": [
+          {
+            "models": 10,
+            "points": 125
+          }
+        ]
+      },
+      {
+        "name": "Meganobz",
+        "options": [
+          {
+            "models": 2,
+            "note": "1st-2nd",
+            "points": 70
+          },
+          {
+            "models": 3,
+            "note": "1st-2nd",
+            "points": 105
+          },
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 175
+          },
+          {
+            "models": 6,
+            "note": "1st-2nd",
+            "points": 210
+          },
+          {
+            "models": 2,
+            "note": "3rd+",
+            "points": 110
+          },
+          {
+            "models": 3,
+            "note": "3rd+",
+            "points": 145
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 215
+          },
+          {
+            "models": 6,
+            "note": "3rd+",
+            "points": 250
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Twin Killsaws",
+            "points": 5
+          },
+          {
+            "name": "Killsaw",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Mek",
+        "options": [
+          {
+            "models": 1,
+            "points": 55
+          }
+        ]
+      },
+      {
+        "name": "Mek Gunz",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 55
+          },
+          {
+            "models": 2,
+            "note": "1st-2nd",
+            "points": 110
+          },
+          {
+            "models": 3,
+            "note": "1st-2nd",
+            "points": 165
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 65
+          },
+          {
+            "models": 2,
+            "note": "3rd+",
+            "points": 120
+          },
+          {
+            "models": 3,
+            "note": "3rd+",
+            "points": 175
+          }
+        ]
+      },
+      {
+        "name": "Morkanaut",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 345
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 375
+          }
+        ]
+      },
+      {
+        "name": "Mozrog Skragbad",
+        "options": [
+          {
+            "models": 1,
+            "points": 170
+          }
+        ]
+      },
+      {
+        "name": "Nazdreg",
+        "options": [
+          {
+            "models": 1,
+            "points": 165
+          }
+        ]
+      },
+      {
+        "name": "Nobz",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 115
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 230
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 145
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 260
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Paired Krumpas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Painboss",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 60
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 70
+          }
+        ]
+      },
+      {
+        "name": "Painboy",
+        "options": [
+          {
+            "models": 1,
+            "points": 45
+          }
+        ]
+      },
+      {
+        "name": "Rukkatrukk Squigbuggies",
+        "options": [
+          {
+            "models": 1,
+            "points": 85
+          },
+          {
+            "models": 2,
+            "points": 160
+          }
+        ]
+      },
+      {
+        "name": "Runtherd",
+        "options": [
+          {
+            "models": 1,
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Squighog Boyz",
+        "options": [
+          {
+            "models": 4,
+            "note": "1st-2nd",
+            "points": 130
+          },
+          {
+            "models": 8,
+            "note": "1st-2nd",
+            "points": 260
+          },
+          {
+            "models": 4,
+            "note": "3rd+",
+            "points": 160
+          },
+          {
+            "models": 8,
+            "note": "3rd+",
+            "points": 290
+          }
+        ]
+      },
+      {
+        "name": "Stompa",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 700
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 800
+          }
+        ]
+      },
+      {
+        "name": "Stormboyz",
+        "options": [
+          {
+            "models": 5,
+            "points": 70
+          },
+          {
+            "models": 10,
+            "points": 140
+          }
+        ]
+      },
+      {
+        "name": "Tankbustas",
+        "options": [
+          {
+            "models": 6,
+            "note": "1st-2nd",
+            "points": 160
+          },
+          {
+            "models": 6,
+            "note": "3rd+",
+            "points": 170
+          }
+        ]
+      },
+      {
+        "name": "Trukk",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-3rd",
+            "points": 60
+          },
+          {
+            "models": 1,
+            "note": "4th+",
+            "points": 70
+          }
+        ]
+      },
+      {
+        "name": "Warbikers",
+        "options": [
+          {
+            "models": 3,
+            "points": 75
+          },
+          {
+            "models": 6,
+            "points": 140
+          }
+        ]
+      },
+      {
+        "name": "Warboss",
+        "options": [
+          {
+            "models": 1,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Warboss in Mega Armour",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 115
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 130
+          }
+        ]
+      },
+      {
+        "name": "Warbuggies",
+        "options": [
+          {
+            "models": 1,
+            "points": 70
+          },
+          {
+            "models": 2,
+            "points": 130
+          }
+        ]
+      },
+      {
+        "name": "Wartrakks",
+        "options": [
+          {
+            "models": 1,
+            "points": 70
+          },
+          {
+            "models": 2,
+            "points": 130
+          }
+        ]
+      },
+      {
+        "name": "Wazbom Blastajet",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 215
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 235
+          }
+        ]
+      },
+      {
+        "name": "Wazdakka Gutsmek",
+        "options": [
+          {
+            "models": 1,
+            "points": 200
+          }
+        ]
+      },
+      {
+        "name": "Weirdboy",
+        "options": [
+          {
+            "models": 1,
+            "points": 60
+          }
+        ]
+      },
+      {
+        "name": "Zodgrod Wortsnagga",
+        "options": [
+          {
+            "models": 1,
+            "points": 50
+          }
+        ]
+      }
+    ]
+  }
+}

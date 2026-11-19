@@ -1,0 +1,599 @@
+{
+  "default": {
+    "allies": [
+      {
+        "free": [
+          {
+            "donor": [
+              "Inquisitor"
+            ],
+            "kw": "Retinue",
+            "recv": [
+              "Inquisitorial Agents"
+            ]
+          },
+          {
+            "donor": [
+              "Character",
+              "Voidfarers"
+            ],
+            "kw": "Retinue",
+            "recv": [
+              "Voidsmen-At-Arms"
+            ]
+          }
+        ],
+        "ids": [
+          "imperial-agents:aquila-kill-team",
+          "imperial-agents:callidus-assassin",
+          "imperial-agents:corvus-blackstar",
+          "imperial-agents:culexus-assassin",
+          "imperial-agents:deathwatch-kill-team",
+          "imperial-agents:eversor-assassin",
+          "imperial-agents:exaction-squad",
+          "imperial-agents:grey-knights-terminator-squad",
+          "imperial-agents:imperial-navy-breachers",
+          "imperial-agents:imperial-rhino",
+          "imperial-agents:inquisitor",
+          "imperial-agents:inquisitor-coteaz",
+          "imperial-agents:inquisitor-draxus",
+          "imperial-agents:inquisitor-greyfax",
+          "imperial-agents:inquisitor-kroyle",
+          "imperial-agents:inquisitorial-agents",
+          "imperial-agents:inquisitorial-chimera",
+          "imperial-agents:ministorum-priest",
+          "imperial-agents:navigator",
+          "imperial-agents:rogue-trader-entourage",
+          "imperial-agents:sanctifiers",
+          "imperial-agents:sisters-of-battle-immolator",
+          "imperial-agents:sisters-of-battle-squad",
+          "imperial-agents:subductor-squad",
+          "imperial-agents:vigilant-squad",
+          "imperial-agents:vindicare-assassin",
+          "imperial-agents:voidsmen-at-arms",
+          "imperial-agents:watch-captain-artemis",
+          "imperial-agents:watch-master"
+        ],
+        "key": "agents-of-the-imperium",
+        "lim": {
+          "Character": {
+            "incursion": 1,
+            "onslaught": 3,
+            "strike-force": 2
+          },
+          "Requisitioned": {
+            "incursion": 1,
+            "onslaught": 2,
+            "strike-force": 1
+          },
+          "Retinue": {
+            "incursion": 1,
+            "onslaught": 3,
+            "strike-force": 2
+          }
+        },
+        "name": "Agents of the Imperium",
+        "up": {
+          "imperial-agents:eversor-assassin": {
+            "1": 110
+          },
+          "imperial-agents:exaction-squad": {
+            "11": 85
+          },
+          "imperial-agents:grey-knights-terminator-squad": {
+            "5": 190
+          },
+          "imperial-agents:inquisitor": {
+            "1": 65
+          },
+          "imperial-agents:inquisitor-coteaz": {
+            "1": 95
+          },
+          "imperial-agents:inquisitor-draxus": {
+            "1": 110
+          },
+          "imperial-agents:inquisitorial-agents": {
+            "6": 60,
+            "11": 120,
+            "12": 120
+          },
+          "imperial-agents:navigator": {
+            "1": 75
+          },
+          "imperial-agents:rogue-trader-entourage": {
+            "4": 105
+          },
+          "imperial-agents:sisters-of-battle-immolator": {
+            "1": 105
+          },
+          "imperial-agents:sisters-of-battle-squad": {
+            "10": 110
+          },
+          "imperial-agents:subductor-squad": {
+            "11": 100
+          },
+          "imperial-agents:vindicare-assassin": {
+            "1": 125
+          },
+          "imperial-agents:voidsmen-at-arms": {
+            "6": 70
+          }
+        }
+      },
+      {
+        "ids": [
+          "imperial-knights:acastus-knight-asterius",
+          "imperial-knights:acastus-knight-porphyrion",
+          "imperial-knights:armiger-helverin",
+          "imperial-knights:armiger-moirax",
+          "imperial-knights:armiger-warglaive",
+          "imperial-knights:canis-rex",
+          "imperial-knights:cerastus-knight-acheron",
+          "imperial-knights:cerastus-knight-atrapos",
+          "imperial-knights:cerastus-knight-castigator",
+          "imperial-knights:cerastus-knight-lancer",
+          "imperial-knights:knight-castellan",
+          "imperial-knights:knight-crusader",
+          "imperial-knights:knight-defender",
+          "imperial-knights:knight-destrier",
+          "imperial-knights:knight-errant",
+          "imperial-knights:knight-gallant",
+          "imperial-knights:knight-paladin",
+          "imperial-knights:knight-preceptor",
+          "imperial-knights:knight-valiant",
+          "imperial-knights:knight-warden",
+          "imperial-knights:questoris-knight-magaera",
+          "imperial-knights:questoris-knight-styrix"
+        ],
+        "key": "imperial-knights",
+        "lim": {
+          "Armiger": {
+            "incursion": 3,
+            "onslaught": 3,
+            "strike-force": 3
+          },
+          "Titanic": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          }
+        },
+        "mutex": 1,
+        "name": "Imperial Knights"
+      }
+    ],
+    "detachments": [],
+    "name": "Adeptus Titanicus",
+    "slug": "titan-legions",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1168,
+                1
+              ],
+              [
+                1169,
+                1
+              ],
+              [
+                1166,
+                1
+              ],
+              [
+                1167,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Titanicus"
+        ],
+        "flags": {
+          "nonCharWarlordOk": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1166
+              ],
+              [
+                1170
+              ],
+              [
+                1171
+              ],
+              [
+                1172
+              ]
+            ],
+            "rep": [
+              1167
+            ],
+            "t": 438
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1167
+              ],
+              [
+                1170
+              ],
+              [
+                1171
+              ]
+            ],
+            "rep": [
+              1166
+            ],
+            "t": 439
+          }
+        ],
+        "id": "reaver-titan",
+        "kws": [
+          "Frame",
+          "Imperium",
+          "Reaver Titan",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Reaver Titan",
+        "sid": "d6c72a3c-73c9-4d94-9542-d4dd5d44502f",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 2200
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1175,
+                3
+              ],
+              [
+                1174,
+                1
+              ],
+              [
+                1166,
+                1
+              ],
+              [
+                1167,
+                1
+              ],
+              [
+                1173,
+                1
+              ],
+              [
+                1176,
+                2
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Titanicus"
+        ],
+        "flags": {
+          "nonCharWarlordOk": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1177
+              ]
+            ],
+            "rep": [
+              1173
+            ],
+            "t": 440
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1166
+              ],
+              [
+                1170
+              ],
+              [
+                1171
+              ]
+            ],
+            "rep": [
+              1167
+            ],
+            "t": 441
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1167
+              ],
+              [
+                1170
+              ],
+              [
+                1171
+              ]
+            ],
+            "rep": [
+              1166
+            ],
+            "t": 439
+          }
+        ],
+        "id": "warbringer-nemesis-titan",
+        "kws": [
+          "Frame",
+          "Imperium",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker",
+          "Warbringer Nemesis Titan"
+        ],
+        "linked": 1,
+        "name": "Warbringer Nemesis Titan",
+        "sid": "f08b3f77-12ad-41a1-b971-eb71181db9f0",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 2600
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1178,
+                1
+              ],
+              [
+                1179,
+                1
+              ],
+              [
+                1180,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Titanicus"
+        ],
+        "flags": {
+          "nonCharWarlordOk": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1181
+              ],
+              [
+                1182
+              ],
+              [
+                1179
+              ]
+            ],
+            "rep": [
+              1180
+            ],
+            "t": 442
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1181
+              ],
+              [
+                1180
+              ],
+              [
+                1182
+              ]
+            ],
+            "rep": [
+              1179
+            ],
+            "t": 443
+          }
+        ],
+        "id": "warhound-titan",
+        "kws": [
+          "Frame",
+          "Imperium",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker",
+          "Warhound Titan"
+        ],
+        "linked": 1,
+        "name": "Warhound Titan",
+        "sid": "67366c41-bb5e-4b3a-9a32-b574957924c9",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 1100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1184,
+                1
+              ],
+              [
+                1183,
+                1
+              ],
+              [
+                1186,
+                2
+              ],
+              [
+                1185,
+                2
+              ],
+              [
+                1175,
+                2
+              ],
+              [
+                1187,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Titanicus"
+        ],
+        "flags": {
+          "nonCharWarlordOk": 1
+        },
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1188,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1185
+            ],
+            "t": 444
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1189
+              ],
+              [
+                1184
+              ],
+              [
+                1190
+              ],
+              [
+                1191
+              ]
+            ],
+            "rep": [
+              1183
+            ],
+            "t": 445
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1183
+              ],
+              [
+                1189
+              ],
+              [
+                1190
+              ],
+              [
+                1191
+              ]
+            ],
+            "rep": [
+              1184
+            ],
+            "t": 446
+          }
+        ],
+        "id": "warlord-titan",
+        "kws": [
+          "Frame",
+          "Imperium",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker",
+          "Warlord Titan"
+        ],
+        "linked": 1,
+        "name": "Warlord Titan",
+        "sid": "c5472c69-e058-4757-b0a1-2963c05caa3a",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 3500
+          }
+        ]
+      }
+    ]
+  }
+}

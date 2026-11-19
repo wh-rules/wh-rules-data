@@ -1,0 +1,348 @@
+{
+  "default": {
+    "box": "dark-angels",
+    "detachment": {
+      "dp": 0,
+      "enhancements": [
+        {
+          "name": "Dutiful Defenders",
+          "nonCharOk": 1,
+          "pts": null,
+          "req": [
+            {
+              "ds": "Vengeful Brethren Bladeguard Veteran Squad"
+            }
+          ],
+          "type": "upgrade"
+        },
+        {
+          "name": "Supreme Combatant",
+          "pts": null,
+          "req": [
+            {
+              "kw": [
+                "Gravis",
+                "Vengeful Brethren",
+                "Captain"
+              ]
+            }
+          ],
+          "type": "miniature"
+        }
+      ],
+      "linkedUnits": [
+        {
+          "count": 1,
+          "unit": "vengeful-brethren-intercessor-squad"
+        },
+        {
+          "count": 1,
+          "unit": "master-zacharial",
+          "warlord": 1
+        },
+        {
+          "count": 1,
+          "unit": "vengeful-brethren-hellblaster-squad"
+        },
+        {
+          "count": 1,
+          "unit": "vengeful-brethren-bladeguard-veteran-squad"
+        }
+      ],
+      "name": "The Vengeful Brethren",
+      "sid": "4514bd9f-e01e-464e-b861-2341b7b493e4"
+    },
+    "slug": "dark-angels",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3651,
+                1
+              ],
+              [
+                3652,
+                1
+              ],
+              [
+                3653,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Dark Angels"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "master-zacharial",
+        "kws": [
+          "Captain",
+          "Character",
+          "Gravis",
+          "Imperium",
+          "Infantry",
+          "Vengeful Brethren"
+        ],
+        "linked": 1,
+        "name": "Master Zacharial",
+        "sid": "3a2bcb02-ddcd-49cf-b308-85e74a481eec",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                3657,
+                1
+              ],
+              [
+                3658,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3657,
+                1
+              ],
+              [
+                3658,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Dark Angels"
+        ],
+        "flags": {},
+        "id": "vengeful-brethren-bladeguard-veteran-squad",
+        "kws": [
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Tacticus",
+          "Vengeful Brethren"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Bladeguard Veteran"
+          },
+          {
+            "n": "Bladeguard Veteran Sergeant"
+          }
+        ],
+        "name": "Vengeful Brethren Bladeguard Veteran Squad",
+        "sid": "d0be44a1-47bd-4d27-9ba6-7b98377bc597",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                3654,
+                1
+              ],
+              [
+                3655,
+                1
+              ],
+              [
+                3656,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3654,
+                1
+              ],
+              [
+                3655,
+                1
+              ],
+              [
+                3656,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Dark Angels"
+        ],
+        "flags": {},
+        "id": "vengeful-brethren-hellblaster-squad",
+        "kws": [
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Tacticus",
+          "Vengeful Brethren"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Hellblaster Sergeant"
+          },
+          {
+            "n": "Hellblaster"
+          }
+        ],
+        "name": "Vengeful Brethren Hellblaster Squad",
+        "sid": "48eb4b77-fea4-499e-ba38-f9a88b7104aa",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3649,
+                1
+              ],
+              [
+                3635,
+                1
+              ],
+              [
+                3650,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3649,
+                1
+              ],
+              [
+                3635,
+                1
+              ],
+              [
+                3650,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Dark Angels"
+        ],
+        "flags": {},
+        "id": "vengeful-brethren-intercessor-squad",
+        "kws": [
+          "Battleline",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Tacticus",
+          "Vengeful Brethren"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Intercessor Sergeant"
+          },
+          {
+            "n": "Intercessor"
+          }
+        ],
+        "name": "Vengeful Brethren Intercessor Squad",
+        "sid": "1a4d6108-0711-43a9-a68d-e1cff3b2b4d5",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 0
+          }
+        ]
+      }
+    ]
+  }
+}

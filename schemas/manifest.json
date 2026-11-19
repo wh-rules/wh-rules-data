@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schemaVersion", "family", "revision", "exportRevision", "tag", "rulesetRef", "baseRulesetRef", "appDataVersion", "mfmVersion", "files", "omittedUiAssets"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "family": { "$ref": "#/$defs/family" },
+    "revision": { "$ref": "#/$defs/revision" },
+    "exportRevision": { "$ref": "#/$defs/revision" },
+    "tag": { "$ref": "#/$defs/tag" },
+    "rulesetRef": { "$ref": "#/$defs/rulesetRef" },
+    "baseRulesetRef": { "$ref": "#/$defs/baseRulesetRef" },
+    "appDataVersion": { "type": "integer", "minimum": 1 },
+    "mfmVersion": { "type": "string", "minLength": 1 },
+    "files": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "required": ["path", "mediaType", "sha256", "bytes", "sourceSha256"],
+        "additionalProperties": false,
+        "properties": {
+          "path": { "type": "string", "pattern": "^(data|snapshots|images)/" },
+          "mediaType": { "enum": ["application/json", "image/webp", "image/png", "image/jpeg", "image/svg+xml"] },
+          "sha256": { "$ref": "#/$defs/sha256" },
+          "bytes": { "type": "integer", "minimum": 0 },
+          "sourceSha256": { "$ref": "#/$defs/sha256" }
+        }
+      }
+    },
+    "omittedUiAssets": { "type": "array", "uniqueItems": true, "items": { "type": "string", "pattern": "^images/" } }
+  },
+  "$defs": {
+    "family": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "tag": { "type": "string", "pattern": "^[a-z0-9-]+-r[1-9][0-9]*-s1-e[1-9][0-9]*$" },
+    "revision": { "type": "integer", "minimum": 1 },
+    "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "rulesetRef": {
+      "type": "object",
+      "required": ["id", "contentHash"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^rs-[a-f0-9]{64}$" },
+        "contentHash": { "$ref": "#/$defs/sha256" }
+      }
+    },
+    "baseRulesetRef": { "anyOf": [{ "type": "null" }, { "$ref": "#/$defs/rulesetRef" }] },
+    "download": {
+      "type": "object",
+      "required": ["path", "sha256"],
+      "additionalProperties": false,
+      "properties": {
+        "path": { "type": "string", "minLength": 1 },
+        "sha256": { "$ref": "#/$defs/sha256" }
+      }
+    }
+  }
+}

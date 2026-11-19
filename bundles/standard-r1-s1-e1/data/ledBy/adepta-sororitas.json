@@ -1,0 +1,316 @@
+{
+  "default": {
+    "arco-flagellants": [
+      [
+        "Ministorum Priest",
+        "leader"
+      ]
+    ],
+    "battle-sisters-squad": [
+      [
+        "Aestred Thurga and Agathae Dolan",
+        "leader"
+      ],
+      [
+        "Canoness",
+        "leader"
+      ],
+      [
+        "Junith Eruita",
+        "leader"
+      ],
+      [
+        "Ministorum Priest",
+        "leader"
+      ],
+      [
+        "Palatine",
+        "leader"
+      ],
+      [
+        "Triumph of Saint Katherine",
+        "leader"
+      ],
+      [
+        "Dialogus",
+        "support"
+      ],
+      [
+        "Dogmata",
+        "support"
+      ],
+      [
+        "Hospitaller",
+        "support"
+      ],
+      [
+        "Imagifier",
+        "support"
+      ]
+    ],
+    "celestian-insidiants": [
+      [
+        "Aestred Thurga and Agathae Dolan",
+        "leader"
+      ],
+      [
+        "Canoness",
+        "leader"
+      ],
+      [
+        "Junith Eruita",
+        "leader"
+      ],
+      [
+        "Ministorum Priest",
+        "leader"
+      ],
+      [
+        "Palatine",
+        "leader"
+      ],
+      [
+        "Dialogus",
+        "support"
+      ],
+      [
+        "Dogmata",
+        "support"
+      ],
+      [
+        "Hospitaller",
+        "support"
+      ],
+      [
+        "Imagifier",
+        "support"
+      ]
+    ],
+    "celestian-sacresants": [
+      [
+        "Aestred Thurga and Agathae Dolan",
+        "leader"
+      ],
+      [
+        "Canoness",
+        "leader"
+      ],
+      [
+        "Junith Eruita",
+        "leader"
+      ],
+      [
+        "Palatine",
+        "leader"
+      ],
+      [
+        "Dialogus",
+        "support"
+      ],
+      [
+        "Dogmata",
+        "support"
+      ],
+      [
+        "Hospitaller",
+        "support"
+      ],
+      [
+        "Imagifier",
+        "support"
+      ]
+    ],
+    "crusaders": [
+      [
+        "Aestred Thurga and Agathae Dolan",
+        "leader"
+      ],
+      [
+        "Canoness",
+        "leader"
+      ],
+      [
+        "Junith Eruita",
+        "leader"
+      ],
+      [
+        "Ministorum Priest",
+        "leader"
+      ],
+      [
+        "Palatine",
+        "leader"
+      ],
+      [
+        "Triumph of Saint Katherine",
+        "leader"
+      ],
+      [
+        "Dialogus",
+        "support"
+      ],
+      [
+        "Dogmata",
+        "support"
+      ],
+      [
+        "Hospitaller",
+        "support"
+      ],
+      [
+        "Imagifier",
+        "support"
+      ]
+    ],
+    "dominion-squad": [
+      [
+        "Aestred Thurga and Agathae Dolan",
+        "leader"
+      ],
+      [
+        "Canoness",
+        "leader"
+      ],
+      [
+        "Junith Eruita",
+        "leader"
+      ],
+      [
+        "Ministorum Priest",
+        "leader"
+      ],
+      [
+        "Palatine",
+        "leader"
+      ],
+      [
+        "Dialogus",
+        "support"
+      ],
+      [
+        "Dogmata",
+        "support"
+      ],
+      [
+        "Hospitaller",
+        "support"
+      ],
+      [
+        "Imagifier",
+        "support"
+      ]
+    ],
+    "paragon-warsuits": [
+      [
+        "Morvenn Vahl",
+        "leader"
+      ]
+    ],
+    "repentia-squad": [
+      [
+        "Catechism of Divine Penitence",
+        "leader",
+        {
+          "by": [
+            "Canoness",
+            "Canoness with Jump Pack",
+            "Ministorum Priest",
+            "Palatine"
+          ],
+          "det": "Penitent Host",
+          "enh": 1
+        }
+      ]
+    ],
+    "retributor-squad": [
+      [
+        "Aestred Thurga and Agathae Dolan",
+        "leader"
+      ],
+      [
+        "Canoness",
+        "leader"
+      ],
+      [
+        "Junith Eruita",
+        "leader"
+      ],
+      [
+        "Palatine",
+        "leader"
+      ],
+      [
+        "Dialogus",
+        "support"
+      ],
+      [
+        "Dogmata",
+        "support"
+      ],
+      [
+        "Hospitaller",
+        "support"
+      ],
+      [
+        "Imagifier",
+        "support"
+      ]
+    ],
+    "sanctifiers": [
+      [
+        "Ministorum Priest",
+        "leader"
+      ]
+    ],
+    "seraphim-squad": [
+      [
+        "Canoness with Jump Pack",
+        "leader"
+      ],
+      [
+        "Saint Celestine",
+        "leader"
+      ]
+    ],
+    "sisters-novitiate-squad": [
+      [
+        "Aestred Thurga and Agathae Dolan",
+        "leader"
+      ],
+      [
+        "Canoness",
+        "leader"
+      ],
+      [
+        "Junith Eruita",
+        "leader"
+      ],
+      [
+        "Ministorum Priest",
+        "leader"
+      ],
+      [
+        "Palatine",
+        "leader"
+      ],
+      [
+        "Dialogus",
+        "support"
+      ],
+      [
+        "Hospitaller",
+        "support"
+      ]
+    ],
+    "zephyrim-squad": [
+      [
+        "Canoness with Jump Pack",
+        "leader"
+      ],
+      [
+        "Saint Celestine",
+        "leader"
+      ]
+    ]
+  }
+}

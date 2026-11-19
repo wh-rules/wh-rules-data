@@ -1,0 +1,2352 @@
+{
+  "default": {
+    "entries": [
+      {
+        "det": null,
+        "effects": [],
+        "hash": "80e639d4",
+        "kind": "ability",
+        "name": "Ahriman: Arch-Sorcerer of Tzeentch",
+        "ref": {
+          "kind": "ability",
+          "unit": "ahriman"
+        },
+        "reviewed": true,
+        "sid": "91ff57b7-1d8b-40bd-8c05-9b87ca855bc2:ahriman",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "f20a7aa6",
+        "kind": "ability",
+        "name": "Blue Horrors: Sullen Malevolence",
+        "ref": {
+          "kind": "ability",
+          "unit": "blue-horrors"
+        },
+        "reviewed": true,
+        "sid": "ad0bab17-6be0-4962-8503-f1769cb70f6f:blue-horrors",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "against a unit hit by a THOUSAND SONS Psychic Attack this phase",
+              "ru": "против юнита, задетого Psychic Attack THOUSAND SONS в этой фазе"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "against a unit hit by a THOUSAND SONS Psychic Attack this phase",
+              "ru": "против юнита, задетого Psychic Attack THOUSAND SONS в этой фазе"
+            }
+          }
+        ],
+        "hash": "eeab42c2",
+        "kind": "ability",
+        "name": "Chaos Predator Destructor: Ensorcelled Destruction",
+        "ref": {
+          "kind": "ability",
+          "unit": "chaos-predator-destructor"
+        },
+        "reviewed": true,
+        "sid": "4fefe630-e078-4081-ac01-5a0a3f220d3b:chaos-predator-destructor",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "1bae6b17",
+        "kind": "ability",
+        "name": "Chaos Rhino: Sorcerous Support",
+        "ref": {
+          "kind": "ability",
+          "unit": "chaos-rhino"
+        },
+        "reviewed": true,
+        "sid": "12fdfa99-1e9a-420d-a6bf-2fe5ce94fedf:chaos-rhino",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "used-aetherstride"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS D3",
+            "when": {
+              "en": "while this ability is used",
+              "ru": "пока способность использована"
+            }
+          }
+        ],
+        "hash": "67844491",
+        "kind": "ability",
+        "name": "Daemon Prince of Tzeentch with Wings: Aetherstride",
+        "ref": {
+          "kind": "ability",
+          "unit": "daemon-prince-of-tzeentch-with-wings"
+        },
+        "reviewed": true,
+        "sid": "6caecabb-1eae-4404-a3b1-7e2b03d384f5:daemon-prince-of-tzeentch-with-wings",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "aura",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "ffbb3512",
+        "kind": "ability",
+        "name": "Daemon Prince of Tzeentch: Glamour of Tzeentch",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "THOUSAND SONS INFANTRY"
+              ]
+            }
+          ],
+          "unit": "daemon-prince-of-tzeentch"
+        },
+        "reviewed": true,
+        "sid": "27a36d58-b747-405c-95e6-01a4a4113466:daemon-prince-of-tzeentch",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of a friendly THOUSAND SONS INFANTRY unit",
+              "ru": "пока в пределах 3\" от дружественного отряда THOUSAND SONS INFANTRY"
+            }
+          }
+        ],
+        "hash": "2a13fb8e",
+        "kind": "ability",
+        "name": "Daemon Prince of Tzeentch: Servile Pawns",
+        "ref": {
+          "kind": "ability",
+          "unit": "daemon-prince-of-tzeentch"
+        },
+        "reviewed": true,
+        "sid": "5bfb5c68-19d9-4d7c-bf0a-f67b5757599d:daemon-prince-of-tzeentch",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "6edb2f9d",
+        "kind": "ability",
+        "name": "Daemon Prince of Tzeentch: Spirit Snare",
+        "ref": {
+          "kind": "ability",
+          "unit": "daemon-prince-of-tzeentch"
+        },
+        "reviewed": true,
+        "sid": "0622b621-95f4-46da-a965-8ed18b8373bf:daemon-prince-of-tzeentch",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "unit",
+            "value": "4+",
+            "when": null
+          }
+        ],
+        "hash": "58585162",
+        "kind": "ability",
+        "name": "Exalted Sorcerer: Arcane Shield",
+        "ref": {
+          "kind": "ability",
+          "unit": "exalted-sorcerer"
+        },
+        "reviewed": true,
+        "sid": "4749049e-c383-4349-bf61-1794c0cb72d8:exalted-sorcerer",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "27ea67a2",
+        "kind": "ability",
+        "name": "Forgefiend: Blazing Salvoes",
+        "ref": {
+          "kind": "ability",
+          "unit": "forgefiend"
+        },
+        "reviewed": true,
+        "sid": "613e0d62-0346-4aad-98c2-692f9e94c78f:forgefiend",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-two-melee-besides-ccw"
+            ],
+            "on": "melee",
+            "only": {
+              "notName": [
+                "Close combat weapon"
+              ]
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 2,
+            "when": {
+              "en": "the two melee weapons taken in addition to the close combat weapon",
+              "ru": "два оружия ближнего боя, взятые вдобавок к close combat weapon"
+            }
+          }
+        ],
+        "hash": "67092a63",
+        "kind": "ability",
+        "name": "Helbrute: Devoted to Destruction",
+        "ref": {
+          "kind": "ability",
+          "unit": "helbrute"
+        },
+        "reviewed": true,
+        "sid": "90c6edaf-0f74-4a0e-9631-b01641bebe3f:helbrute",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "3154cfe3",
+        "kind": "ability",
+        "name": "Infernal Master: Malefic Maelstrom",
+        "ref": {
+          "kind": "ability",
+          "unit": "infernal-master"
+        },
+        "reviewed": true,
+        "sid": "018818f0-a298-46d2-b1af-f4460529941f:infernal-master",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-led"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "while this unit is an Attached unit",
+              "ru": "пока отряд присоединённый"
+            }
+          },
+          {
+            "cond": [
+              "unit-led"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "while this unit is an Attached unit",
+              "ru": "пока отряд присоединённый"
+            }
+          }
+        ],
+        "hash": "7c7eed8c",
+        "kind": "ability",
+        "name": "Kaa'skrek: Bestial Prophet",
+        "ref": {
+          "kind": "ability",
+          "unit": "kaaskrek"
+        },
+        "reviewed": true,
+        "sid": "fc14d232-6717-4065-a816-0921cd150477:kaaskrek",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "a",
+            "value": "D3",
+            "when": {
+              "en": "after one Bodyguard model in this unit is destroyed to use this ability, when selected to shoot or fight",
+              "ru": "после того как для этой способности уничтожена одна модель Bodyguard, при выборе для стрельбы или боя"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "s",
+            "value": "D3",
+            "when": {
+              "en": "after one Bodyguard model in this unit is destroyed to use this ability, when selected to shoot or fight",
+              "ru": "после того как для этой способности уничтожена одна модель Bodyguard, при выборе для стрельбы или боя"
+            }
+          }
+        ],
+        "hash": "f566d084",
+        "kind": "ability",
+        "name": "Kaa'skrek: Sacrificial Blessing",
+        "ref": {
+          "kind": "ability",
+          "unit": "kaaskrek"
+        },
+        "reviewed": true,
+        "sid": "31281b2d-cb28-4a7c-ad96-4b52df622d45:kaaskrek",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "s",
+            "target": "aura",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "e1944b31",
+        "kind": "ability",
+        "name": "Lord of Change: Daemon Lord of Tzeentch",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "SCINTILLATING LEGIONS"
+              ]
+            }
+          ],
+          "unit": "lord-of-change"
+        },
+        "reviewed": true,
+        "sid": "e9b6c7e7-ecfc-409b-8ddd-ef58d17500f4:lord-of-change",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "magicks-ignores-cover"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Bolt of Change"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "while this is the ability selected for this phase",
+              "ru": "пока на эту фазу выбрана эта способность"
+            }
+          },
+          {
+            "cond": [
+              "magicks-lethal"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Bolt of Change"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while this is the ability selected for this phase",
+              "ru": "пока на эту фазу выбрана эта способность"
+            }
+          },
+          {
+            "cond": [
+              "magicks-sustained"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Bolt of Change"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS D3",
+            "when": {
+              "en": "while this is the ability selected for this phase",
+              "ru": "пока на эту фазу выбрана эта способность"
+            }
+          }
+        ],
+        "hash": "4682d5b5",
+        "kind": "ability",
+        "name": "Lord of Change: Master of Magicks",
+        "ref": {
+          "kind": "ability",
+          "unit": "lord-of-change"
+        },
+        "reviewed": true,
+        "sid": "0effb863-11f6-4097-9d2f-780cbb275a00:lord-of-change",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "4004fc0a",
+        "kind": "ability",
+        "name": "Magnus the Red: Impossible Form (Psychic)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "Unearthly Power",
+          "unit": "magnus-the-red"
+        },
+        "reviewed": true,
+        "sid": "cdee0846-07c4-46dd-8f41-03ec95ffb7ba:magnus-the-red",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "4c5685bf",
+        "kind": "ability",
+        "name": "Magnus the Red: Lord of the Planet of the Sorcerers",
+        "ref": {
+          "kind": "ability",
+          "unit": "magnus-the-red"
+        },
+        "reviewed": true,
+        "sid": "a3bc2ee7-9171-4eb3-afbf-36b97c7d3f45:magnus-the-red",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "aura",
+            "value": 2,
+            "when": {
+              "en": "while this ability is the one selected",
+              "ru": "пока выбрана эта способность"
+            }
+          }
+        ],
+        "hash": "f3e4bf62",
+        "kind": "ability",
+        "name": "Magnus the Red: Time Flux (Aura, Psychic)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "THOUSAND SONS"
+              ]
+            }
+          ],
+          "set": "Unearthly Power",
+          "unit": "magnus-the-red"
+        },
+        "reviewed": true,
+        "sid": "383842c0-08ef-4dfa-ab29-63e48ae5acdf:magnus-the-red",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "743ba7d5",
+        "kind": "ability",
+        "name": "Magnus the Red: Treason of Tzeentch (Psychic)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "Unearthly Power",
+          "unit": "magnus-the-red"
+        },
+        "reviewed": true,
+        "sid": "5f1de731-c854-4037-8c61-4ece6772f685:magnus-the-red",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "f52800f4",
+        "kind": "ability",
+        "name": "Mutalith Vortex Beast: Immaterial Flare",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [
+                "THOUSAND SONS PSYKER"
+              ],
+              "targets": [
+                "THOUSAND SONS PSYKER"
+              ]
+            }
+          ],
+          "unit": "mutalith-vortex-beast"
+        },
+        "reviewed": true,
+        "sid": "49fd36bf-f94a-466d-8900-6791fc93f801:mutalith-vortex-beast",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "excluding CHARACTER models' attacks",
+              "ru": "кроме атак моделей CHARACTER"
+            }
+          }
+        ],
+        "hash": "39c3d6cd",
+        "kind": "ability",
+        "name": "Prism of Zadophon Rubric Marines: Icon of Flame",
+        "ref": {
+          "kind": "ability",
+          "unit": "prism-of-zadophon-rubric-marines"
+        },
+        "reviewed": true,
+        "sid": "086a5947-74cb-4c55-9c39-75a00f33ebdc:prism-of-zadophon-rubric-marines",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "when": {
+              "en": "while this unit contains a PSYKER model",
+              "ru": "пока в отряде есть модель PSYKER"
+            }
+          }
+        ],
+        "hash": "485fec5f",
+        "kind": "ability",
+        "name": "Scarab Occult Terminators: Rites of Coalescence",
+        "ref": {
+          "kind": "ability",
+          "unit": "scarab-occult-terminators"
+        },
+        "reviewed": true,
+        "sid": "bc3c99c8-bc54-4409-a383-0ce4e9caf716:scarab-occult-terminators",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "LETHAL HITS",
+            "when": null
+          }
+        ],
+        "hash": "abe50645",
+        "kind": "ability",
+        "name": "Sorcerer in Terminator Armour: Empyric Guidance",
+        "ref": {
+          "kind": "ability",
+          "unit": "sorcerer-in-terminator-armour"
+        },
+        "reviewed": true,
+        "sid": "f243edb4-c65b-4510-a30f-ad0b4b2d18b0:sorcerer-in-terminator-armour",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "in your Shooting phase, against the enemy unit selected at its start",
+              "ru": "в вашей Shooting phase, по вражескому отряду, выбранному в её начале"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "in your Shooting phase, against the enemy unit selected at its start",
+              "ru": "в вашей Shooting phase, по вражескому отряду, выбранному в её начале"
+            }
+          }
+        ],
+        "hash": "29426a15",
+        "kind": "ability",
+        "name": "Sorcerer in Terminator Armour: Marked by Fate",
+        "ref": {
+          "kind": "ability",
+          "unit": "sorcerer-in-terminator-armour"
+        },
+        "reviewed": true,
+        "sid": "48c98e40-3db3-4c80-a6cc-66992d5efc6c:sorcerer-in-terminator-armour",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "LETHAL HITS",
+            "when": null
+          }
+        ],
+        "hash": "abe50645",
+        "kind": "ability",
+        "name": "Sorcerer: Empyric Guidance",
+        "ref": {
+          "kind": "ability",
+          "unit": "sorcerer"
+        },
+        "reviewed": true,
+        "sid": "f243edb4-c65b-4510-a30f-ad0b4b2d18b0:sorcerer",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "add",
+            "stat": "s",
+            "value": 3,
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          },
+          {
+            "on": "weapon",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 3,
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "ddb1605d",
+        "kind": "ability",
+        "name": "Sorcerer: Twisted Sorceries",
+        "ref": {
+          "kind": "ability",
+          "unit": "sorcerer"
+        },
+        "reviewed": true,
+        "sid": "c6147b99-a91d-4063-a265-f70cb2230ea4:sorcerer",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "b981890e",
+        "kind": "ability",
+        "name": "Tzaangor Shaman: Bestial Prophet",
+        "ref": {
+          "kind": "ability",
+          "unit": "tzaangor-shaman"
+        },
+        "reviewed": true,
+        "sid": "05f142d3-4beb-4b18-8cd0-47d8082ce2ce:tzaangor-shaman",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "aura",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "cde7ab6f",
+        "kind": "ability",
+        "name": "Zadophon the Soul Eater: Glamour of Tzeentch (Aura, Psychic)",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "THOUSAND SONS INFANTRY"
+              ]
+            }
+          ],
+          "unit": "zadophon-the-soul-eater"
+        },
+        "reviewed": true,
+        "sid": "6fcd2ecb-d54a-4fae-820f-6613f2fd39c8:zadophon-the-soul-eater",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "1e62bd40",
+        "kind": "armyRule",
+        "name": "Cabal of Sorcerers",
+        "ref": {
+          "kind": "armyRule"
+        },
+        "reviewed": true,
+        "sid": "166fb00a-fa76-4b86-913c-7a0c6a8be9d4",
+        "ver": 925
+      },
+      {
+        "det": "Changehost of Deceit",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "Scintillating Legions units, against ranged attacks, while a friendly Thousand Sons Psyker unit is within 6\" and visible",
+              "ru": "отряды Scintillating Legions, против стрелковых атак, пока дружественный отряд Thousand Sons Psyker в 6\" и в зоне видимости"
+            }
+          }
+        ],
+        "hash": "29c8f1a2",
+        "kind": "detachmentRule",
+        "name": "Infernal Pacts",
+        "ref": {
+          "det": "changehost-of-deceit",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "7bdab8ed-0e0f-4861-b887-fca833b68f6a",
+        "ver": 925
+      },
+      {
+        "det": "Grand Coven",
+        "effects": [
+          {
+            "cond": [
+              "manifestation-imbued"
+            ],
+            "on": "ranged",
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "add",
+            "stat": "range",
+            "value": 6,
+            "when": {
+              "en": "ranged Psychic weapons only, while the Imbued Manifestation ability is selected",
+              "ru": "только стрелковое психическое оружие, пока выбрана способность Imbued Manifestation"
+            }
+          },
+          {
+            "cond": [
+              "manifestation-wrath"
+            ],
+            "on": "weapon",
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "Psychic weapons only, while the Wrath of the Immaterium ability is selected",
+              "ru": "только психическое оружие, пока выбрана способность Wrath of the Immaterium"
+            }
+          },
+          {
+            "cond": [
+              "manifestation-maelstrom"
+            ],
+            "on": "weapon",
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "Psychic weapons only, while Psychic Maelstrom is selected",
+              "ru": "только психическое оружие, пока выбрана способность Psychic Maelstrom"
+            }
+          }
+        ],
+        "hash": "2477dafc",
+        "kind": "detachmentRule",
+        "name": "Kindred Sorcery",
+        "ref": {
+          "det": "grand-coven",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "87903309-9fa1-4896-b108-1a57d4f441b6",
+        "ver": 925
+      },
+      {
+        "det": "Hexwarp Thrallband",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "Psychic Attacks, while the model is wholly within your Flow of Magic",
+              "ru": "психические атаки, пока модель целиком во Flow of Magic"
+            }
+          }
+        ],
+        "hash": "4ea3c811",
+        "kind": "detachmentRule",
+        "name": "Flow of Magic",
+        "ref": {
+          "det": "hexwarp-thrallband",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "ee7708ef-faa7-4aea-900b-ca02b173f6c4",
+        "ver": 925
+      },
+      {
+        "det": "Prism of Zadophon",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "improve",
+            "stat": "ld",
+            "value": 1,
+            "when": {
+              "en": "while within range of an objective marker",
+              "ru": "пока в пределах objective-маркера"
+            }
+          }
+        ],
+        "hash": "9e6dcb21",
+        "kind": "detachmentRule",
+        "name": "Committed to the Ritual",
+        "ref": {
+          "det": "cp:thousand-sons",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "8780310f-ca05-4237-8fe5-66ac11a65cf6",
+        "ver": 925
+      },
+      {
+        "det": "Rubricae Phalanx",
+        "effects": [],
+        "hash": "7f207e70",
+        "kind": "detachmentRule",
+        "name": "All is Dust",
+        "ref": {
+          "det": "rubricae-phalanx",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "19e0de45-bd88-44e4-81d2-19435524ab31",
+        "ver": 925
+      },
+      {
+        "det": "Sekhetar Cohort",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "scope": 0,
+            "stat": "ability",
+            "value": "PSYCHIC",
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "improve",
+            "stat": "ws",
+            "target": "aura",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "02b8c2cf",
+        "kind": "detachmentRule",
+        "name": "Ensorcelled Animus",
+        "ref": {
+          "det": "sekhetar-cohort",
+          "kind": "detachmentRule",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "SEKHETAR ROBOTS"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "b5a78aa9-08cb-4986-b09e-9735e5b6ff00",
+        "ver": 925
+      },
+      {
+        "det": "Servants of Change",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "scope": 0,
+            "stat": "keyword",
+            "value": "Battleline",
+            "when": null
+          }
+        ],
+        "hash": "fa07a981",
+        "kind": "detachmentRule",
+        "name": "All-seeing Mutant Hordes",
+        "ref": {
+          "det": "servants-of-change",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "573df80f-6ed6-4039-b080-a5ef1721fd9d",
+        "ver": 995
+      },
+      {
+        "det": "Warpmeld Pact",
+        "effects": [
+          {
+            "cond": [
+              "used-warpmeld-sacrifice"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "the phase the unit made a Warpmeld Sacrifice before selecting its targets",
+              "ru": "фаза, в которую отряд совершил Warpmeld Sacrifice перед выбором целей"
+            }
+          },
+          {
+            "cond": [
+              "used-warpmeld-sacrifice"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "when": {
+              "en": "the phase the unit made a Warpmeld Sacrifice when targeted",
+              "ru": "фаза, в которую отряд совершил Warpmeld Sacrifice, став целью"
+            }
+          }
+        ],
+        "hash": "1fd641c4",
+        "kind": "detachmentRule",
+        "name": "Warpmeld Sacrifice",
+        "ref": {
+          "det": "warpmeld-pact",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "c5998d23-f7e0-4fed-bbea-c738c4b1fe66",
+        "ver": 925
+      },
+      {
+        "det": "Changehost of Deceit",
+        "effects": [],
+        "hash": "2e42611c",
+        "kind": "enhancement",
+        "name": "Diabolic Savant",
+        "ref": {
+          "det": "changehost-of-deceit",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "d096fcb5-f375-4a1b-93df-c2e455dabeba",
+        "ver": 925
+      },
+      {
+        "det": "Changehost of Deceit",
+        "effects": [
+          {
+            "on": "profile",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "set",
+            "stat": "inv",
+            "value": "2+",
+            "when": {
+              "en": "once per battle, for the phase the bearer uses this Enhancement in",
+              "ru": "один раз за битву, на фазу, в которой носитель применил улучшение"
+            }
+          }
+        ],
+        "hash": "bb02bbc3",
+        "kind": "enhancement",
+        "name": "Tome of True Names",
+        "ref": {
+          "det": "changehost-of-deceit",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "aaf89db6-ceaf-4051-936b-fcb7ad589ed9",
+        "ver": 925
+      },
+      {
+        "det": "Grand Coven",
+        "effects": [
+          {
+            "on": "weapon",
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "weapon",
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "0e373a93",
+        "kind": "enhancement",
+        "name": "Eldritch Vortex of E’Taph",
+        "ref": {
+          "det": "grand-coven",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "ffcd2ea7-c818-42ae-9bf0-0109b5fadc37",
+        "ver": 925
+      },
+      {
+        "det": "Grand Coven",
+        "effects": [],
+        "hash": "7cede779",
+        "kind": "enhancement",
+        "name": "Lord of Forbidden Lore",
+        "note": "extends the range of a Ritual, not of a weapon",
+        "ref": {
+          "det": "grand-coven",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "4ee4139b-25fd-42d7-95c1-7ec98fdf5492",
+        "ver": 925
+      },
+      {
+        "det": "Grand Coven",
+        "effects": [
+          {
+            "on": "unit",
+            "once": {
+              "dur": "round",
+              "per": "army"
+            },
+            "op": "grant",
+            "stat": "core",
+            "value": "Deep Strike",
+            "when": {
+              "en": "until your next Shooting phase, once per battle per army, when this unit used this ability to go into strategic reserves",
+              "ru": "до вашей следующей Shooting phase, раз за битву на армию, если отряд применил эту способность и ушёл в strategic reserves"
+            }
+          }
+        ],
+        "hash": "a15ddc15",
+        "kind": "enhancement",
+        "name": "Umbralefic Crystal",
+        "ref": {
+          "det": "grand-coven",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "f2e24d64-f111-42bf-84f6-cd1ae234afec",
+        "ver": 925
+      },
+      {
+        "det": "Hexwarp Thrallband",
+        "effects": [
+          {
+            "on": "weapon",
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "add",
+            "stat": "s",
+            "target": "led",
+            "value": 1,
+            "when": null
+          },
+          {
+            "alt": 0,
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "s",
+            "target": "led",
+            "value": 2,
+            "when": {
+              "en": "+2 instead, while the bearer's unit is wholly within your army's Flow of Magic",
+              "ru": "+2 вместо +1, пока отряд носителя целиком в Потоке магии вашей армии"
+            }
+          }
+        ],
+        "hash": "583d0c60",
+        "kind": "enhancement",
+        "name": "Arcane Might",
+        "ref": {
+          "det": "hexwarp-thrallband",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "23b38434-e051-4b26-a841-cbe2d62b5904",
+        "ver": 925
+      },
+      {
+        "det": "Hexwarp Thrallband",
+        "effects": [],
+        "hash": "1d3a049c",
+        "kind": "enhancement",
+        "name": "Empowered Manifestation",
+        "note": "extends the range of Psychic abilities, not of a weapon row",
+        "ref": {
+          "det": "hexwarp-thrallband",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "418bfe60-1e00-4326-b88d-63ee710b7bea",
+        "ver": 925
+      },
+      {
+        "det": "Hexwarp Thrallband",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 3,
+            "when": {
+              "en": "the bearer's ranged Psychic weapons, while the bearer's unit is wholly within your army's Flow of Magic",
+              "ru": "стрелковое психическое оружие носителя, пока его отряд целиком в Потоке магии вашей армии"
+            }
+          }
+        ],
+        "hash": "8cad5a3e",
+        "kind": "enhancement",
+        "name": "Empyric Onslaught",
+        "ref": {
+          "det": "hexwarp-thrallband",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "a372c063-aacf-450e-8d87-d5e447b9872b",
+        "ver": 925
+      },
+      {
+        "det": "Prism of Zadophon",
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "name": "Infernal cannon"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "PSYCHIC",
+            "when": null
+          }
+        ],
+        "hash": "5a782652",
+        "kind": "enhancement",
+        "name": "Warp-tainted Shells",
+        "ref": {
+          "det": "cp:thousand-sons",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "e472737b-595b-4329-8875-1a94fc04a71d",
+        "ver": 925
+      },
+      {
+        "det": "Ritual of Regeneration",
+        "effects": [],
+        "hash": "23c63f1e",
+        "kind": "enhancement",
+        "name": "Curse of Life",
+        "ref": {
+          "det": "ritual-of-regeneration",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "b0d14bf1-434c-499d-b74d-aae2f320c5cf",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading"
+        ],
+        "det": "Rubricae Phalanx",
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "while the bearer is leading a unit, RUBRICAE models only",
+              "ru": "пока носитель ведёт отряд, только модели RUBRICAE"
+            }
+          }
+        ],
+        "hash": "993f1c1f",
+        "kind": "enhancement",
+        "name": "Lord of the Rubricae",
+        "ref": {
+          "det": "rubricae-phalanx",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "f4d1b38c-22ac-42d7-98a4-1d944dd63b52",
+        "ver": 925
+      },
+      {
+        "det": "Rubricae Phalanx",
+        "effects": [],
+        "hash": "769d0b31",
+        "kind": "enhancement",
+        "name": "Risen Rubricae",
+        "ref": {
+          "det": "rubricae-phalanx",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "5217a83b-742c-4e2a-966d-8ce26ec5adf8",
+        "ver": 925
+      },
+      {
+        "det": "Rubricae Phalanx",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS D3",
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": null
+          }
+        ],
+        "hash": "9bdd9c4a",
+        "kind": "enhancement",
+        "name": "Stave Abominus",
+        "ref": {
+          "det": "rubricae-phalanx",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "01116f1d-09f7-43b3-9a8e-30ee3eaeada6",
+        "ver": 925
+      },
+      {
+        "det": "Sekhetar Cohort",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "improve",
+            "stat": "bs",
+            "target": "aura",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "f0b0c532",
+        "kind": "enhancement",
+        "name": "Occulus Infernum",
+        "ref": {
+          "det": "sekhetar-cohort",
+          "kind": "enhancement",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "SEKHETAR ROBOTS"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "587e90c8-b30d-4dfb-81b5-537e0fecce1e",
+        "ver": 925
+      },
+      {
+        "det": "Sekhetar Cohort",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of a friendly SEKHETAR ROBOTS unit",
+              "ru": "пока в пределах 3\" от дружественного отряда SEKHETAR ROBOTS"
+            }
+          }
+        ],
+        "hash": "fbdf20f6",
+        "kind": "enhancement",
+        "name": "Walking Rampart",
+        "ref": {
+          "det": "sekhetar-cohort",
+          "kind": "enhancement",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "SEKHETAR ROBOTS"
+              ]
+            },
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "SEKHETAR ROBOTS"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "2d9eaedb-d4b1-4d07-9cc4-3bb50194cfeb",
+        "ver": 925
+      },
+      {
+        "det": "Servants of Change",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "target": "unit",
+            "value": -1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "CLEAVE 1",
+            "when": null
+          }
+        ],
+        "hash": "0e63f605",
+        "kind": "enhancement",
+        "name": "Thicket of Bladed Bone (Upgrade)",
+        "ref": {
+          "det": "servants-of-change",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "cb50a092-b387-493d-a329-fb3ebb9d603a",
+        "ver": 925
+      },
+      {
+        "det": "Warpforged Cabal",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of a friendly THOUSAND SONS VEHICLE unit",
+              "ru": "пока в пределах 3\" от дружественного отряда THOUSAND SONS VEHICLE"
+            }
+          }
+        ],
+        "hash": "b5c10428",
+        "kind": "enhancement",
+        "name": "Perplexing Cloak",
+        "ref": {
+          "det": "warpforged-cabal",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "857f4218-0a35-44db-b747-7f37a411fd9d",
+        "ver": 925
+      },
+      {
+        "det": "Warpforged Cabal",
+        "effects": [],
+        "hash": "795ab48d",
+        "kind": "enhancement",
+        "name": "Warp-Cursed Runemaster",
+        "note": "extends the range of a Ritual, not of a weapon",
+        "ref": {
+          "det": "warpforged-cabal",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "4f20a5e0-7e45-486f-b80d-7f769e1c6ece",
+        "ver": 925
+      },
+      {
+        "det": "Warpmeld Pact",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Scouts 6\"",
+            "when": null
+          }
+        ],
+        "hash": "e470e302",
+        "kind": "enhancement",
+        "name": "Bray Lord",
+        "ref": {
+          "det": "warpmeld-pact",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "97f56fc4-c754-4f63-9e7a-7c4da6a1b3ad",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading"
+        ],
+        "det": "Warpmeld Pact",
+        "effects": [
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": {
+              "en": "while the bearer is leading a unit",
+              "ru": "пока носитель возглавляет отряд"
+            }
+          },
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": -1,
+            "when": {
+              "en": "while the bearer is leading a unit",
+              "ru": "пока носитель возглавляет отряд"
+            }
+          }
+        ],
+        "hash": "9781020c",
+        "kind": "enhancement",
+        "name": "Diamond of Distortion",
+        "ref": {
+          "det": "warpmeld-pact",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "6178ef4b-4657-4b5b-8292-735d191e1b46",
+        "ver": 995
+      },
+      {
+        "det": "Warpmeld Pact",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+",
+            "when": null
+          },
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "w",
+            "value": 5,
+            "when": null
+          }
+        ],
+        "hash": "143577b0",
+        "kind": "enhancement",
+        "name": "Flowing Flesh",
+        "ref": {
+          "det": "warpmeld-pact",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "ec87a2f7-7b37-4475-aecc-e1b855221749",
+        "ver": 925
+      },
+      {
+        "det": "Warpmeld Pact",
+        "effects": [],
+        "hash": "093d156d",
+        "kind": "enhancement",
+        "name": "Warpmeld Dagger",
+        "ref": {
+          "det": "warpmeld-pact",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "0e2f4b29-498d-4e89-9af1-373f8d3ae792",
+        "ver": 925
+      },
+      {
+        "det": "Changehost of Deceit",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "214dc667",
+        "kind": "stratagem",
+        "name": "Sulphurous Veil",
+        "ref": {
+          "det": "changehost-of-deceit",
+          "kind": "stratagem",
+          "name": "Sulphurous Veil"
+        },
+        "reviewed": true,
+        "sid": "2cbc415a-c69a-4d7c-9c66-59b998616212",
+        "ver": 995
+      },
+      {
+        "det": "Grand Coven",
+        "effects": [],
+        "hash": "b6da6204",
+        "kind": "stratagem",
+        "name": "Destined by Fate",
+        "ref": {
+          "det": "grand-coven",
+          "kind": "stratagem",
+          "name": "Destined by Fate"
+        },
+        "reviewed": true,
+        "sid": "86e94729-5da6-4199-a7ee-1bbca915f068",
+        "ver": 925
+      },
+      {
+        "det": "Grand Coven",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "add",
+            "stat": "range",
+            "value": 9,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "1a088249",
+        "kind": "stratagem",
+        "name": "Devastating Sorcery",
+        "ref": {
+          "det": "grand-coven",
+          "kind": "stratagem",
+          "name": "Devastating Sorcery"
+        },
+        "reviewed": true,
+        "sid": "9dd1faed-7e8a-4386-b2a1-827023cd92d9",
+        "ver": 925
+      },
+      {
+        "det": "Grand Coven",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+ (vs Psychic Attacks)",
+            "when": null
+          }
+        ],
+        "hash": "584f1494",
+        "kind": "stratagem",
+        "name": "Psychic Dominion",
+        "ref": {
+          "det": "grand-coven",
+          "kind": "stratagem",
+          "name": "Psychic Dominion"
+        },
+        "reviewed": true,
+        "sid": "ef76aa65-62d6-4fbc-a9d6-f434efc42d36",
+        "ver": 925
+      },
+      {
+        "det": "Hexwarp Thrallband",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "2e9c5baa",
+        "kind": "stratagem",
+        "name": "Kaleidoscopic Tempest",
+        "ref": {
+          "det": "hexwarp-thrallband",
+          "kind": "stratagem",
+          "name": "Kaleidoscopic Tempest"
+        },
+        "reviewed": true,
+        "sid": "fafdea87-fdba-4af0-abf1-0ec3f7b086dc",
+        "ver": 925
+      },
+      {
+        "det": "Hexwarp Thrallband",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "8c98ff6d",
+        "kind": "stratagem",
+        "name": "Scouring Warpflame",
+        "ref": {
+          "det": "hexwarp-thrallband",
+          "kind": "stratagem",
+          "name": "Scouring Warpflame"
+        },
+        "reviewed": true,
+        "sid": "1321ba9d-f02a-4d64-bbe3-610c0fd8778c",
+        "ver": 925
+      },
+      {
+        "det": "Hexwarp Thrallband",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Deep Strike",
+            "when": {
+              "en": "RUBRIC MARINES units only, while this stratagem is in force",
+              "ru": "только отряды RUBRIC MARINES, пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "d9ca6a9a",
+        "kind": "stratagem",
+        "name": "Through The Veil",
+        "ref": {
+          "det": "hexwarp-thrallband",
+          "kind": "stratagem",
+          "name": "Through The Veil"
+        },
+        "reviewed": true,
+        "sid": "f0930771-8807-4a77-a274-a6637d0b2d6a",
+        "ver": 925
+      },
+      {
+        "det": "Prism of Zadophon",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "only": {
+              "name": "Malefic Curse"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "CLOSE-QUARTERS",
+            "when": null
+          },
+          {
+            "on": "weapon",
+            "only": {
+              "name": "Malefic Curse"
+            },
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "4ef9f99a",
+        "kind": "stratagem",
+        "name": "Embroiling Energies",
+        "ref": {
+          "det": "cp:thousand-sons",
+          "kind": "stratagem",
+          "name": "Embroiling Energies"
+        },
+        "reviewed": true,
+        "sid": "373db87c-d6db-4844-8451-0173ec805139",
+        "ver": 995
+      },
+      {
+        "det": "Prism of Zadophon",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "ranged-s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "f5133a4b",
+        "kind": "stratagem",
+        "name": "Spell-warded Armour",
+        "ref": {
+          "det": "cp:thousand-sons",
+          "kind": "stratagem",
+          "name": "Spell-warded Armour"
+        },
+        "reviewed": true,
+        "sid": "218de5d5-fd4d-469d-8f1b-ac5d87e02262",
+        "ver": 995
+      },
+      {
+        "det": "Prism of Zadophon",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": null
+          }
+        ],
+        "hash": "6e82d07d",
+        "kind": "stratagem",
+        "name": "Twist of Fate",
+        "ref": {
+          "det": "cp:thousand-sons",
+          "kind": "stratagem",
+          "name": "Twist of Fate"
+        },
+        "reviewed": true,
+        "sid": "14f6a805-b45f-49c9-b218-98f4e07c9e1b",
+        "ver": 995
+      },
+      {
+        "det": "Ritual of Regeneration",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+ (vs mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "5967579f",
+        "kind": "stratagem",
+        "name": "Relentless Rebirth",
+        "ref": {
+          "det": "ritual-of-regeneration",
+          "kind": "stratagem",
+          "name": "Relentless Rebirth"
+        },
+        "reviewed": true,
+        "sid": "2eee2081-a2c8-4686-892f-68f2e3ee2eb9",
+        "ver": 925
+      },
+      {
+        "det": "Rubricae Phalanx",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": {
+              "en": "not on PSYKER models",
+              "ru": "кроме моделей PSYKER"
+            }
+          }
+        ],
+        "hash": "fd2abbfb",
+        "kind": "stratagem",
+        "name": "Implacable Guardians",
+        "ref": {
+          "det": "rubricae-phalanx",
+          "kind": "stratagem",
+          "name": "Implacable Guardians"
+        },
+        "reviewed": true,
+        "sid": "ff7282e4-5c01-40b0-a3d3-67c3c98bf992",
+        "ver": 925
+      },
+      {
+        "det": "Rubricae Phalanx",
+        "dur": "turn",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "22cdfca3",
+        "kind": "stratagem",
+        "name": "Inexorable Advance",
+        "ref": {
+          "det": "rubricae-phalanx",
+          "kind": "stratagem",
+          "name": "Inexorable Advance"
+        },
+        "reviewed": true,
+        "sid": "3805f783-e42a-499d-a3f8-9a7934853d7c",
+        "ver": 925
+      },
+      {
+        "det": "Rubricae Phalanx",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "name": "Inferno",
+              "notName": [
+                "Inferno heavy bolter"
+              ]
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "PSYCHIC",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "f3e24db9",
+        "kind": "stratagem",
+        "name": "Infernal Fusillade",
+        "ref": {
+          "det": "rubricae-phalanx",
+          "kind": "stratagem",
+          "name": "Infernal Fusillade"
+        },
+        "reviewed": true,
+        "sid": "6aeab97e-fe77-4731-a92e-eddc56b88ded",
+        "ver": 963
+      },
+      {
+        "det": "Rubricae Phalanx",
+        "dur": "turn",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "7c76e2c8",
+        "kind": "stratagem",
+        "name": "Unwavering Phalanx",
+        "ref": {
+          "det": "rubricae-phalanx",
+          "kind": "stratagem",
+          "name": "Unwavering Phalanx"
+        },
+        "reviewed": true,
+        "sid": "d02fa625-dc45-4df7-89ec-44592cb25b81",
+        "ver": 995
+      },
+      {
+        "det": "Sekhetar Cohort",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "ranged-s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "edf16e51",
+        "kind": "stratagem",
+        "name": "Warp Fields",
+        "ref": {
+          "det": "sekhetar-cohort",
+          "kind": "stratagem",
+          "name": "Warp Fields"
+        },
+        "reviewed": true,
+        "sid": "8299add8-e44d-432a-8551-17de6207f066",
+        "ver": 995
+      },
+      {
+        "det": "Servants of Change",
+        "dur": "turn",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "0ffdaff4",
+        "kind": "stratagem",
+        "name": "Prismatic Displacement",
+        "ref": {
+          "det": "servants-of-change",
+          "kind": "stratagem",
+          "name": "Prismatic Displacement"
+        },
+        "reviewed": true,
+        "sid": "65974fb7-162a-4917-9850-2a36ba6a793e",
+        "ver": 925
+      },
+      {
+        "det": "Servants of Change",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Mobile",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "6ab50acf",
+        "kind": "stratagem",
+        "name": "The Land Writhes",
+        "ref": {
+          "det": "servants-of-change",
+          "kind": "stratagem",
+          "name": "The Land Writhes"
+        },
+        "reviewed": true,
+        "sid": "49c7876a-a57e-4fdd-a091-2d316f2f6222",
+        "ver": 995
+      },
+      {
+        "det": "Warpforged Cabal",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PSYCHIC",
+            "when": {
+              "en": "VEHICLE models only",
+              "ru": "только модели VEHICLE"
+            }
+          },
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "095530fa",
+        "kind": "stratagem",
+        "name": "Ensorcelled Infusion",
+        "ref": {
+          "det": "warpforged-cabal",
+          "kind": "stratagem",
+          "name": "Ensorcelled Infusion"
+        },
+        "reviewed": true,
+        "sid": "b0cb5981-a7ae-4fac-9c49-1415afa964d5",
+        "ver": 925
+      },
+      {
+        "det": "Warpforged Cabal",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "ap",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "068f028a",
+        "kind": "stratagem",
+        "name": "Hex-Marked Armour",
+        "ref": {
+          "det": "warpforged-cabal",
+          "kind": "stratagem",
+          "name": "Hex-Marked Armour"
+        },
+        "reviewed": true,
+        "sid": "cbe3dc47-dd1e-4e77-9f69-1cd70c86270a",
+        "ver": 925
+      },
+      {
+        "det": "Warpmeld Pact",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "987d6ae0",
+        "kind": "stratagem",
+        "name": "Warped Vicissitude",
+        "ref": {
+          "det": "warpmeld-pact",
+          "kind": "stratagem",
+          "name": "Warped Vicissitude"
+        },
+        "reviewed": true,
+        "sid": "8976f591-43b5-458a-8ee9-5b0b5b3d3ef3",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "ld",
+            "value": "6+",
+            "when": null
+          }
+        ],
+        "hash": "5db4589c",
+        "kind": "wargear",
+        "name": "Pink Horrors: Daemonic Icon",
+        "ref": {
+          "item": "daemonic icon",
+          "kind": "wargear",
+          "unit": "pink-horrors"
+        },
+        "reviewed": true,
+        "sid": "79b389ec-f1c4-42b1-833d-4e1b86817377:pink-horrors",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "9fccd872",
+        "kind": "wargear",
+        "name": "Pink Horrors: Instrument of Chaos",
+        "ref": {
+          "item": "instrument of chaos",
+          "kind": "wargear",
+          "unit": "pink-horrors"
+        },
+        "reviewed": true,
+        "sid": "e77cb7d8-d6cd-472a-a771-91fee3e48bcd:pink-horrors",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "excluding CHARACTER models' weapons",
+              "ru": "кроме оружия моделей CHARACTER"
+            }
+          }
+        ],
+        "hash": "cf6f64c2",
+        "kind": "wargear",
+        "name": "Rubric Marines: Icon of Flame",
+        "ref": {
+          "item": "icon of flame",
+          "kind": "wargear",
+          "unit": "rubric-marines"
+        },
+        "reviewed": true,
+        "sid": "7c1b90fb-5b4b-499f-8f6b-52b98f115efa:rubric-marines",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "improve",
+            "stat": "ld",
+            "value": 1,
+            "when": {
+              "en": "within range of an objective you control",
+              "ru": "в зоне контролируемого objective"
+            }
+          }
+        ],
+        "hash": "9fd64a75",
+        "kind": "wargear",
+        "name": "Tzaangors: Herd banner",
+        "ref": {
+          "item": "herd banner",
+          "kind": "wargear",
+          "unit": "tzaangors"
+        },
+        "reviewed": true,
+        "sid": "9e660f68-928e-43a7-8af4-915cb722ac9c:tzaangors",
+        "ver": 925
+      }
+    ],
+    "formatVersion": 1,
+    "slug": "thousand-sons"
+  }
+}

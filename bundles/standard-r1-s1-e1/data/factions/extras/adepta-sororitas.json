@@ -1,0 +1,10 @@
+{
+  "default": {
+    "enh:penitent-host:Catechism of Divine Penitence": [
+      {
+        "en": "In the Declare Battle Formations step, the bearer can be attached to a Repentia Squad unit.",
+        "ru": "В шаге объявления боевых построений носитель может быть прикреплён к юниту Repentia Squad."
+      }
+    ]
+  }
+}

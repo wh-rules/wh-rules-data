@@ -1,0 +1,2773 @@
+{
+  "default": {
+    "allies": [
+      {
+        "ids": [
+          "chaos-knights:chaos-acastus-knight-asterius",
+          "chaos-knights:chaos-acastus-knight-porphyrion",
+          "chaos-knights:chaos-cerastus-knight-acheron",
+          "chaos-knights:chaos-cerastus-knight-atrapos",
+          "chaos-knights:chaos-cerastus-knight-castigator",
+          "chaos-knights:chaos-cerastus-knight-lancer",
+          "chaos-knights:chaos-questoris-knight-magaera",
+          "chaos-knights:chaos-questoris-knight-styrix",
+          "chaos-knights:knight-abominant",
+          "chaos-knights:knight-desecrator",
+          "chaos-knights:knight-despoiler",
+          "chaos-knights:knight-rampager",
+          "chaos-knights:knight-ruinator",
+          "chaos-knights:knight-tyrant",
+          "chaos-knights:war-dog-brigand",
+          "chaos-knights:war-dog-executioner",
+          "chaos-knights:war-dog-huntsman",
+          "chaos-knights:war-dog-karnivore",
+          "chaos-knights:war-dog-moirax",
+          "chaos-knights:war-dog-stalker"
+        ],
+        "key": "chaos-knights",
+        "lim": {
+          "Titanic": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "War Dog": {
+            "incursion": 3,
+            "onslaught": 3,
+            "strike-force": 3
+          }
+        },
+        "mutex": 1,
+        "name": "Chaos Knights"
+      },
+      {
+        "dets": [
+          "Carnival of Excess"
+        ],
+        "ids": [
+          "daemonettes",
+          "fiends",
+          "keeper-of-secrets",
+          "seekers",
+          "shalaxi-helbane"
+        ],
+        "key": "legions-of-excess",
+        "name": "Legions of Excess",
+        "pts": {
+          "incursion": 500,
+          "onslaught": 1500,
+          "strike-force": 1000
+        }
+      },
+      {
+        "ids": [
+          "chaos-titan-legions:chaos-reaver-titan",
+          "chaos-titan-legions:chaos-warbringer-nemesis-titan",
+          "chaos-titan-legions:chaos-warhound-titan",
+          "chaos-titan-legions:chaos-warlord-titan"
+        ],
+        "key": "titanicus-traitoris",
+        "lim": {
+          "Reaver Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warbringer Nemesis Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warhound Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warlord Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          }
+        },
+        "mutex": 1,
+        "name": "Titanicus Traitoris"
+      }
+    ],
+    "detachments": [
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Empyric Suffusion",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Dark Blessings",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Possessed Blade",
+            "pts": 35,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Warp Walker",
+            "pts": 35,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              },
+              {
+                "kw": [
+                  "Keeper of Secrets"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Disruption",
+          "Priority Assets"
+        ],
+        "name": "Carnival of Excess",
+        "sid": "31349652-6a08-46a0-a5ec-5d4533f0a8ae"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Pledge of Eternal Servitude",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Pledge of Dark Glory",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Pledge of Mortal Pain",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Pledge of Unholy Fortune",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets",
+          "Purge the Foe"
+        ],
+        "name": "Coterie of the Conceited",
+        "sid": "f4f83a5e-36a7-49fd-950b-0ceb188b5c94"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Tears of the Phoenix",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "attach": [
+              {
+                "to": "flawless-blades",
+                "type": "leader"
+              }
+            ],
+            "name": "Exalted Patron",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Lord Exultant"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Soulstain Made Manifest",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Spiritsliver",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ],
+                "kw": [
+                  "Daemon Prince"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Court of the Phoenician",
+        "sid": "e3a3d467-28af-4e25-938b-42f48c64e8f5"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Cacophonic Accompaniment",
+            "pts": 20,
+            "req": [
+              {
+                "ds": "Lord Kakophonist",
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "limit": 3,
+            "name": "Frenzied Ferocity (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ],
+                "kw": [
+                  "Terminator Squad"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Elegant Brutes",
+        "sid": "3b9f3326-5025-4194-9a40-dec121410c32"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Euphoric Crown",
+            "pts": 20,
+            "req": [
+              {
+                "ds": "Lord Exultant",
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Howling Plate",
+            "pts": 20,
+            "req": [
+              {
+                "ds": "Lord Exultant",
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Frenzied Host",
+        "sid": "235629e4-405f-40db-b393-9f71e1c6e3ea"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Steeped in Suffering",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Intoxicating Musk",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Tactical Perfection",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Loathsome Dexterity",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Mercurial Host",
+        "sid": "bea6576c-a423-4a9d-b9c9-6b3a10703a99"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Faultless Opportunist",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Blinding Speed",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Distortion",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Rise to the Challenge",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Peerless Bladesmen",
+        "sid": "af3fd326-fe1e-4023-a354-ed0f546ae6ff"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Sublime Prescience",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Spearhead Striker",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Accomplished Tactician",
+            "pts": 35,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Heretek Adept",
+            "pts": 35,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Disruption"
+        ],
+        "name": "Rapid Evisceration",
+        "sid": "b89874ea-c08b-40c4-891d-dcdd2277595d"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Eager to Prove",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Repulsed by Weakness",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Proud and Vainglorious",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Slayer of Champions",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Slaanesh’s Chosen",
+        "sid": "046a17d6-1408-4e06-b8b7-55a367a74c97"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "limit": 3,
+            "name": "Eager Patrons (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 20,
+            "req": [
+              {
+                "ds": "Flawless Blades",
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "limit": 3,
+            "name": "Beguiling Grotesquerie (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "ds": "Flawless Blades",
+                "fac": [
+                  "Emperor’s Children"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Disruption"
+        ],
+        "name": "Spectacle of Slaughter",
+        "sid": "29bc9dbe-2bac-48f6-a496-955ee9c377df"
+      }
+    ],
+    "name": "Emperor’s Children",
+    "slug": "emperors-children",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                553,
+                1
+              ],
+              [
+                972,
+                1
+              ],
+              [
+                1033,
+                2
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Emperor’s Children"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1027
+              ],
+              [
+                1034
+              ]
+            ],
+            "t": 186
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1035
+              ]
+            ],
+            "t": 369
+          }
+        ],
+        "id": "chaos-land-raider",
+        "kws": [
+          "Chaos",
+          "Frame",
+          "Land Raider",
+          "Slaanesh",
+          "Smoke",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Chaos Land Raider",
+        "sid": "fa9a401a-43b2-410d-b320-55ed14d79d34",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 210
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1027,
+                1
+              ],
+              [
+                34,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Emperor’s Children"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1027
+              ],
+              [
+                1034
+              ]
+            ],
+            "t": 186
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1035
+              ]
+            ],
+            "t": 379
+          }
+        ],
+        "id": "chaos-rhino",
+        "kws": [
+          "Chaos",
+          "Dedicated Transport",
+          "Frame",
+          "Rhino",
+          "Slaanesh",
+          "Smoke",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Chaos Rhino",
+        "sid": "a2e5f8c1-cd48-456c-b390-064b081274f7",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 70
+          }
+        ],
+        "step": {
+          "at": 4,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1025,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Emperor’s Children"
+        ],
+        "flags": {},
+        "id": "chaos-spawn",
+        "kws": [
+          "Beast",
+          "Chaos",
+          "Chaos Spawn",
+          "Slaanesh"
+        ],
+        "linked": 1,
+        "name": "Chaos Spawn",
+        "sid": "da140446-2a31-49d2-aa65-896d089a1344",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              2,
+              2
+            ],
+            "pts": 70
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                1027,
+                1
+              ],
+              [
+                1029,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                1027,
+                1
+              ],
+              [
+                1029,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Emperor’s Children"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                528
+              ],
+              [
+                1051
+              ]
+            ],
+            "rep": [
+              1027
+            ],
+            "t": 547
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1034
+              ]
+            ],
+            "rep": [
+              1027
+            ],
+            "repall": 1,
+            "t": 381
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1052
+              ]
+            ],
+            "rep": [
+              1027,
+              1029
+            ],
+            "t": 548
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1031
+              ]
+            ],
+            "rep": [
+              1029
+            ],
+            "t": 549
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1053
+              ]
+            ],
+            "rep": [
+              1029
+            ],
+            "t": 550
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                1034
+              ]
+            ],
+            "rep": [
+              1027
+            ],
+            "t": 381
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                1052
+              ]
+            ],
+            "rep": [
+              1027,
+              1029
+            ],
+            "t": 548
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                1031
+              ]
+            ],
+            "rep": [
+              1029
+            ],
+            "t": 549
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                1053
+              ]
+            ],
+            "rep": [
+              1029
+            ],
+            "t": 550
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "chaos-terminators",
+        "kws": [
+          "Chaos",
+          "Infantry",
+          "Slaanesh",
+          "Terminator",
+          "Terminator Squad"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Terminator Champion"
+          },
+          {
+            "n": "Chaos Terminator"
+          }
+        ],
+        "name": "Chaos Terminators",
+        "pools": [
+          {
+            "g": [
+              1,
+              5
+            ]
+          },
+          {
+            "g": [
+              2,
+              6
+            ],
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ]
+          },
+          {
+            "g": [
+              3,
+              7
+            ],
+            "lim": [
+              [
+                0,
+                3
+              ]
+            ]
+          },
+          {
+            "g": [
+              4,
+              8
+            ],
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ]
+          }
+        ],
+        "sid": "0cffa359-e5a4-43cd-a1a0-f7b26065d1f7",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 155
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                878,
+                1
+              ],
+              [
+                1476,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Emperor’s Children"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "daemon-prince-of-slaanesh",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Daemon Prince",
+          "Monster",
+          "Slaanesh"
+        ],
+        "linked": 1,
+        "name": "Daemon Prince of Slaanesh",
+        "sid": "b1d45f59-9bb3-41eb-bce0-dd6548a271d1",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 165
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                878,
+                1
+              ],
+              [
+                1476,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Emperor’s Children"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "daemon-prince-of-slaanesh-with-wings",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Daemon Prince with Wings",
+          "Fly",
+          "Monster",
+          "Slaanesh"
+        ],
+        "linked": 1,
+        "name": "Daemon Prince of Slaanesh with Wings",
+        "sid": "2a0b661b-4c6c-4393-8735-c36b2ae0b79c",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 205
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                877,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                877,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legions of Excess"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "cond": [
+              1,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                858
+              ]
+            ],
+            "t": 336
+          },
+          {
+            "cond": [
+              0,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                859
+              ]
+            ],
+            "t": 337
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "daemonettes",
+        "kws": [
+          "Battleline",
+          "Chaos",
+          "Daemon",
+          "Daemonettes",
+          "Infantry",
+          "Slaanesh",
+          "Summoned"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Alluress"
+          },
+          {
+            "n": "Daemonette"
+          }
+        ],
+        "name": "Daemonettes",
+        "sid": "a975eaf3-5caa-41b6-8b08-aa797d298651",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1066,
+                2
+              ],
+              [
+                1067,
+                1
+              ],
+              [
+                1068,
+                1
+              ],
+              [
+                1069,
+                1
+              ],
+              [
+                1497,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Emperor’s Children"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1071
+              ]
+            ],
+            "rep": [
+              1069
+            ],
+            "t": 390
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1072,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1066
+            ],
+            "t": 391
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1073,
+                15
+              ],
+              [
+                1074,
+                15
+              ],
+              [
+                1075
+              ]
+            ],
+            "rep": [
+              1067
+            ],
+            "t": 392
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1073,
+                15
+              ],
+              [
+                1074,
+                15
+              ],
+              [
+                1075
+              ]
+            ],
+            "rep": [
+              1068
+            ],
+            "t": 393
+          }
+        ],
+        "id": "defiler",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Defiler",
+          "Slaanesh",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Defiler",
+        "sid": "7f8b3a16-ae4a-4955-ab14-ad95402c4baf",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 300
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 50
+        }
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                882,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                882,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legions of Excess"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "fiends",
+        "kws": [
+          "Beast",
+          "Chaos",
+          "Daemon",
+          "Fiends",
+          "Slaanesh",
+          "Summoned"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Blissbringer"
+          },
+          {
+            "n": "Fiend"
+          }
+        ],
+        "name": "Fiends",
+        "sid": "e3667db1-2985-4c0f-9c76-1f8b29cab06d",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 90
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                3,
+                5
+              ]
+            ],
+            "per": [
+              4,
+              6
+            ],
+            "pts": 190
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1026,
+                1
+              ],
+              [
+                1477,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Emperor’s Children"
+        ],
+        "flags": {},
+        "id": "flawless-blades",
+        "kws": [
+          "Chaos",
+          "Flawless Blades",
+          "Grenades",
+          "Infantry",
+          "Slaanesh"
+        ],
+        "linked": 1,
+        "name": "Flawless Blades",
+        "sid": "9e3e0b01-cb93-4805-95da-a58f79847f80",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 95
+          },
+          {
+            "per": [
+              4,
+              6
+            ],
+            "pts": 190
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1478,
+                1
+              ],
+              [
+                1479,
+                1
+              ],
+              [
+                1480,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Emperor’s Children"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "supreme": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "fulgrim",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Epic Hero",
+          "Fly",
+          "Fulgrim",
+          "Mobile",
+          "Monster",
+          "Primarch",
+          "Slaanesh"
+        ],
+        "linked": 1,
+        "name": "Fulgrim",
+        "sid": "47ba51e2-31fe-4e48-b504-0c6e3c06e078",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 340
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1084,
+                1
+              ],
+              [
+                1103,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Emperor’s Children"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1104
+              ]
+            ],
+            "rep": [
+              1084
+            ],
+            "t": 405
+          }
+        ],
+        "id": "heldrake",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Fly",
+          "Heldrake",
+          "Slaanesh",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Heldrake",
+        "sid": "aa557e43-c4aa-49b3-95f2-fe9cc0f3b7a2",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 175
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1026,
+                1
+              ],
+              [
+                1481,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                1026,
+                1
+              ],
+              [
+                1482,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Emperor’s Children"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                11
+              ]
+            ],
+            "rep": [
+              1026
+            ],
+            "t": 551
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1483
+              ]
+            ],
+            "rep": [
+              1481
+            ],
+            "t": 552
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1484
+              ]
+            ],
+            "t": 553
+          }
+        ],
+        "id": "infractors",
+        "kws": [
+          "Battleline",
+          "Chaos",
+          "Grenades",
+          "Infantry",
+          "Infractors",
+          "Slaanesh"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Obsessionist"
+          },
+          {
+            "n": "Infractor"
+          }
+        ],
+        "name": "Infractors",
+        "sid": "1e499e1b-c84c-4d9c-88ab-2318e4178840",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 95
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 175
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                906,
+                1
+              ],
+              [
+                905,
+                1
+              ],
+              [
+                907,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legions of Excess"
+        ],
+        "flags": {
+          "char": 1,
+          "noWarlord": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                908
+              ],
+              [
+                909
+              ],
+              [
+                910
+              ]
+            ],
+            "t": 186
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "keeper-of-secrets",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Keeper of Secrets",
+          "Monster",
+          "Psyker",
+          "Slaanesh",
+          "Summoned"
+        ],
+        "linked": 1,
+        "name": "Keeper of Secrets",
+        "sid": "7ea7ecb2-8a8f-4b0c-a9a4-6d60bbbf939d",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 265
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1047,
+                1
+              ],
+              [
+                25,
+                1
+              ],
+              [
+                1485,
+                1
+              ],
+              [
+                1486,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Emperor’s Children"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1045
+              ],
+              [
+                1487
+              ]
+            ],
+            "rep": [
+              25
+            ],
+            "t": 554
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1488
+              ],
+              [
+                1489
+              ]
+            ],
+            "rep": [
+              1485
+            ],
+            "t": 555
+          }
+        ],
+        "id": "lord-exultant",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Grenades",
+          "Infantry",
+          "Lord Exultant",
+          "Slaanesh"
+        ],
+        "leads": [
+          {
+            "to": "infractors",
+            "type": "leader"
+          },
+          {
+            "to": "tormentors",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Lord Exultant",
+        "sid": "d0f47aa4-8756-4bca-a37e-126430f1938f",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 95
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1489,
+                1
+              ],
+              [
+                1490,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Emperor’s Children"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1489,
+                    1
+                  ],
+                  [
+                    1486,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1490
+            ],
+            "t": 556
+          }
+        ],
+        "id": "lord-kakophonist",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Grenades",
+          "Infantry",
+          "Lord Kakophonist",
+          "Slaanesh"
+        ],
+        "leads": [
+          {
+            "to": "noise-marines",
+            "type": "leader"
+          },
+          {
+            "to": "chaos-terminators",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Lord Kakophonist",
+        "sid": "c816ad8a-16de-491d-8bf8-e7a00287e743",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 70
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1491,
+                1
+              ],
+              [
+                1492,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Emperor’s Children"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "lucius-the-eternal",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Epic Hero",
+          "Infantry",
+          "Lucius the Eternal",
+          "Slaanesh"
+        ],
+        "leads": [
+          {
+            "to": "flawless-blades",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Lucius the Eternal",
+        "sid": "73c2bc6e-aa93-4ba0-adaa-3bbd3a4aac79",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 130
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1137,
+                1
+              ],
+              [
+                1136,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Emperor’s Children"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1138,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1137
+            ],
+            "t": 416
+          }
+        ],
+        "id": "maulerfiend",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Maulerfiend",
+          "Slaanesh",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Maulerfiend",
+        "sid": "17a6152b-fa87-482c-8fe8-059169f17ebc",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 120
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1493,
+                1
+              ],
+              [
+                1028,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                1493,
+                1
+              ],
+              [
+                1028,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Emperor’s Children"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1494
+              ]
+            ],
+            "rep": [
+              1493
+            ],
+            "t": 557
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1495,
+                    1
+                  ],
+                  [
+                    1496,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1493
+            ],
+            "t": 558
+          }
+        ],
+        "id": "noise-marines",
+        "kws": [
+          "Chaos",
+          "Infantry",
+          "Noise Marines",
+          "Slaanesh"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Disharmonist"
+          },
+          {
+            "n": "Noise Marine"
+          }
+        ],
+        "name": "Noise Marines",
+        "sid": "0f5fb27c-3164-4a0e-984e-1c13a15b1501",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5
+              ]
+            ],
+            "default": 1,
+            "per": [
+              6,
+              6
+            ],
+            "pts": 160
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                877,
+                1
+              ],
+              [
+                926,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                877,
+                1
+              ],
+              [
+                926,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legions of Excess"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "cond": [
+              1,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                858
+              ]
+            ],
+            "t": 346
+          },
+          {
+            "cond": [
+              0,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                859
+              ]
+            ],
+            "t": 347
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "seekers",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Mounted",
+          "Seekers",
+          "Slaanesh",
+          "Summoned"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Heartseeker"
+          },
+          {
+            "n": "Seeker"
+          }
+        ],
+        "name": "Seekers",
+        "sid": "cae4be89-9f85-4977-921a-d9fbb443d8e5",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 85
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 155
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                927,
+                1
+              ],
+              [
+                905,
+                1
+              ],
+              [
+                928,
+                1
+              ],
+              [
+                929,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legions of Excess"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "noWarlord": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "shalaxi-helbane",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Epic Hero",
+          "Monster",
+          "Psyker",
+          "Shalaxi Helbane",
+          "Slaanesh",
+          "Summoned"
+        ],
+        "linked": 1,
+        "name": "Shalaxi Helbane",
+        "sid": "10ee530b-16d0-4bd2-9e36-014321ec4f18",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 315
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1498,
+                1
+              ],
+              [
+                1026,
+                1
+              ],
+              [
+                1499,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Emperor’s Children"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "sorcerer",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Grenades",
+          "Infantry",
+          "Psyker",
+          "Slaanesh",
+          "Sorcerer"
+        ],
+        "leads": [
+          {
+            "to": "infractors",
+            "type": "leader"
+          },
+          {
+            "to": "noise-marines",
+            "type": "leader"
+          },
+          {
+            "to": "tormentors",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Sorcerer",
+        "sid": "adc61f9c-f4d7-45f0-bd90-7bce5068edc8",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 55
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1500,
+                1
+              ],
+              [
+                1496,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                1501,
+                1
+              ],
+              [
+                1028,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Emperor’s Children"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1502
+              ]
+            ],
+            "rep": [
+              1500
+            ],
+            "t": 559
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1503
+              ]
+            ],
+            "rep": [
+              1496
+            ],
+            "t": 552
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                5,
+                1
+              ],
+              [
+                10,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1504
+              ]
+            ],
+            "rep": [
+              1501
+            ],
+            "t": 560
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                5,
+                1
+              ],
+              [
+                10,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1505
+              ]
+            ],
+            "rep": [
+              1501
+            ],
+            "t": 561
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1484
+              ]
+            ],
+            "t": 562
+          }
+        ],
+        "id": "tormentors",
+        "kws": [
+          "Battleline",
+          "Chaos",
+          "Grenades",
+          "Infantry",
+          "Slaanesh",
+          "Tormentors"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Obsessionist"
+          },
+          {
+            "n": "Tormentor"
+          }
+        ],
+        "name": "Tormentors",
+        "sid": "2f3284f3-ae67-4149-bd7a-d7274f736148",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 85
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 170
+          }
+        ]
+      }
+    ]
+  }
+}

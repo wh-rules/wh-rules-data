@@ -1,0 +1,873 @@
+{
+  "default": {
+    "entries": [
+      {
+        "det": null,
+        "effects": [],
+        "hash": "b0edcf64",
+        "kind": "ability",
+        "name": "Chaplain Grimaldus: Banner of the Emperor Victorious",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "Temple Relics",
+          "unit": "chaplain-grimaldus"
+        },
+        "reviewed": true,
+        "sid": "59d945ec-804c-4102-a605-56a0118a71cf:chaplain-grimaldus",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "value": 1,
+            "when": {
+              "en": "while this ability is the one selected",
+              "ru": "пока выбрана эта способность"
+            }
+          },
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "while this ability is the one selected",
+              "ru": "пока выбрана эта способность"
+            }
+          }
+        ],
+        "hash": "4b39a6c7",
+        "kind": "ability",
+        "name": "Chaplain Grimaldus: Column from the Major Altar",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "Temple Relics",
+          "unit": "chaplain-grimaldus"
+        },
+        "reviewed": true,
+        "sid": "d00defdb-5b72-458d-9466-ef66920ccc28:chaplain-grimaldus",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "while this ability is the one selected",
+              "ru": "пока выбрана эта способность"
+            }
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "target": "led",
+            "value": -1,
+            "when": {
+              "en": "while this ability is the one selected",
+              "ru": "пока выбрана эта способность"
+            }
+          }
+        ],
+        "hash": "f6935370",
+        "kind": "ability",
+        "name": "Chaplain Grimaldus: Water from the Stoup of Elucidation",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "Temple Relics",
+          "unit": "chaplain-grimaldus"
+        },
+        "reviewed": true,
+        "sid": "c92df324-a537-4627-8ce0-047ca504a13f:chaplain-grimaldus",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "once": {
+              "dur": "battle",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "oc",
+            "value": 5,
+            "when": {
+              "en": "once per battle, for the rest of the battle after this unit's melee attacks destroyed an enemy unit",
+              "ru": "раз за битву, до конца битвы после того, как атаки ближнего боя отряда уничтожили вражеский отряд"
+            }
+          }
+        ],
+        "hash": "921a241c",
+        "kind": "ability",
+        "name": "Crusade Ancient: Martial Honour (Once per battle, per unit)",
+        "ref": {
+          "kind": "ability",
+          "unit": "crusade-ancient"
+        },
+        "reviewed": true,
+        "sid": "15934067-ee3a-4a27-be55-e48174fb7c50:crusade-ancient",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "962a1086",
+        "kind": "ability",
+        "name": "Emperor's Champion Vedrenn: Deft Riposte",
+        "ref": {
+          "kind": "ability",
+          "unit": "emperors-champion-vedrenn"
+        },
+        "reviewed": true,
+        "sid": "779876f3-6817-4bb8-92c1-291b6af94dd5:emperors-champion-vedrenn",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "c34ba455",
+        "kind": "ability",
+        "name": "Emperor's Champion: Armour of Faith",
+        "ref": {
+          "kind": "ability",
+          "unit": "emperors-champion"
+        },
+        "reviewed": true,
+        "sid": "d5a1bd8e-1443-464f-ab24-62282f44a1a1:emperors-champion",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "against targets other than MONSTER and VEHICLE",
+              "ru": "по целям кроме MONSTER и VEHICLE"
+            }
+          }
+        ],
+        "hash": "b78ddc8d",
+        "kind": "ability",
+        "name": "Gladiator Reaper: Reaping Tally",
+        "ref": {
+          "kind": "ability",
+          "unit": "gladiator-reaper"
+        },
+        "reviewed": true,
+        "sid": "3c0da470-0cea-498b-bd7f-4cfd39096821:gladiator-reaper",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "against targets within 12\"",
+              "ru": "по целям в пределах 12\""
+            }
+          }
+        ],
+        "hash": "48e040f9",
+        "kind": "ability",
+        "name": "Gladiator Valiant: Priority Target Acquisition",
+        "ref": {
+          "kind": "ability",
+          "unit": "gladiator-valiant"
+        },
+        "reviewed": true,
+        "sid": "d4c4e50a-1e1d-4600-879f-6796c47a3be9:gladiator-valiant",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "target": "led",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "target": "led",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "606ee9a2",
+        "kind": "ability",
+        "name": "High Marshal Helbrecht: Crusade of Wrath",
+        "ref": {
+          "kind": "ability",
+          "unit": "high-marshal-helbrecht"
+        },
+        "reviewed": true,
+        "sid": "3a103fb4-037a-46de-a6e2-19912dd379ab:high-marshal-helbrecht",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "0b6926a9",
+        "kind": "ability",
+        "name": "Marshal: Inspirational Exemplar",
+        "ref": {
+          "kind": "ability",
+          "unit": "marshal"
+        },
+        "reviewed": true,
+        "sid": "3339357d-f03a-44e3-b86a-7cb15fda0cbc:marshal",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "when this unit is selected to fight, per enemy unit within 6\" of this model, up to +3",
+              "ru": "когда отряд выбран для боя, за каждый вражеский отряд в пределах 6\" от модели, максимум +3"
+            }
+          }
+        ],
+        "hash": "9f8c4a8e",
+        "kind": "ability",
+        "name": "Marshal: Pious Fervour",
+        "ref": {
+          "kind": "ability",
+          "unit": "marshal"
+        },
+        "reviewed": true,
+        "sid": "80540ddc-3e20-40cd-9acb-2bddfe628e63:marshal",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a unit not below half-strength",
+              "ru": "против отряда не ниже половины численности"
+            }
+          }
+        ],
+        "hash": "16abc8ed",
+        "kind": "ability",
+        "name": "Repulsor Executioner: Executioner",
+        "ref": {
+          "kind": "ability",
+          "unit": "repulsor-executioner"
+        },
+        "reviewed": true,
+        "sid": "9ef24f95-18b7-46ba-81bd-8d1db46463a4:repulsor-executioner",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "doctrine-devastator"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": {
+              "en": "while the Devastator Doctrine is active for this unit",
+              "ru": "пока для отряда активна Devastator Doctrine"
+            }
+          }
+        ],
+        "hash": "4b1af9f6",
+        "kind": "armyRule",
+        "name": "Combat Doctrines",
+        "ref": {
+          "kind": "armyRule"
+        },
+        "reviewed": true,
+        "sid": "3862d461-661e-4a36-a62f-960ed8c8d1b3",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "while the Accept any Challenge Vow is active, if the attack’s Strength is not greater than the target’s Toughness",
+              "ru": "при обете Accept any Challenge, если S атаки не больше T цели"
+            }
+          }
+        ],
+        "hash": "335409cc",
+        "kind": "armyRule",
+        "name": "Templar Vows",
+        "ref": {
+          "kind": "armyRule"
+        },
+        "reviewed": true,
+        "sid": "8e6d6b91-009d-47d1-81d7-390c60556cb3",
+        "ver": 925
+      },
+      {
+        "det": "Marshal's Household",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "in the Fight phase, while this unit is within range of an objective",
+              "ru": "в фазе боя, пока отряд в зоне объекта"
+            }
+          }
+        ],
+        "hash": "6df3f2ce",
+        "kind": "detachmentRule",
+        "name": "Faith-fuelled Resolve",
+        "ref": {
+          "det": "marshals-household",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "098752f4-cb9f-49b0-99b0-b43acb2eaae9",
+        "ver": 963
+      },
+      {
+        "det": "Vow-sworn Crusaders",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "while Abhor the Witch, Destroy the Witch is the selected Vow, against PSYKER targets",
+              "ru": "пока выбран обет Abhor the Witch, Destroy the Witch, по целям PSYKER"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LANCE",
+            "when": {
+              "en": "while Abhor the Witch, Destroy the Witch is the selected Vow, against PSYKER targets",
+              "ru": "пока выбран обет Abhor the Witch, Destroy the Witch, по целям PSYKER"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "while Accept Any Challenge, No Matter the Odds is the selected Vow, against a target whose T is greater than this unit's S",
+              "ru": "пока выбран обет Accept Any Challenge, No Matter the Odds, по цели с T больше S отряда"
+            }
+          },
+          {
+            "cond": [
+              "vow-abhor-the-witch"
+            ],
+            "op": "state",
+            "when": {
+              "en": "the Vow selected at the start of the battle",
+              "ru": "обет, выбранный в начале битвы"
+            }
+          },
+          {
+            "cond": [
+              "vow-accept-any-challenge"
+            ],
+            "op": "state",
+            "when": {
+              "en": "the Vow selected at the start of the battle",
+              "ru": "обет, выбранный в начале битвы"
+            }
+          },
+          {
+            "cond": [
+              "vow-uphold-the-honour"
+            ],
+            "op": "state",
+            "when": {
+              "en": "the Vow selected at the start of the battle",
+              "ru": "обет, выбранный в начале битвы"
+            }
+          }
+        ],
+        "hash": "2a40112f",
+        "kind": "detachmentRule",
+        "name": "Templar Vows",
+        "ref": {
+          "det": "vow-sworn-crusaders",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "3297f350-ebf3-408d-b23c-bc4dd7a46806",
+        "ver": 963
+      },
+      {
+        "det": "Marshal's Household",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Fights First",
+            "when": null
+          }
+        ],
+        "hash": "f078ef24",
+        "kind": "enhancement",
+        "name": "Inheritors of Sigismund (Upgrade)",
+        "ref": {
+          "det": "marshals-household",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "f5cbc8d3-b4dd-46d6-91cd-1932a8619287",
+        "ver": 963
+      },
+      {
+        "det": "Vow-sworn Crusaders",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "led",
+            "value": "5+",
+            "when": null
+          }
+        ],
+        "hash": "32e6e9d7",
+        "kind": "enhancement",
+        "name": "Consecrating Aura",
+        "ref": {
+          "det": "vow-sworn-crusaders",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "660c6d80-149d-439c-b97f-9a7a73c312a3",
+        "ver": 995
+      },
+      {
+        "det": "Vow-sworn Crusaders",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "target": "led",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "1bb95d08",
+        "kind": "enhancement",
+        "name": "Incendiary Animus",
+        "ref": {
+          "det": "vow-sworn-crusaders",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "8a090713-6f7b-4c83-955e-9753324d5366",
+        "ver": 963
+      },
+      {
+        "det": "Vow-sworn Crusaders",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Scouts 6\"",
+            "when": null
+          }
+        ],
+        "hash": "ab39e72d",
+        "kind": "enhancement",
+        "name": "Zealous Vanguard",
+        "ref": {
+          "det": "vow-sworn-crusaders",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "9fc487e7-0a5d-4d0f-ab51-c4b81cf25fe2",
+        "ver": 963
+      },
+      {
+        "det": "Vow-Sworn of Vedrenn",
+        "effects": [
+          {
+            "on": "profile",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "set",
+            "stat": "inv",
+            "target": "unit",
+            "value": "4+",
+            "when": {
+              "en": "once per battle, when an enemy unit targets this unit",
+              "ru": "раз за битву, когда вражеский отряд выбирает этот отряд целью"
+            }
+          }
+        ],
+        "hash": "90f238b8",
+        "kind": "enhancement",
+        "name": "Divine Protection",
+        "ref": {
+          "det": "cp:black-templars",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "10713481-e8fb-4559-8b59-8a38784a7bf3",
+        "ver": 995
+      },
+      {
+        "det": "Fist of the God-Emperor",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "ed2665e0",
+        "kind": "stratagem",
+        "name": "Angels Defiant",
+        "ref": {
+          "det": "fist-of-the-god-emperor",
+          "kind": "stratagem",
+          "name": "Angels Defiant"
+        },
+        "reviewed": true,
+        "sid": "b0325e80-b3d5-4c14-9e6a-143793ff2a4d",
+        "ver": 995
+      },
+      {
+        "det": "Fist of the God-Emperor",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "avowed-lethal"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "if this option was picked when the stratagem was used",
+              "ru": "если при применении выбран этот вариант"
+            }
+          },
+          {
+            "cond": [
+              "avowed-sustained"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "if this option was picked when the stratagem was used",
+              "ru": "если при применении выбран этот вариант"
+            }
+          }
+        ],
+        "hash": "d046e51a",
+        "kind": "stratagem",
+        "name": "Avowed Destruction",
+        "ref": {
+          "det": "fist-of-the-god-emperor",
+          "kind": "stratagem",
+          "name": "Avowed Destruction"
+        },
+        "reviewed": true,
+        "sid": "bc719a21-f0f4-4a42-81cf-74be4ac9d9ed",
+        "ver": 963
+      },
+      {
+        "det": "Marshal's Household",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 2,
+            "when": {
+              "en": "while this stratagem is in force, against MONSTER or VEHICLE targets",
+              "ru": "пока действует стратагема, по целям MONSTER или VEHICLE"
+            }
+          }
+        ],
+        "hash": "c1571800",
+        "kind": "stratagem",
+        "name": "Slayers of Abominations",
+        "ref": {
+          "det": "marshals-household",
+          "kind": "stratagem",
+          "name": "Slayers of Abominations"
+        },
+        "reviewed": true,
+        "sid": "18cb537f-f7a5-4b99-b3e6-cc0307132a17",
+        "ver": 963
+      },
+      {
+        "det": "Vow-sworn Crusaders",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "bf79a709",
+        "kind": "stratagem",
+        "name": "For the Emperor's Honour!",
+        "ref": {
+          "det": "vow-sworn-crusaders",
+          "kind": "stratagem",
+          "name": "For the Emperor's Honour!"
+        },
+        "reviewed": true,
+        "sid": "3049dd10-948d-4042-b610-380a95a659d2",
+        "ver": 963
+      },
+      {
+        "det": "Vow-Sworn of Vedrenn",
+        "dur": "round",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "vs": "melee",
+            "when": null
+          }
+        ],
+        "hash": "53c6be56",
+        "kind": "stratagem",
+        "name": "Blessed Aura",
+        "ref": {
+          "det": "cp:black-templars",
+          "kind": "stratagem",
+          "name": "Blessed Aura"
+        },
+        "reviewed": true,
+        "sid": "db170bd4-3146-4bee-be48-9046ebededd3",
+        "ver": 995
+      },
+      {
+        "det": "Vow-Sworn of Vedrenn",
+        "effects": [],
+        "hash": "cc14164b",
+        "kind": "stratagem",
+        "name": "Come To Their Aid",
+        "ref": {
+          "det": "cp:black-templars",
+          "kind": "stratagem",
+          "name": "Come To Their Aid"
+        },
+        "reviewed": true,
+        "sid": "41258f7f-dee3-4065-93f5-83774b5da820",
+        "ver": 925
+      },
+      {
+        "det": "Vow-Sworn of Vedrenn",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": {
+              "en": "against MONSTER or VEHICLE targets",
+              "ru": "против целей MONSTER или VEHICLE"
+            }
+          }
+        ],
+        "hash": "b5bedc21",
+        "kind": "stratagem",
+        "name": "Heavy Strikes",
+        "ref": {
+          "det": "cp:black-templars",
+          "kind": "stratagem",
+          "name": "Heavy Strikes"
+        },
+        "reviewed": true,
+        "sid": "c714807c-7a5d-4b53-a1cc-a4fc6f28fd1e",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Scouts 6\"",
+            "when": null
+          }
+        ],
+        "hash": "a8a48d45",
+        "kind": "wargear",
+        "name": "Impulsor: Orbital Comms Array",
+        "ref": {
+          "item": "orbital comms array",
+          "kind": "wargear",
+          "unit": "impulsor"
+        },
+        "reviewed": true,
+        "sid": "64d82cf9-78be-4f8b-a123-c65c5d9d359c:impulsor",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "5+",
+            "when": null
+          }
+        ],
+        "hash": "56160de1",
+        "kind": "wargear",
+        "name": "Impulsor: Shield Dome",
+        "ref": {
+          "item": "shield dome",
+          "kind": "wargear",
+          "unit": "impulsor"
+        },
+        "reviewed": true,
+        "sid": "be985406-cf2d-4f9f-a2ee-8d42ee57486b:impulsor",
+        "ver": 995
+      }
+    ],
+    "formatVersion": 1,
+    "slug": "black-templars"
+  }
+}

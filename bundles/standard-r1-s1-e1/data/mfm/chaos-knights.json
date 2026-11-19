@@ -1,0 +1,479 @@
+{
+  "default": {
+    "detachments": [
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Hate-filled Dominion",
+            "points": 20
+          },
+          {
+            "name": "Pterrorshade Rookery",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Bastions of Tyranny"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Aspect of the Beast",
+            "points": 30
+          },
+          {
+            "name": "Hunter’s Helm",
+            "points": 15
+          },
+          {
+            "name": "Octagram of Conjuration",
+            "points": 40
+          },
+          {
+            "name": "Throne Tyrannicus",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Helhunt Lance"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Final Howl",
+            "points": 20
+          },
+          {
+            "name": "Loping Predator",
+            "points": 10
+          },
+          {
+            "name": "Panoply of the Cursed Knights",
+            "points": 15
+          },
+          {
+            "name": "Preyslayer’s Mantle",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Houndpack Lance"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Snarling Rivalry (Upgrade)",
+            "points": 10
+          },
+          {
+            "name": "Soul-spoor Auspicator (Upgrade)",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Hunting Warpack"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Cruel Lashmaster (Aura)",
+            "points": 25
+          },
+          {
+            "name": "Iconoclast Idol (Aura)",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Iconoclast Fiefdom"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Bestial Aspect",
+            "points": 30
+          },
+          {
+            "name": "Blasphemous Engine",
+            "points": 35
+          },
+          {
+            "name": "Fleshmetal Fusion",
+            "points": 35
+          },
+          {
+            "name": "Knight Diabolus",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets",
+          "Purge the Foe"
+        ],
+        "name": "Infernal Lance"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Blade of Celerity",
+            "points": 35
+          },
+          {
+            "name": "Blessing of the Dark Master",
+            "points": 20
+          },
+          {
+            "name": "Mirror of Fates",
+            "points": 30
+          },
+          {
+            "name": "Putrid Carapace",
+            "points": 30
+          },
+          {
+            "name": "Throne Mechanicum of Skulls",
+            "points": 25
+          },
+          {
+            "name": "Warp-borne Stalker",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Lords of Dread"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Malevolent Heraldry",
+            "points": 30
+          },
+          {
+            "name": "Nightmare’s Master",
+            "points": 20
+          },
+          {
+            "name": "Tyrant’s Shadow",
+            "points": 25
+          },
+          {
+            "name": "Veil of Medrengard",
+            "points": 35
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Traitoris Lance"
+      }
+    ],
+    "id": "chaos-knights",
+    "legends": [],
+    "name": "Chaos Knights",
+    "slug": "chaos-knights",
+    "sourceUrl": "https://mfm.warhammer-community.com/en/chaos-knights",
+    "subfactions": [],
+    "units": [
+      {
+        "name": "Chaos Acastus Knight Asterius",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 785
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 860
+          }
+        ]
+      },
+      {
+        "name": "Chaos Acastus Knight Porphyrion",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 725
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 800
+          }
+        ]
+      },
+      {
+        "name": "Chaos Cerastus Knight Acheron",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 370
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 385
+          }
+        ]
+      },
+      {
+        "name": "Chaos Cerastus Knight Atrapos",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 385
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 415
+          }
+        ]
+      },
+      {
+        "name": "Chaos Cerastus Knight Castigator",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 370
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 385
+          }
+        ]
+      },
+      {
+        "name": "Chaos Cerastus Knight Lancer",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 385
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 415
+          }
+        ]
+      },
+      {
+        "name": "Chaos Questoris Knight Magaera",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 375
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 390
+          }
+        ]
+      },
+      {
+        "name": "Chaos Questoris Knight Styrix",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 365
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 380
+          }
+        ]
+      },
+      {
+        "name": "Knight Abominant",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 350
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 370
+          }
+        ]
+      },
+      {
+        "name": "Knight Desecrator",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 350
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 370
+          }
+        ]
+      },
+      {
+        "name": "Knight Despoiler",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 360
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 390
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Despoiler gatling cannon",
+            "points": 25
+          },
+          {
+            "name": "Despoiler battle cannon",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Knight Rampager",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 350
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 370
+          }
+        ]
+      },
+      {
+        "name": "Knight Ruinator",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 325
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 345
+          }
+        ]
+      },
+      {
+        "name": "Knight Tyrant",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 390
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 410
+          }
+        ]
+      },
+      {
+        "name": "War Dog Brigand",
+        "options": [
+          {
+            "models": 1,
+            "points": 135
+          }
+        ]
+      },
+      {
+        "name": "War Dog Executioner",
+        "options": [
+          {
+            "models": 1,
+            "points": 130
+          }
+        ]
+      },
+      {
+        "name": "War Dog Huntsman",
+        "options": [
+          {
+            "models": 1,
+            "points": 135
+          }
+        ]
+      },
+      {
+        "name": "War Dog Karnivore",
+        "options": [
+          {
+            "models": 1,
+            "points": 145
+          }
+        ]
+      },
+      {
+        "name": "War Dog Moirax",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 150
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 160
+          }
+        ]
+      },
+      {
+        "name": "War Dog Stalker",
+        "options": [
+          {
+            "models": 1,
+            "points": 135
+          }
+        ]
+      }
+    ]
+  }
+}

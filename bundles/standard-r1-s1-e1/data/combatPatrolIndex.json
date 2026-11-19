@@ -1,0 +1,160 @@
+{
+  "combatPatrolIndex": [
+    {
+      "boxName": "Amonhotekh's Guard",
+      "id": "necrons",
+      "name": "Necrons",
+      "slug": "necrons"
+    },
+    {
+      "boxName": "Assault Force",
+      "id": "space-marines",
+      "name": "Space Marines",
+      "slug": "space-marines"
+    },
+    {
+      "boxName": "'Ardmob",
+      "id": "orks",
+      "name": "Orks",
+      "slug": "orks"
+    },
+    {
+      "boxName": "Sudden Dawn Cadre",
+      "id": "tau-empire",
+      "name": "T'au Empire",
+      "slug": "tau-empire"
+    },
+    {
+      "boxName": "Drayden's Lance",
+      "id": "astra-militarum",
+      "name": "Astra Militarum",
+      "slug": "astra-militarum"
+    },
+    {
+      "boxName": "Sanctuary Guardians",
+      "id": "adepta-sororitas",
+      "name": "Adepta Sororitas",
+      "slug": "adepta-sororitas"
+    },
+    {
+      "boxName": "Tristraen's Gilded Blades",
+      "id": "adeptus-custodes",
+      "name": "Adeptus Custodes",
+      "slug": "adeptus-custodes"
+    },
+    {
+      "boxName": "Aquilan Talon",
+      "id": "adeptus-custodes-aquilan-talon",
+      "name": "Adeptus Custodes",
+      "slug": "adeptus-custodes"
+    },
+    {
+      "boxName": "Aquilan Wing",
+      "id": "adeptus-custodes-aquilan-wing",
+      "name": "Adeptus Custodes",
+      "slug": "adeptus-custodes"
+    },
+    {
+      "boxName": "Purge Corps Deltic-9",
+      "id": "adeptus-mechanicus",
+      "name": "Adeptus Mechanicus",
+      "slug": "adeptus-mechanicus"
+    },
+    {
+      "boxName": "Inquisitor's Hand",
+      "id": "imperial-agents",
+      "name": "Imperial Agents",
+      "slug": "imperial-agents"
+    },
+    {
+      "boxName": "Kygharil's Protectors",
+      "id": "aeldari",
+      "name": "Aeldari",
+      "slug": "aeldari"
+    },
+    {
+      "boxName": "Vow-Sworn of Vedrenn",
+      "id": "black-templars",
+      "name": "Black Templars",
+      "slug": "black-templars"
+    },
+    {
+      "boxName": "Sanguinary Spearhead",
+      "id": "blood-angels",
+      "name": "Blood Angels",
+      "slug": "blood-angels"
+    },
+    {
+      "boxName": "The Vengeful Brethren",
+      "id": "dark-angels",
+      "name": "Dark Angels",
+      "slug": "dark-angels"
+    },
+    {
+      "boxName": "Maggot Lords",
+      "id": "death-guard",
+      "name": "Death Guard",
+      "slug": "death-guard"
+    },
+    {
+      "boxName": "Coven of Agonies",
+      "id": "drukhari",
+      "name": "Drukhari",
+      "slug": "drukhari"
+    },
+    {
+      "boxName": "Callous Blades",
+      "id": "emperors-children",
+      "name": "Emperor’s Children",
+      "slug": "emperors-children"
+    },
+    {
+      "boxName": "Claw of Ascension",
+      "id": "genestealer-cults",
+      "name": "Genestealer Cults",
+      "slug": "genestealer-cults"
+    },
+    {
+      "boxName": "Crowe’s Sanctifiers",
+      "id": "grey-knights",
+      "name": "Grey Knights",
+      "slug": "grey-knights"
+    },
+    {
+      "boxName": "Zarkan’s Daemonkin",
+      "id": "chaos-space-marines",
+      "name": "Chaos Space Marines",
+      "slug": "chaos-space-marines"
+    },
+    {
+      "boxName": "Bane-slayer’s Bulwark",
+      "id": "leagues-of-votann",
+      "name": "Leagues of Votann",
+      "slug": "leagues-of-votann"
+    },
+    {
+      "boxName": "Askar’s Wolfpack",
+      "id": "space-wolves",
+      "name": "Space Wolves",
+      "slug": "space-wolves"
+    },
+    {
+      "boxName": "Prism of Zadophon",
+      "id": "thousand-sons",
+      "name": "Thousand Sons",
+      "slug": "thousand-sons"
+    },
+    {
+      "boxName": "The Vardenghast Swarm",
+      "id": "tyranids",
+      "name": "Tyranids",
+      "slug": "tyranids"
+    },
+    {
+      "boxName": "Frenzied Reavers",
+      "id": "world-eaters",
+      "name": "World Eaters",
+      "slug": "world-eaters"
+    }
+  ]
+}

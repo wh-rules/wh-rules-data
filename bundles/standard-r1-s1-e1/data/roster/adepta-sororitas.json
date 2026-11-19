@@ -1,0 +1,4611 @@
+{
+  "default": {
+    "allies": [
+      {
+        "ids": [
+          "titan-legions:reaver-titan",
+          "titan-legions:warbringer-nemesis-titan",
+          "titan-legions:warhound-titan",
+          "titan-legions:warlord-titan"
+        ],
+        "key": "adeptus-titanicus",
+        "lim": {
+          "Reaver Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warbringer Nemesis Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warhound Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warlord Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          }
+        },
+        "mutex": 1,
+        "name": "Adeptus Titanicus"
+      },
+      {
+        "free": [
+          {
+            "donor": [
+              "Inquisitor"
+            ],
+            "kw": "Retinue",
+            "recv": [
+              "Inquisitorial Agents"
+            ]
+          },
+          {
+            "donor": [
+              "Character",
+              "Voidfarers"
+            ],
+            "kw": "Retinue",
+            "recv": [
+              "Voidsmen-At-Arms"
+            ]
+          }
+        ],
+        "ids": [
+          "imperial-agents:aquila-kill-team",
+          "imperial-agents:callidus-assassin",
+          "imperial-agents:corvus-blackstar",
+          "imperial-agents:culexus-assassin",
+          "imperial-agents:deathwatch-kill-team",
+          "imperial-agents:eversor-assassin",
+          "imperial-agents:exaction-squad",
+          "imperial-agents:grey-knights-terminator-squad",
+          "imperial-agents:imperial-navy-breachers",
+          "imperial-agents:imperial-rhino",
+          "imperial-agents:inquisitor",
+          "imperial-agents:inquisitor-coteaz",
+          "imperial-agents:inquisitor-draxus",
+          "imperial-agents:inquisitor-greyfax",
+          "imperial-agents:inquisitor-kroyle",
+          "imperial-agents:inquisitorial-agents",
+          "imperial-agents:inquisitorial-chimera",
+          "imperial-agents:ministorum-priest",
+          "imperial-agents:navigator",
+          "imperial-agents:rogue-trader-entourage",
+          "imperial-agents:sanctifiers",
+          "imperial-agents:sisters-of-battle-immolator",
+          "imperial-agents:sisters-of-battle-squad",
+          "imperial-agents:subductor-squad",
+          "imperial-agents:vigilant-squad",
+          "imperial-agents:vindicare-assassin",
+          "imperial-agents:voidsmen-at-arms",
+          "imperial-agents:watch-captain-artemis",
+          "imperial-agents:watch-master"
+        ],
+        "key": "agents-of-the-imperium",
+        "lim": {
+          "Character": {
+            "incursion": 1,
+            "onslaught": 3,
+            "strike-force": 2
+          },
+          "Requisitioned": {
+            "incursion": 1,
+            "onslaught": 2,
+            "strike-force": 1
+          },
+          "Retinue": {
+            "incursion": 1,
+            "onslaught": 3,
+            "strike-force": 2
+          }
+        },
+        "name": "Agents of the Imperium",
+        "up": {
+          "imperial-agents:eversor-assassin": {
+            "1": 110
+          },
+          "imperial-agents:exaction-squad": {
+            "11": 85
+          },
+          "imperial-agents:grey-knights-terminator-squad": {
+            "5": 190
+          },
+          "imperial-agents:inquisitor": {
+            "1": 65
+          },
+          "imperial-agents:inquisitor-coteaz": {
+            "1": 95
+          },
+          "imperial-agents:inquisitor-draxus": {
+            "1": 110
+          },
+          "imperial-agents:inquisitorial-agents": {
+            "6": 60,
+            "11": 120,
+            "12": 120
+          },
+          "imperial-agents:navigator": {
+            "1": 75
+          },
+          "imperial-agents:rogue-trader-entourage": {
+            "4": 105
+          },
+          "imperial-agents:sisters-of-battle-immolator": {
+            "1": 105
+          },
+          "imperial-agents:sisters-of-battle-squad": {
+            "10": 110
+          },
+          "imperial-agents:subductor-squad": {
+            "11": 100
+          },
+          "imperial-agents:vindicare-assassin": {
+            "1": 125
+          },
+          "imperial-agents:voidsmen-at-arms": {
+            "6": 70
+          }
+        }
+      },
+      {
+        "ids": [
+          "imperial-knights:acastus-knight-asterius",
+          "imperial-knights:acastus-knight-porphyrion",
+          "imperial-knights:armiger-helverin",
+          "imperial-knights:armiger-moirax",
+          "imperial-knights:armiger-warglaive",
+          "imperial-knights:canis-rex",
+          "imperial-knights:cerastus-knight-acheron",
+          "imperial-knights:cerastus-knight-atrapos",
+          "imperial-knights:cerastus-knight-castigator",
+          "imperial-knights:cerastus-knight-lancer",
+          "imperial-knights:knight-castellan",
+          "imperial-knights:knight-crusader",
+          "imperial-knights:knight-defender",
+          "imperial-knights:knight-destrier",
+          "imperial-knights:knight-errant",
+          "imperial-knights:knight-gallant",
+          "imperial-knights:knight-paladin",
+          "imperial-knights:knight-preceptor",
+          "imperial-knights:knight-valiant",
+          "imperial-knights:knight-warden",
+          "imperial-knights:questoris-knight-magaera",
+          "imperial-knights:questoris-knight-styrix"
+        ],
+        "key": "imperial-knights",
+        "lim": {
+          "Armiger": {
+            "incursion": 3,
+            "onslaught": 3,
+            "strike-force": 3
+          },
+          "Titanic": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          }
+        },
+        "mutex": 1,
+        "name": "Imperial Knights"
+      }
+    ],
+    "detachments": [
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Litanies of Faith",
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "Canoness"
+                ]
+              },
+              {
+                "kw": [
+                  "Palatine"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Blade of Saint Ellynor",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Adepta Sororitas"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Divine Aspect",
+            "pts": 5,
+            "req": [
+              {
+                "fac": [
+                  "Adepta Sororitas"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Triptych of the Macharian Crusade",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Adepta Sororitas"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Army of Faith",
+        "sid": "f3dbfd5c-d553-436f-9617-4c8269cb5b09"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Righteous Rage",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Adepta Sororitas"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Manual of Saint Griselda",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Adepta Sororitas"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Fire and Fury",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Adepta Sororitas"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Iron Surplice of Saint Istalela",
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "Palatine"
+                ]
+              },
+              {
+                "kw": [
+                  "Canoness"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Bringers of Flame",
+        "sid": "c0a5cd98-3a84-4074-ad62-b4d848d2bcf6"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Triptych of Judgement",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Adepta Sororitas"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Mark of Devotion",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Adepta Sororitas"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Eyes of the Oracle",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Adepta Sororitas"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Sanctified Amulet",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Adepta Sororitas"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Disruption"
+        ],
+        "name": "Champions of Faith",
+        "sid": "c1eaf854-a425-4cc8-b29e-557b8b89f8c1",
+        "unique": "REVEREND"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Clarion of Urgency",
+            "pts": 15,
+            "req": [
+              {
+                "ds": "Canoness with Jump Pack",
+                "fac": [
+                  "Adepta Sororitas"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "limit": 3,
+            "name": "Symphonic Payload (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 10,
+            "req": [
+              {
+                "ds": "Exorcist",
+                "fac": [
+                  "Adepta Sororitas"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Chorus of Condemnation",
+        "sid": "730c8f71-c997-4071-98f0-8aa377e762f3"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Saintly Example",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Adepta Sororitas"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Through Suffering, Strength",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Adepta Sororitas"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Chaplet of Sacrifice",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Adepta Sororitas"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Mantle of Ophelia",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Palatine"
+                ]
+              },
+              {
+                "kw": [
+                  "Canoness"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold",
+          "Priority Assets"
+        ],
+        "name": "Hallowed Martyrs",
+        "sid": "5e3bb5a9-1e75-455e-a87d-13e59948be68"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Psalm of Righteous Judgement",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Adepta Sororitas"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Verse of Holy Piety",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Penitent"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Refrain of Enduring Faith",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Penitent"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "attach": [
+              {
+                "to": "repentia-squad",
+                "type": "leader"
+              }
+            ],
+            "name": "Catechism of Divine Penitence",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Ministorum Priest"
+                ]
+              },
+              {
+                "kw": [
+                  "Palatine"
+                ]
+              },
+              {
+                "kw": [
+                  "Canoness"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Penitent Host",
+        "sid": "530ae43e-f733-4100-afdf-19d165fb9983"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "limit": 3,
+            "name": "Writ of Compunction (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 20,
+            "req": [
+              {
+                "ds": "Celestian Sacresants",
+                "fac": [
+                  "Adepta Sororitas"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "name": "Perfervid Haste",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Adepta Sororitas"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Sacred Champions",
+        "sid": "d8dfdc5f-4e0b-4233-8f2f-2ee703664afb",
+        "unique": "REVEREND"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "exclKw": [
+              "Penitent"
+            ],
+            "limit": 3,
+            "name": "Hagiomnifex (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Adepta Sororitas"
+                ],
+                "kw": [
+                  "Character"
+                ]
+              }
+            ],
+            "type": "upgrade",
+            "uncounted": 1
+          }
+        ],
+        "fds": [
+          "Disruption"
+        ],
+        "name": "Sanctified Orators",
+        "sid": "7cf2f061-bc54-4c2f-be17-2959cf840fdf"
+      }
+    ],
+    "name": "Adepta Sororitas",
+    "slug": "adepta-sororitas",
+    "units": [
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "aestred-thurga-and-agathae-dolan",
+        "kws": [
+          "Aestred Thurga",
+          "Agathae Dolan",
+          "Character",
+          "Epic Hero",
+          "Grenades",
+          "Imperium",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "battle-sisters-squad",
+            "type": "leader"
+          },
+          {
+            "to": "dominion-squad",
+            "type": "leader"
+          },
+          {
+            "to": "sisters-novitiate-squad",
+            "type": "leader"
+          },
+          {
+            "to": "retributor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "celestian-insidiants",
+            "type": "leader"
+          },
+          {
+            "to": "celestian-sacresants",
+            "type": "leader"
+          },
+          {
+            "to": "crusaders",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Aestred Thurga"
+          },
+          {
+            "n": "Agathae Dolan"
+          }
+        ],
+        "name": "Aestred Thurga and Agathae Dolan",
+        "sid": "85deb9d8-5e41-4f82-bd5b-cefc2507ef99",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              2,
+              2
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                4,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {},
+        "id": "arco-flagellants",
+        "kws": [
+          "Arco-flagellants",
+          "Imperium",
+          "Infantry",
+          "Penitent"
+        ],
+        "linked": 1,
+        "name": "Arco-flagellants",
+        "sid": "23d36c10-cb05-43f4-90e7-f0a3c494bea7",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 50
+          },
+          {
+            "per": [
+              4,
+              10
+            ],
+            "pts": 140
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            []
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "battle-sanctum",
+        "kws": [
+          "Imperium",
+          "Fortification",
+          "Towering",
+          "Frame",
+          "Battle Sanctum"
+        ],
+        "linked": 1,
+        "name": "Battle Sanctum",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 170
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                5,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                6,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                5,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                6,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1
+              ],
+              [
+                7
+              ],
+              [
+                8
+              ],
+              [
+                9
+              ],
+              [
+                10
+              ],
+              [
+                11
+              ]
+            ],
+            "rep": [
+              5
+            ],
+            "t": 1
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                12
+              ],
+              [
+                13
+              ]
+            ],
+            "t": 2
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                14
+              ],
+              [
+                15
+              ],
+              [
+                16
+              ]
+            ],
+            "rep": [
+              5
+            ],
+            "t": 3
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                14
+              ],
+              [
+                17
+              ],
+              [
+                15
+              ],
+              [
+                16
+              ],
+              [
+                18
+              ],
+              [
+                19
+              ]
+            ],
+            "rep": [
+              5
+            ],
+            "t": 3
+          },
+          {
+            "cond": [
+              2,
+              0,
+              null,
+              [
+                3
+              ]
+            ],
+            "in": "checkbox",
+            "keep": [
+              5
+            ],
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                20
+              ]
+            ],
+            "t": 4
+          }
+        ],
+        "id": "battle-sisters-squad",
+        "kws": [
+          "Battle Sisters Squad",
+          "Battleline",
+          "Grenades",
+          "Imperium",
+          "Infantry"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Sister Superior"
+          },
+          {
+            "n": "Battle Sister"
+          }
+        ],
+        "name": "Battle Sisters Squad",
+        "sid": "5a07618f-6422-4e6d-b6d8-80eb4840a2a1",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                21,
+                1
+              ],
+              [
+                22,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                23
+              ],
+              [
+                24
+              ],
+              [
+                25
+              ]
+            ],
+            "rep": [
+              22
+            ],
+            "t": 5
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                26
+              ],
+              [
+                27
+              ]
+            ],
+            "rep": [
+              21
+            ],
+            "t": 6
+          },
+          {
+            "cond": [
+              1,
+              0
+            ],
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                28
+              ],
+              [
+                29
+              ]
+            ],
+            "t": 7
+          },
+          {
+            "cond": [
+              [
+                0,
+                1,
+                [
+                  2
+                ]
+              ],
+              [
+                1,
+                1,
+                [
+                  1
+                ]
+              ]
+            ],
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                30
+              ]
+            ],
+            "t": 8
+          }
+        ],
+        "id": "canoness",
+        "kws": [
+          "Canoness",
+          "Character",
+          "Grenades",
+          "Imperium",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "celestian-insidiants",
+            "type": "leader"
+          },
+          {
+            "to": "battle-sisters-squad",
+            "type": "leader"
+          },
+          {
+            "to": "dominion-squad",
+            "type": "leader"
+          },
+          {
+            "to": "celestian-sacresants",
+            "type": "leader"
+          },
+          {
+            "to": "sisters-novitiate-squad",
+            "type": "leader"
+          },
+          {
+            "to": "retributor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "crusaders",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Canoness",
+        "sid": "ef3a1024-85ed-40bb-af68-f2f12812ee52",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                31,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    32,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    10,
+                    1
+                  ],
+                  [
+                    27,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              31
+            ],
+            "t": 9
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "canoness-with-jump-pack",
+        "kws": [
+          "Canoness",
+          "Character",
+          "Fly",
+          "Grenades",
+          "Imperium",
+          "Infantry",
+          "Jump Pack"
+        ],
+        "leads": [
+          {
+            "to": "zephyrim-squad",
+            "type": "leader"
+          },
+          {
+            "to": "seraphim-squad",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Canoness with Jump Pack",
+        "sid": "87872267-c349-4765-8c92-2c628f106da2",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 75
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                33,
+                1
+              ],
+              [
+                34,
+                1
+              ],
+              [
+                35,
+                3
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                36
+              ]
+            ],
+            "rep": [
+              33
+            ],
+            "t": 10
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                37
+              ]
+            ],
+            "t": 11
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                38
+              ]
+            ],
+            "t": 12
+          }
+        ],
+        "id": "castigator",
+        "kws": [
+          "Castigator",
+          "Frame",
+          "Imperium",
+          "Smoke",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Castigator",
+        "sid": "ba3a154d-5e41-4ccf-8afd-96ee97d5a45d",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 165
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                39,
+                1
+              ],
+              [
+                40,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                39,
+                1
+              ],
+              [
+                40,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                9
+              ]
+            ],
+            "rep": [
+              40
+            ],
+            "t": 13
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                10
+              ]
+            ],
+            "rep": [
+              40
+            ],
+            "t": 14
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                41
+              ]
+            ],
+            "rep": [
+              40,
+              39
+            ],
+            "t": 15
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                42
+              ]
+            ],
+            "rep": [
+              40,
+              39
+            ],
+            "t": 16
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                43
+              ]
+            ],
+            "rep": [
+              40
+            ],
+            "t": 17
+          },
+          {
+            "cond": [
+              1,
+              0,
+              null,
+              [
+                2,
+                3,
+                4
+              ]
+            ],
+            "in": "checkbox",
+            "keep": [
+              40
+            ],
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                20
+              ]
+            ],
+            "t": 18
+          }
+        ],
+        "id": "celestian-insidiants",
+        "kws": [
+          "Celestian",
+          "Celestian Insidiants",
+          "Grenades",
+          "Imperium",
+          "Infantry"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Celestian Insidiant Superior"
+          },
+          {
+            "n": "Celestian Insidiant"
+          }
+        ],
+        "name": "Celestian Insidiants",
+        "sid": "4aefd5ba-e31a-4f05-b0c2-b329c53073bf",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 115
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                10,
+                1
+              ],
+              [
+                3203,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "id": "celestian-sacresant-aveline",
+        "kws": [
+          "Infantry",
+          "Character",
+          "Imperium",
+          "Grenades",
+          "Epic Hero",
+          "Celestian Sacresant Aveline"
+        ],
+        "linked": 1,
+        "name": "Celestian Sacresant Aveline",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 45
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                44,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                44,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                45
+              ]
+            ],
+            "rep": [
+              44
+            ],
+            "t": 19
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                9
+              ],
+              [
+                10
+              ],
+              [
+                11
+              ]
+            ],
+            "rep": [
+              1
+            ],
+            "t": 20
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                46
+              ]
+            ],
+            "rep": [
+              44
+            ],
+            "repall": 1,
+            "t": 21
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                46
+              ]
+            ],
+            "rep": [
+              44
+            ],
+            "t": 21
+          }
+        ],
+        "id": "celestian-sacresants",
+        "kws": [
+          "Celestian",
+          "Celestian Sacresants",
+          "Grenades",
+          "Imperium",
+          "Infantry"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Sacresant Superior"
+          },
+          {
+            "n": "Celestian Sacresant"
+          }
+        ],
+        "name": "Celestian Sacresants",
+        "pools": [
+          {
+            "g": [
+              2,
+              3
+            ]
+          }
+        ],
+        "sid": "7f57f601-3fd3-441d-b9f6-dd648cc69bef",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 75
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 150
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                13,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "crusaders",
+        "kws": [
+          "Infantry",
+          "Imperium",
+          "Crusaders"
+        ],
+        "linked": 1,
+        "name": "Crusaders",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              2,
+              2
+            ],
+            "pts": 40
+          },
+          {
+            "per": [
+              3,
+              4
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                47,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                1,
+                1
+              ],
+              [
+                48,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "daemonifuge",
+        "kws": [
+          "Character",
+          "Daemonifuge",
+          "Epic Hero",
+          "Grenades",
+          "Imperium",
+          "Infantry"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Ephrael Stern"
+          },
+          {
+            "n": "Kyganil of the Bloody Tears"
+          }
+        ],
+        "name": "Daemonifuge",
+        "sid": "2bb1b8ac-84b3-40df-9e81-3b541fe5dcbb",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              2,
+              2
+            ],
+            "pts": 85
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3204,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "death-cult-assassins",
+        "kws": [
+          "Infantry",
+          "Imperium",
+          "Death Cult Assassins"
+        ],
+        "linked": 1,
+        "name": "Death Cult Assassins",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              2,
+              2
+            ],
+            "pts": 55
+          },
+          {
+            "per": [
+              3,
+              4
+            ],
+            "pts": 110
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                49,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "dialogus",
+        "kws": [
+          "Character",
+          "Dialogus",
+          "Imperium",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "celestian-insidiants",
+            "type": "support"
+          },
+          {
+            "to": "celestian-sacresants",
+            "type": "support"
+          },
+          {
+            "to": "battle-sisters-squad",
+            "type": "support"
+          },
+          {
+            "to": "retributor-squad",
+            "type": "support"
+          },
+          {
+            "to": "dominion-squad",
+            "type": "support"
+          },
+          {
+            "to": "sisters-novitiate-squad",
+            "type": "support"
+          },
+          {
+            "to": "crusaders",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Dialogus",
+        "sid": "1fd982f9-5ee4-4070-a86e-af087cbb8e7c",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 40
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                50,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "dogmata",
+        "kws": [
+          "Character",
+          "Dogmata",
+          "Grenades",
+          "Imperium",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "celestian-insidiants",
+            "type": "support"
+          },
+          {
+            "to": "celestian-sacresants",
+            "type": "support"
+          },
+          {
+            "to": "battle-sisters-squad",
+            "type": "support"
+          },
+          {
+            "to": "retributor-squad",
+            "type": "support"
+          },
+          {
+            "to": "dominion-squad",
+            "type": "support"
+          },
+          {
+            "to": "crusaders",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Dogmata",
+        "sid": "bf7f82d6-b9d8-4a9a-a7ae-bbf6d00b9cf8",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 45
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                51,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                6,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                1,
+                1
+              ],
+              [
+                51,
+                1
+              ],
+              [
+                6,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1
+              ],
+              [
+                7
+              ],
+              [
+                8
+              ],
+              [
+                9
+              ],
+              [
+                10
+              ],
+              [
+                11
+              ]
+            ],
+            "rep": [
+              51
+            ],
+            "t": 22
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                12
+              ],
+              [
+                13
+              ]
+            ],
+            "t": 23
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                4
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                52
+              ],
+              [
+                53,
+                5
+              ],
+              [
+                54
+              ]
+            ],
+            "rep": [
+              51
+            ],
+            "t": 24
+          },
+          {
+            "cond": [
+              2,
+              0
+            ],
+            "in": "checkbox",
+            "keep": [
+              51
+            ],
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                20
+              ]
+            ],
+            "t": 25
+          }
+        ],
+        "id": "dominion-squad",
+        "kws": [
+          "Dominion Squad",
+          "Grenades",
+          "Imperium",
+          "Infantry"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Dominion Superior"
+          },
+          {
+            "n": "Dominion"
+          }
+        ],
+        "name": "Dominion Squad",
+        "sid": "d8b4a7d8-0149-4ff6-903f-31bf4cfa3699",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 90
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                55,
+                1
+              ],
+              [
+                34,
+                1
+              ],
+              [
+                35,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                56
+              ]
+            ],
+            "rep": [
+              55
+            ],
+            "t": 26
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                37
+              ]
+            ],
+            "t": 11
+          }
+        ],
+        "id": "exorcist",
+        "kws": [
+          "Exorcist",
+          "Frame",
+          "Imperium",
+          "Smoke",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Exorcist",
+        "sid": "6d5e56ad-ef9f-442d-8c55-88d4f2cf878b",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 175
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 40
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1,
+                1
+              ],
+              [
+                57,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "hospitaller",
+        "kws": [
+          "Character",
+          "Hospitaller",
+          "Imperium",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "celestian-insidiants",
+            "type": "support"
+          },
+          {
+            "to": "celestian-sacresants",
+            "type": "support"
+          },
+          {
+            "to": "battle-sisters-squad",
+            "type": "support"
+          },
+          {
+            "to": "retributor-squad",
+            "type": "support"
+          },
+          {
+            "to": "dominion-squad",
+            "type": "support"
+          },
+          {
+            "to": "sisters-novitiate-squad",
+            "type": "support"
+          },
+          {
+            "to": "crusaders",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Hospitaller",
+        "sid": "d1c0bbdc-815e-4c1a-b693-f59c36fe59ec",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 65
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                58,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                5,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "imagifier",
+        "kws": [
+          "Character",
+          "Grenades",
+          "Imagifier",
+          "Imperium",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "celestian-sacresants",
+            "type": "support"
+          },
+          {
+            "to": "battle-sisters-squad",
+            "type": "support"
+          },
+          {
+            "to": "retributor-squad",
+            "type": "support"
+          },
+          {
+            "to": "dominion-squad",
+            "type": "support"
+          },
+          {
+            "to": "celestian-insidiants",
+            "type": "support"
+          },
+          {
+            "to": "crusaders",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Imagifier",
+        "sid": "c69b205d-77d6-49e9-92c7-0efb7870cef2",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 55
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                34,
+                1
+              ],
+              [
+                35,
+                1
+              ],
+              [
+                59,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                60
+              ],
+              [
+                61,
+                15
+              ]
+            ],
+            "rep": [
+              59
+            ],
+            "t": 27
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                37
+              ]
+            ],
+            "t": 11
+          }
+        ],
+        "id": "immolator",
+        "kws": [
+          "Dedicated Transport",
+          "Frame",
+          "Immolator",
+          "Imperium",
+          "Smoke",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Immolator",
+        "sid": "25fb9f2f-9f82-4f43-9ac3-99a51132fb3a",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 100
+          }
+        ],
+        "step": {
+          "at": 4,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                64,
+                1
+              ],
+              [
+                18,
+                2
+              ],
+              [
+                65,
+                2
+              ],
+              [
+                66,
+                1
+              ],
+              [
+                67,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "intranzia-fraye",
+        "kws": [
+          "Character",
+          "Epic Hero",
+          "Imperium",
+          "Intranzia Fraye",
+          "Penitent",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Intranzia Fraye",
+        "sid": "3ff1c1c4-f11b-48e8-bc70-34f72e623409",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 135
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                62,
+                1
+              ],
+              [
+                63,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "junith-eruita",
+        "kws": [
+          "Character",
+          "Epic Hero",
+          "Fly",
+          "Imperium",
+          "Junith Eruita",
+          "Mounted"
+        ],
+        "leads": [
+          {
+            "to": "celestian-sacresants",
+            "type": "leader"
+          },
+          {
+            "to": "dominion-squad",
+            "type": "leader"
+          },
+          {
+            "to": "retributor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "celestian-insidiants",
+            "type": "leader"
+          },
+          {
+            "to": "sisters-novitiate-squad",
+            "type": "leader"
+          },
+          {
+            "to": "battle-sisters-squad",
+            "type": "leader"
+          },
+          {
+            "to": "crusaders",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Junith Eruita",
+        "sid": "2bfee1bf-4f8b-4a51-9241-f830e613f6f1",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 105
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                68,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    69,
+                    1
+                  ],
+                  [
+                    70,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              68
+            ],
+            "t": 28
+          }
+        ],
+        "id": "ministorum-priest",
+        "kws": [
+          "Character",
+          "Imperium",
+          "Infantry",
+          "Ministorum Priest",
+          "Penitent"
+        ],
+        "leads": [
+          {
+            "to": "dominion-squad",
+            "type": "leader"
+          },
+          {
+            "to": "celestian-insidiants",
+            "type": "leader"
+          },
+          {
+            "to": "arco-flagellants",
+            "type": "leader"
+          },
+          {
+            "to": "battle-sisters-squad",
+            "type": "leader"
+          },
+          {
+            "to": "sisters-novitiate-squad",
+            "type": "leader"
+          },
+          {
+            "to": "sanctifiers",
+            "type": "leader"
+          },
+          {
+            "to": "crusaders",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Ministorum Priest",
+        "sid": "ab6fb0b2-9762-4f2b-988e-29b90df1af08",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 50
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                35,
+                2
+              ],
+              [
+                71,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                72
+              ]
+            ],
+            "t": 29
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    35,
+                    1
+                  ],
+                  [
+                    73,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    73,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              35
+            ],
+            "t": 30
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    74,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    75,
+                    1
+                  ],
+                  [
+                    76,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              71
+            ],
+            "t": 31
+          }
+        ],
+        "id": "mortifiers",
+        "kws": [
+          "Imperium",
+          "Mortifiers",
+          "Penitent",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Mortifiers",
+        "sid": "0a2ca2d2-a7de-4c0e-8d93-348048d9a4ef",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 70
+          },
+          {
+            "per": [
+              2,
+              2
+            ],
+            "pts": 130
+          }
+        ],
+        "stands": {
+          "74": [
+            "Twin penitent flail"
+          ]
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                77,
+                1
+              ],
+              [
+                78,
+                1
+              ],
+              [
+                79,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "supreme": 1
+        },
+        "id": "morvenn-vahl",
+        "kws": [
+          "Character",
+          "Epic Hero",
+          "Imperium",
+          "Morvenn Vahl",
+          "Vehicle",
+          "Walker"
+        ],
+        "leads": [
+          {
+            "to": "paragon-warsuits",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Morvenn Vahl",
+        "sid": "3443dd1d-7ad4-4fce-8d68-cb4b78546b85",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 215
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                80,
+                1
+              ],
+              [
+                22,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                25
+              ]
+            ],
+            "rep": [
+              22
+            ],
+            "t": 32
+          }
+        ],
+        "id": "palatine",
+        "kws": [
+          "Character",
+          "Grenades",
+          "Imperium",
+          "Infantry",
+          "Palatine"
+        ],
+        "leads": [
+          {
+            "to": "retributor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "battle-sisters-squad",
+            "type": "leader"
+          },
+          {
+            "to": "sisters-novitiate-squad",
+            "type": "leader"
+          },
+          {
+            "to": "celestian-sacresants",
+            "type": "leader"
+          },
+          {
+            "to": "celestian-insidiants",
+            "type": "leader"
+          },
+          {
+            "to": "dominion-squad",
+            "type": "leader"
+          },
+          {
+            "to": "crusaders",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Palatine",
+        "sid": "b41ab555-498f-4e16-93da-fb2f256bf26e",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 50
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                1,
+                1
+              ],
+              [
+                81,
+                1
+              ],
+              [
+                82,
+                1
+              ],
+              [
+                35,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                82,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                81,
+                1
+              ],
+              [
+                35,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                83
+              ]
+            ],
+            "rep": [
+              81
+            ],
+            "repall": 1,
+            "t": 33
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                18
+              ],
+              [
+                84,
+                10
+              ]
+            ],
+            "rep": [
+              35
+            ],
+            "repall": 1,
+            "t": 34
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                85
+              ]
+            ],
+            "rep": [
+              82
+            ],
+            "repall": 1,
+            "t": 35
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                83
+              ]
+            ],
+            "rep": [
+              81
+            ],
+            "t": 33
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                18
+              ],
+              [
+                84,
+                10
+              ]
+            ],
+            "rep": [
+              35
+            ],
+            "t": 34
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                85
+              ]
+            ],
+            "rep": [
+              82
+            ],
+            "t": 35
+          }
+        ],
+        "id": "paragon-warsuits",
+        "kws": [
+          "Grenades",
+          "Imperium",
+          "Paragon Warsuits",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Paragon Superior"
+          },
+          {
+            "n": "Paragon"
+          }
+        ],
+        "name": "Paragon Warsuits",
+        "pools": [
+          {
+            "g": [
+              0,
+              3
+            ]
+          },
+          {
+            "g": [
+              1,
+              4
+            ]
+          },
+          {
+            "g": [
+              2,
+              5
+            ]
+          }
+        ],
+        "sid": "6af1faa3-484d-4866-9e6b-523e95b1a27a",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 165
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                86,
+                1
+              ],
+              [
+                87,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    88,
+                    1
+                  ],
+                  [
+                    89,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    90,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              86
+            ],
+            "t": 36
+          }
+        ],
+        "id": "penitent-engines",
+        "kws": [
+          "Imperium",
+          "Penitent",
+          "Penitent Engines",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Penitent Engines",
+        "sid": "eab76cb1-a39b-4632-8972-0d50c3e04e57",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 70
+          },
+          {
+            "per": [
+              2,
+              2
+            ],
+            "pts": 140
+          }
+        ],
+        "stands": {
+          "90": [
+            "Twin penitent flail"
+          ]
+        }
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                91,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                1,
+                1
+              ],
+              [
+                92,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {},
+        "id": "repentia-squad",
+        "kws": [
+          "Grenades",
+          "Imperium",
+          "Infantry",
+          "Penitent",
+          "Repentia Squad"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Repentia Superior"
+          },
+          {
+            "n": "Sister Repentia"
+          }
+        ],
+        "name": "Repentia Squad",
+        "sid": "ad3439bf-2140-483a-8857-da24f99a6248",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 70
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 140
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3205,
+                1
+              ],
+              [
+                38,
+                1
+              ],
+              [
+                3206,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                533
+              ]
+            ],
+            "t": 11
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2993
+              ],
+              [
+                38
+              ]
+            ],
+            "t": 1017
+          }
+        ],
+        "id": "repressor",
+        "kws": [
+          "Vehicle",
+          "Smoke",
+          "Transport",
+          "Dedicated Transport",
+          "Imperium",
+          "Frame",
+          "Repressor"
+        ],
+        "linked": 1,
+        "name": "Repressor",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 130
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                5,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                6,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                1,
+                1
+              ],
+              [
+                6,
+                1
+              ],
+              [
+                17,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1
+              ],
+              [
+                7
+              ],
+              [
+                8
+              ],
+              [
+                9
+              ],
+              [
+                10
+              ],
+              [
+                11
+              ]
+            ],
+            "rep": [
+              5
+            ],
+            "t": 37
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                12
+              ],
+              [
+                13
+              ]
+            ],
+            "t": 38
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                18
+              ],
+              [
+                19,
+                5
+              ]
+            ],
+            "rep": [
+              17
+            ],
+            "t": 39
+          }
+        ],
+        "id": "retributor-squad",
+        "kws": [
+          "Grenades",
+          "Imperium",
+          "Infantry",
+          "Retributor Squad"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Retributor Superior"
+          },
+          {
+            "n": "Retributor"
+          }
+        ],
+        "name": "Retributor Squad",
+        "sid": "09e60adc-37ff-4e7b-ab1a-40762d48e085",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 105
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                1,
+                1
+              ],
+              [
+                93,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                94,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "saint-celestine",
+        "kws": [
+          "Character",
+          "Epic Hero",
+          "Fly",
+          "Grenades",
+          "Imperium",
+          "Infantry",
+          "Jump Pack",
+          "Saint Celestine"
+        ],
+        "leads": [
+          {
+            "to": "seraphim-squad",
+            "type": "leader"
+          },
+          {
+            "to": "zephyrim-squad",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Celestine"
+          },
+          {
+            "n": "Geminae Superia"
+          }
+        ],
+        "name": "Saint Celestine",
+        "sid": "405be35e-6d6d-403e-b628-d7c412809a4a",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 135
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                95,
+                1
+              ],
+              [
+                96,
+                1
+              ]
+            ]
+          ],
+          [
+            4,
+            [
+              [
+                10,
+                1
+              ],
+              [
+                97,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                98,
+                1
+              ],
+              [
+                99,
+                1
+              ]
+            ]
+          ],
+          [
+            3,
+            [
+              [
+                100,
+                1,
+                1
+              ],
+              [
+                16,
+                1,
+                1
+              ],
+              [
+                97,
+                1
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                101,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 3,
+            "o": [
+              [
+                102
+              ]
+            ],
+            "rep": [
+              100
+            ],
+            "t": 40
+          },
+          {
+            "cond": [
+              0,
+              0
+            ],
+            "in": "checkbox",
+            "keep": [
+              100
+            ],
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 3,
+            "o": [
+              [
+                98
+              ]
+            ],
+            "t": 41
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 4,
+            "o": [
+              [
+                [
+                  [
+                    10,
+                    1
+                  ],
+                  [
+                    95,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              97
+            ],
+            "t": 42
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 4,
+            "o": [
+              [
+                [
+                  [
+                    95,
+                    1
+                  ],
+                  [
+                    20,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              97
+            ],
+            "t": 43
+          }
+        ],
+        "id": "sanctifiers",
+        "kws": [
+          "Grenades",
+          "Imperium",
+          "Infantry",
+          "Sanctifiers"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Miraculist"
+          },
+          {
+            "n": "Salvationist"
+          },
+          {
+            "n": "Death Cult Assassin"
+          },
+          {
+            "n": "Missionary"
+          },
+          {
+            "n": "Sanctifier"
+          }
+        ],
+        "name": "Sanctifiers",
+        "sid": "ae6f1edd-efee-4aaf-a198-7396c16fe6ab",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              9,
+              9
+            ],
+            "pts": 110
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                95,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                1,
+                2
+              ],
+              [
+                95,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    103,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    11,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    70,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    11,
+                    1
+                  ],
+                  [
+                    103,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    11,
+                    1
+                  ],
+                  [
+                    70,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1
+            ],
+            "t": 44
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                2
+              ],
+              [
+                10,
+                4
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                [
+                  [
+                    9,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    10,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1
+            ],
+            "t": 45
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "seraphim-squad",
+        "kws": [
+          "Fly",
+          "Grenades",
+          "Imperium",
+          "Infantry",
+          "Jump Pack",
+          "Seraphim Squad"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Seraphim Superior"
+          },
+          {
+            "n": "Seraphim"
+          }
+        ],
+        "name": "Seraphim Squad",
+        "sid": "6977b922-649e-4edc-b43e-4a71f0a96629",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 75
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 150
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                6,
+                1
+              ],
+              [
+                104,
+                1
+              ],
+              [
+                105,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                1,
+                1
+              ],
+              [
+                6,
+                1
+              ],
+              [
+                5,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    13,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    11,
+                    1
+                  ],
+                  [
+                    13,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1,
+              5
+            ],
+            "t": 46
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                106
+              ]
+            ],
+            "rep": [
+              105
+            ],
+            "t": 47
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                20
+              ]
+            ],
+            "rep": [
+              105
+            ],
+            "t": 48
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                16
+              ]
+            ],
+            "rep": [
+              105
+            ],
+            "t": 49
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                107
+              ]
+            ],
+            "rep": [
+              105,
+              6
+            ],
+            "t": 50
+          }
+        ],
+        "id": "sisters-novitiate-squad",
+        "kws": [
+          "Grenades",
+          "Imperium",
+          "Infantry",
+          "Sisters Novitiate Squad"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Novitiate Superior"
+          },
+          {
+            "n": "Sister Novitiate"
+          }
+        ],
+        "name": "Sisters Novitiate Squad",
+        "sid": "12f69846-2b8d-49b9-bd63-36e0cbd09602",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 90
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                34,
+                1
+              ],
+              [
+                38,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                37
+              ]
+            ],
+            "t": 11
+          }
+        ],
+        "id": "sororitas-rhino",
+        "kws": [
+          "Dedicated Transport",
+          "Frame",
+          "Imperium",
+          "Smoke",
+          "Sororitas Rhino",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Sororitas Rhino",
+        "sid": "f6288825-85ac-44cd-b1b3-cc7bc947544f",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 65
+          }
+        ],
+        "step": {
+          "at": 4,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                108,
+                1
+              ],
+              [
+                109,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "triumph-of-saint-katherine",
+        "kws": [
+          "Character",
+          "Epic Hero",
+          "Grenades",
+          "Imperium",
+          "Infantry",
+          "Triumph of Saint Katherine"
+        ],
+        "leads": [
+          {
+            "to": "battle-sisters-squad",
+            "type": "leader"
+          },
+          {
+            "to": "crusaders",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Triumph of Saint Katherine",
+        "sid": "14ad93d4-3e65-4df0-9487-26a2580dd749",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 245
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1,
+                1
+              ],
+              [
+                70,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                1,
+                1
+              ],
+              [
+                70,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                106
+              ]
+            ],
+            "t": 51
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                11
+              ]
+            ],
+            "rep": [
+              1
+            ],
+            "t": 52
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "zephyrim-squad",
+        "kws": [
+          "Fly",
+          "Grenades",
+          "Imperium",
+          "Infantry",
+          "Jump Pack",
+          "Zephyrim Squad"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Zephyrim Superior"
+          },
+          {
+            "n": "Zephyrim"
+          }
+        ],
+        "name": "Zephyrim Squad",
+        "sid": "89fdfe2d-3d10-4d4f-8f53-1039e104b51e",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 75
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 150
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      }
+    ]
+  }
+}

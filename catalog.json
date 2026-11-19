@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "catalogRevision": 1,
+  "defaultFamily": "standard",
+  "families": {
+    "standard": {
+      "currentBySchema": {
+        "1": "standard-r1-s1-e1"
+      },
+      "releases": [
+        {
+          "family": "standard",
+          "revision": 1,
+          "exportRevision": 1,
+          "tag": "standard-r1-s1-e1",
+          "rulesetRef": {
+            "id": "rs-b0c692cfb865e0753a36505d1bc7a4d0a43d7c2b2fe7ab8a8c6ea6a5c74461b0",
+            "contentHash": "b0c692cfb865e0753a36505d1bc7a4d0a43d7c2b2fe7ab8a8c6ea6a5c74461b0"
+          },
+          "baseRulesetRef": null,
+          "names": {
+            "en": "GW app 2.8.1 · MFM 1.6",
+            "ru": "Приложение GW 2.8.1 · MFM 1.6"
+          },
+          "scope": null,
+          "highlights": null,
+          "changeRefs": [
+            "995"
+          ],
+          "effectiveFrom": "2026-10-16",
+          "effectiveTo": null,
+          "appDataVersion": 995,
+          "mfmVersion": "1.6",
+          "manifest": {
+            "path": "bundles/standard-r1-s1-e1/manifest.json",
+            "sha256": "5e3eb1a7b72c6e8a04a8aeee75dfd30b6335981bdedd96f1ac712600fa379fb9"
+          },
+          "archive": {
+            "path": "archives/standard-r1-s1-e1.zip",
+            "sha256": "d162fe563b326af22b61bc3d8085e2b0068c65ede13186064ded2dff1de91807"
+          },
+          "publishedAt": "2026-11-19T12:24:39Z"
+        }
+      ]
+    },
+    "wcw-2026": {
+      "currentBySchema": {
+        "1": "wcw-2026-r1-s1-e1"
+      },
+      "releases": [
+        {
+          "family": "wcw-2026",
+          "revision": 1,
+          "exportRevision": 1,
+          "tag": "wcw-2026-r1-s1-e1",
+          "rulesetRef": {
+            "id": "rs-0c8c9a96073e155ffec1bba576b45e4f3f2e078eed8e43ee8b61f380d80bc73e",
+            "contentHash": "0c8c9a96073e155ffec1bba576b45e4f3f2e078eed8e43ee8b61f380d80bc73e"
+          },
+          "baseRulesetRef": {
+            "contentHash": "b0c692cfb865e0753a36505d1bc7a4d0a43d7c2b2fe7ab8a8c6ea6a5c74461b0",
+            "id": "rs-b0c692cfb865e0753a36505d1bc7a4d0a43d7c2b2fe7ab8a8c6ea6a5c74461b0"
+          },
+          "names": {
+            "en": "WCW 2026",
+            "ru": "WCW 2026"
+          },
+          "scope": {
+            "en": "Official GW rules for WCW 2026. Elsewhere, use by agreement. Some rulings may become general rules. GW’s next update is planned for the week of 7 December.",
+            "ru": "Официальные правила GW для WCW 2026. Вне турнира применяются по договорённости. Часть решений может войти в общие правила. Ближайшее обновление GW запланировано на неделю с 7 декабря."
+          },
+          "highlights": {
+            "en": [
+              "Answers from the Warhammer studio for the event: 40 questions on the Core Rules, the Mission Deck and 12 factions.",
+              "Rules changed: Shambling Wall, Double-cross, Grot Shields, Unholy Resilience, Umbralefic Crystal, the Deathwing and more.",
+              "Weapons changed: Blood Angels, Chaos Space Marines, Deathwatch, Aggressor Squad.",
+              "Five Chapter detachments may not include units drawn from another Chapter."
+            ],
+            "ru": [
+              "Ответы студии Warhammer для турнира: 40 вопросов по базовым правилам, колоде миссий и 12 фракциям.",
+              "Изменены правила: Shambling Wall, Double-cross, Grot Shields, Unholy Resilience, Umbralefic Crystal, Deathwing и другие.",
+              "Изменено оружие: Blood Angels, Chaos Space Marines, Deathwatch, Aggressor Squad.",
+              "Пять детачментов орденов не могут включать юниты других орденов."
+            ]
+          },
+          "changeRefs": [
+            "wcw-2026"
+          ],
+          "effectiveFrom": null,
+          "effectiveTo": null,
+          "appDataVersion": 995,
+          "mfmVersion": "1.6",
+          "manifest": {
+            "path": "bundles/wcw-2026-r1-s1-e1/manifest.json",
+            "sha256": "35b02f5afe89025998ac0f744eace13501bdb7ed6ce4fa75a5794427a08d41c3"
+          },
+          "archive": {
+            "path": "archives/wcw-2026-r1-s1-e1.zip",
+            "sha256": "f8902ed3f117ac8c3b0525079567a4db6765dbed402c8f152cda44955b34d702"
+          },
+          "publishedAt": "2026-11-19T12:24:39Z"
+        }
+      ]
+    }
+  }
+}

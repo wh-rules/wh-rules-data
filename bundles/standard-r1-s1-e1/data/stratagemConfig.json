@@ -1,0 +1,11 @@
+{
+  "default": {
+    "combatPatrolBannedCoreNames": [
+      "Crushing Impact",
+      "Explosives",
+      "Rapid Ingress"
+    ],
+    "coreSectionId": "15",
+    "schemaVersion": 1
+  }
+}

@@ -1,0 +1,406 @@
+{
+  "default": {
+    "box": "chaos-space-marines",
+    "detachment": {
+      "dp": 0,
+      "enhancements": [
+        {
+          "name": "Infernal Infusion",
+          "pts": null,
+          "req": [
+            {
+              "kw": [
+                "Zarkan's Daemonkin",
+                "Master of Possession"
+              ]
+            }
+          ],
+          "type": "miniature"
+        },
+        {
+          "name": "Prey on the Weak",
+          "nonCharOk": 1,
+          "pts": null,
+          "req": [
+            {
+              "ds": "Zarkan's Daemonkin Possessed"
+            }
+          ],
+          "type": "upgrade"
+        }
+      ],
+      "linkedUnits": [
+        {
+          "count": 1,
+          "unit": "zarkans-daemonkin-possessed"
+        },
+        {
+          "count": 1,
+          "unit": "aranis-zarkan",
+          "warlord": 1
+        },
+        {
+          "count": 1,
+          "unit": "zarkans-daemonkin-cultist-mob"
+        },
+        {
+          "count": 1,
+          "unit": "zarkans-daemonkin-legionaries"
+        }
+      ],
+      "name": "Zarkan’s Daemonkin",
+      "sid": "dac96ed0-397c-4309-86fc-250a71b82842"
+    },
+    "slug": "chaos-space-marines",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3721,
+                1
+              ],
+              [
+                3722,
+                1
+              ],
+              [
+                3723,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Heretic Astartes"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "aranis-zarkan",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Infantry",
+          "Master of Possession",
+          "Psyker",
+          "Zarkan's Daemonkin"
+        ],
+        "leads": [
+          {
+            "exclDet": "b7c5bcb7-eecb-4ae5-a18b-b96143c34fa8",
+            "to": "zarkans-daemonkin-possessed",
+            "type": "leader"
+          },
+          {
+            "exclDet": "b7c5bcb7-eecb-4ae5-a18b-b96143c34fa8",
+            "to": "zarkans-daemonkin-legionaries",
+            "type": "leader"
+          },
+          {
+            "allKw": [
+              "Chaos Undivided",
+              "Nurgle",
+              "Khorne",
+              "Tzeentch",
+              "Slaanesh"
+            ],
+            "reqDet": "b7c5bcb7-eecb-4ae5-a18b-b96143c34fa8",
+            "to": "zarkans-daemonkin-possessed",
+            "type": "leader"
+          },
+          {
+            "allKw": [
+              "Chaos Undivided",
+              "Nurgle",
+              "Khorne",
+              "Tzeentch",
+              "Slaanesh"
+            ],
+            "reqDet": "b7c5bcb7-eecb-4ae5-a18b-b96143c34fa8",
+            "to": "zarkans-daemonkin-legionaries",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Aranis Zarkan",
+        "sid": "48a7aeb4-9e52-46c1-a82e-bbf28ec96312",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3724,
+                1
+              ],
+              [
+                3725,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3726,
+                1
+              ],
+              [
+                3724,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Heretic Astartes"
+        ],
+        "flags": {},
+        "id": "zarkans-daemonkin-cultist-mob",
+        "kws": [
+          "Battleline",
+          "Chaos",
+          "Damned",
+          "Explosives",
+          "Infantry",
+          "Zarkan's Daemonkin"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Cultist Champion"
+          },
+          {
+            "n": "Chaos Cultist"
+          }
+        ],
+        "name": "Zarkan's Daemonkin Cultist Mob",
+        "sid": "85392f20-6dd3-4bd1-97c4-ed8f506c4afe",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                3727,
+                1
+              ],
+              [
+                3728,
+                1
+              ]
+            ]
+          ],
+          [
+            3,
+            [
+              [
+                3729,
+                1
+              ],
+              [
+                3730,
+                1
+              ],
+              [
+                3731,
+                1
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                3729,
+                1
+              ],
+              [
+                3730,
+                1
+              ],
+              [
+                3732,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3733,
+                1
+              ],
+              [
+                3729,
+                1
+              ],
+              [
+                3730,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Heretic Astartes"
+        ],
+        "flags": {},
+        "id": "zarkans-daemonkin-legionaries",
+        "kws": [
+          "Battleline",
+          "Chaos",
+          "Explosives",
+          "Infantry",
+          "Zarkan's Daemonkin"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Legionary"
+          },
+          {
+            "n": "Aspiring Champion"
+          },
+          {
+            "n": "Legionary with Meltagun"
+          },
+          {
+            "n": "Legionary with Heavy Bolter"
+          }
+        ],
+        "name": "Zarkan's Daemonkin Legionaries",
+        "sid": "e4afabc6-1e73-4fbb-ad1e-8325cc455515",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                7
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                3720,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3720,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Heretic Astartes"
+        ],
+        "flags": {},
+        "id": "zarkans-daemonkin-possessed",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Infantry",
+          "Zarkan's Daemonkin"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Possessed Champion"
+          },
+          {
+            "n": "Possessed"
+          }
+        ],
+        "name": "Zarkan's Daemonkin Possessed",
+        "sid": "00cd79c4-eff1-4705-b84b-b1b67814cf1b",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 0
+          }
+        ]
+      }
+    ]
+  }
+}
