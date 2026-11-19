@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogRevision": 1,
+  "catalogRevision": 2,
   "defaultFamily": "standard",
   "families": {
     "standard": {
@@ -37,9 +37,10 @@
           },
           "archive": {
             "path": "archives/standard-r1-s1-e1.zip",
-            "sha256": "d162fe563b326af22b61bc3d8085e2b0068c65ede13186064ded2dff1de91807"
+            "sha256": "d162fe563b326af22b61bc3d8085e2b0068c65ede13186064ded2dff1de91807",
+            "url": "https://github.com/wh-rules/wh-rules-data/releases/download/standard-r1-s1-e1/standard-r1-s1-e1.zip"
           },
-          "publishedAt": "2026-11-19T12:24:39Z"
+          "publishedAt": "2026-11-19T13:44:17Z"
         }
       ]
     },
@@ -96,9 +97,10 @@
           },
           "archive": {
             "path": "archives/wcw-2026-r1-s1-e1.zip",
-            "sha256": "f8902ed3f117ac8c3b0525079567a4db6765dbed402c8f152cda44955b34d702"
+            "sha256": "f8902ed3f117ac8c3b0525079567a4db6765dbed402c8f152cda44955b34d702",
+            "url": "https://github.com/wh-rules/wh-rules-data/releases/download/wcw-2026-r1-s1-e1/wcw-2026-r1-s1-e1.zip"
           },
-          "publishedAt": "2026-11-19T12:24:39Z"
+          "publishedAt": "2026-11-19T13:44:01Z"
         }
       ]
     }

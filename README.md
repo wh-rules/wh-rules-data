@@ -8,7 +8,8 @@ Start with [catalog.json](catalog.json). To follow the current standard bundle, 
 `families.standard.currentBySchema["1"]` and find that tag in the family's `releases`.
 For a tournament, start with its own family. For reproducible results, store the exact
 tag and its `rulesetRef` with the roster or game. Use the release's manifest path for
-the checked-out files or download its ZIP and verify the published SHA-256 before use.
+the checked-out files or download its ZIP at `archive.url` and verify the published
+SHA-256 before use. Local exports keep their ZIP under `archive.path`.
 Dates in `effectiveFrom` and `effectiveTo` describe the source rules. Unknown dates
 are null. The release's `publishedAt` records when this export became available.
 
