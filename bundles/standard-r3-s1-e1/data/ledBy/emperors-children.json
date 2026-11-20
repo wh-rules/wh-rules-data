@@ -1,0 +1,57 @@
+{
+  "default": {
+    "chaos-terminators": [
+      [
+        "Lord Kakophonist",
+        "leader"
+      ]
+    ],
+    "flawless-blades": [
+      [
+        "Exalted Patron",
+        "leader",
+        {
+          "by": [
+            "Lord Exultant"
+          ],
+          "det": "Court of the Phoenician",
+          "enh": 1
+        }
+      ],
+      [
+        "Lucius the Eternal",
+        "leader"
+      ]
+    ],
+    "infractors": [
+      [
+        "Lord Exultant",
+        "leader"
+      ],
+      [
+        "Sorcerer",
+        "leader"
+      ]
+    ],
+    "noise-marines": [
+      [
+        "Lord Kakophonist",
+        "leader"
+      ],
+      [
+        "Sorcerer",
+        "leader"
+      ]
+    ],
+    "tormentors": [
+      [
+        "Lord Exultant",
+        "leader"
+      ],
+      [
+        "Sorcerer",
+        "leader"
+      ]
+    ]
+  }
+}

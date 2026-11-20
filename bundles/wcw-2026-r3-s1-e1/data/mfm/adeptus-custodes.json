@@ -1,0 +1,795 @@
+{
+  "default": {
+    "detachments": [
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Not a Shell Wasted",
+            "points": 10
+          },
+          {
+            "name": "Pareldor’s Caducatrix",
+            "points": 30
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Aquilan Shield",
+        "unique": "SHIELD HOST"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Inspirational Exemplar",
+            "points": 10
+          },
+          {
+            "name": "Shroud of the Hidden Blade",
+            "points": 20
+          },
+          {
+            "name": "Superior Creation",
+            "points": 30
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Auric Champions"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Auric Exemplar",
+            "points": 15
+          },
+          {
+            "name": "Flawless Bladework",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Dread Host",
+        "unique": "SHIELD HOST"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Auriferous Orb",
+            "points": 20
+          },
+          {
+            "name": "Edge of the Blade",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Emissaries Imperatus",
+        "unique": "SHIELD HOST"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "From the Hall of Armouries",
+            "points": 15
+          },
+          {
+            "name": "Radiant Mantle",
+            "points": 40
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Emperor’s Chosen",
+        "unique": "SHIELD HOST"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Anti-gravitic Mobility (Upgrade)",
+            "points": 15
+          },
+          {
+            "name": "Combat Deployment (Upgrade)",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Grav‑assault Force"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Bane of Abominations",
+            "points": 20
+          },
+          {
+            "name": "Castellan’s Mark",
+            "points": 25
+          },
+          {
+            "name": "Eagle’s Eye",
+            "points": 30
+          },
+          {
+            "name": "Emperor’s Light",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets",
+          "Purge the Foe"
+        ],
+        "name": "Guardians of the Throne"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Arae-Shrike",
+            "points": 20
+          },
+          {
+            "name": "Celeritous Sentries (Upgrade)",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Honoured Companions"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Leonine Ferocity",
+            "points": 20
+          },
+          {
+            "name": "Lightning Descent",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Lions of the Emperor"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Augury Uplink (one per army) (Upgrade)",
+            "points": 30
+          },
+          {
+            "name": "Memento Moritoi (one per army) (Upgrade)",
+            "points": 30
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Might of the Moritoi"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Huntress’ Eye",
+            "points": 10
+          },
+          {
+            "name": "Oblivion Knight",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Null Maiden Vigil"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Genalchemic Warding",
+            "points": 30
+          },
+          {
+            "name": "Unstoppable Destroyer",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Shadowkeepers",
+        "unique": "SHIELD HOST"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Auric Eagle (Upgrade)",
+            "points": 15
+          },
+          {
+            "name": "Sally Forth",
+            "points": 30
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Solar Watch",
+        "unique": "SHIELD HOST"
+      }
+    ],
+    "id": "adeptus-custodes",
+    "legends": [
+      {
+        "name": "Aleya",
+        "options": [
+          {
+            "models": 1,
+            "points": 55
+          }
+        ]
+      },
+      {
+        "name": "Custodian Guard Sodality with Adrasite Spears",
+        "options": [
+          {
+            "models": 3,
+            "points": 200
+          }
+        ]
+      },
+      {
+        "name": "Custodian Guard Sodality with Pyrithite Spears",
+        "options": [
+          {
+            "models": 3,
+            "points": 215
+          }
+        ]
+      },
+      {
+        "name": "Sagittarum Custodians Sodality",
+        "options": [
+          {
+            "models": 3,
+            "points": 185
+          }
+        ]
+      },
+      {
+        "name": "Valerian",
+        "options": [
+          {
+            "models": 1,
+            "points": 130
+          }
+        ]
+      },
+      {
+        "name": "Venerable Contemptor Dreadnought",
+        "options": [
+          {
+            "models": 1,
+            "points": 220
+          }
+        ]
+      },
+      {
+        "name": "Venerable Land Raider",
+        "options": [
+          {
+            "models": 1,
+            "points": 230
+          }
+        ]
+      }
+    ],
+    "name": "Adeptus Custodes",
+    "slug": "adeptus-custodes",
+    "sourceUrl": "https://mfm.warhammer-community.com/en/adeptus-custodes",
+    "subfactions": [
+      {
+        "name": "Anathema Psykana",
+        "units": [
+          {
+            "name": "Anathema Psykana Rhino",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-3rd",
+                "points": 70
+              },
+              {
+                "models": 1,
+                "note": "4th+",
+                "points": 80
+              }
+            ]
+          },
+          {
+            "name": "Knight-Centura",
+            "options": [
+              {
+                "models": 1,
+                "points": 55
+              }
+            ]
+          },
+          {
+            "name": "Prosecutor Squad",
+            "options": [
+              {
+                "models": 4,
+                "points": 45
+              },
+              {
+                "models": 5,
+                "points": 50
+              },
+              {
+                "models": 9,
+                "points": 80
+              },
+              {
+                "models": 10,
+                "points": 90
+              }
+            ]
+          },
+          {
+            "name": "Vigilator Squad",
+            "options": [
+              {
+                "models": 4,
+                "points": 50
+              },
+              {
+                "models": 5,
+                "points": 55
+              },
+              {
+                "models": 9,
+                "points": 90
+              },
+              {
+                "models": 10,
+                "points": 100
+              }
+            ]
+          },
+          {
+            "name": "Witchseeker Squad",
+            "options": [
+              {
+                "models": 4,
+                "points": 55
+              },
+              {
+                "models": 5,
+                "points": 60
+              },
+              {
+                "models": 9,
+                "points": 100
+              },
+              {
+                "models": 10,
+                "points": 110
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "units": [
+      {
+        "name": "Allarus Custodians",
+        "options": [
+          {
+            "models": 2,
+            "note": "1st-2nd",
+            "points": 180
+          },
+          {
+            "models": 3,
+            "note": "1st-2nd",
+            "points": 270
+          },
+          {
+            "models": 2,
+            "note": "3rd+",
+            "points": 210
+          },
+          {
+            "models": 3,
+            "note": "3rd+",
+            "points": 300
+          }
+        ]
+      },
+      {
+        "name": "Aquilon Terminators with Solarite Power Gauntlets",
+        "options": [
+          {
+            "models": 3,
+            "note": "1st-2nd",
+            "points": 285
+          },
+          {
+            "models": 3,
+            "note": "3rd+",
+            "points": 315
+          }
+        ]
+      },
+      {
+        "name": "Aquilon Terminators with Solarite Power Talons",
+        "options": [
+          {
+            "models": 3,
+            "note": "1st-2nd",
+            "points": 275
+          },
+          {
+            "models": 3,
+            "note": "3rd+",
+            "points": 305
+          }
+        ]
+      },
+      {
+        "name": "Ares Gunship",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 580
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 610
+          }
+        ]
+      },
+      {
+        "name": "Blade Champion",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 175
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 195
+          }
+        ]
+      },
+      {
+        "name": "Caladius Annihilator Grav‑tank",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 250
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 280
+          }
+        ]
+      },
+      {
+        "name": "Caladius Grav-Tank",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 230
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 260
+          }
+        ]
+      },
+      {
+        "name": "Contemptor-Achillus Dreadnought",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 230
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 260
+          }
+        ]
+      },
+      {
+        "name": "Contemptor-Galatus Dreadnought",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 220
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 250
+          }
+        ]
+      },
+      {
+        "name": "Coronus Grav-Carrier",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 225
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 245
+          }
+        ]
+      },
+      {
+        "name": "Custodian Guard Sodality",
+        "options": [
+          {
+            "models": 3,
+            "note": "1st-3rd",
+            "points": 240
+          },
+          {
+            "models": 3,
+            "note": "4th+",
+            "points": 270
+          }
+        ]
+      },
+      {
+        "name": "Custodian Wardens",
+        "options": [
+          {
+            "models": 2,
+            "note": "1st",
+            "points": 200
+          },
+          {
+            "models": 3,
+            "note": "1st",
+            "points": 295
+          },
+          {
+            "models": 2,
+            "note": "2nd+",
+            "points": 230
+          },
+          {
+            "models": 3,
+            "note": "2nd+",
+            "points": 325
+          }
+        ]
+      },
+      {
+        "name": "Gyrfalcon Jetbike Sodality",
+        "options": [
+          {
+            "models": 2,
+            "note": "1st",
+            "points": 260
+          },
+          {
+            "models": 2,
+            "note": "2nd+",
+            "points": 280
+          }
+        ]
+      },
+      {
+        "name": "Orion Assault Dropship",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 690
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 740
+          }
+        ]
+      },
+      {
+        "name": "Pallas Grav-Attack",
+        "options": [
+          {
+            "models": 1,
+            "points": 135
+          }
+        ]
+      },
+      {
+        "name": "Sentinel Guard Sodality",
+        "options": [
+          {
+            "models": 3,
+            "note": "1st-3rd",
+            "points": 240
+          },
+          {
+            "models": 3,
+            "note": "4th+",
+            "points": 270
+          }
+        ]
+      },
+      {
+        "name": "Shield-Captain",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 180
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 200
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Praesidium Shield",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Shield-Captain in Allarus Terminator Armour",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 185
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 205
+          }
+        ]
+      },
+      {
+        "name": "Shield-Captain on Dawneagle Jetbike",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 205
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 225
+          }
+        ]
+      },
+      {
+        "name": "Telemon Heavy Dreadnought",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 280
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 310
+          }
+        ]
+      },
+      {
+        "name": "Trajann Valoris",
+        "options": [
+          {
+            "models": 1,
+            "points": 265
+          }
+        ]
+      },
+      {
+        "name": "Venatari with Kinetic Destroyers",
+        "options": [
+          {
+            "models": 3,
+            "note": "1st-2nd",
+            "points": 255
+          },
+          {
+            "models": 3,
+            "note": "3rd+",
+            "points": 280
+          }
+        ]
+      },
+      {
+        "name": "Venatari with Verutum Lances",
+        "options": [
+          {
+            "models": 3,
+            "note": "1st-2nd",
+            "points": 270
+          },
+          {
+            "models": 3,
+            "note": "3rd+",
+            "points": 300
+          }
+        ]
+      },
+      {
+        "name": "Vertus Praetors",
+        "options": [
+          {
+            "models": 2,
+            "note": "1st",
+            "points": 220
+          },
+          {
+            "models": 3,
+            "note": "1st",
+            "points": 330
+          },
+          {
+            "models": 2,
+            "note": "2nd+",
+            "points": 240
+          },
+          {
+            "models": 3,
+            "note": "2nd+",
+            "points": 350
+          }
+        ]
+      }
+    ]
+  }
+}

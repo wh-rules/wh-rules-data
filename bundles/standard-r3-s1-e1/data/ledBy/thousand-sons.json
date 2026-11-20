@@ -1,0 +1,79 @@
+{
+  "default": {
+    "rubric-marines": [
+      [
+        "Ahriman",
+        "leader"
+      ],
+      [
+        "Exalted Sorcerer",
+        "leader"
+      ],
+      [
+        "Exalted Sorcerer on Disc of Tzeentch",
+        "leader"
+      ],
+      [
+        "Infernal Master",
+        "leader"
+      ],
+      [
+        "Sorcerer",
+        "leader"
+      ]
+    ],
+    "scarab-occult-terminators": [
+      [
+        "Sorcerer in Terminator Armour",
+        "leader"
+      ]
+    ],
+    "tzaangor-enlightened": [
+      [
+        "Ahriman",
+        "leader"
+      ],
+      [
+        "Exalted Sorcerer on Disc of Tzeentch",
+        "leader"
+      ],
+      [
+        "Tzaangor Shaman",
+        "leader"
+      ]
+    ],
+    "tzaangor-enlightened-with-fatecaster-greatbows": [
+      [
+        "Ahriman",
+        "leader"
+      ],
+      [
+        "Exalted Sorcerer on Disc of Tzeentch",
+        "leader"
+      ],
+      [
+        "Tzaangor Shaman",
+        "leader"
+      ]
+    ],
+    "tzaangors": [
+      [
+        "Bray Lord",
+        "leader",
+        {
+          "by": [
+            "Infernal Master",
+            "Sorcerer",
+            "Sorcerer in Terminator Armour"
+          ],
+          "det": "Warpmeld Pact",
+          "enh": 1
+        }
+      ],
+      [
+        "Tzaangor Shaman",
+        "leader"
+      ]
+    ]
+  }
+}

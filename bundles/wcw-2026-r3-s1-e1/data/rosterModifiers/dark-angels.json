@@ -1,0 +1,1512 @@
+{
+  "default": {
+    "entries": [
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          },
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "38355f6d",
+        "kind": "ability",
+        "name": "Azrael: Supreme Grand Master",
+        "ref": {
+          "kind": "ability",
+          "unit": "azrael"
+        },
+        "reviewed": true,
+        "sid": "28d5df5f-fe89-4267-8999-6bd1c329a15d:azrael",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+ (vs mortal wounds)",
+            "when": {
+              "en": "once per battle, after this unit summons a Watcher in the Dark when it suffers a mortal wound",
+              "ru": "раз за битву, после того как отряд призвал Watcher in the Dark, получив mortal wound"
+            }
+          },
+          {
+            "on": "unit",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Feel No Pain 4+ (vs mortal wounds)",
+            "when": {
+              "en": "once per battle, after this unit summons a Watcher in the Dark when it suffers a mortal wound",
+              "ru": "раз за битву, после того как отряд призвал Watcher in the Dark, получив mortal wound"
+            }
+          }
+        ],
+        "hash": "3d30bc64",
+        "kind": "ability",
+        "name": "Azrael: Watcher in the Dark (Once per battle, per unit)",
+        "ref": {
+          "kind": "ability",
+          "unit": "azrael"
+        },
+        "reviewed": true,
+        "sid": "267b9be3-1636-41a5-a872-4156f88a93c1:azrael",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against a CHARACTER unit",
+              "ru": "против отряда CHARACTER"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "against a CHARACTER unit",
+              "ru": "против отряда CHARACTER"
+            }
+          }
+        ],
+        "hash": "088c6e74",
+        "kind": "ability",
+        "name": "Belial: Grand Master of the Deathwing",
+        "ref": {
+          "kind": "ability",
+          "unit": "belial"
+        },
+        "reviewed": true,
+        "sid": "1d9fdc0e-2ce8-4c07-9ab9-aa909584d69e:belial",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "contains-deathwing-ancient"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "while this unit contains an Ancient",
+              "ru": "пока в отряде есть Ancient"
+            }
+          }
+        ],
+        "hash": "6fe70108",
+        "kind": "ability",
+        "name": "Deathwing Command Squad: Astartes Banner",
+        "ref": {
+          "kind": "ability",
+          "unit": "deathwing-command-squad"
+        },
+        "reviewed": true,
+        "sid": "pack:deathwing-command-squad:astartes-banner",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "294e9608",
+        "kind": "ability",
+        "name": "Deathwing Command Squad: Honour or Death",
+        "ref": {
+          "kind": "ability",
+          "unit": "deathwing-command-squad"
+        },
+        "reviewed": true,
+        "sid": "pack:deathwing-command-squad:honour-or-death",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "25bc8854",
+        "kind": "ability",
+        "name": "Deathwing Knights: Inner Circle",
+        "ref": {
+          "kind": "ability",
+          "unit": "deathwing-knights"
+        },
+        "reviewed": true,
+        "sid": "99deacf8-1143-4a9f-9c42-c7e94e4d5a0e:deathwing-knights",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "LETHAL HITS",
+            "when": null
+          }
+        ],
+        "hash": "b443bf84",
+        "kind": "ability",
+        "name": "Deathwing Strikemaster: Tactical Precision",
+        "ref": {
+          "kind": "ability",
+          "unit": "deathwing-strikemaster"
+        },
+        "reviewed": true,
+        "sid": "pack:deathwing-strikemaster:tactical-precision",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against an enemy unit that is Below Half-strength",
+              "ru": "по вражескому отряду Below Half-strength"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against an enemy unit that is Below Half-strength",
+              "ru": "по вражескому отряду Below Half-strength"
+            }
+          }
+        ],
+        "hash": "f29066d1",
+        "kind": "ability",
+        "name": "Deathwing Strikemaster: Vanquish the Foe",
+        "ref": {
+          "kind": "ability",
+          "unit": "deathwing-strikemaster"
+        },
+        "reviewed": true,
+        "sid": "pack:deathwing-strikemaster:vanquish-the-foe",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "target": "led",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "d8dd3f8b",
+        "kind": "ability",
+        "name": "Ezekiel: Book of Salvation",
+        "ref": {
+          "kind": "ability",
+          "unit": "ezekiel"
+        },
+        "reviewed": true,
+        "sid": "993f1855-67a5-4e6c-ac8a-754b84b99c63:ezekiel",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "85609fb6",
+        "kind": "ability",
+        "name": "Ezekiel: Engulfing Fear (psychic level 1)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "Chief Librarian (psyker level 3)",
+          "unit": "ezekiel"
+        },
+        "reviewed": true,
+        "sid": "9191e3cb-145e-4038-ba2e-0d51f8da4b1f:ezekiel",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+ (vs Psychic Attacks and mortal wounds)",
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Feel No Pain 4+ (vs Psychic Attacks and mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "f4b48831",
+        "kind": "ability",
+        "name": "Ezekiel: Psychic Hood",
+        "ref": {
+          "kind": "ability",
+          "unit": "ezekiel"
+        },
+        "reviewed": true,
+        "sid": "adb6c29d-7baf-4491-9d21-45b9508b7a93:ezekiel",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": {
+              "en": "for the phase, after a psychic roll other than a 1",
+              "ru": "до конца фазы после психического броска не на 1"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": -1,
+            "when": {
+              "en": "for the phase, after a psychic roll other than a 1",
+              "ru": "до конца фазы после психического броска не на 1"
+            }
+          }
+        ],
+        "hash": "a866e3ed",
+        "kind": "ability",
+        "name": "Ezekiel: Whispers of the Shadow Forest (psychic level 1)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "Chief Librarian (psyker level 3)",
+          "unit": "ezekiel"
+        },
+        "reviewed": true,
+        "sid": "1666673a-d14c-4e7a-8c88-e0a7f6decb24:ezekiel",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Stealth",
+            "when": null
+          },
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "vs": "melee",
+            "when": null
+          }
+        ],
+        "hash": "7c5bdb7f",
+        "kind": "ability",
+        "name": "Inner Circle Companions: Braziers of Judgement",
+        "ref": {
+          "kind": "ability",
+          "unit": "inner-circle-companions"
+        },
+        "reviewed": true,
+        "sid": "e6df992c-abd5-41e0-8351-7ffbd0f86a80:inner-circle-companions",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a CHARACTER unit",
+              "ru": "против отряда CHARACTER"
+            }
+          }
+        ],
+        "hash": "d9d7f41c",
+        "kind": "ability",
+        "name": "Inner Circle Companions: Emnity for the Unworthy",
+        "ref": {
+          "kind": "ability",
+          "unit": "inner-circle-companions"
+        },
+        "reviewed": true,
+        "sid": "e3ecf2d7-0ef7-4238-8639-3963bec7c6ad:inner-circle-companions",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 3+ (vs Psychic Attacks and mortal wounds)",
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Feel No Pain 3+ (vs Psychic Attacks and mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "2a8ede30",
+        "kind": "ability",
+        "name": "Lazarus: The Spiritshield Helm",
+        "ref": {
+          "kind": "ability",
+          "unit": "lazarus"
+        },
+        "reviewed": true,
+        "sid": "a7a5c8e2-f0d6-4a7d-86d7-ff9050a28f7f:lazarus",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of a friendly DARK ANGELS INFANTRY unit",
+              "ru": "пока в пределах 3\" от дружественного отряда DARK ANGELS INFANTRY"
+            }
+          }
+        ],
+        "hash": "24f8dc94",
+        "kind": "ability",
+        "name": "Lion El'Jonson: Dark Angels Bodyguard",
+        "ref": {
+          "kind": "ability",
+          "unit": "lion-eljonson"
+        },
+        "reviewed": true,
+        "sid": "0eef8fdb-e66a-41bc-b5ba-d16b3b8312ec:lion-eljonson",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "fc83be98",
+        "kind": "ability",
+        "name": "Lion El'Jonson: Martial Exemplar",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 2,
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "DARK ANGELS"
+              ]
+            }
+          ],
+          "set": "Primarch of the First Legion",
+          "unit": "lion-eljonson"
+        },
+        "reviewed": true,
+        "sid": "532eaa3f-0c27-4625-a4e1-3ac7f62aa02e:lion-eljonson",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "fe3a9e7e",
+        "kind": "ability",
+        "name": "Lion El'Jonson: Mist-wreathed Shadow Realms",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 2,
+          "set": "Primarch of the First Legion",
+          "unit": "lion-eljonson"
+        },
+        "reviewed": true,
+        "sid": "ae57ec5e-25c7-45e5-a82f-42a1a8bfa2ff:lion-eljonson",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "aura",
+            "value": "Feel No Pain 5+ (vs Psychic Attacks and mortal wounds)",
+            "when": {
+              "en": "while this ability is the one selected",
+              "ru": "пока выбрана эта способность"
+            }
+          }
+        ],
+        "hash": "fe63c365",
+        "kind": "ability",
+        "name": "Lion El'Jonson: No Hiding from the Watchers",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 2,
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "DARK ANGELS"
+              ]
+            }
+          ],
+          "set": "Primarch of the First Legion",
+          "unit": "lion-eljonson"
+        },
+        "reviewed": true,
+        "sid": "04bdc1b5-5436-4c81-9501-3e940b945eed:lion-eljonson",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "ebec7e58",
+        "kind": "ability",
+        "name": "Lion El'Jonson: The Emperor's Shield",
+        "ref": {
+          "kind": "ability",
+          "unit": "lion-eljonson"
+        },
+        "reviewed": true,
+        "sid": "19726b2e-a787-4c4e-9ffb-d9a2812dba48:lion-eljonson",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+ (vs Psychic Attacks and mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "f4b48831",
+        "kind": "ability",
+        "name": "Lion El'Jonson: The Watchers",
+        "ref": {
+          "kind": "ability",
+          "unit": "lion-eljonson"
+        },
+        "reviewed": true,
+        "sid": "7a5578e7-bd91-45d4-b94e-8cb69b09ebef:lion-eljonson",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "9bdc06bf",
+        "kind": "ability",
+        "name": "Master Zacharial: Gravis Protection",
+        "ref": {
+          "kind": "ability",
+          "unit": "master-zacharial"
+        },
+        "reviewed": true,
+        "sid": "4c63e8cc-3ae0-483f-bb91-b903d35e692d:master-zacharial",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "ranged",
+            "when": null
+          }
+        ],
+        "hash": "916cf6ab",
+        "kind": "ability",
+        "name": "Nephilim Jetfighter: Lightning-fast Manoeuvres",
+        "ref": {
+          "kind": "ability",
+          "unit": "nephilim-jetfighter"
+        },
+        "reviewed": true,
+        "sid": "ce554c13-23b1-4a53-ac12-61d40e4e50fb:nephilim-jetfighter",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-MONSTER/VEHICLE 4+",
+            "when": {
+              "en": "if this unit made a charge move this turn",
+              "ru": "если отряд совершил charge в этом ходу"
+            }
+          }
+        ],
+        "hash": "55a8befd",
+        "kind": "ability",
+        "name": "Ravenwing Black Knights: Knights of Caliban",
+        "ref": {
+          "kind": "ability",
+          "unit": "ravenwing-black-knights"
+        },
+        "reviewed": true,
+        "sid": "e0d5e9d3-8a2c-4563-afd8-87ad85431a73:ravenwing-black-knights",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "while this unit contains a RAVENWING ANCIENT",
+              "ru": "пока в отряде есть RAVENWING ANCIENT"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "while this unit contains a RAVENWING ANCIENT",
+              "ru": "пока в отряде есть RAVENWING ANCIENT"
+            }
+          }
+        ],
+        "hash": "17ae5fc1",
+        "kind": "ability",
+        "name": "Ravenwing Command Squad: Astartes Banner",
+        "ref": {
+          "kind": "ability",
+          "unit": "ravenwing-command-squad"
+        },
+        "reviewed": true,
+        "sid": "3b80ebc9-b186-4716-87c2-40964330bb67:ravenwing-command-squad",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "aura",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "f9d4d004",
+        "kind": "ability",
+        "name": "Ravenwing Darkshroud: Icon of Old Caliban",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "DARK ANGELS"
+              ]
+            }
+          ],
+          "unit": "ravenwing-darkshroud"
+        },
+        "reviewed": true,
+        "sid": "5f2dc925-aaff-4ef6-86ca-2407c7e62c5b:ravenwing-darkshroud",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "aura",
+            "value": "IGNORES COVER",
+            "when": null
+          }
+        ],
+        "hash": "a613551a",
+        "kind": "ability",
+        "name": "Ravenwing Talonmaster: Nowhere to Hide",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "ADEPTUS ASTARTES MOUNTED",
+                "ADEPTUS ASTARTES FLY VEHICLE"
+              ]
+            }
+          ],
+          "unit": "ravenwing-talonmaster"
+        },
+        "reviewed": true,
+        "sid": "pack:ravenwing-talonmaster:nowhere-to-hide",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of another friendly ADEPTUS ASTARTES MOUNTED or FLY VEHICLE unit",
+              "ru": "пока в пределах 3\" от другого дружественного отряда ADEPTUS ASTARTES MOUNTED или FLY VEHICLE"
+            }
+          }
+        ],
+        "hash": "ad358e1b",
+        "kind": "ability",
+        "name": "Ravenwing Talonmaster: Talonmaster",
+        "ref": {
+          "kind": "ability",
+          "unit": "ravenwing-talonmaster"
+        },
+        "reviewed": true,
+        "sid": "pack:ravenwing-talonmaster:talonmaster",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Mobile",
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "target": "led",
+            "value": "Mobile",
+            "when": null
+          }
+        ],
+        "hash": "4c612053",
+        "kind": "ability",
+        "name": "Sammael: Grand Master of the Ravenwing",
+        "ref": {
+          "kind": "ability",
+          "unit": "sammael"
+        },
+        "reviewed": true,
+        "sid": "ab7e2f84-2fb3-44f6-afdd-66c918248c10:sammael",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "bladeguard-hit"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "the option picked when this unit is selected to fight",
+              "ru": "вариант, выбранный, когда отряд выбран для боя"
+            }
+          },
+          {
+            "cond": [
+              "bladeguard-defend"
+            ],
+            "op": "state",
+            "when": {
+              "en": "the option picked when an enemy unit targets this unit",
+              "ru": "вариант, выбранный, когда враг выбирает отряд целью"
+            }
+          },
+          {
+            "cond": [
+              "bladeguard-defend"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": {
+              "en": "the option picked when an enemy unit targets this unit",
+              "ru": "вариант, выбранный, когда враг выбирает отряд целью"
+            }
+          }
+        ],
+        "hash": "c278d1ae",
+        "kind": "ability",
+        "name": "Vengeful Brethren Bladeguard Veteran Squad: Bladeguard (Once per turn per unit)",
+        "ref": {
+          "kind": "ability",
+          "unit": "vengeful-brethren-bladeguard-veteran-squad"
+        },
+        "reviewed": true,
+        "sid": "b8f5141f-daa9-4900-944e-2fe16af75b47:vengeful-brethren-bladeguard-veteran-squad",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "doctrine-devastator"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": {
+              "en": "while the Devastator Doctrine is active for this unit",
+              "ru": "пока для отряда активна Devastator Doctrine"
+            }
+          }
+        ],
+        "hash": "4b1af9f6",
+        "kind": "armyRule",
+        "name": "Combat Doctrines",
+        "ref": {
+          "kind": "armyRule"
+        },
+        "reviewed": true,
+        "sid": "95dbd786-5940-4348-85b1-074ba54c817f",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "5111516f",
+        "kind": "armyRule",
+        "name": "The Deathwing",
+        "note": "the DEATHWING keyword it grants is already carried by src/data/conditionalKeywords.json (gen-conditional-keywords.mjs reads the same grant structurally); recording it here would show it twice",
+        "ref": {
+          "kind": "armyRule"
+        },
+        "reviewed": true,
+        "sid": "2d71b3c6-84d1-49a1-a179-24b40816bb39",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "5465d0bf",
+        "kind": "armyRule",
+        "name": "The Ravenwing",
+        "ref": {
+          "kind": "armyRule"
+        },
+        "reviewed": true,
+        "sid": "0339c85c-6792-4c1d-a69f-93d1b915cd7e",
+        "ver": 963
+      },
+      {
+        "det": "Darkflight Pursuit",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "scope": 0,
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": null
+          }
+        ],
+        "hash": "045587fe",
+        "kind": "detachmentRule",
+        "name": "Black-winged Vigilance",
+        "ref": {
+          "det": "darkflight-pursuit",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "9f7ad3ea-f3fd-48bc-b27c-3b1fdcdb618e",
+        "ver": 963
+      },
+      {
+        "det": "Inner Circle Task Force",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against a unit within range of the vowed objective",
+              "ru": "против отряда в зоне обетного объекта"
+            }
+          }
+        ],
+        "hash": "3411f39a",
+        "kind": "detachmentRule",
+        "name": "Vowed Target",
+        "ref": {
+          "det": "inner-circle-task-force",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "9ca9235c-9f25-471c-973a-1a87ec84bcf8",
+        "ver": 995
+      },
+      {
+        "det": "The Vengeful Brethren",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": {
+              "en": "while the unit is in defence stance",
+              "ru": "пока отряд в defence stance"
+            }
+          }
+        ],
+        "hash": "14514667",
+        "kind": "detachmentRule",
+        "name": "Honoured Knights",
+        "ref": {
+          "det": "cp:dark-angels",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "8be3b67e-d634-44c6-98d0-d31cfee5d32c",
+        "ver": 995
+      },
+      {
+        "det": "Wrath of the Rock",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "81078a6a",
+        "kind": "detachmentRule",
+        "name": "Dutiful Tenacity",
+        "ref": {
+          "det": "wrath-of-the-rock",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "da94f3da-d6d2-4fea-a0e9-9411155f8659",
+        "ver": 995
+      },
+      {
+        "det": "Inner Circle Task Force",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "against targets within range of your vowed objective",
+              "ru": "по целям в зоне вашего vowed objective"
+            }
+          }
+        ],
+        "hash": "d24eb97a",
+        "kind": "enhancement",
+        "name": "Champion of the Deathwing",
+        "ref": {
+          "det": "inner-circle-task-force",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "5799077c-00bf-4a5d-aa88-b17cdf4c4b78",
+        "ver": 963
+      },
+      {
+        "det": "The Vengeful Brethren",
+        "effects": [
+          {
+            "cond": [
+              "combatant-lethal"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "the one picked when the unit is selected to attack",
+              "ru": "выбранная, когда отряд выбран для атаки"
+            }
+          },
+          {
+            "cond": [
+              "combatant-sustained"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "the one picked when the unit is selected to attack",
+              "ru": "выбранная, когда отряд выбран для атаки"
+            }
+          },
+          {
+            "cond": [
+              "combatant-lethal"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "the one picked when the unit is selected to attack",
+              "ru": "выбранная, когда отряд выбран для атаки"
+            }
+          },
+          {
+            "cond": [
+              "combatant-sustained"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "the one picked when the unit is selected to attack",
+              "ru": "выбранная, когда отряд выбран для атаки"
+            }
+          }
+        ],
+        "hash": "96e050f8",
+        "kind": "enhancement",
+        "name": "Supreme Combatant",
+        "ref": {
+          "det": "cp:dark-angels",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "dd22151f-003c-4223-b891-e5386fbe33d4",
+        "ver": 995
+      },
+      {
+        "det": "Wrath of the Rock",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 2,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "6e95bd2d",
+        "kind": "enhancement",
+        "name": "Ancient Weapons",
+        "ref": {
+          "det": "wrath-of-the-rock",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "a6eb0354-f367-4b37-beb3-712e90d3339c",
+        "ver": 963
+      },
+      {
+        "det": "Darkflight Pursuit",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Stealth",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "38b9e784",
+        "kind": "stratagem",
+        "name": "Wings of Shadow",
+        "ref": {
+          "det": "darkflight-pursuit",
+          "kind": "stratagem",
+          "name": "Wings of Shadow"
+        },
+        "reviewed": true,
+        "sid": "7cca0096-a682-4173-9fe5-48243b81b023",
+        "ver": 963
+      },
+      {
+        "det": "The Vengeful Brethren",
+        "dur": "turn",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "076afe4b",
+        "kind": "stratagem",
+        "name": "For the Lion",
+        "ref": {
+          "det": "cp:dark-angels",
+          "kind": "stratagem",
+          "name": "For the Lion"
+        },
+        "reviewed": true,
+        "sid": "1ead1a56-e4a7-4e0f-8a46-65b9e8f0452a",
+        "ver": 925
+      },
+      {
+        "det": "The Vengeful Brethren",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "fe8dfc7e",
+        "kind": "stratagem",
+        "name": "Mission Focus",
+        "ref": {
+          "det": "cp:dark-angels",
+          "kind": "stratagem",
+          "name": "Mission Focus"
+        },
+        "reviewed": true,
+        "sid": "5f1eba48-56b4-451d-aed3-9e8fb763f4f4",
+        "ver": 995
+      },
+      {
+        "det": "Wrath of the Rock",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "bf79a709",
+        "kind": "stratagem",
+        "name": "Inescapable Justice",
+        "ref": {
+          "det": "wrath-of-the-rock",
+          "kind": "stratagem",
+          "name": "Inescapable Justice"
+        },
+        "reviewed": true,
+        "sid": "31721131-d7b4-4266-9f41-879d32f1ea75",
+        "ver": 963
+      },
+      {
+        "det": "Wrath of the Rock",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Mobile",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "6ab50acf",
+        "kind": "stratagem",
+        "name": "Knights of Iron",
+        "ref": {
+          "det": "wrath-of-the-rock",
+          "kind": "stratagem",
+          "name": "Knights of Iron"
+        },
+        "reviewed": true,
+        "sid": "74601e3a-aa52-45aa-8243-7fb4159aa658",
+        "ver": 995
+      },
+      {
+        "det": "Wrath of the Rock",
+        "dur": "turn",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "076afe4b",
+        "kind": "stratagem",
+        "name": "Lion's Will",
+        "ref": {
+          "det": "wrath-of-the-rock",
+          "kind": "stratagem",
+          "name": "Lion's Will"
+        },
+        "reviewed": true,
+        "sid": "26c6919b-599b-4a9e-a700-fe87f2ea8096",
+        "ver": 963
+      },
+      {
+        "det": "Wrath of the Rock",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "s",
+            "value": 2,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "770a63f9",
+        "kind": "stratagem",
+        "name": "Relics of the Dark Age",
+        "ref": {
+          "det": "wrath-of-the-rock",
+          "kind": "stratagem",
+          "name": "Relics of the Dark Age"
+        },
+        "reviewed": true,
+        "sid": "c5c18f25-d4ed-4039-bb19-47b62b66a37c",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "unit",
+            "value": "4+",
+            "when": null
+          }
+        ],
+        "hash": "de3abe4a",
+        "kind": "wargear",
+        "name": "Azrael: The Lion Helm",
+        "ref": {
+          "item": "the lion helm",
+          "kind": "wargear",
+          "unit": "azrael"
+        },
+        "reviewed": true,
+        "sid": "929c0f7e-0053-4c56-aa6d-6b780ae7a816:azrael",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "w",
+            "value": "4",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "38451d6c",
+        "kind": "wargear",
+        "name": "Deathwing Command Squad: Storm Shield",
+        "note": "Read as Bullgryn Squad: Slabshield (astra-militarum), the same text.",
+        "ref": {
+          "item": "storm shield",
+          "kind": "wargear",
+          "unit": "deathwing-command-squad"
+        },
+        "reviewed": true,
+        "sid": "pack:deathwing-command-squad:storm-shield",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+ (vs mortal wounds)",
+            "when": {
+              "en": "until the end of a phase this unit summoned a Watcher in the Dark in (once per battle)",
+              "ru": "до конца фазы, в которой отряд призвал Watcher in the Dark (раз за битву)"
+            }
+          }
+        ],
+        "hash": "35b72d9f",
+        "kind": "wargear",
+        "name": "Deathwing Knights: Watcher in the Dark",
+        "ref": {
+          "item": "watcher in the dark",
+          "kind": "wargear",
+          "unit": "deathwing-knights"
+        },
+        "reviewed": true,
+        "sid": "b2bf043f-39ca-4ae5-83e4-dd5dab3a3bb1:deathwing-knights",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "w",
+            "value": "6",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "6026918c",
+        "kind": "wargear",
+        "name": "Deathwing Strikemaster: Storm Shield",
+        "ref": {
+          "item": "storm shield",
+          "kind": "wargear",
+          "unit": "deathwing-strikemaster"
+        },
+        "reviewed": true,
+        "sid": "pack:deathwing-strikemaster:storm-shield",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+ (vs mortal wounds)",
+            "when": {
+              "en": "until the end of a phase this unit summoned a Watcher in the Dark in (once per battle)",
+              "ru": "до конца фазы, в которой отряд призвал Watcher in the Dark (раз за битву)"
+            }
+          }
+        ],
+        "hash": "35b72d9f",
+        "kind": "wargear",
+        "name": "Deathwing Terminator Squad: Watcher in the Dark",
+        "ref": {
+          "item": "watcher in the dark",
+          "kind": "wargear",
+          "unit": "deathwing-terminator-squad"
+        },
+        "reviewed": true,
+        "sid": "b2bf043f-39ca-4ae5-83e4-dd5dab3a3bb1:deathwing-terminator-squad",
+        "ver": 925
+      }
+    ],
+    "formatVersion": 1,
+    "slug": "dark-angels"
+  }
+}

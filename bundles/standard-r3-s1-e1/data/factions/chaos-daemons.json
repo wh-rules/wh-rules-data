@@ -1,0 +1,1740 @@
+{
+  "chaosDaemons": {
+    "en": {
+      "armyRule": {
+        "body": "If your Army Faction is LEGIONES DAEMONICA, certain areas of the battlefield are considered to be within your army's **Shadow of Chaos**, as follows:\n▪ Your deployment zone is always within your army's Shadow of Chaos.\n▪ At the start of any phase, if you control at least half of the objective markers within No Man's Land, until the end of that phase, No Man's Land is within your army's Shadow of Chaos.\n▪ At the start of any phase, if you control at least half of the objective markers within your opponent's deployment zone, until the end of that phase, your opponent's deployment zone is within your army's Shadow of Chaos.\n\n### Daemonic Manifestation\nWhile a friendly LEGIONES DAEMONICA unit is within your army's Shadow of Chaos, each time that unit makes a Battle-shock roll, that unit has +1 to that Battle-shock roll and, if that roll is successful, one model in that unit **[gloss:heal:heals]** D3 wounds (if that unit is a Battleline unit and that roll is successful, up to D3 **[gloss:destroyed:destroyed]** models (excluding CHARACTER models) can be returned to that unit instead).\n\n### Daemonic Terror\nWhile an enemy unit is within your army's Shadow of Chaos and/or it is within 6\" of one or more Bloodthirster, Great Unclean One, Kairos Fateweaver, Keeper of Secrets, Lord of Change, Rotigus, Shalaxi Helbane or Skarbrand units from your army, each time that unit takes a Battle-shock test, subtract 1 from that test and, if that test is failed, that enemy unit suffers D3 mortal wounds.\n\n### Daemonic Pact\nIf every model from your army has the CHAOS KNIGHTS or HERETIC ASTARTES keyword, you can include LEGIONES DAEMONICA units in your army, even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points cost of such units you can include depends on your battle size: Incursion — up to 250 pts; Strike Force — up to 500 pts; Onslaught — up to 750 pts. None of these models can be your WARLORD, and they cannot be given Enhancements. In addition, for each of the following keywords, the number of non-Battleline units with that keyword you include in this way cannot be greater than the number of Battleline units with that keyword you include in this way: KHORNE, TZEENTCH, NURGLE, SLAANESH.",
+        "flavor": "When daemons pour into realspace, maelstroms of warp energy spill through in their wake. Manifest emotion and unbridled, nightmarish forces twist all that they touch, reshaping the landscape into bizarre forms while tormenting mortal beings to madness. To be embroiled in such tempests is to endure conditions utterly anathema to the fundamental laws of reality, provoking primal terror in even the most emotionless warriors.",
+        "id": "the-shadow-of-chaos",
+        "name": "The Shadow of Chaos"
+      },
+      "datasheets": [],
+      "detachments": [
+        {
+          "dp": 2,
+          "enhancements": [
+            {
+              "aura": true,
+              "body": "Legiones Daemonica Khorne model only. While a friendly LEGIONES DAEMONICA KHORNE unit (excluding MONSTERS) is within 6\" of the bearer, weapons equipped by models in that unit have the [LANCE] ability.",
+              "flavor": "This servant of Khorne is a walking nexus of bloodthirst, its mere presence whetting the keen edges of daemonic blades and appetites alike for slaughter.",
+              "name": "Slaughterthirst",
+              "points": 25
+            },
+            {
+              "body": "LEGIONES DAEMONICA KHORNE MONSTER model only. Each time the bearer is selected to fight, it can use this Enhancement. If it does, the bearer suffers D3+1 mortal wounds, and until the end of the phase, each time it makes an attack, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+              "flavor": "The Bloodthirster bound within this weapon offers the wielder immense power but seeks every way to turn its towering wrath upon its jailer.",
+              "name": "Fury’s Cage",
+              "points": 20
+            },
+            {
+              "body": "LEGIONES DAEMONICA KHORNE model only. Add 2 to Charge rolls made for the bearer’s unit.",
+              "flavor": "This daemon’s maw and throat are forged from burning brass, transforming its war cries into a deafening clarion that calls the Blood Legion to war.",
+              "name": "Brazenmaw",
+              "points": 15
+            },
+            {
+              "body": "LEGIONES DAEMONICA KHORNE MONSTER model only. The bearer’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 2+ instead of on a 6. In addition, if the bearer has destroyed one or more enemy units this battle, the bearer has the Deadly Demise D3+3 ability, instead of any other Deadly Demise ability on its datasheet.",
+              "flavor": "Concealed within this daemon’s form is a portal into the depths of Khorne’s realm. Anointed with gore and thrown wide by the daemon’s corporeal demise, it expands like a bloody singularity to drag everything in reach into the screaming maelstrom of the Warp.",
+              "name": "Gateway Unto Damnation",
+              "points": 10
+            }
+          ],
+          "forceDispositions": [
+            "Purge the Foe"
+          ],
+          "id": "blood-legion",
+          "name": "Blood Legion",
+          "rule": {
+            "body": "### Murdercall\nIn your opponent's Movement phase, each time an enemy unit (excluding AIRCRAFT) ends a move within 8\" of one or more LEGIONES DAEMONICA KHORNE units from your army, one of those LEGIONES DAEMONICA KHORNE units can make a **[gloss:surge-move:surge move]** of up to D6\".\n\n### Blood Tainted\nAt the end of a phase in which a Legiones Daemonica Khorne unit from your army destroyed an enemy unit that was within range of an objective marker at the start of the phase, if your unit has a higher Level of Control over that objective marker, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+            "flavor": "The daemons of Khorne are physical manifestations of rage, hate and the desperate need to shed blood. For as long as their physical forms remain in realspace, they will never cease their murderous rampage.",
+            "name": "Murdercall & Blood Tainted"
+          },
+          "source": "faction-pack",
+          "stratagems": [
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, models in your unit have a Save characteristic of 3+.",
+              "flavor": "The scorn of these daemons for the blasts and blades of the weakling foe manifests as flowing brass armour that enfolds their corporeal forms and denies all but the most dolorous blows.",
+              "name": "Sheathed in Brass",
+              "restrictions": "",
+              "sublabel": "Blood Legion – Battle Tactic Stratagem",
+              "target": "One LEGIONES DAEMONICA KHORNE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+              "turn": "opponent",
+              "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets."
+            },
+            {
+              "cp": "2CP",
+              "effect": "Declare a charge with your unit. When selecting **[gloss:charge-target:charge targets]**, you can only select enemy units that made a fall-back move this phase and are within the **[gloss:maximum-distance:maximum distance]**.",
+              "flavor": "Khorne’s daemons know only hatred and contempt for those who flee from combat and will distort reality itself to keep such cowards trapped in the endless battle they sought to escape.",
+              "name": "Fool’s Flight",
+              "restrictions": "",
+              "sublabel": "Blood Legion – Strategic Ploy Stratagem",
+              "target": "One friendly unengaged LEGIONES DAEMONICA KHORNE unit that is within 6\" of that enemy unit.",
+              "turn": "opponent",
+              "when": "Your opponent’s Movement phase, when an enemy unit ends a fall-back move."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, each time a model in your unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6: on a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+              "flavor": "Even the banishing blow is often not enough to prevent the daemons of Khorne from lashing out to take bloody vengeance as they discorporate.",
+              "name": "Wrath Undeniable",
+              "restrictions": "",
+              "sublabel": "Blood Legion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA KHORNE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+              "turn": "either",
+              "when": "Fight phase, just after an enemy unit has selected its targets."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, each time a model in your unit makes a move, it can move through terrain features.",
+              "flavor": "The manifest will to run down and slaughter their prey allows the daemons of Khorne to surge through physical barriers as though they did not exist, falling upon their victims like bloody phantasms.",
+              "name": "Gore‑hungry Onslaught",
+              "restrictions": "",
+              "sublabel": "Blood Legion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA KHORNE unit from your army.",
+              "turn": "your",
+              "when": "Your Movement phase or your Charge phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Select one enemy unit that is not within Engagement Range of one or more units from your army and is within 8\" of and visible to your unit. Roll six D6: for each 4+, that enemy unit suffers 1 mortal wound.",
+              "flavor": "Torn from the wet and ragged necks of worthy mortal champions, these skulls blaze with balefire as the daemons of Khorne heft and hurl them. They explode amongst the foe to shed more blood for the Blood God.",
+              "name": "Skulls Beget Blood",
+              "restrictions": "",
+              "sublabel": "Blood Legion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA KHORNE INFANTRY or LEGIONES DAEMONICA KHORNE MOUNTED unit from your army (excluding units that Fell Back this turn) that is not within Engagement Range of one or more enemy units.",
+              "turn": "your",
+              "when": "Your Shooting phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced.",
+              "flavor": "The iron reek of mortal blood pulsing through living veins fires the unnatural senses of Khorne’s daemons, drawing them on all the swifter to tear, slay, and hack skulls from necks for mighty Khorne.",
+              "name": "Blood Begets Skulls",
+              "restrictions": "",
+              "sublabel": "Blood Legion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA KHORNE unit from your army that has not been selected to charge this phase.",
+              "turn": "your",
+              "when": "Your Charge phase."
+            }
+          ]
+        },
+        {
+          "dp": 3,
+          "enhancements": [
+            {
+              "body": "KHORNE LEGIONES DAEMONICA model only. Add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons. While the bearer is within your army’s Shadow of Chaos, add 2 to the Attacks and Strength characteristics of the bearer’s melee weapons instead.",
+              "flavor": "When a daemon is bound within a weapon by its infernal master, it rarely submits willingly to this terrible incarceration. The same cannot be said for A’rgath. A lifetime of slaughter and zealous dedication saw this butcher granted daemonhood. Such was his devotion to Khorne that instead of accepting immortality as a Daemon Prince, he instead chose to take the form of a deadly blade so that he could spill the lifeblood of Khorne’s greatest enemies. Their hand guided by A’rgath’s spirit, this weapon’s wielder becomes nigh on unstoppable. Countless are the rival champions and mortal heroes that have fallen to his power.",
+              "name": "A’rgath, the King of Blades",
+              "points": 20
+            },
+            {
+              "body": "SLAANESH LEGIONES DAEMONICA model only. Each time the bearer destroys an enemy model with a melee attack, roll one D6, adding 1 to the result if the bearer is within your army’s Shadow of Chaos. On a 4+, the bearer regains 1 lost wound.",
+              "flavor": "This gluttonous blade gulps down the souls of its victims before invigorating the corporeal form of its wielder. Its greed stems from the starving Keeper of Secrets bound within – an arrogant entity that sought to devour enough Aeldari souls to challenge Slaanesh itself. As punishment for the daemon’s monstrous hubris, Slaanesh trapped it within Soulstealer, condemning the Keeper of Secrets to sustain other daemons with its frenzied appetite while retaining nothing for itself.",
+              "name": "Soulstealer",
+              "points": 15
+            },
+            {
+              "body": "NURGLE LEGIONES DAEMONICA model only. The bearer has the Feel No Pain 5+ ability.",
+              "flavor": "Only the most accomplished plague daemons are granted the Endless Gift. A disease of unutterable malignancy and repulsive beneficence, it changes form constantly from plague to infestation to malaise. The one constant is its ability to reknit its sufferer’s corporeal form from even the most catastrophic of wounds. One moment, infernal bacteria may multiply like wildfire until their gelid mass fills a fleshy rent with fresh daemon-flesh. The next, pestilential vapours may billow from the daemon’s yawning maw, veiling its ravaged bulk before tattering away to reveal a form healed of its recent hurts.",
+              "name": "The Endless Gift",
+              "points": 30
+            },
+            {
+              "body": "TZEENTCH LEGIONES DAEMONICA model only. Add 1 to the Strength characteristic of the bearer’s ranged weapons and increase the Range characteristic of such weapons by 3\". While the bearer is within your army’s Shadow of Chaos, add 2 to the Strength characteristic of the bearer’s ranged weapons and increase the Range characteristic of such weapons by 6\" instead.",
+              "flavor": "This staff blazes with vibrant warpflame. As soon as its master takes up the eldritch weapon, they too are wreathed in the same daemonic fire. From within this magenta inferno, the Everstave’s daemonic bearer hurls searing gouts of Tzeentch’s pink fire, turning armour to ash and immolating or irrevocably mutating the flesh beneath.",
+              "name": "The Everstave",
+              "points": 25
+            }
+          ],
+          "forceDispositions": [
+            "Take and Hold",
+            "Disruption"
+          ],
+          "id": "daemonic-incursion",
+          "name": "Daemonic Incursion",
+          "rule": {
+            "body": "Each time a LEGIONES DAEMONICA unit from your army is set up on the battlefield using the Deep Strike ability, if it is set up wholly within your army’s Shadow of Chaos, and/or if it is set up wholly within 6\" of one or more friendly Bloodthirster, Great Unclean One, Kairos Fateweaver, Keeper of Secrets, Lord of Change, Rotigus, Shalaxi Helbane or Skarbrand units with which it shares the KHORNE, TZEENTCH, NURGLE or SLAANESH keyword, it can be set up anywhere that is more than 6\" horizontally away from all enemy models, instead of more than 8\".",
+            "flavor": "Daemonic legions tear through the fabric of realspace, malevolent entities flickering into being like phantasms from a nightmare. Worse still, as terror and panic take hold of their victims, so their mortal souls become ever easier prey for the entities pouring through from the warp.",
+            "name": "Warp Rifts"
+          },
+          "source": "faction-pack",
+          "stratagems": [
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, improve the Armour Penetration characteristic of weapons equipped by models in that unit by 1. In addition, until the end of the phase, each time such a weapon targets a unit that is Battle-shocked, you can re-roll the Wound roll.",
+              "flavor": "The swelling fear of their mortal prey serves as an intoxicating elixir to the daemonic followers, each draught invigorating their forms with deadly power.",
+              "name": "Draught of Terror",
+              "restrictions": "",
+              "sublabel": "Demonic Incursion – Battle Tactic Stratagem",
+              "target": "One LEGIONES DAEMONICA unit from your army that has not been selected to shoot or fight this phase.",
+              "turn": "either",
+              "when": "Your Shooting phase or the Fight phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, each time an invulnerable saving throw is made for a model in your unit, re-roll a saving throw of 1.",
+              "flavor": "Daemons are madness given form. Their very bodies are fashioned from the stuff of the warp, and are difficult to destroy through conventional means.",
+              "name": "Daemonic Invulnerability",
+              "restrictions": "",
+              "sublabel": "Demonic Incursion – Battle Tactic Stratagem",
+              "target": "One LEGIONES DAEMONICA unit from your army that was selected as the target of one or more of that enemy unit’s attacks.",
+              "turn": "opponent",
+              "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets."
+            },
+            {
+              "cp": "1CP",
+              "effect": "▪ Place your unit in **[gloss:strategic-reserves:strategic reserves]**.\n▪ Your unit must make an **[gloss:ingress-move:ingress move]** in your next Movement phase (including in your first turn).",
+              "flavor": "When the energies of the warp bleed into realspace, the Legiones Daemonica can rip open portals in seeming thin-air, returning to their hellscapes only to rematerialise amidst their foes a heartbeat later.",
+              "name": "The Realm of Chaos",
+              "restrictions": "You cannot target units that are within Engagement Range of one or more enemy units with this Stratagem.",
+              "sublabel": "Demonic Incursion – Battle Tactic Stratagem",
+              "target": "Up to two LEGIONES DAEMONICA units from your army that are within your army’s Shadow of Chaos, or one other LEGIONES DAEMONICA unit from your army.",
+              "turn": "opponent",
+              "when": "End of your opponent’s turn."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced.",
+              "flavor": "The winds of the warp blow strong, invigorating daemonkind and lending them supernatural speed and ferocity.",
+              "name": "Warp Surge",
+              "restrictions": "",
+              "sublabel": "Demonic Incursion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA unit from your army that is within your army’s Shadow of Chaos.",
+              "turn": "your",
+              "when": "Your Charge phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "That objective marker is said to be Corrupted and remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn. In addition, while an objective marker is Corrupted and under your control, the area of the battlefield within 6\" of that objective marker is considered to be within your army’s Shadow of Chaos.",
+              "flavor": "Daemons instinctively feel the need to despoil and corrupt every corner of realspace, the better to sustain their otherworldly forms.",
+              "name": "Corrupt Realspace",
+              "restrictions": "",
+              "sublabel": "Demonic Incursion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA unit from your army that is within range of an objective marker you control.",
+              "turn": "either",
+              "when": "Start of any Command phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy models.",
+              "flavor": "Ever lurking in the warp, daemons will wait until the barriers between realms thin before tearing their way into realspace.",
+              "name": "Denizens of the Warp",
+              "restrictions": "",
+              "sublabel": "Demonic Incursion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA unit from your army that is arriving using the Deep Strike ability this phase.",
+              "turn": "your",
+              "when": "Your Movement phase."
+            }
+          ]
+        },
+        {
+          "dp": 2,
+          "enhancements": [
+            {
+              "aura": true,
+              "body": "Legiones Daemonica Slaanesh model only. While a friendly LEGIONES DAEMONICA SLAANESH unit (excluding MONSTERS) is within 6\" of the bearer, each time a model in that unit makes a melee attack, add 1 to the Wound roll.",
+              "flavor": "Dripping poisonous finery and stalking across the battlefield with regal arrogance, this daemon evokes in its fellows the jealous need to outshine its magnificence.",
+              "name": "False Majesty",
+              "points": 30
+            },
+            {
+              "aura": true,
+              "body": "Legiones Daemonica Slaanesh model only. While a friendly LEGIONES DAEMONICA SLAANESH unit (excluding MONSTERS) is within 6\" of the bearer, each time a model in that unit makes a melee attack, add 1 to the Hit roll.",
+              "flavor": "This gilded circlet fills mortal minds with waking dreams potent enough to intoxicate and distract even the most disciplined or alien combatants, leaving them easy prey for the daemons of Slaanesh.",
+              "name": "Dreaming Crown",
+              "points": 30
+            },
+            {
+              "body": "LEGIONES DAEMONICA SLAANESH MONSTER model only. At the start of each phase, if there are no other friendly units within 6\" of the bearer, you can: re-roll Advance rolls made for the bearer; re-roll Charge rolls made for the bearer; ignore any or all modifiers to its Move characteristic and to any Advance and/or Charge rolls made for the bearer.",
+              "flavor": "This entity is the corporeal embodiment of selfish arrogance, fighting best when it fights alone.",
+              "name": "Avatar of Perfection",
+              "points": 15
+            },
+            {
+              "body": "LEGIONES DAEMONICA SLAANESH MONSTER model only. At the end of the Fight phase, if one or more enemy models were destroyed this phase as a result of one or more of the bearer’s attacks, it can use this Enhancement. If it does, it regains up to D3 lost wounds.",
+              "flavor": "This daemon lord guzzles souls, its bloated corporeality reknitting with each fresh morsel.",
+              "name": "Soul Glutton",
+              "points": 10
+            }
+          ],
+          "forceDispositions": [
+            "Priority Assets"
+          ],
+          "id": "legion-of-excess",
+          "name": "Legion of Excess",
+          "rule": {
+            "body": "### Beguiling Aura\nLEGIONES DAEMONICA SLAANESH units from your army are eligible to declare a charge in a turn in which they Fell Back.\n\n### Seductive Gambit\nLEGIONES DAEMONICA SLAANESH units from your army have the following ability:\n\n**Seductive Gambit:** Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re-roll the Hit roll and you can re-roll a Wound roll of 1.",
+            "flavor": "The daemons of the Dark Prince can bewitch the minds of their foes, appearing in one moment as their true and nightmarish selves and in the next as the object of their foes’ most forbidden desires or devoted affections. Enemies are left foundering and bewildered as the daemons weave their sinuous dances around them and trill their nerve-shredding siren songs.",
+            "name": "Beguiling Aura & Seductive Gambit"
+          },
+          "source": "faction-pack",
+          "stratagems": [
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+              "flavor": "Sensation gushes relentlessly into the overstimulated minds of the enemy until their souls strain fit to burst. Barely able to think or function, they recoil in their desperate need to stem the unstoppable tide.",
+              "name": "Overwhelming Excess",
+              "restrictions": "",
+              "sublabel": "Legion of Excess – Battle Tactic Stratagem",
+              "target": "One LEGIONES DAEMONICA SLAANESH unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+              "turn": "opponent",
+              "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets."
+            },
+            {
+              "cp": "2CP",
+              "effect": "Until the end of the phase, each time a model in one of those units makes an attack, add 1 to the Wound roll.",
+              "flavor": "These daemons perceive with absolute clarity whereabouts on their victims’ bodies they must strike to inflict the greatest possible excess of suffering.",
+              "name": "Archagonists",
+              "restrictions": "",
+              "sublabel": "Legion of Excess – Battle Tactic Stratagem",
+              "target": "One LEGIONES DAEMONICA SLAANESH MONSTER unit or up to two Legiones Daemonica Slaanesh units (excluding MONSTERS) from your army that have not been selected to fight this phase.",
+              "turn": "either",
+              "when": "Fight phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Select one enemy unit within Engagement Range of your unit, then roll one D6 for each model in your unit that is within Engagement Range of that enemy unit, or roll six D6 instead if your unit is a MONSTER unit: for each 4+, that enemy unit suffers 1 mortal wound.",
+              "flavor": "The cavorting approach of Slaaneshi daemons is hypnotic and enthralling. It is a whirling carousel of eye-searing colours and flashing blades that tempt mortals to reach out with trembling eagerness until they can just reach.",
+              "name": "Cavalcade of Blades",
+              "restrictions": "",
+              "sublabel": "Legion of Excess – Battle Tactic Stratagem",
+              "target": "That LEGIONES DAEMONICA SLAANESH unit.",
+              "turn": "your",
+              "when": "Your Charge phase, just after a LEGIONES DAEMONICA SLAANESH unit from your army ends a Charge move."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Attacks that target your unit with a **[gloss:strength:S]** greater than your unit’s **[gloss:toughness:T]** have -1 to **[gloss:wound-roll:wound rolls]**.",
+              "flavor": "Those made from the essence of Slaanesh revel in every sensation, from blissful euphoria to agonising pain. Even a devastating wound is seen as a gift to be savoured by the daemons of the Dark Prince.",
+              "name": "Rapturous Agony",
+              "restrictions": "",
+              "sublabel": "Legion of Excess – Strategic Ploy Stratagem",
+              "target": "That LEGIONES DAEMONICA SLAANESH unit.",
+              "turn": "either",
+              "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly LEGIONES DAEMONICA SLAANESH unit (excluding MONSTER/VEHICLE units)."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Each unit on the battlefield that is within your army’s Shadow of Chaos must take a Battle-shock test, subtracting 1 from that test if they are Below Half-strength.\n\n**Designer’s Note:** This Stratagem forces all friendly and enemy units alike within your army’s Shadow of Chaos to take a Battle-shock test. This can allow a Chaos Daemons player to heal units from their army through the Daemonic Manifestation army rule, at the risk of causing some of their own units to become Battle-shocked.",
+              "flavor": "This entity causes the battlefield to flicker wildly between the debauched Slaaneshi Warp interstice and the most brutally mundane reality, faster than even supernatural senses can perceive. The result is a psychically devastating barrage of excess and deprivation.",
+              "name": "Sensory Excruciation",
+              "restrictions": "",
+              "sublabel": "Legion of Excess – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA SLAANESH MONSTER unit from your army that is on the battlefield.",
+              "turn": "your",
+              "when": "Your Command phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, each time a model in your unit makes a move, it can move through terrain features.",
+              "flavor": "Against their wills, enemy combatants find themselves wishing for the daemons of Slaanesh to draw closer. It is child’s play for the daemons of Slaanesh to harness such strong emotions and transform them into manifest reality.",
+              "name": "Phantasmal Longing",
+              "restrictions": "",
+              "sublabel": "Legion of Excess – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA SLAANESH unit from your army.",
+              "turn": "your",
+              "when": "Your Movement phase or your Charge phase."
+            }
+          ]
+        },
+        {
+          "dp": 2,
+          "enhancements": [
+            {
+              "body": "LEGIONES DAEMONICA NURGLE model only. Each time an enemy unit (excluding MONSTERS and VEHICLES) that is within 6\" of the bearer fails a Battle-shock test, the bearer can use this Enhancement. If it does, one model in that unit is destroyed (chosen by its controlling player). Each time the bearer uses this Enhancement, no mortal wounds are inflicted by your army’s Daemonic Terror rule.",
+              "flavor": "The mere presence of this corrosive monstrosity is enough to rot the very stuff of reality and all who inhabit it.",
+              "name": "Cankerblight",
+              "points": 15
+            },
+            {
+              "body": "LEGIONES DAEMONICA NURGLE model only. In your Shooting phase, select one enemy unit within 6\" of the bearer; that enemy unit must take a Battle-shock test. Then roll one D6: on a 3+, that enemy unit suffers D3 mortal wounds. Each time the bearer uses this Enhancement, no mortal wounds are inflicted by your army’s Daemonic Terror rule.",
+              "flavor": "This daemon’s flesh is pocked with foul mouths that mumble curses to rot the minds of all who hear them.",
+              "name": "Maggot Maws",
+              "points": 15
+            },
+            {
+              "aura": true,
+              "body": "LEGIONES DAEMONICA NURGLE MONSTER model only. While a friendly Legiones Daemonica Nurgle unit is within 6\" of the bearer, that unit can only be targeted by a ranged attack if the attacking model is within 18\".",
+              "flavor": "This sentient cowl of daemonic plague flies roars and whirls with cyclonic force, obscuring even the most hulking and bloated daemonic bearer.",
+              "name": "Droning Shroud",
+              "points": 35
+            },
+            {
+              "aura": true,
+              "body": "LEGIONES DAEMONICA NURGLE MONSTER model only. While a friendly Legiones Daemonica Nurgle unit is within 6\" of the bearer, improve the Armour Penetration characteristic of weapons equipped by models in that unit by 1.",
+              "flavor": "This entity’s foul breath expels clouds of rust pox spores, which gnaw into all they settle upon.",
+              "name": "Font of Spores",
+              "points": 20
+            }
+          ],
+          "forceDispositions": [
+            "Take and Hold"
+          ],
+          "id": "plague-legion",
+          "name": "Plague Legion",
+          "rule": {
+            "body": "While an enemy unit is within 9\" of one or more LEGIONES DAEMONICA NURGLE units from your army, that enemy unit is within your army’s Shadow of Chaos. In each player’s Command phase, select one enemy unit within your army’s Shadow of Chaos. That unit must take a Battle-shock test.",
+            "flavor": "To fight the daemons of Nurgle is to endure their entropic assaults upon both the physical and spiritual battlefields. The horror of inevitable decay claws at the souls of their victims even as the daemons’ splintered talons rake their flesh, heralding nightmarish putrefaction and impending doom.",
+            "name": "Melancholic Miasma"
+          },
+          "source": "faction-pack",
+          "stratagems": [
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Hit roll. After your unit has finished making its attacks, select one enemy unit hit by one or more of those attacks; that enemy unit must take a Battle-shock test.",
+              "flavor": "A plague of waking nightmares races through the enemy ranks, leaving foes reeling in the grip of nauseating visions that curdle into soul-destroying reality.",
+              "name": "Fever Visions",
+              "restrictions": "",
+              "sublabel": "Plague Legion – Battle Tactic Stratagem",
+              "target": "One LEGIONES DAEMONICA NURGLE unit from your army that has not been selected to shoot or fight this phase.",
+              "turn": "either",
+              "when": "Your Shooting phase or the Fight phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, each time your unit makes a Normal move, add 5\" to the Move characteristic of models in your unit.",
+              "flavor": "With the battlefield swathed in an occluding miasma of unreality, Nurgle’s daemons may loom out of the haze, solidify from amidst thrumming fly clouds or even rise out of the filth without warning",
+              "name": "Murkshadows",
+              "restrictions": "",
+              "sublabel": "Plague Legion – Battle Tactic Stratagem",
+              "target": "One LEGIONES DAEMONICA NURGLE INFANTRY unit from your army.",
+              "turn": "your",
+              "when": "Your Movement phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, each time a model in that unit makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
+              "flavor": "Repugnant filth wells from the weapons, gaping maws and open wounds of these daemons, slopping across the foe and causing swift and virulent rot wherever it finds the slightest way in.",
+              "name": "Seeping Virulence",
+              "restrictions": "",
+              "sublabel": "Plague Legion – Battle Tactic Stratagem",
+              "target": "One LEGIONES DAEMONICA NURGLE unit from your army that has not been selected to fight this phase.",
+              "turn": "either",
+              "when": "Fight phase."
+            },
+            {
+              "cp": "2CP",
+              "effect": "Return up to 1 **[gloss:destroyed:destroyed]** model to your unit (excluding CHARACTER models), or up to D3 **destroyed** models instead (excluding Character models) if your unit is a Battleline unit, with their full wounds remaining. If your unit is a MONSTER unit, one model in your unit regains up to D3+1 lost wounds instead.",
+              "flavor": "As the power of the Plague God saturates the battlefield, fresh daemonic life blooms from the septic corpse mulch that bubbles underfoot.",
+              "name": "Foetid Resurgence",
+              "restrictions": "",
+              "sublabel": "Plague Legion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA NURGLE unit from your army that is on the battlefield.",
+              "turn": "your",
+              "when": "Your Command phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, each time a model in your unit makes a move, it can move through terrain features.",
+              "flavor": "Rather than lumber across the battlefield, these daemons rot away to nothing before hatching anew from canker blooms wherever they wish to be.",
+              "name": "Rot and Renewal",
+              "restrictions": "",
+              "sublabel": "Plague Legion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA NURGLE unit from your army.",
+              "turn": "your",
+              "when": "Your Movement phase or your Charge phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, after an enemy unit takes a Battle-shock test as a result of the Melancholic Miasma Detachment rule, select one other enemy unit within 9\" of your unit; that enemy unit must take a Battle-shock test.",
+              "flavor": "Even as one band of foes gives in to despair, their sorrows spread like a virus to the minds and souls of others, the enemy’s woes multiplying by the moment.",
+              "name": "Plague of Woes",
+              "restrictions": "",
+              "sublabel": "Plague Legion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA NURGLE unit from your army.",
+              "turn": "opponent",
+              "when": "Your opponent’s Command phase, before selecting any targets for the Melancholic Miasma Detachment rule."
+            }
+          ]
+        },
+        {
+          "dp": 2,
+          "enhancements": [
+            {
+              "body": "LEGIONES DAEMONICA TZEENTCH model only. In your Command phase, if the bearer is on the battlefield, if your opponent has one or more Flux tokens, you gain one additional Flux token.",
+              "flavor": "This gem reveals the myriad paths of the future.",
+              "name": "Inescapable Eye",
+              "points": 15
+            },
+            {
+              "body": "LEGIONES DAEMONICA TZEENTCH MONSTER model only. In your Shooting phase, when this unit is **[gloss:selected-to-shoot:selected to shoot]**, while an enemy unit is visible to a friendly Legiones Daemonica Tzeentch unit, that enemy unit has +9\" **[gloss:detection-range:detection range]** until this unit has shot.",
+              "flavor": "To this mighty entity, lesser daemons are but prisms through which its power shines.",
+              "name": "Infernal Puppeteer",
+              "points": 20
+            },
+            {
+              "body": "LEGIONES DAEMONICA TZEENTCH MONSTER model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 2, improve the Attacks and Armour Penetration characteristics of melee weapons equipped by the bearer by 1, and each time the bearer makes a melee attack, add 1 to the Hit roll.",
+              "flavor": "This bizarre daemon weapon makes a mockery of even the most determined defence.",
+              "name": "Neverblade",
+              "points": 25
+            },
+            {
+              "aura": true,
+              "body": "LEGIONES DAEMONICA TZEENTCH model only. While a friendly Legiones Daemonica Tzeentch unit is within 6\" of the bearer, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks and mortal wounds.",
+              "flavor": "Complex convolutions of fate wind about this entity.",
+              "name": "Improbable Shield",
+              "points": 30
+            }
+          ],
+          "forceDispositions": [
+            "Priority Assets"
+          ],
+          "id": "scintillating-legion",
+          "name": "Scintillating Legion",
+          "rule": {
+            "body": "You start the battle with three Flux tokens (we recommend using a dice to track how many Flux tokens you have). You can spend one Flux token just after an Advance roll, Hit roll, Wound roll, Damage roll, saving throw or Hazardous test is made for a Legiones Daemonica Tzeentch model or LEGIONES DAEMONICA TZEENTCH unit from your army to re-roll the result of that roll, throw or test. Flux tokens can also be spent to enhance the effect of some Stratagems. Each time you spend a Flux token, reduce the number of Flux tokens you have by one and your opponent gains one Flux token.\n\nWhenever your opponent has one or more Flux tokens, they can spend one Flux token after an Advance roll, Hit roll, Wound roll or saving throw is made for a model or unit from their army, to re-roll the result of that roll or throw. If they do, they reduce the number of Flux tokens they have by one and you gain one Flux token. This is ignored if your opponent has the Fates in Flux Detachment rule.\n\nIn your Command phase, if your opponent has one or more Flux tokens, you gain one Flux token.\n\n**Designer’s Note:** When using fast dice rolling, this rule can be used to spend any number of Flux tokens (up to the amount you have), to re-roll a number of dice up to the amount spent, after rolling multiple rolls or saving throws at once.",
+            "flavor": "With every chance for change seized, every new fraying of fate’s weave, the daemons and their foes alike fuel the power of Tzeentch, however inadvertently.",
+            "name": "Fates in Flux"
+          },
+          "source": "faction-pack",
+          "stratagems": [
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, add 2 to the Strength characteristic of weapons equipped by models in your unit, or spend one Flux token and add 3 to the Strength characteristic of those weapons and improve the Armour Penetration characteristic of those weapons by 1 instead.",
+              "flavor": "Warpflame is as changeable as the monsters who wield it, capable of easily burning through ceramite plates or reinforced hulls when desired.",
+              "name": "Pyrogenesis",
+              "restrictions": "",
+              "sublabel": "Scintillating Legion – Battle Tactic Stratagem",
+              "target": "One LEGIONES DAEMONICA TZEENTCH unit from your army that has not been selected to shoot or fight that phase.",
+              "turn": "either",
+              "when": "Your Shooting phase or the Fight phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, each time a model in your unit makes a move, it can move through terrain features.",
+              "flavor": "Barred doors, reinforced windows, or walls are no barriers to the children of the Warp. They cannot be outrun; they cannot be hidden from; they cannot be stopped.",
+              "name": "Fateborne Nightmares",
+              "restrictions": "",
+              "sublabel": "Scintillating Legion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA TZEENTCH unit from your army.",
+              "turn": "your",
+              "when": "Your Movement phase or your Charge phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Roll one D6, then you can spend one Flux token to re-roll the result: until the end of the phase, each time an attack targets your unit, on an unmodified Hit roll (after any re-roll) of that result, the attack sequence ends, even if the original Hit roll would have been a Critical Hit.\n\n**Example:** If you roll a 2 and choose to spend one Flux token to re-roll the result, and the re-roll is a 6, then until the end of the phase, each time an attack targets your unit, on an unmodified Hit roll of 6 the attack sequence ends, that attack fails to hit and no Critical Hit effects (e.g. Lethal Hits) are resolved.",
+              "flavor": "The very stuff of reality flickers like a candle flame in a gale, frustrating even the most skilful sworders as they strike at rippling illusions.",
+              "name": "Flickering Reality",
+              "restrictions": "",
+              "sublabel": "Scintillating Legion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA TZEENTCH unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+              "turn": "either",
+              "when": "Fight phase, just after an enemy unit has selected its targets."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Select No Man’s Land or your opponent’s deployment zone, or spend one Flux token and select both. Until the end of the phase, the selected areas of the battlefield are within your army’s Shadow of Chaos.",
+              "flavor": "At the call of this malevolent entity, invisible stellar bodies slide into alignment, plunging the battlefield into momentary twilight, dancing with strange and sorcerous will-o’-the-wisps.",
+              "name": "Impossible Eclipse",
+              "restrictions": "",
+              "sublabel": "Scintillating Legion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA TZEENTCH MONSTER unit from your army that is on the battlefield.",
+              "turn": "either",
+              "when": "Any phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets for, and resolving attacks with, ranged weapons. Until the end of the phase, each time an enemy model is destroyed while its unit is within Engagement Range of your unit, roll one D6: on a 5+, your unit suffers 1 mortal wound after the attacking unit has finished making its attacks.",
+              "flavor": "These daemons care little for who they engulf in their infernal fires, only that destruction and chaos are wrought.",
+              "name": "Ficklefire",
+              "restrictions": "",
+              "sublabel": "Scintillating Legion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA TZEENTCH unit from your army that is within Engagement Range of one or more enemy units.",
+              "turn": "your",
+              "when": "Your Shooting phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Remove your units from the battlefield and place them into Strategic Reserves.",
+              "flavor": "Between one heartbeat and the next, the daemons of Tzeentch vanish as though they were never there. Yet this jarring respite will last only long enough for their victims to question their sanity before the onslaught begins anew.",
+              "name": "Delirium Unmade",
+              "restrictions": "",
+              "sublabel": "Scintillating Legion – Strategic Ploy Stratagem",
+              "target": "One Legiones Daemonica Tzeentch unit from your army that is not within Engagement Range of one or more enemy units. Alternatively, you can spend one Flux token when you use this Stratagem and target up to two LEGIONES DAEMONICA TZEENTCH units from your army instead (including those within Engagement Range of one or more enemy units).",
+              "turn": "opponent",
+              "when": "End of your opponent’s Fight phase."
+            }
+          ]
+        },
+        {
+          "dp": 2,
+          "enhancements": [
+            {
+              "body": "Shadow Legion model only. Models in the bearer’s unit have the Scouts 9\" ability.",
+              "flavor": "Seen only in flashes, this warrior traverses the darkness with supernatural speed and stealth, emerging where least expected.",
+              "name": "Leaping Shadows",
+              "points": 25
+            },
+            {
+              "aura": true,
+              "body": "Shadow Legion model only. While an enemy unit is within Engagement Range of the bearer’s unit, subtract 1 from the Objective Control characteristic of models in that enemy unit.",
+              "flavor": "This warrior is mantled in the dread energies of the immaterium. With but a thought, they can extrude from their gloaming mantle coils of grasping darkness, the chill touch of which is enough to erode the confidence of even the mightiest champion.",
+              "name": "Mantle of Gloom",
+              "points": 20
+            },
+            {
+              "body": "Shadow Legion model only. At the end of the Fight phase, if the bearer’s unit destroyed one or more enemy units this phase and is not within Engagement Range of one or more enemy units, you can remove the bearer’s unit from the battlefield and place it into Strategic Reserves.",
+              "flavor": "Having slaughtered their prey, this thrall of the Dark Master opens a twilit gate, returning to the gloom and preparing for their next assault.",
+              "name": "Fade to Darkness",
+              "points": 30
+            },
+            {
+              "body": "Shadow Legion model only. At the start of the Fight phase, select one enemy unit within Engagement Range of the bearer’s unit and roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds.",
+              "flavor": "This champion of Chaos weaponises their own twisted and blackened spirit, projecting talons wrought of concentrated madness and fury that rake through mind, body and soul.",
+              "name": "Malice Made Manifest",
+              "points": 25
+            }
+          ],
+          "forceDispositions": [
+            "Purge the Foe"
+          ],
+          "id": "shadow-legion",
+          "name": "Shadow Legion",
+          "rule": {
+            "body": "### Thralls of the First Prince\nWhen mustering your army, you cannot include any Daemon Prince, Daemon Prince with Wings or Epic Hero units (excluding Be’lakor), but you can include the following HERETIC ASTARTES units:\n▪ CHAOS LORD\n▪ CHAOS LORD IN TERMINATOR ARMOUR\n▪ CHAOS LORD WITH JUMP PACK\n▪ CHAOS TERMINATOR SQUAD\n▪ Chosen\n▪ Damned units\n▪ Dark Apostle\n▪ Havocs\n▪ Legionaries\n▪ Master of Possession\n▪ Possessed\n▪ Raptors\n▪ Sorcerer\n▪ Sorcerer in Terminator Armour\n▪ Warp Talons\n\nThe combined points value of such units depends on your battle size, as shown below.\n▪ **Incursion:** Up to 500 pts\n▪ **Strike Force:** Up to 1000 pts\n▪ **Onslaught:** Up to 1500 pts\n\nKEYWORDS\nBe’lakor and Heretic Astartes units from your army gain the SHADOW LEGION and UNDIVIDED keywords.\n\nLEGIONES DAEMONICA units from your army gain the SHADOW LEGION keyword.\n\n### First Prince of Chaos\nIf your Army Faction is LEGIONES DAEMONICA, you can use this Shadow Legion Detachment rule.\n\nUnits from your army have the relevant abilities presented below.\n\nMURDERER’S COWL\n\nThe most murderous seek not to hide in the Dark Master’s pall. The shadows extend before them, offering a rapid route to slaughter.\n\nSHADOW LEGION KHORNE units only. This unit is eligible to shoot and declare a charge in a turn in which it Advanced.\n\nPENUMBRAL PUPPETRY\n\nMutative agents of change, touched by the Dark Master’s umbral aura, summon illusory magicks to confound and confuse their desperate foes.\n\nSHADOW LEGION TZEENTCH units only. This unit has [core:Stealth]. Each time a melee attack targets this unit, subtract 1 from the Hit roll.\n\nGLOAM ROT\n\nBorne upon the gloaming wisp of Be’lakor’s shadow, this debilitating curse atrophies muscle and withers flesh, greatly weakening its victims.\n\nSHADOW LEGION NURGLE units only. Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll.\n\nSHADOW’S CARESS\n\nThe Dark Master’s shadow falls across his thralls, masking their approach.\n\nSHADOW LEGION SLAANESH units only. Enemy units cannot target this unit with snap shooting attacks.\n\nDISCIPLES OF BE’LAKOR\n\nBe’lakor’s immortal ego draws into his orbit those as yet unclaimed by any one Chaos God. Their hate-filled pacts are made to the entire fell pantheon, and the dangerous boons they receive see them plunged along paths of perpetual night straight into the enemy’s midst.\n\nSHADOW LEGION UNDIVIDED units only.\n▪ This unit has the Dark Pacts army rule, and can use it as described in Codex: Chaos Space Marines, even though your Army Faction is not HERETIC ASTARTES. If this unit is BE’LAKOR, it automatically passes the Leadership test required for Dark Pacts.\n▪ SHADOW LEGION HERETIC ASTARTES models in this unit have the Deep Strike ability.",
+            "flavor": "",
+            "name": "Thralls of the First Prince & First Prince of Chaos"
+          },
+          "source": "faction-pack",
+          "stratagems": [
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, weapons equipped by models in your selected units have the [IGNORES COVER] ability.",
+              "flavor": "Be’lakor’s aura falls across the field of battle, bearing servants both mortal and daemonic to war. Attuned to the gloom, these new arrivals combine their fire to unleash death upon the cowering foe.",
+              "name": "Encroaching Darkness",
+              "restrictions": "",
+              "sublabel": "Shadow Legion – Battle Tactic Stratagem",
+              "target": "Up to one SHADOW LEGION HERETIC ASTARTES unit from your army and up to one SHADOW LEGION LEGIONES DAEMONICA unit from your army. You can only select units that arrived from Reserves this turn.",
+              "turn": "your",
+              "when": "Your Shooting phase."
+            },
+            {
+              "cp": "2CP",
+              "effect": "Select one visible enemy unit within 12\" of your unit. When that enemy unit declares a charge, that enemy unit has -1 to Charge rolls. If your unit has Nurgle, that enemy unit must make a Battle-shock roll.",
+              "flavor": "A chill penumbra settles over the oncoming foe. Those that manage to cut their way through the blanket of twilight find themselves seized with terror as the darkness parts and the horrific nature of their enemy is revealed.",
+              "name": "Shade Path",
+              "restrictions": "",
+              "sublabel": "Shadow Legion – Battle Tactic Stratagem",
+              "target": "One friendly SHADOW LEGION unit.",
+              "turn": "opponent",
+              "when": "Start of your opponent’s Charge phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "One model in your unit regains up to 3 lost wounds. In addition, If your unit has the Tzeentch keyword, return up to one destroyed model (excluding CHARACTER models) to your unit with its full wounds remaining.",
+              "flavor": "Even death does not free one from Be’lakor’s grasp. Those who disappoint him may be dragged back through the veil, granted one last chance to impress their master or face the full extent of his wrath.",
+              "name": "Death Denied",
+              "restrictions": "",
+              "sublabel": "Shadow Legion – Battle Tactic Stratagem",
+              "target": "One Shadow Legion unit from your army.",
+              "turn": "your",
+              "when": "Your Command phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LANCE] ability. If your unit has the Khorne keyword, until the end of the phase, improve the Armour Penetration characteristic of those weapons by 1 as well.",
+              "flavor": "Khorne may not care whence the blood flows, but Be’lakor is more discerning. He directs his slaughter-crazed followers to strike the most pressing targets with all their infernal fury.",
+              "name": "Channelled Wrath",
+              "restrictions": "",
+              "sublabel": "Shadow Legion – Strategic Ploy Stratagem",
+              "target": "One Shadow Legion unit from your army that has not been selected to fight this phase.",
+              "turn": "either",
+              "when": "Fight phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Roll one D6 for each enemy unit that is within Engagement Range of the last model in your unit, adding 2 to the result if your unit has the Slaanesh keyword: on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6+, that enemy unit suffers 3 mortal wounds.",
+              "flavor": "Malevolent to the last, Be’lakor’s thralls expend their final reserves of mortal strength and empyric might in an act of vengeance, unleashing torrents of killing energy in all directions.",
+              "name": "Spiteful Demise",
+              "restrictions": "",
+              "sublabel": "Shadow Legion – Strategic Ploy Stratagem",
+              "target": "That SHADOW LEGION unit. You can use this Stratagem on that unit even though it was just destroyed.",
+              "turn": "either",
+              "when": "Any phase, just after a Shadow Legion unit from your army is destroyed, before removing the last model in that unit from the battlefield and before rolling any dice for the Deadly Demise ability."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Remove those selected units from the battlefield and place them into Strategic Reserves.",
+              "flavor": "Bound by coils of umbral energy, mortal and daemonic followers are swept up in Be’lakor’s cloak of shadows as pawns returned to their master’s hand.",
+              "name": "Binding Shadow",
+              "restrictions": "",
+              "sublabel": "Shadow Legion – Strategic Ploy Stratagem",
+              "target": "Up to one SHADOW LEGION HERETIC ASTARTES unit from your army and up to one SHADOW LEGION LEGIONES DAEMONICA unit from your army. You can only select units that are not within Engagement Range of one or more enemy units.",
+              "turn": "opponent",
+              "when": "End of your opponent’s Fight phase."
+            }
+          ]
+        },
+        {
+          "dp": 1,
+          "enhancements": [
+            {
+              "body": "LEGIONES DAEMONICA MOUNTED unit only. This unit has +1\" M.",
+              "flavor": "The daemonic abominations ridden by these warriors thunder into battle like the manifestation of every culture’s apocalyptic prophecies since time began.",
+              "name": "Apocalyptic Steeds",
+              "points": 10,
+              "upgrade": true
+            },
+            {
+              "body": "LEGIONES DAEMONICA MOUNTED unit only. When this unit is **[gloss:selected-to-fight:selected to fight]**, if this unit made a **[gloss:charge-move:Charge move]** this turn, you can use this ability. If you do, when determining which models in this unit can fight, friendly models that are within 3\" of enemy units engaged with this unit can target those enemy units.",
+              "flavor": "The impact of these terrifying riders is enough to blast the very soulstuff from the bodies of their victims, leaving even those foes that resist as hollow shells of their former might.",
+              "name": "Soul-shattering Charge",
+              "points": 10,
+              "upgrade": true
+            }
+          ],
+          "forceDispositions": [
+            "Disruption"
+          ],
+          "id": "cavalcade-of-chaos",
+          "name": "Cavalcade of Chaos",
+          "rule": {
+            "body": "If a friendly LEGIONES DAEMONICA MOUNTED unit made a Fall Back move this turn, that move does not prevent that unit from being eligible to shoot/eligible to declare a charge.",
+            "flavor": "Infused with the Warp’s unholy power, temporary ebbs of slaughter can be twisted into thundering advances of daemonic power in a heartbeat.",
+            "name": "Unholy Avalanche"
+          },
+          "source": "faction-pack",
+          "stratagems": [
+            {
+              "cp": "2CP",
+              "effect": "Your unit can make an **[gloss:ingress-move:ingress move]**.",
+              "flavor": "Erupting from a rippling warp portal, the cavalry of the Chaos Gods fall upon their shocked foes as though manifesting from nowhere.",
+              "name": "From Beyond the Veil",
+              "restrictions": "",
+              "sublabel": "Cavalcade of Chaos – Stratagem",
+              "target": "One friendly LEGIONES DAEMONICA MOUNTED unit in **[gloss:strategic-reserves:Strategic Reserves]**.",
+              "turn": "your",
+              "when": "End of the Movement phase, from the start of the battle."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Your unit has MOBILE.",
+              "flavor": "Thundering along the spectral ways of the Warp, these infernal riders pass through solid matter like spectres out of some voidsman’s gheist story.",
+              "name": "Warp-Riders",
+              "restrictions": "",
+              "sublabel": "Cavalcade of Chaos – Stratagem",
+              "target": "That LEGIONES DAEMONICA MOUNTED unit.",
+              "turn": "your",
+              "when": "Your Movement phase, when a friendly LEGIONES DAEMONICA MOUNTED unit is **[gloss:selected-to-move:selected to move]**."
+            },
+            {
+              "cp": "1CP",
+              "effect": "When an enemy unit engaged with your unit is selected to make a Fall Back move, that enemy unit must use the Desperate Escape mode. If that enemy unit is Battle-shocked, subtract 1 from those **[gloss:hazard-roll:hazard rolls]**.",
+              "flavor": "It is no easy matter to escape this thundering warp-spawned cavalcade, and those who try are likely to be ridden down by howling daemons.",
+              "name": "Inescapable Manifestations",
+              "restrictions": "",
+              "sublabel": "Cavalcade of Chaos – Stratagem",
+              "target": "That LEGIONES DAEMONICA MOUNTED unit.",
+              "turn": "opponent",
+              "when": "Your opponent’s Movement phase, when a unit is selected to make a Fall Back move, if that unit is engaged with a friendly LEGIONES DAEMONICA MOUNTED unit."
+            }
+          ]
+        },
+        {
+          "dp": 1,
+          "enhancements": [
+            {
+              "body": "LEGIONES DAEMONICA CHARACTER model only (excluding MONSTER units). This model has +2 W.",
+              "flavor": "Unholy energies roll in waves through this captain of the daemonic legions, straining its corporeal shell with infernal might.",
+              "name": "Swollen with Power",
+              "points": 10,
+              "upgrade": true
+            }
+          ],
+          "forceDispositions": [
+            "Take and Hold"
+          ],
+          "id": "lords-of-the-warp",
+          "name": "Lords of the Warp",
+          "rule": {
+            "body": "Friendly LEGIONES DAEMONICA CHARACTER models (excluding MONSTER models) have +1 Ld and OC.",
+            "flavor": "Seething with the baleful energies of the Immaterium, the dark nobility of the daemon legions manifest as living icons of their gods’ powers burned into the very flesh of realspace.",
+            "name": "Loci of Power"
+          },
+          "source": "faction-pack",
+          "stratagems": [
+            {
+              "cp": "1CP",
+              "effect": "Your unit has [core:Fights First] and must be the next unit you select to fight.",
+              "flavor": "Whirling wildly through the fight, shrieking with unholy glee and excitement, the daemonic servants of Slaanesh compete to unleash the greatest excesses of elegant violence.",
+              "name": "Carnival of Excess",
+              "restrictions": "",
+              "sublabel": "Lords of the Warp – Stratagem",
+              "target": "One friendly LEGIONES DAEMONICA CHARACTER SLAANESH unit (excluding MONSTER units) that has not been **[gloss:selected-to-fight:selected to fight]** this phase.",
+              "turn": "either",
+              "when": "Fight phase, when an enemy unit has fought."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Your unit’s melee attacks have +1 A.",
+              "flavor": "This champion’s very war cry erupts from their maw as a brazen horn call that summons Khorne’s servants to battle.",
+              "name": "Call to Murder",
+              "restrictions": "",
+              "sublabel": "Lords of the Warp – Stratagem",
+              "target": "That LEGIONES DAEMONICA CHARACTER KHORNE unit.",
+              "turn": "either",
+              "when": "Fight phase, when a friendly LEGIONES DAEMONICA KHORNE CHARACTER unit (excluding MONSTER units) that made a **[gloss:charge-move:Charge move]** this turn is **[gloss:selected-to-fight:selected to fight]**."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Select one **[gloss:visible:visible]** enemy unit within 8\" of your unit and roll seven D6: for each 4+, that enemy unit suffers 1 **[gloss:mortal-wound:mortal wound]**.",
+              "flavor": "With a peristaltic heave, this repulsive daemon champion vomits a stream of nauseating filth across the foe.",
+              "name": "Bilious Blessing",
+              "restrictions": "",
+              "sublabel": "Lords of the Warp – Stratagem",
+              "target": "One friendly LEGIONES DAEMONICA CHARACTER NURGLE unit (excluding MONSTER units).",
+              "turn": "your",
+              "when": "Start of your Shooting phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Your unit’s ranged attacks have [LETHAL HITS].",
+              "flavor": "Shrieking kaleidoscopic sorceries caught by this entity’s talons are hurled in a gust of empyric fire, its mutating touch tearing open wounds into which the Warp’s lethal power can flow.",
+              "name": "Skirling Magicks",
+              "restrictions": "",
+              "sublabel": "Lords of the Warp – Stratagem",
+              "target": "That LEGIONES DAEMONICA CHARACTER TZEENTCH unit.",
+              "turn": "your",
+              "when": "Your Shooting phase, when a friendly LEGIONES DAEMONICA CHARACTER TZEENTCH unit (excluding MONSTER units) is **[gloss:selected-to-shoot:selected to shoot]**."
+            }
+          ]
+        },
+        {
+          "dp": 1,
+          "enhancements": [
+            {
+              "body": "LEGIONES DAEMONICA BATTLELINE unit only. This unit’s attacks have +1 S.",
+              "flavor": "The manifest armaments of these daemonic warriors drip with curses and moan with baleful energies that are the anathema of all life.",
+              "name": "Bane-forged Weapons",
+              "points": 15,
+              "upgrade": true
+            },
+            {
+              "body": "LEGIONES DAEMONICA BATTLELINE unit only. When you target this unit with the Heroic Intervention/Fire Overwatch Stratagem, that use is -1 CP.",
+              "flavor": "Driven by the all-consuming need to claim mortal souls and sustain their own corporeal manifestations, these daemons surge toward the enemy at every opportunity.",
+              "name": "Soul-hungry Slaughterers",
+              "points": 10,
+              "upgrade": true
+            }
+          ],
+          "forceDispositions": [
+            "Reconnaissance"
+          ],
+          "id": "warptide",
+          "name": "Warptide",
+          "rule": {
+            "body": "When a friendly LEGIONES DAEMONICA BATTLELINE unit is selected to make an **[gloss:advance-move:Advance move]**:\n▪ That unit’s ranged attacks have [ASSAULT] until the end of the turn.\n▪ That move does not prevent that unit from being **[gloss:eligible-to-charge:eligible to declare a charge]**.",
+            "flavor": "These daemons’ physical manifestations flicker in and out of being like a pict-reel skipping and projecting too quickly. One moment, they are a distant threat; the next, they are upon their horrified victims.",
+            "name": "Shudderblink"
+          },
+          "source": "faction-pack",
+          "stratagems": [
+            {
+              "cp": "1CP",
+              "effect": "Your unit **[gloss:heal:heals]** 3 wounds.",
+              "flavor": "Manifesting in great numbers and flowing through and around one another almost like a single unholy entity, the footsoldiers of the daemon legions appear to be everywhere at once.",
+              "name": "Daemonic Infestation",
+              "restrictions": "",
+              "sublabel": "Warptide – Stratagem",
+              "target": "One friendly LEGIONES DAEMONICA BATTLELINE unit (excluding PINK HORRORS units).",
+              "turn": "your",
+              "when": "Your Command phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Select one **[gloss:visible:visible]** enemy unit within 12\" of your unit. That enemy unit has +6\" **[gloss:detection-range:detection range]**.",
+              "flavor": "Like candles dancing in a darkened room, the animus of the daemons’ victims cannot be hidden from their infernal sight.",
+              "name": "Soulseeing",
+              "restrictions": "",
+              "sublabel": "Warptide – Stratagem",
+              "target": "One friendly LEGIONES DAEMONICA BATTLELINE unit.",
+              "turn": "your",
+              "when": "Start of your Shooting phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Ranged attacks that target your unit with a S greater than your unit’s T have -1 to Wound rolls.",
+              "flavor": "No matter how potent the weapons turned against them, the ephemeral forms of these daemons seem almost to exist in a different realm of reality than their blasts and projectiles.",
+              "name": "Incorporeal Entities",
+              "restrictions": "",
+              "sublabel": "Warptide – Stratagem",
+              "target": "That LEGIONES DAEMONICA BATTLELINE unit.",
+              "turn": "opponent",
+              "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly LEGIONES DAEMONICA BATTLELINE unit."
+            }
+          ]
+        }
+      ],
+      "name": "Chaos Daemons",
+      "slug": "chaos-daemons"
+    },
+    "ru": {
+      "armyRule": {
+        "body": "If your Army Faction is LEGIONES DAEMONICA, certain areas of the battlefield are considered to be within your army's **Shadow of Chaos**, as follows:\n▪ Your deployment zone is always within your army's Shadow of Chaos.\n▪ At the start of any phase, if you control at least half of the objective markers within No Man's Land, until the end of that phase, No Man's Land is within your army's Shadow of Chaos.\n▪ At the start of any phase, if you control at least half of the objective markers within your opponent's deployment zone, until the end of that phase, your opponent's deployment zone is within your army's Shadow of Chaos.\n\n### Daemonic Manifestation\nWhile a friendly LEGIONES DAEMONICA unit is within your army's Shadow of Chaos, each time that unit makes a Battle-shock roll, that unit has +1 to that Battle-shock roll and, if that roll is successful, one model in that unit **[gloss:heal:heals]** D3 wounds (if that unit is a Battleline unit and that roll is successful, up to D3 **[gloss:destroyed:destroyed]** models (excluding CHARACTER models) can be returned to that unit instead).\n\n### Daemonic Terror\nWhile an enemy unit is within your army's Shadow of Chaos and/or it is within 6\" of one or more Bloodthirster, Great Unclean One, Kairos Fateweaver, Keeper of Secrets, Lord of Change, Rotigus, Shalaxi Helbane or Skarbrand units from your army, each time that unit takes a Battle-shock test, subtract 1 from that test and, if that test is failed, that enemy unit suffers D3 mortal wounds.\n\n### Daemonic Pact\nIf every model from your army has the CHAOS KNIGHTS or HERETIC ASTARTES keyword, you can include LEGIONES DAEMONICA units in your army, even if they do not have the Faction keyword you selected in the Select Army Faction step. The combined points cost of such units you can include depends on your battle size: Incursion — up to 250 pts; Strike Force — up to 500 pts; Onslaught — up to 750 pts. None of these models can be your WARLORD, and they cannot be given Enhancements. In addition, for each of the following keywords, the number of non-Battleline units with that keyword you include in this way cannot be greater than the number of Battleline units with that keyword you include in this way: KHORNE, TZEENTCH, NURGLE, SLAANESH.",
+        "flavor": "When daemons pour into realspace, maelstroms of warp energy spill through in their wake. Manifest emotion and unbridled, nightmarish forces twist all that they touch, reshaping the landscape into bizarre forms while tormenting mortal beings to madness. To be embroiled in such tempests is to endure conditions utterly anathema to the fundamental laws of reality, provoking primal terror in even the most emotionless warriors.",
+        "id": "the-shadow-of-chaos",
+        "name": "The Shadow of Chaos"
+      },
+      "datasheets": [],
+      "detachments": [
+        {
+          "dp": 2,
+          "enhancements": [
+            {
+              "aura": true,
+              "body": "Legiones Daemonica Khorne model only. While a friendly LEGIONES DAEMONICA KHORNE unit (excluding MONSTERS) is within 6\" of the bearer, weapons equipped by models in that unit have the [LANCE] ability.",
+              "flavor": "This servant of Khorne is a walking nexus of bloodthirst, its mere presence whetting the keen edges of daemonic blades and appetites alike for slaughter.",
+              "name": "Slaughterthirst",
+              "points": 25
+            },
+            {
+              "body": "LEGIONES DAEMONICA KHORNE MONSTER model only. Each time the bearer is selected to fight, it can use this Enhancement. If it does, the bearer suffers D3+1 mortal wounds, and until the end of the phase, each time it makes an attack, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+              "flavor": "The Bloodthirster bound within this weapon offers the wielder immense power but seeks every way to turn its towering wrath upon its jailer.",
+              "name": "Fury’s Cage",
+              "points": 20
+            },
+            {
+              "body": "LEGIONES DAEMONICA KHORNE model only. Add 2 to Charge rolls made for the bearer’s unit.",
+              "flavor": "This daemon’s maw and throat are forged from burning brass, transforming its war cries into a deafening clarion that calls the Blood Legion to war.",
+              "name": "Brazenmaw",
+              "points": 15
+            },
+            {
+              "body": "LEGIONES DAEMONICA KHORNE MONSTER model only. The bearer’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 2+ instead of on a 6. In addition, if the bearer has destroyed one or more enemy units this battle, the bearer has the Deadly Demise D3+3 ability, instead of any other Deadly Demise ability on its datasheet.",
+              "flavor": "Concealed within this daemon’s form is a portal into the depths of Khorne’s realm. Anointed with gore and thrown wide by the daemon’s corporeal demise, it expands like a bloody singularity to drag everything in reach into the screaming maelstrom of the Warp.",
+              "name": "Gateway Unto Damnation",
+              "points": 10
+            }
+          ],
+          "forceDispositions": [
+            "Purge the Foe"
+          ],
+          "id": "blood-legion",
+          "name": "Blood Legion",
+          "rule": {
+            "body": "### Murdercall\nIn your opponent's Movement phase, each time an enemy unit (excluding AIRCRAFT) ends a move within 8\" of one or more LEGIONES DAEMONICA KHORNE units from your army, one of those LEGIONES DAEMONICA KHORNE units can make a **[gloss:surge-move:surge move]** of up to D6\".\n\n### Blood Tainted\nAt the end of a phase in which a Legiones Daemonica Khorne unit from your army destroyed an enemy unit that was within range of an objective marker at the start of the phase, if your unit has a higher Level of Control over that objective marker, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+            "flavor": "The daemons of Khorne are physical manifestations of rage, hate and the desperate need to shed blood. For as long as their physical forms remain in realspace, they will never cease their murderous rampage.",
+            "name": "Murdercall & Blood Tainted"
+          },
+          "source": "faction-pack",
+          "stratagems": [
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, models in your unit have a Save characteristic of 3+.",
+              "flavor": "The scorn of these daemons for the blasts and blades of the weakling foe manifests as flowing brass armour that enfolds their corporeal forms and denies all but the most dolorous blows.",
+              "name": "Sheathed in Brass",
+              "restrictions": "",
+              "sublabel": "Blood Legion – Battle Tactic Stratagem",
+              "target": "One LEGIONES DAEMONICA KHORNE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+              "turn": "opponent",
+              "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets."
+            },
+            {
+              "cp": "2CP",
+              "effect": "Declare a charge with your unit. When selecting **[gloss:charge-target:charge targets]**, you can only select enemy units that made a fall-back move this phase and are within the **[gloss:maximum-distance:maximum distance]**.",
+              "flavor": "Khorne’s daemons know only hatred and contempt for those who flee from combat and will distort reality itself to keep such cowards trapped in the endless battle they sought to escape.",
+              "name": "Fool’s Flight",
+              "restrictions": "",
+              "sublabel": "Blood Legion – Strategic Ploy Stratagem",
+              "target": "One friendly unengaged LEGIONES DAEMONICA KHORNE unit that is within 6\" of that enemy unit.",
+              "turn": "opponent",
+              "when": "Your opponent’s Movement phase, when an enemy unit ends a fall-back move."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, each time a model in your unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6: on a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+              "flavor": "Even the banishing blow is often not enough to prevent the daemons of Khorne from lashing out to take bloody vengeance as they discorporate.",
+              "name": "Wrath Undeniable",
+              "restrictions": "",
+              "sublabel": "Blood Legion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA KHORNE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+              "turn": "either",
+              "when": "Fight phase, just after an enemy unit has selected its targets."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, each time a model in your unit makes a move, it can move through terrain features.",
+              "flavor": "The manifest will to run down and slaughter their prey allows the daemons of Khorne to surge through physical barriers as though they did not exist, falling upon their victims like bloody phantasms.",
+              "name": "Gore‑hungry Onslaught",
+              "restrictions": "",
+              "sublabel": "Blood Legion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA KHORNE unit from your army.",
+              "turn": "your",
+              "when": "Your Movement phase or your Charge phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Select one enemy unit that is not within Engagement Range of one or more units from your army and is within 8\" of and visible to your unit. Roll six D6: for each 4+, that enemy unit suffers 1 mortal wound.",
+              "flavor": "Torn from the wet and ragged necks of worthy mortal champions, these skulls blaze with balefire as the daemons of Khorne heft and hurl them. They explode amongst the foe to shed more blood for the Blood God.",
+              "name": "Skulls Beget Blood",
+              "restrictions": "",
+              "sublabel": "Blood Legion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA KHORNE INFANTRY or LEGIONES DAEMONICA KHORNE MOUNTED unit from your army (excluding units that Fell Back this turn) that is not within Engagement Range of one or more enemy units.",
+              "turn": "your",
+              "when": "Your Shooting phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced.",
+              "flavor": "The iron reek of mortal blood pulsing through living veins fires the unnatural senses of Khorne’s daemons, drawing them on all the swifter to tear, slay, and hack skulls from necks for mighty Khorne.",
+              "name": "Blood Begets Skulls",
+              "restrictions": "",
+              "sublabel": "Blood Legion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA KHORNE unit from your army that has not been selected to charge this phase.",
+              "turn": "your",
+              "when": "Your Charge phase."
+            }
+          ]
+        },
+        {
+          "dp": 3,
+          "enhancements": [
+            {
+              "body": "KHORNE LEGIONES DAEMONICA model only. Add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons. While the bearer is within your army’s Shadow of Chaos, add 2 to the Attacks and Strength characteristics of the bearer’s melee weapons instead.",
+              "flavor": "When a daemon is bound within a weapon by its infernal master, it rarely submits willingly to this terrible incarceration. The same cannot be said for A’rgath. A lifetime of slaughter and zealous dedication saw this butcher granted daemonhood. Such was his devotion to Khorne that instead of accepting immortality as a Daemon Prince, he instead chose to take the form of a deadly blade so that he could spill the lifeblood of Khorne’s greatest enemies. Their hand guided by A’rgath’s spirit, this weapon’s wielder becomes nigh on unstoppable. Countless are the rival champions and mortal heroes that have fallen to his power.",
+              "name": "A’rgath, the King of Blades",
+              "points": 20
+            },
+            {
+              "body": "SLAANESH LEGIONES DAEMONICA model only. Each time the bearer destroys an enemy model with a melee attack, roll one D6, adding 1 to the result if the bearer is within your army’s Shadow of Chaos. On a 4+, the bearer regains 1 lost wound.",
+              "flavor": "This gluttonous blade gulps down the souls of its victims before invigorating the corporeal form of its wielder. Its greed stems from the starving Keeper of Secrets bound within – an arrogant entity that sought to devour enough Aeldari souls to challenge Slaanesh itself. As punishment for the daemon’s monstrous hubris, Slaanesh trapped it within Soulstealer, condemning the Keeper of Secrets to sustain other daemons with its frenzied appetite while retaining nothing for itself.",
+              "name": "Soulstealer",
+              "points": 15
+            },
+            {
+              "body": "NURGLE LEGIONES DAEMONICA model only. The bearer has the Feel No Pain 5+ ability.",
+              "flavor": "Only the most accomplished plague daemons are granted the Endless Gift. A disease of unutterable malignancy and repulsive beneficence, it changes form constantly from plague to infestation to malaise. The one constant is its ability to reknit its sufferer’s corporeal form from even the most catastrophic of wounds. One moment, infernal bacteria may multiply like wildfire until their gelid mass fills a fleshy rent with fresh daemon-flesh. The next, pestilential vapours may billow from the daemon’s yawning maw, veiling its ravaged bulk before tattering away to reveal a form healed of its recent hurts.",
+              "name": "The Endless Gift",
+              "points": 30
+            },
+            {
+              "body": "TZEENTCH LEGIONES DAEMONICA model only. Add 1 to the Strength characteristic of the bearer’s ranged weapons and increase the Range characteristic of such weapons by 3\". While the bearer is within your army’s Shadow of Chaos, add 2 to the Strength characteristic of the bearer’s ranged weapons and increase the Range characteristic of such weapons by 6\" instead.",
+              "flavor": "This staff blazes with vibrant warpflame. As soon as its master takes up the eldritch weapon, they too are wreathed in the same daemonic fire. From within this magenta inferno, the Everstave’s daemonic bearer hurls searing gouts of Tzeentch’s pink fire, turning armour to ash and immolating or irrevocably mutating the flesh beneath.",
+              "name": "The Everstave",
+              "points": 25
+            }
+          ],
+          "forceDispositions": [
+            "Take and Hold",
+            "Disruption"
+          ],
+          "id": "daemonic-incursion",
+          "name": "Daemonic Incursion",
+          "rule": {
+            "body": "Each time a LEGIONES DAEMONICA unit from your army is set up on the battlefield using the Deep Strike ability, if it is set up wholly within your army’s Shadow of Chaos, and/or if it is set up wholly within 6\" of one or more friendly Bloodthirster, Great Unclean One, Kairos Fateweaver, Keeper of Secrets, Lord of Change, Rotigus, Shalaxi Helbane or Skarbrand units with which it shares the KHORNE, TZEENTCH, NURGLE or SLAANESH keyword, it can be set up anywhere that is more than 6\" horizontally away from all enemy models, instead of more than 8\".",
+            "flavor": "Daemonic legions tear through the fabric of realspace, malevolent entities flickering into being like phantasms from a nightmare. Worse still, as terror and panic take hold of their victims, so their mortal souls become ever easier prey for the entities pouring through from the warp.",
+            "name": "Warp Rifts"
+          },
+          "source": "faction-pack",
+          "stratagems": [
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, improve the Armour Penetration characteristic of weapons equipped by models in that unit by 1. In addition, until the end of the phase, each time such a weapon targets a unit that is Battle-shocked, you can re-roll the Wound roll.",
+              "flavor": "The swelling fear of their mortal prey serves as an intoxicating elixir to the daemonic followers, each draught invigorating their forms with deadly power.",
+              "name": "Draught of Terror",
+              "restrictions": "",
+              "sublabel": "Demonic Incursion – Battle Tactic Stratagem",
+              "target": "One LEGIONES DAEMONICA unit from your army that has not been selected to shoot or fight this phase.",
+              "turn": "either",
+              "when": "Your Shooting phase or the Fight phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, each time an invulnerable saving throw is made for a model in your unit, re-roll a saving throw of 1.",
+              "flavor": "Daemons are madness given form. Their very bodies are fashioned from the stuff of the warp, and are difficult to destroy through conventional means.",
+              "name": "Daemonic Invulnerability",
+              "restrictions": "",
+              "sublabel": "Demonic Incursion – Battle Tactic Stratagem",
+              "target": "One LEGIONES DAEMONICA unit from your army that was selected as the target of one or more of that enemy unit’s attacks.",
+              "turn": "opponent",
+              "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets."
+            },
+            {
+              "cp": "1CP",
+              "effect": "▪ Place your unit in **[gloss:strategic-reserves:strategic reserves]**.\n▪ Your unit must make an **[gloss:ingress-move:ingress move]** in your next Movement phase (including in your first turn).",
+              "flavor": "When the energies of the warp bleed into realspace, the Legiones Daemonica can rip open portals in seeming thin-air, returning to their hellscapes only to rematerialise amidst their foes a heartbeat later.",
+              "name": "The Realm of Chaos",
+              "restrictions": "You cannot target units that are within Engagement Range of one or more enemy units with this Stratagem.",
+              "sublabel": "Demonic Incursion – Battle Tactic Stratagem",
+              "target": "Up to two LEGIONES DAEMONICA units from your army that are within your army’s Shadow of Chaos, or one other LEGIONES DAEMONICA unit from your army.",
+              "turn": "opponent",
+              "when": "End of your opponent’s turn."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced.",
+              "flavor": "The winds of the warp blow strong, invigorating daemonkind and lending them supernatural speed and ferocity.",
+              "name": "Warp Surge",
+              "restrictions": "",
+              "sublabel": "Demonic Incursion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA unit from your army that is within your army’s Shadow of Chaos.",
+              "turn": "your",
+              "when": "Your Charge phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "That objective marker is said to be Corrupted and remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn. In addition, while an objective marker is Corrupted and under your control, the area of the battlefield within 6\" of that objective marker is considered to be within your army’s Shadow of Chaos.",
+              "flavor": "Daemons instinctively feel the need to despoil and corrupt every corner of realspace, the better to sustain their otherworldly forms.",
+              "name": "Corrupt Realspace",
+              "restrictions": "",
+              "sublabel": "Demonic Incursion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA unit from your army that is within range of an objective marker you control.",
+              "turn": "either",
+              "when": "Start of any Command phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy models.",
+              "flavor": "Ever lurking in the warp, daemons will wait until the barriers between realms thin before tearing their way into realspace.",
+              "name": "Denizens of the Warp",
+              "restrictions": "",
+              "sublabel": "Demonic Incursion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA unit from your army that is arriving using the Deep Strike ability this phase.",
+              "turn": "your",
+              "when": "Your Movement phase."
+            }
+          ]
+        },
+        {
+          "dp": 2,
+          "enhancements": [
+            {
+              "aura": true,
+              "body": "Legiones Daemonica Slaanesh model only. While a friendly LEGIONES DAEMONICA SLAANESH unit (excluding MONSTERS) is within 6\" of the bearer, each time a model in that unit makes a melee attack, add 1 to the Wound roll.",
+              "flavor": "Dripping poisonous finery and stalking across the battlefield with regal arrogance, this daemon evokes in its fellows the jealous need to outshine its magnificence.",
+              "name": "False Majesty",
+              "points": 30
+            },
+            {
+              "aura": true,
+              "body": "Legiones Daemonica Slaanesh model only. While a friendly LEGIONES DAEMONICA SLAANESH unit (excluding MONSTERS) is within 6\" of the bearer, each time a model in that unit makes a melee attack, add 1 to the Hit roll.",
+              "flavor": "This gilded circlet fills mortal minds with waking dreams potent enough to intoxicate and distract even the most disciplined or alien combatants, leaving them easy prey for the daemons of Slaanesh.",
+              "name": "Dreaming Crown",
+              "points": 30
+            },
+            {
+              "body": "LEGIONES DAEMONICA SLAANESH MONSTER model only. At the start of each phase, if there are no other friendly units within 6\" of the bearer, you can: re-roll Advance rolls made for the bearer; re-roll Charge rolls made for the bearer; ignore any or all modifiers to its Move characteristic and to any Advance and/or Charge rolls made for the bearer.",
+              "flavor": "This entity is the corporeal embodiment of selfish arrogance, fighting best when it fights alone.",
+              "name": "Avatar of Perfection",
+              "points": 15
+            },
+            {
+              "body": "LEGIONES DAEMONICA SLAANESH MONSTER model only. At the end of the Fight phase, if one or more enemy models were destroyed this phase as a result of one or more of the bearer’s attacks, it can use this Enhancement. If it does, it regains up to D3 lost wounds.",
+              "flavor": "This daemon lord guzzles souls, its bloated corporeality reknitting with each fresh morsel.",
+              "name": "Soul Glutton",
+              "points": 10
+            }
+          ],
+          "forceDispositions": [
+            "Priority Assets"
+          ],
+          "id": "legion-of-excess",
+          "name": "Legion of Excess",
+          "rule": {
+            "body": "### Beguiling Aura\nLEGIONES DAEMONICA SLAANESH units from your army are eligible to declare a charge in a turn in which they Fell Back.\n\n### Seductive Gambit\nLEGIONES DAEMONICA SLAANESH units from your army have the following ability:\n\n**Seductive Gambit:** Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re-roll the Hit roll and you can re-roll a Wound roll of 1.",
+            "flavor": "The daemons of the Dark Prince can bewitch the minds of their foes, appearing in one moment as their true and nightmarish selves and in the next as the object of their foes’ most forbidden desires or devoted affections. Enemies are left foundering and bewildered as the daemons weave their sinuous dances around them and trill their nerve-shredding siren songs.",
+            "name": "Beguiling Aura & Seductive Gambit"
+          },
+          "source": "faction-pack",
+          "stratagems": [
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+              "flavor": "Sensation gushes relentlessly into the overstimulated minds of the enemy until their souls strain fit to burst. Barely able to think or function, they recoil in their desperate need to stem the unstoppable tide.",
+              "name": "Overwhelming Excess",
+              "restrictions": "",
+              "sublabel": "Legion of Excess – Battle Tactic Stratagem",
+              "target": "One LEGIONES DAEMONICA SLAANESH unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+              "turn": "opponent",
+              "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets."
+            },
+            {
+              "cp": "2CP",
+              "effect": "Until the end of the phase, each time a model in one of those units makes an attack, add 1 to the Wound roll.",
+              "flavor": "These daemons perceive with absolute clarity whereabouts on their victims’ bodies they must strike to inflict the greatest possible excess of suffering.",
+              "name": "Archagonists",
+              "restrictions": "",
+              "sublabel": "Legion of Excess – Battle Tactic Stratagem",
+              "target": "One LEGIONES DAEMONICA SLAANESH MONSTER unit or up to two Legiones Daemonica Slaanesh units (excluding MONSTERS) from your army that have not been selected to fight this phase.",
+              "turn": "either",
+              "when": "Fight phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Select one enemy unit within Engagement Range of your unit, then roll one D6 for each model in your unit that is within Engagement Range of that enemy unit, or roll six D6 instead if your unit is a MONSTER unit: for each 4+, that enemy unit suffers 1 mortal wound.",
+              "flavor": "The cavorting approach of Slaaneshi daemons is hypnotic and enthralling. It is a whirling carousel of eye-searing colours and flashing blades that tempt mortals to reach out with trembling eagerness until they can just reach.",
+              "name": "Cavalcade of Blades",
+              "restrictions": "",
+              "sublabel": "Legion of Excess – Battle Tactic Stratagem",
+              "target": "That LEGIONES DAEMONICA SLAANESH unit.",
+              "turn": "your",
+              "when": "Your Charge phase, just after a LEGIONES DAEMONICA SLAANESH unit from your army ends a Charge move."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Attacks that target your unit with a **[gloss:strength:S]** greater than your unit’s **[gloss:toughness:T]** have -1 to **[gloss:wound-roll:wound rolls]**.",
+              "flavor": "Those made from the essence of Slaanesh revel in every sensation, from blissful euphoria to agonising pain. Even a devastating wound is seen as a gift to be savoured by the daemons of the Dark Prince.",
+              "name": "Rapturous Agony",
+              "restrictions": "",
+              "sublabel": "Legion of Excess – Strategic Ploy Stratagem",
+              "target": "That LEGIONES DAEMONICA SLAANESH unit.",
+              "turn": "either",
+              "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly LEGIONES DAEMONICA SLAANESH unit (excluding MONSTER/VEHICLE units)."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Each unit on the battlefield that is within your army’s Shadow of Chaos must take a Battle-shock test, subtracting 1 from that test if they are Below Half-strength.\n\n**Designer’s Note:** This Stratagem forces all friendly and enemy units alike within your army’s Shadow of Chaos to take a Battle-shock test. This can allow a Chaos Daemons player to heal units from their army through the Daemonic Manifestation army rule, at the risk of causing some of their own units to become Battle-shocked.",
+              "flavor": "This entity causes the battlefield to flicker wildly between the debauched Slaaneshi Warp interstice and the most brutally mundane reality, faster than even supernatural senses can perceive. The result is a psychically devastating barrage of excess and deprivation.",
+              "name": "Sensory Excruciation",
+              "restrictions": "",
+              "sublabel": "Legion of Excess – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA SLAANESH MONSTER unit from your army that is on the battlefield.",
+              "turn": "your",
+              "when": "Your Command phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, each time a model in your unit makes a move, it can move through terrain features.",
+              "flavor": "Against their wills, enemy combatants find themselves wishing for the daemons of Slaanesh to draw closer. It is child’s play for the daemons of Slaanesh to harness such strong emotions and transform them into manifest reality.",
+              "name": "Phantasmal Longing",
+              "restrictions": "",
+              "sublabel": "Legion of Excess – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA SLAANESH unit from your army.",
+              "turn": "your",
+              "when": "Your Movement phase or your Charge phase."
+            }
+          ]
+        },
+        {
+          "dp": 2,
+          "enhancements": [
+            {
+              "body": "LEGIONES DAEMONICA NURGLE model only. Each time an enemy unit (excluding MONSTERS and VEHICLES) that is within 6\" of the bearer fails a Battle-shock test, the bearer can use this Enhancement. If it does, one model in that unit is destroyed (chosen by its controlling player). Each time the bearer uses this Enhancement, no mortal wounds are inflicted by your army’s Daemonic Terror rule.",
+              "flavor": "The mere presence of this corrosive monstrosity is enough to rot the very stuff of reality and all who inhabit it.",
+              "name": "Cankerblight",
+              "points": 15
+            },
+            {
+              "body": "LEGIONES DAEMONICA NURGLE model only. In your Shooting phase, select one enemy unit within 6\" of the bearer; that enemy unit must take a Battle-shock test. Then roll one D6: on a 3+, that enemy unit suffers D3 mortal wounds. Each time the bearer uses this Enhancement, no mortal wounds are inflicted by your army’s Daemonic Terror rule.",
+              "flavor": "This daemon’s flesh is pocked with foul mouths that mumble curses to rot the minds of all who hear them.",
+              "name": "Maggot Maws",
+              "points": 15
+            },
+            {
+              "aura": true,
+              "body": "LEGIONES DAEMONICA NURGLE MONSTER model only. While a friendly Legiones Daemonica Nurgle unit is within 6\" of the bearer, that unit can only be targeted by a ranged attack if the attacking model is within 18\".",
+              "flavor": "This sentient cowl of daemonic plague flies roars and whirls with cyclonic force, obscuring even the most hulking and bloated daemonic bearer.",
+              "name": "Droning Shroud",
+              "points": 35
+            },
+            {
+              "aura": true,
+              "body": "LEGIONES DAEMONICA NURGLE MONSTER model only. While a friendly Legiones Daemonica Nurgle unit is within 6\" of the bearer, improve the Armour Penetration characteristic of weapons equipped by models in that unit by 1.",
+              "flavor": "This entity’s foul breath expels clouds of rust pox spores, which gnaw into all they settle upon.",
+              "name": "Font of Spores",
+              "points": 20
+            }
+          ],
+          "forceDispositions": [
+            "Take and Hold"
+          ],
+          "id": "plague-legion",
+          "name": "Plague Legion",
+          "rule": {
+            "body": "While an enemy unit is within 9\" of one or more LEGIONES DAEMONICA NURGLE units from your army, that enemy unit is within your army’s Shadow of Chaos. In each player’s Command phase, select one enemy unit within your army’s Shadow of Chaos. That unit must take a Battle-shock test.",
+            "flavor": "To fight the daemons of Nurgle is to endure their entropic assaults upon both the physical and spiritual battlefields. The horror of inevitable decay claws at the souls of their victims even as the daemons’ splintered talons rake their flesh, heralding nightmarish putrefaction and impending doom.",
+            "name": "Melancholic Miasma"
+          },
+          "source": "faction-pack",
+          "stratagems": [
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Hit roll. After your unit has finished making its attacks, select one enemy unit hit by one or more of those attacks; that enemy unit must take a Battle-shock test.",
+              "flavor": "A plague of waking nightmares races through the enemy ranks, leaving foes reeling in the grip of nauseating visions that curdle into soul-destroying reality.",
+              "name": "Fever Visions",
+              "restrictions": "",
+              "sublabel": "Plague Legion – Battle Tactic Stratagem",
+              "target": "One LEGIONES DAEMONICA NURGLE unit from your army that has not been selected to shoot or fight this phase.",
+              "turn": "either",
+              "when": "Your Shooting phase or the Fight phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, each time your unit makes a Normal move, add 5\" to the Move characteristic of models in your unit.",
+              "flavor": "With the battlefield swathed in an occluding miasma of unreality, Nurgle’s daemons may loom out of the haze, solidify from amidst thrumming fly clouds or even rise out of the filth without warning",
+              "name": "Murkshadows",
+              "restrictions": "",
+              "sublabel": "Plague Legion – Battle Tactic Stratagem",
+              "target": "One LEGIONES DAEMONICA NURGLE INFANTRY unit from your army.",
+              "turn": "your",
+              "when": "Your Movement phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, each time a model in that unit makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
+              "flavor": "Repugnant filth wells from the weapons, gaping maws and open wounds of these daemons, slopping across the foe and causing swift and virulent rot wherever it finds the slightest way in.",
+              "name": "Seeping Virulence",
+              "restrictions": "",
+              "sublabel": "Plague Legion – Battle Tactic Stratagem",
+              "target": "One LEGIONES DAEMONICA NURGLE unit from your army that has not been selected to fight this phase.",
+              "turn": "either",
+              "when": "Fight phase."
+            },
+            {
+              "cp": "2CP",
+              "effect": "Return up to 1 **[gloss:destroyed:destroyed]** model to your unit (excluding CHARACTER models), or up to D3 **destroyed** models instead (excluding Character models) if your unit is a Battleline unit, with their full wounds remaining. If your unit is a MONSTER unit, one model in your unit regains up to D3+1 lost wounds instead.",
+              "flavor": "As the power of the Plague God saturates the battlefield, fresh daemonic life blooms from the septic corpse mulch that bubbles underfoot.",
+              "name": "Foetid Resurgence",
+              "restrictions": "",
+              "sublabel": "Plague Legion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA NURGLE unit from your army that is on the battlefield.",
+              "turn": "your",
+              "when": "Your Command phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, each time a model in your unit makes a move, it can move through terrain features.",
+              "flavor": "Rather than lumber across the battlefield, these daemons rot away to nothing before hatching anew from canker blooms wherever they wish to be.",
+              "name": "Rot and Renewal",
+              "restrictions": "",
+              "sublabel": "Plague Legion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA NURGLE unit from your army.",
+              "turn": "your",
+              "when": "Your Movement phase or your Charge phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, after an enemy unit takes a Battle-shock test as a result of the Melancholic Miasma Detachment rule, select one other enemy unit within 9\" of your unit; that enemy unit must take a Battle-shock test.",
+              "flavor": "Even as one band of foes gives in to despair, their sorrows spread like a virus to the minds and souls of others, the enemy’s woes multiplying by the moment.",
+              "name": "Plague of Woes",
+              "restrictions": "",
+              "sublabel": "Plague Legion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA NURGLE unit from your army.",
+              "turn": "opponent",
+              "when": "Your opponent’s Command phase, before selecting any targets for the Melancholic Miasma Detachment rule."
+            }
+          ]
+        },
+        {
+          "dp": 2,
+          "enhancements": [
+            {
+              "body": "LEGIONES DAEMONICA TZEENTCH model only. In your Command phase, if the bearer is on the battlefield, if your opponent has one or more Flux tokens, you gain one additional Flux token.",
+              "flavor": "This gem reveals the myriad paths of the future.",
+              "name": "Inescapable Eye",
+              "points": 15
+            },
+            {
+              "body": "LEGIONES DAEMONICA TZEENTCH MONSTER model only. In your Shooting phase, when this unit is **[gloss:selected-to-shoot:selected to shoot]**, while an enemy unit is visible to a friendly Legiones Daemonica Tzeentch unit, that enemy unit has +9\" **[gloss:detection-range:detection range]** until this unit has shot.",
+              "flavor": "To this mighty entity, lesser daemons are but prisms through which its power shines.",
+              "name": "Infernal Puppeteer",
+              "points": 20
+            },
+            {
+              "body": "LEGIONES DAEMONICA TZEENTCH MONSTER model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 2, improve the Attacks and Armour Penetration characteristics of melee weapons equipped by the bearer by 1, and each time the bearer makes a melee attack, add 1 to the Hit roll.",
+              "flavor": "This bizarre daemon weapon makes a mockery of even the most determined defence.",
+              "name": "Neverblade",
+              "points": 25
+            },
+            {
+              "aura": true,
+              "body": "LEGIONES DAEMONICA TZEENTCH model only. While a friendly Legiones Daemonica Tzeentch unit is within 6\" of the bearer, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks and mortal wounds.",
+              "flavor": "Complex convolutions of fate wind about this entity.",
+              "name": "Improbable Shield",
+              "points": 30
+            }
+          ],
+          "forceDispositions": [
+            "Priority Assets"
+          ],
+          "id": "scintillating-legion",
+          "name": "Scintillating Legion",
+          "rule": {
+            "body": "You start the battle with three Flux tokens (we recommend using a dice to track how many Flux tokens you have). You can spend one Flux token just after an Advance roll, Hit roll, Wound roll, Damage roll, saving throw or Hazardous test is made for a Legiones Daemonica Tzeentch model or LEGIONES DAEMONICA TZEENTCH unit from your army to re-roll the result of that roll, throw or test. Flux tokens can also be spent to enhance the effect of some Stratagems. Each time you spend a Flux token, reduce the number of Flux tokens you have by one and your opponent gains one Flux token.\n\nWhenever your opponent has one or more Flux tokens, they can spend one Flux token after an Advance roll, Hit roll, Wound roll or saving throw is made for a model or unit from their army, to re-roll the result of that roll or throw. If they do, they reduce the number of Flux tokens they have by one and you gain one Flux token. This is ignored if your opponent has the Fates in Flux Detachment rule.\n\nIn your Command phase, if your opponent has one or more Flux tokens, you gain one Flux token.\n\n**Designer’s Note:** When using fast dice rolling, this rule can be used to spend any number of Flux tokens (up to the amount you have), to re-roll a number of dice up to the amount spent, after rolling multiple rolls or saving throws at once.",
+            "flavor": "With every chance for change seized, every new fraying of fate’s weave, the daemons and their foes alike fuel the power of Tzeentch, however inadvertently.",
+            "name": "Fates in Flux"
+          },
+          "source": "faction-pack",
+          "stratagems": [
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, add 2 to the Strength characteristic of weapons equipped by models in your unit, or spend one Flux token and add 3 to the Strength characteristic of those weapons and improve the Armour Penetration characteristic of those weapons by 1 instead.",
+              "flavor": "Warpflame is as changeable as the monsters who wield it, capable of easily burning through ceramite plates or reinforced hulls when desired.",
+              "name": "Pyrogenesis",
+              "restrictions": "",
+              "sublabel": "Scintillating Legion – Battle Tactic Stratagem",
+              "target": "One LEGIONES DAEMONICA TZEENTCH unit from your army that has not been selected to shoot or fight that phase.",
+              "turn": "either",
+              "when": "Your Shooting phase or the Fight phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, each time a model in your unit makes a move, it can move through terrain features.",
+              "flavor": "Barred doors, reinforced windows, or walls are no barriers to the children of the Warp. They cannot be outrun; they cannot be hidden from; they cannot be stopped.",
+              "name": "Fateborne Nightmares",
+              "restrictions": "",
+              "sublabel": "Scintillating Legion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA TZEENTCH unit from your army.",
+              "turn": "your",
+              "when": "Your Movement phase or your Charge phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Roll one D6, then you can spend one Flux token to re-roll the result: until the end of the phase, each time an attack targets your unit, on an unmodified Hit roll (after any re-roll) of that result, the attack sequence ends, even if the original Hit roll would have been a Critical Hit.\n\n**Example:** If you roll a 2 and choose to spend one Flux token to re-roll the result, and the re-roll is a 6, then until the end of the phase, each time an attack targets your unit, on an unmodified Hit roll of 6 the attack sequence ends, that attack fails to hit and no Critical Hit effects (e.g. Lethal Hits) are resolved.",
+              "flavor": "The very stuff of reality flickers like a candle flame in a gale, frustrating even the most skilful sworders as they strike at rippling illusions.",
+              "name": "Flickering Reality",
+              "restrictions": "",
+              "sublabel": "Scintillating Legion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA TZEENTCH unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+              "turn": "either",
+              "when": "Fight phase, just after an enemy unit has selected its targets."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Select No Man’s Land or your opponent’s deployment zone, or spend one Flux token and select both. Until the end of the phase, the selected areas of the battlefield are within your army’s Shadow of Chaos.",
+              "flavor": "At the call of this malevolent entity, invisible stellar bodies slide into alignment, plunging the battlefield into momentary twilight, dancing with strange and sorcerous will-o’-the-wisps.",
+              "name": "Impossible Eclipse",
+              "restrictions": "",
+              "sublabel": "Scintillating Legion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA TZEENTCH MONSTER unit from your army that is on the battlefield.",
+              "turn": "either",
+              "when": "Any phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets for, and resolving attacks with, ranged weapons. Until the end of the phase, each time an enemy model is destroyed while its unit is within Engagement Range of your unit, roll one D6: on a 5+, your unit suffers 1 mortal wound after the attacking unit has finished making its attacks.",
+              "flavor": "These daemons care little for who they engulf in their infernal fires, only that destruction and chaos are wrought.",
+              "name": "Ficklefire",
+              "restrictions": "",
+              "sublabel": "Scintillating Legion – Strategic Ploy Stratagem",
+              "target": "One LEGIONES DAEMONICA TZEENTCH unit from your army that is within Engagement Range of one or more enemy units.",
+              "turn": "your",
+              "when": "Your Shooting phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Remove your units from the battlefield and place them into Strategic Reserves.",
+              "flavor": "Between one heartbeat and the next, the daemons of Tzeentch vanish as though they were never there. Yet this jarring respite will last only long enough for their victims to question their sanity before the onslaught begins anew.",
+              "name": "Delirium Unmade",
+              "restrictions": "",
+              "sublabel": "Scintillating Legion – Strategic Ploy Stratagem",
+              "target": "One Legiones Daemonica Tzeentch unit from your army that is not within Engagement Range of one or more enemy units. Alternatively, you can spend one Flux token when you use this Stratagem and target up to two LEGIONES DAEMONICA TZEENTCH units from your army instead (including those within Engagement Range of one or more enemy units).",
+              "turn": "opponent",
+              "when": "End of your opponent’s Fight phase."
+            }
+          ]
+        },
+        {
+          "dp": 2,
+          "enhancements": [
+            {
+              "body": "Shadow Legion model only. Models in the bearer’s unit have the Scouts 9\" ability.",
+              "flavor": "Seen only in flashes, this warrior traverses the darkness with supernatural speed and stealth, emerging where least expected.",
+              "name": "Leaping Shadows",
+              "points": 25
+            },
+            {
+              "aura": true,
+              "body": "Shadow Legion model only. While an enemy unit is within Engagement Range of the bearer’s unit, subtract 1 from the Objective Control characteristic of models in that enemy unit.",
+              "flavor": "This warrior is mantled in the dread energies of the immaterium. With but a thought, they can extrude from their gloaming mantle coils of grasping darkness, the chill touch of which is enough to erode the confidence of even the mightiest champion.",
+              "name": "Mantle of Gloom",
+              "points": 20
+            },
+            {
+              "body": "Shadow Legion model only. At the end of the Fight phase, if the bearer’s unit destroyed one or more enemy units this phase and is not within Engagement Range of one or more enemy units, you can remove the bearer’s unit from the battlefield and place it into Strategic Reserves.",
+              "flavor": "Having slaughtered their prey, this thrall of the Dark Master opens a twilit gate, returning to the gloom and preparing for their next assault.",
+              "name": "Fade to Darkness",
+              "points": 30
+            },
+            {
+              "body": "Shadow Legion model only. At the start of the Fight phase, select one enemy unit within Engagement Range of the bearer’s unit and roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds.",
+              "flavor": "This champion of Chaos weaponises their own twisted and blackened spirit, projecting talons wrought of concentrated madness and fury that rake through mind, body and soul.",
+              "name": "Malice Made Manifest",
+              "points": 25
+            }
+          ],
+          "forceDispositions": [
+            "Purge the Foe"
+          ],
+          "id": "shadow-legion",
+          "name": "Shadow Legion",
+          "rule": {
+            "body": "### Thralls of the First Prince\nWhen mustering your army, you cannot include any Daemon Prince, Daemon Prince with Wings or Epic Hero units (excluding Be’lakor), but you can include the following HERETIC ASTARTES units:\n▪ CHAOS LORD\n▪ CHAOS LORD IN TERMINATOR ARMOUR\n▪ CHAOS LORD WITH JUMP PACK\n▪ CHAOS TERMINATOR SQUAD\n▪ Chosen\n▪ Damned units\n▪ Dark Apostle\n▪ Havocs\n▪ Legionaries\n▪ Master of Possession\n▪ Possessed\n▪ Raptors\n▪ Sorcerer\n▪ Sorcerer in Terminator Armour\n▪ Warp Talons\n\nThe combined points value of such units depends on your battle size, as shown below.\n▪ **Incursion:** Up to 500 pts\n▪ **Strike Force:** Up to 1000 pts\n▪ **Onslaught:** Up to 1500 pts\n\nKEYWORDS\nBe’lakor and Heretic Astartes units from your army gain the SHADOW LEGION and UNDIVIDED keywords.\n\nLEGIONES DAEMONICA units from your army gain the SHADOW LEGION keyword.\n\n### First Prince of Chaos\nIf your Army Faction is LEGIONES DAEMONICA, you can use this Shadow Legion Detachment rule.\n\nUnits from your army have the relevant abilities presented below.\n\nMURDERER’S COWL\n\nThe most murderous seek not to hide in the Dark Master’s pall. The shadows extend before them, offering a rapid route to slaughter.\n\nSHADOW LEGION KHORNE units only. This unit is eligible to shoot and declare a charge in a turn in which it Advanced.\n\nPENUMBRAL PUPPETRY\n\nMutative agents of change, touched by the Dark Master’s umbral aura, summon illusory magicks to confound and confuse their desperate foes.\n\nSHADOW LEGION TZEENTCH units only. This unit has [core:Stealth]. Each time a melee attack targets this unit, subtract 1 from the Hit roll.\n\nGLOAM ROT\n\nBorne upon the gloaming wisp of Be’lakor’s shadow, this debilitating curse atrophies muscle and withers flesh, greatly weakening its victims.\n\nSHADOW LEGION NURGLE units only. Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll.\n\nSHADOW’S CARESS\n\nThe Dark Master’s shadow falls across his thralls, masking their approach.\n\nSHADOW LEGION SLAANESH units only. Enemy units cannot target this unit with snap shooting attacks.\n\nDISCIPLES OF BE’LAKOR\n\nBe’lakor’s immortal ego draws into his orbit those as yet unclaimed by any one Chaos God. Their hate-filled pacts are made to the entire fell pantheon, and the dangerous boons they receive see them plunged along paths of perpetual night straight into the enemy’s midst.\n\nSHADOW LEGION UNDIVIDED units only.\n▪ This unit has the Dark Pacts army rule, and can use it as described in Codex: Chaos Space Marines, even though your Army Faction is not HERETIC ASTARTES. If this unit is BE’LAKOR, it automatically passes the Leadership test required for Dark Pacts.\n▪ SHADOW LEGION HERETIC ASTARTES models in this unit have the Deep Strike ability.",
+            "flavor": "",
+            "name": "Thralls of the First Prince & First Prince of Chaos"
+          },
+          "source": "faction-pack",
+          "stratagems": [
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, weapons equipped by models in your selected units have the [IGNORES COVER] ability.",
+              "flavor": "Be’lakor’s aura falls across the field of battle, bearing servants both mortal and daemonic to war. Attuned to the gloom, these new arrivals combine their fire to unleash death upon the cowering foe.",
+              "name": "Encroaching Darkness",
+              "restrictions": "",
+              "sublabel": "Shadow Legion – Battle Tactic Stratagem",
+              "target": "Up to one SHADOW LEGION HERETIC ASTARTES unit from your army and up to one SHADOW LEGION LEGIONES DAEMONICA unit from your army. You can only select units that arrived from Reserves this turn.",
+              "turn": "your",
+              "when": "Your Shooting phase."
+            },
+            {
+              "cp": "2CP",
+              "effect": "Select one visible enemy unit within 12\" of your unit. When that enemy unit declares a charge, that enemy unit has -1 to Charge rolls. If your unit has Nurgle, that enemy unit must make a Battle-shock roll.",
+              "flavor": "A chill penumbra settles over the oncoming foe. Those that manage to cut their way through the blanket of twilight find themselves seized with terror as the darkness parts and the horrific nature of their enemy is revealed.",
+              "name": "Shade Path",
+              "restrictions": "",
+              "sublabel": "Shadow Legion – Battle Tactic Stratagem",
+              "target": "One friendly SHADOW LEGION unit.",
+              "turn": "opponent",
+              "when": "Start of your opponent’s Charge phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "One model in your unit regains up to 3 lost wounds. In addition, If your unit has the Tzeentch keyword, return up to one destroyed model (excluding CHARACTER models) to your unit with its full wounds remaining.",
+              "flavor": "Even death does not free one from Be’lakor’s grasp. Those who disappoint him may be dragged back through the veil, granted one last chance to impress their master or face the full extent of his wrath.",
+              "name": "Death Denied",
+              "restrictions": "",
+              "sublabel": "Shadow Legion – Battle Tactic Stratagem",
+              "target": "One Shadow Legion unit from your army.",
+              "turn": "your",
+              "when": "Your Command phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LANCE] ability. If your unit has the Khorne keyword, until the end of the phase, improve the Armour Penetration characteristic of those weapons by 1 as well.",
+              "flavor": "Khorne may not care whence the blood flows, but Be’lakor is more discerning. He directs his slaughter-crazed followers to strike the most pressing targets with all their infernal fury.",
+              "name": "Channelled Wrath",
+              "restrictions": "",
+              "sublabel": "Shadow Legion – Strategic Ploy Stratagem",
+              "target": "One Shadow Legion unit from your army that has not been selected to fight this phase.",
+              "turn": "either",
+              "when": "Fight phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Roll one D6 for each enemy unit that is within Engagement Range of the last model in your unit, adding 2 to the result if your unit has the Slaanesh keyword: on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6+, that enemy unit suffers 3 mortal wounds.",
+              "flavor": "Malevolent to the last, Be’lakor’s thralls expend their final reserves of mortal strength and empyric might in an act of vengeance, unleashing torrents of killing energy in all directions.",
+              "name": "Spiteful Demise",
+              "restrictions": "",
+              "sublabel": "Shadow Legion – Strategic Ploy Stratagem",
+              "target": "That SHADOW LEGION unit. You can use this Stratagem on that unit even though it was just destroyed.",
+              "turn": "either",
+              "when": "Any phase, just after a Shadow Legion unit from your army is destroyed, before removing the last model in that unit from the battlefield and before rolling any dice for the Deadly Demise ability."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Remove those selected units from the battlefield and place them into Strategic Reserves.",
+              "flavor": "Bound by coils of umbral energy, mortal and daemonic followers are swept up in Be’lakor’s cloak of shadows as pawns returned to their master’s hand.",
+              "name": "Binding Shadow",
+              "restrictions": "",
+              "sublabel": "Shadow Legion – Strategic Ploy Stratagem",
+              "target": "Up to one SHADOW LEGION HERETIC ASTARTES unit from your army and up to one SHADOW LEGION LEGIONES DAEMONICA unit from your army. You can only select units that are not within Engagement Range of one or more enemy units.",
+              "turn": "opponent",
+              "when": "End of your opponent’s Fight phase."
+            }
+          ]
+        },
+        {
+          "dp": 1,
+          "enhancements": [
+            {
+              "body": "LEGIONES DAEMONICA MOUNTED unit only. This unit has +1\" M.",
+              "flavor": "The daemonic abominations ridden by these warriors thunder into battle like the manifestation of every culture’s apocalyptic prophecies since time began.",
+              "name": "Apocalyptic Steeds",
+              "points": 10,
+              "upgrade": true
+            },
+            {
+              "body": "LEGIONES DAEMONICA MOUNTED unit only. When this unit is **[gloss:selected-to-fight:selected to fight]**, if this unit made a **[gloss:charge-move:Charge move]** this turn, you can use this ability. If you do, when determining which models in this unit can fight, friendly models that are within 3\" of enemy units engaged with this unit can target those enemy units.",
+              "flavor": "The impact of these terrifying riders is enough to blast the very soulstuff from the bodies of their victims, leaving even those foes that resist as hollow shells of their former might.",
+              "name": "Soul-shattering Charge",
+              "points": 10,
+              "upgrade": true
+            }
+          ],
+          "forceDispositions": [
+            "Disruption"
+          ],
+          "id": "cavalcade-of-chaos",
+          "name": "Cavalcade of Chaos",
+          "rule": {
+            "body": "If a friendly LEGIONES DAEMONICA MOUNTED unit made a Fall Back move this turn, that move does not prevent that unit from being eligible to shoot/eligible to declare a charge.",
+            "flavor": "Infused with the Warp’s unholy power, temporary ebbs of slaughter can be twisted into thundering advances of daemonic power in a heartbeat.",
+            "name": "Unholy Avalanche"
+          },
+          "source": "faction-pack",
+          "stratagems": [
+            {
+              "cp": "2CP",
+              "effect": "Your unit can make an **[gloss:ingress-move:ingress move]**.",
+              "flavor": "Erupting from a rippling warp portal, the cavalry of the Chaos Gods fall upon their shocked foes as though manifesting from nowhere.",
+              "name": "From Beyond the Veil",
+              "restrictions": "",
+              "sublabel": "Cavalcade of Chaos – Stratagem",
+              "target": "One friendly LEGIONES DAEMONICA MOUNTED unit in **[gloss:strategic-reserves:Strategic Reserves]**.",
+              "turn": "your",
+              "when": "End of the Movement phase, from the start of the battle."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Your unit has MOBILE.",
+              "flavor": "Thundering along the spectral ways of the Warp, these infernal riders pass through solid matter like spectres out of some voidsman’s gheist story.",
+              "name": "Warp-Riders",
+              "restrictions": "",
+              "sublabel": "Cavalcade of Chaos – Stratagem",
+              "target": "That LEGIONES DAEMONICA MOUNTED unit.",
+              "turn": "your",
+              "when": "Your Movement phase, when a friendly LEGIONES DAEMONICA MOUNTED unit is **[gloss:selected-to-move:selected to move]**."
+            },
+            {
+              "cp": "1CP",
+              "effect": "When an enemy unit engaged with your unit is selected to make a Fall Back move, that enemy unit must use the Desperate Escape mode. If that enemy unit is Battle-shocked, subtract 1 from those **[gloss:hazard-roll:hazard rolls]**.",
+              "flavor": "It is no easy matter to escape this thundering warp-spawned cavalcade, and those who try are likely to be ridden down by howling daemons.",
+              "name": "Inescapable Manifestations",
+              "restrictions": "",
+              "sublabel": "Cavalcade of Chaos – Stratagem",
+              "target": "That LEGIONES DAEMONICA MOUNTED unit.",
+              "turn": "opponent",
+              "when": "Your opponent’s Movement phase, when a unit is selected to make a Fall Back move, if that unit is engaged with a friendly LEGIONES DAEMONICA MOUNTED unit."
+            }
+          ]
+        },
+        {
+          "dp": 1,
+          "enhancements": [
+            {
+              "body": "LEGIONES DAEMONICA CHARACTER model only (excluding MONSTER units). This model has +2 W.",
+              "flavor": "Unholy energies roll in waves through this captain of the daemonic legions, straining its corporeal shell with infernal might.",
+              "name": "Swollen with Power",
+              "points": 10,
+              "upgrade": true
+            }
+          ],
+          "forceDispositions": [
+            "Take and Hold"
+          ],
+          "id": "lords-of-the-warp",
+          "name": "Lords of the Warp",
+          "rule": {
+            "body": "Friendly LEGIONES DAEMONICA CHARACTER models (excluding MONSTER models) have +1 Ld and OC.",
+            "flavor": "Seething with the baleful energies of the Immaterium, the dark nobility of the daemon legions manifest as living icons of their gods’ powers burned into the very flesh of realspace.",
+            "name": "Loci of Power"
+          },
+          "source": "faction-pack",
+          "stratagems": [
+            {
+              "cp": "1CP",
+              "effect": "Your unit has [core:Fights First] and must be the next unit you select to fight.",
+              "flavor": "Whirling wildly through the fight, shrieking with unholy glee and excitement, the daemonic servants of Slaanesh compete to unleash the greatest excesses of elegant violence.",
+              "name": "Carnival of Excess",
+              "restrictions": "",
+              "sublabel": "Lords of the Warp – Stratagem",
+              "target": "One friendly LEGIONES DAEMONICA CHARACTER SLAANESH unit (excluding MONSTER units) that has not been **[gloss:selected-to-fight:selected to fight]** this phase.",
+              "turn": "either",
+              "when": "Fight phase, when an enemy unit has fought."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Your unit’s melee attacks have +1 A.",
+              "flavor": "This champion’s very war cry erupts from their maw as a brazen horn call that summons Khorne’s servants to battle.",
+              "name": "Call to Murder",
+              "restrictions": "",
+              "sublabel": "Lords of the Warp – Stratagem",
+              "target": "That LEGIONES DAEMONICA CHARACTER KHORNE unit.",
+              "turn": "either",
+              "when": "Fight phase, when a friendly LEGIONES DAEMONICA KHORNE CHARACTER unit (excluding MONSTER units) that made a **[gloss:charge-move:Charge move]** this turn is **[gloss:selected-to-fight:selected to fight]**."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Select one **[gloss:visible:visible]** enemy unit within 8\" of your unit and roll seven D6: for each 4+, that enemy unit suffers 1 **[gloss:mortal-wound:mortal wound]**.",
+              "flavor": "With a peristaltic heave, this repulsive daemon champion vomits a stream of nauseating filth across the foe.",
+              "name": "Bilious Blessing",
+              "restrictions": "",
+              "sublabel": "Lords of the Warp – Stratagem",
+              "target": "One friendly LEGIONES DAEMONICA CHARACTER NURGLE unit (excluding MONSTER units).",
+              "turn": "your",
+              "when": "Start of your Shooting phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Your unit’s ranged attacks have [LETHAL HITS].",
+              "flavor": "Shrieking kaleidoscopic sorceries caught by this entity’s talons are hurled in a gust of empyric fire, its mutating touch tearing open wounds into which the Warp’s lethal power can flow.",
+              "name": "Skirling Magicks",
+              "restrictions": "",
+              "sublabel": "Lords of the Warp – Stratagem",
+              "target": "That LEGIONES DAEMONICA CHARACTER TZEENTCH unit.",
+              "turn": "your",
+              "when": "Your Shooting phase, when a friendly LEGIONES DAEMONICA CHARACTER TZEENTCH unit (excluding MONSTER units) is **[gloss:selected-to-shoot:selected to shoot]**."
+            }
+          ]
+        },
+        {
+          "dp": 1,
+          "enhancements": [
+            {
+              "body": "LEGIONES DAEMONICA BATTLELINE unit only. This unit’s attacks have +1 S.",
+              "flavor": "The manifest armaments of these daemonic warriors drip with curses and moan with baleful energies that are the anathema of all life.",
+              "name": "Bane-forged Weapons",
+              "points": 15,
+              "upgrade": true
+            },
+            {
+              "body": "LEGIONES DAEMONICA BATTLELINE unit only. When you target this unit with the Heroic Intervention/Fire Overwatch Stratagem, that use is -1 CP.",
+              "flavor": "Driven by the all-consuming need to claim mortal souls and sustain their own corporeal manifestations, these daemons surge toward the enemy at every opportunity.",
+              "name": "Soul-hungry Slaughterers",
+              "points": 10,
+              "upgrade": true
+            }
+          ],
+          "forceDispositions": [
+            "Reconnaissance"
+          ],
+          "id": "warptide",
+          "name": "Warptide",
+          "rule": {
+            "body": "When a friendly LEGIONES DAEMONICA BATTLELINE unit is selected to make an **[gloss:advance-move:Advance move]**:\n▪ That unit’s ranged attacks have [ASSAULT] until the end of the turn.\n▪ That move does not prevent that unit from being **[gloss:eligible-to-charge:eligible to declare a charge]**.",
+            "flavor": "These daemons’ physical manifestations flicker in and out of being like a pict-reel skipping and projecting too quickly. One moment, they are a distant threat; the next, they are upon their horrified victims.",
+            "name": "Shudderblink"
+          },
+          "source": "faction-pack",
+          "stratagems": [
+            {
+              "cp": "1CP",
+              "effect": "Your unit **[gloss:heal:heals]** 3 wounds.",
+              "flavor": "Manifesting in great numbers and flowing through and around one another almost like a single unholy entity, the footsoldiers of the daemon legions appear to be everywhere at once.",
+              "name": "Daemonic Infestation",
+              "restrictions": "",
+              "sublabel": "Warptide – Stratagem",
+              "target": "One friendly LEGIONES DAEMONICA BATTLELINE unit (excluding PINK HORRORS units).",
+              "turn": "your",
+              "when": "Your Command phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Select one **[gloss:visible:visible]** enemy unit within 12\" of your unit. That enemy unit has +6\" **[gloss:detection-range:detection range]**.",
+              "flavor": "Like candles dancing in a darkened room, the animus of the daemons’ victims cannot be hidden from their infernal sight.",
+              "name": "Soulseeing",
+              "restrictions": "",
+              "sublabel": "Warptide – Stratagem",
+              "target": "One friendly LEGIONES DAEMONICA BATTLELINE unit.",
+              "turn": "your",
+              "when": "Start of your Shooting phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Ranged attacks that target your unit with a S greater than your unit’s T have -1 to Wound rolls.",
+              "flavor": "No matter how potent the weapons turned against them, the ephemeral forms of these daemons seem almost to exist in a different realm of reality than their blasts and projectiles.",
+              "name": "Incorporeal Entities",
+              "restrictions": "",
+              "sublabel": "Warptide – Stratagem",
+              "target": "That LEGIONES DAEMONICA BATTLELINE unit.",
+              "turn": "opponent",
+              "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly LEGIONES DAEMONICA BATTLELINE unit."
+            }
+          ]
+        }
+      ],
+      "name": "Chaos Daemons",
+      "slug": "chaos-daemons"
+    }
+  }
+}

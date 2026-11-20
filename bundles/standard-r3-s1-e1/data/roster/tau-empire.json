@@ -1,0 +1,6776 @@
+{
+  "default": {
+    "detachments": [
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "limit": 3,
+            "name": "Negation Emitters (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "ds": "Stealth Battlesuits",
+                "fac": [
+                  "T’au Empire"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "limit": 3,
+            "name": "Unmasking Suite (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "ds": "Stealth Battlesuits"
+              },
+              {
+                "kw": [
+                  "Pathfinder Team"
+                ]
+              },
+              {
+                "kw": [
+                  "Ghostkeel"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Advanced Acquisition Cadre",
+        "sid": "a45bd323-7d95-41b8-82ff-eba352aba663"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Student of Kauyon",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Shaper",
+                  "Kroot"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "exclKw": [
+              "Kroot"
+            ],
+            "name": "Admired Leader",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "T’au Empire"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Disruption"
+        ],
+        "name": "Auxiliary Cadre",
+        "sid": "5bdc7f35-d1cc-4c58-9888-81ee3f0ee8ab",
+        "unique": "AUXILIARY"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Thermoneutronic Projector",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Battlesuit"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Plasma Accelerator Rifle",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Battlesuit"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Supernova Launcher",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Battlesuit"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Experimental Prototype Cadre",
+        "sid": "c20f90be-bf55-4d26-97af-7bb642836256",
+        "unique": "BATTLESUIT"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "exclKw": [
+              "Shaper"
+            ],
+            "name": "Exemplar of the Kauyon",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "T’au Empire"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Precision of the Patient Hunter",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "T’au Empire"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Solid-image Projection Unit",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "T’au Empire"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "exclKw": [
+              "Shaper"
+            ],
+            "name": "Through Unity, Devastation",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "T’au Empire"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Kauyon",
+        "sid": "e1b3fdde-652c-40a6-953d-e34e4af44fe5"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Kroothawk Flock",
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "Kroot"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Nomadic Hunter",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Trail Shaper"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Root-carved Weapons",
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "War Shaper"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Borthrod Gland",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Flesh Shaper"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Kroot Hunting Pack",
+        "sid": "5f9bd941-4904-4e4c-b880-35543f704f17",
+        "unique": "AUXILIARY"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "exclKw": [
+              "Shaper"
+            ],
+            "name": "Exemplar of the Mont’ka",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "T’au Empire"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Strike Swiftly",
+            "pts": 45,
+            "req": [
+              {
+                "fac": [
+                  "T’au Empire"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Strategic Conqueror",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "T’au Empire"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "exclKw": [
+              "Shaper"
+            ],
+            "name": "Coordinated Exploitation",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "T’au Empire"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold",
+          "Priority Assets"
+        ],
+        "name": "Mont’ka",
+        "sid": "24deeda2-032e-4f18-a7ce-d206044a1bd1"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Puretide Engram Neurochip",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "T’au Empire"
+                ],
+                "kw": [
+                  "Battlesuit"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Starflare Ignition System",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "T’au Empire"
+                ],
+                "kw": [
+                  "Battlesuit"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Internal Grenade Racks",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "T’au Empire"
+                ],
+                "kw": [
+                  "Battlesuit"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Prototype Weapon System",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "T’au Empire"
+                ],
+                "kw": [
+                  "Battlesuit"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe",
+          "Reconnaissance"
+        ],
+        "name": "Retaliation Cadre",
+        "sid": "0e473cae-5f5c-4f69-8134-b2bd70df0569",
+        "unique": "BATTLESUIT"
+      }
+    ],
+    "name": "T’au Empire",
+    "slug": "tau-empire",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3442,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "id": "aunshi",
+        "kws": [
+          "Infantry",
+          "Character",
+          "Epic Hero",
+          "Ethereal",
+          "Aun’Shi"
+        ],
+        "leads": [
+          {
+            "to": "breacher-team",
+            "type": "leader"
+          },
+          {
+            "to": "kroot-carnivores",
+            "type": "leader"
+          },
+          {
+            "to": "kroot-farstalkers",
+            "type": "leader"
+          },
+          {
+            "to": "strike-team",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Aun’Shi",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 50
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                390,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3443,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "id": "aunva",
+        "kws": [
+          "Infantry",
+          "Character",
+          "Epic Hero",
+          "Ethereal",
+          "Aun’Va"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Aun’Va"
+          },
+          {
+            "n": "Ethereal Guards"
+          }
+        ],
+        "name": "Aun’Va",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 65
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2843,
+                1
+              ],
+              [
+                2844,
+                2
+              ],
+              [
+                2845,
+                1
+              ],
+              [
+                2846,
+                2
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                6
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2837
+              ]
+            ],
+            "t": 908
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    2847,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              2844
+            ],
+            "t": 909
+          }
+        ],
+        "id": "ax-1-0-tiger-shark",
+        "kws": [
+          "AX-1-0 Tiger Shark",
+          "Aircraft",
+          "Fly",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "AX-1-0 Tiger Shark",
+        "sid": "7a2d34de-4d07-43a2-928a-2be9dfdc47a7",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 315
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 60
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3444,
+                2
+              ],
+              [
+                2970,
+                1
+              ],
+              [
+                2868,
+                2
+              ],
+              [
+                598,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    2856,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              3444
+            ],
+            "t": 1183
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2890
+              ],
+              [
+                2971
+              ]
+            ],
+            "rep": [
+              2970
+            ],
+            "t": 1184
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                4,
+                4
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2837
+              ]
+            ],
+            "t": 1185
+          }
+        ],
+        "id": "barracuda",
+        "kws": [
+          "Vehicle",
+          "Aircraft",
+          "Fly",
+          "Barracuda"
+        ],
+        "linked": 1,
+        "name": "Barracuda",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 220
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                2827,
+                1
+              ],
+              [
+                2828,
+                1
+              ],
+              [
+                2829,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                2829,
+                1
+              ],
+              [
+                2827,
+                1
+              ],
+              [
+                2828,
+                1
+              ],
+              [
+                2830,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2831
+              ],
+              [
+                2832
+              ],
+              [
+                2833
+              ],
+              [
+                2834
+              ]
+            ],
+            "od": {
+              "0": 1
+            },
+            "t": 904
+          }
+        ],
+        "id": "breacher-team",
+        "kws": [
+          "Battleline",
+          "Breacher Team",
+          "Fire Warrior",
+          "Grenades",
+          "Infantry",
+          "Markerlight"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Breacher Fire Warrior Shas’ui"
+          },
+          {
+            "n": "Breacher Fire Warrior"
+          }
+        ],
+        "name": "Breacher Team",
+        "sid": "d497f327-8293-497d-98b1-fd5a0b957de7",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 80
+          }
+        ],
+        "stands": {
+          "2832": [
+            "Twin pulse carbine"
+          ]
+        }
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                2835,
+                1
+              ],
+              [
+                2836,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                2835,
+                1
+              ],
+              [
+                2836,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "excl": [
+              [
+                1,
+                2
+              ]
+            ],
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                2837
+              ],
+              [
+                2838
+              ],
+              [
+                2839
+              ],
+              [
+                2840
+              ]
+            ],
+            "pb": [
+              2,
+              1
+            ],
+            "t": 905
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                2832
+              ],
+              [
+                2833
+              ],
+              [
+                2841
+              ],
+              [
+                2834
+              ]
+            ],
+            "pb": [
+              2
+            ],
+            "t": 906
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2842,
+                5
+              ]
+            ],
+            "rep": [
+              2836
+            ],
+            "repall": 1,
+            "t": 907
+          },
+          {
+            "excl": [
+              [
+                1,
+                2
+              ]
+            ],
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                2837
+              ],
+              [
+                2838
+              ],
+              [
+                2839
+              ],
+              [
+                2840
+              ]
+            ],
+            "pb": [
+              2,
+              1
+            ],
+            "t": 905
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                2832
+              ],
+              [
+                2833
+              ],
+              [
+                2841
+              ],
+              [
+                2834
+              ]
+            ],
+            "pb": [
+              2
+            ],
+            "t": 906
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                2842,
+                5
+              ]
+            ],
+            "rep": [
+              2836
+            ],
+            "t": 907
+          }
+        ],
+        "id": "broadside-battlesuits",
+        "kws": [
+          "Battlesuit",
+          "Broadside",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Broadside Shas’vre"
+          },
+          {
+            "n": "Broadside Shas’ui"
+          }
+        ],
+        "name": "Broadside Battlesuits",
+        "pools": [
+          {
+            "g": [
+              0,
+              3
+            ]
+          },
+          {
+            "g": [
+              1,
+              4
+            ]
+          },
+          {
+            "g": [
+              2,
+              5
+            ]
+          }
+        ],
+        "sid": "c2428762-4f6e-418e-8943-28b4abede45f",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 75
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "per": [
+              2,
+              2
+            ],
+            "pts": 150
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "per": [
+              3,
+              3
+            ],
+            "pts": 255
+          }
+        ],
+        "stands": {
+          "2832": [
+            "Twin pulse carbine"
+          ],
+          "2841": [
+            "Missile pod"
+          ]
+        },
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                58,
+                1
+              ],
+              [
+                2848,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2832
+              ],
+              [
+                2833
+              ],
+              [
+                2834
+              ]
+            ],
+            "t": 910
+          }
+        ],
+        "id": "cadre-fireblade",
+        "kws": [
+          "Cadre Fireblade",
+          "Character",
+          "Grenades",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "breacher-team",
+            "type": "leader"
+          },
+          {
+            "to": "strike-team",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Cadre Fireblade",
+        "sid": "fcd98c59-1972-4870-b8f9-863fe78ac349",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 50
+          }
+        ],
+        "stands": {
+          "2832": [
+            "Twin pulse carbine"
+          ]
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2849,
+                1
+              ],
+              [
+                2850,
+                1
+              ]
+            ]
+          ]
+        ],
+        "excludes": [
+          {
+            "kws": [
+              "Ethereal"
+            ]
+          }
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "commander-farsight",
+        "kws": [
+          "Battlesuit",
+          "Character",
+          "Commander Farsight",
+          "Epic Hero",
+          "Fly",
+          "Vehicle",
+          "Walker"
+        ],
+        "leads": [
+          {
+            "to": "crisis-sunforge-battlesuits",
+            "type": "leader"
+          },
+          {
+            "to": "crisis-starscythe-battlesuits",
+            "type": "leader"
+          },
+          {
+            "to": "crisis-fireknife-battlesuits",
+            "type": "leader"
+          },
+          {
+            "to": "crisis-battlesuits",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Commander Farsight",
+        "sid": "57397a0c-8231-4592-9534-b6ba1a8dd2bd",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 70
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2851,
+                1
+              ],
+              [
+                2852,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2853
+              ],
+              [
+                2854
+              ],
+              [
+                2855
+              ],
+              [
+                2856
+              ],
+              [
+                2857
+              ],
+              [
+                2858
+              ],
+              [
+                2859
+              ],
+              [
+                2860
+              ],
+              [
+                2861
+              ],
+              [
+                2840
+              ]
+            ],
+            "rep": [
+              2852
+            ],
+            "t": 911
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2832
+              ],
+              [
+                2833
+              ],
+              [
+                2834
+              ]
+            ],
+            "t": 910
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                3
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2853
+              ],
+              [
+                2854
+              ],
+              [
+                2855
+              ],
+              [
+                2856
+              ],
+              [
+                2857
+              ],
+              [
+                2858
+              ],
+              [
+                2859
+              ],
+              [
+                2860
+              ],
+              [
+                2861
+              ],
+              [
+                2840
+              ]
+            ],
+            "t": 912
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "commander-in-coldstar-battlesuit",
+        "kws": [
+          "Battlesuit",
+          "Character",
+          "Commander in Coldstar Battlesuit",
+          "Fly",
+          "Vehicle",
+          "Walker"
+        ],
+        "leads": [
+          {
+            "to": "crisis-fireknife-battlesuits",
+            "type": "leader"
+          },
+          {
+            "to": "crisis-sunforge-battlesuits",
+            "type": "leader"
+          },
+          {
+            "to": "crisis-starscythe-battlesuits",
+            "type": "leader"
+          },
+          {
+            "to": "crisis-battlesuits",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Commander in Coldstar Battlesuit",
+        "sid": "7ddf7559-7584-434a-8f03-95faed97a0d6",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 95
+          }
+        ],
+        "stands": {
+          "2832": [
+            "Twin pulse carbine"
+          ]
+        },
+        "xpm": [
+          {
+            "k": 1,
+            "s": [
+              [
+                0,
+                0
+              ],
+              [
+                2,
+                0
+              ]
+            ]
+          },
+          {
+            "k": 1,
+            "s": [
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                1
+              ]
+            ]
+          },
+          {
+            "k": 1,
+            "s": [
+              [
+                0,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ]
+          },
+          {
+            "k": 1,
+            "s": [
+              [
+                0,
+                7
+              ],
+              [
+                2,
+                7
+              ]
+            ]
+          },
+          {
+            "k": 1,
+            "s": [
+              [
+                0,
+                9
+              ],
+              [
+                2,
+                9
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2844,
+                1
+              ],
+              [
+                2851,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "char": 1,
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2853
+              ],
+              [
+                2887
+              ],
+              [
+                2856
+              ],
+              [
+                2871
+              ],
+              [
+                2868
+              ],
+              [
+                2869
+              ],
+              [
+                2860
+              ],
+              [
+                2861
+              ],
+              [
+                2840
+              ]
+            ],
+            "rep": [
+              2844
+            ],
+            "t": 1186
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                3,
+                3
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2853
+              ],
+              [
+                2887
+              ],
+              [
+                2844
+              ],
+              [
+                2856
+              ],
+              [
+                2871
+              ],
+              [
+                2868
+              ],
+              [
+                2869
+              ],
+              [
+                2860
+              ],
+              [
+                2861
+              ],
+              [
+                2840
+              ]
+            ],
+            "t": 1187
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                2,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2832
+              ],
+              [
+                2833
+              ],
+              [
+                2834
+              ]
+            ],
+            "t": 1188
+          }
+        ],
+        "id": "commander-in-crisis-battlesuit",
+        "kws": [
+          "Vehicle",
+          "Walker",
+          "Fly",
+          "Character",
+          "Battlesuit",
+          "Commander in Crisis Battlesuit"
+        ],
+        "leads": [
+          {
+            "to": "crisis-battlesuits",
+            "type": "leader"
+          },
+          {
+            "to": "crisis-fireknife-battlesuits",
+            "type": "leader"
+          },
+          {
+            "to": "crisis-starscythe-battlesuits",
+            "type": "leader"
+          },
+          {
+            "to": "crisis-sunforge-battlesuits",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Commander in Crisis Battlesuit",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          }
+        ],
+        "stands": {
+          "2832": [
+            "Twin pulse carbine"
+          ]
+        },
+        "xpm": [
+          {
+            "k": 1,
+            "s": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          {
+            "k": 1,
+            "s": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          },
+          {
+            "k": 1,
+            "s": [
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                7
+              ]
+            ]
+          },
+          {
+            "k": 1,
+            "s": [
+              [
+                0,
+                8
+              ],
+              [
+                1,
+                9
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2855,
+                1
+              ],
+              [
+                2851,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2853
+              ],
+              [
+                2854
+              ],
+              [
+                2856
+              ],
+              [
+                2857
+              ],
+              [
+                2858
+              ],
+              [
+                2859
+              ],
+              [
+                2860
+              ],
+              [
+                2861
+              ],
+              [
+                2840
+              ]
+            ],
+            "rep": [
+              2855
+            ],
+            "t": 913
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2832
+              ],
+              [
+                2833
+              ],
+              [
+                2834
+              ]
+            ],
+            "t": 910
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                3
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2854
+              ],
+              [
+                2855
+              ],
+              [
+                2856
+              ],
+              [
+                2857
+              ],
+              [
+                2858
+              ],
+              [
+                2859
+              ],
+              [
+                2860
+              ],
+              [
+                2861
+              ],
+              [
+                2840
+              ]
+            ],
+            "t": 912
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "commander-in-enforcer-battlesuit",
+        "kws": [
+          "Battlesuit",
+          "Character",
+          "Commander in Enforcer Battlesuit",
+          "Fly",
+          "Vehicle",
+          "Walker"
+        ],
+        "leads": [
+          {
+            "to": "crisis-starscythe-battlesuits",
+            "type": "leader"
+          },
+          {
+            "to": "crisis-sunforge-battlesuits",
+            "type": "leader"
+          },
+          {
+            "to": "crisis-fireknife-battlesuits",
+            "type": "leader"
+          },
+          {
+            "to": "crisis-battlesuits",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Commander in Enforcer Battlesuit",
+        "sid": "ce69c919-6a01-4e21-b1bd-2b768b537657",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          }
+        ],
+        "stands": {
+          "2832": [
+            "Twin pulse carbine"
+          ]
+        },
+        "xpm": [
+          {
+            "k": 1,
+            "s": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "k": 1,
+            "s": [
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                0
+              ]
+            ]
+          },
+          {
+            "k": 1,
+            "s": [
+              [
+                0,
+                2
+              ],
+              [
+                2,
+                2
+              ]
+            ]
+          },
+          {
+            "k": 1,
+            "s": [
+              [
+                0,
+                6
+              ],
+              [
+                2,
+                6
+              ]
+            ]
+          },
+          {
+            "k": 1,
+            "s": [
+              [
+                0,
+                8
+              ],
+              [
+                2,
+                8
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2862,
+                1
+              ],
+              [
+                2863,
+                1
+              ],
+              [
+                2851,
+                1
+              ],
+              [
+                2864,
+                2
+              ],
+              [
+                2865,
+                1
+              ],
+              [
+                2866,
+                1
+              ],
+              [
+                2867,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "supreme": 1
+        },
+        "id": "commander-shadowsun",
+        "kws": [
+          "Battlesuit",
+          "Character",
+          "Commander Shadowsun",
+          "Epic Hero",
+          "Fly",
+          "Infantry"
+        ],
+        "linked": 1,
+        "name": "Commander Shadowsun",
+        "sid": "b5955928-c32b-427c-b5aa-ae3e90016e77",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2844,
+                1
+              ],
+              [
+                2851,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                2844,
+                1
+              ],
+              [
+                2851,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2853
+              ],
+              [
+                2887
+              ],
+              [
+                2856
+              ],
+              [
+                2871
+              ],
+              [
+                2868
+              ],
+              [
+                2869
+              ],
+              [
+                2860
+              ],
+              [
+                2861
+              ],
+              [
+                2840
+              ]
+            ],
+            "rep": [
+              2844
+            ],
+            "repall": 1,
+            "t": 1189
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                2853
+              ],
+              [
+                2887
+              ],
+              [
+                2844
+              ],
+              [
+                2856
+              ],
+              [
+                2871
+              ],
+              [
+                2868
+              ],
+              [
+                2869
+              ],
+              [
+                2860
+              ],
+              [
+                2861
+              ],
+              [
+                2840
+              ]
+            ],
+            "pb": [
+              3
+            ],
+            "t": 1190
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                2832
+              ],
+              [
+                2833
+              ],
+              [
+                2834
+              ]
+            ],
+            "pb": [
+              2
+            ],
+            "t": 1191
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                2853
+              ],
+              [
+                2887
+              ],
+              [
+                2856
+              ],
+              [
+                2871
+              ],
+              [
+                2868
+              ],
+              [
+                2869
+              ],
+              [
+                2860
+              ],
+              [
+                2861
+              ],
+              [
+                2840
+              ]
+            ],
+            "rep": [
+              2844
+            ],
+            "t": 1189
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                2853
+              ],
+              [
+                2887
+              ],
+              [
+                2844
+              ],
+              [
+                2856
+              ],
+              [
+                2871
+              ],
+              [
+                2868
+              ],
+              [
+                2869
+              ],
+              [
+                2860
+              ],
+              [
+                2861
+              ],
+              [
+                2840
+              ]
+            ],
+            "pb": [
+              3
+            ],
+            "t": 1190
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                2832
+              ],
+              [
+                2833
+              ],
+              [
+                2834
+              ]
+            ],
+            "pb": [
+              2
+            ],
+            "t": 1191
+          }
+        ],
+        "id": "crisis-battlesuits",
+        "kws": [
+          "Vehicle",
+          "Walker",
+          "Fly",
+          "Battlesuit",
+          "Crisis"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Crisis Shas’vre"
+          },
+          {
+            "n": "Crisis Shas’ui"
+          }
+        ],
+        "name": "Crisis Battlesuits",
+        "pm": {
+          "add": [
+            1,
+            4
+          ],
+          "base": [
+            0,
+            3
+          ],
+          "one": [
+            2853,
+            2887,
+            2860,
+            2840
+          ],
+          "ranged": [
+            3,
+            [
+              2844,
+              2853,
+              2856,
+              2861,
+              2868,
+              2869,
+              2871
+            ]
+          ],
+          "slots": 3
+        },
+        "pools": [
+          {
+            "g": [
+              0,
+              3
+            ]
+          },
+          {
+            "g": [
+              1,
+              4
+            ]
+          },
+          {
+            "g": [
+              2,
+              5
+            ]
+          }
+        ],
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 200
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                3,
+                5
+              ]
+            ],
+            "per": [
+              4,
+              6
+            ],
+            "pts": 400
+          }
+        ],
+        "stands": {
+          "2832": [
+            "Twin pulse carbine"
+          ]
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2868,
+                1
+              ],
+              [
+                2869,
+                1
+              ],
+              [
+                2870,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                2870,
+                1
+              ],
+              [
+                2868,
+                1
+              ],
+              [
+                2869,
+                1
+              ]
+            ]
+          ]
+        ],
+        "dw": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2868,
+                5
+              ]
+            ],
+            "rep": [
+              2869
+            ],
+            "repall": 1,
+            "t": 914
+          },
+          {
+            "dr": 5,
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2869
+              ]
+            ],
+            "rep": [
+              2868
+            ],
+            "repall": 1,
+            "t": 915
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                2832
+              ],
+              [
+                2833
+              ],
+              [
+                2834
+              ]
+            ],
+            "pb": [
+              2,
+              1
+            ],
+            "t": 916
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                2868,
+                5
+              ]
+            ],
+            "rep": [
+              2869
+            ],
+            "t": 914
+          },
+          {
+            "dr": 5,
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                2869
+              ]
+            ],
+            "rep": [
+              2868
+            ],
+            "t": 915
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                2832
+              ],
+              [
+                2833
+              ],
+              [
+                2834
+              ]
+            ],
+            "pb": [
+              2,
+              1
+            ],
+            "t": 916
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "crisis-fireknife-battlesuits",
+        "kws": [
+          "Battlesuit",
+          "Crisis",
+          "Fireknife",
+          "Fly",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Crisis Fireknife Shas’vre"
+          },
+          {
+            "n": "Crisis Fireknife Shas’ui"
+          }
+        ],
+        "name": "Crisis Fireknife Battlesuits",
+        "pools": [
+          {
+            "g": [
+              0,
+              3
+            ]
+          },
+          {
+            "g": [
+              1,
+              4
+            ]
+          },
+          {
+            "g": [
+              2,
+              5
+            ]
+          }
+        ],
+        "sid": "8490e2ce-4e1a-49fa-85b4-253b7c333109",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 100
+          }
+        ],
+        "stands": {
+          "2832": [
+            "Twin pulse carbine"
+          ]
+        },
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2844,
+                1
+              ],
+              [
+                2861,
+                1
+              ],
+              [
+                2870,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                2844,
+                1
+              ],
+              [
+                2861,
+                1
+              ],
+              [
+                2870,
+                1
+              ]
+            ]
+          ]
+        ],
+        "dw": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2861,
+                5
+              ]
+            ],
+            "rep": [
+              2844
+            ],
+            "repall": 1,
+            "t": 917
+          },
+          {
+            "dr": 5,
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2844
+              ]
+            ],
+            "rep": [
+              2861
+            ],
+            "repall": 1,
+            "t": 918
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                2832
+              ],
+              [
+                2833
+              ],
+              [
+                2834
+              ]
+            ],
+            "pb": [
+              2,
+              1
+            ],
+            "t": 916
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                2861,
+                5
+              ]
+            ],
+            "rep": [
+              2844
+            ],
+            "t": 917
+          },
+          {
+            "dr": 5,
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                2844
+              ]
+            ],
+            "rep": [
+              2861
+            ],
+            "t": 918
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                2832
+              ],
+              [
+                2833
+              ],
+              [
+                2834
+              ]
+            ],
+            "pb": [
+              2,
+              1
+            ],
+            "t": 916
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "crisis-starscythe-battlesuits",
+        "kws": [
+          "Battlesuit",
+          "Crisis",
+          "Fly",
+          "Starscythe",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Crisis Starscythe Shas’vre"
+          },
+          {
+            "n": "Crisis Starscythe Shas’ui"
+          }
+        ],
+        "name": "Crisis Starscythe Battlesuits",
+        "pools": [
+          {
+            "g": [
+              0,
+              3
+            ]
+          },
+          {
+            "g": [
+              1,
+              4
+            ]
+          },
+          {
+            "g": [
+              2,
+              5
+            ]
+          }
+        ],
+        "sid": "16e8d229-19ec-4db3-beec-c2e0b14359b9",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 100
+          }
+        ],
+        "stands": {
+          "2832": [
+            "Twin pulse carbine"
+          ]
+        },
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2871,
+                2
+              ],
+              [
+                2870,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                2870,
+                1
+              ],
+              [
+                2871,
+                2
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                2832
+              ],
+              [
+                2833
+              ],
+              [
+                2834
+              ]
+            ],
+            "pb": [
+              2,
+              1
+            ],
+            "t": 919
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                2832
+              ],
+              [
+                2833
+              ],
+              [
+                2834
+              ]
+            ],
+            "pb": [
+              2,
+              1
+            ],
+            "t": 919
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "crisis-sunforge-battlesuits",
+        "kws": [
+          "Battlesuit",
+          "Crisis",
+          "Fly",
+          "Sunforge",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Crisis Sunforge Shas’vre"
+          },
+          {
+            "n": "Crisis Sunforge Shas’ui"
+          }
+        ],
+        "name": "Crisis Sunforge Battlesuits",
+        "pools": [
+          {
+            "g": [
+              0,
+              1
+            ]
+          }
+        ],
+        "sid": "8b80324f-768d-4e8f-80a3-6dc9ea2b3abb",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 125
+          }
+        ],
+        "stands": {
+          "2832": [
+            "Twin pulse carbine"
+          ]
+        },
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                58,
+                1
+              ],
+              [
+                2872,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "darkstrider",
+        "kws": [
+          "Character",
+          "Darkstrider",
+          "Epic Hero",
+          "Infantry",
+          "Markerlight"
+        ],
+        "leads": [
+          {
+            "to": "pathfinder-team",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Darkstrider",
+        "sid": "8fe4c5a2-8ce4-4d45-813a-7c76c81c87e1",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2873,
+                2
+              ],
+              [
+                2874,
+                1
+              ],
+              [
+                2875,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    2876,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              2873
+            ],
+            "t": 920
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2837
+              ]
+            ],
+            "t": 921
+          }
+        ],
+        "id": "devilfish",
+        "kws": [
+          "Dedicated Transport",
+          "Devilfish",
+          "Fly",
+          "Frame",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Devilfish",
+        "sid": "b55995e6-0a64-426b-aaf9-52999ab0a991",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 75
+          }
+        ],
+        "step": {
+          "at": 4,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2838,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2945
+              ],
+              [
+                2885
+              ],
+              [
+                2948
+              ]
+            ],
+            "rep": [
+              2838
+            ],
+            "t": 1192
+          }
+        ],
+        "id": "drone-sentry-turret",
+        "kws": [
+          "Fortification",
+          "Vehicle",
+          "Frame",
+          "Drone Sentry Turret"
+        ],
+        "linked": 1,
+        "name": "Drone Sentry Turret",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 50
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2877,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2878
+              ]
+            ],
+            "t": 922
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2832
+              ],
+              [
+                2833
+              ],
+              [
+                2834
+              ]
+            ],
+            "t": 910
+          }
+        ],
+        "id": "ethereal",
+        "kws": [
+          "Character",
+          "Ethereal",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "breacher-team",
+            "type": "leader"
+          },
+          {
+            "to": "strike-team",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Ethereal",
+        "sid": "7610f3fb-f9cf-4c95-8f30-c7a44dc6a0a3",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 50
+          }
+        ],
+        "stands": {
+          "2832": [
+            "Twin pulse carbine"
+          ]
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2879,
+                1
+              ],
+              [
+                2880,
+                1
+              ],
+              [
+                2863,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "firesight-team",
+        "kws": [
+          "Character",
+          "Firesight Team",
+          "Infantry",
+          "Markerlight"
+        ],
+        "linked": 1,
+        "name": "Firesight Team",
+        "sid": "18190482-4a82-4af5-8be7-0a5b4b95f4a4",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 55
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2881,
+                1
+              ],
+              [
+                2882,
+                1
+              ],
+              [
+                2883,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2884,
+                15
+              ]
+            ],
+            "rep": [
+              2881
+            ],
+            "t": 923
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2885
+              ],
+              [
+                2886
+              ]
+            ],
+            "rep": [
+              2882
+            ],
+            "t": 924
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2887
+              ]
+            ],
+            "t": 925
+          }
+        ],
+        "id": "ghostkeel-battlesuit",
+        "kws": [
+          "Battlesuit",
+          "Fly",
+          "Ghostkeel",
+          "Smoke",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Ghostkeel Battlesuit",
+        "sid": "84bd3398-d127-4dd5-973d-c615f1e904ee",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 150
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3445,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    3446,
+                    1
+                  ],
+                  [
+                    2891,
+                    1
+                  ]
+                ]
+              ],
+              [
+                3447
+              ],
+              [
+                3448
+              ]
+            ],
+            "t": 1193
+          }
+        ],
+        "id": "great-knarloc",
+        "kws": [
+          "Monster",
+          "Frame",
+          "Kroot",
+          "Great Knarloc"
+        ],
+        "linked": 1,
+        "name": "Great Knarloc",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2888,
+                1
+              ],
+              [
+                2875,
+                1
+              ],
+              [
+                2889,
+                2
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2890
+              ]
+            ],
+            "rep": [
+              2888
+            ],
+            "t": 926
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    2874,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    2876,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              2889
+            ],
+            "t": 927
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2837
+              ]
+            ],
+            "t": 921
+          }
+        ],
+        "id": "hammerhead-gunship",
+        "kws": [
+          "Fly",
+          "Frame",
+          "Hammerhead Gunship",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Hammerhead Gunship",
+        "sid": "aa754bcb-3a8d-4d3b-94d6-16d435fadd0e",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 150
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2844,
+                1
+              ],
+              [
+                3449,
+                1
+              ],
+              [
+                390,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                2945
+              ]
+            ],
+            "rep": [
+              2844,
+              3449
+            ],
+            "t": 1194
+          }
+        ],
+        "id": "heavy-gun-drones",
+        "kws": [
+          "Vehicle",
+          "Fly",
+          "Heavy Gun Drones"
+        ],
+        "linked": 1,
+        "name": "Heavy Gun Drones",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              2,
+              2
+            ],
+            "pts": 45
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2891,
+                1
+              ],
+              [
+                3450,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "knarloc-riders",
+        "kws": [
+          "Mounted",
+          "Kroot",
+          "Knarloc Riders"
+        ],
+        "linked": 1,
+        "name": "Knarloc Riders",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 110
+          }
+        ]
+      },
+      {
+        "condBattleline": 1,
+        "defaults": [
+          [
+            1,
+            [
+              [
+                1861,
+                1
+              ],
+              [
+                2891,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                2891,
+                1
+              ],
+              [
+                1861,
+                1
+              ],
+              [
+                2892,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2893
+              ]
+            ],
+            "rep": [
+              2891
+            ],
+            "t": 928
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                10,
+                1
+              ],
+              [
+                20,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                2894
+              ]
+            ],
+            "rep": [
+              2891
+            ],
+            "t": 929
+          }
+        ],
+        "grants": [
+          {
+            "det": "kroot-hunting-pack",
+            "kw": "Battleline"
+          }
+        ],
+        "hosts": {
+          "minModels": 20,
+          "n": 2,
+          "noDup": 1
+        },
+        "id": "kroot-carnivores",
+        "kws": [
+          "Carnivores",
+          "Grenades",
+          "Infantry",
+          "Kroot"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Long-quill"
+          },
+          {
+            "n": "Kroot Carnivore"
+          }
+        ],
+        "name": "Kroot Carnivores",
+        "sid": "ec977f55-d4d6-471e-909b-7cc56eac8ab5",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 65
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                10,
+                19
+              ]
+            ],
+            "per": [
+              11,
+              20
+            ],
+            "pts": 130
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            2,
+            [
+              [
+                2895,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                2896,
+                1
+              ],
+              [
+                2892,
+                1
+              ],
+              [
+                2897,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                2896,
+                1
+              ],
+              [
+                1861,
+                1
+              ],
+              [
+                2892,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2898
+              ]
+            ],
+            "rep": [
+              2896
+            ],
+            "t": 930
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                2899
+              ],
+              [
+                2900
+              ]
+            ],
+            "rep": [
+              2896
+            ],
+            "t": 931
+          },
+          {
+            "cond": [
+              1,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                2901
+              ]
+            ],
+            "t": 932
+          }
+        ],
+        "id": "kroot-farstalkers",
+        "kws": [
+          "Farstalkers",
+          "Grenades",
+          "Infantry",
+          "Kroot"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Kroot Kill-broker"
+          },
+          {
+            "n": "Kroot Farstalker"
+          },
+          {
+            "n": "Kroot Hound"
+          }
+        ],
+        "name": "Kroot Farstalkers",
+        "sid": "11a66085-dcdc-4661-92c7-1a990c84a937",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ],
+              [
+                2,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              12,
+              12
+            ],
+            "pts": 75
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2902,
+                1
+              ],
+              [
+                2903,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "kroot-flesh-shaper",
+        "kws": [
+          "Character",
+          "Flesh Shaper",
+          "Infantry",
+          "Kroot",
+          "Shaper"
+        ],
+        "leads": [
+          {
+            "to": "kroot-carnivores",
+            "type": "leader"
+          },
+          {
+            "to": "kroot-farstalkers",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Kroot Flesh Shaper",
+        "sid": "0cf22d05-e24f-4aa2-bd4a-3550dfb10fd9",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 45
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2895,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "id": "kroot-hounds",
+        "kws": [
+          "Beasts",
+          "Hounds",
+          "Kroot"
+        ],
+        "linked": 1,
+        "name": "Kroot Hounds",
+        "sid": "696973e6-89f6-46b2-82a1-38b697e6bc4f",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 45
+          },
+          {
+            "per": [
+              6,
+              10
+            ],
+            "pts": 65
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2904,
+                1
+              ],
+              [
+                2905,
+                1
+              ],
+              [
+                728,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    2906,
+                    1
+                  ],
+                  [
+                    2907,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              2905
+            ],
+            "t": 933
+          }
+        ],
+        "id": "kroot-lone-spear",
+        "kws": [
+          "Character",
+          "Kroot",
+          "Lone-spear",
+          "Mounted"
+        ],
+        "linked": 1,
+        "name": "Kroot Lone-spear",
+        "sid": "0fafddf0-16d4-4bab-86e1-849d54c5c027",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2891,
+                1
+              ],
+              [
+                2914,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "kroot-trail-shaper",
+        "kws": [
+          "Character",
+          "Infantry",
+          "Kroot",
+          "Shaper",
+          "Trail Shaper"
+        ],
+        "leads": [
+          {
+            "to": "kroot-carnivores",
+            "type": "leader"
+          },
+          {
+            "to": "kroot-farstalkers",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Kroot Trail Shaper",
+        "sid": "3690aac3-832d-49c0-ac08-16e72d868aec",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 50
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2892,
+                1
+              ],
+              [
+                2914,
+                1
+              ],
+              [
+                2915,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2916
+              ]
+            ],
+            "rep": [
+              2915
+            ],
+            "t": 935
+          }
+        ],
+        "id": "kroot-war-shaper",
+        "kws": [
+          "Character",
+          "Infantry",
+          "Kroot",
+          "Shaper",
+          "War Shaper"
+        ],
+        "leads": [
+          {
+            "to": "kroot-carnivores",
+            "type": "leader"
+          },
+          {
+            "to": "kroot-farstalkers",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Kroot War Shaper",
+        "sid": "6be76d0c-e577-4679-bf8b-51b48e1d3149",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2908,
+                1
+              ],
+              [
+                2909,
+                1
+              ],
+              [
+                2910,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "id": "krootox-rampagers",
+        "kws": [
+          "Grenades",
+          "Kroot",
+          "Krootox Rampagers",
+          "Mounted"
+        ],
+        "linked": 1,
+        "name": "Krootox Rampagers",
+        "sid": "d308faa8-bf4e-4663-8979-25fa07a09e38",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 85
+          },
+          {
+            "per": [
+              4,
+              6
+            ],
+            "pts": 170
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1861,
+                1
+              ],
+              [
+                2911,
+                1
+              ],
+              [
+                2912,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                2913
+              ]
+            ],
+            "rep": [
+              2912
+            ],
+            "t": 934
+          }
+        ],
+        "id": "krootox-riders",
+        "kws": [
+          "Grenades",
+          "Kroot",
+          "Krootox Riders",
+          "Mounted"
+        ],
+        "linked": 1,
+        "name": "Krootox Riders",
+        "sid": "21bd3848-75c3-456d-8e13-31629e07ae35",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 45
+          },
+          {
+            "per": [
+              2,
+              2
+            ],
+            "pts": 60
+          },
+          {
+            "per": [
+              3,
+              3
+            ],
+            "pts": 90
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2873,
+                2
+              ],
+              [
+                2888,
+                1
+              ],
+              [
+                598,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2890
+              ]
+            ],
+            "rep": [
+              2888
+            ],
+            "t": 926
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    2874,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    2876,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              2873
+            ],
+            "t": 1195
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                2,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2837
+              ]
+            ],
+            "t": 921
+          }
+        ],
+        "id": "longstrike",
+        "kws": [
+          "Vehicle",
+          "Fly",
+          "Character",
+          "Epic Hero",
+          "Longstrike"
+        ],
+        "linked": 1,
+        "name": "Longstrike",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 140
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2917,
+                1
+              ],
+              [
+                2837,
+                10
+              ],
+              [
+                2846,
+                2
+              ],
+              [
+                2918,
+                2
+              ],
+              [
+                2919,
+                2
+              ],
+              [
+                2890,
+                6
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "id": "manta",
+        "kws": [
+          "Aircraft",
+          "Fly",
+          "Frame",
+          "Manta",
+          "Markerlight",
+          "Titanic",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Manta",
+        "sid": "454eb05f-4f2c-425f-b0f8-e4af8264efff",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 2100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3444,
+                2
+              ],
+              [
+                2868,
+                1
+              ],
+              [
+                598,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "orca-dropship",
+        "kws": [
+          "Vehicle",
+          "Aircraft",
+          "Fly",
+          "Titanic",
+          "Transport",
+          "Orca Dropship"
+        ],
+        "linked": 1,
+        "name": "Orca Dropship",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 275
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                2827,
+                1
+              ],
+              [
+                2920,
+                1
+              ],
+              [
+                2828,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                2828,
+                1
+              ],
+              [
+                2920,
+                1
+              ],
+              [
+                2827,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2921
+              ],
+              [
+                2922
+              ],
+              [
+                2923
+              ]
+            ],
+            "t": 936
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2832
+              ],
+              [
+                2833
+              ],
+              [
+                2834
+              ]
+            ],
+            "t": 937
+          },
+          {
+            "in": "checkbox",
+            "keep": [
+              2920
+            ],
+            "m": 0,
+            "o": [
+              [
+                2924
+              ]
+            ],
+            "t": 938
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                3
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                2925,
+                5
+              ],
+              [
+                2926
+              ]
+            ],
+            "rep": [
+              2920
+            ],
+            "t": 939
+          },
+          {
+            "in": "checkbox",
+            "keep": [
+              2920
+            ],
+            "m": 1,
+            "o": [
+              [
+                2924
+              ]
+            ],
+            "t": 938
+          }
+        ],
+        "id": "pathfinder-team",
+        "kws": [
+          "Grenades",
+          "Infantry",
+          "Markerlight",
+          "Pathfinder Team"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Pathfinder Shas’ui"
+          },
+          {
+            "n": "Pathfinder"
+          }
+        ],
+        "name": "Pathfinder Team",
+        "pools": [
+          {
+            "g": [
+              2,
+              4
+            ],
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ]
+          }
+        ],
+        "sid": "11f0d756-2b02-4fcd-bbeb-204919a4f533",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 85
+          }
+        ],
+        "stands": {
+          "2832": [
+            "Twin pulse carbine"
+          ],
+          "2923": [
+            "Drone burst cannon"
+          ]
+        },
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2873,
+                2
+              ],
+              [
+                2927,
+                1
+              ],
+              [
+                2928,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                2929
+              ]
+            ],
+            "rep": [
+              2928
+            ],
+            "t": 940
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                6
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2837
+              ]
+            ],
+            "t": 941
+          }
+        ],
+        "id": "piranhas",
+        "kws": [
+          "Fly",
+          "Frame",
+          "Piranhas",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Piranhas",
+        "sid": "d1fe5e7d-f5c8-449d-9714-958112c27af6",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 65
+          },
+          {
+            "per": [
+              2,
+              2
+            ],
+            "pts": 110
+          },
+          {
+            "per": [
+              3,
+              3
+            ],
+            "pts": 165
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3453,
+                2
+              ],
+              [
+                2851,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                2,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                3454
+              ]
+            ],
+            "t": 945
+          }
+        ],
+        "id": "rvarna-battlesuit",
+        "kws": [
+          "Vehicle",
+          "Walker",
+          "Fly",
+          "Battlesuit",
+          "R’varna"
+        ],
+        "linked": 1,
+        "name": "R’varna Battlesuit",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 200
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2874,
+                1
+              ],
+              [
+                2837,
+                2
+              ],
+              [
+                2930,
+                1
+              ],
+              [
+                2875,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2846
+              ]
+            ],
+            "rep": [
+              2874
+            ],
+            "t": 942
+          }
+        ],
+        "id": "razorshark-strike-fighter",
+        "kws": [
+          "Aircraft",
+          "Fly",
+          "Razorshark Strike Fighter",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Razorshark Strike Fighter",
+        "sid": "3c609621-eaec-44e7-875f-6d5262e1d439",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 160
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3451,
+                1
+              ],
+              [
+                3452,
+                2
+              ],
+              [
+                390,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "remora-stealth-drones",
+        "kws": [
+          "Vehicle",
+          "Fly",
+          "Markerlight",
+          "Remora Stealth Drones"
+        ],
+        "linked": 1,
+        "name": "Remora Stealth Drones",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              2,
+              2
+            ],
+            "pts": 160
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            []
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "remote-sensor-tower",
+        "kws": [
+          "Fortification",
+          "Frame",
+          "Remote Sensor Tower"
+        ],
+        "linked": 1,
+        "name": "Remote Sensor Tower",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 50
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2838,
+                1
+              ],
+              [
+                2931,
+                1
+              ],
+              [
+                2932,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2933,
+                25
+              ]
+            ],
+            "rep": [
+              2932
+            ],
+            "t": 943
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2885
+              ],
+              [
+                2934
+              ]
+            ],
+            "rep": [
+              2838
+            ],
+            "t": 944
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2841
+              ]
+            ],
+            "t": 945
+          }
+        ],
+        "id": "riptide-battlesuit",
+        "kws": [
+          "Battlesuit",
+          "Fly",
+          "Riptide",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Riptide Battlesuit",
+        "sid": "3dbc2efc-6cfd-4636-8502-d31b190b83ba",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 190
+          }
+        ],
+        "stands": {
+          "2841": [
+            "Missile pod"
+          ]
+        },
+        "step": {
+          "at": 3,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3455,
+                1
+              ],
+              [
+                2851,
+                1
+              ],
+              [
+                3456,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "id": "shaso-ralai",
+        "kws": [
+          "Vehicle",
+          "Walker",
+          "Fly",
+          "Character",
+          "Markerlight",
+          "Epic Hero",
+          "Battlesuit",
+          "Shas’o R’alai"
+        ],
+        "leads": [
+          {
+            "to": "xv9-hazard-battlesuits",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Shas’o R’alai",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2875,
+                1
+              ],
+              [
+                2873,
+                2
+              ],
+              [
+                2935,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    2874,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    2876,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              2873
+            ],
+            "t": 927
+          }
+        ],
+        "id": "sky-ray-gunship",
+        "kws": [
+          "Fly",
+          "Frame",
+          "Markerlight",
+          "Sky Ray Gunship",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Sky Ray Gunship",
+        "sid": "f02f6058-ab7b-490c-9aa3-4fe193f93a5b",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 140
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                2844,
+                1
+              ],
+              [
+                2936,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                2936,
+                1
+              ],
+              [
+                2844,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2832
+              ]
+            ],
+            "t": 946
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2833
+              ]
+            ],
+            "t": 947
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2828
+              ]
+            ],
+            "t": 948
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                2937
+              ]
+            ],
+            "t": 949
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2871
+              ]
+            ],
+            "rep": [
+              2844
+            ],
+            "t": 950
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                2871
+              ]
+            ],
+            "rep": [
+              2844
+            ],
+            "t": 950
+          }
+        ],
+        "id": "stealth-battlesuits",
+        "kws": [
+          "Battlesuit",
+          "Fly",
+          "Grenades",
+          "Infantry",
+          "Markerlight",
+          "Stealth"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Stealth Shas’vre"
+          },
+          {
+            "n": "Stealth Shas’ui"
+          }
+        ],
+        "name": "Stealth Battlesuits",
+        "pools": [
+          {
+            "g": [
+              4,
+              5
+            ],
+            "lim": [
+              [
+                0,
+                2
+              ]
+            ]
+          }
+        ],
+        "sid": "eb4c3561-28e7-4062-b7bb-fd312958d7d5",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 100
+          }
+        ],
+        "stands": {
+          "2832": [
+            "Twin pulse carbine"
+          ]
+        },
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2882,
+                1
+              ],
+              [
+                2938,
+                1
+              ],
+              [
+                2939,
+                1
+              ],
+              [
+                2940,
+                1
+              ],
+              [
+                2941,
+                1
+              ],
+              [
+                2942,
+                2
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2943
+              ]
+            ],
+            "rep": [
+              2938
+            ],
+            "t": 951
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2944
+              ],
+              [
+                2945
+              ]
+            ],
+            "rep": [
+              2882
+            ],
+            "t": 924
+          }
+        ],
+        "id": "stormsurge",
+        "kws": [
+          "Stormsurge",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Stormsurge",
+        "sid": "2bc6cc4e-6779-49e1-bb9e-a8c4dbc04b65",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 375
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 25
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2828,
+                1
+              ],
+              [
+                2827,
+                1
+              ],
+              [
+                2946,
+                1
+              ],
+              [
+                2830,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                2828,
+                1
+              ],
+              [
+                2827,
+                1
+              ],
+              [
+                2946,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2831
+              ],
+              [
+                2832
+              ],
+              [
+                2833
+              ],
+              [
+                2834
+              ]
+            ],
+            "od": {
+              "0": 1
+            },
+            "t": 952
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                2920
+              ]
+            ],
+            "rep": [
+              2946
+            ],
+            "t": 953
+          }
+        ],
+        "id": "strike-team",
+        "kws": [
+          "Battleline",
+          "Fire Warrior",
+          "Grenades",
+          "Infantry",
+          "Markerlight",
+          "Strike Team"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Fire Warrior Shas’ui"
+          },
+          {
+            "n": "Fire Warrior"
+          }
+        ],
+        "name": "Strike Team",
+        "sid": "32863243-9242-4adc-badd-5efda0d840eb",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 70
+          }
+        ],
+        "stands": {
+          "2832": [
+            "Twin pulse carbine"
+          ]
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2837,
+                2
+              ],
+              [
+                2875,
+                1
+              ],
+              [
+                2868,
+                1
+              ],
+              [
+                2947,
+                2
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2948
+              ]
+            ],
+            "rep": [
+              2868
+            ],
+            "t": 954
+          }
+        ],
+        "id": "sun-shark-bomber",
+        "kws": [
+          "Aircraft",
+          "Fly",
+          "Sun Shark Bomber",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Sun Shark Bomber",
+        "sid": "83f108a4-d64d-45e3-8bc0-288c98bc58fb",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 150
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2956,
+                3
+              ],
+              [
+                2876,
+                4
+              ],
+              [
+                2957,
+                1
+              ],
+              [
+                2958,
+                1
+              ],
+              [
+                2844,
+                4
+              ],
+              [
+                2959,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2957
+              ]
+            ],
+            "rep": [
+              2958
+            ],
+            "t": 955
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2958
+              ]
+            ],
+            "rep": [
+              2957
+            ],
+            "t": 956
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    2960,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    2961,
+                    1
+                  ],
+                  [
+                    2962,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              2956
+            ],
+            "t": 957
+          }
+        ],
+        "id": "taunar-supremacy-armour",
+        "kws": [
+          "Frame",
+          "Ta’unar Supremacy Armour",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Ta’unar Supremacy Armour",
+        "sid": "984759d7-81e4-42ab-9dff-3319fbab2d3d",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 790
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 100
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2946,
+                2
+              ],
+              [
+                2879,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "tetras",
+        "kws": [
+          "Vehicle",
+          "Fly",
+          "Markerlight",
+          "Tetras"
+        ],
+        "linked": 1,
+        "name": "Tetras",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              2,
+              2
+            ],
+            "pts": 80
+          },
+          {
+            "per": [
+              3,
+              4
+            ],
+            "pts": 160
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2949,
+                1
+              ],
+              [
+                2950,
+                1
+              ],
+              [
+                2951,
+                1
+              ],
+              [
+                2952,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                2953,
+                1
+              ],
+              [
+                2950,
+                1
+              ],
+              [
+                2951,
+                1
+              ],
+              [
+                2952,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "the-twin-lance",
+        "kws": [
+          "Battlesuit",
+          "Character",
+          "Epic Hero",
+          "Fly",
+          "The Twin Lance",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Ri’Lantar"
+          },
+          {
+            "n": "Ri’Locai"
+          }
+        ],
+        "name": "The Twin Lance",
+        "sid": "8fdcf599-8c54-4515-a709-46d293cca0b8",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              2,
+              2
+            ],
+            "pts": 240
+          }
+        ],
+        "stands": {
+          "2951": [
+            "Twin pulse blaster"
+          ]
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2954,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "id": "tidewall-droneport",
+        "kws": [
+          "Fly",
+          "Fortification",
+          "Frame",
+          "Tidewall Droneport",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Tidewall Droneport",
+        "sid": "9924eabb-ca58-4b03-a72f-a86a2012f4ce",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 85
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2955,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "id": "tidewall-gunrig",
+        "kws": [
+          "Fly",
+          "Fortification",
+          "Frame",
+          "Tidewall Gunrig",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Tidewall Gunrig",
+        "sid": "fbf3ead2-e87a-420d-8726-760eb60c944e",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 90
+          }
+        ]
+      },
+      {
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "id": "tidewall-shieldline",
+        "kws": [
+          "Fly",
+          "Fortification",
+          "Frame",
+          "Tidewall Shieldline",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Tidewall Defence Platform"
+          },
+          {
+            "n": "Tidewall Shieldline"
+          }
+        ],
+        "name": "Tidewall Shieldline",
+        "sid": "01267d6a-45bf-4723-8872-8849954e32e0",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 85
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "per": [
+              2,
+              2
+            ],
+            "pts": 105
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2968,
+                1
+              ],
+              [
+                2890,
+                2
+              ],
+              [
+                2844,
+                2
+              ],
+              [
+                2846,
+                2
+              ],
+              [
+                2845,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    2969,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              2844
+            ],
+            "t": 909
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    2970,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    2971,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              2890
+            ],
+            "t": 960
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                6
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2837
+              ]
+            ],
+            "t": 908
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    2972,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              2968
+            ],
+            "t": 961
+          }
+        ],
+        "id": "tiger-shark",
+        "kws": [
+          "Aircraft",
+          "Fly",
+          "Tiger Shark",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Tiger Shark",
+        "sid": "607500c7-beb1-48fa-943d-e6cf645137d2",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 395
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 50
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2869,
+                2
+              ],
+              [
+                598,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    2871,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    2868,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    2926,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              2869
+            ],
+            "t": 1196
+          }
+        ],
+        "id": "tx42-piranha",
+        "kws": [
+          "Vehicle",
+          "Fly",
+          "TX42 Piranha"
+        ],
+        "linked": 1,
+        "name": "TX42 Piranha",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2963,
+                1
+              ],
+              [
+                2964,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                2963,
+                1
+              ],
+              [
+                2964,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                10,
+                1
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2965
+              ]
+            ],
+            "t": 958
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                10,
+                3,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                2861
+              ],
+              [
+                2966
+              ],
+              [
+                2967
+              ]
+            ],
+            "rep": [
+              2964
+            ],
+            "t": 959
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "vespid-stingwings",
+        "kws": [
+          "Fly",
+          "Infantry",
+          "Vespid Stingwings"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Vespid Strain Leader"
+          },
+          {
+            "n": "Vespid Stingwing"
+          }
+        ],
+        "name": "Vespid Stingwings",
+        "sid": "597b7e1e-6e9b-4921-9089-bde707b16674",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 70
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 115
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3457,
+                1
+              ],
+              [
+                3458,
+                1
+              ],
+              [
+                2851,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                3459
+              ],
+              [
+                3458
+              ]
+            ],
+            "rep": [
+              3457
+            ],
+            "t": 1197
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                3457
+              ],
+              [
+                3459
+              ]
+            ],
+            "rep": [
+              3458
+            ],
+            "t": 1198
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                2887
+              ],
+              [
+                2860
+              ],
+              [
+                2840
+              ]
+            ],
+            "t": 1199
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2832
+              ],
+              [
+                2833
+              ],
+              [
+                2834
+              ]
+            ],
+            "t": 1200
+          }
+        ],
+        "id": "xv9-hazard-battlesuits",
+        "kws": [
+          "Vehicle",
+          "Walker",
+          "Fly",
+          "Battlesuit",
+          "XV9 Hazard"
+        ],
+        "linked": 1,
+        "name": "XV9 Hazard Battlesuits",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 55
+          },
+          {
+            "per": [
+              2,
+              2
+            ],
+            "pts": 110
+          }
+        ],
+        "stands": {
+          "2832": [
+            "Twin pulse carbine"
+          ]
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3460,
+                1
+              ],
+              [
+                3461,
+                1
+              ],
+              [
+                3462,
+                1
+              ],
+              [
+                2851,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                2,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                3454
+              ]
+            ],
+            "t": 945
+          }
+        ],
+        "id": "yvahra-battlesuit",
+        "kws": [
+          "Vehicle",
+          "Walker",
+          "Fly",
+          "Battlesuit",
+          "Y’vahra"
+        ],
+        "linked": 1,
+        "name": "Y’vahra Battlesuit",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 210
+          }
+        ]
+      }
+    ]
+  }
+}

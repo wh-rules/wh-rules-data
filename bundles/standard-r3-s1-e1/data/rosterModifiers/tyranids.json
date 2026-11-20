@@ -1,0 +1,2373 @@
+{
+  "default": {
+    "entries": [
+      {
+        "det": null,
+        "effects": [],
+        "hash": "1b9e55bb",
+        "kind": "ability",
+        "name": "Barbed Hierodule: Overgrown Barbs",
+        "ref": {
+          "kind": "ability",
+          "unit": "barbed-hierodule"
+        },
+        "reviewed": true,
+        "sid": "pack:barbed-hierodule:overgrown-barbs",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "eb73f8bb",
+        "kind": "ability",
+        "name": "Barbgaunts: Disruption Bombardment",
+        "ref": {
+          "kind": "ability",
+          "unit": "barbgaunts"
+        },
+        "reviewed": true,
+        "sid": "8e60e6db-0d1d-4f3a-b1e5-596748c1315a:barbgaunts",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "51afc583",
+        "kind": "ability",
+        "name": "Broodlord: Hypnotic Gaze",
+        "ref": {
+          "kind": "ability",
+          "unit": "broodlord"
+        },
+        "reviewed": true,
+        "sid": "e5b0864d-8537-455c-bcc2-c1c93c037037:broodlord",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "DEVASTATING WOUNDS",
+            "when": null
+          }
+        ],
+        "hash": "0b72b958",
+        "kind": "ability",
+        "name": "Broodlord: Vicious Insight",
+        "ref": {
+          "kind": "ability",
+          "unit": "broodlord"
+        },
+        "reviewed": true,
+        "sid": "29d995ea-bdc6-4d3b-8522-c44fe075cbf4:broodlord",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "6050114a",
+        "kind": "ability",
+        "name": "Deathleaper: Fear of the Unseen",
+        "ref": {
+          "kind": "ability",
+          "unit": "deathleaper"
+        },
+        "reviewed": true,
+        "sid": "811b5896-9f7a-4e94-b76b-fedee0d1012d:deathleaper",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "used-frenzied-metabolism"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "for the phase, after using Frenzied Metabolism",
+              "ru": "на фазу, после Frenzied Metabolism"
+            }
+          }
+        ],
+        "hash": "6f28d8bd",
+        "kind": "ability",
+        "name": "Harridan: Frenzied Metabolism",
+        "ref": {
+          "kind": "ability",
+          "unit": "harridan"
+        },
+        "reviewed": true,
+        "sid": "c5b81258-aab6-43c4-aa89-38de9e2b7369:harridan",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a Battle-shocked unit",
+              "ru": "по Battle-shocked отряду"
+            }
+          }
+        ],
+        "hash": "7e324fcd",
+        "kind": "ability",
+        "name": "Hierophant: Apex-beast",
+        "ref": {
+          "kind": "ability",
+          "unit": "hierophant"
+        },
+        "reviewed": true,
+        "sid": "062d7126-5b04-4fa6-842a-76c2e8342ad4:hierophant",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a unit that can FLY",
+              "ru": "по отряду с FLY"
+            }
+          }
+        ],
+        "hash": "205860ae",
+        "kind": "ability",
+        "name": "Hive Crone: Airborne Predator",
+        "ref": {
+          "kind": "ability",
+          "unit": "hive-crone"
+        },
+        "reviewed": true,
+        "sid": "82f6447f-7c85-4d0f-bcb7-d2a7b50b3ae2:hive-crone",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "aura",
+            "value": "ASSAULT",
+            "when": null
+          },
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "aura",
+            "value": "LETHAL HITS",
+            "when": null
+          }
+        ],
+        "hash": "c3c5f43f",
+        "kind": "ability",
+        "name": "Hive Tyrant: Onslaught",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "TYRANIDS"
+              ]
+            }
+          ],
+          "unit": "hive-tyrant"
+        },
+        "reviewed": true,
+        "sid": "6f643de5-2411-4317-b8a8-ae21dc77a54f:hive-tyrant",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          },
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "eea1dfa0",
+        "kind": "ability",
+        "name": "Hyperadapted Raveners: Alpha Invader",
+        "ref": {
+          "kind": "ability",
+          "unit": "hyperadapted-raveners"
+        },
+        "reviewed": true,
+        "sid": "effbe0ed-d0b2-45d4-9beb-f22ccb9541d1:hyperadapted-raveners",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "prey-sustained"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while SUSTAINED HITS 1 is the one selected for this fight",
+              "ru": "пока для этого боя выбрано SUSTAINED HITS 1"
+            }
+          },
+          {
+            "cond": [
+              "prey-lance"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LANCE",
+            "when": {
+              "en": "while LANCE is the one selected for this fight",
+              "ru": "пока для этого боя выбрано LANCE"
+            }
+          },
+          {
+            "cond": [
+              "prey-lethal"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while LETHAL HITS is the one selected for this fight",
+              "ru": "пока для этого боя выбрано LETHAL HITS"
+            }
+          },
+          {
+            "cond": [
+              "prey-sustained"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while SUSTAINED HITS 1 is the one selected for this fight",
+              "ru": "пока для этого боя выбрано SUSTAINED HITS 1"
+            }
+          },
+          {
+            "cond": [
+              "prey-lance"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "LANCE",
+            "when": {
+              "en": "while LANCE is the one selected for this fight",
+              "ru": "пока для этого боя выбрано LANCE"
+            }
+          },
+          {
+            "cond": [
+              "prey-lethal"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while LETHAL HITS is the one selected for this fight",
+              "ru": "пока для этого боя выбрано LETHAL HITS"
+            }
+          }
+        ],
+        "hash": "c94c298b",
+        "kind": "ability",
+        "name": "Malanthrope: Prey Adaptation",
+        "ref": {
+          "kind": "ability",
+          "unit": "malanthrope"
+        },
+        "reviewed": true,
+        "sid": "pack:malanthrope:prey-adaptation",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "b6cebd32",
+        "kind": "ability",
+        "name": "Maleceptor: Encephalic Diffusion",
+        "ref": {
+          "kind": "ability",
+          "unit": "maleceptor"
+        },
+        "reviewed": true,
+        "sid": "12c34c54-511c-4cd4-b033-0b3294eb1ad5:maleceptor",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Synapse",
+            "when": {
+              "en": "while within Synapse Range of another friendly TYRANIDS unit",
+              "ru": "пока в Synapse Range другого дружественного отряда TYRANIDS"
+            }
+          }
+        ],
+        "hash": "32de5345",
+        "kind": "ability",
+        "name": "Neurogaunts: Neurocytes",
+        "ref": {
+          "kind": "ability",
+          "unit": "neurogaunts"
+        },
+        "reviewed": true,
+        "sid": "474971c2-032e-4663-89c0-43d3bc98f7ed:neurogaunts",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "84cc5836",
+        "kind": "ability",
+        "name": "Neurolictor: Psychological Saboteur",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [
+                "TYRANIDS"
+              ],
+              "targets": [
+                "TYRANIDS"
+              ]
+            }
+          ],
+          "unit": "neurolictor"
+        },
+        "reviewed": true,
+        "sid": "56b79d30-49bc-4d2f-899e-8fdb903b79c7:neurolictor",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "target": "unit",
+            "value": 1,
+            "when": {
+              "en": "if the target is Battle-shocked",
+              "ru": "если цель Battle-shocked"
+            }
+          }
+        ],
+        "hash": "c383be03",
+        "kind": "ability",
+        "name": "Neurotyrant: Node Lash",
+        "ref": {
+          "kind": "ability",
+          "unit": "neurotyrant"
+        },
+        "reviewed": true,
+        "sid": "31ef5be8-4d51-474f-9d3c-4751bc40009c:neurotyrant",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+",
+            "when": {
+              "en": "until the end of the battle, while within range of the objective marker Singular Purpose selected",
+              "ru": "до конца битвы, пока в зоне objective marker, выбранного способностью Singular Purpose"
+            }
+          }
+        ],
+        "hash": "cea69fa9",
+        "kind": "ability",
+        "name": "Norn Assimilator: Singular Purpose",
+        "ref": {
+          "kind": "ability",
+          "unit": "norn-assimilator"
+        },
+        "reviewed": true,
+        "sid": "88a02083-c150-45cc-8e5b-71bd828c6c55:norn-assimilator",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+",
+            "when": {
+              "en": "until the end of the battle, while within range of the objective marker Singular Purpose selected",
+              "ru": "до конца битвы, пока в зоне objective marker, выбранного способностью Singular Purpose"
+            }
+          }
+        ],
+        "hash": "cea69fa9",
+        "kind": "ability",
+        "name": "Norn Emissary: Singular Purpose",
+        "ref": {
+          "kind": "ability",
+          "unit": "norn-emissary"
+        },
+        "reviewed": true,
+        "sid": "88a02083-c150-45cc-8e5b-71bd828c6c55:norn-emissary",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+ (vs mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "52db8bfd",
+        "kind": "ability",
+        "name": "Norn Emissary: Unnatural Resilience",
+        "ref": {
+          "kind": "ability",
+          "unit": "norn-emissary"
+        },
+        "reviewed": true,
+        "sid": "c7285376-ad91-4341-81ca-ec7cf356e639:norn-emissary",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "ebfcffb6",
+        "kind": "ability",
+        "name": "Psychophage: Bio-stimulus",
+        "ref": {
+          "kind": "ability",
+          "unit": "psychophage"
+        },
+        "reviewed": true,
+        "sid": "73a70679-e107-49b7-8667-25145e5cbe27:psychophage",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a target below its Starting Strength",
+              "ru": "по цели ниже Starting Strength"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against a target that is Below Half-strength",
+              "ru": "по цели Below Half-strength"
+            }
+          }
+        ],
+        "hash": "7a3f82bb",
+        "kind": "ability",
+        "name": "Psychophage: Feeding Frenzy",
+        "ref": {
+          "kind": "ability",
+          "unit": "psychophage"
+        },
+        "reviewed": true,
+        "sid": "4c3112f4-3120-4d83-8681-1567dd43d530:psychophage",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "c06b50c6",
+        "kind": "ability",
+        "name": "Ripper Swarms: Chitinous Horrors",
+        "ref": {
+          "kind": "ability",
+          "unit": "ripper-swarms"
+        },
+        "reviewed": true,
+        "sid": "4d049409-1d04-4922-a1f0-de31624c4ca1:ripper-swarms",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "bffde138",
+        "kind": "ability",
+        "name": "Sky-slasher Swarms: Chitinous Horrors",
+        "ref": {
+          "kind": "ability",
+          "unit": "sky-slasher-swarms"
+        },
+        "reviewed": true,
+        "sid": "pack:sky-slasher-swarms:chitinous-horrors",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "aura",
+            "value": "LETHAL HITS",
+            "when": null
+          }
+        ],
+        "hash": "94e34790",
+        "kind": "ability",
+        "name": "Tervigon: Brood Progenitor",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "TERMAGANTS"
+              ]
+            }
+          ],
+          "unit": "tervigon"
+        },
+        "reviewed": true,
+        "sid": "289b90e7-c0db-414a-b91f-c8efeee56368:tervigon",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          },
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "f1bef6b4",
+        "kind": "ability",
+        "name": "Tyranid Prime with Lash Whip: Alpha Warrior",
+        "ref": {
+          "kind": "ability",
+          "unit": "tyranid-prime-with-lash-whip"
+        },
+        "reviewed": true,
+        "sid": "4a6ac461-9519-49b5-82f0-d9730df70ec7:tyranid-prime-with-lash-whip",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "adaptive-strength"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "once per turn, if this option is chosen",
+              "ru": "раз за ход, если выбран этот вариант"
+            }
+          },
+          {
+            "cond": [
+              "adaptive-toughness"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "value": 1,
+            "when": {
+              "en": "once per turn, if this option is chosen instead",
+              "ru": "раз за ход, если выбран другой вариант"
+            }
+          }
+        ],
+        "hash": "be824182",
+        "kind": "ability",
+        "name": "Tyranid Warriors with Melee Bio-weapons: Adaptive Instincts (Once per turn, per unit)",
+        "ref": {
+          "kind": "ability",
+          "unit": "tyranid-warriors-with-melee-bio-weapons"
+        },
+        "reviewed": true,
+        "sid": "15dc61c6-ab64-417c-a248-fc994a04c43d:tyranid-warriors-with-melee-bio-weapons",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "c39edff0",
+        "kind": "ability",
+        "name": "Tyrannofex: Resilient Organism",
+        "ref": {
+          "kind": "ability",
+          "unit": "tyrannofex"
+        },
+        "reviewed": true,
+        "sid": "1d2e25ad-ec5a-4964-8809-bf98f171af65:tyrannofex",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "leader",
+            "value": "Feel No Pain 5+",
+            "when": null
+          }
+        ],
+        "hash": "0a8aee18",
+        "kind": "ability",
+        "name": "Tyrant Guard: Guardian Organism",
+        "ref": {
+          "kind": "ability",
+          "unit": "tyrant-guard"
+        },
+        "reviewed": true,
+        "sid": "7a889eea-b714-4644-84d8-3e99dcf8245b:tyrant-guard",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "3b43c984",
+        "kind": "ability",
+        "name": "Vardenghast Swarm Barbgaunts: Disruption Bombardment",
+        "ref": {
+          "kind": "ability",
+          "unit": "vardenghast-swarm-barbgaunts"
+        },
+        "reviewed": true,
+        "sid": "fbb597fc-642e-4616-bb1c-441dc9eaad5a:vardenghast-swarm-barbgaunts",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "aura",
+            "value": "Feel No Pain 6+",
+            "when": null
+          }
+        ],
+        "hash": "3f2d7792",
+        "kind": "ability",
+        "name": "Vardenghast Swarm Psychophage: Bio-stimulus (Aura)",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "TYRANIDS"
+              ]
+            }
+          ],
+          "unit": "vardenghast-swarm-psychophage"
+        },
+        "reviewed": true,
+        "sid": "d6188f39-6a42-4c2d-9d21-f2df003aa3c8:vardenghast-swarm-psychophage",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a unit below starting strength",
+              "ru": "против отряда ниже стартовой численности"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against a unit below half-strength",
+              "ru": "против отряда ниже половины численности"
+            }
+          }
+        ],
+        "hash": "3575d79c",
+        "kind": "ability",
+        "name": "Vardenghast Swarm Psychophage: Feeding Frenzy",
+        "ref": {
+          "kind": "ability",
+          "unit": "vardenghast-swarm-psychophage"
+        },
+        "reviewed": true,
+        "sid": "53aea933-cb25-4dd8-a387-0afe1a127555:vardenghast-swarm-psychophage",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "aura",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "ecdaf1f7",
+        "kind": "ability",
+        "name": "Venomthropes: Foul Spores",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "TYRANIDS"
+              ]
+            }
+          ],
+          "unit": "venomthropes"
+        },
+        "reviewed": true,
+        "sid": "f940edde-72b8-4ff5-91db-d44d85368c1e:venomthropes",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "fed191e2",
+        "kind": "ability",
+        "name": "Winged Hive Tyrant: Paroxysm",
+        "ref": {
+          "kind": "ability",
+          "unit": "winged-hive-tyrant"
+        },
+        "reviewed": true,
+        "sid": "eb6947dc-3f61-4800-8fb2-bed18e5f1f1e:winged-hive-tyrant",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "3154cfe3",
+        "kind": "ability",
+        "name": "Winged Tyranid Prime: Alpha Warrior",
+        "ref": {
+          "kind": "ability",
+          "unit": "winged-tyranid-prime"
+        },
+        "reviewed": true,
+        "sid": "aff2ee6c-b954-4ece-8e66-94bde66f814c:winged-tyranid-prime",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "aura",
+            "value": "6+",
+            "when": null
+          }
+        ],
+        "hash": "1dd47c6d",
+        "kind": "ability",
+        "name": "Zoanthropes: Warp Field",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "TYRANIDS"
+              ]
+            }
+          ],
+          "unit": "zoanthropes"
+        },
+        "reviewed": true,
+        "sid": "68090d9e-d603-4069-97f1-a23b8e6ff93f:zoanthropes",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "4f633c25",
+        "kind": "allegiance",
+        "name": "Subterranean Assault Keywords: Character",
+        "note": "the keyword this grants is applied by the roster layer itself (rosterEngine's allegKeyword feeds DatasheetCard's grantedKeywords), so recording it here too would show it twice; no printed number changes",
+        "ref": {
+          "g": "subterranean-assault-keywords",
+          "gid": "15b5271c",
+          "kind": "allegiance",
+          "opt": "Character"
+        },
+        "reviewed": true,
+        "sid": "3f3be044-118e-4050-9d01-a25cefc64f4c",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "per melee attack, while the unit is within Synapse Range of your army",
+              "ru": "за атаку ближнего боя, пока отряд в радиусе синапса вашей армии"
+            }
+          }
+        ],
+        "hash": "9612d927",
+        "kind": "armyRule",
+        "name": "Synapse",
+        "ref": {
+          "kind": "armyRule"
+        },
+        "reviewed": true,
+        "sid": "240938cb-e469-415e-a2d3-1876d95a75c8",
+        "ver": 925
+      },
+      {
+        "det": "Ambush Predators",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Deep Strike",
+            "when": null
+          }
+        ],
+        "hash": "13bbacff",
+        "kind": "detachmentRule",
+        "name": "Mindhunger",
+        "ref": {
+          "det": "ambush-predators",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "4608d63e-8da1-41d1-91fe-7a2ec2e8b2d0",
+        "ver": 925
+      },
+      {
+        "det": "Crusher Stampede",
+        "effects": [
+          {
+            "cond": [
+              "unit-at-starting-strength",
+              "unit-not-battle-shocked"
+            ],
+            "on": "profile",
+            "op": "add",
+            "scope": 1,
+            "stat": "oc",
+            "value": 2,
+            "when": {
+              "en": "Monster units at their Starting Strength and not Battle-shocked",
+              "ru": "отряды Monster в полной численности и не Battle-shocked"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "while that model’s unit is below its Starting Strength",
+              "ru": "пока отряд ниже Starting Strength"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "while that model’s unit is Below Half-strength",
+              "ru": "пока отряд Below Half-strength"
+            }
+          }
+        ],
+        "hash": "0d06a902",
+        "kind": "detachmentRule",
+        "name": "Enraged Behemoths",
+        "ref": {
+          "det": "crusher-stampede",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "6fdc5e01-fce9-4451-ba94-b2cfe91aff19",
+        "ver": 925
+      },
+      {
+        "det": "Invasion Fleet",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "under the Swarming Instincts Hyper-adaptation, against INFANTRY or SWARM targets",
+              "ru": "при Hyper-adaptation «Swarming Instincts», по целям INFANTRY или SWARM"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "under the Hyper-aggression Hyper-adaptation, against MONSTER or VEHICLE targets",
+              "ru": "при Hyper-adaptation «Hyper-aggression», по целям MONSTER или VEHICLE"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "under the Hive Predators Hyper-adaptation, against CHARACTER targets on a Critical Hit",
+              "ru": "при Hyper-adaptation «Hive Predators», по целям CHARACTER на Critical Hit"
+            }
+          },
+          {
+            "cond": [
+              "hyper-swarming-instincts"
+            ],
+            "op": "state",
+            "text": {
+              "en": "Its attacks that target an INFANTRY or SWARM unit have [SUSTAINED HITS 1]",
+              "ru": "Его атаки по юниту INFANTRY или SWARM имеют [SUSTAINED HITS 1]"
+            },
+            "when": {
+              "en": "the Hyper-adaptation selected at the start of the battle",
+              "ru": "гиперадаптация, выбранная в начале битвы"
+            }
+          },
+          {
+            "cond": [
+              "hyper-aggression"
+            ],
+            "op": "state",
+            "text": {
+              "en": "Its attacks that target a MONSTER or VEHICLE unit have [LETHAL HITS]",
+              "ru": "Его атаки по юниту MONSTER или VEHICLE имеют [LETHAL HITS]"
+            },
+            "when": {
+              "en": "the Hyper-adaptation selected at the start of the battle",
+              "ru": "гиперадаптация, выбранная в начале битвы"
+            }
+          },
+          {
+            "cond": [
+              "hyper-hive-predators"
+            ],
+            "op": "state",
+            "text": {
+              "en": "Its attacks that target a CHARACTER unit have [PRECISION] on a Critical Hit",
+              "ru": "Его атаки по юниту CHARACTER при критическом попадании имеют [PRECISION]"
+            },
+            "when": {
+              "en": "the Hyper-adaptation selected at the start of the battle",
+              "ru": "гиперадаптация, выбранная в начале битвы"
+            }
+          }
+        ],
+        "hash": "a9f0801b",
+        "kind": "detachmentRule",
+        "name": "Hyper-adaptations",
+        "ref": {
+          "det": "invasion-fleet",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "cd0c876b-de60-45f7-a44d-1213924948e0",
+        "ver": 925
+      },
+      {
+        "det": "Synaptic Nexus",
+        "effects": [
+          {
+            "cond": [
+              "synaptic-augmentation",
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "5+",
+            "when": {
+              "en": "while the Synaptic Augmentation Imperative is active and the unit is within Synapse Range",
+              "ru": "пока активен императив Synaptic Augmentation и отряд в радиусе синапса"
+            }
+          },
+          {
+            "cond": [
+              "synaptic-goaded-to-slaughter",
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "while the Goaded to Slaughter Imperative is active and the unit is within Synapse Range",
+              "ru": "пока активен императив Goaded to Slaughter и отряд в радиусе синапса"
+            }
+          },
+          {
+            "cond": [
+              "synaptic-augmentation"
+            ],
+            "op": "state",
+            "text": {
+              "en": "While within Synapse Range of your army: 5+ invulnerable save",
+              "ru": "Пока в пределах Synapse Range вашей армии: неуязвимый спас-бросок 5+"
+            },
+            "when": {
+              "en": "the Imperative selected this battle round",
+              "ru": "императив, выбранный в этом раунде"
+            }
+          },
+          {
+            "cond": [
+              "synaptic-surging-vitality"
+            ],
+            "op": "state",
+            "text": {
+              "en": "While within Synapse Range of your army: +1 to Advance and Charge rolls",
+              "ru": "Пока в пределах Synapse Range вашей армии: +1 к броскам продвижения и нападения"
+            },
+            "when": {
+              "en": "the Imperative selected this battle round",
+              "ru": "императив, выбранный в этом раунде"
+            }
+          },
+          {
+            "cond": [
+              "synaptic-goaded-to-slaughter"
+            ],
+            "op": "state",
+            "text": {
+              "en": "While within Synapse Range of your army: +1 to Hit rolls for its melee attacks",
+              "ru": "Пока в пределах Synapse Range вашей армии: +1 к броску на попадание его атак ближнего боя"
+            },
+            "when": {
+              "en": "the Imperative selected this battle round",
+              "ru": "императив, выбранный в этом раунде"
+            }
+          }
+        ],
+        "hash": "fc5e5b4d",
+        "kind": "detachmentRule",
+        "name": "Synaptic Imperatives",
+        "ref": {
+          "det": "synaptic-nexus",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "547b0295-bdc0-42db-8b31-dc2af65b3fe3",
+        "ver": 925
+      },
+      {
+        "det": "The Vardenghast Swarm",
+        "effects": [],
+        "hash": "3266efce",
+        "kind": "detachmentRule",
+        "name": "Skittering Hordes",
+        "ref": {
+          "det": "cp:tyranids",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "4093eaee-fd76-4dcf-b685-917ddf140c4c",
+        "ver": 995
+      },
+      {
+        "det": "Warrior Bioform Onslaught",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "scope": 0,
+            "stat": "keyword",
+            "value": "Tyranid Warriors",
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "scope": 0,
+            "stat": "keyword",
+            "value": "Battleline",
+            "when": null
+          },
+          {
+            "on": "profile",
+            "op": "set",
+            "scope": 1,
+            "stat": "inv",
+            "value": "5+",
+            "when": null
+          }
+        ],
+        "hash": "c73409fc",
+        "kind": "detachmentRule",
+        "name": "Leader-beasts",
+        "ref": {
+          "det": "warrior-bioform-onslaught",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "905300ef-5645-49bc-9314-afcb99c473ea",
+        "ver": 995
+      },
+      {
+        "det": "Assimilation Swarm",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Fights First",
+            "when": {
+              "en": "while the bearer is within 6\" of a friendly HARVESTER unit",
+              "ru": "пока носитель в пределах 6\" от дружественного отряда HARVESTER"
+            }
+          }
+        ],
+        "hash": "d69eff9d",
+        "kind": "enhancement",
+        "name": "Instinctive Defence",
+        "ref": {
+          "det": "assimilation-swarm",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "ce279cdd-c6b1-4b68-9b14-7a506b3c596c",
+        "ver": 925
+      },
+      {
+        "det": "Assimilation Swarm",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "target": "led",
+            "value": 1,
+            "when": null
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "until the end of the battle, after the unit first destroys an enemy in the Fight phase while the bearer is within 6\" of a Harvester unit",
+              "ru": "до конца битвы, после того как отряд впервые уничтожит врага в фазе боя, пока носитель в 6\" от отряда Harvester"
+            }
+          }
+        ],
+        "hash": "f6b213d9",
+        "kind": "enhancement",
+        "name": "Parasitic Biomorphology",
+        "ref": {
+          "det": "assimilation-swarm",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "c96ad299-23ee-4528-9b36-00173e02299d",
+        "ver": 925
+      },
+      {
+        "det": "Crusher Stampede",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against a MONSTER or VEHICLE unit",
+              "ru": "по отряду MONSTER или VEHICLE"
+            }
+          }
+        ],
+        "hash": "774614c0",
+        "kind": "enhancement",
+        "name": "Monstrous Nemesis",
+        "ref": {
+          "det": "crusher-stampede",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "3737cbb7-dfcf-494b-abdc-6f1fc7e2fff8",
+        "ver": 925
+      },
+      {
+        "det": "Crusher Stampede",
+        "effects": [
+          {
+            "on": "unit",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+ (vs Psychic Attacks)",
+            "when": {
+              "en": "until the end of a phase the bearer used this Enhancement in (once per battle)",
+              "ru": "до конца фазы, в которой носитель применил улучшение (раз за битву)"
+            }
+          }
+        ],
+        "hash": "842c8612",
+        "kind": "enhancement",
+        "name": "Null Nodules",
+        "ref": {
+          "det": "crusher-stampede",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "37e81a72-9536-4ec8-b9d4-cfc58aff5141",
+        "ver": 925
+      },
+      {
+        "det": "Crusher Stampede",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 3,
+            "when": null
+          }
+        ],
+        "hash": "5444ec73",
+        "kind": "enhancement",
+        "name": "Ominous Presence",
+        "ref": {
+          "det": "crusher-stampede",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "87509b4c-bbec-4bef-8ffe-c9d57a9351b4",
+        "ver": 925
+      },
+      {
+        "det": "Invasion Fleet",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+",
+            "when": null
+          }
+        ],
+        "hash": "3b7155b5",
+        "kind": "enhancement",
+        "name": "Adaptive Biology",
+        "ref": {
+          "det": "invasion-fleet",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "89da4916-0d30-4b0e-a7d1-6c3b96a80d97",
+        "ver": 925
+      },
+      {
+        "det": "Subterranean Assault",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "improve",
+            "stat": "ws",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Synapse",
+            "when": null
+          }
+        ],
+        "hash": "5834f881",
+        "kind": "enhancement",
+        "name": "Trygon Prime",
+        "ref": {
+          "det": "subterranean-assault",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "e39bb599-731d-4f13-855f-50b8508438af",
+        "ver": 925
+      },
+      {
+        "det": "Synaptic Nexus",
+        "effects": [
+          {
+            "on": "weapon",
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "weapon",
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "041e5a72",
+        "kind": "enhancement",
+        "name": "Power of the Hive Mind",
+        "ref": {
+          "det": "synaptic-nexus",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "4f45ef1c-63c7-4d7d-af65-bdd6a59b47e6",
+        "ver": 925
+      },
+      {
+        "det": "Synaptic Nexus",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "5685ea95",
+        "kind": "enhancement",
+        "name": "Synaptic Control",
+        "ref": {
+          "det": "synaptic-nexus",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "42a47f68-0825-43a1-914d-5ff77c5f2959",
+        "ver": 925
+      },
+      {
+        "det": "Synaptic Nexus",
+        "effects": [],
+        "hash": "7860cf0f",
+        "kind": "enhancement",
+        "name": "The Dirgeheart of Kharis (Aura)",
+        "ref": {
+          "det": "synaptic-nexus",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "09c9c986-a5ad-44bb-98f0-90744ba77f94",
+        "ver": 925
+      },
+      {
+        "det": "Talons of the Norn Queen",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "ANTI-CHARACTER 2+",
+            "when": null
+          }
+        ],
+        "hash": "a6b59501",
+        "kind": "enhancement",
+        "name": "Destabilising Predation (Upgrade)",
+        "ref": {
+          "det": "talons-of-the-norn-queen",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "0666139a-ab22-4c98-9219-e369924291bf",
+        "ver": 925
+      },
+      {
+        "det": "Talons of the Norn Queen",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "unit",
+            "value": "4+",
+            "when": null
+          }
+        ],
+        "hash": "bffe5721",
+        "kind": "enhancement",
+        "name": "Synaptoprescience (Upgrade)",
+        "ref": {
+          "det": "talons-of-the-norn-queen",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "b7b413e4-78cc-4282-8085-202faf35633b",
+        "ver": 995
+      },
+      {
+        "det": "The Vardenghast Swarm",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -2,
+            "when": null
+          }
+        ],
+        "hash": "5d878816",
+        "kind": "enhancement",
+        "name": "Adapted Organism",
+        "ref": {
+          "det": "cp:tyranids",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "daa414da-bd09-463e-8902-56e77b682488",
+        "ver": 925
+      },
+      {
+        "det": "Unending Swarm",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "per attack that scores a Critical Wound",
+              "ru": "за атаку с критическим ранением"
+            }
+          }
+        ],
+        "hash": "b82ae6f6",
+        "kind": "enhancement",
+        "name": "Piercing Talons",
+        "ref": {
+          "det": "unending-swarm",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "71b8e917-4924-4aea-93e9-ab17e7314061",
+        "ver": 925
+      },
+      {
+        "det": "Unending Swarm",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "led",
+            "value": 2,
+            "when": null
+          }
+        ],
+        "hash": "103d14ec",
+        "kind": "enhancement",
+        "name": "Relentless Hunger",
+        "ref": {
+          "det": "unending-swarm",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "ca23547e-5dcc-4966-a7c2-219045fa2f76",
+        "ver": 925
+      },
+      {
+        "det": "Vanguard Onslaught",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "2e7f32ea",
+        "kind": "enhancement",
+        "name": "Chameleonic",
+        "ref": {
+          "det": "vanguard-onslaught",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "24f1eb9a-4966-44fa-8a86-0cd82bae357e",
+        "ver": 925
+      },
+      {
+        "det": "Vanguard Onslaught",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against the enemy unit selected at the start of the battle",
+              "ru": "по вражескому отряду, выбранному в начале битвы"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against the enemy unit selected at the start of the battle",
+              "ru": "по вражескому отряду, выбранному в начале битвы"
+            }
+          }
+        ],
+        "hash": "aab0e8d9",
+        "kind": "enhancement",
+        "name": "Stalker",
+        "ref": {
+          "det": "vanguard-onslaught",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "e93d1916-52d5-4c51-a097-c89a1b1783a9",
+        "ver": 925
+      },
+      {
+        "det": "Warrior Bioform Onslaught",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "c617aabb",
+        "kind": "enhancement",
+        "name": "Elevated Might",
+        "ref": {
+          "det": "warrior-bioform-onslaught",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "92603e22-71b4-4e0a-a15f-99f2a81056b5",
+        "ver": 925
+      },
+      {
+        "det": "Warrior Bioform Onslaught",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "ff9e6dbf",
+        "kind": "enhancement",
+        "name": "Ocular Adaptation",
+        "ref": {
+          "det": "warrior-bioform-onslaught",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "d2467e3a-c1bb-4d03-84db-047c045ddffa",
+        "ver": 995
+      },
+      {
+        "det": "Ambush Predators",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "against a hidden unit",
+              "ru": "против скрытого (hidden) юнита"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "against a hidden unit",
+              "ru": "против скрытого (hidden) юнита"
+            }
+          }
+        ],
+        "hash": "1baf7853",
+        "kind": "stratagem",
+        "name": "Counterpredation",
+        "ref": {
+          "det": "ambush-predators",
+          "kind": "stratagem",
+          "name": "Counterpredation"
+        },
+        "reviewed": true,
+        "sid": "0c67be9d-bb57-48fd-8552-913f37a136fc",
+        "ver": 925
+      },
+      {
+        "det": "Assimilation Swarm",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "2c0de403",
+        "kind": "stratagem",
+        "name": "Ablative Carapace",
+        "ref": {
+          "det": "assimilation-swarm",
+          "kind": "stratagem",
+          "name": "Ablative Carapace"
+        },
+        "reviewed": true,
+        "sid": "dba23d7e-df57-434f-8829-03cbfe84d881",
+        "ver": 925
+      },
+      {
+        "det": "Assimilation Swarm",
+        "effects": [],
+        "hash": "34fc007c",
+        "kind": "stratagem",
+        "name": "Broodguard Impulse",
+        "ref": {
+          "det": "assimilation-swarm",
+          "kind": "stratagem",
+          "name": "Broodguard Impulse"
+        },
+        "reviewed": true,
+        "sid": "2824ee77-aa79-49dd-a64b-d5b19a7d1776",
+        "ver": 925
+      },
+      {
+        "det": "Assimilation Swarm",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "e775fab1",
+        "kind": "stratagem",
+        "name": "Secure Biomass",
+        "ref": {
+          "det": "assimilation-swarm",
+          "kind": "stratagem",
+          "name": "Secure Biomass"
+        },
+        "reviewed": true,
+        "sid": "58be2d55-0238-466d-9419-1b9e71710d4d",
+        "ver": 925
+      },
+      {
+        "det": "Crusher Stampede",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": {
+              "en": "against attacks by that enemy unit",
+              "ru": "против атак этого вражеского отряда"
+            }
+          }
+        ],
+        "hash": "ee6f5d02",
+        "kind": "stratagem",
+        "name": "Savage Roar",
+        "ref": {
+          "det": "crusher-stampede",
+          "kind": "stratagem",
+          "name": "Savage Roar"
+        },
+        "reviewed": true,
+        "sid": "73c612be-28f7-4329-acfa-97e55aa8071b",
+        "ver": 995
+      },
+      {
+        "det": "Crusher Stampede",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "76a73124",
+        "kind": "stratagem",
+        "name": "Swarm-guided Salvoes",
+        "ref": {
+          "det": "crusher-stampede",
+          "kind": "stratagem",
+          "name": "Swarm-guided Salvoes"
+        },
+        "reviewed": true,
+        "sid": "ff939b18-014a-4295-8557-4da856bce0b3",
+        "ver": 925
+      },
+      {
+        "det": "Invasion Fleet",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 6+",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "8e0b6907",
+        "kind": "stratagem",
+        "name": "Rapid Regeneration",
+        "ref": {
+          "det": "invasion-fleet",
+          "kind": "stratagem",
+          "name": "Rapid Regeneration"
+        },
+        "reviewed": true,
+        "sid": "fd4cd9bf-d7b1-4225-a64b-e3ee837fe4b6",
+        "ver": 925
+      },
+      {
+        "det": "Subterranean Assault",
+        "dur": "round",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Synapse",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "57c4e273",
+        "kind": "stratagem",
+        "name": "Adaptive Optimisation",
+        "ref": {
+          "det": "subterranean-assault",
+          "kind": "stratagem",
+          "name": "Adaptive Optimisation"
+        },
+        "reviewed": true,
+        "sid": "635d6424-caa2-4515-8c84-86ae2c8a7fac",
+        "ver": 925
+      },
+      {
+        "det": "Subterranean Assault",
+        "dur": "turn",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "c7a567e7",
+        "kind": "stratagem",
+        "name": "Enfilading Emergence",
+        "ref": {
+          "det": "subterranean-assault",
+          "kind": "stratagem",
+          "name": "Enfilading Emergence"
+        },
+        "reviewed": true,
+        "sid": "c2caac9f-93d9-4f86-97c2-9eb33a793628",
+        "ver": 925
+      },
+      {
+        "det": "Synaptic Nexus",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "ap",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "068f028a",
+        "kind": "stratagem",
+        "name": "Reinforced Hive Node",
+        "ref": {
+          "det": "synaptic-nexus",
+          "kind": "stratagem",
+          "name": "Reinforced Hive Node"
+        },
+        "reviewed": true,
+        "sid": "5eeb38ef-6c42-47a4-b504-d526b50c67df",
+        "ver": 925
+      },
+      {
+        "det": "Talons of the Norn Queen",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+ (vs mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "84dbd5f5",
+        "kind": "stratagem",
+        "name": "Catalytic Biofortification",
+        "ref": {
+          "det": "talons-of-the-norn-queen",
+          "kind": "stratagem",
+          "name": "Catalytic Biofortification"
+        },
+        "reviewed": true,
+        "sid": "a00e9bdd-8eb5-4f20-bf21-965bc8aa1ded",
+        "ver": 925
+      },
+      {
+        "det": "Talons of the Norn Queen",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 2,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "a7c72faa",
+        "kind": "stratagem",
+        "name": "Lesser Prey",
+        "ref": {
+          "det": "talons-of-the-norn-queen",
+          "kind": "stratagem",
+          "name": "Lesser Prey"
+        },
+        "reviewed": true,
+        "sid": "96e02332-a1cf-4bc9-b9a1-5a9b6738c765",
+        "ver": 925
+      },
+      {
+        "det": "Talons of the Norn Queen",
+        "effects": [],
+        "hash": "25b83264",
+        "kind": "stratagem",
+        "name": "Tanglestrike Rounds",
+        "ref": {
+          "det": "talons-of-the-norn-queen",
+          "kind": "stratagem",
+          "name": "Tanglestrike Rounds"
+        },
+        "reviewed": true,
+        "sid": "ef33df89-bcee-4d3a-8cc5-1aac7fc319e5",
+        "ver": 995
+      },
+      {
+        "det": "Unending Swarm",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 6,
+            "when": {
+              "en": "in a phase it Advanced (no Advance roll)",
+              "ru": "в фазе с Advance (без броска)"
+            }
+          }
+        ],
+        "hash": "c1bf64f9",
+        "kind": "stratagem",
+        "name": "Bounding Advance",
+        "ref": {
+          "det": "unending-swarm",
+          "kind": "stratagem",
+          "name": "Bounding Advance"
+        },
+        "reviewed": true,
+        "sid": "d6d95f2e-da94-4979-83a9-1651076c015d",
+        "ver": 925
+      },
+      {
+        "det": "Unending Swarm",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "989b1552",
+        "kind": "stratagem",
+        "name": "Swarming Masses",
+        "ref": {
+          "det": "unending-swarm",
+          "kind": "stratagem",
+          "name": "Swarming Masses"
+        },
+        "reviewed": true,
+        "sid": "87d7b3cf-4231-4fdd-949f-3718bb1cc569",
+        "ver": 925
+      },
+      {
+        "det": "Unending Swarm",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "214dc667",
+        "kind": "stratagem",
+        "name": "Teeming Masses",
+        "ref": {
+          "det": "unending-swarm",
+          "kind": "stratagem",
+          "name": "Teeming Masses"
+        },
+        "reviewed": true,
+        "sid": "53d214eb-47e8-4ace-a623-07a7927197be",
+        "ver": 995
+      },
+      {
+        "det": "Vanguard Onslaught",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "10391964",
+        "kind": "stratagem",
+        "name": "Assassin Beasts",
+        "ref": {
+          "det": "vanguard-onslaught",
+          "kind": "stratagem",
+          "name": "Assassin Beasts"
+        },
+        "reviewed": true,
+        "sid": "cd3aa920-f0a8-4468-adf6-66a30c2ed7c0",
+        "ver": 925
+      },
+      {
+        "det": "Vanguard Onslaught",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against the selected enemy unit",
+              "ru": "по выбранному вражескому отряду"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against the selected unit, if it failed the Battle-shock test",
+              "ru": "по выбранному отряду, если он провалил Battle-shock"
+            }
+          }
+        ],
+        "hash": "cac1695a",
+        "kind": "stratagem",
+        "name": "Surprise Assault",
+        "ref": {
+          "det": "vanguard-onslaught",
+          "kind": "stratagem",
+          "name": "Surprise Assault"
+        },
+        "reviewed": true,
+        "sid": "ebaed1fb-6016-4854-8068-eb013d8ebe2a",
+        "ver": 925
+      },
+      {
+        "det": "Vanguard Onslaught",
+        "effects": [],
+        "hash": "f05dcd4e",
+        "kind": "stratagem",
+        "name": "Unseen Lurkers",
+        "ref": {
+          "det": "vanguard-onslaught",
+          "kind": "stratagem",
+          "name": "Unseen Lurkers"
+        },
+        "reviewed": true,
+        "sid": "01ac5989-ef6d-4d4b-a3ff-c9b389972480",
+        "ver": 925
+      },
+      {
+        "det": "Warrior Bioform Onslaught",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "ed2665e0",
+        "kind": "stratagem",
+        "name": "Alien Physiology",
+        "ref": {
+          "det": "warrior-bioform-onslaught",
+          "kind": "stratagem",
+          "name": "Alien Physiology"
+        },
+        "reviewed": true,
+        "sid": "61097980-8f90-4f13-b2bd-33fd3c629761",
+        "ver": 995
+      },
+      {
+        "det": "Warrior Bioform Onslaught",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "3797bd7a",
+        "kind": "stratagem",
+        "name": "Parasitic Payload",
+        "ref": {
+          "det": "warrior-bioform-onslaught",
+          "kind": "stratagem",
+          "name": "Parasitic Payload"
+        },
+        "reviewed": true,
+        "sid": "ad6bd914-db0f-43be-95c1-aae0515947a1",
+        "ver": 925
+      }
+    ],
+    "formatVersion": 1,
+    "slug": "tyranids"
+  }
+}

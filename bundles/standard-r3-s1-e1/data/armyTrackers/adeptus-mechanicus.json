@@ -1,0 +1,31 @@
+{
+  "default": {
+    "detachmentOverrides": {},
+    "kind": "selection",
+    "label": "Doctrina Imperative",
+    "note": {
+      "en": "At the start of each battle round, pick one Imperative — it stays active for your whole army until the end of that round.",
+      "ru": "В начале каждого раунда боя выбери один Imperative — он активен для всей армии до конца этого раунда."
+    },
+    "options": [
+      {
+        "body": {
+          "en": "▪ Ranged weapons equipped by models in this unit have the [HEAVY] ability.\n▪ Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\n▪ Each time a melee attack targets this unit, if this unit has the Battleline keyword and/or it is within 6\" of one or more friendly Adeptus Mechanicus Battleline units, subtract 1 from the Hit roll.",
+          "ru": "▪ Ranged-оружие моделей этого отряда получает способность [HEAVY].\n▪ Улучши характеристику Ballistic Skill ranged-оружия моделей этого отряда на 1.\n▪ Каждый раз, когда melee-атака нацелена на этот отряд, если у отряда есть ключевое слово Battleline и/или он в пределах 6\" от одного или более дружественных отрядов Adeptus Mechanicus Battleline, вычти 1 из Hit roll."
+        },
+        "id": "protector",
+        "name": "Protector Imperative"
+      },
+      {
+        "body": {
+          "en": "▪ Ranged weapons equipped by models in this unit have the [ASSAULT] ability.\n▪ Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.\n▪ Each time a model in this unit makes an attack, if this unit has the Battleline keyword and/or it is within 6\" of one or more friendly Adeptus Mechanicus Battleline units, improve the Armour Penetration characteristic of that attack by 1.",
+          "ru": "▪ Ranged-оружие моделей этого отряда получает способность [ASSAULT].\n▪ Улучши характеристику Weapon Skill melee-оружия моделей этого отряда на 1.\n▪ Каждый раз, когда модель этого отряда совершает атаку, если у отряда есть ключевое слово Battleline и/или он в пределах 6\" от одного или более дружественных отрядов Adeptus Mechanicus Battleline, улучши Armour Penetration этой атаки на 1."
+        },
+        "id": "conqueror",
+        "name": "Conqueror Imperative"
+      }
+    ],
+    "ruleName": "Doctrina Imperatives",
+    "slug": "adeptus-mechanicus"
+  }
+}

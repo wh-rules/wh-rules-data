@@ -1,0 +1,1911 @@
+{
+  "default": {
+    "detachments": [
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Exemplar of Duty (Upgrade)",
+            "points": 10
+          },
+          {
+            "name": "Sharp Eyes (Upgrade)",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Abhuman Auxiliaries",
+        "unique": "ABHUMAN"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Exemplary Officer",
+            "points": 20
+          },
+          {
+            "name": "Grand Strategist",
+            "points": 25
+          },
+          {
+            "name": "Master Manoeuvrist",
+            "points": 15
+          },
+          {
+            "name": "Omnissian Unguents",
+            "points": 35
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Armoured Infantry"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Bombast-class Vox-array",
+            "points": 15
+          },
+          {
+            "name": "Priority Drop Beacon",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Bridgehead Strike"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Death Mask of Ollanius",
+            "points": 10
+          },
+          {
+            "name": "Drill Commander",
+            "points": 20
+          },
+          {
+            "name": "Grand Strategist",
+            "points": 15
+          },
+          {
+            "name": "Reactive Command",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Combined Arms"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Long-range Scout (Upgrade)",
+            "points": 10
+          },
+          {
+            "name": "Recon Star (Upgrade)",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Designation Force",
+        "unique": "RECON"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Abhuman Detail",
+            "points": 20
+          },
+          {
+            "name": "Aquilan Eye",
+            "points": 20
+          },
+          {
+            "name": "Laud Hailer",
+            "points": 10
+          },
+          {
+            "name": "Spec Ops Veteran",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets",
+          "Purge the Foe"
+        ],
+        "name": "Grizzled Company",
+        "unique": "ABHUMAN"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Calm Under Fire",
+            "points": 15
+          },
+          {
+            "name": "Indomitable Steed",
+            "points": 15
+          },
+          {
+            "name": "Regimental Banner",
+            "points": 20
+          },
+          {
+            "name": "Veteran Crew",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Hammer of the Emperor"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Bold Leadership",
+            "points": 25
+          },
+          {
+            "name": "Sacred Unguents",
+            "points": 10
+          },
+          {
+            "name": "Smoke Grenades",
+            "points": 10
+          },
+          {
+            "name": "Vanguard Honours",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Mechanised Assault"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Guerrilla Honours",
+            "points": 25
+          },
+          {
+            "name": "Scare Gas Grenades",
+            "points": 5
+          },
+          {
+            "name": "Survival Gear",
+            "points": 5
+          },
+          {
+            "name": "Tripwires",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Recon Element",
+        "unique": "RECON"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Eager Advance",
+            "points": 20
+          },
+          {
+            "name": "Flash Grenades",
+            "points": 20
+          },
+          {
+            "name": "Legacy Sidearm",
+            "points": 10
+          },
+          {
+            "name": "Stalwart’s Honours",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Siege Regiment"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Assault Hatches",
+            "points": 25
+          },
+          {
+            "name": "Battalion Commander",
+            "points": 30
+          },
+          {
+            "name": "Engine Speaker",
+            "points": 15
+          },
+          {
+            "name": "Titan Killer",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Steel Hammer"
+      }
+    ],
+    "id": "astra-militarum",
+    "legends": [
+      {
+        "name": "‘iron Hand’ Straken",
+        "options": [
+          {
+            "models": 1,
+            "points": 55
+          }
+        ]
+      },
+      {
+        "name": "Aquila Lander",
+        "options": [
+          {
+            "models": 1,
+            "points": 120
+          }
+        ]
+      },
+      {
+        "name": "Arkurian Stormhammer",
+        "options": [
+          {
+            "models": 1,
+            "points": 480
+          }
+        ]
+      },
+      {
+        "name": "Armageddon-Pattern Medusa",
+        "options": [
+          {
+            "models": 1,
+            "points": 105
+          }
+        ]
+      },
+      {
+        "name": "Arvus Lighter",
+        "options": [
+          {
+            "models": 1,
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Atlas Recovery Vehicle",
+        "options": [
+          {
+            "models": 1,
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Carnodon",
+        "options": [
+          {
+            "models": 1,
+            "points": 160
+          }
+        ]
+      },
+      {
+        "name": "Centaur Light Carrier",
+        "options": [
+          {
+            "models": 1,
+            "points": 40
+          }
+        ]
+      },
+      {
+        "name": "Colossus",
+        "options": [
+          {
+            "models": 1,
+            "points": 160
+          }
+        ]
+      },
+      {
+        "name": "Crassus",
+        "options": [
+          {
+            "models": 1,
+            "points": 180
+          }
+        ]
+      },
+      {
+        "name": "Death Korps Grenadier Squad",
+        "options": [
+          {
+            "models": 10,
+            "points": 110
+          }
+        ]
+      },
+      {
+        "name": "Death Rider Commissar",
+        "options": [
+          {
+            "models": 1,
+            "points": 35
+          }
+        ]
+      },
+      {
+        "name": "Dominus Armoured Siege Bombard",
+        "options": [
+          {
+            "models": 1,
+            "points": 325
+          }
+        ]
+      },
+      {
+        "name": "Earthshaker Carriage Battery",
+        "options": [
+          {
+            "models": 1,
+            "points": 120
+          }
+        ]
+      },
+      {
+        "name": "Earthshaker Platform",
+        "options": [
+          {
+            "models": 1,
+            "points": 110
+          }
+        ]
+      },
+      {
+        "name": "Elysian Drop Sentinel",
+        "options": [
+          {
+            "models": 1,
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Elysian Sniper Squad",
+        "options": [
+          {
+            "models": 3,
+            "points": 65
+          }
+        ]
+      },
+      {
+        "name": "Gorgon Heavy Transport",
+        "options": [
+          {
+            "models": 1,
+            "points": 275
+          }
+        ]
+      },
+      {
+        "name": "Griffon Mortar Carrier",
+        "options": [
+          {
+            "models": 1,
+            "points": 115
+          }
+        ]
+      },
+      {
+        "name": "Hades Breaching Drill",
+        "options": [
+          {
+            "models": 1,
+            "points": 110
+          }
+        ]
+      },
+      {
+        "name": "Heavy Mortar Team",
+        "options": [
+          {
+            "models": 1,
+            "points": 50
+          }
+        ]
+      },
+      {
+        "name": "Heavy Quad Launcher Team",
+        "options": [
+          {
+            "models": 1,
+            "points": 50
+          }
+        ]
+      },
+      {
+        "name": "Hell's Last",
+        "options": [
+          {
+            "models": 5,
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Hydra Platform",
+        "options": [
+          {
+            "models": 1,
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Macharius",
+        "options": [
+          {
+            "models": 1,
+            "points": 310
+          }
+        ]
+      },
+      {
+        "name": "Macharius Omega",
+        "options": [
+          {
+            "models": 1,
+            "points": 310
+          }
+        ]
+      },
+      {
+        "name": "Macharius Vanquisher",
+        "options": [
+          {
+            "models": 1,
+            "points": 285
+          }
+        ]
+      },
+      {
+        "name": "Macharius Vulcan",
+        "options": [
+          {
+            "models": 1,
+            "points": 310
+          }
+        ]
+      },
+      {
+        "name": "Malcador",
+        "options": [
+          {
+            "models": 1,
+            "points": 250
+          }
+        ]
+      },
+      {
+        "name": "Malcador Annihilator",
+        "options": [
+          {
+            "models": 1,
+            "points": 270
+          }
+        ]
+      },
+      {
+        "name": "Malcador Defender",
+        "options": [
+          {
+            "models": 1,
+            "points": 310
+          }
+        ]
+      },
+      {
+        "name": "Malcador Infernus",
+        "options": [
+          {
+            "models": 1,
+            "points": 235
+          }
+        ]
+      },
+      {
+        "name": "Manticore Platform",
+        "options": [
+          {
+            "models": 1,
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Marauder Bomber",
+        "options": [
+          {
+            "models": 1,
+            "points": 345
+          }
+        ]
+      },
+      {
+        "name": "Marauder Destroyer",
+        "options": [
+          {
+            "models": 1,
+            "points": 375
+          }
+        ]
+      },
+      {
+        "name": "Medusa Carriage Battery",
+        "options": [
+          {
+            "models": 1,
+            "points": 125
+          }
+        ]
+      },
+      {
+        "name": "Minotaur",
+        "options": [
+          {
+            "models": 1,
+            "points": 225
+          }
+        ]
+      },
+      {
+        "name": "Mukaali Riders",
+        "options": [
+          {
+            "models": 3,
+            "points": 110
+          }
+        ]
+      },
+      {
+        "name": "Munitorum Servitors",
+        "options": [
+          {
+            "models": 4,
+            "points": 35
+          }
+        ]
+      },
+      {
+        "name": "Praetor",
+        "options": [
+          {
+            "models": 1,
+            "points": 275
+          }
+        ]
+      },
+      {
+        "name": "Provisionally Prepared",
+        "options": [
+          {
+            "models": 1,
+            "points": 40
+          }
+        ]
+      },
+      {
+        "name": "Quartermaster Cadre Squad",
+        "options": [
+          {
+            "models": 5,
+            "points": 45
+          }
+        ]
+      },
+      {
+        "name": "Rapier Laser Destroyer Battery",
+        "options": [
+          {
+            "models": 1,
+            "points": 35
+          },
+          {
+            "models": 2,
+            "points": 70
+          },
+          {
+            "models": 3,
+            "points": 105
+          }
+        ]
+      },
+      {
+        "name": "Regimental Attachés",
+        "options": [
+          {
+            "models": 3,
+            "points": 40
+          }
+        ]
+      },
+      {
+        "name": "Rein and Raus",
+        "options": [
+          {
+            "models": 2,
+            "points": 50
+          }
+        ]
+      },
+      {
+        "name": "Sabre Weapons Battery",
+        "options": [
+          {
+            "models": 1,
+            "points": 45
+          },
+          {
+            "models": 2,
+            "points": 90
+          }
+        ]
+      },
+      {
+        "name": "Salamander Command Vehicle",
+        "options": [
+          {
+            "models": 1,
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Salamander Scout Vehicle",
+        "options": [
+          {
+            "models": 1,
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Sentinel Powerlifter",
+        "options": [
+          {
+            "models": 1,
+            "points": 55
+          }
+        ]
+      },
+      {
+        "name": "Sergeant Harker",
+        "options": [
+          {
+            "models": 1,
+            "points": 40
+          }
+        ]
+      },
+      {
+        "name": "Storm Chimera",
+        "options": [
+          {
+            "models": 1,
+            "points": 90
+          }
+        ]
+      },
+      {
+        "name": "Stormblade",
+        "options": [
+          {
+            "models": 1,
+            "points": 415
+          }
+        ]
+      },
+      {
+        "name": "Stygies Destroyer Tank Hunter",
+        "options": [
+          {
+            "models": 1,
+            "points": 180
+          }
+        ]
+      },
+      {
+        "name": "Tarantula Battery",
+        "options": [
+          {
+            "models": 1,
+            "points": 40
+          },
+          {
+            "models": 2,
+            "points": 80
+          },
+          {
+            "models": 3,
+            "points": 120
+          }
+        ]
+      },
+      {
+        "name": "Tauros Assault Vehicle",
+        "options": [
+          {
+            "models": 1,
+            "points": 50
+          }
+        ]
+      },
+      {
+        "name": "Tauros Venator",
+        "options": [
+          {
+            "models": 1,
+            "points": 50
+          }
+        ]
+      },
+      {
+        "name": "Trojan Support Vehicle",
+        "options": [
+          {
+            "models": 1,
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Valdor",
+        "options": [
+          {
+            "models": 1,
+            "points": 285
+          }
+        ]
+      },
+      {
+        "name": "Valkyrie Sky Talon",
+        "options": [
+          {
+            "models": 1,
+            "points": 185
+          }
+        ]
+      },
+      {
+        "name": "Vendetta Gunship",
+        "options": [
+          {
+            "models": 1,
+            "points": 255
+          }
+        ]
+      },
+      {
+        "name": "Voss-Pattern Lightning",
+        "options": [
+          {
+            "models": 1,
+            "points": 130
+          }
+        ]
+      },
+      {
+        "name": "Vulture Gunship",
+        "options": [
+          {
+            "models": 1,
+            "points": 225
+          }
+        ]
+      }
+    ],
+    "name": "Astra Militarum",
+    "slug": "astra-militarum",
+    "sourceUrl": "https://mfm.warhammer-community.com/en/astra-militarum",
+    "subfactions": [],
+    "units": [
+      {
+        "name": "Aegis Defence Line",
+        "options": [
+          {
+            "models": 1,
+            "points": 145
+          }
+        ]
+      },
+      {
+        "name": "Armoured Sentinels",
+        "options": [
+          {
+            "models": 1,
+            "points": 65
+          },
+          {
+            "models": 2,
+            "points": 120
+          }
+        ]
+      },
+      {
+        "name": "Artillery Team",
+        "options": [
+          {
+            "models": 1,
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Attilan Rough Riders",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 60
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 120
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 65
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 125
+          }
+        ]
+      },
+      {
+        "name": "Avenger Strike Fighter",
+        "options": [
+          {
+            "models": 1,
+            "points": 130
+          }
+        ]
+      },
+      {
+        "name": "Baneblade",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 415
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 450
+          }
+        ]
+      },
+      {
+        "name": "Banehammer",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 385
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 420
+          }
+        ]
+      },
+      {
+        "name": "Banesword",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 415
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 450
+          }
+        ]
+      },
+      {
+        "name": "Basilisk",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 115
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 145
+          }
+        ]
+      },
+      {
+        "name": "Bullgryn Squad",
+        "options": [
+          {
+            "models": 3,
+            "note": "1st-2nd",
+            "points": 90
+          },
+          {
+            "models": 6,
+            "note": "1st-2nd",
+            "points": 200
+          },
+          {
+            "models": 3,
+            "note": "3rd+",
+            "points": 120
+          },
+          {
+            "models": 6,
+            "note": "3rd+",
+            "points": 230
+          }
+        ]
+      },
+      {
+        "name": "Cadian Castellan",
+        "options": [
+          {
+            "models": 1,
+            "points": 55
+          }
+        ]
+      },
+      {
+        "name": "Cadian Command Squad",
+        "options": [
+          {
+            "models": 5,
+            "points": 60
+          }
+        ]
+      },
+      {
+        "name": "Cadian Heavy Weapons Squad",
+        "options": [
+          {
+            "models": 3,
+            "points": 65
+          }
+        ]
+      },
+      {
+        "name": "Cadian Recon Squad",
+        "options": [
+          {
+            "models": 10,
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Cadian Shock Troops",
+        "options": [
+          {
+            "models": 10,
+            "points": 70
+          },
+          {
+            "models": 20,
+            "points": 145
+          }
+        ]
+      },
+      {
+        "name": "Catachan Command Squad",
+        "options": [
+          {
+            "models": 5,
+            "points": 60
+          }
+        ]
+      },
+      {
+        "name": "Catachan Heavy Weapons Squad",
+        "options": [
+          {
+            "models": 3,
+            "points": 70
+          }
+        ]
+      },
+      {
+        "name": "Catachan Jungle Fighters",
+        "options": [
+          {
+            "models": 10,
+            "points": 70
+          },
+          {
+            "models": 20,
+            "points": 135
+          }
+        ]
+      },
+      {
+        "name": "Centaur RSV",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-3rd",
+            "points": 65
+          },
+          {
+            "models": 1,
+            "note": "4th+",
+            "points": 75
+          }
+        ]
+      },
+      {
+        "name": "Chimera",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-3rd",
+            "points": 75
+          },
+          {
+            "models": 1,
+            "note": "4th+",
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Commissar",
+        "options": [
+          {
+            "models": 1,
+            "points": 30
+          }
+        ]
+      },
+      {
+        "name": "Commissar Graves",
+        "options": [
+          {
+            "models": 1,
+            "points": 125
+          }
+        ]
+      },
+      {
+        "name": "Commissar Graves on Foot",
+        "options": [
+          {
+            "models": 1,
+            "points": 65
+          }
+        ]
+      },
+      {
+        "name": "Commissar Yarrick",
+        "options": [
+          {
+            "models": 1,
+            "points": 110
+          }
+        ]
+      },
+      {
+        "name": "Cyclops Demolition Vehicle",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 40
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 45
+          }
+        ]
+      },
+      {
+        "name": "Death Korps of Krieg",
+        "options": [
+          {
+            "models": 10,
+            "points": 70
+          },
+          {
+            "models": 20,
+            "points": 135
+          }
+        ]
+      },
+      {
+        "name": "Death Riders",
+        "options": [
+          {
+            "models": 5,
+            "points": 60
+          },
+          {
+            "models": 10,
+            "points": 110
+          }
+        ]
+      },
+      {
+        "name": "Deathstrike",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 125
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 145
+          }
+        ]
+      },
+      {
+        "name": "Doomhammer",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 380
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 410
+          }
+        ]
+      },
+      {
+        "name": "Field Ordnance Battery",
+        "options": [
+          {
+            "models": 2,
+            "points": 90
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Bombast field gun",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Gaunt’s Ghosts",
+        "options": [
+          {
+            "models": 6,
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Hellhammer",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 385
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 415
+          }
+        ]
+      },
+      {
+        "name": "Hellhound",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 115
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 125
+          }
+        ]
+      },
+      {
+        "name": "Hippogriff AFV",
+        "options": [
+          {
+            "models": 1,
+            "points": 70
+          },
+          {
+            "models": 2,
+            "points": 140
+          }
+        ]
+      },
+      {
+        "name": "Hydra",
+        "options": [
+          {
+            "models": 1,
+            "points": 90
+          }
+        ]
+      },
+      {
+        "name": "Kasrkin",
+        "options": [
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 105
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 120
+          }
+        ]
+      },
+      {
+        "name": "Krieg Combat Engineers",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 65
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 95
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 75
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 105
+          }
+        ]
+      },
+      {
+        "name": "Krieg Command Squad",
+        "options": [
+          {
+            "models": 6,
+            "points": 60
+          }
+        ]
+      },
+      {
+        "name": "Krieg Heavy Weapons Squad",
+        "options": [
+          {
+            "models": 4,
+            "points": 70
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Krieg heavy flamer",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Leman Russ Battle Tank",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 160
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 175
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Multi-melta",
+            "points": 5
+          },
+          {
+            "name": "Lascannon",
+            "points": 5
+          },
+          {
+            "name": "Plasma cannon",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Leman Russ Commander",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 195
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 210
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Demolisher battle cannon",
+            "points": 15
+          },
+          {
+            "name": "Multi-melta",
+            "points": 5
+          },
+          {
+            "name": "Lascannon",
+            "points": 5
+          },
+          {
+            "name": "Plasma cannon",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Leman Russ Demolisher",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 160
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 175
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Multi-melta",
+            "points": 5
+          },
+          {
+            "name": "Lascannon",
+            "points": 5
+          },
+          {
+            "name": "Plasma cannon",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Leman Russ Eradicator",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 145
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 160
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Multi-melta",
+            "points": 5
+          },
+          {
+            "name": "Lascannon",
+            "points": 5
+          },
+          {
+            "name": "Plasma cannon",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Leman Russ Executioner",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 145
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 160
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Multi-melta",
+            "points": 5
+          },
+          {
+            "name": "Lascannon",
+            "points": 5
+          },
+          {
+            "name": "Plasma cannon",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Leman Russ Exterminator",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 160
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 175
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Multi-melta",
+            "points": 5
+          },
+          {
+            "name": "Lascannon",
+            "points": 5
+          },
+          {
+            "name": "Plasma cannon",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Leman Russ Punisher",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 130
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 145
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Multi-melta",
+            "points": 5
+          },
+          {
+            "name": "Lascannon",
+            "points": 5
+          },
+          {
+            "name": "Plasma cannon",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Leman Russ Vanquisher",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 130
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 145
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Multi-melta",
+            "points": 5
+          },
+          {
+            "name": "Lascannon",
+            "points": 5
+          },
+          {
+            "name": "Plasma cannon",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Lord Marshal Dreir",
+        "options": [
+          {
+            "models": 1,
+            "points": 70
+          }
+        ]
+      },
+      {
+        "name": "Lord Solar Leontus",
+        "options": [
+          {
+            "models": 1,
+            "points": 120
+          }
+        ]
+      },
+      {
+        "name": "Manticore",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 150
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 180
+          }
+        ]
+      },
+      {
+        "name": "Militarum Tempestus Command Squad",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 85
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Ministorum Priest",
+        "options": [
+          {
+            "models": 1,
+            "points": 35
+          }
+        ]
+      },
+      {
+        "name": "Nork Deddog",
+        "options": [
+          {
+            "models": 1,
+            "points": 60
+          }
+        ]
+      },
+      {
+        "name": "Ogryn Bodyguard",
+        "options": [
+          {
+            "models": 1,
+            "points": 40
+          }
+        ]
+      },
+      {
+        "name": "Ogryn Squad",
+        "options": [
+          {
+            "models": 3,
+            "points": 60
+          },
+          {
+            "models": 6,
+            "points": 120
+          }
+        ]
+      },
+      {
+        "name": "Primaris Psyker",
+        "options": [
+          {
+            "models": 1,
+            "points": 60
+          }
+        ]
+      },
+      {
+        "name": "Ratlings",
+        "options": [
+          {
+            "models": 5,
+            "points": 60
+          },
+          {
+            "models": 10,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Rogal Dorn Battle Tank",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 260
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 275
+          }
+        ]
+      },
+      {
+        "name": "Rogal Dorn Commander",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 290
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 305
+          }
+        ]
+      },
+      {
+        "name": "Scout Sentinels",
+        "options": [
+          {
+            "models": 1,
+            "points": 55
+          },
+          {
+            "models": 2,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Shadowsword",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 375
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 405
+          }
+        ]
+      },
+      {
+        "name": "Sly Marbo",
+        "options": [
+          {
+            "models": 1,
+            "points": 55
+          }
+        ]
+      },
+      {
+        "name": "Stormlord",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 395
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 430
+          }
+        ]
+      },
+      {
+        "name": "Stormsword",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 430
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 465
+          }
+        ]
+      },
+      {
+        "name": "Taurox",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-3rd",
+            "points": 65
+          },
+          {
+            "models": 1,
+            "note": "4th+",
+            "points": 75
+          }
+        ]
+      },
+      {
+        "name": "Taurox Prime",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-3rd",
+            "points": 75
+          },
+          {
+            "models": 1,
+            "note": "4th+",
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Tech-Priest Enginseer",
+        "options": [
+          {
+            "models": 1,
+            "points": 45
+          }
+        ]
+      },
+      {
+        "name": "Tempestus Aquilons",
+        "options": [
+          {
+            "models": 10,
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Tempestus Scions",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 75
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 150
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 85
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 160
+          }
+        ]
+      },
+      {
+        "name": "Ursula Creed",
+        "options": [
+          {
+            "models": 1,
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Valkyrie",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 170
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 180
+          }
+        ]
+      },
+      {
+        "name": "Wyvern",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 95
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 125
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "default": {
+    "bonus": 0,
+    "detachmentOverrides": {
+      "warhost": {
+        "bonus": 1,
+        "gains": [
+          {
+            "en": "Warhost (Martial Grace): +1 additional token at the start of each battle round",
+            "ru": "Warhost (Martial Grace): +1 токен в начале каждого раунда"
+          }
+        ]
+      }
+    },
+    "gains": [
+      {
+        "en": "At the start of each battle round: 2 (Incursion) / 4 (Strike Force) / 6 (Onslaught) tokens",
+        "ru": "В начале каждого раунда: 2 (Incursion) / 4 (Strike Force) / 6 (Onslaught) токена"
+      },
+      {
+        "en": "All unspent tokens are lost at the end of the battle round",
+        "ru": "Все несведённые токены сгорают в конце раунда"
+      }
+    ],
+    "kind": "pool",
+    "label": "Battle Focus",
+    "note": {
+      "en": "Spend one token to let an eligible unit perform an Agile Manoeuvre (Swift as the Wind, Flitting Shadows, Star Engines, Sudden Strike, Opportunity Seized, Fade Back) — a unit can perform only one per phase. Only an Asuryani army generates tokens.",
+      "ru": "Потрать один токен, чтобы отряд выполнил Agile Manoeuvre (Swift as the Wind, Flitting Shadows, Star Engines, Sudden Strike, Opportunity Seized, Fade Back) — один манёвр на отряд за фазу. Токены генерирует только Asuryani-армия."
+    },
+    "perRound": {
+      "combatPatrol": 2,
+      "incursion": 2,
+      "onslaught": 6,
+      "strikeForce": 4
+    },
+    "ruleName": "Battle Focus",
+    "slug": "aeldari"
+  }
+}

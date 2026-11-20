@@ -1,0 +1,863 @@
+{
+  "adeptus-custodes": {
+    "prosecutor-squad": [
+      {
+        "det": "null-maiden-vigil",
+        "kw": "Battleline"
+      }
+    ]
+  },
+  "adeptus-mechanicus": {
+    "pteraxii-skystalkers": [
+      {
+        "det": "cohort-acquisitus",
+        "kw": "Recon Augury"
+      }
+    ],
+    "pteraxii-sterylizors": [
+      {
+        "det": "cohort-acquisitus",
+        "kw": "Recon Augury"
+      }
+    ],
+    "serberys-raiders": [
+      {
+        "det": "cohort-acquisitus",
+        "kw": "Recon Augury"
+      }
+    ],
+    "serberys-sulphurhounds": [
+      {
+        "det": "cohort-acquisitus",
+        "kw": "Recon Augury"
+      }
+    ],
+    "sicarian-infiltrators": [
+      {
+        "det": "cohort-acquisitus",
+        "kw": "Recon Augury"
+      }
+    ],
+    "skitarii-rangers": [
+      {
+        "det": "cohort-acquisitus",
+        "kw": "Recon Augury"
+      }
+    ]
+  },
+  "aeldari": {
+    "troupe": [
+      {
+        "det": "ghosts-of-the-webway",
+        "kw": "Battleline"
+      },
+      {
+        "det": "serpents-brood",
+        "kw": "Battleline"
+      }
+    ],
+    "windriders": [
+      {
+        "det": "windrider-host",
+        "kw": "Battleline"
+      }
+    ],
+    "wraithblades": [
+      {
+        "det": "spirit-conclave",
+        "kw": "Battleline"
+      }
+    ],
+    "wraithguard": [
+      {
+        "det": "spirit-conclave",
+        "kw": "Battleline"
+      }
+    ]
+  },
+  "astra-militarum": {
+    "armoured-sentinels": [
+      {
+        "det": "armoured-infantry",
+        "kw": "Armoured Skirmisher"
+      }
+    ],
+    "atlas-recovery-vehicle": [
+      {
+        "det": "armoured-infantry",
+        "kw": "Armoured Skirmisher"
+      }
+    ],
+    "carnodon": [
+      {
+        "det": "armoured-infantry",
+        "kw": "Armoured Skirmisher"
+      }
+    ],
+    "centaur-light-carrier": [
+      {
+        "det": "armoured-infantry",
+        "kw": "Armoured Skirmisher"
+      }
+    ],
+    "centaur-rsv": [
+      {
+        "det": "armoured-infantry",
+        "kw": "Armoured Skirmisher"
+      }
+    ],
+    "chimera": [
+      {
+        "det": "armoured-infantry",
+        "kw": "Armoured Skirmisher"
+      }
+    ],
+    "colossus": [
+      {
+        "det": "armoured-infantry",
+        "kw": "Armoured Skirmisher"
+      }
+    ],
+    "commissar-graves": [
+      {
+        "det": "armoured-infantry",
+        "kw": "Armoured Skirmisher"
+      }
+    ],
+    "elysian-drop-sentinel": [
+      {
+        "det": "armoured-infantry",
+        "kw": "Armoured Skirmisher"
+      }
+    ],
+    "hellhound": [
+      {
+        "det": "armoured-infantry",
+        "kw": "Armoured Skirmisher"
+      }
+    ],
+    "hippogriff-afv": [
+      {
+        "det": "armoured-infantry",
+        "kw": "Armoured Skirmisher"
+      }
+    ],
+    "hydra": [
+      {
+        "det": "armoured-infantry",
+        "kw": "Armoured Skirmisher"
+      }
+    ],
+    "salamander-command-vehicle": [
+      {
+        "det": "armoured-infantry",
+        "kw": "Armoured Skirmisher"
+      }
+    ],
+    "salamander-scout-vehicle": [
+      {
+        "det": "armoured-infantry",
+        "kw": "Armoured Skirmisher"
+      }
+    ],
+    "scout-sentinels": [
+      {
+        "det": "armoured-infantry",
+        "kw": "Armoured Skirmisher"
+      }
+    ],
+    "sentinel-powerlifter": [
+      {
+        "det": "armoured-infantry",
+        "kw": "Armoured Skirmisher"
+      }
+    ],
+    "storm-chimera": [
+      {
+        "det": "armoured-infantry",
+        "kw": "Armoured Skirmisher"
+      }
+    ],
+    "taurox": [
+      {
+        "det": "armoured-infantry",
+        "kw": "Armoured Skirmisher"
+      }
+    ],
+    "taurox-prime": [
+      {
+        "det": "armoured-infantry",
+        "kw": "Armoured Skirmisher"
+      }
+    ],
+    "tempestus-scions": [
+      {
+        "det": "bridgehead-strike",
+        "extra": true,
+        "kw": "Battleline"
+      }
+    ],
+    "trojan-support-vehicle": [
+      {
+        "det": "armoured-infantry",
+        "kw": "Armoured Skirmisher"
+      }
+    ]
+  },
+  "chaos-daemons": {
+    "belakor": [
+      {
+        "det": "shadow-legion",
+        "kw": "Shadow Legion"
+      }
+    ],
+    "bloodmaster": [
+      {
+        "det": "shadow-legion",
+        "kw": "Shadow Legion"
+      }
+    ],
+    "bloodthirster": [
+      {
+        "det": "shadow-legion",
+        "kw": "Shadow Legion"
+      }
+    ],
+    "changecaster": [
+      {
+        "det": "shadow-legion",
+        "kw": "Shadow Legion"
+      }
+    ],
+    "contorted-epitome": [
+      {
+        "det": "shadow-legion",
+        "kw": "Shadow Legion"
+      }
+    ],
+    "exalted-flamer": [
+      {
+        "det": "shadow-legion",
+        "kw": "Shadow Legion"
+      }
+    ],
+    "fateskimmer": [
+      {
+        "det": "shadow-legion",
+        "kw": "Shadow Legion"
+      }
+    ],
+    "fluxmaster": [
+      {
+        "det": "shadow-legion",
+        "kw": "Shadow Legion"
+      }
+    ],
+    "great-unclean-one": [
+      {
+        "det": "shadow-legion",
+        "kw": "Shadow Legion"
+      }
+    ],
+    "infernal-enrapturess": [
+      {
+        "det": "shadow-legion",
+        "kw": "Shadow Legion"
+      }
+    ],
+    "keeper-of-secrets": [
+      {
+        "det": "shadow-legion",
+        "kw": "Shadow Legion"
+      }
+    ],
+    "lord-of-change": [
+      {
+        "det": "shadow-legion",
+        "kw": "Shadow Legion"
+      }
+    ],
+    "poxbringer": [
+      {
+        "det": "shadow-legion",
+        "kw": "Shadow Legion"
+      }
+    ],
+    "rendmaster-on-blood-throne": [
+      {
+        "det": "shadow-legion",
+        "kw": "Shadow Legion"
+      }
+    ],
+    "skullmaster": [
+      {
+        "det": "shadow-legion",
+        "kw": "Shadow Legion"
+      }
+    ],
+    "sloppity-bilepiper": [
+      {
+        "det": "shadow-legion",
+        "kw": "Shadow Legion"
+      }
+    ],
+    "spoilpox-scrivener": [
+      {
+        "det": "shadow-legion",
+        "kw": "Shadow Legion"
+      }
+    ],
+    "tormentbringer": [
+      {
+        "det": "shadow-legion",
+        "kw": "Shadow Legion"
+      }
+    ],
+    "tranceweaver": [
+      {
+        "det": "shadow-legion",
+        "kw": "Shadow Legion"
+      }
+    ]
+  },
+  "chaos-knights": {
+    "war-dog-brigand": [
+      {
+        "det": "houndpack-lance",
+        "kw": "Battleline"
+      }
+    ],
+    "war-dog-executioner": [
+      {
+        "det": "houndpack-lance",
+        "kw": "Battleline"
+      }
+    ],
+    "war-dog-huntsman": [
+      {
+        "det": "houndpack-lance",
+        "kw": "Battleline"
+      }
+    ],
+    "war-dog-karnivore": [
+      {
+        "det": "houndpack-lance",
+        "kw": "Battleline"
+      }
+    ],
+    "war-dog-moirax": [
+      {
+        "det": "houndpack-lance",
+        "kw": "Battleline"
+      }
+    ],
+    "war-dog-stalker": [
+      {
+        "det": "houndpack-lance",
+        "kw": "Battleline"
+      }
+    ]
+  },
+  "chaos-space-marines": {
+    "blood-slaughterer": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "chaos-deimos-predator": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Daemon"
+      },
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "chaos-land-raider": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Daemon"
+      },
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "chaos-predator-annihilator": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Daemon"
+      },
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "chaos-predator-destructor": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Daemon"
+      },
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "chaos-rhino": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Daemon"
+      },
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "chaos-thunderhawk": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Daemon"
+      },
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "chaos-vindicator": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Daemon"
+      },
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "decimator": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "defiler": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "dreadclaw-drop-pod": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Daemon"
+      },
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "forgefiend": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "greater-blight-drone": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "greater-brass-scorpion": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "helbrute": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Daemon"
+      },
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "heldrake": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "hell-blade": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Daemon"
+      },
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "hell-talon": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Daemon"
+      },
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "kharybdis-assault-claw": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Daemon"
+      },
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "khorne-lord-of-skulls": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "kytan-ravager": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "lord-discordant-on-helstalker": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "maulerfiend": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "traitor-guardsmen-squad": [
+      {
+        "det": "chaos-cult",
+        "kw": "Battleline"
+      }
+    ],
+    "vashtorr-the-arkifane": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ],
+    "venomcrawler": [
+      {
+        "det": "cult-of-the-arkifane",
+        "kw": "Soul Forge"
+      }
+    ]
+  },
+  "dark-angels": {
+    "ancient-in-terminator-armour": [
+      {
+        "kw": "Deathwing"
+      }
+    ],
+    "ballistus-dreadnought": [
+      {
+        "kw": "Deathwing"
+      }
+    ],
+    "bladeguard-ancient": [
+      {
+        "kw": "Deathwing"
+      }
+    ],
+    "bladeguard-veteran-squad": [
+      {
+        "kw": "Deathwing"
+      }
+    ],
+    "brutalis-dreadnought": [
+      {
+        "kw": "Deathwing"
+      }
+    ],
+    "captain-in-terminator-armour": [
+      {
+        "kw": "Deathwing"
+      }
+    ],
+    "captain-on-bike": [
+      {
+        "kw": "Ravenwing"
+      }
+    ],
+    "chaplain-in-terminator-armour": [
+      {
+        "kw": "Deathwing"
+      }
+    ],
+    "chaplain-on-bike": [
+      {
+        "kw": "Ravenwing"
+      }
+    ],
+    "dreadnought": [
+      {
+        "kw": "Deathwing"
+      }
+    ],
+    "invader-atvs": [
+      {
+        "kw": "Ravenwing"
+      }
+    ],
+    "land-raider": [
+      {
+        "kw": "Deathwing"
+      }
+    ],
+    "land-raider-crusader": [
+      {
+        "kw": "Deathwing"
+      }
+    ],
+    "land-raider-redeemer": [
+      {
+        "kw": "Deathwing"
+      }
+    ],
+    "land-speeder": [
+      {
+        "kw": "Ravenwing"
+      }
+    ],
+    "librarian-in-terminator-armour": [
+      {
+        "kw": "Deathwing"
+      }
+    ],
+    "outrider-squad": [
+      {
+        "det": "darkflight-pursuit",
+        "kw": "Battleline"
+      },
+      {
+        "kw": "Ravenwing"
+      }
+    ],
+    "redemptor-dreadnought": [
+      {
+        "kw": "Deathwing"
+      }
+    ],
+    "repulsor": [
+      {
+        "kw": "Deathwing"
+      }
+    ],
+    "repulsor-executioner": [
+      {
+        "kw": "Deathwing"
+      }
+    ],
+    "sternguard-veteran-squad": [
+      {
+        "kw": "Deathwing"
+      }
+    ],
+    "storm-speeder-hailstrike": [
+      {
+        "kw": "Ravenwing"
+      }
+    ],
+    "storm-speeder-hammerstrike": [
+      {
+        "kw": "Ravenwing"
+      }
+    ],
+    "storm-speeder-thunderstrike": [
+      {
+        "kw": "Ravenwing"
+      }
+    ],
+    "stormhawk-interceptor": [
+      {
+        "kw": "Ravenwing"
+      }
+    ],
+    "stormraven-gunship": [
+      {
+        "kw": "Ravenwing"
+      }
+    ],
+    "stormtalon-gunship": [
+      {
+        "kw": "Ravenwing"
+      }
+    ],
+    "terminator-assault-squad": [
+      {
+        "kw": "Deathwing"
+      }
+    ],
+    "terminator-squad": [
+      {
+        "kw": "Deathwing"
+      }
+    ],
+    "vanguard-veteran-squad-with-jump-packs": [
+      {
+        "kw": "Deathwing"
+      }
+    ]
+  },
+  "death-guard": {
+    "foetid-bloat-drone": [
+      {
+        "det": "contagion-engines",
+        "kw": "Contagion Engines"
+      }
+    ],
+    "foetid-bloat-drone-with-heavy-blight-launcher": [
+      {
+        "det": "contagion-engines",
+        "kw": "Contagion Engines"
+      }
+    ],
+    "helbrute": [
+      {
+        "det": "contagion-engines",
+        "kw": "Contagion Engines"
+      }
+    ],
+    "myphitic-blight-hauler": [
+      {
+        "det": "contagion-engines",
+        "kw": "Contagion Engines"
+      }
+    ],
+    "poxwalkers": [
+      {
+        "det": "shamblerot-vectorium",
+        "kw": "Battleline"
+      }
+    ]
+  },
+  "imperial-knights": {
+    "armiger-helverin": [
+      {
+        "det": "spearhead-at-arms",
+        "kw": "Battleline"
+      }
+    ],
+    "armiger-moirax": [
+      {
+        "det": "spearhead-at-arms",
+        "kw": "Battleline"
+      }
+    ],
+    "armiger-warglaive": [
+      {
+        "det": "spearhead-at-arms",
+        "kw": "Battleline"
+      }
+    ]
+  },
+  "leagues-of-votann": {
+    "cthonian-beserks": [
+      {
+        "det": "delve-assault-shift",
+        "kw": "Battleline"
+      }
+    ]
+  },
+  "orks": {
+    "gretchin": [
+      {
+        "det": "runt-swarm",
+        "kw": "Battleline"
+      }
+    ],
+    "stormboyz": [
+      {
+        "det": "taktikal-brigade",
+        "kw": "Battleline"
+      }
+    ],
+    "warbikers": [
+      {
+        "det": "kult-of-speed",
+        "kw": "Battleline"
+      }
+    ]
+  },
+  "tau-empire": {
+    "kroot-carnivores": [
+      {
+        "det": "kroot-hunting-pack",
+        "kw": "Battleline"
+      }
+    ]
+  },
+  "thousand-sons": {
+    "tzaangors": [
+      {
+        "det": "servants-of-change",
+        "kw": "Battleline"
+      },
+      {
+        "det": "warpmeld-pact",
+        "kw": "Battleline"
+      }
+    ]
+  },
+  "tyranids": {
+    "mawloc": [
+      {
+        "det": "subterranean-assault",
+        "kw": "Burrower"
+      }
+    ],
+    "trygon": [
+      {
+        "det": "subterranean-assault",
+        "kw": "Burrower"
+      }
+    ],
+    "tyranid-warriors-with-melee-bio-weapons": [
+      {
+        "det": "warrior-bioform-onslaught",
+        "kw": "Battleline"
+      }
+    ],
+    "tyranid-warriors-with-ranged-bio-weapons": [
+      {
+        "det": "warrior-bioform-onslaught",
+        "kw": "Battleline"
+      }
+    ]
+  },
+  "world-eaters": {
+    "goremongers": [
+      {
+        "det": "cult-of-blood",
+        "kw": "Battleline"
+      }
+    ],
+    "jakhals": [
+      {
+        "det": "cult-of-blood",
+        "kw": "Battleline"
+      }
+    ]
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "default": {
+    "box": "tau-empire",
+    "detachment": {
+      "dp": 0,
+      "enhancements": [
+        {
+          "name": "Proximity Scanners",
+          "nonCharOk": 1,
+          "pts": null,
+          "req": [
+            {
+              "ds": "Sudden Dawn Cadre Devilfish"
+            }
+          ],
+          "type": "upgrade"
+        },
+        {
+          "name": "Earth Caste Modifications",
+          "pts": null,
+          "req": [
+            {
+              "ds": "Commander Cloudspear"
+            }
+          ],
+          "type": "miniature"
+        }
+      ],
+      "linkedUnits": [
+        {
+          "count": 1,
+          "unit": "commander-cloudspear",
+          "warlord": 1
+        },
+        {
+          "count": 1,
+          "unit": "sudden-dawn-cadre-devilfish"
+        },
+        {
+          "count": 1,
+          "unit": "sudden-dawn-cadre-pathfinder-team"
+        },
+        {
+          "count": 1,
+          "unit": "sudden-dawn-cadre-breacher-team"
+        }
+      ],
+      "name": "Sudden Dawn Cadre",
+      "sid": "2663b47b-9e46-4b63-8258-7c21f66ac03d"
+    },
+    "slug": "tau-empire",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3517,
+                1
+              ],
+              [
+                3518,
+                1
+              ],
+              [
+                3519,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "commander-cloudspear",
+        "kws": [
+          "Character",
+          "Commander in Enforcer Battlesuit",
+          "Fly",
+          "Sudden Dawn Cadre",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Commander Cloudspear",
+        "sid": "3efc2692-f642-4d8c-894b-e6f804ac5c0c",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3527,
+                1
+              ],
+              [
+                3528,
+                1
+              ],
+              [
+                3529,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3527,
+                1
+              ],
+              [
+                3528,
+                1
+              ],
+              [
+                3529,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "id": "sudden-dawn-cadre-breacher-team",
+        "kws": [
+          "Battleline",
+          "Explosives",
+          "Fire Warrior",
+          "Infantry",
+          "Markerlight",
+          "Sudden Dawn Cadre"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Sha'sui"
+          },
+          {
+            "n": "Breacher Team"
+          }
+        ],
+        "name": "Sudden Dawn Cadre Breacher Team",
+        "sid": "b322283d-5037-43fd-b7f0-ee152ec5b861",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3520,
+                1
+              ],
+              [
+                3521,
+                1
+              ],
+              [
+                3522,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "id": "sudden-dawn-cadre-devilfish",
+        "kws": [
+          "Dedicated Transport",
+          "Fly",
+          "Sudden Dawn Cadre",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Sudden Dawn Cadre Devilfish",
+        "sid": "4f83b0bc-ee0d-4ea8-89fc-b609fbddf28b",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            2,
+            [
+              [
+                3523,
+                1
+              ],
+              [
+                3524,
+                1
+              ],
+              [
+                3525,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3525,
+                1
+              ],
+              [
+                3523,
+                1
+              ],
+              [
+                3524,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3524,
+                1
+              ],
+              [
+                3526,
+                1
+              ],
+              [
+                3525,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "T’au Empire"
+        ],
+        "flags": {},
+        "id": "sudden-dawn-cadre-pathfinder-team",
+        "kws": [
+          "Explosives",
+          "Infantry",
+          "Markerlight",
+          "Sudden Dawn Cadre"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Pathfinder with Pulse Pistol, Rail Rifle and Close Combat Weapon"
+          },
+          {
+            "n": "Pathfinder Shas'ui"
+          },
+          {
+            "n": "Pathfinder with Pulse Carbine, Pulse Pistol and Close Combat Weapon"
+          }
+        ],
+        "name": "Sudden Dawn Cadre Pathfinder Team",
+        "sid": "a5081491-6d7b-4187-a7b0-84c53e182f82",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                6
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 0
+          }
+        ]
+      }
+    ]
+  }
+}

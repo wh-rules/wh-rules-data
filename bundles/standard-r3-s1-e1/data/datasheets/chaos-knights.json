@@ -1,0 +1,2640 @@
+{
+  "default": [
+    {
+      "abilities": [
+        {
+          "name": "Sunderer of Fortresses",
+          "text": "Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristics of that attack by 1 (if that attack targets a FORTIFICATION, improve the Strength and Damage characteristics of that attack by 2 instead)."
+        }
+      ],
+      "baseSize": "Hull",
+      "composition": [
+        "1 Chaos Acastus Knight Asterius"
+      ],
+      "core": "Deadly Demise 2D6",
+      "damaged": {
+        "note": "1-10 wounds remaining",
+        "text": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      "faction": "Harbingers of Dread, Super-heavy Walker",
+      "factionKeywords": [
+        "Chaos Knights"
+      ],
+      "flavor": "The appearance of a Chaos Knight Asterius on the battlefield is a portent of doom, a symbol of Chaos’ ascendancy and the inevitable fall of Mankind – such is its incredible destructive potential and its formidable resilience. The pilots of these fell machines revel in their awesome power, levelling fortification after fortification.",
+      "id": "chaos-acastus-knight-asterius",
+      "keywords": [
+        "Acastus",
+        "Chaos",
+        "Frame",
+        "Knight Asterius",
+        "Titanic",
+        "Towering",
+        "Vehicle",
+        "Walker"
+      ],
+      "loadout": "**This model is equipped with:** 2 Asterius volkite culverins; karacnos mortar battery; 2 twin conversion beam cannons; titanic feet.",
+      "melee": [
+        {
+          "a": "6",
+          "ap": "-1",
+          "d": "2",
+          "name": "Titanic feet",
+          "s": "10",
+          "tags": [],
+          "ws": "4+"
+        }
+      ],
+      "name": "Chaos Acastus Knight Asterius",
+      "options": [
+        "None"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "note": "1st",
+          "points": 785
+        },
+        {
+          "models": 1,
+          "note": "2nd+",
+          "points": 860
+        }
+      ],
+      "profiles": [
+        {
+          "inv": "5+",
+          "invNote": "* Against ranged attacks only",
+          "ld": "6+",
+          "m": "8\"",
+          "name": "Chaos Acastus Knight Asterius",
+          "oc": "10",
+          "sv": "2+",
+          "t": "13",
+          "w": "30"
+        }
+      ],
+      "ranged": [
+        {
+          "a": "6",
+          "ap": "0",
+          "bs": "3+",
+          "d": "2",
+          "name": "Asterius volkite culverin",
+          "range": "24\"",
+          "s": "6",
+          "tags": [
+            "DEVASTATING WOUNDS"
+          ]
+        },
+        {
+          "a": "D6+3",
+          "ap": "-1",
+          "bs": "3+",
+          "d": "1",
+          "name": "Karacnos mortar battery",
+          "range": "48\"",
+          "s": "6",
+          "tags": [
+            "ANTI-INFANTRY 2+",
+            "BLAST",
+            "IGNORES COVER",
+            "INDIRECT FIRE"
+          ]
+        },
+        {
+          "a": "3",
+          "ap": "-2",
+          "bs": "3+",
+          "d": "6",
+          "name": "Twin conversion beam cannon",
+          "range": "48\"",
+          "s": "16",
+          "tags": [
+            "CONVERSION",
+            "SUSTAINED HITS D3",
+            "TWIN-LINKED"
+          ]
+        }
+      ],
+      "wargearAbilities": [
+        {
+          "name": "Conversion",
+          "text": "Each time an attack is made with this weapon, if the target is more than 24\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit."
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "name": "Bastion of Firepower",
+          "text": "Each time this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the [LETHAL HITS] ability."
+        }
+      ],
+      "baseSize": "Hull",
+      "composition": [
+        "1 Chaos Acastus Knight Porphyrion"
+      ],
+      "core": "Deadly Demise 2D6",
+      "damaged": {
+        "note": "1-10 wounds remaining",
+        "text": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      "faction": "Harbingers of Dread, Super-heavy Walker",
+      "factionKeywords": [
+        "Chaos Knights"
+      ],
+      "flavor": "The Chaos Knight Porphyrion can fight toe to toe even with the mighty god-engines of the Collegia Titanica, and is amongst the most formidable machines in the arsenals of those who have turned against the Emperor. Few foes can stand up to the immense power of its devastating weapons, which make short work of some of the toughest armour ever designed in the galaxy.",
+      "id": "chaos-acastus-knight-porphyrion",
+      "keywords": [
+        "Acastus",
+        "Chaos",
+        "Frame",
+        "Knight Porphyrion",
+        "Titanic",
+        "Towering",
+        "Vehicle",
+        "Walker"
+      ],
+      "loadout": "**This model is equipped with:** 2 Acastus autocannons; Acastus ironstorm missile pod; 2 twin magna lascannons; titanic feet.",
+      "melee": [
+        {
+          "a": "6",
+          "ap": "-1",
+          "d": "2",
+          "name": "Titanic feet",
+          "s": "10",
+          "tags": [],
+          "ws": "4+"
+        }
+      ],
+      "name": "Chaos Acastus Knight Porphyrion",
+      "options": [
+        "This model’s 2 Acastus autocannons can be replaced with one of the following:\n▪ 2 lascannons\n▪ 1 Acastus autocannon and 1 lascannon",
+        "This model’s Acastus ironstorm missile pod can be replaced with 1 helios defence missiles."
+      ],
+      "points": [
+        {
+          "models": 1,
+          "note": "1st",
+          "points": 725
+        },
+        {
+          "models": 1,
+          "note": "2nd+",
+          "points": 800
+        }
+      ],
+      "profiles": [
+        {
+          "inv": "5+",
+          "invNote": "* Against ranged attacks only",
+          "ld": "6+",
+          "m": "8\"",
+          "name": "Chaos Acastus Knight Porphyrion",
+          "oc": "10",
+          "sv": "2+",
+          "t": "13",
+          "w": "30"
+        }
+      ],
+      "ranged": [
+        {
+          "a": "2",
+          "ap": "-1",
+          "bs": "3+",
+          "d": "3",
+          "name": "Acastus Autocannon",
+          "range": "48\"",
+          "s": "9",
+          "tags": []
+        },
+        {
+          "a": "D6+6",
+          "ap": "0",
+          "bs": "3+",
+          "d": "1",
+          "name": "Acastus ironstorm missile pod",
+          "range": "48\"",
+          "s": "5",
+          "tags": [
+            "BLAST",
+            "HEAVY",
+            "INDIRECT FIRE"
+          ]
+        },
+        {
+          "a": "3",
+          "ap": "-2",
+          "bs": "3+",
+          "d": "D6",
+          "name": "Helios defence missiles",
+          "range": "48\"",
+          "s": "10",
+          "tags": [
+            "ANTI-FLY 2+",
+            "HEAVY"
+          ]
+        },
+        {
+          "a": "1",
+          "ap": "-3",
+          "bs": "3+",
+          "d": "D6+1",
+          "name": "Lascannon",
+          "range": "48\"",
+          "s": "12",
+          "tags": []
+        },
+        {
+          "a": "D6",
+          "ap": "-4",
+          "bs": "3+",
+          "d": "D6+6",
+          "name": "Twin magna lascannon",
+          "range": "72\"",
+          "s": "18",
+          "tags": [
+            "BLAST",
+            "TWIN-LINKED"
+          ]
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "name": "Searing Flames",
+          "text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with an Acheron flame cannon. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."
+        },
+        {
+          "name": "Unrestrained Terror (Aura)",
+          "text": "While a friendly War Dog model is within 6\" of this model, it is affected by this ability. At the start of the Fight phase, each enemy unit within Engagement Range of one or more WAR DOG units affected by this ability must take a Battle-shock test."
+        }
+      ],
+      "baseSize": "170x109mm Oval Base",
+      "composition": [
+        "1 Chaos Cerastus Knight Acheron"
+      ],
+      "core": "Deadly Demise D6+2",
+      "damaged": {
+        "note": "1-10 wounds remaining",
+        "text": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      "faction": "Harbingers of Dread, Super-heavy Walker",
+      "factionKeywords": [
+        "Chaos Knights"
+      ],
+      "flavor": "Terror weapons even when fighting for the Imperium, Knights Acheron that have turned to Chaos take this trait to a new, horrifying level. As determined as they ever were to exterminate their foes, now they take on such tasks with unrestrained glee, relishing in the burning of swathes of the enemy or the carving of foes with their chainfists.",
+      "id": "chaos-cerastus-knight-acheron",
+      "keywords": [
+        "Towering",
+        "Knight Acheron",
+        "Cerastus",
+        "Chaos",
+        "Titanic",
+        "Character",
+        "Walker",
+        "Vehicle"
+      ],
+      "loadout": "**This model is equipped with:** Acheron flame cannon; twin heavy bolter; reaper chainfist.",
+      "melee": [
+        {
+          "a": "4",
+          "ap": "-4",
+          "d": "6",
+          "name": "Reaper chainfist – strike",
+          "s": "14",
+          "tags": [],
+          "ws": "3+"
+        },
+        {
+          "a": "12",
+          "ap": "-3",
+          "d": "2",
+          "name": "Reaper chainfist – sweep",
+          "s": "9",
+          "tags": [],
+          "ws": "3+"
+        }
+      ],
+      "name": "Chaos Cerastus Knight Acheron",
+      "options": [
+        "None"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "note": "1st",
+          "points": 370
+        },
+        {
+          "models": 1,
+          "note": "2nd+",
+          "points": 385
+        }
+      ],
+      "profiles": [
+        {
+          "inv": "5+",
+          "invNote": "* Against ranged attacks only",
+          "ld": "6+",
+          "m": "12\"",
+          "name": "Chaos Cerastus Knight Acheron",
+          "oc": "10",
+          "sv": "3+",
+          "t": "11",
+          "w": "28"
+        }
+      ],
+      "ranged": [
+        {
+          "a": "2D6",
+          "ap": "-1",
+          "bs": "-",
+          "d": "2",
+          "name": "Acheron flame cannon",
+          "range": "18\"",
+          "s": "8",
+          "tags": [
+            "IGNORES COVER",
+            "TORRENT"
+          ]
+        },
+        {
+          "a": "3",
+          "ap": "-1",
+          "bs": "3+",
+          "d": "2",
+          "name": "Twin heavy bolter",
+          "range": "36\"",
+          "s": "5",
+          "tags": [
+            "SUSTAINED HITS 1",
+            "TWIN-LINKED"
+          ]
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "name": "Macro-extinction Protocols",
+          "text": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll. If that target is TITANIC or TOWERING, add 1 to the Wound roll as well."
+        },
+        {
+          "name": "Consumed with Hunger (Aura)",
+          "text": "While a friendly War Dog model is within 6\" of this model, each time that WAR DOG model makes an attack that targets a TITANIC or TOWERING unit, you can re-roll the Hit roll."
+        }
+      ],
+      "baseSize": "170x109mm Oval Base",
+      "composition": [
+        "1 Chaos Cerastus Knight Atrapos"
+      ],
+      "core": "Deadly Demise D6+2",
+      "damaged": {
+        "note": "1-10 wounds remaining",
+        "text": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      "faction": "Harbingers of Dread, Super-heavy Walker",
+      "factionKeywords": [
+        "Chaos Knights"
+      ],
+      "flavor": "Where the Knight Atrapos was created to destroy traitor war machines, fallen engines of this type now turn their devastating weapons to the destruction of the engines of its creators. They are totally consumed by the hunger that they carry with them, embracing the madness they were always so close to before turning against the Emperor.",
+      "id": "chaos-cerastus-knight-atrapos",
+      "keywords": [
+        "Cerastus",
+        "Vehicle",
+        "Knight Atrapos",
+        "Chaos",
+        "Towering",
+        "Titanic",
+        "Character",
+        "Walker"
+      ],
+      "loadout": "**This model is equipped with:** Atrapos lascutter; graviton singularity cannon.",
+      "melee": [
+        {
+          "a": "12",
+          "ap": "-1",
+          "d": "2",
+          "name": "Atrapos lascutter – low intensity",
+          "s": "7",
+          "tags": [
+            "SUSTAINED HITS 1"
+          ],
+          "ws": "3+"
+        },
+        {
+          "a": "6",
+          "ap": "-3",
+          "d": "4",
+          "name": "Atrapos lascutter – high intensity",
+          "s": "14",
+          "tags": [
+            "SUSTAINED HITS 1"
+          ],
+          "ws": "3+"
+        }
+      ],
+      "name": "Chaos Cerastus Knight Atrapos",
+      "options": [
+        "None"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "note": "1st",
+          "points": 385
+        },
+        {
+          "models": 1,
+          "note": "2nd+",
+          "points": 415
+        }
+      ],
+      "profiles": [
+        {
+          "inv": "5+",
+          "ld": "6+",
+          "m": "12\"",
+          "name": "Chaos Cerastus Knight Atrapos",
+          "oc": "10",
+          "sv": "3+",
+          "t": "11",
+          "w": "28"
+        }
+      ],
+      "ranged": [
+        {
+          "a": "2D6",
+          "ap": "-1",
+          "bs": "3+",
+          "d": "2",
+          "name": "Atrapos lascutter – low intensity",
+          "range": "36\"",
+          "s": "7",
+          "tags": [
+            "SUSTAINED HITS 1"
+          ]
+        },
+        {
+          "a": "D6",
+          "ap": "-3",
+          "bs": "3+",
+          "d": "4",
+          "name": "Atrapos lascutter – high intensity",
+          "range": "24\"",
+          "s": "14",
+          "tags": [
+            "SUSTAINED HITS 1"
+          ]
+        },
+        {
+          "a": "D3",
+          "ap": "-4",
+          "bs": "3+",
+          "d": "D6+1",
+          "name": "Graviton singularity cannon – contained",
+          "range": "24\"",
+          "s": "16",
+          "tags": [
+            "BLAST"
+          ]
+        },
+        {
+          "a": "D3",
+          "ap": "-4",
+          "bs": "3+",
+          "d": "D6+1",
+          "name": "Graviton singularity cannon – singularity",
+          "range": "24\"",
+          "s": "16",
+          "tags": [
+            "BLAST",
+            "DEVASTATING WOUNDS",
+            "HAZARDOUS"
+          ]
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "name": "Storm of Bolts",
+          "text": "In your Shooting phase, after this model has shot, select one unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Offerings for the Dark Gods (Aura)",
+          "text": "While a friendly War Dog model is within 6\" of this model, ranged weapons equipped by that WAR DOG model have the [SUSTAINED HITS 1] ability."
+        }
+      ],
+      "baseSize": "170x109mm Oval Base",
+      "composition": [
+        "1 Chaos Cerastus Knight Castigator"
+      ],
+      "core": "Deadly Demise D6+2",
+      "damaged": {
+        "note": "1-10 wounds remaining",
+        "text": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      "faction": "Harbingers of Dread, Super-heavy Walker",
+      "factionKeywords": [
+        "Chaos Knights"
+      ],
+      "flavor": "Able to can cut down innumerable foes in battle with their Castigator-pattern bolt cannons, they dedicate each death their dark patrons. They swear oaths to their gods as they stride through the oceans of blood and viscera they have spilled, and ready their warblades to hack down what little remains of the enemy.",
+      "id": "chaos-cerastus-knight-castigator",
+      "keywords": [
+        "Chaos",
+        "Walker",
+        "Towering",
+        "Knight Castigator",
+        "Vehicle",
+        "Character",
+        "Titanic",
+        "Cerastus"
+      ],
+      "loadout": "**This model is equipped with:** Castigator bolt cannon; tempest warblade.",
+      "melee": [
+        {
+          "a": "4",
+          "ap": "-4",
+          "d": "6",
+          "name": "Tempest warblade – strike",
+          "s": "14",
+          "tags": [],
+          "ws": "3+"
+        },
+        {
+          "a": "12",
+          "ap": "-3",
+          "d": "2",
+          "name": "Tempest warblade – sweep",
+          "s": "9",
+          "tags": [],
+          "ws": "3+"
+        }
+      ],
+      "name": "Chaos Cerastus Knight Castigator",
+      "options": [
+        "None"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "note": "1st",
+          "points": 370
+        },
+        {
+          "models": 1,
+          "note": "2nd+",
+          "points": 385
+        }
+      ],
+      "profiles": [
+        {
+          "inv": "5+",
+          "invNote": "* Against ranged attacks only",
+          "ld": "6+",
+          "m": "12\"",
+          "name": "Chaos Cerastus Knight Castigator",
+          "oc": "10",
+          "sv": "3+",
+          "t": "11",
+          "w": "28"
+        }
+      ],
+      "ranged": [
+        {
+          "a": "18",
+          "ap": "-2",
+          "bs": "3+",
+          "d": "2",
+          "name": "Castigator bolt cannon",
+          "range": "36\"",
+          "s": "6",
+          "tags": [
+            "TWIN-LINKED"
+          ]
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "name": "Shock Charge",
+          "text": "You can target this model with the Tank Shock Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+        },
+        {
+          "name": "Dark Fervour (Aura)",
+          "text": "While a friendly War Dog model is within 6\" of this model, ranged weapons equipped by that War Dog model have the [ASSAULT] ability."
+        }
+      ],
+      "baseSize": "170x109mm Oval Base",
+      "composition": [
+        "1 Chaos Cerastus Knight Lancer"
+      ],
+      "core": "Deadly Demise D6+2",
+      "damaged": {
+        "note": "1-10 wounds remaining",
+        "text": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      "faction": "Harbingers of Dread, Super-heavy Walker",
+      "factionKeywords": [
+        "Chaos Knights"
+      ],
+      "flavor": "Turning to the gods of Chaos has made Chaos Knights Lancer no less able duellists. They fight for their dark patrons with all the fervour they once served the Emperor, determined to prove their superior fighting skills with their shock lances before the gaze of their hideous deities.",
+      "id": "chaos-cerastus-knight-lancer",
+      "keywords": [
+        "Walker",
+        "Vehicle",
+        "Knight Lancer",
+        "Cerastus",
+        "Chaos",
+        "Towering",
+        "Titanic",
+        "Character"
+      ],
+      "loadout": "**This model is equipped with:** Cerastus shock lance.",
+      "melee": [
+        {
+          "a": "5",
+          "ap": "-3",
+          "d": "8",
+          "name": "Cerastus shock lance – strike",
+          "s": "20",
+          "tags": [
+            "LANCE"
+          ],
+          "ws": "2+"
+        },
+        {
+          "a": "10",
+          "ap": "-2",
+          "d": "3",
+          "name": "Cerastus shock lance – sweep",
+          "s": "10",
+          "tags": [],
+          "ws": "2+"
+        }
+      ],
+      "name": "Chaos Cerastus Knight Lancer",
+      "options": [
+        "None"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "note": "1st",
+          "points": 385
+        },
+        {
+          "models": 1,
+          "note": "2nd+",
+          "points": 415
+        }
+      ],
+      "profiles": [
+        {
+          "inv": "4+",
+          "ld": "6+",
+          "m": "14\"",
+          "name": "Chaos Cerastus Knight Lancer",
+          "oc": "10",
+          "sv": "3+",
+          "t": "11",
+          "w": "28"
+        }
+      ],
+      "ranged": [
+        {
+          "a": "6",
+          "ap": "0",
+          "bs": "3+",
+          "d": "2",
+          "name": "Cerastus shock lance",
+          "range": "12\"",
+          "s": "6",
+          "tags": [
+            "ASSAULT",
+            "SUSTAINED HITS 2"
+          ]
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "name": "Huntmaster (Aura)",
+          "text": "While a friendly War Dog model is within 6\" of this model, ranged weapons equipped by that WAR DOG model have the [ASSAULT] ability."
+        },
+        {
+          "name": "Repair Auto-simulacra",
+          "text": "At the end of your Command phase, this model regains up to D3 lost wounds."
+        }
+      ],
+      "baseSize": "170x109mm Oval Base",
+      "composition": [
+        "1 Chaos Questoris Knight Magaera"
+      ],
+      "core": "Deadly Demise D6",
+      "damaged": {
+        "note": "1-9 wounds remaining",
+        "text": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      "faction": "Harbingers of Dread, Super-heavy Walker",
+      "factionKeywords": [
+        "Chaos Knights"
+      ],
+      "flavor": "The Knight Magaera is a marvel of lost technology, ranging from its repair autosimulacra to its almost impregnable ionic flare shield. These devices make the Magaera ideally suited to shock assaults and breaching actions, enabling it to surge through the most heavily defended positions unscathed and eradicate its foes with terrifying blasts from its lightning cannon.",
+      "id": "chaos-questoris-knight-magaera",
+      "keywords": [
+        "Character",
+        "Walker",
+        "Vehicle",
+        "Chaos",
+        "Abhorrent",
+        "Knight Magaera",
+        "Towering",
+        "Titanic"
+      ],
+      "loadout": "**This model is equipped with:** lightning cannon; phased plasma-fusil; reaper chainsword.",
+      "melee": [
+        {
+          "a": "4",
+          "ap": "-3",
+          "d": "8",
+          "name": "Hekaton siege claw – strike",
+          "s": "20",
+          "tags": [],
+          "ws": "3+"
+        },
+        {
+          "a": "8",
+          "ap": "-2",
+          "d": "3",
+          "name": "Hekaton siege claw – sweep",
+          "s": "10",
+          "tags": [],
+          "ws": "3+"
+        },
+        {
+          "a": "4",
+          "ap": "-4",
+          "d": "6",
+          "name": "Reaper chainsword – strike",
+          "s": "14",
+          "tags": [],
+          "ws": "3+"
+        },
+        {
+          "a": "12",
+          "ap": "-3",
+          "d": "2",
+          "name": "Reaper chainsword – sweep",
+          "s": "9",
+          "tags": [],
+          "ws": "3+"
+        }
+      ],
+      "name": "Chaos Questoris Knight Magaera",
+      "options": [
+        "This model’s reaper chainsword can be replaced with 1 hekaton siege claw and 1 twin rad cleanser."
+      ],
+      "points": [
+        {
+          "models": 1,
+          "note": "1st",
+          "points": 375
+        },
+        {
+          "models": 1,
+          "note": "2nd+",
+          "points": 390
+        }
+      ],
+      "profiles": [
+        {
+          "inv": "5+",
+          "ld": "6+",
+          "m": "10\"",
+          "name": "Chaos Questoris Knight Magaera",
+          "oc": "10",
+          "sv": "3+",
+          "t": "11",
+          "w": "26"
+        }
+      ],
+      "ranged": [
+        {
+          "a": "12",
+          "ap": "0",
+          "bs": "3+",
+          "d": "2",
+          "name": "Lightning cannon",
+          "range": "48\"",
+          "s": "9",
+          "tags": [
+            "SUSTAINED HITS 2"
+          ]
+        },
+        {
+          "a": "2",
+          "ap": "-3",
+          "bs": "3+",
+          "d": "2",
+          "name": "Phased plasma-fusil",
+          "range": "24\"",
+          "s": "8",
+          "tags": [
+            "RAPID FIRE 2"
+          ]
+        },
+        {
+          "a": "D6",
+          "ap": "0",
+          "bs": "-",
+          "d": "1",
+          "name": "Twin rad cleanser",
+          "range": "12\"",
+          "s": "2",
+          "tags": [
+            "ANTI-INFANTRY 2+",
+            "IGNORES COVER",
+            "TORRENT",
+            "TWIN-LINKED"
+          ]
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "name": "Preysight (Aura)",
+          "text": "While a friendly War Dog model is within 6\" of this model, ranged weapons equipped by that WAR DOG model have the [IGNORES COVER] ability."
+        },
+        {
+          "name": "Grav-pinned",
+          "text": "In your Shooting phase, after this model has shot, if an enemy INFANTRY unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enemy unit is grav-pinned. While a unit is grav-pinned, subtract 2 from that unit’s Move characteristic and subtract 2 from Charge rolls made for that unit."
+        }
+      ],
+      "baseSize": "170x109mm Oval Base",
+      "composition": [
+        "1 Chaos Questoris Knight Styrix"
+      ],
+      "core": "Deadly Demise D6",
+      "damaged": {
+        "note": "1-9 wounds remaining",
+        "text": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic  and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      "faction": "Harbingers of Dread, Super-heavy Walker",
+      "factionKeywords": [
+        "Chaos Knights"
+      ],
+      "flavor": "Armed with a devastating combination of graviton, volkite and rad-cleanser weapons, the Chaos Knight Styrix is devastating in battle against infantry and supporting vehicles. The pilots of these walkers are fully aware of the sophistication of their war machines and the power of their weaponry. With the malign power of the Dark Gods behind them, their self-assuredness is total.",
+      "id": "chaos-questoris-knight-styrix",
+      "keywords": [
+        "Knight Styrix",
+        "Abhorrent",
+        "Chaos",
+        "Towering",
+        "Titanic",
+        "Character",
+        "Walker",
+        "Vehicle"
+      ],
+      "loadout": "**This model is equipped with:** graviton crusher; volkite chierovile; reaper chainsword.",
+      "melee": [
+        {
+          "a": "4",
+          "ap": "-3",
+          "d": "8",
+          "name": "Hekaton siege claw – strike",
+          "s": "20",
+          "tags": [],
+          "ws": "3+"
+        },
+        {
+          "a": "8",
+          "ap": "-2",
+          "d": "3",
+          "name": "Hekaton siege claw – sweep",
+          "s": "10",
+          "tags": [],
+          "ws": "3+"
+        },
+        {
+          "a": "4",
+          "ap": "-4",
+          "d": "6",
+          "name": "Reaper chainsword – strike",
+          "s": "14",
+          "tags": [],
+          "ws": "3+"
+        },
+        {
+          "a": "12",
+          "ap": "-3",
+          "d": "2",
+          "name": "Reaper chainsword – sweep",
+          "s": "9",
+          "tags": [],
+          "ws": "3+"
+        }
+      ],
+      "name": "Chaos Questoris Knight Styrix",
+      "options": [
+        "This model’s reaper chainsword can be replaced with 1 hekaton siege claw and 1 twin rad cleanser."
+      ],
+      "points": [
+        {
+          "models": 1,
+          "note": "1st",
+          "points": 365
+        },
+        {
+          "models": 1,
+          "note": "2nd+",
+          "points": 380
+        }
+      ],
+      "profiles": [
+        {
+          "inv": "5+",
+          "ld": "6+",
+          "m": "10\"",
+          "name": "Chaos Questoris Knight Styrix",
+          "oc": "10",
+          "sv": "3+",
+          "t": "11",
+          "w": "26"
+        }
+      ],
+      "ranged": [
+        {
+          "a": "3",
+          "ap": "-1",
+          "bs": "3+",
+          "d": "2",
+          "name": "Graviton crusher",
+          "range": "18\"",
+          "s": "6",
+          "tags": [
+            "ANTI-VEHICLE 2+",
+            "BLAST"
+          ]
+        },
+        {
+          "a": "D6",
+          "ap": "0",
+          "bs": "-",
+          "d": "1",
+          "name": "Twin rad cleanser",
+          "range": "12\"",
+          "s": "2",
+          "tags": [
+            "ANTI-INFANTRY 2+",
+            "IGNORES COVER",
+            "TORRENT",
+            "TWIN-LINKED"
+          ]
+        },
+        {
+          "a": "12",
+          "ap": "0",
+          "bs": "3+",
+          "d": "3",
+          "name": "Volkite chierovile",
+          "range": "30\"",
+          "s": "12",
+          "tags": [
+            "DEVASTATING WOUNDS"
+          ]
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "name": "Vortex Terrors (Psychic)",
+          "text": "At the start of your Shooting phase, select one enemy unit within 24\" of and visible to this model. That enemy unit must take a Battle-shock test."
+        },
+        {
+          "name": "Warp Storms (Psychic)",
+          "text": "At the end of your Movement phase, roll one D6 for each enemy unit within 9\" of one or more models with this ability: on a 3+, that enemy unit suffers D3 mortal wounds."
+        }
+      ],
+      "baseSize": "170x109mm Oval Base",
+      "composition": [
+        "1 Knight Abominant"
+      ],
+      "core": "Deadly Demise D6",
+      "damaged": {
+        "note": "1-9 wounds remaining",
+        "text": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      "faction": "Harbingers of Dread, Super-heavy Walker",
+      "factionKeywords": [
+        "Chaos Knights"
+      ],
+      "flavor": "Seen as especially blessed by the Dark Gods, Knights Abominant are suffused with warp energy. They unleash this power in terrifying waves, corrupting and mutating those nearby, and incinerating distant foes with blasts from their volkite combustors. In combat, they thrash coiling, warp‑wrought appendages, crushing anything that remains untainted.",
+      "id": "knight-abominant",
+      "keywords": [
+        "Abhorrent",
+        "Titanic",
+        "Walker",
+        "Vehicle",
+        "Psyker",
+        "Character",
+        "Chaos",
+        "Knight Abominant",
+        "Towering"
+      ],
+      "loadout": "**This model is equipped with:** diabolus heavy stubber; volkite combustor; balemace; electroscourge.",
+      "melee": [
+        {
+          "a": "3",
+          "ap": "-1",
+          "d": "2",
+          "name": "Balemace",
+          "s": "8",
+          "tags": [
+            "EXTRA ATTACKS"
+          ],
+          "ws": "3+"
+        },
+        {
+          "a": "9",
+          "ap": "-2",
+          "d": "3",
+          "name": "Electroscourge",
+          "s": "10",
+          "tags": [
+            "SUSTAINED HITS 1"
+          ],
+          "ws": "3+"
+        }
+      ],
+      "name": "Knight Abominant",
+      "points": [
+        {
+          "models": 1,
+          "note": "1st-2nd",
+          "points": 350
+        },
+        {
+          "models": 1,
+          "note": "3rd+",
+          "points": 370
+        }
+      ],
+      "profiles": [
+        {
+          "inv": "5+",
+          "invNote": "* Against ranged attacks only",
+          "ld": "6+",
+          "m": "10\"",
+          "name": "Knight Abominant",
+          "oc": "10",
+          "sv": "3+",
+          "t": "11",
+          "w": "26"
+        }
+      ],
+      "ranged": [
+        {
+          "a": "3",
+          "ap": "0",
+          "bs": "3+",
+          "d": "1",
+          "name": "Diabolus heavy stubber",
+          "range": "36\"",
+          "s": "5",
+          "tags": [
+            "RAPID FIRE 3"
+          ]
+        },
+        {
+          "a": "12",
+          "ap": "0",
+          "bs": "3+",
+          "d": "3",
+          "name": "Volkite combustor",
+          "range": "30\"",
+          "s": "12",
+          "tags": [
+            "DEVASTATING WOUNDS",
+            "IGNORES COVER"
+          ]
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "name": "Obsessive Ruthlessness",
+          "text": "This unit’s ranged attacks that target a **MONSTER/VEHICLE** unit can ignore modifiers to this unit’s:\n▪ **[gloss:ballistic-skill:BS]**.\n▪ **[gloss:hit-roll:Hit rolls]** and **[gloss:wound-roll:wound rolls]**."
+        },
+        {
+          "name": "Taskmaster (Aura)",
+          "text": "While a friendly War Dog model is within 9\" of this model, each time that WAR DOG model makes a ranged attack, re-roll a Hit roll of 1."
+        }
+      ],
+      "baseSize": "170x109mm Oval Base",
+      "composition": [
+        "1 Knight Desecrator"
+      ],
+      "core": "Deadly Demise D6",
+      "damaged": {
+        "note": "1-9 wounds remaining",
+        "text": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      "faction": "Harbingers of Dread, Super-heavy Walker",
+      "factionKeywords": [
+        "Chaos Knights"
+      ],
+      "flavor": "Knights Desecrator spare no living thing from their attacks. They possess potent mid-to close‑range armaments capable of duelling enemy war engines and monstrous beasts, or annihilating hordes of lesser foes. Their darkly regal pilots are cruel taskmasters, snarling commands to War Dog followers that lope to battle at their sides.",
+      "id": "knight-desecrator",
+      "keywords": [
+        "Character",
+        "Chaos",
+        "Knight Desecrator",
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Abhorrent"
+      ],
+      "loadout": "**This model is equipped with:** desecrator laser destructor; diabolus heavy stubber; reaper chainsword.",
+      "melee": [
+        {
+          "a": "4",
+          "ap": "-4",
+          "d": "6",
+          "name": "Reaper chainsword – strike",
+          "s": "14",
+          "tags": [],
+          "ws": "3+"
+        },
+        {
+          "a": "12",
+          "ap": "-3",
+          "d": "2",
+          "name": "Reaper chainsword – sweep",
+          "s": "9",
+          "tags": [],
+          "ws": "3+"
+        },
+        {
+          "a": "4",
+          "ap": "-3",
+          "d": "8",
+          "name": "Warpstrike claw – strike",
+          "s": "20",
+          "tags": [],
+          "ws": "3+"
+        },
+        {
+          "a": "8",
+          "ap": "-2",
+          "d": "3",
+          "name": "Warpstrike claw – sweep",
+          "s": "10",
+          "tags": [],
+          "ws": "3+"
+        }
+      ],
+      "name": "Knight Desecrator",
+      "options": [
+        "This model’s reaper chainsword can be replaced with 1 warpstrike claw."
+      ],
+      "points": [
+        {
+          "models": 1,
+          "note": "1st-2nd",
+          "points": 350
+        },
+        {
+          "models": 1,
+          "note": "3rd+",
+          "points": 370
+        }
+      ],
+      "profiles": [
+        {
+          "inv": "5+",
+          "invNote": "* Against ranged attacks only",
+          "ld": "6+",
+          "m": "10\"",
+          "name": "Knight Desecrator",
+          "oc": "10",
+          "sv": "3+",
+          "t": "11",
+          "w": "26"
+        }
+      ],
+      "ranged": [
+        {
+          "a": "3",
+          "ap": "-4",
+          "bs": "2+",
+          "d": "D6+3",
+          "name": "Desecrator laser destructor",
+          "range": "72\"",
+          "s": "18",
+          "tags": [
+            "DEVASTATING WOUNDS: MONSTER/VEHICLE"
+          ]
+        },
+        {
+          "a": "3",
+          "ap": "0",
+          "bs": "2+",
+          "d": "1",
+          "name": "Diabolus heavy stubber",
+          "range": "36\"",
+          "s": "5",
+          "tags": [
+            "RAPID FIRE 3"
+          ]
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "name": "Dread Dominion (Aura)",
+          "text": "While a friendly War Dog model is within 9\" of this model, improve that WAR DOG model’s Leadership and Objective Control characteristics by 1."
+        },
+        {
+          "name": "Seething Hatred",
+          "text": "Each time this unit is selected to shoot or fight, you can re‑roll one Hit roll or you can re‑roll one Wound roll when resolving those attacks."
+        }
+      ],
+      "baseSize": "170x109mm Oval Base",
+      "composition": [
+        "1 Knight Despoiler"
+      ],
+      "core": "Deadly Demise D6",
+      "damaged": {
+        "note": "1-9 wounds remaining",
+        "text": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      "faction": "Harbingers of Dread, Super-heavy Walker",
+      "factionKeywords": [
+        "Chaos Knights"
+      ],
+      "flavor": "Knights Despoiler epitomise all it means to be a Chaos Knight. Their Fallen Nobles repudiate honour and seethe with hatred. Capable of bearing a variety of powerful weapons suited to their pilot’s temperament, they unleash their hatred at range or in thunderous melee.",
+      "id": "knight-despoiler",
+      "keywords": [
+        "Walker",
+        "Character",
+        "Chaos",
+        "Knight Despoiler",
+        "Vehicle",
+        "Titanic",
+        "Towering",
+        "Abhorrent"
+      ],
+      "loadout": "**This model is equipped with:** daemonbreath meltagun; reaper chainsword; titanic feet; warpstrike claw.",
+      "melee": [
+        {
+          "a": "4",
+          "ap": "-4",
+          "d": "6",
+          "name": "Reaper chainsword – strike",
+          "s": "14",
+          "tags": [],
+          "ws": "3+"
+        },
+        {
+          "a": "12",
+          "ap": "-3",
+          "d": "2",
+          "name": "Reaper chainsword – sweep",
+          "s": "9",
+          "tags": [],
+          "ws": "3+"
+        },
+        {
+          "a": "4",
+          "ap": "-1",
+          "d": "2",
+          "name": "Titanic feet",
+          "s": "8",
+          "tags": [],
+          "ws": "4+"
+        },
+        {
+          "a": "4",
+          "ap": "-3",
+          "d": "8",
+          "name": "Warpstrike claw – strike",
+          "s": "20",
+          "tags": [],
+          "ws": "3+"
+        },
+        {
+          "a": "8",
+          "ap": "-2",
+          "d": "3",
+          "name": "Warpstrike claw – sweep",
+          "s": "10",
+          "tags": [],
+          "ws": "3+"
+        }
+      ],
+      "name": "Knight Despoiler",
+      "options": [
+        "This model’s daemonbreath meltagun can be replaced with 1 diabolus heavy stubber.",
+        "This model’s reaper chainsword can be replaced with 1 of the following:\n▪ 1 daemonbreath thermal cannon\n▪ 1 despoiler gatling cannon and 1 heavy darkflamer\n▪ 1 despoiler battle cannon and 1 diabolus heavy stubber",
+        "This model’s warpstrike claw can be replaced with 1 of the following:\n▪ 1 daemonbreath thermal cannon\n▪ 1 despoiler gatling cannon and 1 heavy darkflamer\n▪ 1 despoiler battle cannon and 1 diabolus heavy stubber",
+        "This model can be equipped with one of the following:\n▪ 1 havoc missile pod\n▪ 1 ruinspear rocket pod\n▪ 1 hellstorm autocannons"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "note": "1st",
+          "points": 360
+        },
+        {
+          "models": 1,
+          "note": "2nd+",
+          "points": 390
+        }
+      ],
+      "profiles": [
+        {
+          "inv": "5+",
+          "invNote": "* Against ranged attacks only",
+          "ld": "6+",
+          "m": "10\"",
+          "name": "Knight Despoiler",
+          "oc": "10",
+          "sv": "3+",
+          "t": "11",
+          "w": "26"
+        }
+      ],
+      "ranged": [
+        {
+          "a": "1",
+          "ap": "-4",
+          "bs": "3+",
+          "d": "D6",
+          "name": "Daemonbreath meltagun",
+          "range": "12\"",
+          "s": "9",
+          "tags": [
+            "MELTA 2"
+          ]
+        },
+        {
+          "a": "2D3",
+          "ap": "-4",
+          "bs": "3+",
+          "d": "D6",
+          "name": "Daemonbreath thermal cannon",
+          "range": "24\"",
+          "s": "12",
+          "tags": [
+            "BLAST",
+            "MELTA 6"
+          ]
+        },
+        {
+          "a": "D6+3",
+          "ap": "-1",
+          "bs": "3+",
+          "d": "3",
+          "name": "Despoiler battle cannon",
+          "range": "72\"",
+          "s": "10",
+          "tags": [
+            "BLAST",
+            "RAPID FIRE D6+3"
+          ]
+        },
+        {
+          "a": "18",
+          "ap": "-2",
+          "bs": "3+",
+          "d": "2",
+          "name": "Despoiler gatling cannon",
+          "range": "36\"",
+          "s": "6",
+          "tags": []
+        },
+        {
+          "a": "3",
+          "ap": "0",
+          "bs": "3+",
+          "d": "1",
+          "name": "Diabolus heavy stubber",
+          "range": "36\"",
+          "s": "5",
+          "tags": [
+            "RAPID FIRE 3"
+          ]
+        },
+        {
+          "a": "D6+1",
+          "ap": "0",
+          "bs": "3+",
+          "d": "1",
+          "name": "Havoc missile pod",
+          "range": "48\"",
+          "s": "5",
+          "tags": [
+            "BLAST",
+            "INDIRECT FIRE"
+          ]
+        },
+        {
+          "a": "D6",
+          "ap": "-1",
+          "bs": "-",
+          "d": "1",
+          "name": "Heavy darkflamer",
+          "range": "12\"",
+          "s": "5",
+          "tags": [
+            "IGNORES COVER",
+            "TORRENT"
+          ]
+        },
+        {
+          "a": "3",
+          "ap": "-1",
+          "bs": "3+",
+          "d": "2",
+          "name": "Hellstorm autocannons",
+          "range": "48\"",
+          "s": "7",
+          "tags": [
+            "ANTI-FLY 2+",
+            "TWIN-LINKED"
+          ]
+        },
+        {
+          "a": "3",
+          "ap": "-2",
+          "bs": "3+",
+          "d": "D6",
+          "name": "Ruinspear rocket pod",
+          "range": "48\"",
+          "s": "8",
+          "tags": []
+        }
+      ],
+      "wargearPoints": [
+        {
+          "name": "Despoiler gatling cannon",
+          "points": 25
+        },
+        {
+          "name": "Despoiler battle cannon",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "name": "Bloodlust",
+          "text": "Each time this model makes a Charge move, until the end of the turn, its melee weapons have the [DEVASTATING WOUNDS] ability."
+        },
+        {
+          "name": "Frenzied Rampage (Aura)",
+          "text": "While a friendly War Dog model is within 9\" of this model, each time that WAR DOG model makes a melee attack, re-roll a Hit roll of 1."
+        }
+      ],
+      "baseSize": "170x109mm Oval Base",
+      "composition": [
+        "1 Knight Rampager"
+      ],
+      "core": "Deadly Demise D6",
+      "damaged": {
+        "note": "1-9 wounds remaining",
+        "text": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      "faction": "Harbingers of Dread, Super-heavy Walker",
+      "factionKeywords": [
+        "Chaos Knights"
+      ],
+      "flavor": "Knights Rampager storm into battle with maddened, metallic howls. They are bereft of discipline or restraint, and plough into the thickest fighting of a war zone with insane ferocity. With swipes of their monstrous reaper chainswords and warpstrike claws, they fight more like frenzied daemons than machines.",
+      "id": "knight-rampager",
+      "keywords": [
+        "Titanic",
+        "Knight Rampager",
+        "Towering",
+        "Character",
+        "Abhorrent",
+        "Chaos",
+        "Walker",
+        "Vehicle"
+      ],
+      "loadout": "**This model is equipped with:** diabolus heavy stubber; reaper chainsword; warpstrike claw.",
+      "melee": [
+        {
+          "a": "6",
+          "ap": "-4",
+          "d": "6",
+          "name": "Reaper chainsword – strike",
+          "s": "14",
+          "tags": [
+            "SUSTAINED HITS 1"
+          ],
+          "ws": "2+"
+        },
+        {
+          "a": "18",
+          "ap": "-3",
+          "d": "2",
+          "name": "Reaper chainsword – sweep",
+          "s": "9",
+          "tags": [
+            "SUSTAINED HITS 1"
+          ],
+          "ws": "2+"
+        },
+        {
+          "a": "6",
+          "ap": "-3",
+          "d": "8",
+          "name": "Warpstrike claw – strike",
+          "s": "20",
+          "tags": [
+            "SUSTAINED HITS 1"
+          ],
+          "ws": "2+"
+        },
+        {
+          "a": "12",
+          "ap": "-2",
+          "d": "3",
+          "name": "Warpstrike claw – sweep",
+          "s": "10",
+          "tags": [
+            "SUSTAINED HITS 1"
+          ],
+          "ws": "2+"
+        }
+      ],
+      "name": "Knight Rampager",
+      "points": [
+        {
+          "models": 1,
+          "note": "1st-2nd",
+          "points": 350
+        },
+        {
+          "models": 1,
+          "note": "3rd+",
+          "points": 370
+        }
+      ],
+      "profiles": [
+        {
+          "inv": "5+",
+          "invNote": "* Against ranged attacks only",
+          "ld": "6+",
+          "m": "12\"",
+          "name": "Knight Rampager",
+          "oc": "10",
+          "sv": "3+",
+          "t": "11",
+          "w": "26"
+        }
+      ],
+      "ranged": [
+        {
+          "a": "3",
+          "ap": "0",
+          "bs": "3+",
+          "d": "1",
+          "name": "Diabolus heavy stubber",
+          "range": "36\"",
+          "s": "5",
+          "tags": [
+            "RAPID FIRE 3"
+          ]
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "name": "Methodical Destruction",
+          "text": "At the start of the first battle round, select one unit from your opponent’s army to be this model’s victim. Each time this model makes an attack that targets its victim, you can re-roll the Wound roll. Each time this model’s victim is destroyed, select one new enemy unit to be this model’s victim."
+        },
+        {
+          "name": "Close-range Killers (Aura)",
+          "text": "While a friendly **WAR DOG** model is within 9\" of this model, each time that **WAR DOG** model makes an attack that targets the closest eligible target, improve the Armour Penetration characteristic of that attack by 1."
+        }
+      ],
+      "baseSize": "170x109mm Oval Base",
+      "composition": [
+        "1 Knight Ruinator"
+      ],
+      "core": "Deadly Demise D6",
+      "damaged": {
+        "note": "1-9 wounds remaining",
+        "text": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      "faction": "Harbingers of Dread, Super-heavy Walker",
+      "factionKeywords": [
+        "Chaos Knights"
+      ],
+      "flavor": "Knights Ruinator charge the enemy lines amidst searing torrents of cursed flame and salvoes of shocking terrorpulse missiles. Fixating on a single foe or enemy formation until it is utterly destroyed then moving on to the next, these ghastly war engines burn and drill a trail of utter devastation for their comrades to follow into the very heart of their foes’ position.",
+      "id": "knight-ruinator",
+      "keywords": [
+        "Towering",
+        "Abhorrent",
+        "Character",
+        "Chaos",
+        "Titanic",
+        "Walker",
+        "Knight Ruinator",
+        "Vehicle"
+      ],
+      "loadout": "**This model is equipped with:** darkflame lance; terrorpulse missiles; fellbore.",
+      "melee": [
+        {
+          "a": "4",
+          "ap": "-3",
+          "d": "6",
+          "name": "Fellbore – strike",
+          "s": "14",
+          "tags": [
+            "ANTI-MONSTER 2+",
+            "ANTI-VEHICLE 2+"
+          ],
+          "ws": "3+"
+        },
+        {
+          "a": "10",
+          "ap": "-2",
+          "d": "2",
+          "name": "Fellbore – sweep",
+          "s": "9",
+          "tags": [],
+          "ws": "3+"
+        }
+      ],
+      "name": "Knight Ruinator",
+      "points": [
+        {
+          "models": 1,
+          "note": "1st-2nd",
+          "points": 325
+        },
+        {
+          "models": 1,
+          "note": "3rd+",
+          "points": 345
+        }
+      ],
+      "profiles": [
+        {
+          "inv": "5+",
+          "invNote": "* Against ranged attacks only",
+          "ld": "6+",
+          "m": "10\"",
+          "name": "Knight Ruinator",
+          "oc": "10",
+          "sv": "3+",
+          "t": "11",
+          "w": "26"
+        }
+      ],
+      "ranged": [
+        {
+          "a": "D6+6",
+          "ap": "-1",
+          "bs": "-",
+          "d": "2",
+          "name": "Darkflame lance",
+          "range": "18\"",
+          "s": "8",
+          "tags": [
+            "IGNORES COVER",
+            "TORRENT"
+          ]
+        },
+        {
+          "a": "D6+6",
+          "ap": "-2",
+          "bs": "3+",
+          "d": "2",
+          "name": "Terrorpulse missiles",
+          "range": "36\"",
+          "s": "8",
+          "tags": [
+            "BLAST"
+          ]
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "name": "Infernal Aegis (Aura)",
+          "text": "While a friendly **WAR DOG** unit is within 6\" of this model, each time an attack targets that **WAR DOG** unit, models in it have the Benefit of Cover against that attack."
+        },
+        {
+          "name": "Bastion of Corruption",
+          "text": "Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this model."
+        }
+      ],
+      "baseSize": "170x109mm Oval Base",
+      "composition": [
+        "1 Knight Tyrant"
+      ],
+      "core": "Deadly Demise D6+2",
+      "damaged": {
+        "note": "1-10 wounds remaining",
+        "text": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      "faction": "Harbingers of Dread, Super-heavy Walker",
+      "factionKeywords": [
+        "Chaos Knights"
+      ],
+      "flavor": "Knights Tyrant are walking bastions of corruption. Their mere presence is enough to foul reality with warp‑taint that drives back foes and scrambles teleportation signals, even as it provides infernal protection for smaller classes of Chaos Knight. Combined with their incredibly heavy arsenals of weaponry, they are terrifying war engines indeed.",
+      "id": "knight-tyrant",
+      "keywords": [
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Chaos",
+        "Character",
+        "Knight Tyrant",
+        "Vehicle"
+      ],
+      "loadout": "**This model is equipped with:** brimstone volcano lance; ectoplasma decimator; 2 gheiststrike missile launchers; 2 twin daemonbreath meltaguns; twin Desecrator cannon; titanic feet.",
+      "melee": [
+        {
+          "a": "4",
+          "ap": "-1",
+          "d": "2",
+          "name": "Titanic feet",
+          "s": "8",
+          "tags": [],
+          "ws": "4+"
+        }
+      ],
+      "name": "Knight Tyrant",
+      "options": [
+        "This model’s 2 gheiststrike missile launchers and twin Desecrator cannon can be replaced with 1 gheiststrike missile launcher and 2 twin Desecrator cannons.",
+        "This model’s brimstone volcano lance and ectoplasma decimator can be replaced with 1 darkflame cannon and 1 warpshock harpoon."
+      ],
+      "points": [
+        {
+          "models": 1,
+          "note": "1st",
+          "points": 390
+        },
+        {
+          "models": 1,
+          "note": "2nd+",
+          "points": 410
+        }
+      ],
+      "profiles": [
+        {
+          "inv": "5+",
+          "invNote": "* Against ranged attacks only",
+          "ld": "6+",
+          "m": "8\"",
+          "name": "Knight Tyrant",
+          "oc": "10",
+          "sv": "3+",
+          "t": "12",
+          "w": "28"
+        }
+      ],
+      "ranged": [
+        {
+          "a": "D3",
+          "ap": "-5",
+          "bs": "3+",
+          "d": "D6+8",
+          "name": "Brimstone volcano lance",
+          "range": "60\"",
+          "s": "20",
+          "tags": [
+            "BLAST"
+          ]
+        },
+        {
+          "a": "3D6",
+          "ap": "-1",
+          "bs": "-",
+          "d": "2",
+          "name": "Darkflame cannon",
+          "range": "18\"",
+          "s": "8",
+          "tags": [
+            "IGNORES COVER",
+            "TORRENT"
+          ]
+        },
+        {
+          "a": "D6+3",
+          "ap": "-3",
+          "bs": "3+",
+          "d": "2",
+          "name": "Ectoplasma decimator – standard",
+          "range": "36\"",
+          "s": "8",
+          "tags": [
+            "BLAST"
+          ]
+        },
+        {
+          "a": "D6+3",
+          "ap": "-4",
+          "bs": "3+",
+          "d": "3",
+          "name": "Ectoplasma decimator – supercharge",
+          "range": "36\"",
+          "s": "9",
+          "tags": [
+            "BLAST",
+            "HAZARDOUS"
+          ]
+        },
+        {
+          "a": "1",
+          "ap": "-6",
+          "bs": "3+",
+          "d": "D6+1",
+          "name": "Gheiststrike missile launcher",
+          "range": "72\"",
+          "s": "12",
+          "tags": [
+            "ANTI-TITANIC 4+",
+            "DEVASTATING WOUNDS"
+          ]
+        },
+        {
+          "a": "1",
+          "ap": "-4",
+          "bs": "3+",
+          "d": "D6",
+          "name": "Twin daemonbreath meltagun",
+          "range": "12\"",
+          "s": "9",
+          "tags": [
+            "MELTA 2",
+            "TWIN-LINKED"
+          ]
+        },
+        {
+          "a": "D6",
+          "ap": "0",
+          "bs": "3+",
+          "d": "1",
+          "name": "Twin Desecrator cannon",
+          "range": "36\"",
+          "s": "6",
+          "tags": [
+            "BLAST",
+            "TWIN-LINKED"
+          ]
+        },
+        {
+          "a": "D3",
+          "ap": "-6",
+          "bs": "3+",
+          "d": "12",
+          "name": "Warpshock harpoon",
+          "range": "12\"",
+          "s": "24",
+          "tags": [
+            "BLAST",
+            "DEVASTATING WOUNDS"
+          ]
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "name": "Brigand",
+          "text": "Each time this model makes a ranged attack that targets a unit that is within range of one or more objective markers, that attack has the [IGNORES COVER] ability."
+        }
+      ],
+      "baseSize": "100mm",
+      "composition": [
+        "1 War Dog Brigand"
+      ],
+      "core": "Deadly Demise D3",
+      "damaged": {
+        "note": "1-5 wounds remaining",
+        "text": "While this model has 1-5 wounds remaining, subtract 3 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      "faction": "Harbingers of Dread",
+      "factionKeywords": [
+        "Chaos Knights"
+      ],
+      "flavor": "Between them, Brigands and their Fallen Noble pilots have become so enamoured of the skilful, ranged kill that they mostly disdain the chaos of close assaults. Some even swear dark pacts compelling them to slay potent foes with ballistic elegance, or else to purge war zones of all life employing only ranged firepower.",
+      "id": "war-dog-brigand",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Chaos",
+        "War Dog",
+        "Brigand"
+      ],
+      "loadout": "**This model is equipped with:** avenger chaincannon; daemonbreath spear; diabolus heavy stubber; armoured feet.",
+      "melee": [
+        {
+          "a": "4",
+          "ap": "0",
+          "d": "1",
+          "name": "Armoured feet",
+          "s": "6",
+          "tags": [],
+          "ws": "3+"
+        }
+      ],
+      "name": "War Dog Brigand",
+      "options": [
+        "This model’s diabolus heavy stubber can be replaced with 1 havoc multi-launcher."
+      ],
+      "points": [
+        {
+          "models": 1,
+          "points": 135
+        }
+      ],
+      "profiles": [
+        {
+          "inv": "5+",
+          "invNote": "* Against ranged attacks only",
+          "ld": "7+",
+          "m": "12\"",
+          "name": "War Dog Brigand",
+          "oc": "6",
+          "sv": "3+",
+          "t": "9",
+          "w": "14"
+        }
+      ],
+      "ranged": [
+        {
+          "a": "12",
+          "ap": "-1",
+          "bs": "3+",
+          "d": "1",
+          "name": "Avenger chaincannon",
+          "range": "24\"",
+          "s": "6",
+          "tags": []
+        },
+        {
+          "a": "2",
+          "ap": "-4",
+          "bs": "3+",
+          "d": "D6",
+          "name": "Daemonbreath spear",
+          "range": "18\"",
+          "s": "12",
+          "tags": [
+            "MELTA 4"
+          ]
+        },
+        {
+          "a": "3",
+          "ap": "0",
+          "bs": "3+",
+          "d": "1",
+          "name": "Diabolus heavy stubber",
+          "range": "36\"",
+          "s": "5",
+          "tags": [
+            "RAPID FIRE 3"
+          ]
+        },
+        {
+          "a": "D6",
+          "ap": "0",
+          "bs": "3+",
+          "d": "1",
+          "name": "Havoc multi-launcher",
+          "range": "48\"",
+          "s": "5",
+          "tags": [
+            "BLAST",
+            "INDIRECT FIRE"
+          ]
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "name": "Executioner",
+          "text": "Each time this model makes an attack that targets a unit Below Half‑strength, add 1 to the Hit roll. Each time an enemy unit is destroyed as the result of this model’s attacks, before removing the last model in that unit from the battlefield, each other unit from your opponent’s army that is within 3\" of it must take a Battle‑shock test."
+        }
+      ],
+      "baseSize": "100mm",
+      "composition": [
+        "1 War Dog Executioner"
+      ],
+      "core": "Deadly Demise D3",
+      "damaged": {
+        "note": "1-5 wounds remaining",
+        "text": "While this model has 1-5 wounds remaining, subtract 3 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      "faction": "Harbingers of Dread",
+      "factionKeywords": [
+        "Chaos Knights"
+      ],
+      "flavor": "Methodical and coldly merciless, the Fallen Nobles who pilot War Dog Executioners employ their steeds’ long‑barrelled, rapid‑firing cannons to maximise their kills. They eviscerate throngs of the enemy and hammer the foes’ war engines into submission, seeking to reap greater murderous tallies than their peers.",
+      "id": "war-dog-executioner",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Executioner",
+        "War Dog",
+        "Chaos"
+      ],
+      "loadout": "**This model is equipped with:** diabolus heavy stubber; 2 War Dog autocannons; armoured feet.",
+      "melee": [
+        {
+          "a": "4",
+          "ap": "0",
+          "d": "1",
+          "name": "Armoured feet",
+          "s": "6",
+          "tags": [],
+          "ws": "3+"
+        }
+      ],
+      "name": "War Dog Executioner",
+      "options": [
+        "This model’s diabolus heavy stubber can be replaced with 1 daemonbreath meltagun."
+      ],
+      "points": [
+        {
+          "models": 1,
+          "points": 130
+        }
+      ],
+      "profiles": [
+        {
+          "inv": "5+",
+          "invNote": "* Against ranged attacks only",
+          "ld": "7+",
+          "m": "12\"",
+          "name": "War Dog Executioner",
+          "oc": "6",
+          "sv": "3+",
+          "t": "9",
+          "w": "14"
+        }
+      ],
+      "ranged": [
+        {
+          "a": "1",
+          "ap": "-4",
+          "bs": "3+",
+          "d": "D6",
+          "name": "Daemonbreath meltagun",
+          "range": "12\"",
+          "s": "9",
+          "tags": [
+            "MELTA 2"
+          ]
+        },
+        {
+          "a": "3",
+          "ap": "0",
+          "bs": "3+",
+          "d": "1",
+          "name": "Diabolus heavy stubber",
+          "range": "36\"",
+          "s": "5",
+          "tags": [
+            "RAPID FIRE 3"
+          ]
+        },
+        {
+          "a": "4",
+          "ap": "-1",
+          "bs": "3+",
+          "d": "3",
+          "name": "War Dog autocannon",
+          "range": "48\"",
+          "s": "9",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "name": "Huntsman",
+          "text": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Wound roll."
+        }
+      ],
+      "baseSize": "100mm",
+      "composition": [
+        "1 War Dog Huntsman"
+      ],
+      "core": "Deadly Demise D3",
+      "damaged": {
+        "note": "1-5 wounds remaining",
+        "text": "While this model has 1-5 wounds remaining, subtract 3 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      "faction": "Harbingers of Dread",
+      "factionKeywords": [
+        "Chaos Knights"
+      ],
+      "flavor": "Like hounds on the scent, Huntsmen often pursue much larger enemies and seek to drag their prey down as a pack. Their daemonbreath spears melt through the thickest armour while chaintalons are employed to drive deeply into gushing innards, tearing through organs and crew alike.",
+      "id": "war-dog-huntsman",
+      "keywords": [
+        "Huntsman",
+        "Walker",
+        "Chaos",
+        "War Dog",
+        "Vehicle"
+      ],
+      "loadout": "**This model is equipped with:** daemonbreath spear; diabolus heavy stubber; reaper chaintalon.",
+      "melee": [
+        {
+          "a": "4",
+          "ap": "-3",
+          "d": "3",
+          "name": "Reaper chaintalon – strike",
+          "s": "10",
+          "tags": [],
+          "ws": "3+"
+        },
+        {
+          "a": "8",
+          "ap": "-2",
+          "d": "1",
+          "name": "Reaper chaintalon – sweep",
+          "s": "8",
+          "tags": [],
+          "ws": "3+"
+        }
+      ],
+      "name": "War Dog Huntsman",
+      "options": [
+        "This model’s diabolus heavy stubber can be replaced with 1 daemonbreath meltagun."
+      ],
+      "points": [
+        {
+          "models": 1,
+          "points": 135
+        }
+      ],
+      "profiles": [
+        {
+          "inv": "5+",
+          "invNote": "* Against ranged attacks only",
+          "ld": "7+",
+          "m": "12\"",
+          "name": "War Dog Huntsman",
+          "oc": "6",
+          "sv": "3+",
+          "t": "9",
+          "w": "14"
+        }
+      ],
+      "ranged": [
+        {
+          "a": "1",
+          "ap": "-4",
+          "bs": "3+",
+          "d": "D6",
+          "name": "Daemonbreath meltagun",
+          "range": "12\"",
+          "s": "9",
+          "tags": [
+            "MELTA 2"
+          ]
+        },
+        {
+          "a": "2",
+          "ap": "-4",
+          "bs": "3+",
+          "d": "D6",
+          "name": "Daemonbreath spear",
+          "range": "18\"",
+          "s": "12",
+          "tags": [
+            "MELTA 4"
+          ]
+        },
+        {
+          "a": "3",
+          "ap": "0",
+          "bs": "3+",
+          "d": "1",
+          "name": "Diabolus heavy stubber",
+          "range": "36\"",
+          "s": "5",
+          "tags": [
+            "RAPID FIRE 3"
+          ]
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "name": "Karnivore",
+          "text": "You can re‑roll Advance and Charge rolls made for this unit."
+        }
+      ],
+      "baseSize": "100mm",
+      "composition": [
+        "1 War Dog Karnivore"
+      ],
+      "core": "Deadly Demise D3",
+      "damaged": {
+        "note": "1-5 wounds remaining",
+        "text": "While this model has 1-5 wounds remaining, subtract 3 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      "faction": "Harbingers of Dread",
+      "factionKeywords": [
+        "Chaos Knights"
+      ],
+      "flavor": "Aggressive and bloodthirsty, Karnivores eschew the more potent ranged weapons of the War Dog chassis. Their pilots revel in causing bloody confusion and despair, seeking the visceral thrill that only close‑quarters slaughter provides. Such extreme inclinations lead many of their pilots to fall to the open worship of one of the Chaos Gods.",
+      "id": "war-dog-karnivore",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Chaos",
+        "War Dog",
+        "Karnivore"
+      ],
+      "loadout": "**This model is equipped with:** diabolus heavy stubber; reaper chaintalon; slaughterclaw.",
+      "melee": [
+        {
+          "a": "12",
+          "ap": "-2",
+          "d": "1",
+          "name": "Reaper chaintalon",
+          "s": "8",
+          "tags": [
+            "SUSTAINED HITS 1"
+          ],
+          "ws": "3+"
+        },
+        {
+          "a": "6",
+          "ap": "-3",
+          "d": "D6+2",
+          "name": "Slaughterclaw",
+          "s": "12",
+          "tags": [
+            "SUSTAINED HITS 1"
+          ],
+          "ws": "3+"
+        }
+      ],
+      "name": "War Dog Karnivore",
+      "options": [
+        "This model’s diabolus heavy stubber can be replaced with 1 havoc multi-launcher."
+      ],
+      "points": [
+        {
+          "models": 1,
+          "points": 145
+        }
+      ],
+      "profiles": [
+        {
+          "inv": "5+",
+          "invNote": "* Against ranged attacks only",
+          "ld": "7+",
+          "m": "14\"",
+          "name": "War Dog Karnivore",
+          "oc": "6",
+          "sv": "3+",
+          "t": "9",
+          "w": "14"
+        }
+      ],
+      "ranged": [
+        {
+          "a": "3",
+          "ap": "0",
+          "bs": "3+",
+          "d": "1",
+          "name": "Diabolus heavy stubber",
+          "range": "36\"",
+          "s": "5",
+          "tags": [
+            "RAPID FIRE 3"
+          ]
+        },
+        {
+          "a": "D6",
+          "ap": "0",
+          "bs": "3+",
+          "d": "1",
+          "name": "Havoc multi-launcher",
+          "range": "48\"",
+          "s": "5",
+          "tags": [
+            "BLAST",
+            "INDIRECT FIRE"
+          ]
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "name": "Protection Protocols",
+          "text": "You can target this unit with the **[gloss:heroic-intervention:Heroic Intervention stratagem]**, regardless of any other uses of that **[gloss:stratagem:stratagem]** this phase. If you do:\n▪ That use is -1 CP.\n▪ That use does not prevent any uses of that stratagem on other units this phase."
+        }
+      ],
+      "baseSize": "100mm",
+      "composition": [
+        "1 War Dog Moirax"
+      ],
+      "core": "Deadly Demise D3",
+      "damaged": {
+        "note": "1-5 wounds remaining",
+        "text": "While this model has 1-5 wounds remaining, subtract 3 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      "faction": "Harbingers of Dread",
+      "factionKeywords": [
+        "Chaos Knights"
+      ],
+      "flavor": "Moirax-pattern Armigers excel in speeding ahead of their larger brethren, hunting down targets of opportunity and cutting down the vulnerable. They relish the slaughter of the weak, each slain only proving the War Dogs’ superiority as well as that of the monstrous deity or deities they have elected to follow in the Emperor’s stead.",
+      "id": "war-dog-moirax",
+      "keywords": [
+        "Moirax",
+        "Vehicle",
+        "War Dog",
+        "Chaos",
+        "Walker"
+      ],
+      "loadout": "**This model is equipped with:** graviton pulsar; volkite veuglaire; armoured feet.",
+      "melee": [
+        {
+          "a": "4",
+          "ap": "0",
+          "d": "1",
+          "name": "Armoured feet",
+          "s": "6",
+          "tags": [],
+          "ws": "3+"
+        },
+        {
+          "a": "4",
+          "ap": "-3",
+          "d": "D6+2",
+          "name": "Siege claw",
+          "s": "12",
+          "tags": [],
+          "ws": "3+"
+        }
+      ],
+      "name": "War Dog Moirax",
+      "options": [
+        "This model’s graviton pulsar can be replaced with one of the following;\n▪ 1 siege claw and 1 rad cleanser\n▪ 1 lightning lock\n▪ 1 conversion beam cannon\n▪ 1 volkite veuglaire",
+        "This model’s volkite veuglaire can be replaced with one of the following:\n▪ 1 siege claw and 1 rad cleanser\n▪ 1 graviton pulsar\n▪ 1 lightning lock\n▪ 1 conversion beam cannon"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "note": "1st-2nd",
+          "points": 150
+        },
+        {
+          "models": 1,
+          "note": "3rd+",
+          "points": 160
+        }
+      ],
+      "profiles": [
+        {
+          "inv": "5+",
+          "invNote": "* Against ranged attacks only",
+          "ld": "7+",
+          "m": "12\"",
+          "name": "War Dog Moirax",
+          "oc": "6",
+          "sv": "3+",
+          "t": "9",
+          "w": "14"
+        }
+      ],
+      "ranged": [
+        {
+          "a": "1",
+          "ap": "-2",
+          "bs": "3+",
+          "d": "3",
+          "name": "Conversion beam cannon",
+          "range": "24\"",
+          "s": "10",
+          "tags": [
+            "CONVERSION",
+            "SUSTAINED HITS D3"
+          ]
+        },
+        {
+          "a": "D6",
+          "ap": "-1",
+          "bs": "3+",
+          "d": "2",
+          "name": "Graviton pulsar",
+          "range": "24\"",
+          "s": "7",
+          "tags": [
+            "ANTI-VEHICLE 2+",
+            "BLAST"
+          ]
+        },
+        {
+          "a": "6",
+          "ap": "0",
+          "bs": "3+",
+          "d": "1",
+          "name": "Lightning lock",
+          "range": "36\"",
+          "s": "8",
+          "tags": [
+            "SUSTAINED HITS 2"
+          ]
+        },
+        {
+          "a": "D6",
+          "ap": "0",
+          "bs": "-",
+          "d": "1",
+          "name": "Rad cleanser",
+          "range": "12\"",
+          "s": "2",
+          "tags": [
+            "ANTI-INFANTRY 2+",
+            "IGNORES COVER",
+            "TORRENT"
+          ]
+        },
+        {
+          "a": "4",
+          "ap": "0",
+          "bs": "3+",
+          "d": "2",
+          "name": "Volkite veuglaire",
+          "range": "36\"",
+          "s": "8",
+          "tags": [
+            "DEVASTATING WOUNDS"
+          ]
+        }
+      ],
+      "wargearAbilities": [
+        {
+          "name": "Conversion",
+          "text": "Each time an attack made with this weapon targets an enemy unit that is not within 12\", an unmodified Hit roll of 4+ scores a Critical Hit."
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "name": "Stalker",
+          "text": "Each time this model makes an attack that targets an enemy unit, if there are no other units from your opponent’s army within 6\" of that target, add 1 to the Wound roll."
+        }
+      ],
+      "baseSize": "100mm",
+      "composition": [
+        "1 War Dog Stalker"
+      ],
+      "core": "Deadly Demise D3, Scouts 6\"",
+      "damaged": {
+        "note": "1-5 wounds remaining",
+        "text": "While this model has 1-5 wounds remaining, subtract 3 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      "faction": "Harbingers of Dread",
+      "factionKeywords": [
+        "Chaos Knights"
+      ],
+      "flavor": "Only the most strong‑willed pilots have the mental fortitude to harness a Stalker. Like pack alphas, they often lead other War Dogs in carefully planned attacks, harrying the foe’s flanks, butchering reinforcements and hunting down lone threats. Boasting a balance of long- and short‑ranged weaponry, these War Dogs are fearsome foes.",
+      "id": "war-dog-stalker",
+      "keywords": [
+        "Walker",
+        "Vehicle",
+        "Chaos",
+        "War Dog",
+        "Stalker"
+      ],
+      "loadout": "**This model is equipped with:** avenger chaincannon; diabolus heavy stubber; slaughterclaw.",
+      "melee": [
+        {
+          "a": "4",
+          "ap": "-3",
+          "d": "3",
+          "name": "Reaper chaintalon – strike",
+          "s": "10",
+          "tags": [],
+          "ws": "3+"
+        },
+        {
+          "a": "8",
+          "ap": "-2",
+          "d": "1",
+          "name": "Reaper chaintalon – sweep",
+          "s": "8",
+          "tags": [],
+          "ws": "3+"
+        },
+        {
+          "a": "4",
+          "ap": "-3",
+          "d": "D6+2",
+          "name": "Slaughterclaw",
+          "s": "12",
+          "tags": [],
+          "ws": "3+"
+        }
+      ],
+      "name": "War Dog Stalker",
+      "options": [
+        "This model’s avenger chaincannon can be replaced with 1 daemonbreath spear.",
+        "This model’s diabolus heavy stubber can be replaced with 1 havoc multi-launcher.",
+        "This model’s slaughterclaw can be replaced with 1 reaper chaintalon."
+      ],
+      "points": [
+        {
+          "models": 1,
+          "points": 135
+        }
+      ],
+      "profiles": [
+        {
+          "inv": "5+",
+          "invNote": "* Against ranged attacks only",
+          "ld": "7+",
+          "m": "12\"",
+          "name": "War Dog Stalker",
+          "oc": "6",
+          "sv": "3+",
+          "t": "9",
+          "w": "14"
+        }
+      ],
+      "ranged": [
+        {
+          "a": "12",
+          "ap": "-1",
+          "bs": "3+",
+          "d": "1",
+          "name": "Avenger chaincannon",
+          "range": "24\"",
+          "s": "6",
+          "tags": []
+        },
+        {
+          "a": "2",
+          "ap": "-4",
+          "bs": "3+",
+          "d": "D6",
+          "name": "Daemonbreath spear",
+          "range": "18\"",
+          "s": "12",
+          "tags": [
+            "MELTA 4"
+          ]
+        },
+        {
+          "a": "3",
+          "ap": "0",
+          "bs": "3+",
+          "d": "1",
+          "name": "Diabolus heavy stubber",
+          "range": "36\"",
+          "s": "5",
+          "tags": [
+            "RAPID FIRE 3"
+          ]
+        },
+        {
+          "a": "D6",
+          "ap": "0",
+          "bs": "3+",
+          "d": "1",
+          "name": "Havoc multi-launcher",
+          "range": "48\"",
+          "s": "5",
+          "tags": [
+            "BLAST",
+            "INDIRECT FIRE"
+          ]
+        }
+      ]
+    }
+  ]
+}

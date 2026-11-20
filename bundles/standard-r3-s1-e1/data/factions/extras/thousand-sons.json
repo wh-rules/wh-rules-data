@@ -1,0 +1,10 @@
+{
+  "default": {
+    "enh:warpmeld-pact:Bray Lord": [
+      {
+        "en": "In the Declare Battle Formations step, the bearer can be attached to a Tzaangors unit.",
+        "ru": "В шаге объявления боевых построений носитель может быть прикреплён к юниту Tzaangors."
+      }
+    ]
+  }
+}

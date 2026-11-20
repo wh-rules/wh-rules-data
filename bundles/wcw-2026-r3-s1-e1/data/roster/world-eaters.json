@@ -1,0 +1,3380 @@
+{
+  "default": {
+    "allies": [
+      {
+        "dets": [
+          "Khorne Daemonkin"
+        ],
+        "ids": [
+          "bloodcrushers",
+          "bloodletters",
+          "bloodthirster",
+          "flesh-hounds",
+          "skarbrand"
+        ],
+        "key": "blood-legions",
+        "name": "Blood Legions",
+        "pts": {
+          "incursion": 500,
+          "onslaught": 1500,
+          "strike-force": 1000
+        }
+      },
+      {
+        "ids": [
+          "chaos-knights:chaos-acastus-knight-asterius",
+          "chaos-knights:chaos-acastus-knight-porphyrion",
+          "chaos-knights:chaos-cerastus-knight-acheron",
+          "chaos-knights:chaos-cerastus-knight-atrapos",
+          "chaos-knights:chaos-cerastus-knight-castigator",
+          "chaos-knights:chaos-cerastus-knight-lancer",
+          "chaos-knights:chaos-questoris-knight-magaera",
+          "chaos-knights:chaos-questoris-knight-styrix",
+          "chaos-knights:knight-abominant",
+          "chaos-knights:knight-desecrator",
+          "chaos-knights:knight-despoiler",
+          "chaos-knights:knight-rampager",
+          "chaos-knights:knight-ruinator",
+          "chaos-knights:knight-tyrant",
+          "chaos-knights:war-dog-brigand",
+          "chaos-knights:war-dog-executioner",
+          "chaos-knights:war-dog-huntsman",
+          "chaos-knights:war-dog-karnivore",
+          "chaos-knights:war-dog-moirax",
+          "chaos-knights:war-dog-stalker"
+        ],
+        "key": "chaos-knights",
+        "lim": {
+          "Titanic": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "War Dog": {
+            "incursion": 3,
+            "onslaught": 3,
+            "strike-force": 3
+          }
+        },
+        "mutex": 1,
+        "name": "Chaos Knights"
+      },
+      {
+        "ids": [
+          "chaos-titan-legions:chaos-reaver-titan",
+          "chaos-titan-legions:chaos-warbringer-nemesis-titan",
+          "chaos-titan-legions:chaos-warhound-titan",
+          "chaos-titan-legions:chaos-warlord-titan"
+        ],
+        "key": "titanicus-traitoris",
+        "lim": {
+          "Reaver Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warbringer Nemesis Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warhound Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warlord Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          }
+        },
+        "mutex": 1,
+        "name": "Titanicus Traitoris"
+      }
+    ],
+    "detachments": [
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Berzerker Glaive",
+            "pts": 35,
+            "req": [
+              {
+                "fac": [
+                  "World Eaters"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Helm of Brazen Ire",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "World Eaters"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Favoured of Khorne",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "World Eaters"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Battle-lust",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "World Eaters"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Berzerker Warband",
+        "sid": "0a5d7ebb-ce39-4751-a90c-889883517b66"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "limit": 3,
+            "name": "Talons of Butchery (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 20,
+            "req": [
+              {
+                "ds": "Maulerfiend",
+                "fac": [
+                  "World Eaters"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "limit": 3,
+            "name": "Murder-forged Entity (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "World Eaters"
+                ],
+                "kw": [
+                  "Vehicle"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Disruption"
+        ],
+        "name": "Brazen Engines",
+        "sid": "b316e2f6-0b93-4805-9b5e-38f050875ad3",
+        "unique": "ONSLAUGHT"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "limit": 3,
+            "name": "Sanctified in Slaughter (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Terminator Squad"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "limit": 3,
+            "name": "Gore-stained Veterans (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Terminator Squad"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Butchers of Khorne",
+        "sid": "16d7618b-880a-4f47-97e2-385df44bc860"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Chosen of the Blood God",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "World Eaters"
+                ],
+                "kw": [
+                  "Monster"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "attach": [
+              {
+                "to": "goremongers",
+                "type": "leader"
+              },
+              {
+                "to": "jakhals",
+                "type": "leader"
+              }
+            ],
+            "name": "Butcher Lord",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "World Eaters"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Brazen Form",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "World Eaters"
+                ],
+                "kw": [
+                  "Monster"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Strategic Slaughter",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "World Eaters"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Cult of Blood",
+        "sid": "ae5e755c-230d-46a9-ad1a-d3afaf3633ca"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Murderous Onslaught",
+            "pts": 5,
+            "req": [
+              {
+                "fac": [
+                  "World Eaters"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Aggressive Deployment",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "World Eaters"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Unleash Hell",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "World Eaters"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Infernal Infusion",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "World Eaters"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Goretrack Onslaught",
+        "sid": "b21e5072-38d5-42b5-9143-9aabcbf499d8",
+        "unique": "ONSLAUGHT"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Icon of War",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "World Eaters"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Blood-Forged Armour",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "World Eaters"
+                ]
+              },
+              {
+                "fac": [
+                  "Blood Legions"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "attach": [
+              {
+                "to": "flesh-hounds",
+                "type": "leader"
+              },
+              {
+                "to": "bloodcrushers",
+                "type": "leader"
+              }
+            ],
+            "name": "Disciple of Khorne",
+            "notWarlord": 1,
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Lord on Juggernaut"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Blade of Endless Bloodshed",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "World Eaters"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Khorne Daemonkin",
+        "sid": "960c7ecf-3cc0-4d10-8d0c-5839273ea651"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Malicious Vigour",
+            "pts": 30,
+            "req": [
+              {
+                "kw": [
+                  "Slaughterbound"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Killing Clarity",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "World Eaters"
+                ],
+                "kw": [
+                  "Daemon"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Frenzied Focus",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "World Eaters"
+                ],
+                "kw": [
+                  "Daemon"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Violent Demise",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "World Eaters"
+                ],
+                "kw": [
+                  "Daemon"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Possessed Slaughterband",
+        "sid": "11575a4f-0e5c-46e2-9085-392f11226cab"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Archslaughterer",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "World Eaters"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Gateways to Glory",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "World Eaters"
+                ],
+                "kw": [
+                  "Daemon Prince"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Vessels of Wrath",
+        "sid": "e8136aea-8e9c-470a-aa7b-a33dfa33c9ea"
+      }
+    ],
+    "name": "World Eaters",
+    "slug": "world-eaters",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3139,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "supreme": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "angron",
+        "kws": [
+          "Angron",
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Epic Hero",
+          "Fly",
+          "Khorne",
+          "Monster",
+          "Primarch"
+        ],
+        "linked": 1,
+        "name": "Angron",
+        "sid": "1c2f7059-455d-4e9c-a5c8-b92e74c6b26f",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 330
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                857,
+                1
+              ],
+              [
+                856,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                856,
+                1
+              ],
+              [
+                857,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Blood Legions"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "cond": [
+              1,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                858
+              ]
+            ],
+            "t": 331
+          },
+          {
+            "cond": [
+              0,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                859
+              ]
+            ],
+            "t": 332
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "bloodcrushers",
+        "kws": [
+          "Bloodcrushers",
+          "Chaos",
+          "Daemon",
+          "Khorne",
+          "Mounted",
+          "Summoned"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Bloodhunter"
+          },
+          {
+            "n": "Bloodcrusher"
+          }
+        ],
+        "name": "Bloodcrushers",
+        "sid": "5d70ec64-046f-4454-9024-2a5b3c98580d",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 95
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                3,
+                5
+              ]
+            ],
+            "per": [
+              4,
+              6
+            ],
+            "pts": 190
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                856,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                856,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Blood Legions"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "cond": [
+              1,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                858
+              ]
+            ],
+            "t": 333
+          },
+          {
+            "cond": [
+              0,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                859
+              ]
+            ],
+            "t": 334
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "bloodletters",
+        "kws": [
+          "Battleline",
+          "Bloodletters",
+          "Chaos",
+          "Daemon",
+          "Infantry",
+          "Khorne",
+          "Summoned"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Bloodreaper"
+          },
+          {
+            "n": "Bloodletter"
+          }
+        ],
+        "name": "Bloodletters",
+        "sid": "d40f017b-61dc-4bc4-98c9-44d6cd78b7ad",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 90
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                861,
+                1
+              ],
+              [
+                862,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Blood Legions"
+        ],
+        "flags": {
+          "char": 1,
+          "noWarlord": 1
+        },
+        "gear": [
+          {
+            "fixed": 1,
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    863,
+                    1
+                  ],
+                  [
+                    864,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    863,
+                    1
+                  ],
+                  [
+                    3140,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              862
+            ],
+            "t": 1002
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "bloodthirster",
+        "kws": [
+          "Bloodthirster",
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Fly",
+          "Khorne",
+          "Monster",
+          "Summoned"
+        ],
+        "linked": 1,
+        "name": "Bloodthirster",
+        "sid": "fdbbd4fa-7f3e-4b4f-ac05-0e8ee653b8ea",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 320
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3141,
+                1
+              ],
+              [
+                3142,
+                2
+              ],
+              [
+                3143,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3144
+              ],
+              [
+                1034
+              ]
+            ],
+            "t": 186
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3145
+              ]
+            ],
+            "t": 369
+          }
+        ],
+        "id": "chaos-land-raider",
+        "kws": [
+          "Chaos",
+          "Frame",
+          "Khorne",
+          "Land Raider",
+          "Smoke",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Chaos Land Raider",
+        "sid": "e8a85ae9-21df-40e5-b829-18c68384c153",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 200
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3146,
+                1
+              ],
+              [
+                3147,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    3148,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    529,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "t": 1003
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3145
+              ]
+            ],
+            "t": 369
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3144
+              ],
+              [
+                1034
+              ]
+            ],
+            "t": 186
+          }
+        ],
+        "id": "chaos-predator-annihilator",
+        "kws": [
+          "Chaos",
+          "Frame",
+          "Khorne",
+          "Predator Annihilator",
+          "Smoke",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Chaos Predator Annihilator",
+        "sid": "4b7265a1-c96f-437b-aac5-c5249660614a",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 130
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3147,
+                1
+              ],
+              [
+                3149,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    3148,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    529,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "t": 1003
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3144
+              ],
+              [
+                1034
+              ]
+            ],
+            "t": 186
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3145
+              ]
+            ],
+            "t": 369
+          }
+        ],
+        "id": "chaos-predator-destructor",
+        "kws": [
+          "Chaos",
+          "Frame",
+          "Khorne",
+          "Predator Destructor",
+          "Smoke",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Chaos Predator Destructor",
+        "sid": "6578cc75-7682-4b14-834c-2a470bb0856a",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 130
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3144,
+                1
+              ],
+              [
+                3147,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3144
+              ],
+              [
+                1034
+              ]
+            ],
+            "t": 464
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3145
+              ]
+            ],
+            "t": 379
+          }
+        ],
+        "id": "chaos-rhino",
+        "kws": [
+          "Chaos",
+          "Dedicated Transport",
+          "Frame",
+          "Khorne",
+          "Rhino",
+          "Smoke",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Chaos Rhino",
+        "sid": "556ff0b6-fd5e-4888-9b93-a5b5f730a2b2",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 75
+          }
+        ],
+        "step": {
+          "at": 4,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3150,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {},
+        "id": "chaos-spawn",
+        "kws": [
+          "Beast",
+          "Chaos",
+          "Khorne",
+          "Spawn"
+        ],
+        "linked": 1,
+        "name": "Chaos Spawn",
+        "sid": "6757c8ab-06a5-487d-80af-aad8cf771972",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              2,
+              2
+            ],
+            "pts": 95
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3144,
+                1
+              ],
+              [
+                1029,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3144,
+                1
+              ],
+              [
+                1029,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                5,
+                1
+              ],
+              [
+                10,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                528
+              ],
+              [
+                3151
+              ]
+            ],
+            "rep": [
+              3144
+            ],
+            "t": 1004
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1034
+              ]
+            ],
+            "rep": [
+              3144
+            ],
+            "repall": 1,
+            "t": 381
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1052
+              ]
+            ],
+            "rep": [
+              3144,
+              1029
+            ],
+            "t": 382
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1031
+              ]
+            ],
+            "rep": [
+              1029
+            ],
+            "t": 383
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3152
+              ]
+            ],
+            "rep": [
+              1029
+            ],
+            "t": 384
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                1034
+              ]
+            ],
+            "rep": [
+              3144
+            ],
+            "t": 381
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                1052
+              ]
+            ],
+            "rep": [
+              3144,
+              1029
+            ],
+            "t": 382
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                1031
+              ]
+            ],
+            "rep": [
+              1029
+            ],
+            "t": 383
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                3152
+              ]
+            ],
+            "rep": [
+              1029
+            ],
+            "t": 384
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "chaos-terminators",
+        "kws": [
+          "Chaos",
+          "Infantry",
+          "Khorne",
+          "Terminator",
+          "Terminator Squad"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "World Eaters Terminator Champion"
+          },
+          {
+            "n": "World Eaters Terminator"
+          }
+        ],
+        "name": "Chaos Terminators",
+        "pools": [
+          {
+            "g": [
+              1,
+              5
+            ]
+          },
+          {
+            "g": [
+              2,
+              6
+            ],
+            "lim": [
+              [
+                5,
+                1
+              ],
+              [
+                10,
+                2
+              ]
+            ]
+          },
+          {
+            "g": [
+              3,
+              7
+            ],
+            "lim": [
+              [
+                5,
+                3
+              ],
+              [
+                10,
+                6
+              ]
+            ]
+          },
+          {
+            "g": [
+              4,
+              8
+            ],
+            "lim": [
+              [
+                5,
+                1
+              ],
+              [
+                10,
+                2
+              ]
+            ]
+          }
+        ],
+        "sid": "c53f92f6-5c8a-4d3d-a4e9-25d4a4bb48e1",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 175
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 350
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3153,
+                1
+              ],
+              [
+                3154,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "daemon-prince-of-khorne",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Daemon Prince",
+          "Khorne",
+          "Monster"
+        ],
+        "linked": 1,
+        "name": "Daemon Prince of Khorne",
+        "sid": "fa3cdedd-19b5-45c3-b909-510083e17952",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 200
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3153,
+                1
+              ],
+              [
+                3154,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "daemon-prince-of-khorne-with-wings",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Daemon Prince",
+          "Fly",
+          "Khorne",
+          "Monster"
+        ],
+        "linked": 1,
+        "name": "Daemon Prince of Khorne with Wings",
+        "sid": "3e0254cb-fec8-4c3c-89d5-6c4aeac5feb8",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 170
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1067,
+                1
+              ],
+              [
+                3155,
+                2
+              ],
+              [
+                3156,
+                1
+              ],
+              [
+                3157,
+                1
+              ],
+              [
+                3158,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3159
+              ]
+            ],
+            "rep": [
+              3158
+            ],
+            "t": 390
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    3160,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              3155
+            ],
+            "t": 1005
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3161,
+                15
+              ],
+              [
+                3162,
+                15
+              ],
+              [
+                3163
+              ]
+            ],
+            "rep": [
+              1067
+            ],
+            "t": 1006
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3161,
+                15
+              ],
+              [
+                3162,
+                15
+              ],
+              [
+                3163
+              ]
+            ],
+            "rep": [
+              3156
+            ],
+            "t": 1007
+          }
+        ],
+        "id": "defiler",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Defiler",
+          "Khorne",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Defiler",
+        "sid": "de43f6ce-ef32-4a4e-8919-8ac5cc292ba0",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 270
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 40
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3164,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3164,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {},
+        "id": "eightbound",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Eightbound",
+          "Infantry",
+          "Khorne",
+          "Possessed"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Eightbound Champion"
+          },
+          {
+            "n": "Eightbound"
+          }
+        ],
+        "name": "Eightbound",
+        "sid": "9fc32622-b586-430c-ab13-87d7b2a1c0f4",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 125
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                3,
+                5
+              ]
+            ],
+            "per": [
+              4,
+              6
+            ],
+            "pts": 250
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3165,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3165,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "exalted-eightbound",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Exalted Eightbound",
+          "Infantry",
+          "Khorne",
+          "Possessed"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Exalted Eightbound Champion"
+          },
+          {
+            "n": "Exalted Eightbound"
+          }
+        ],
+        "name": "Exalted Eightbound",
+        "sid": "e63ea988-7157-44de-88b4-5995d0fad43b",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 130
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                3,
+                5
+              ]
+            ],
+            "per": [
+              4,
+              6
+            ],
+            "pts": 260
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                886,
+                1
+              ],
+              [
+                885,
+                1
+              ],
+              [
+                887,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                885,
+                1
+              ],
+              [
+                886,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Blood Legions"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "flesh-hounds",
+        "kws": [
+          "Beast",
+          "Chaos",
+          "Daemon",
+          "Flesh Hounds",
+          "Khorne",
+          "Summoned"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Gore Hound"
+          },
+          {
+            "n": "Flesh Hound"
+          }
+        ],
+        "name": "Flesh Hounds",
+        "sid": "be8c889b-4d53-46a2-a96f-6bd15c96cd7d",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 75
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 150
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3166,
+                1
+              ],
+              [
+                3167,
+                2
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    3168,
+                    2
+                  ]
+                ],
+                10
+              ]
+            ],
+            "rep": [
+              3167
+            ],
+            "t": 397
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    3168,
+                    1
+                  ],
+                  [
+                    3169,
+                    1
+                  ]
+                ],
+                5
+              ]
+            ],
+            "rep": [
+              3166
+            ],
+            "t": 968
+          }
+        ],
+        "id": "forgefiend",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Forgefiend",
+          "Khorne",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Forgefiend",
+        "sid": "ad0e6fb7-73e8-454a-9817-84a4876e9115",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 140
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "condBattleline": 1,
+        "defaults": [
+          [
+            1,
+            [
+              [
+                646,
+                1
+              ],
+              [
+                3170,
+                1
+              ],
+              [
+                259,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                646,
+                1
+              ],
+              [
+                3170,
+                1
+              ],
+              [
+                259,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                646
+              ]
+            ],
+            "rep": [
+              3170
+            ],
+            "t": 1008
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                3171
+              ]
+            ],
+            "rep": [
+              3170
+            ],
+            "t": 1009
+          }
+        ],
+        "grants": [
+          {
+            "det": "cult-of-blood",
+            "kw": "Battleline"
+          }
+        ],
+        "id": "goremongers",
+        "kws": [
+          "Chaos",
+          "Goremongers",
+          "Grenades",
+          "Infantry",
+          "Khorne"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Blood Herald"
+          },
+          {
+            "n": "Goremongers"
+          }
+        ],
+        "name": "Goremongers",
+        "sid": "5cf17176-dbff-4926-bd5d-ebf58f898fd2",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                7
+              ]
+            ],
+            "default": 1,
+            "per": [
+              8,
+              8
+            ],
+            "pts": 70
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3172,
+                1
+              ],
+              [
+                3173,
+                1
+              ],
+              [
+                3174,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3175
+              ],
+              [
+                3176
+              ],
+              [
+                3141
+              ],
+              [
+                3177
+              ],
+              [
+                3178
+              ]
+            ],
+            "rep": [
+              3173
+            ],
+            "t": 402
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3178
+              ],
+              [
+                3179
+              ],
+              [
+                3180
+              ]
+            ],
+            "rep": [
+              3174
+            ],
+            "t": 403
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                3144
+              ],
+              [
+                528
+              ]
+            ],
+            "t": 404
+          }
+        ],
+        "id": "helbrute",
+        "kws": [
+          "Chaos",
+          "Helbrute",
+          "Khorne",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Helbrute",
+        "sid": "324075e0-5b62-4972-9eef-0864ddc5e414",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 120
+          }
+        ],
+        "xpm": [
+          {
+            "item": 3178,
+            "s": [
+              [
+                2
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3181,
+                1
+              ],
+              [
+                3167,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1104
+              ]
+            ],
+            "rep": [
+              3167
+            ],
+            "t": 405
+          }
+        ],
+        "id": "heldrake",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Fly",
+          "Heldrake",
+          "Khorne",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Heldrake",
+        "sid": "02321c24-3ae1-43d6-9367-747e965cf078",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 175
+          }
+        ]
+      },
+      {
+        "condBattleline": 1,
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3182,
+                1
+              ],
+              [
+                646,
+                1
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                646,
+                1
+              ],
+              [
+                3182,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3183,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                3184
+              ]
+            ],
+            "rep": [
+              3183
+            ],
+            "t": 1010
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                10,
+                1
+              ],
+              [
+                20,
+                2
+              ]
+            ],
+            "m": 2,
+            "o": [
+              [
+                3185
+              ]
+            ],
+            "rep": [
+              3182
+            ],
+            "t": 1011
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                10,
+                1
+              ],
+              [
+                20,
+                2
+              ]
+            ],
+            "m": 2,
+            "o": [
+              [
+                3186
+              ]
+            ],
+            "t": 1012
+          }
+        ],
+        "grants": [
+          {
+            "det": "cult-of-blood",
+            "kw": "Battleline"
+          }
+        ],
+        "id": "jakhals",
+        "kws": [
+          "Chaos",
+          "Grenades",
+          "Infantry",
+          "Jakhals",
+          "Khorne"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Jakhal Pack Leader"
+          },
+          {
+            "n": "Dishonoured"
+          },
+          {
+            "n": "Jakhal"
+          }
+        ],
+        "name": "Jakhals",
+        "sid": "27ce35ae-c7ef-4215-8ea5-20975ed47f29",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                8
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 65
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                17
+              ]
+            ],
+            "per": [
+              20,
+              20
+            ],
+            "pts": 120
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                11,
+                1
+              ],
+              [
+                3187,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "kh-rn-the-betrayer",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Epic Hero",
+          "Grenades",
+          "Infantry",
+          "Khorne",
+          "Khârn The Betrayer"
+        ],
+        "leads": [
+          {
+            "to": "khorne-berzerkers",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Khârn the Betrayer",
+        "sid": "579377ed-babf-41a9-b9dc-3ed4283d8289",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 115
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                3188,
+                1
+              ],
+              [
+                3189,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3188,
+                1
+              ],
+              [
+                3189,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                571
+              ]
+            ],
+            "rep": [
+              3188
+            ],
+            "t": 1013
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3186
+              ]
+            ],
+            "t": 1014
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                5,
+                1
+              ],
+              [
+                10,
+                2
+              ],
+              [
+                15,
+                3
+              ],
+              [
+                20,
+                4
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                571
+              ]
+            ],
+            "rep": [
+              3188
+            ],
+            "t": 1015
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                5,
+                1
+              ],
+              [
+                10,
+                2
+              ],
+              [
+                15,
+                3
+              ],
+              [
+                20,
+                4
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                3190
+              ]
+            ],
+            "rep": [
+              3189
+            ],
+            "t": 1016
+          },
+          {
+            "in": "checkbox",
+            "m": 1,
+            "o": [
+              [
+                3186
+              ]
+            ],
+            "t": 1014
+          }
+        ],
+        "id": "khorne-berzerkers",
+        "kws": [
+          "Battleline",
+          "Berzerkers",
+          "Chaos",
+          "Grenades",
+          "Infantry",
+          "Khorne"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Khorne Berzerker Champion"
+          },
+          {
+            "n": "Khorne Berzerker"
+          }
+        ],
+        "name": "Khorne Berzerkers",
+        "pools": [
+          {
+            "g": [
+              1,
+              4
+            ],
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ]
+          }
+        ],
+        "sid": "7d446c07-a5da-4b6c-a157-5db93f88f2b2",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 170
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                10,
+                19
+              ]
+            ],
+            "per": [
+              11,
+              20
+            ],
+            "pts": 330
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3191,
+                1
+              ],
+              [
+                3192,
+                1
+              ],
+              [
+                3193,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3194
+              ],
+              [
+                3195
+              ]
+            ],
+            "rep": [
+              3193
+            ],
+            "t": 406
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3196
+              ]
+            ],
+            "rep": [
+              3191
+            ],
+            "t": 407
+          }
+        ],
+        "id": "khorne-lord-of-skulls",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Frame",
+          "Khorne",
+          "Lord of Skulls",
+          "Titanic",
+          "Towering",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Khorne Lord of Skulls",
+        "sid": "d5a8c445-3a9f-469d-b309-451e5f146db2",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 505
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3188,
+                1
+              ],
+              [
+                3197,
+                1
+              ],
+              [
+                3198,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "lord-invocatus",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Epic Hero",
+          "Khorne",
+          "Lord Invocatus",
+          "Mounted"
+        ],
+        "leads": [
+          {
+            "to": "eightbound",
+            "type": "leader"
+          },
+          {
+            "to": "exalted-eightbound",
+            "type": "leader"
+          },
+          {
+            "to": "khorne-berzerkers",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Lord Invocatus",
+        "sid": "d2f7b46b-4b90-44e4-bbe8-486f3dc2297e",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3198,
+                1
+              ],
+              [
+                11,
+                1
+              ],
+              [
+                3199,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "lord-on-juggernaut",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Khorne",
+          "Lord on Juggernaut",
+          "Mounted"
+        ],
+        "leads": [
+          {
+            "to": "eightbound",
+            "type": "leader"
+          },
+          {
+            "to": "exalted-eightbound",
+            "type": "leader"
+          },
+          {
+            "to": "khorne-berzerkers",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Lord on Juggernaut",
+        "sid": "b97d5637-e1f7-4f4a-b31c-f4537750073f",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 95
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3188,
+                1
+              ],
+              [
+                1125,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "master-of-executions",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Infantry",
+          "Khorne",
+          "Master of Executions"
+        ],
+        "leads": [
+          {
+            "to": "khorne-berzerkers",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Master of Executions",
+        "sid": "71ef53cd-b064-4a91-8672-57a93db2d3e4",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3200,
+                1
+              ],
+              [
+                1137,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    3201,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1137
+            ],
+            "t": 416
+          }
+        ],
+        "id": "maulerfiend",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Khorne",
+          "Maulerfiend",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Maulerfiend",
+        "sid": "a50d6156-46da-49ca-bb61-d4dbe18bb929",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 140
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                931,
+                1
+              ],
+              [
+                930,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Blood Legions"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "noWarlord": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "skarbrand",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Epic Hero",
+          "Khorne",
+          "Monster",
+          "Skarbrand",
+          "Summoned"
+        ],
+        "linked": 1,
+        "name": "Skarbrand",
+        "sid": "950d3e3d-e4cb-4ff0-aa3a-df8d0552de41",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 315
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3202,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "World Eaters"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "slaughterbound",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Infantry",
+          "Khorne",
+          "Possessed",
+          "Slaughterbound"
+        ],
+        "leads": [
+          {
+            "to": "eightbound",
+            "type": "leader"
+          },
+          {
+            "to": "exalted-eightbound",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Slaughterbound",
+        "sid": "76253664-130d-4da2-9676-f51b7f1d4fb3",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 90
+          }
+        ]
+      }
+    ]
+  }
+}

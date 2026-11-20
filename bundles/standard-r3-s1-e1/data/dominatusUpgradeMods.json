@@ -1,0 +1,344 @@
+{
+  "dominatusUpgradeMods": {
+    "battle-hungry": {
+      "effects": [],
+      "note": "re-rolls of charge and advance rolls"
+    },
+    "blade-of-sacrifice": {
+      "effects": [],
+      "note": "wounds chosen in the moment, for one phase"
+    },
+    "born-survivor": {
+      "bonus": {
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+",
+            "when": null
+          }
+        ],
+        "replace": true
+      },
+      "effects": [
+        {
+          "on": "unit",
+          "op": "grant",
+          "stat": "core",
+          "value": "Feel No Pain 6+",
+          "when": null
+        }
+      ]
+    },
+    "breach-and-burn": {
+      "effects": [],
+      "note": "only against a target within 18\" in your Shooting phase"
+    },
+    "cloak-of-shadows": {
+      "effects": [
+        {
+          "on": "unit",
+          "op": "grant",
+          "stat": "core",
+          "target": "unit",
+          "value": "Infiltrators",
+          "when": null
+        }
+      ]
+    },
+    "displacer-field": {
+      "effects": [],
+      "note": "once per battle, into strategic reserves"
+    },
+    "disruption-orb": {
+      "effects": [],
+      "note": "an aura on enemy stratagems"
+    },
+    "enhanced-bionics": {
+      "effects": [],
+      "note": "wounds regained, and set back up once"
+    },
+    "fate-forged-weapon": {
+      "effects": [
+        {
+          "on": "melee",
+          "op": "add",
+          "stat": "ap",
+          "value": -1,
+          "when": null
+        },
+        {
+          "on": "melee",
+          "op": "add",
+          "stat": "d",
+          "value": 1,
+          "when": null
+        }
+      ],
+      "note": "re-rolling wounds in the Fight phase is a dice rule"
+    },
+    "ferocious-combatant": {
+      "bonus": {
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "CLEAVE 1",
+            "when": null
+          }
+        ],
+        "replace": false
+      },
+      "effects": [
+        {
+          "on": "melee",
+          "op": "grant",
+          "stat": "ability",
+          "target": "unit",
+          "value": "SUSTAINED HITS 1",
+          "when": null
+        }
+      ]
+    },
+    "fire-and-fury": {
+      "effects": [
+        {
+          "on": "ranged",
+          "op": "grant",
+          "stat": "ability",
+          "target": "unit",
+          "value": "ASSAULT",
+          "when": null
+        },
+        {
+          "on": "ranged",
+          "op": "grant",
+          "stat": "ability",
+          "target": "unit",
+          "value": "HEAVY",
+          "when": null
+        }
+      ],
+      "note": "the bonus is a re-roll of 1s",
+      "noteOf": "bonus"
+    },
+    "fortunes-favoured": {
+      "effects": [],
+      "note": "once per battle, used as attacks come in"
+    },
+    "front-line-champion": {
+      "effects": [],
+      "note": "re-rolling hits within 9\""
+    },
+    "grim-veterans": {
+      "effects": [
+        {
+          "cond": [
+            "unit-not-battle-shocked"
+          ],
+          "on": "profile",
+          "op": "add",
+          "stat": "oc",
+          "target": "unit",
+          "value": 1,
+          "when": {
+            "en": "while this unit is not battle-shocked",
+            "ru": "пока отряд не Battle-shocked"
+          }
+        }
+      ],
+      "note": "the bonus is a re-roll of leadership rolls",
+      "noteOf": "bonus"
+    },
+    "high-strategy": {
+      "effects": [],
+      "elsewhere": true,
+      "note": "CP at the start of the battle (the CP ledger, settleStartCp)"
+    },
+    "kingslayer": {
+      "effects": [
+        {
+          "on": "melee",
+          "op": "grant",
+          "stat": "ability",
+          "value": "PRECISION",
+          "when": null
+        }
+      ],
+      "note": "re-rolling hits against a CHARACTER is a dice rule, not a number"
+    },
+    "lead-from-the-front": {
+      "bonus": {
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Scouts 9\"",
+            "when": null
+          }
+        ],
+        "replace": true
+      },
+      "effects": [
+        {
+          "on": "unit",
+          "op": "grant",
+          "stat": "core",
+          "target": "unit",
+          "value": "Scouts 6\"",
+          "when": null
+        }
+      ]
+    },
+    "maelstrom-clarion": {
+      "effects": [],
+      "note": "where enemy units may arrive"
+    },
+    "master-crafted-armour": {
+      "effects": [
+        {
+          "on": "profile",
+          "op": "set",
+          "stat": "inv",
+          "value": "4+",
+          "when": null
+        },
+        {
+          "on": "profile",
+          "op": "add",
+          "stat": "t",
+          "value": 1,
+          "when": null
+        },
+        {
+          "on": "profile",
+          "op": "improve",
+          "stat": "sv",
+          "value": 1,
+          "when": null
+        },
+        {
+          "on": "profile",
+          "op": "add",
+          "stat": "w",
+          "value": 1,
+          "when": null
+        }
+      ]
+    },
+    "natural-leader": {
+      "effects": [],
+      "note": "an aura on other units"
+    },
+    "path-to-conquest": {
+      "effects": [],
+      "note": "a rule of the campaign phase, carried by no unit"
+    },
+    "personal-teleporter": {
+      "effects": [
+        {
+          "on": "unit",
+          "op": "grant",
+          "stat": "core",
+          "target": "unit",
+          "value": "Deep Strike",
+          "when": null
+        }
+      ],
+      "note": "Rapid Ingress for 0CP once per battle is the CP tab's"
+    },
+    "powerfield-projector": {
+      "effects": [],
+      "note": "an invulnerable save against ranged attacks only, and mortal wounds"
+    },
+    "ruinator": {
+      "effects": [],
+      "note": "once per battle, for one phase"
+    },
+    "shadow-stalker": {
+      "effects": [
+        {
+          "on": "unit",
+          "op": "grant",
+          "stat": "core",
+          "target": "unit",
+          "value": "Stealth",
+          "when": null
+        }
+      ]
+    },
+    "strategic-laurels": {
+      "effects": [],
+      "note": "CP from a leadership roll"
+    },
+    "swift-as-the-wind": {
+      "bonus": {
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "unit",
+            "value": 3,
+            "when": null
+          }
+        ],
+        "replace": true
+      },
+      "effects": [
+        {
+          "on": "profile",
+          "op": "add",
+          "stat": "m",
+          "target": "unit",
+          "value": 2,
+          "when": null
+        }
+      ]
+    },
+    "tactical-redeployment": {
+      "effects": [],
+      "note": "the Redeploy Units step"
+    },
+    "tempered-in-battle": {
+      "effects": [],
+      "note": "what the unit may do after falling back"
+    },
+    "temporal-talisman": {
+      "effects": [
+        {
+          "on": "unit",
+          "op": "grant",
+          "stat": "core",
+          "target": "unit",
+          "value": "Fights First",
+          "when": null
+        }
+      ]
+    },
+    "terrifying-presence": {
+      "effects": [],
+      "note": "a battle-shock roll for an enemy unit"
+    },
+    "the-emperors-tarot": {
+      "effects": [],
+      "note": "the mission deck"
+    },
+    "undying-duty": {
+      "effects": [],
+      "note": "mortal wounds after an enemy fights"
+    },
+    "vortex-grenade": {
+      "effects": [],
+      "note": "once per battle, mortal wounds"
+    },
+    "wraith-of-ruin": {
+      "effects": [],
+      "note": "visibility beyond 18\""
+    }
+  }
+}

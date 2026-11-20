@@ -1,0 +1,2215 @@
+{
+  "default": {
+    "allies": [
+      {
+        "dets": [
+          "Iconoclast Fiefdom"
+        ],
+        "enh": 1,
+        "ids": [
+          "chaos-space-marines:accursed-cultists",
+          "chaos-space-marines:cultist-firebrand",
+          "chaos-space-marines:cultist-mob",
+          "chaos-space-marines:dark-commune",
+          "chaos-space-marines:fellgor-beastmen",
+          "chaos-space-marines:traitor-enforcer",
+          "chaos-space-marines:traitor-guardsmen-squad"
+        ],
+        "key": "heretic-astartes",
+        "name": "Heretic Astartes",
+        "pts": {
+          "incursion": 500,
+          "onslaught": 500,
+          "strike-force": 500
+        }
+      },
+      {
+        "ids": [
+          "chaos-daemons:beasts-of-nurgle",
+          "chaos-daemons:belakor",
+          "chaos-daemons:bloodcrushers",
+          "chaos-daemons:bloodletters",
+          "chaos-daemons:bloodmaster",
+          "chaos-daemons:bloodthirster",
+          "chaos-daemons:blue-horrors",
+          "chaos-daemons:burning-chariot",
+          "chaos-daemons:changecaster",
+          "chaos-daemons:contorted-epitome",
+          "chaos-daemons:daemon-prince-of-chaos",
+          "chaos-daemons:daemon-prince-of-chaos-with-wings",
+          "chaos-daemons:daemonettes",
+          "chaos-daemons:epidemius",
+          "chaos-daemons:exalted-flamer",
+          "chaos-daemons:fateskimmer",
+          "chaos-daemons:feculent-gnarlmaw",
+          "chaos-daemons:fiends",
+          "chaos-daemons:flamers",
+          "chaos-daemons:flesh-hounds",
+          "chaos-daemons:fluxmaster",
+          "chaos-daemons:great-unclean-one",
+          "chaos-daemons:hellflayers",
+          "chaos-daemons:horticulous-slimux",
+          "chaos-daemons:infernal-enrapturess",
+          "chaos-daemons:kairos-fateweaver",
+          "chaos-daemons:karanak",
+          "chaos-daemons:keeper-of-secrets",
+          "chaos-daemons:lord-of-change",
+          "chaos-daemons:nurglings",
+          "chaos-daemons:pink-horrors",
+          "chaos-daemons:plague-drones",
+          "chaos-daemons:plaguebearers",
+          "chaos-daemons:poxbringer",
+          "chaos-daemons:rendmaster-on-blood-throne",
+          "chaos-daemons:rotigus",
+          "chaos-daemons:screamers",
+          "chaos-daemons:seekers",
+          "chaos-daemons:shalaxi-helbane",
+          "chaos-daemons:skarbrand",
+          "chaos-daemons:skull-altar",
+          "chaos-daemons:skull-cannon",
+          "chaos-daemons:skullmaster",
+          "chaos-daemons:skulltaker",
+          "chaos-daemons:sloppity-bilepiper",
+          "chaos-daemons:soul-grinder",
+          "chaos-daemons:spoilpox-scrivener",
+          "chaos-daemons:syllesske",
+          "chaos-daemons:the-blue-scribes",
+          "chaos-daemons:the-changeling",
+          "chaos-daemons:the-masque-of-slaanesh",
+          "chaos-daemons:tormentbringer",
+          "chaos-daemons:tranceweaver"
+        ],
+        "key": "legiones-daemonica",
+        "name": "Legiones Daemonica",
+        "pts": {
+          "incursion": 250,
+          "onslaught": 750,
+          "strike-force": 500
+        },
+        "ratio": [
+          "Khorne",
+          "Tzeentch",
+          "Nurgle",
+          "Slaanesh"
+        ]
+      },
+      {
+        "ids": [
+          "chaos-titan-legions:chaos-reaver-titan",
+          "chaos-titan-legions:chaos-warbringer-nemesis-titan",
+          "chaos-titan-legions:chaos-warhound-titan",
+          "chaos-titan-legions:chaos-warlord-titan"
+        ],
+        "key": "titanicus-traitoris",
+        "lim": {
+          "Reaver Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warbringer Nemesis Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warhound Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warlord Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          }
+        },
+        "mutex": 1,
+        "name": "Titanicus Traitoris"
+      }
+    ],
+    "detachments": [
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Pterrorshade Rookery",
+            "pts": 20,
+            "req": [
+              {
+                "ds": "Knight Tyrant",
+                "fac": [
+                  "Chaos Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Hate-filled Dominion",
+            "pts": 20,
+            "req": [
+              {
+                "ds": "Knight Tyrant",
+                "fac": [
+                  "Chaos Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Bastions of Tyranny",
+        "sid": "993e9b23-3ade-4fb1-bb27-f9270de48978"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Hunter’s Helm",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Chaos Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Octagram of Conjuration",
+            "pts": 40,
+            "req": [
+              {
+                "kw": [
+                  "Knight Abominant"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Aspect of the Beast",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Chaos Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Throne Tyrannicus",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Chaos Knights"
+                ],
+                "kw": [
+                  "Titanic"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Disruption"
+        ],
+        "name": "Helhunt Lance",
+        "sid": "9bef33d0-15fa-49f8-ac91-42496470641d"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Preyslayer’s Mantle",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "War Dog"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Final Howl (Aura)",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "War Dog"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Loping Predator",
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "War Dog"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Panoply of the Cursed Knights",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "War Dog"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Houndpack Lance",
+        "sid": "a634e475-384b-40cd-957d-cd99201ab3e4"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "limit": 3,
+            "name": "Soul-spoor Auspicator (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Huntsman"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "limit": 3,
+            "name": "Snarling Rivalry (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "Executioner"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Hunting Warpack",
+        "sid": "e2637679-6163-4ea2-93cb-8c5a263ecc33"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Cruel Lashmaster (Aura)",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Chaos Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Iconoclast Idol (Aura)",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Chaos Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Iconoclast Fiefdom",
+        "sid": "c7d24ce3-acdf-414d-af2a-81c602983045"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Knight Diabolus",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Chaos Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Blasphemous Engine",
+            "pts": 35,
+            "req": [
+              {
+                "fac": [
+                  "Chaos Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Fleshmetal Fusion",
+            "pts": 35,
+            "req": [
+              {
+                "fac": [
+                  "Chaos Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Bestial Aspect",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Chaos Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets",
+          "Purge the Foe"
+        ],
+        "name": "Infernal Lance",
+        "sid": "86620542-e27d-4e99-a70e-da69a673c9fb"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Throne Mechanicum of Skulls",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Chaos Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Blade of Celerity",
+            "pts": 35,
+            "req": [
+              {
+                "fac": [
+                  "Chaos Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Warp-borne Stalker",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Chaos Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Putrid Carapace",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Chaos Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Mirror of Fates",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Chaos Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Blessing of the Dark Master",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Chaos Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Lords of Dread",
+        "sid": "355721a8-7f31-4a55-94e0-cbc895fb2397"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Nightmare’s Master",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Chaos Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Tyrant’s Shadow",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Chaos Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Malevolent Heraldry",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Chaos Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Veil of Medrengard",
+            "pts": 35,
+            "req": [
+              {
+                "fac": [
+                  "Chaos Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Traitoris Lance",
+        "sid": "b40710c8-474d-402d-bb22-9903e280dcff"
+      }
+    ],
+    "name": "Chaos Knights",
+    "slug": "chaos-knights",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                955,
+                1
+              ],
+              [
+                956,
+                2
+              ],
+              [
+                957,
+                1
+              ],
+              [
+                958,
+                2
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Chaos Knights"
+        ],
+        "flags": {},
+        "id": "chaos-acastus-knight-asterius",
+        "kws": [
+          "Acastus",
+          "Chaos",
+          "Frame",
+          "Knight Asterius",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Chaos Acastus Knight Asterius",
+        "sid": "da584963-b320-47ba-9210-49cadb18c227",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 785
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 75
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                957,
+                1
+              ],
+              [
+                963,
+                2
+              ],
+              [
+                964,
+                2
+              ],
+              [
+                965,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Chaos Knights"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    966,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    964,
+                    1
+                  ],
+                  [
+                    966,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              964
+            ],
+            "t": 350
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                967
+              ]
+            ],
+            "rep": [
+              965
+            ],
+            "t": 351
+          }
+        ],
+        "id": "chaos-acastus-knight-porphyrion",
+        "kws": [
+          "Acastus",
+          "Chaos",
+          "Frame",
+          "Knight Porphyrion",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Chaos Acastus Knight Porphyrion",
+        "sid": "37b676c9-24aa-465c-97fe-6f1ebdd907e2",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 725
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 75
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                972,
+                1
+              ],
+              [
+                973,
+                1
+              ],
+              [
+                974,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Chaos Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "chaos-cerastus-knight-acheron",
+        "kws": [
+          "Cerastus",
+          "Chaos",
+          "Character",
+          "Knight Acheron",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Chaos Cerastus Knight Acheron",
+        "sid": "c8f37cef-bd7b-4423-83d3-b155f23240e5",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 370
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                984,
+                1
+              ],
+              [
+                985,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Chaos Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "chaos-cerastus-knight-atrapos",
+        "kws": [
+          "Cerastus",
+          "Chaos",
+          "Character",
+          "Knight Atrapos",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Chaos Cerastus Knight Atrapos",
+        "sid": "5d31cefd-4c39-4f3f-85d3-08a6a9b4e1a4",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 385
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                988,
+                1
+              ],
+              [
+                989,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Chaos Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "chaos-cerastus-knight-castigator",
+        "kws": [
+          "Cerastus",
+          "Chaos",
+          "Character",
+          "Knight Castigator",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Chaos Cerastus Knight Castigator",
+        "sid": "75295c7f-777d-4090-8d0b-8aba724ec3ad",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 370
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                993,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Chaos Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "chaos-cerastus-knight-lancer",
+        "kws": [
+          "Cerastus",
+          "Chaos",
+          "Character",
+          "Knight Lancer",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Chaos Cerastus Knight Lancer",
+        "sid": "c97c64dd-5123-4d76-badb-33b051f9908f",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 385
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1001,
+                1
+              ],
+              [
+                970,
+                1
+              ],
+              [
+                1002,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Chaos Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1003,
+                    1
+                  ],
+                  [
+                    1004,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              970
+            ],
+            "t": 358
+          }
+        ],
+        "id": "chaos-questoris-knight-magaera",
+        "kws": [
+          "Abhorrent",
+          "Chaos",
+          "Character",
+          "Knight Magaera",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Chaos Questoris Knight Magaera",
+        "sid": "502dc906-160d-49e3-8d18-490a75087c6a",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 375
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1009,
+                1
+              ],
+              [
+                970,
+                1
+              ],
+              [
+                1010,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Chaos Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1003,
+                    1
+                  ],
+                  [
+                    1004,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              970
+            ],
+            "t": 358
+          }
+        ],
+        "id": "chaos-questoris-knight-styrix",
+        "kws": [
+          "Abhorrent",
+          "Chaos",
+          "Character",
+          "Knight Styrix",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Chaos Questoris Knight Styrix",
+        "sid": "4dff8985-c3d3-448e-9a12-97e148674953",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 365
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                959,
+                1
+              ],
+              [
+                960,
+                1
+              ],
+              [
+                961,
+                1
+              ],
+              [
+                962,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Chaos Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "knight-abominant",
+        "kws": [
+          "Abhorrent",
+          "Chaos",
+          "Character",
+          "Knight Abominant",
+          "Psyker",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Knight Abominant",
+        "sid": "b6ec7cab-a930-4f17-878d-74b90743f265",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 350
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                968,
+                1
+              ],
+              [
+                969,
+                1
+              ],
+              [
+                970,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Chaos Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                971
+              ]
+            ],
+            "rep": [
+              970
+            ],
+            "t": 352
+          }
+        ],
+        "id": "knight-desecrator",
+        "kws": [
+          "Abhorrent",
+          "Chaos",
+          "Character",
+          "Knight Desecrator",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Knight Desecrator",
+        "sid": "1b9e9792-f02d-4751-a5f2-d3d01b28d92b",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 350
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                971,
+                1
+              ],
+              [
+                975,
+                1
+              ],
+              [
+                970,
+                1
+              ],
+              [
+                976,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Chaos Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                960
+              ]
+            ],
+            "rep": [
+              975
+            ],
+            "t": 353
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    977,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    978,
+                    1
+                  ],
+                  [
+                    979,
+                    1
+                  ]
+                ],
+                25
+              ],
+              [
+                [
+                  [
+                    980,
+                    1
+                  ],
+                  [
+                    960,
+                    1
+                  ]
+                ],
+                10
+              ]
+            ],
+            "rep": [
+              970
+            ],
+            "t": 354
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    977,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    978,
+                    1
+                  ],
+                  [
+                    979,
+                    1
+                  ]
+                ],
+                25
+              ],
+              [
+                [
+                  [
+                    980,
+                    1
+                  ],
+                  [
+                    960,
+                    1
+                  ]
+                ],
+                10
+              ]
+            ],
+            "rep": [
+              971
+            ],
+            "t": 355
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                981
+              ],
+              [
+                982
+              ],
+              [
+                983
+              ]
+            ],
+            "t": 186
+          }
+        ],
+        "id": "knight-despoiler",
+        "kws": [
+          "Abhorrent",
+          "Chaos",
+          "Character",
+          "Knight Despoiler",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Knight Despoiler",
+        "sid": "783f2468-e054-4660-b4cc-ec03afca31c7",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 360
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                986,
+                1
+              ],
+              [
+                960,
+                1
+              ],
+              [
+                987,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Chaos Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "knight-rampager",
+        "kws": [
+          "Abhorrent",
+          "Chaos",
+          "Character",
+          "Knight Rampager",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Knight Rampager",
+        "sid": "cca75859-e13f-4f11-bcca-a30afe2624fc",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 350
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                990,
+                1
+              ],
+              [
+                991,
+                1
+              ],
+              [
+                992,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Chaos Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "knight-ruinator",
+        "kws": [
+          "Abhorrent",
+          "Chaos",
+          "Character",
+          "Knight Ruinator",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Knight Ruinator",
+        "sid": "83672500-dac8-45c0-9f08-ded46885be44",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 325
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                994,
+                2
+              ],
+              [
+                995,
+                1
+              ],
+              [
+                996,
+                2
+              ],
+              [
+                997,
+                1
+              ],
+              [
+                976,
+                1
+              ],
+              [
+                998,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Chaos Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    996,
+                    1
+                  ],
+                  [
+                    995,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              996,
+              995
+            ],
+            "t": 356
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    999,
+                    1
+                  ],
+                  [
+                    1000,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              998,
+              997
+            ],
+            "t": 357
+          }
+        ],
+        "id": "knight-tyrant",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Knight Tyrant",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Knight Tyrant",
+        "sid": "f5d81a19-e54e-4ce9-aac8-849226a6554b",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 390
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 20
+        }
+      },
+      {
+        "alleg": {
+          "det": "Houndpack Lance",
+          "g": "houndpack-lance-keyword",
+          "gid": "491e56b3",
+          "max": 3,
+          "min": 3,
+          "o": [
+            {
+              "n": "Character"
+            }
+          ],
+          "t": "Houndpack Lance Keyword"
+        },
+        "condBattleline": 1,
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1005,
+                1
+              ],
+              [
+                1006,
+                1
+              ],
+              [
+                1007,
+                1
+              ],
+              [
+                960,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Chaos Knights"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1008
+              ]
+            ],
+            "rep": [
+              960
+            ],
+            "t": 359
+          }
+        ],
+        "grants": [
+          {
+            "det": "houndpack-lance",
+            "kw": "Battleline"
+          }
+        ],
+        "id": "war-dog-brigand",
+        "kws": [
+          "Brigand",
+          "Chaos",
+          "Vehicle",
+          "Walker",
+          "War Dog"
+        ],
+        "linked": 1,
+        "name": "War Dog Brigand",
+        "sid": "7a38f199-249a-4ac2-98c4-93f72ff7315e",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 135
+          }
+        ]
+      },
+      {
+        "alleg": {
+          "det": "Houndpack Lance",
+          "g": "houndpack-lance-keyword",
+          "gid": "491e56b3",
+          "max": 3,
+          "min": 3,
+          "o": [
+            {
+              "n": "Character"
+            }
+          ],
+          "t": "Houndpack Lance Keyword"
+        },
+        "condBattleline": 1,
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1011,
+                2
+              ],
+              [
+                1006,
+                1
+              ],
+              [
+                960,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Chaos Knights"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                975
+              ]
+            ],
+            "rep": [
+              960
+            ],
+            "t": 360
+          }
+        ],
+        "grants": [
+          {
+            "det": "houndpack-lance",
+            "kw": "Battleline"
+          }
+        ],
+        "id": "war-dog-executioner",
+        "kws": [
+          "Chaos",
+          "Executioner",
+          "Vehicle",
+          "Walker",
+          "War Dog"
+        ],
+        "linked": 1,
+        "name": "War Dog Executioner",
+        "sid": "2404bdef-aa02-4bfa-9c21-9b6e141c0ebe",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 130
+          }
+        ]
+      },
+      {
+        "alleg": {
+          "det": "Houndpack Lance",
+          "g": "houndpack-lance-keyword",
+          "gid": "491e56b3",
+          "max": 3,
+          "min": 3,
+          "o": [
+            {
+              "n": "Character"
+            }
+          ],
+          "t": "Houndpack Lance Keyword"
+        },
+        "condBattleline": 1,
+        "defaults": [
+          [
+            0,
+            [
+              [
+                960,
+                1
+              ],
+              [
+                1007,
+                1
+              ],
+              [
+                1012,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Chaos Knights"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                975
+              ]
+            ],
+            "rep": [
+              960
+            ],
+            "t": 360
+          }
+        ],
+        "grants": [
+          {
+            "det": "houndpack-lance",
+            "kw": "Battleline"
+          }
+        ],
+        "id": "war-dog-huntsman",
+        "kws": [
+          "Chaos",
+          "Huntsman",
+          "Vehicle",
+          "Walker",
+          "War Dog"
+        ],
+        "linked": 1,
+        "name": "War Dog Huntsman",
+        "sid": "e2d3d093-319e-4bfe-9b3f-f9484604683a",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 135
+          }
+        ]
+      },
+      {
+        "alleg": {
+          "det": "Houndpack Lance",
+          "g": "houndpack-lance-keyword",
+          "gid": "491e56b3",
+          "max": 3,
+          "min": 3,
+          "o": [
+            {
+              "n": "Character"
+            }
+          ],
+          "t": "Houndpack Lance Keyword"
+        },
+        "condBattleline": 1,
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1013,
+                1
+              ],
+              [
+                960,
+                1
+              ],
+              [
+                1014,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Chaos Knights"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1008
+              ]
+            ],
+            "rep": [
+              960
+            ],
+            "t": 359
+          }
+        ],
+        "grants": [
+          {
+            "det": "houndpack-lance",
+            "kw": "Battleline"
+          }
+        ],
+        "id": "war-dog-karnivore",
+        "kws": [
+          "Chaos",
+          "Karnivore",
+          "Vehicle",
+          "Walker",
+          "War Dog"
+        ],
+        "linked": 1,
+        "name": "War Dog Karnivore",
+        "sid": "4d81fe8f-3e36-4183-adc7-ecaa6cb97bd9",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 145
+          }
+        ]
+      },
+      {
+        "alleg": {
+          "det": "Houndpack Lance",
+          "g": "houndpack-lance-keyword",
+          "gid": "491e56b3",
+          "max": 3,
+          "min": 3,
+          "o": [
+            {
+              "n": "Character"
+            }
+          ],
+          "t": "Houndpack Lance Keyword"
+        },
+        "condBattleline": 1,
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1006,
+                1
+              ],
+              [
+                1016,
+                1
+              ],
+              [
+                1017,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Chaos Knights"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1018,
+                    1
+                  ],
+                  [
+                    1019,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1017,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1020,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1021,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1016
+            ],
+            "t": 363
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1018,
+                    1
+                  ],
+                  [
+                    1019,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1020,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1021,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1016,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1017
+            ],
+            "t": 364
+          }
+        ],
+        "grants": [
+          {
+            "det": "houndpack-lance",
+            "kw": "Battleline"
+          }
+        ],
+        "id": "war-dog-moirax",
+        "kws": [
+          "Chaos",
+          "Moirax",
+          "Vehicle",
+          "Walker",
+          "War Dog"
+        ],
+        "linked": 1,
+        "name": "War Dog Moirax",
+        "sid": "ddc708df-18c0-42e7-a894-6e5e37a0683d",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 150
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "alleg": {
+          "det": "Houndpack Lance",
+          "g": "houndpack-lance-keyword",
+          "gid": "491e56b3",
+          "max": 3,
+          "min": 3,
+          "o": [
+            {
+              "n": "Character"
+            }
+          ],
+          "t": "Houndpack Lance Keyword"
+        },
+        "condBattleline": 1,
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1015,
+                1
+              ],
+              [
+                1005,
+                1
+              ],
+              [
+                960,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Chaos Knights"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1007
+              ]
+            ],
+            "rep": [
+              1005
+            ],
+            "t": 361
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1008
+              ]
+            ],
+            "rep": [
+              960
+            ],
+            "t": 359
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1012
+              ]
+            ],
+            "rep": [
+              1015
+            ],
+            "t": 362
+          }
+        ],
+        "grants": [
+          {
+            "det": "houndpack-lance",
+            "kw": "Battleline"
+          }
+        ],
+        "id": "war-dog-stalker",
+        "kws": [
+          "Chaos",
+          "Stalker",
+          "Vehicle",
+          "Walker",
+          "War Dog"
+        ],
+        "linked": 1,
+        "name": "War Dog Stalker",
+        "sid": "875247de-e2a2-4d5e-81b7-639f8b7df492",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 135
+          }
+        ]
+      }
+    ]
+  }
+}

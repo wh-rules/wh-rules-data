@@ -1,0 +1,3678 @@
+{
+  "default": {
+    "entries": [
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "be69986d",
+        "kind": "ability",
+        "name": "Aun’Shi: Inspirational Defiance",
+        "note": "Read as Dogmata: Unflinching Determination (adepta-sororitas), the same text.",
+        "ref": {
+          "kind": "ability",
+          "unit": "aunshi"
+        },
+        "reviewed": true,
+        "sid": "pack:aunshi:inspirational-defiance",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "aunshi-direct-grace"
+            ],
+            "on": "melee",
+            "only": {
+              "name": "Fidelity"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "while Direct Grace is the one selected for this fight",
+              "ru": "пока для этого боя выбран Direct Grace"
+            }
+          },
+          {
+            "cond": [
+              "aunshi-forceful-strike"
+            ],
+            "on": "melee",
+            "only": {
+              "name": "Fidelity"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "while Forceful Strike is the one selected for this fight",
+              "ru": "пока для этого боя выбран Forceful Strike"
+            }
+          },
+          {
+            "cond": [
+              "aunshi-whirling-stance"
+            ],
+            "on": "melee",
+            "only": {
+              "name": "Fidelity"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 2",
+            "when": {
+              "en": "while Whirling Stance is the one selected for this fight (instead of SUSTAINED HITS 1)",
+              "ru": "пока для этого боя выбран Whirling Stance (вместо SUSTAINED HITS 1)"
+            }
+          }
+        ],
+        "hash": "174b2b1a",
+        "kind": "ability",
+        "name": "Aun’Shi: Martial Warrior",
+        "ref": {
+          "kind": "ability",
+          "unit": "aunshi"
+        },
+        "reviewed": true,
+        "sid": "pack:aunshi:martial-warrior",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "set",
+            "stat": "inv",
+            "value": "2+",
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "bf4ab1b4",
+        "kind": "ability",
+        "name": "Aun’Va: Duality Shield",
+        "ref": {
+          "kind": "ability",
+          "unit": "aunva"
+        },
+        "reviewed": true,
+        "sid": "pack:aunva:duality-shield",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          },
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "49ee03c3",
+        "kind": "ability",
+        "name": "Aun’Va: Paradox of Duality",
+        "ref": {
+          "kind": "ability",
+          "unit": "aunva"
+        },
+        "reviewed": true,
+        "sid": "pack:aunva:paradox-of-duality",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "25ca0153",
+        "kind": "ability",
+        "name": "Aun’Va: Supreme Loyalty (Aura)",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "T'AU EMPIRE"
+              ]
+            }
+          ],
+          "unit": "aunva"
+        },
+        "reviewed": true,
+        "sid": "pack:aunva:supreme-loyalty-aura",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-TITANIC 3+",
+            "when": {
+              "en": "while targeting within half range",
+              "ru": "по цели в пределах половины дальности"
+            }
+          }
+        ],
+        "hash": "8e612c35",
+        "kind": "ability",
+        "name": "AX-1-0 Tiger Shark: Titan Hunter",
+        "ref": {
+          "kind": "ability",
+          "unit": "ax-1-0-tiger-shark"
+        },
+        "reviewed": true,
+        "sid": "186372fc-8ed9-4e80-98ff-445d3712ef3c:ax-1-0-tiger-shark",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "663cf92e",
+        "kind": "ability",
+        "name": "Barracuda: Agile Dogfighter",
+        "ref": {
+          "kind": "ability",
+          "unit": "barracuda"
+        },
+        "reviewed": true,
+        "sid": "pack:barracuda:agile-dogfighter",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+ (vs mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "4e6472f8",
+        "kind": "ability",
+        "name": "Broadside Battlesuits: Advanced Armour",
+        "ref": {
+          "kind": "ability",
+          "unit": "broadside-battlesuits"
+        },
+        "reviewed": true,
+        "sid": "990335c4-d2ed-4eac-8677-3ef24c8cd375:broadside-battlesuits",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "set",
+            "stat": "ap",
+            "value": "-3",
+            "when": {
+              "en": "on a Critical Wound",
+              "ru": "при критическом ранении"
+            }
+          }
+        ],
+        "hash": "cb79af81",
+        "kind": "ability",
+        "name": "Cadre Fireblade: Crack Shot",
+        "ref": {
+          "kind": "ability",
+          "unit": "cadre-fireblade"
+        },
+        "reviewed": true,
+        "sid": "4ff7e6d5-ee30-452f-8ef8-e11bfc6de69a:cadre-fireblade",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "a",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "e9897828",
+        "kind": "ability",
+        "name": "Cadre Fireblade: Volley Fire",
+        "ref": {
+          "kind": "ability",
+          "unit": "cadre-fireblade"
+        },
+        "reviewed": true,
+        "sid": "85eb2dc7-a000-467f-825a-1175fd936b7b:cadre-fireblade",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 1,
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "24c8e47f",
+        "kind": "ability",
+        "name": "Commander Cloudspear: Shield Drone",
+        "ref": {
+          "kind": "ability",
+          "unit": "commander-cloudspear"
+        },
+        "reviewed": true,
+        "sid": "7c3a2d95-83dd-41fe-ac51-ee557aaadfd4:commander-cloudspear",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "target": "unit",
+            "value": 1,
+            "when": {
+              "en": "against an enemy unit within 9\"",
+              "ru": "по вражескому отряду в пределах 9\""
+            }
+          }
+        ],
+        "hash": "9c09f092",
+        "kind": "ability",
+        "name": "Commander Farsight: Way of the Short Blade",
+        "ref": {
+          "kind": "ability",
+          "unit": "commander-farsight"
+        },
+        "reviewed": true,
+        "sid": "5627b944-56d1-4649-8606-97050b2551af:commander-farsight",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "m",
+            "target": "unit",
+            "value": "12\"",
+            "when": null
+          },
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "ASSAULT",
+            "when": null
+          }
+        ],
+        "hash": "de308cfa",
+        "kind": "ability",
+        "name": "Commander in Coldstar Battlesuit: Coldstar Commander",
+        "ref": {
+          "kind": "ability",
+          "unit": "commander-in-coldstar-battlesuit"
+        },
+        "reviewed": true,
+        "sid": "41b6ddfb-60a1-404c-bf5f-4b4411c5c90f:commander-in-coldstar-battlesuit",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "ap",
+            "value": 1,
+            "vs": "ranged",
+            "when": {
+              "en": "while this model is leading a unit",
+              "ru": "пока модель возглавляет отряд"
+            }
+          },
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "ap",
+            "target": "led",
+            "value": 1,
+            "vs": "ranged",
+            "when": {
+              "en": "while this model is leading a unit",
+              "ru": "пока модель возглавляет отряд"
+            }
+          }
+        ],
+        "hash": "445cab64",
+        "kind": "ability",
+        "name": "Commander in Enforcer Battlesuit: Enforcer Commander",
+        "ref": {
+          "kind": "ability",
+          "unit": "commander-in-enforcer-battlesuit"
+        },
+        "reviewed": true,
+        "sid": "306d7212-56a5-4659-b282-2378986d270a:commander-in-enforcer-battlesuit",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 6,
+            "when": {
+              "en": "in a phase it Advanced (no Advance roll is made)",
+              "ru": "в фазе, когда совершил Advance (бросок не делается)"
+            }
+          }
+        ],
+        "hash": "0ffc4f9b",
+        "kind": "ability",
+        "name": "Crisis Battlesuits: Turbo-jets",
+        "ref": {
+          "kind": "ability",
+          "unit": "crisis-battlesuits"
+        },
+        "reviewed": true,
+        "sid": "pack:crisis-battlesuits:turbo-jets",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "except against MONSTERS and VEHICLES",
+              "ru": "кроме целей MONSTER и VEHICLE"
+            }
+          }
+        ],
+        "hash": "4adc7911",
+        "kind": "ability",
+        "name": "Crisis Starscythe Battlesuits: Starscythe",
+        "ref": {
+          "kind": "ability",
+          "unit": "crisis-starscythe-battlesuits"
+        },
+        "reviewed": true,
+        "sid": "edf3cf2b-c0b0-4d8b-b5c2-acc69bcbffe8:crisis-starscythe-battlesuits",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "wound",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "07b755b8",
+        "kind": "ability",
+        "name": "Darkstrider: Structural Analyser",
+        "ref": {
+          "kind": "ability",
+          "unit": "darkstrider"
+        },
+        "reviewed": true,
+        "sid": "79ce02fd-5706-413c-9365-98c90d0039f8:darkstrider",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "e258d19a",
+        "kind": "ability",
+        "name": "Drone Sentry Turret: Fortification",
+        "ref": {
+          "kind": "ability",
+          "unit": "drone-sentry-turret"
+        },
+        "reviewed": true,
+        "sid": "pack:drone-sentry-turret:fortification",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Feel No Pain 5+",
+            "when": null
+          }
+        ],
+        "hash": "ccc78431",
+        "kind": "ability",
+        "name": "Ethereal: Failure Is Not an Option",
+        "ref": {
+          "kind": "ability",
+          "unit": "ethereal"
+        },
+        "reviewed": true,
+        "sid": "3a57eda6-acfc-40b9-9c84-3187094862aa:ethereal",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "e1355834",
+        "kind": "ability",
+        "name": "Ghostkeel Battlesuit: Stealth Drones",
+        "ref": {
+          "kind": "ability",
+          "unit": "ghostkeel-battlesuit"
+        },
+        "reviewed": true,
+        "sid": "9d44f9cd-f90a-42e0-a1ad-991dd4f91ead:ghostkeel-battlesuit",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 6,
+            "when": {
+              "en": "in a phase it Advanced (no Advance roll is made)",
+              "ru": "в фазе, когда совершил Advance (бросок не делается)"
+            }
+          }
+        ],
+        "hash": "18a0ce80",
+        "kind": "ability",
+        "name": "Great Knarloc: Loping Stride",
+        "note": "Read as Ynnari Raider: Aethersails (aeldari), the same text.",
+        "ref": {
+          "kind": "ability",
+          "unit": "great-knarloc"
+        },
+        "reviewed": true,
+        "sid": "pack:great-knarloc:loping-stride",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a MONSTER or VEHICLE unit",
+              "ru": "по отряду MONSTER или VEHICLE"
+            }
+          }
+        ],
+        "hash": "a89f23e7",
+        "kind": "ability",
+        "name": "Hammerhead Gunship: Armour Hunter",
+        "ref": {
+          "kind": "ability",
+          "unit": "hammerhead-gunship"
+        },
+        "reviewed": true,
+        "sid": "1b0c45a9-bee6-47d2-8424-d0aa5a1522a1:hammerhead-gunship",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "only": {
+              "name": "Knarloc beak and talons"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "LANCE",
+            "when": {
+              "en": "until the end of the turn it ended a Charge move",
+              "ru": "до конца хода, в котором завершил Charge"
+            }
+          }
+        ],
+        "hash": "cc05bfb5",
+        "kind": "ability",
+        "name": "Knarloc Riders: Thunderous Pounce",
+        "ref": {
+          "kind": "ability",
+          "unit": "knarloc-riders"
+        },
+        "reviewed": true,
+        "sid": "pack:knarloc-riders:thunderous-pounce",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "against the marked enemy unit",
+              "ru": "по отмеченному вражескому отряду"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "against the marked enemy unit",
+              "ru": "по отмеченному вражескому отряду"
+            }
+          }
+        ],
+        "hash": "d83f9fee",
+        "kind": "ability",
+        "name": "Kroot Farstalkers: Bounty Hunters",
+        "ref": {
+          "kind": "ability",
+          "unit": "kroot-farstalkers"
+        },
+        "reviewed": true,
+        "sid": "bdf68a61-1dd3-452b-bfb9-98d2770b8789:kroot-farstalkers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Feel No Pain 6+",
+            "when": null
+          }
+        ],
+        "hash": "42e02f83",
+        "kind": "ability",
+        "name": "Kroot Flesh Shaper: Rites of Feasting",
+        "ref": {
+          "kind": "ability",
+          "unit": "kroot-flesh-shaper"
+        },
+        "reviewed": true,
+        "sid": "8483191d-9223-42a3-984f-af76afc80b30:kroot-flesh-shaper",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "9d48081a",
+        "kind": "ability",
+        "name": "Kroot Flesh Shaper: Ritual Butchery",
+        "ref": {
+          "kind": "ability",
+          "unit": "kroot-flesh-shaper"
+        },
+        "reviewed": true,
+        "sid": "eb78b17b-a5dc-4131-a00b-1cbd6e432c73:kroot-flesh-shaper",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "while within 12\" of a friendly KROOT CHARACTER",
+              "ru": "пока в 12\" от дружественного KROOT CHARACTER"
+            }
+          }
+        ],
+        "hash": "8ae494c5",
+        "kind": "ability",
+        "name": "Kroot Hounds: Hunting Hounds",
+        "ref": {
+          "kind": "ability",
+          "unit": "kroot-hounds"
+        },
+        "reviewed": true,
+        "sid": "a74d1719-a805-4c86-be15-83b1149e7aa9:kroot-hounds",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a MONSTER or VEHICLE unit",
+              "ru": "по отряду MONSTER или VEHICLE"
+            }
+          }
+        ],
+        "hash": "f1f0a2fd",
+        "kind": "ability",
+        "name": "Longstrike: Armour Hunter",
+        "ref": {
+          "kind": "ability",
+          "unit": "longstrike"
+        },
+        "reviewed": true,
+        "sid": "pack:longstrike:armour-hunter",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "759ba884",
+        "kind": "ability",
+        "name": "Longstrike: XV02 Pilot Battlesuit",
+        "ref": {
+          "kind": "ability",
+          "unit": "longstrike"
+        },
+        "reviewed": true,
+        "sid": "pack:longstrike:xv02-pilot-battlesuit",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "7cda8d5d",
+        "kind": "ability",
+        "name": "Orca Dropship: Jet Pack Insertion",
+        "ref": {
+          "kind": "ability",
+          "unit": "orca-dropship"
+        },
+        "reviewed": true,
+        "sid": "pack:orca-dropship:jet-pack-insertion",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "improve",
+            "stat": "bs",
+            "value": 1,
+            "when": {
+              "en": "against their Spotted unit",
+              "ru": "против отмеченного (Spotted) юнита"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "against their Spotted unit",
+              "ru": "против отмеченного (Spotted) юнита"
+            }
+          }
+        ],
+        "hash": "11cdc93b",
+        "kind": "ability",
+        "name": "Pathfinder Team: Target Uploaded",
+        "ref": {
+          "kind": "ability",
+          "unit": "pathfinder-team"
+        },
+        "reviewed": true,
+        "sid": "0b8a9cdf-f6e5-4e4f-9846-69c0c6c8b0f7:pathfinder-team",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": {
+              "en": "once per battle, for the phase it is used in",
+              "ru": "раз за битву, до конца фазы, в которой использовано"
+            }
+          }
+        ],
+        "hash": "a3c57e3c",
+        "kind": "ability",
+        "name": "R’varna Battlesuit: Nova Shielding",
+        "ref": {
+          "kind": "ability",
+          "unit": "rvarna-battlesuit"
+        },
+        "reviewed": true,
+        "sid": "pack:rvarna-battlesuit:nova-shielding",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a unit that cannot FLY",
+              "ru": "по отряду без FLY"
+            }
+          }
+        ],
+        "hash": "e2179b98",
+        "kind": "ability",
+        "name": "Razorshark Strike Fighter: Ground Strike Fighter",
+        "ref": {
+          "kind": "ability",
+          "unit": "razorshark-strike-fighter"
+        },
+        "reviewed": true,
+        "sid": "b523c318-8321-4e1c-a0d2-9d112b731381:razorshark-strike-fighter",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "e258d19a",
+        "kind": "ability",
+        "name": "Remote Sensor Tower: Fortification",
+        "ref": {
+          "kind": "ability",
+          "unit": "remote-sensor-tower"
+        },
+        "reviewed": true,
+        "sid": "pack:remote-sensor-tower:fortification",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "once per battle, the phase it is used",
+              "ru": "раз за битву, фаза, в которую применено"
+            }
+          }
+        ],
+        "hash": "e9e77db7",
+        "kind": "ability",
+        "name": "Riptide Battlesuit: Nova Charge",
+        "ref": {
+          "kind": "ability",
+          "unit": "riptide-battlesuit"
+        },
+        "reviewed": true,
+        "sid": "e555e882-7cc5-4580-b9ec-c417e5ba4861:riptide-battlesuit",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "unit",
+            "value": "5+",
+            "when": null
+          }
+        ],
+        "hash": "b352cc54",
+        "kind": "ability",
+        "name": "Shas’o R’alai: Eclipse Field Generator",
+        "note": "Read as Kâhl: Rampart Crest (leagues-of-votann), the same text.",
+        "ref": {
+          "kind": "ability",
+          "unit": "shaso-ralai"
+        },
+        "reviewed": true,
+        "sid": "pack:shaso-ralai:eclipse-field-generator",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "aa159a8f",
+        "kind": "ability",
+        "name": "Strike Team: Suppression Volley",
+        "ref": {
+          "kind": "ability",
+          "unit": "strike-team"
+        },
+        "reviewed": true,
+        "sid": "b472c2f2-d54e-4444-b60b-d5641fbd7bf4:strike-team",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "improve",
+            "stat": "bs",
+            "value": 1,
+            "when": {
+              "en": "against their Spotted unit",
+              "ru": "против отмеченного (Spotted) юнита"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "against their Spotted unit",
+              "ru": "против отмеченного (Spotted) юнита"
+            }
+          }
+        ],
+        "hash": "24202041",
+        "kind": "ability",
+        "name": "Sudden Dawn Cadre Pathfinder Team: Target Uploaded",
+        "ref": {
+          "kind": "ability",
+          "unit": "sudden-dawn-cadre-pathfinder-team"
+        },
+        "reviewed": true,
+        "sid": "d86960ba-ce82-4f5d-bf4d-70811d1e8a29:sudden-dawn-cadre-pathfinder-team",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "against the closest eligible target",
+              "ru": "по ближайшей допустимой цели"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "against the closest eligible target",
+              "ru": "по ближайшей допустимой цели"
+            }
+          }
+        ],
+        "hash": "2aa5f748",
+        "kind": "ability",
+        "name": "The Twin Lance: Exemplars of Mont’ka",
+        "ref": {
+          "kind": "ability",
+          "unit": "the-twin-lance"
+        },
+        "reviewed": true,
+        "sid": "863ac9a8-db40-4e18-a66e-bb9f69d4bd23:the-twin-lance",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "ee7e3001",
+        "kind": "ability",
+        "name": "Tidewall Droneport: Fortification",
+        "ref": {
+          "kind": "ability",
+          "unit": "tidewall-droneport"
+        },
+        "reviewed": true,
+        "sid": "26b11011-e99c-4bcd-8f2d-fe34af25bfa4:tidewall-droneport",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "ee7e3001",
+        "kind": "ability",
+        "name": "Tidewall Gunrig: Fortification",
+        "ref": {
+          "kind": "ability",
+          "unit": "tidewall-gunrig"
+        },
+        "reviewed": true,
+        "sid": "26b11011-e99c-4bcd-8f2d-fe34af25bfa4:tidewall-gunrig",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "ee7e3001",
+        "kind": "ability",
+        "name": "Tidewall Shieldline: Fortification",
+        "ref": {
+          "kind": "ability",
+          "unit": "tidewall-shieldline"
+        },
+        "reviewed": true,
+        "sid": "26b11011-e99c-4bcd-8f2d-fe34af25bfa4:tidewall-shieldline",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-tidewall-platform"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "w",
+            "value": "15",
+            "when": {
+              "en": "if equipped with a Tidewall defence platform",
+              "ru": "если взята Tidewall defence platform"
+            }
+          }
+        ],
+        "hash": "47477b37",
+        "kind": "ability",
+        "name": "Tidewall Shieldline: Tidewall Defence Platform",
+        "ref": {
+          "kind": "ability",
+          "unit": "tidewall-shieldline"
+        },
+        "reviewed": true,
+        "sid": "0e4e1053-0b6b-4c1a-95de-3bd05d9884fd:tidewall-shieldline",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "ac5f2d46",
+        "kind": "ability",
+        "name": "XV9 Hazard Battlesuits: Photon Casters",
+        "ref": {
+          "kind": "ability",
+          "unit": "xv9-hazard-battlesuits"
+        },
+        "reviewed": true,
+        "sid": "pack:xv9-hazard-battlesuits:photon-casters",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "set",
+            "stat": "m",
+            "value": "18\"",
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "45a236d5",
+        "kind": "ability",
+        "name": "Y’vahra Battlesuit: Nova Burst",
+        "ref": {
+          "kind": "ability",
+          "unit": "yvahra-battlesuit"
+        },
+        "reviewed": true,
+        "sid": "pack:yvahra-battlesuit:nova-burst",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "e80ed40e",
+        "kind": "armyRule",
+        "name": "Drones",
+        "ref": {
+          "kind": "armyRule"
+        },
+        "reviewed": true,
+        "sid": "2206b8e8-8ebc-4747-9bd3-6b44ccb32ff0",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "improve",
+            "stat": "bs",
+            "value": 1,
+            "when": {
+              "en": "per attack by a Guided unit against a Spotted unit",
+              "ru": "за атаку отряда Guided по отряду Spotted"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "against a Spotted unit marked by an Observer with the Markerlight keyword",
+              "ru": "по Spotted-отряду, отмеченному наблюдателем с кейвордом Markerlight"
+            }
+          }
+        ],
+        "hash": "206e56d8",
+        "kind": "armyRule",
+        "name": "For the Greater Good",
+        "ref": {
+          "kind": "armyRule"
+        },
+        "reviewed": true,
+        "sid": "36cc4fa4-cc15-41f2-9d47-14e2550579ea",
+        "ver": 925
+      },
+      {
+        "det": "Auxiliary Cadre",
+        "effects": [],
+        "hash": "88baa130",
+        "kind": "detachmentRule",
+        "name": "Integrated Command Structure",
+        "ref": {
+          "det": "auxiliary-cadre",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "ee59bdf2-6055-450b-8cff-977c4b7efb79",
+        "ver": 995
+      },
+      {
+        "det": "Experimental Prototype Cadre",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "range",
+            "value": 6,
+            "when": null
+          }
+        ],
+        "hash": "2346797a",
+        "kind": "detachmentRule",
+        "name": "Superior Craftsmanship",
+        "ref": {
+          "det": "experimental-prototype-cadre",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "f386b3da-2477-4ce5-8efa-01257e4f6f37",
+        "ver": 981
+      },
+      {
+        "det": "Kauyon",
+        "effects": [
+          {
+            "cond": [
+              "rounds-3-5"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "during the third, fourth and fifth battle rounds",
+              "ru": "в третьем, четвёртом и пятом раундах"
+            }
+          }
+        ],
+        "hash": "e7892f2a",
+        "kind": "detachmentRule",
+        "name": "Patient Hunter",
+        "ref": {
+          "det": "kauyon",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "8d4abd30-90f3-4747-8497-0fe92c9377c9",
+        "ver": 925
+      },
+      {
+        "det": "Kroot Hunting Pack",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a target below its Starting Strength",
+              "ru": "по цели ниже Starting Strength"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against a target that is Below Half-strength",
+              "ru": "по цели Below Half-strength"
+            }
+          }
+        ],
+        "hash": "6b5488c9",
+        "kind": "detachmentRule",
+        "name": "Hunter’s Instincts",
+        "ref": {
+          "det": "kroot-hunting-pack",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "227283db-9c12-4439-a0e6-bfa6c2ac0644",
+        "ver": 925
+      },
+      {
+        "det": "Kroot Hunting Pack",
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "5+",
+            "when": {
+              "en": "Kroot models: 5+ against ranged attacks, 6+ against melee attacks",
+              "ru": "модели Kroot: 5+ против стрелковых атак, 6+ против атак ближнего боя"
+            }
+          }
+        ],
+        "hash": "7e1866de",
+        "kind": "detachmentRule",
+        "name": "Skirmish Fighters",
+        "ref": {
+          "det": "kroot-hunting-pack",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "54301b08-2777-45b6-856c-3cda0d13bb17",
+        "ver": 925
+      },
+      {
+        "det": "Mont’ka",
+        "effects": [
+          {
+            "cond": [
+              "rounds-1-3"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": {
+              "en": "during the first, second and third battle rounds",
+              "ru": "в первом, втором и третьем раундах"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "during the first, second and third battle rounds, while the unit is Guided",
+              "ru": "в первом, втором и третьем раундах, пока отряд Guided"
+            }
+          }
+        ],
+        "hash": "512df2e0",
+        "kind": "detachmentRule",
+        "name": "Killing Blow",
+        "ref": {
+          "det": "montka",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "b6a14719-7a92-480a-9a27-a67e48996c50",
+        "ver": 925
+      },
+      {
+        "det": "Retaliation Cadre",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "Battlesuit models, per ranged attack against a unit within 12\"",
+              "ru": "модели Battlesuit, за стрелковую атаку по отряду в пределах 12\""
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "Battlesuit models, per ranged attack against a unit within 8\"",
+              "ru": "модели Battlesuit, за стрелковую атаку по отряду в пределах 8\""
+            }
+          }
+        ],
+        "hash": "e52012f0",
+        "kind": "detachmentRule",
+        "name": "Bonded Heroes",
+        "ref": {
+          "det": "retaliation-cadre",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "b7f0dc14-9ef7-4228-9162-ce5dcb921fc9",
+        "ver": 925
+      },
+      {
+        "det": "Sudden Dawn Cadre",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "once": {
+              "dur": "battle",
+              "per": "army"
+            },
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "once per battle, per army, against the one enemy unit selected",
+              "ru": "раз за битву на армию, против одного выбранного отряда противника"
+            }
+          }
+        ],
+        "hash": "e0bc5f03",
+        "kind": "detachmentRule",
+        "name": "Co-ordinated Eradication",
+        "ref": {
+          "det": "cp:tau-empire",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "62b007f2-e374-41af-8c14-9df423e382c6",
+        "ver": 925
+      },
+      {
+        "det": "Auxiliary Cadre",
+        "effects": [],
+        "hash": "42062682",
+        "kind": "enhancement",
+        "name": "Admired Leader",
+        "ref": {
+          "det": "auxiliary-cadre",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "e168fe57-5411-4ee4-978e-afa421d8fd5e",
+        "ver": 925
+      },
+      {
+        "det": "Auxiliary Cadre",
+        "effects": [],
+        "hash": "6829c2e3",
+        "kind": "enhancement",
+        "name": "Student of Kauyon",
+        "ref": {
+          "det": "auxiliary-cadre",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "aa6050b1-4d24-4801-930e-e3871441ac4d",
+        "ver": 925
+      },
+      {
+        "det": "Experimental Prototype Cadre",
+        "effects": [
+          {
+            "cond": [
+              "blocked-weapon"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Plasma rifle"
+            },
+            "op": "add",
+            "stat": "s",
+            "value": 2,
+            "when": {
+              "en": "the one Plasma Rifle selected in the Declare Battle Formations step",
+              "ru": "одно оружие Plasma Rifle, выбранное на шаге Declare Battle Formations"
+            }
+          },
+          {
+            "cond": [
+              "blocked-weapon"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Plasma rifle"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "the one Plasma Rifle selected in the Declare Battle Formations step",
+              "ru": "одно оружие Plasma Rifle, выбранное на шаге Declare Battle Formations"
+            }
+          },
+          {
+            "cond": [
+              "blocked-weapon"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Plasma rifle"
+            },
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "the one Plasma Rifle selected in the Declare Battle Formations step",
+              "ru": "одно оружие Plasma Rifle, выбранное на шаге Declare Battle Formations"
+            }
+          },
+          {
+            "cond": [
+              "blocked-weapon"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Plasma rifle"
+            },
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": {
+              "en": "the one Plasma Rifle selected in the Declare Battle Formations step",
+              "ru": "одно оружие Plasma Rifle, выбранное на шаге Declare Battle Formations"
+            }
+          }
+        ],
+        "hash": "23e6cbda",
+        "kind": "enhancement",
+        "name": "Plasma Accelerator Rifle",
+        "ref": {
+          "det": "experimental-prototype-cadre",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "bbb5af4d-2fed-4d0e-9e75-7e533cb8d72b",
+        "ver": 925
+      },
+      {
+        "det": "Experimental Prototype Cadre",
+        "effects": [
+          {
+            "cond": [
+              "blocked-weapon"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Airbursting fragmentation projector"
+            },
+            "op": "add",
+            "stat": "s",
+            "value": 3,
+            "when": {
+              "en": "the one Airbursting Fragmentation Projector selected in the Declare Battle Formations step",
+              "ru": "одно оружие Airbursting Fragmentation Projector, выбранное на шаге Declare Battle Formations"
+            }
+          },
+          {
+            "cond": [
+              "blocked-weapon"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Airbursting fragmentation projector"
+            },
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "the one Airbursting Fragmentation Projector selected in the Declare Battle Formations step",
+              "ru": "одно оружие Airbursting Fragmentation Projector, выбранное на шаге Declare Battle Formations"
+            }
+          },
+          {
+            "cond": [
+              "blocked-weapon"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Airbursting fragmentation projector"
+            },
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": {
+              "en": "the one Airbursting Fragmentation Projector selected in the Declare Battle Formations step",
+              "ru": "одно оружие Airbursting Fragmentation Projector, выбранное на шаге Declare Battle Formations"
+            }
+          }
+        ],
+        "hash": "2b9b1c3b",
+        "kind": "enhancement",
+        "name": "Supernova Launcher",
+        "ref": {
+          "det": "experimental-prototype-cadre",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "db116728-4b55-4323-8ed9-60397162dc82",
+        "ver": 925
+      },
+      {
+        "det": "Experimental Prototype Cadre",
+        "effects": [
+          {
+            "cond": [
+              "blocked-weapon"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "T’au flamer"
+            },
+            "op": "add",
+            "stat": "s",
+            "value": 2,
+            "when": {
+              "en": "the one T'au Flamer selected in the Declare Battle Formations step",
+              "ru": "одно оружие T’au Flamer, выбранное на шаге Declare Battle Formations"
+            }
+          },
+          {
+            "cond": [
+              "blocked-weapon"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "T’au flamer"
+            },
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "the one T'au Flamer selected in the Declare Battle Formations step",
+              "ru": "одно оружие T’au Flamer, выбранное на шаге Declare Battle Formations"
+            }
+          },
+          {
+            "cond": [
+              "blocked-weapon"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "T’au flamer"
+            },
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": {
+              "en": "the one T'au Flamer selected in the Declare Battle Formations step",
+              "ru": "одно оружие T’au Flamer, выбранное на шаге Declare Battle Formations"
+            }
+          }
+        ],
+        "hash": "7486b8b1",
+        "kind": "enhancement",
+        "name": "Thermoneutronic Projector",
+        "ref": {
+          "det": "experimental-prototype-cadre",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "302188cd-822a-40bd-93b3-8ccf7e50e1b7",
+        "ver": 925
+      },
+      {
+        "det": "Kauyon",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": null
+          },
+          {
+            "cond": [
+              "rounds-3-5"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "from the third battle round onwards",
+              "ru": "с третьего раунда"
+            }
+          }
+        ],
+        "hash": "d907baa7",
+        "kind": "enhancement",
+        "name": "Precision of the Patient Hunter",
+        "ref": {
+          "det": "kauyon",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "7c538bba-1367-4adc-b54b-bea749daa8a5",
+        "ver": 925
+      },
+      {
+        "det": "Kauyon",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while the unit is Guided and targeting its Spotted unit, with the bearer leading an Observer unit",
+              "ru": "пока отряд Guided и целью является его Spotted-отряд, а носитель ведёт Observer-отряд"
+            }
+          }
+        ],
+        "hash": "de6acae3",
+        "kind": "enhancement",
+        "name": "Through Unity, Devastation",
+        "ref": {
+          "det": "kauyon",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "f65de9ae-c750-4ab8-bbb6-6459f9787c12",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading"
+        ],
+        "det": "Kroot Hunting Pack",
+        "effects": [],
+        "hash": "fce1ae40",
+        "kind": "enhancement",
+        "name": "Borthrod Gland",
+        "ref": {
+          "det": "kroot-hunting-pack",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "9082456d-f1cc-460d-84b1-3dd8318b052c",
+        "ver": 995
+      },
+      {
+        "det": "Kroot Hunting Pack",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": null
+          }
+        ],
+        "hash": "262e776c",
+        "kind": "enhancement",
+        "name": "Kroothawk Flock",
+        "ref": {
+          "det": "kroot-hunting-pack",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "b0b02250-29bc-4b8f-b501-a007e6fb45e6",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading"
+        ],
+        "det": "Kroot Hunting Pack",
+        "effects": [
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "led",
+            "value": 3,
+            "when": {
+              "en": "while the bearer is leading a unit",
+              "ru": "пока носитель ведёт юнит"
+            }
+          },
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "ASSAULT",
+            "when": {
+              "en": "while the bearer is leading a unit",
+              "ru": "пока носитель ведёт юнит"
+            }
+          }
+        ],
+        "hash": "ea99c260",
+        "kind": "enhancement",
+        "name": "Nomadic Hunter",
+        "ref": {
+          "det": "kroot-hunting-pack",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "7e5ea128-b5a8-4540-b84b-6b74bca2da44",
+        "ver": 925
+      },
+      {
+        "det": "Kroot Hunting Pack",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": null
+          },
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": null
+          }
+        ],
+        "hash": "0bd55e1f",
+        "kind": "enhancement",
+        "name": "Root-carved Weapons",
+        "ref": {
+          "det": "kroot-hunting-pack",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "4dd7d360-96a8-4d06-a4b6-37db141d8b80",
+        "ver": 925
+      },
+      {
+        "det": "Mont’ka",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while the unit is Guided and targeting its Spotted unit, with the bearer leading an Observer unit",
+              "ru": "пока отряд Guided и целью является его Spotted-отряд, а носитель ведёт Observer-отряд"
+            }
+          }
+        ],
+        "hash": "eb061f13",
+        "kind": "enhancement",
+        "name": "Coordinated Exploitation",
+        "ref": {
+          "det": "montka",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "ee09770e-ecef-40eb-9435-f17af1b050ec",
+        "ver": 925
+      },
+      {
+        "det": "Mont’ka",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "while within range of the objective marker selected at the start of the battle and the bearer is on the battlefield",
+              "ru": "пока модель в радиусе выбранного в начале битвы маркера, а носитель на поле боя"
+            }
+          }
+        ],
+        "hash": "c6114053",
+        "kind": "enhancement",
+        "name": "Strategic Conqueror",
+        "ref": {
+          "det": "montka",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "1ff1cc2a-ba28-4e1b-aee4-78c67b35a4de",
+        "ver": 925
+      },
+      {
+        "det": "Mont’ka",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "aura",
+            "value": "Scouts 6\"",
+            "when": null
+          }
+        ],
+        "hash": "d020ecaa",
+        "kind": "enhancement",
+        "name": "Strike Swiftly",
+        "ref": {
+          "det": "montka",
+          "kind": "enhancement",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "T'AU EMPIRE"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "f4e9290f-d6cd-469b-94cc-cf7b908c59ad",
+        "ver": 925
+      },
+      {
+        "det": "Retaliation Cadre",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Grenades",
+            "when": null
+          }
+        ],
+        "hash": "0570f862",
+        "kind": "enhancement",
+        "name": "Internal Grenade Racks",
+        "ref": {
+          "det": "retaliation-cadre",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "f73f4a42-c4b1-4ef7-bd9c-deaf79bc413d",
+        "ver": 925
+      },
+      {
+        "det": "Sudden Dawn Cadre",
+        "effects": [],
+        "hash": "f467cc09",
+        "kind": "enhancement",
+        "name": "Earth Caste Modifications",
+        "ref": {
+          "det": "cp:tau-empire",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "ceebb987-c76b-4834-8d70-6f1cc0c5e3ee",
+        "ver": 995
+      },
+      {
+        "det": "Sudden Dawn Cadre",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "a",
+            "target": "unit",
+            "value": 1,
+            "when": {
+              "en": "for a unit disembarking from this Devilfish, pulse blaster and pulse carbine only",
+              "ru": "для отряда, высаживающегося из этого Devilfish, только pulse blaster и pulse carbine"
+            }
+          }
+        ],
+        "hash": "bbffd440",
+        "kind": "enhancement",
+        "name": "Proximity Scanners",
+        "ref": {
+          "det": "cp:tau-empire",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "3513ccb4-3398-47a4-9518-5cc2ab78b9cb",
+        "ver": 925
+      },
+      {
+        "det": "Advanced Acquisition Cadre",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "improve",
+            "stat": "sv",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "97d04864",
+        "kind": "stratagem",
+        "name": "Autoreactive Camouflage",
+        "ref": {
+          "det": "advanced-acquisition-cadre",
+          "kind": "stratagem",
+          "name": "Autoreactive Camouflage"
+        },
+        "reviewed": true,
+        "sid": "f14c3b61-256c-4279-8161-8f663422a056",
+        "ver": 995
+      },
+      {
+        "det": "Auxiliary Cadre",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "93165ff9",
+        "kind": "stratagem",
+        "name": "Experimental Modifications",
+        "ref": {
+          "det": "auxiliary-cadre",
+          "kind": "stratagem",
+          "name": "Experimental Modifications"
+        },
+        "reviewed": true,
+        "sid": "f2aeddba-542d-4aa0-b1ac-1c6a39580385",
+        "ver": 925
+      },
+      {
+        "det": "Auxiliary Cadre",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "against a unit near a friendly KROOT or VESPID STINGWINGS unit",
+              "ru": "по отряду рядом с дружественным KROOT/VESPID STINGWINGS"
+            }
+          }
+        ],
+        "hash": "056ca4e1",
+        "kind": "stratagem",
+        "name": "Guided By Unity",
+        "ref": {
+          "det": "auxiliary-cadre",
+          "kind": "stratagem",
+          "name": "Guided By Unity"
+        },
+        "reviewed": true,
+        "sid": "dd153b7c-abbb-4c2f-a989-bcb394ba8986",
+        "ver": 925
+      },
+      {
+        "det": "Experimental Prototype Cadre",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "cond": [
+              "ammo-overcharge"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "if the second option was picked when the stratagem was used",
+              "ru": "если при применении выбран второй вариант"
+            }
+          },
+          {
+            "cond": [
+              "ammo-overcharge"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "HAZARDOUS",
+            "when": {
+              "en": "if the second option was picked when the stratagem was used",
+              "ru": "если при применении выбран второй вариант"
+            }
+          }
+        ],
+        "hash": "c1f627ff",
+        "kind": "stratagem",
+        "name": "Experimental Ammunition",
+        "ref": {
+          "det": "experimental-prototype-cadre",
+          "kind": "stratagem",
+          "name": "Experimental Ammunition"
+        },
+        "reviewed": true,
+        "sid": "f69888d4-7f69-4346-9092-8f79fb3f0c1e",
+        "ver": 925
+      },
+      {
+        "det": "Kauyon",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against an enemy unit within range of your Trap objective marker",
+              "ru": "по вражескому отряду в радиусе вашего Trap objective marker"
+            }
+          }
+        ],
+        "hash": "bb917519",
+        "kind": "stratagem",
+        "name": "A Tempting Trap",
+        "ref": {
+          "det": "kauyon",
+          "kind": "stratagem",
+          "name": "A Tempting Trap"
+        },
+        "reviewed": true,
+        "sid": "23171018-281d-4321-a2fe-c65dd5a6fb08",
+        "ver": 925
+      },
+      {
+        "det": "Kauyon",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "unit-markerlight"
+            ],
+            "on": "ranged",
+            "op": "improve",
+            "stat": "bs",
+            "value": 1,
+            "when": {
+              "en": "against their Spotted unit",
+              "ru": "против отмеченного (Spotted) юнита"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "if your unit has the Markerlight keyword",
+              "ru": "если у отряда есть кейворд Markerlight"
+            }
+          }
+        ],
+        "hash": "62b9fc5c",
+        "kind": "stratagem",
+        "name": "Coordinate to Engage",
+        "ref": {
+          "det": "kauyon",
+          "kind": "stratagem",
+          "name": "Coordinate to Engage"
+        },
+        "reviewed": true,
+        "sid": "1d4a3379-8785-4d9d-b18e-4ddd744e8390",
+        "ver": 925
+      },
+      {
+        "det": "Kauyon",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "against targets within 9\"",
+              "ru": "против целей в 9\""
+            }
+          }
+        ],
+        "hash": "23bdfb83",
+        "kind": "stratagem",
+        "name": "Point-blank Ambush",
+        "ref": {
+          "det": "kauyon",
+          "kind": "stratagem",
+          "name": "Point-blank Ambush"
+        },
+        "reviewed": true,
+        "sid": "64ac8db1-bb2c-495b-82db-64ae980f215d",
+        "ver": 925
+      },
+      {
+        "det": "Kroot Hunting Pack",
+        "effects": [],
+        "hash": "b367fbc6",
+        "kind": "stratagem",
+        "name": "A Trap Well Laid",
+        "ref": {
+          "det": "kroot-hunting-pack",
+          "kind": "stratagem",
+          "name": "A Trap Well Laid"
+        },
+        "reviewed": true,
+        "sid": "7ce53326-264e-4abf-8421-d137129a0665",
+        "ver": 925
+      },
+      {
+        "det": "Kroot Hunting Pack",
+        "effects": [],
+        "hash": "942628be",
+        "kind": "stratagem",
+        "name": "EMP Grenades",
+        "ref": {
+          "det": "kroot-hunting-pack",
+          "kind": "stratagem",
+          "name": "EMP Grenades"
+        },
+        "reviewed": true,
+        "sid": "6ed24703-1b7e-465b-9b31-0cfc693d0ed0",
+        "ver": 925
+      },
+      {
+        "det": "Mont’ka",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 6,
+            "when": {
+              "en": "in a phase it Advanced (no Advance roll)",
+              "ru": "в фазе с Advance (без броска)"
+            }
+          }
+        ],
+        "hash": "50325371",
+        "kind": "stratagem",
+        "name": "Aggressive Mobility",
+        "ref": {
+          "det": "montka",
+          "kind": "stratagem",
+          "name": "Aggressive Mobility"
+        },
+        "reviewed": true,
+        "sid": "dc0729c7-424b-43d1-a8f9-5e72e7cd8001",
+        "ver": 925
+      },
+      {
+        "det": "Mont’ka",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "7d3ef23d",
+        "kind": "stratagem",
+        "name": "Counterfire Defence Systems",
+        "ref": {
+          "det": "montka",
+          "kind": "stratagem",
+          "name": "Counterfire Defence Systems"
+        },
+        "reviewed": true,
+        "sid": "450d8520-3527-4c3d-bbdb-a5361f7d6ab0",
+        "ver": 925
+      },
+      {
+        "det": "Mont’ka",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "against the one enemy unit this stratagem named",
+              "ru": "против юнита, названного стратагемой"
+            }
+          }
+        ],
+        "hash": "9e642357",
+        "kind": "stratagem",
+        "name": "Focused Fire",
+        "ref": {
+          "det": "montka",
+          "kind": "stratagem",
+          "name": "Focused Fire"
+        },
+        "reviewed": true,
+        "sid": "44f34886-982e-453b-8806-1e2e4cd315e1",
+        "ver": 925
+      },
+      {
+        "det": "Mont’ka",
+        "effects": [],
+        "hash": "ebbdcfe5",
+        "kind": "stratagem",
+        "name": "Pulse Onslaught",
+        "ref": {
+          "det": "montka",
+          "kind": "stratagem",
+          "name": "Pulse Onslaught"
+        },
+        "reviewed": true,
+        "sid": "78f2df6d-2fe6-418c-bc1b-52720d8f10d4",
+        "ver": 925
+      },
+      {
+        "det": "Retaliation Cadre",
+        "effects": [],
+        "hash": "fe05abda",
+        "kind": "stratagem",
+        "name": "Fail-safe Detonator",
+        "ref": {
+          "det": "retaliation-cadre",
+          "kind": "stratagem",
+          "name": "Fail-safe Detonator"
+        },
+        "reviewed": true,
+        "sid": "95f3d7cd-07f9-4e45-bc44-9726c1bc9843",
+        "ver": 925
+      },
+      {
+        "det": "Retaliation Cadre",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 6+",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "37f47123",
+        "kind": "stratagem",
+        "name": "Stimm Injectors",
+        "ref": {
+          "det": "retaliation-cadre",
+          "kind": "stratagem",
+          "name": "Stimm Injectors"
+        },
+        "reviewed": true,
+        "sid": "a7b887c0-722a-4c93-b146-c3f7b23d815d",
+        "ver": 925
+      },
+      {
+        "det": "Retaliation Cadre",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "against a unit of 6 or more models",
+              "ru": "по отряду из 6+ моделей"
+            }
+          }
+        ],
+        "hash": "52d6e5dd",
+        "kind": "stratagem",
+        "name": "The Arro’kon Protocol",
+        "ref": {
+          "det": "retaliation-cadre",
+          "kind": "stratagem",
+          "name": "The Arro’kon Protocol"
+        },
+        "reviewed": true,
+        "sid": "cfe18c6e-317d-493e-bd95-b399118541c2",
+        "ver": 925
+      },
+      {
+        "det": "Sudden Dawn Cadre",
+        "effects": [],
+        "hash": "8d80c4dd",
+        "kind": "stratagem",
+        "name": "Suppressing Fire",
+        "ref": {
+          "det": "cp:tau-empire",
+          "kind": "stratagem",
+          "name": "Suppressing Fire"
+        },
+        "reviewed": true,
+        "sid": "af84591d-2433-4909-92bf-63d3cee6c3c5",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "ranged",
+            "when": null
+          }
+        ],
+        "hash": "da7d19c8",
+        "kind": "wargear",
+        "name": "Breacher Team: Guardian Drone",
+        "ref": {
+          "item": "guardian drone",
+          "kind": "wargear",
+          "unit": "breacher-team"
+        },
+        "reviewed": true,
+        "sid": "3b68b1a8-23f1-4e2a-90bf-8b6f082117c2:breacher-team",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Markerlight",
+            "when": null
+          }
+        ],
+        "hash": "a5cb8c1d",
+        "kind": "wargear",
+        "name": "Breacher Team: Marker Drone",
+        "ref": {
+          "item": "marker drone",
+          "kind": "wargear",
+          "unit": "breacher-team"
+        },
+        "reviewed": true,
+        "sid": "3491e144-63d5-48f6-906d-bc5bdfdeb9a9:breacher-team",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 1,
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "219c8b44",
+        "kind": "wargear",
+        "name": "Breacher Team: Shield Drone",
+        "ref": {
+          "item": "shield drone",
+          "kind": "wargear",
+          "unit": "breacher-team"
+        },
+        "reviewed": true,
+        "sid": "83b098fb-38a3-45f2-93d4-14cc224ddcdc:breacher-team",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Markerlight",
+            "when": null
+          }
+        ],
+        "hash": "a5cb8c1d",
+        "kind": "wargear",
+        "name": "Broadside Battlesuits: Marker Drone",
+        "ref": {
+          "item": "marker drone",
+          "kind": "wargear",
+          "unit": "broadside-battlesuits"
+        },
+        "reviewed": true,
+        "sid": "3491e144-63d5-48f6-906d-bc5bdfdeb9a9:broadside-battlesuits",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 1,
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "219c8b44",
+        "kind": "wargear",
+        "name": "Broadside Battlesuits: Shield Drone",
+        "ref": {
+          "item": "shield drone",
+          "kind": "wargear",
+          "unit": "broadside-battlesuits"
+        },
+        "reviewed": true,
+        "sid": "83b098fb-38a3-45f2-93d4-14cc224ddcdc:broadside-battlesuits",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Markerlight",
+            "when": null
+          }
+        ],
+        "hash": "a5cb8c1d",
+        "kind": "wargear",
+        "name": "Cadre Fireblade: Marker Drone",
+        "ref": {
+          "item": "marker drone",
+          "kind": "wargear",
+          "unit": "cadre-fireblade"
+        },
+        "reviewed": true,
+        "sid": "3491e144-63d5-48f6-906d-bc5bdfdeb9a9:cadre-fireblade",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 1,
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "219c8b44",
+        "kind": "wargear",
+        "name": "Cadre Fireblade: Shield Drone",
+        "ref": {
+          "item": "shield drone",
+          "kind": "wargear",
+          "unit": "cadre-fireblade"
+        },
+        "reviewed": true,
+        "sid": "83b098fb-38a3-45f2-93d4-14cc224ddcdc:cadre-fireblade",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Markerlight",
+            "when": null
+          }
+        ],
+        "hash": "a5cb8c1d",
+        "kind": "wargear",
+        "name": "Commander in Coldstar Battlesuit: Marker Drone",
+        "ref": {
+          "item": "marker drone",
+          "kind": "wargear",
+          "unit": "commander-in-coldstar-battlesuit"
+        },
+        "reviewed": true,
+        "sid": "3491e144-63d5-48f6-906d-bc5bdfdeb9a9:commander-in-coldstar-battlesuit",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 1,
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "219c8b44",
+        "kind": "wargear",
+        "name": "Commander in Coldstar Battlesuit: Shield Drone",
+        "ref": {
+          "item": "shield drone",
+          "kind": "wargear",
+          "unit": "commander-in-coldstar-battlesuit"
+        },
+        "reviewed": true,
+        "sid": "83b098fb-38a3-45f2-93d4-14cc224ddcdc:commander-in-coldstar-battlesuit",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": null
+          }
+        ],
+        "hash": "5e0ca50d",
+        "kind": "wargear",
+        "name": "Commander in Coldstar Battlesuit: Shield Generator",
+        "ref": {
+          "item": "shield generator",
+          "kind": "wargear",
+          "unit": "commander-in-coldstar-battlesuit"
+        },
+        "reviewed": true,
+        "sid": "1b501ea3-5061-4bc0-ac92-4b88f0e9126c:commander-in-coldstar-battlesuit",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Markerlight",
+            "when": null
+          }
+        ],
+        "hash": "0c8f7a1a",
+        "kind": "wargear",
+        "name": "Commander in Crisis Battlesuit: Marker Drone",
+        "ref": {
+          "item": "marker drone",
+          "kind": "wargear",
+          "unit": "commander-in-crisis-battlesuit"
+        },
+        "reviewed": true,
+        "sid": "pack:commander-in-crisis-battlesuit:marker-drone",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 1,
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "219c8b44",
+        "kind": "wargear",
+        "name": "Commander in Crisis Battlesuit: Shield Drone",
+        "ref": {
+          "item": "shield drone",
+          "kind": "wargear",
+          "unit": "commander-in-crisis-battlesuit"
+        },
+        "reviewed": true,
+        "sid": "pack:commander-in-crisis-battlesuit:shield-drone",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": null
+          }
+        ],
+        "hash": "5e0ca50d",
+        "kind": "wargear",
+        "name": "Commander in Crisis Battlesuit: Shield Generator",
+        "ref": {
+          "item": "shield generator",
+          "kind": "wargear",
+          "unit": "commander-in-crisis-battlesuit"
+        },
+        "reviewed": true,
+        "sid": "pack:commander-in-crisis-battlesuit:shield-generator",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Markerlight",
+            "when": null
+          }
+        ],
+        "hash": "a5cb8c1d",
+        "kind": "wargear",
+        "name": "Commander in Enforcer Battlesuit: Marker Drone",
+        "ref": {
+          "item": "marker drone",
+          "kind": "wargear",
+          "unit": "commander-in-enforcer-battlesuit"
+        },
+        "reviewed": true,
+        "sid": "3491e144-63d5-48f6-906d-bc5bdfdeb9a9:commander-in-enforcer-battlesuit",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 1,
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "219c8b44",
+        "kind": "wargear",
+        "name": "Commander in Enforcer Battlesuit: Shield Drone",
+        "ref": {
+          "item": "shield drone",
+          "kind": "wargear",
+          "unit": "commander-in-enforcer-battlesuit"
+        },
+        "reviewed": true,
+        "sid": "83b098fb-38a3-45f2-93d4-14cc224ddcdc:commander-in-enforcer-battlesuit",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": null
+          }
+        ],
+        "hash": "5e0ca50d",
+        "kind": "wargear",
+        "name": "Commander in Enforcer Battlesuit: Shield Generator",
+        "ref": {
+          "item": "shield generator",
+          "kind": "wargear",
+          "unit": "commander-in-enforcer-battlesuit"
+        },
+        "reviewed": true,
+        "sid": "1b501ea3-5061-4bc0-ac92-4b88f0e9126c:commander-in-enforcer-battlesuit",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "ranged",
+            "when": null
+          }
+        ],
+        "hash": "6774be42",
+        "kind": "wargear",
+        "name": "Commander Shadowsun: Advanced Guardian Drone",
+        "ref": {
+          "item": "advanced guardian drone",
+          "kind": "wargear",
+          "unit": "commander-shadowsun"
+        },
+        "reviewed": true,
+        "sid": "a5eb2f5e-4663-4dc2-ab36-f290dcb54251:commander-shadowsun",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Markerlight",
+            "when": null
+          }
+        ],
+        "hash": "0c8f7a1a",
+        "kind": "wargear",
+        "name": "Crisis Battlesuits: Marker Drone",
+        "ref": {
+          "item": "marker drone",
+          "kind": "wargear",
+          "unit": "crisis-battlesuits"
+        },
+        "reviewed": true,
+        "sid": "pack:crisis-battlesuits:marker-drone",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 1,
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "219c8b44",
+        "kind": "wargear",
+        "name": "Crisis Battlesuits: Shield Drone",
+        "ref": {
+          "item": "shield drone",
+          "kind": "wargear",
+          "unit": "crisis-battlesuits"
+        },
+        "reviewed": true,
+        "sid": "pack:crisis-battlesuits:shield-drone",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "5e0ca50d",
+        "kind": "wargear",
+        "name": "Crisis Battlesuits: Shield Generator",
+        "ref": {
+          "item": "shield generator",
+          "kind": "wargear",
+          "unit": "crisis-battlesuits"
+        },
+        "reviewed": true,
+        "sid": "pack:crisis-battlesuits:shield-generator",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Markerlight",
+            "when": null
+          }
+        ],
+        "hash": "a5cb8c1d",
+        "kind": "wargear",
+        "name": "Crisis Fireknife Battlesuits: Marker Drone",
+        "ref": {
+          "item": "marker drone",
+          "kind": "wargear",
+          "unit": "crisis-fireknife-battlesuits"
+        },
+        "reviewed": true,
+        "sid": "3491e144-63d5-48f6-906d-bc5bdfdeb9a9:crisis-fireknife-battlesuits",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 1,
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "219c8b44",
+        "kind": "wargear",
+        "name": "Crisis Fireknife Battlesuits: Shield Drone",
+        "ref": {
+          "item": "shield drone",
+          "kind": "wargear",
+          "unit": "crisis-fireknife-battlesuits"
+        },
+        "reviewed": true,
+        "sid": "83b098fb-38a3-45f2-93d4-14cc224ddcdc:crisis-fireknife-battlesuits",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Markerlight",
+            "when": null
+          }
+        ],
+        "hash": "a5cb8c1d",
+        "kind": "wargear",
+        "name": "Crisis Starscythe Battlesuits: Marker Drone",
+        "ref": {
+          "item": "marker drone",
+          "kind": "wargear",
+          "unit": "crisis-starscythe-battlesuits"
+        },
+        "reviewed": true,
+        "sid": "3491e144-63d5-48f6-906d-bc5bdfdeb9a9:crisis-starscythe-battlesuits",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 1,
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "219c8b44",
+        "kind": "wargear",
+        "name": "Crisis Starscythe Battlesuits: Shield Drone",
+        "ref": {
+          "item": "shield drone",
+          "kind": "wargear",
+          "unit": "crisis-starscythe-battlesuits"
+        },
+        "reviewed": true,
+        "sid": "83b098fb-38a3-45f2-93d4-14cc224ddcdc:crisis-starscythe-battlesuits",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Markerlight",
+            "when": null
+          }
+        ],
+        "hash": "a5cb8c1d",
+        "kind": "wargear",
+        "name": "Crisis Sunforge Battlesuits: Marker Drone",
+        "ref": {
+          "item": "marker drone",
+          "kind": "wargear",
+          "unit": "crisis-sunforge-battlesuits"
+        },
+        "reviewed": true,
+        "sid": "3491e144-63d5-48f6-906d-bc5bdfdeb9a9:crisis-sunforge-battlesuits",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 1,
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "219c8b44",
+        "kind": "wargear",
+        "name": "Crisis Sunforge Battlesuits: Shield Drone",
+        "ref": {
+          "item": "shield drone",
+          "kind": "wargear",
+          "unit": "crisis-sunforge-battlesuits"
+        },
+        "reviewed": true,
+        "sid": "83b098fb-38a3-45f2-93d4-14cc224ddcdc:crisis-sunforge-battlesuits",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "m",
+            "value": "10\"",
+            "when": null
+          }
+        ],
+        "hash": "a7dce676",
+        "kind": "wargear",
+        "name": "Ethereal: Hover Drone",
+        "ref": {
+          "item": "hover drone",
+          "kind": "wargear",
+          "unit": "ethereal"
+        },
+        "reviewed": true,
+        "sid": "e3f13656-b541-4d93-9b59-2713e85638f0:ethereal",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Markerlight",
+            "when": null
+          }
+        ],
+        "hash": "a5cb8c1d",
+        "kind": "wargear",
+        "name": "Ethereal: Marker Drone",
+        "ref": {
+          "item": "marker drone",
+          "kind": "wargear",
+          "unit": "ethereal"
+        },
+        "reviewed": true,
+        "sid": "3491e144-63d5-48f6-906d-bc5bdfdeb9a9:ethereal",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 1,
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "219c8b44",
+        "kind": "wargear",
+        "name": "Ethereal: Shield Drone",
+        "ref": {
+          "item": "shield drone",
+          "kind": "wargear",
+          "unit": "ethereal"
+        },
+        "reviewed": true,
+        "sid": "83b098fb-38a3-45f2-93d4-14cc224ddcdc:ethereal",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "aura",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "cfe10de0",
+        "kind": "wargear",
+        "name": "Great Knarloc: Baggage Harness (Aura)",
+        "ref": {
+          "item": "baggage harness (aura)",
+          "kind": "wargear",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "KROOT"
+              ]
+            }
+          ],
+          "unit": "great-knarloc"
+        },
+        "reviewed": true,
+        "sid": "pack:great-knarloc:baggage-harness-aura",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "68625146",
+        "kind": "wargear",
+        "name": "Great Knarloc: Hooked",
+        "ref": {
+          "item": "hooked",
+          "kind": "wargear",
+          "unit": "great-knarloc"
+        },
+        "reviewed": true,
+        "sid": "pack:great-knarloc:hooked",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Markerlight",
+            "when": null
+          }
+        ],
+        "hash": "42c8065e",
+        "kind": "wargear",
+        "name": "Heavy Gun Drones: Markerlight",
+        "ref": {
+          "item": "markerlight",
+          "kind": "wargear",
+          "unit": "heavy-gun-drones"
+        },
+        "reviewed": true,
+        "sid": "pack:heavy-gun-drones:markerlight",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": null
+          }
+        ],
+        "hash": "745f9d87",
+        "kind": "wargear",
+        "name": "Kroot Farstalkers: Pech’ra",
+        "ref": {
+          "item": "pech'ra",
+          "kind": "wargear",
+          "unit": "kroot-farstalkers"
+        },
+        "reviewed": true,
+        "sid": "a7dcf8ec-6f67-443a-a77f-51c50f42e2e3:kroot-farstalkers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Markerlight",
+            "when": null
+          }
+        ],
+        "hash": "a5cb8c1d",
+        "kind": "wargear",
+        "name": "Pathfinder Team: Marker Drone",
+        "ref": {
+          "item": "marker drone",
+          "kind": "wargear",
+          "unit": "pathfinder-team"
+        },
+        "reviewed": true,
+        "sid": "3491e144-63d5-48f6-906d-bc5bdfdeb9a9:pathfinder-team",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "name": "Pulse carbine"
+            },
+            "op": "add",
+            "stat": "range",
+            "value": 6,
+            "when": null
+          }
+        ],
+        "hash": "62b65bb8",
+        "kind": "wargear",
+        "name": "Pathfinder Team: Pulse Accelerator Drone",
+        "ref": {
+          "item": "pulse accelerator drone",
+          "kind": "wargear",
+          "unit": "pathfinder-team"
+        },
+        "reviewed": true,
+        "sid": "38da8799-fc2a-4fc2-9ffe-1e9643007c20:pathfinder-team",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Infiltrators",
+            "when": null
+          }
+        ],
+        "hash": "6aeccd03",
+        "kind": "wargear",
+        "name": "Pathfinder Team: Recon Drone",
+        "ref": {
+          "item": "recon drone",
+          "kind": "wargear",
+          "unit": "pathfinder-team"
+        },
+        "reviewed": true,
+        "sid": "e63aac10-6f51-4d7d-afff-4ef394b32978:pathfinder-team",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 1,
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "219c8b44",
+        "kind": "wargear",
+        "name": "Pathfinder Team: Shield Drone",
+        "ref": {
+          "item": "shield drone",
+          "kind": "wargear",
+          "unit": "pathfinder-team"
+        },
+        "reviewed": true,
+        "sid": "83b098fb-38a3-45f2-93d4-14cc224ddcdc:pathfinder-team",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Markerlight",
+            "when": null
+          }
+        ],
+        "hash": "a5cb8c1d",
+        "kind": "wargear",
+        "name": "Stealth Battlesuits: Marker Drone",
+        "ref": {
+          "item": "marker drone",
+          "kind": "wargear",
+          "unit": "stealth-battlesuits"
+        },
+        "reviewed": true,
+        "sid": "3491e144-63d5-48f6-906d-bc5bdfdeb9a9:stealth-battlesuits",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "ranged",
+            "when": null
+          }
+        ],
+        "hash": "da7d19c8",
+        "kind": "wargear",
+        "name": "Strike Team: Guardian Drone",
+        "ref": {
+          "item": "guardian drone",
+          "kind": "wargear",
+          "unit": "strike-team"
+        },
+        "reviewed": true,
+        "sid": "3b68b1a8-23f1-4e2a-90bf-8b6f082117c2:strike-team",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Markerlight",
+            "when": null
+          }
+        ],
+        "hash": "a5cb8c1d",
+        "kind": "wargear",
+        "name": "Strike Team: Marker Drone",
+        "ref": {
+          "item": "marker drone",
+          "kind": "wargear",
+          "unit": "strike-team"
+        },
+        "reviewed": true,
+        "sid": "3491e144-63d5-48f6-906d-bc5bdfdeb9a9:strike-team",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 1,
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "219c8b44",
+        "kind": "wargear",
+        "name": "Strike Team: Shield Drone",
+        "ref": {
+          "item": "shield drone",
+          "kind": "wargear",
+          "unit": "strike-team"
+        },
+        "reviewed": true,
+        "sid": "83b098fb-38a3-45f2-93d4-14cc224ddcdc:strike-team",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "d294b130",
+        "kind": "wargear",
+        "name": "Tiger Shark: Transport Bay",
+        "ref": {
+          "item": "transport bay",
+          "kind": "wargear",
+          "unit": "tiger-shark"
+        },
+        "reviewed": true,
+        "sid": "f2084e6a-6326-4635-b658-250fac0a9ce5:tiger-shark",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "f8221077",
+        "kind": "wargear",
+        "name": "Vespid Stingwings: Oversight Drone",
+        "ref": {
+          "item": "oversight drone",
+          "kind": "wargear",
+          "unit": "vespid-stingwings"
+        },
+        "reviewed": true,
+        "sid": "d6249dda-04d3-4c57-b3a8-849e8085e5c2:vespid-stingwings",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Markerlight",
+            "when": null
+          }
+        ],
+        "hash": "0c8f7a1a",
+        "kind": "wargear",
+        "name": "XV9 Hazard Battlesuits: Marker Drone",
+        "ref": {
+          "item": "marker drone",
+          "kind": "wargear",
+          "unit": "xv9-hazard-battlesuits"
+        },
+        "reviewed": true,
+        "sid": "pack:xv9-hazard-battlesuits:marker-drone",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 1,
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "219c8b44",
+        "kind": "wargear",
+        "name": "XV9 Hazard Battlesuits: Shield Drone",
+        "ref": {
+          "item": "shield drone",
+          "kind": "wargear",
+          "unit": "xv9-hazard-battlesuits"
+        },
+        "reviewed": true,
+        "sid": "pack:xv9-hazard-battlesuits:shield-drone",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "5e0ca50d",
+        "kind": "wargear",
+        "name": "XV9 Hazard Battlesuits: Shield Generator",
+        "ref": {
+          "item": "shield generator",
+          "kind": "wargear",
+          "unit": "xv9-hazard-battlesuits"
+        },
+        "reviewed": true,
+        "sid": "pack:xv9-hazard-battlesuits:shield-generator",
+        "ver": 972
+      }
+    ],
+    "formatVersion": 1,
+    "slug": "tau-empire"
+  }
+}

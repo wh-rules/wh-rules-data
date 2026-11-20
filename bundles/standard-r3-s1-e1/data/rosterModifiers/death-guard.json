@@ -1,0 +1,1777 @@
+{
+  "default": {
+    "entries": [
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 6,
+            "when": {
+              "en": "for the rest of the battle, once its unit destroyed an enemy unit in melee",
+              "ru": "до конца битвы, если отряд уничтожил врага в ближнем бою"
+            }
+          }
+        ],
+        "hash": "eb9ed48e",
+        "kind": "ability",
+        "name": "Biologus Putrifier: Extraction of Fresh Disease",
+        "ref": {
+          "kind": "ability",
+          "unit": "biologus-putrifier"
+        },
+        "reviewed": true,
+        "sid": "a85aca60-4e5a-4b05-9866-934d34eed0a0:biologus-putrifier",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "LETHAL HITS",
+            "when": null
+          }
+        ],
+        "hash": "4cfa6e40",
+        "kind": "ability",
+        "name": "Biologus Putrifier: Foul Infusion",
+        "ref": {
+          "kind": "ability",
+          "unit": "biologus-putrifier"
+        },
+        "reviewed": true,
+        "sid": "a46a1514-5477-4ae0-a3ad-f4a2fbb893f6:biologus-putrifier",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "against Afflicted targets, at Starting Strength 5+ or while led by a CHARACTER",
+              "ru": "против Afflicted-целей, при численности 5+ или под лидером CHARACTER"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "against Afflicted targets, at Starting Strength 5+ or while led by a CHARACTER",
+              "ru": "против Afflicted-целей, при численности 5+ или под лидером CHARACTER"
+            }
+          }
+        ],
+        "hash": "593176bd",
+        "kind": "ability",
+        "name": "Blightlord Terminators: Blistering Fusillade",
+        "ref": {
+          "kind": "ability",
+          "unit": "blightlord-terminators"
+        },
+        "reviewed": true,
+        "sid": "bdb8439a-7a42-4525-9cab-0398f290a2f5:blightlord-terminators",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "00204fe1",
+        "kind": "ability",
+        "name": "Chaos Predator Destructor: Hail of Corrosive Disease",
+        "ref": {
+          "kind": "ability",
+          "unit": "chaos-predator-destructor"
+        },
+        "reviewed": true,
+        "sid": "6d97e026-65e3-4584-ac0e-e61215f11d07:chaos-predator-destructor",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of a friendly DEATH GUARD INFANTRY unit",
+              "ru": "пока в пределах 3\" от дружественного отряда DEATH GUARD INFANTRY"
+            }
+          }
+        ],
+        "hash": "dad06274",
+        "kind": "ability",
+        "name": "Daemon Prince of Nurgle: Death Guard Defenders",
+        "ref": {
+          "kind": "ability",
+          "unit": "daemon-prince-of-nurgle"
+        },
+        "reviewed": true,
+        "sid": "a8d8d01e-72b8-4032-b19b-ac6271556aa6:daemon-prince-of-nurgle",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "until the end of a turn it made a Charge move",
+              "ru": "до конца хода, в котором совершил Charge"
+            }
+          }
+        ],
+        "hash": "3f8d6f13",
+        "kind": "ability",
+        "name": "Death Guard Possessed: Infectious Bloodshed",
+        "ref": {
+          "kind": "ability",
+          "unit": "death-guard-possessed"
+        },
+        "reviewed": true,
+        "sid": "pack:death-guard-possessed:infectious-bloodshed",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "add",
+            "stat": "s",
+            "value": 2,
+            "when": {
+              "en": "once per battle, for the phase this ability is used",
+              "ru": "раз за битву, на фазу, когда способность использована"
+            }
+          },
+          {
+            "on": "weapon",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "add",
+            "stat": "d",
+            "value": 2,
+            "when": {
+              "en": "once per battle, for the phase this ability is used",
+              "ru": "раз за битву, на фазу, когда способность использована"
+            }
+          }
+        ],
+        "hash": "72647afc",
+        "kind": "ability",
+        "name": "Death Guard Sorcerer in Terminator Armour: Pestilent Familiar (Psychic)",
+        "ref": {
+          "kind": "ability",
+          "unit": "death-guard-sorcerer-in-terminator-armour"
+        },
+        "reviewed": true,
+        "sid": "pack:death-guard-sorcerer-in-terminator-armour:pestilent-familiar-psychic",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": {
+              "en": "for the Fight phase, after a roll of 2+ at its start",
+              "ru": "до конца Fight phase после броска 2+ в её начале"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "target": "led",
+            "value": -1,
+            "when": {
+              "en": "for the Fight phase, after a roll of 2+ at its start",
+              "ru": "до конца Fight phase после броска 2+ в её начале"
+            }
+          }
+        ],
+        "hash": "b11b4dff",
+        "kind": "ability",
+        "name": "Death Guard Sorcerer in Terminator Armour: Putrescent Vitality (Psychic)",
+        "ref": {
+          "kind": "ability",
+          "unit": "death-guard-sorcerer-in-terminator-armour"
+        },
+        "reviewed": true,
+        "sid": "pack:death-guard-sorcerer-in-terminator-armour:putrescent-vitality-psychic",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "leader",
+            "value": "Feel No Pain 4+",
+            "when": null
+          }
+        ],
+        "hash": "27530f8e",
+        "kind": "ability",
+        "name": "Deathshroud Terminators: Silent Bodyguard",
+        "ref": {
+          "kind": "ability",
+          "unit": "deathshroud-terminators"
+        },
+        "reviewed": true,
+        "sid": "cb37619a-5b58-4891-a794-8b2891848d10:deathshroud-terminators",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Fights First",
+            "when": {
+              "en": "until the end of a Fight phase this model used this ability in (once per battle)",
+              "ru": "до конца Fight phase, в которой модель применила эту способность (раз за битву)"
+            }
+          }
+        ],
+        "hash": "274de3a9",
+        "kind": "ability",
+        "name": "Foul Blightspawn: Blinding Spray",
+        "ref": {
+          "kind": "ability",
+          "unit": "foul-blightspawn"
+        },
+        "reviewed": true,
+        "sid": "6584d4a0-f5f6-4791-ba72-38d97ae9d21e:foul-blightspawn",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "target": "aura",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "77ae4497",
+        "kind": "ability",
+        "name": "Great Unclean One: Daemon Lord of Nurgle",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "PLAGUE LEGIONS"
+              ]
+            }
+          ],
+          "unit": "great-unclean-one"
+        },
+        "reviewed": true,
+        "sid": "6f4fdefb-fb32-450e-8d72-7220fd01c2b3:great-unclean-one",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "01c1b74d",
+        "kind": "ability",
+        "name": "Great Unclean One: Nurgle’s Rot",
+        "ref": {
+          "kind": "ability",
+          "unit": "great-unclean-one"
+        },
+        "reviewed": true,
+        "sid": "3af8d792-b80a-41cd-9e40-8de6b3d0eb24:great-unclean-one",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against an Afflicted unit",
+              "ru": "по Afflicted отряду"
+            }
+          }
+        ],
+        "hash": "d5f5b774",
+        "kind": "ability",
+        "name": "Helbrute: Diseased Malice",
+        "ref": {
+          "kind": "ability",
+          "unit": "helbrute"
+        },
+        "reviewed": true,
+        "sid": "bf2dd24a-75a8-49d7-8af0-d12d66dcb813:helbrute",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-two-melee-besides-ccw"
+            ],
+            "on": "melee",
+            "only": {
+              "notName": [
+                "Close combat weapon"
+              ]
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 2,
+            "when": {
+              "en": "the two melee weapons taken in addition to the close combat weapon",
+              "ru": "два оружия ближнего боя, взятые вдобавок к close combat weapon"
+            }
+          }
+        ],
+        "hash": "67092a63",
+        "kind": "ability",
+        "name": "Helbrute: Froth-spattered Frenzy",
+        "ref": {
+          "kind": "ability",
+          "unit": "helbrute"
+        },
+        "reviewed": true,
+        "sid": "e21df5c1-bbd7-441d-930f-2d8a279efe8c:helbrute",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "be69986d",
+        "kind": "ability",
+        "name": "Icon Bearer: Unclean Icon",
+        "ref": {
+          "kind": "ability",
+          "unit": "icon-bearer"
+        },
+        "reviewed": true,
+        "sid": "3da37e42-d76b-4bad-9f1e-eaa47458bde4:icon-bearer",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "LANCE",
+            "when": null
+          }
+        ],
+        "hash": "73f9ba0e",
+        "kind": "ability",
+        "name": "Lord of Contagion: Vector of Disease",
+        "ref": {
+          "kind": "ability",
+          "unit": "lord-of-contagion"
+        },
+        "reviewed": true,
+        "sid": "19d670b0-6d26-4ea0-acf3-afc3e6235ead:lord-of-contagion",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "058f9b55",
+        "kind": "ability",
+        "name": "Lord of Poxes: Gift of Poxes",
+        "ref": {
+          "kind": "ability",
+          "unit": "lord-of-poxes"
+        },
+        "reviewed": true,
+        "sid": "73a0bd2d-c779-4bae-b570-b3d0dc2591e5:lord-of-poxes",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-engaged"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "while this unit is engaged",
+              "ru": "пока отряд в ближнем бою"
+            }
+          }
+        ],
+        "hash": "173901da",
+        "kind": "ability",
+        "name": "Maggot Lords Deathshroud Terminators: Obstinate Resistance",
+        "ref": {
+          "kind": "ability",
+          "unit": "maggot-lords-deathshroud-terminators"
+        },
+        "reviewed": true,
+        "sid": "72da3008-253b-46f7-9382-27a58b5c64c9:maggot-lords-deathshroud-terminators",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "against an Afflicted unit",
+              "ru": "по Afflicted отряду"
+            }
+          }
+        ],
+        "hash": "91c6246e",
+        "kind": "ability",
+        "name": "Malignant Plaguecaster: Gift of Contagion",
+        "ref": {
+          "kind": "ability",
+          "unit": "malignant-plaguecaster"
+        },
+        "reviewed": true,
+        "sid": "b1767ecf-ca50-4a7d-9c90-2d1f4836ac91:malignant-plaguecaster",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "ee7e3001",
+        "kind": "ability",
+        "name": "Miasmic Malignifier: Fortification",
+        "ref": {
+          "kind": "ability",
+          "unit": "miasmic-malignifier"
+        },
+        "reviewed": true,
+        "sid": "26b11011-e99c-4bcd-8f2d-fe34af25bfa4:miasmic-malignifier",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "5ed4e4b1",
+        "kind": "ability",
+        "name": "Mortarion: Boon of Death",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "DEATH GUARD"
+              ]
+            }
+          ],
+          "set": "Lord of the Death Guard",
+          "unit": "mortarion"
+        },
+        "reviewed": true,
+        "sid": "f2ae231c-1b15-4767-8884-015a768c86f0:mortarion",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "54f7453a",
+        "kind": "ability",
+        "name": "Mortarion: Diseased Influence",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "DEATH GUARD"
+              ]
+            }
+          ],
+          "set": "Lord of the Death Guard",
+          "unit": "mortarion"
+        },
+        "reviewed": true,
+        "sid": "b0bb67e8-39cd-452d-bf7e-4c2c159ec9d9:mortarion",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "16b5bcee",
+        "kind": "ability",
+        "name": "Mortarion: Inflamed Reprisal",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "DEATH GUARD"
+              ]
+            }
+          ],
+          "set": "Lord of the Death Guard",
+          "unit": "mortarion"
+        },
+        "reviewed": true,
+        "sid": "b4450eec-288c-4778-bb01-a366e62b4ff1:mortarion",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "in your Shooting phase, against a MONSTER or VEHICLE unit",
+              "ru": "в вашей Shooting phase, по отряду MONSTER или VEHICLE"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "in your Shooting phase, against a MONSTER or VEHICLE unit",
+              "ru": "в вашей Shooting phase, по отряду MONSTER или VEHICLE"
+            }
+          }
+        ],
+        "hash": "2a1700b3",
+        "kind": "ability",
+        "name": "Myphitic Blight-haulers: Tank Hunters",
+        "ref": {
+          "kind": "ability",
+          "unit": "myphitic-blight-hauler"
+        },
+        "reviewed": true,
+        "sid": "152037ac-ce56-4024-a4d6-59b3d3db6d22:myphitic-blight-hauler",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "af57d362",
+        "kind": "ability",
+        "name": "Noxious Blightbringer: Sickening Vitality",
+        "ref": {
+          "kind": "ability",
+          "unit": "noxious-blightbringer"
+        },
+        "reviewed": true,
+        "sid": "b6278fdf-663b-47dd-865f-3f2b78217481:noxious-blightbringer",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "55ce4f47",
+        "kind": "ability",
+        "name": "Nurglings: Mischief Makers",
+        "ref": {
+          "kind": "ability",
+          "unit": "nurglings"
+        },
+        "reviewed": true,
+        "sid": "12f4452d-0d08-48c9-9ac1-64f0e3affbf2:nurglings",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "a894725f",
+        "kind": "ability",
+        "name": "Rotigus: Deluge of Nurgle",
+        "ref": {
+          "kind": "ability",
+          "unit": "rotigus"
+        },
+        "reviewed": true,
+        "sid": "7e8193c1-c4a6-428c-ab02-1505c56ea17f:rotigus",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "5bc95a56",
+        "kind": "ability",
+        "name": "Rotigus: Virulent Blessing",
+        "ref": {
+          "kind": "ability",
+          "unit": "rotigus"
+        },
+        "reviewed": true,
+        "sid": "7ef32552-0784-46e2-b1e4-4d2355a82e9d:rotigus",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "vs": "melee",
+            "when": {
+              "en": "while this model is leading a unit",
+              "ru": "пока модель возглавляет отряд"
+            }
+          },
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": -1,
+            "vs": "melee",
+            "when": {
+              "en": "while this model is leading a unit",
+              "ru": "пока модель возглавляет отряд"
+            }
+          }
+        ],
+        "hash": "0e2704e0",
+        "kind": "ability",
+        "name": "Typhus: Destroyer Hive",
+        "ref": {
+          "kind": "ability",
+          "unit": "typhus"
+        },
+        "reviewed": true,
+        "sid": "4df2ee7e-8176-4bc5-95de-7bd50d694002:typhus",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "77642218",
+        "kind": "armyRule",
+        "name": "Nurgle’s Gift (Aura)",
+        "ref": {
+          "kind": "armyRule"
+        },
+        "reviewed": true,
+        "sid": "13ae6c92-101f-4e20-bcd7-1ea786034eeb",
+        "ver": 925
+      },
+      {
+        "det": "Contagion Engines",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "scope": 1,
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": null
+          }
+        ],
+        "hash": "7111901d",
+        "kind": "detachmentRule",
+        "name": "Warped and Rusted Animus",
+        "note": "the CONTAGION ENGINE keyword in the first bullet is already carried by conditionalKeywords.json",
+        "ref": {
+          "det": "contagion-engines",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "6ee24fba-454f-4bbe-8de5-1974f148d2bc",
+        "ver": 925
+      },
+      {
+        "det": "Flyblown Host",
+        "effects": [],
+        "hash": "b9f087c3",
+        "kind": "detachmentRule",
+        "name": "Verminous Haze",
+        "ref": {
+          "det": "flyblown-host",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "188768af-2d22-45c5-ab28-2350970fdcfd",
+        "ver": 925
+      },
+      {
+        "det": "Maggot Lords",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Scouts 3\"",
+            "when": null
+          }
+        ],
+        "hash": "4d236ed4",
+        "kind": "detachmentRule",
+        "name": "Creeping Rot",
+        "ref": {
+          "det": "cp:death-guard",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "e579235d-fd34-487c-bcbb-b1e8ca5420c2",
+        "ver": 925
+      },
+      {
+        "det": "Tallyband Summoners",
+        "effects": [],
+        "hash": "f8304ffa",
+        "kind": "detachmentRule",
+        "name": "Reverberant Rancidity",
+        "note": "grants an ability and extends Contagion Range — neither is a printed characteristic",
+        "ref": {
+          "det": "tallyband-summoners",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "9a404cbe-ff89-4583-9b06-49d7926e2e68",
+        "ver": 925
+      },
+      {
+        "det": "Contagion Engines",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "target": "unit",
+            "value": "Mobile",
+            "when": null
+          }
+        ],
+        "hash": "bf3d4b90",
+        "kind": "enhancement",
+        "name": "Lancet of the Worldsore (Upgrade)",
+        "ref": {
+          "det": "contagion-engines",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "6e0f3baf-ed09-4117-a0a1-181dee486e68",
+        "ver": 995
+      },
+      {
+        "appliesWhile": [
+          "unit-leading"
+        ],
+        "det": "Death Lord’s Chosen",
+        "effects": [],
+        "hash": "7a8d4f75",
+        "kind": "enhancement",
+        "name": "Helm of The Fly King",
+        "ref": {
+          "det": "death-lords-chosen",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "e9aee006-05f7-44cd-9622-5a7a43b13bcc",
+        "ver": 995
+      },
+      {
+        "appliesWhile": [
+          "unit-leading"
+        ],
+        "det": "Death Lord’s Chosen",
+        "effects": [
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "while the bearer is leading a unit",
+              "ru": "пока носитель ведёт юнит"
+            }
+          }
+        ],
+        "hash": "88966b0f",
+        "kind": "enhancement",
+        "name": "Vile Vigour",
+        "ref": {
+          "det": "death-lords-chosen",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "8259676b-b493-4d15-b60e-b1922dac0d44",
+        "ver": 925
+      },
+      {
+        "det": "Maggot Lords",
+        "effects": [
+          {
+            "on": "unit",
+            "once": {
+              "dur": "phase",
+              "per": "army"
+            },
+            "op": "grant",
+            "stat": "core",
+            "value": "Stealth",
+            "when": {
+              "en": "once per battle per army, when an enemy unit targets this unit in your opponent's Shooting phase",
+              "ru": "раз за битву на армию, когда вражеский отряд выбирает этот отряд целью в Shooting phase оппонента"
+            }
+          }
+        ],
+        "hash": "3c31d88d",
+        "kind": "enhancement",
+        "name": "Noisome Veil",
+        "ref": {
+          "det": "cp:death-guard",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "5c863751-9ea1-4464-b75c-65e254e9becc",
+        "ver": 925
+      },
+      {
+        "det": "Mortarion’s Hammer",
+        "effects": [
+          {
+            "cond": [
+              "phase-shooting"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Plague Wind"
+            },
+            "op": "add",
+            "stat": "range",
+            "value": 12,
+            "when": {
+              "en": "the bearer's Plague Wind only, from the start of your Shooting phase until the end of it",
+              "ru": "только для Plague Wind носителя, с начала фазы стрельбы до её конца"
+            }
+          }
+        ],
+        "hash": "36897a57",
+        "kind": "enhancement",
+        "name": "Bilemaw Blight",
+        "ref": {
+          "det": "mortarions-hammer",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "5c3eba83-5786-4320-92e5-b6369e5c0535",
+        "ver": 925
+      },
+      {
+        "det": "Mortarion’s Hammer",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "while targeting an Afflicted enemy unit",
+              "ru": "пока целью является Afflicted-отряд противника"
+            }
+          }
+        ],
+        "hash": "41e6a5fd",
+        "kind": "enhancement",
+        "name": "Eye of Affliction",
+        "ref": {
+          "det": "mortarions-hammer",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "184bc9b1-4743-4683-bb76-b667e8084f98",
+        "ver": 925
+      },
+      {
+        "det": "Mortarion’s Hammer",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of a friendly DEATH GUARD VEHICLE unit",
+              "ru": "пока в пределах 3\" от дружественного отряда DEATH GUARD VEHICLE"
+            }
+          }
+        ],
+        "hash": "197925b9",
+        "kind": "enhancement",
+        "name": "Tendrilous Emissions",
+        "ref": {
+          "det": "mortarions-hammer",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "7b1f761d-498a-4439-a0c1-e76a6cff030e",
+        "ver": 925
+      },
+      {
+        "det": "Paragons of Putrescence",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": null
+          },
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "target": "led",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "eea98fae",
+        "kind": "enhancement",
+        "name": "Rejuvenating Swarm",
+        "ref": {
+          "det": "paragons-of-putrescence",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "98b3b2a1-6ebe-4087-a039-9ecc48fec9b0",
+        "ver": 995
+      },
+      {
+        "appliesWhile": [
+          "unit-leading-poxwalkers"
+        ],
+        "det": "Shamblerot Vectorium",
+        "effects": [],
+        "hash": "5063428c",
+        "kind": "enhancement",
+        "name": "Lord of the Walking Pox",
+        "ref": {
+          "det": "shamblerot-vectorium",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "0b8d22c7-a46c-4865-9a51-dc622a894fec",
+        "ver": 995
+      },
+      {
+        "appliesWhile": [
+          "unit-leading-poxwalkers"
+        ],
+        "det": "Shamblerot Vectorium",
+        "effects": [
+          {
+            "cond": [
+              "unit-leading-poxwalkers"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Plague Wind"
+            },
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": {
+              "en": "the bearer's Plague Wind weapon only, while leading a Poxwalkers unit",
+              "ru": "только оружие носителя Plague Wind, пока он ведёт отряд Poxwalkers"
+            }
+          }
+        ],
+        "hash": "823d2ee7",
+        "kind": "enhancement",
+        "name": "Sorrowsyphon",
+        "ref": {
+          "det": "shamblerot-vectorium",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "646ffc25-fbc8-4702-82ad-ea7c853e5736",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading"
+        ],
+        "det": "Shamblerot Vectorium",
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "Poxwalkers models in the led unit only",
+              "ru": "только модели Poxwalkers в ведомом отряде"
+            }
+          }
+        ],
+        "hash": "aabe56f9",
+        "kind": "enhancement",
+        "name": "Talisman of Burgeoning",
+        "ref": {
+          "det": "shamblerot-vectorium",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "89e9fb12-929f-4931-8002-58f48241447d",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading-poxwalkers"
+        ],
+        "det": "Shamblerot Vectorium",
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "models in the led Poxwalkers unit",
+              "ru": "модели ведомого отряда Poxwalkers"
+            }
+          }
+        ],
+        "hash": "17b8a289",
+        "kind": "enhancement",
+        "name": "Witherbone Pipes",
+        "ref": {
+          "det": "shamblerot-vectorium",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "5d974c69-74c8-4495-8370-f4c9e20d3c4f",
+        "ver": 925
+      },
+      {
+        "det": "Tallyband Summoners",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 2,
+            "when": null
+          }
+        ],
+        "hash": "f2a3864b",
+        "kind": "enhancement",
+        "name": "Fell Harvester",
+        "ref": {
+          "det": "tallyband-summoners",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "c61119f2-8aea-4203-ab1b-565c4deacebe",
+        "ver": 925
+      },
+      {
+        "det": "Tallyband Summoners",
+        "effects": [],
+        "hash": "bcc26027",
+        "kind": "enhancement",
+        "name": "Tome of Bounteous Blessings",
+        "ref": {
+          "det": "tallyband-summoners",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "c717fc16-3d50-4312-af50-9d7653c5266a",
+        "ver": 925
+      },
+      {
+        "det": "Virulent Vectorium",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": null
+          }
+        ],
+        "hash": "12901bea",
+        "kind": "enhancement",
+        "name": "Furnace of Plagues",
+        "ref": {
+          "det": "virulent-vectorium",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "572b6378-e1cf-433c-841b-015a715aed94",
+        "ver": 925
+      },
+      {
+        "det": "Virulent Vectorium",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+",
+            "when": null
+          }
+        ],
+        "hash": "04d75b4a",
+        "kind": "enhancement",
+        "name": "Revolting Regeneration",
+        "ref": {
+          "det": "virulent-vectorium",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "e389de76-b121-4110-b01e-343ed1bec502",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-led"
+        ],
+        "det": "Champions of Contagion",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "unit-led"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "value": 2,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "863e953f",
+        "kind": "stratagem",
+        "name": "Grotesque Fortitude",
+        "ref": {
+          "det": "champions-of-contagion",
+          "kind": "stratagem",
+          "name": "Grotesque Fortitude"
+        },
+        "reviewed": true,
+        "sid": "2227edbd-9daa-457f-9cda-f545297ba2ea",
+        "ver": 925
+      },
+      {
+        "det": "Champions of Contagion",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Fights First",
+            "when": null
+          }
+        ],
+        "hash": "de0797b3",
+        "kind": "stratagem",
+        "name": "Rabid Infusion",
+        "ref": {
+          "det": "champions-of-contagion",
+          "kind": "stratagem",
+          "name": "Rabid Infusion"
+        },
+        "reviewed": true,
+        "sid": "2c92e4d2-9e0c-4edd-8f3d-ffef6913d9c0",
+        "ver": 925
+      },
+      {
+        "det": "Death Lord’s Chosen",
+        "effects": [],
+        "hash": "988ac824",
+        "kind": "stratagem",
+        "name": "Blooming Pestilence",
+        "ref": {
+          "det": "death-lords-chosen",
+          "kind": "stratagem",
+          "name": "Blooming Pestilence"
+        },
+        "reviewed": true,
+        "sid": "2af32987-7344-4378-8eff-a42b8ec9f2f8",
+        "ver": 925
+      },
+      {
+        "det": "Death Lord’s Chosen",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "HEAVY",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "24a1a271",
+        "kind": "stratagem",
+        "name": "Mortarion’s Teachings",
+        "ref": {
+          "det": "death-lords-chosen",
+          "kind": "stratagem",
+          "name": "Mortarion’s Teachings"
+        },
+        "reviewed": true,
+        "sid": "da30d4bd-ad4d-41e5-bafb-5322aa227053",
+        "ver": 925
+      },
+      {
+        "det": "Flyblown Host",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "CLOSE-QUARTERS",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "9d570fd5",
+        "kind": "stratagem",
+        "name": "Eye of the Swarm",
+        "ref": {
+          "det": "flyblown-host",
+          "kind": "stratagem",
+          "name": "Eye of the Swarm"
+        },
+        "reviewed": true,
+        "sid": "14397813-9386-479d-8645-ccf59904570a",
+        "ver": 925
+      },
+      {
+        "det": "Maggot Lords",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "tag": "LETHAL HITS"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "RAPID FIRE 1",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "cd84fbc1",
+        "kind": "stratagem",
+        "name": "Vomitous Salvoes",
+        "ref": {
+          "det": "cp:death-guard",
+          "kind": "stratagem",
+          "name": "Vomitous Salvoes"
+        },
+        "reviewed": true,
+        "sid": "95ec357c-cf7f-4f5e-a224-85d5da35b084",
+        "ver": 925
+      },
+      {
+        "det": "Mortarion’s Hammer",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "cf9bdcda",
+        "kind": "stratagem",
+        "name": "Font of Filth",
+        "ref": {
+          "det": "mortarions-hammer",
+          "kind": "stratagem",
+          "name": "Font of Filth"
+        },
+        "reviewed": true,
+        "sid": "e91eb4ac-52af-4e89-abc2-5c0b9e812e5c",
+        "ver": 925
+      },
+      {
+        "det": "Paragons of Putrescence",
+        "dur": "turn",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "076afe4b",
+        "kind": "stratagem",
+        "name": "Territorial Infection",
+        "ref": {
+          "det": "paragons-of-putrescence",
+          "kind": "stratagem",
+          "name": "Territorial Infection"
+        },
+        "reviewed": true,
+        "sid": "25ba3f85-9261-4154-9014-fcf2a28390cf",
+        "ver": 925
+      },
+      {
+        "det": "Shamblerot Vectorium",
+        "dur": "turn",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "8cfcb7d2",
+        "kind": "stratagem",
+        "name": "Gnawing Hunger",
+        "ref": {
+          "det": "shamblerot-vectorium",
+          "kind": "stratagem",
+          "name": "Gnawing Hunger"
+        },
+        "reviewed": true,
+        "sid": "1c06212d-4fb6-4992-94cb-32dd22c30052",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-not-led"
+        ],
+        "det": "Shamblerot Vectorium",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "unit-not-led"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Deep Strike",
+            "when": {
+              "en": "Not an Attached unit",
+              "ru": "Не в отряде с лидером"
+            }
+          }
+        ],
+        "hash": "e0cc51db",
+        "kind": "stratagem",
+        "name": "Hidden Amongst The Dead",
+        "ref": {
+          "det": "shamblerot-vectorium",
+          "kind": "stratagem",
+          "name": "Hidden Amongst The Dead"
+        },
+        "reviewed": true,
+        "sid": "09039d9e-b439-4648-ac05-fbe0e76ec692",
+        "ver": 925
+      },
+      {
+        "det": "Virulent Vectorium",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "6d37add7",
+        "kind": "stratagem",
+        "name": "Disgustingly Resilient",
+        "ref": {
+          "det": "virulent-vectorium",
+          "kind": "stratagem",
+          "name": "Disgustingly Resilient"
+        },
+        "reviewed": true,
+        "sid": "ea30e94c-cf87-4f02-8210-0fb635615b18",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-warlord"
+        ],
+        "det": "Virulent Vectorium",
+        "effects": [],
+        "hash": "ac9574f8",
+        "kind": "stratagem",
+        "name": "Plaguesurge",
+        "ref": {
+          "det": "virulent-vectorium",
+          "kind": "stratagem",
+          "name": "Plaguesurge"
+        },
+        "reviewed": true,
+        "sid": "699e5a6d-243c-4ee3-a738-ce0882694238",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": null
+          }
+        ],
+        "hash": "1826ca25",
+        "kind": "wargear",
+        "name": "Death Guard Possessed: Diseased Icon",
+        "ref": {
+          "item": "diseased icon",
+          "kind": "wargear",
+          "unit": "death-guard-possessed"
+        },
+        "reviewed": true,
+        "sid": "pack:death-guard-possessed:diseased-icon",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "af21f335",
+        "kind": "wargear",
+        "name": "Deathshroud Terminators: Icon of Despair (Aura)",
+        "ref": {
+          "item": "icon of despair (aura)",
+          "kind": "wargear",
+          "unit": "deathshroud-terminators"
+        },
+        "reviewed": true,
+        "sid": "5028ed26-8ff1-4fc8-b844-168659f516ac:deathshroud-terminators",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "ld",
+            "value": "6+",
+            "when": null
+          }
+        ],
+        "hash": "5db4589c",
+        "kind": "wargear",
+        "name": "Plague Drones: Daemonic Icon",
+        "ref": {
+          "item": "daemonic icon",
+          "kind": "wargear",
+          "unit": "plague-drones"
+        },
+        "reviewed": true,
+        "sid": "79b389ec-f1c4-42b1-833d-4e1b86817377:plague-drones",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "9fccd872",
+        "kind": "wargear",
+        "name": "Plague Drones: Instrument of Chaos",
+        "ref": {
+          "item": "instrument of chaos",
+          "kind": "wargear",
+          "unit": "plague-drones"
+        },
+        "reviewed": true,
+        "sid": "e77cb7d8-d6cd-472a-a771-91fee3e48bcd:plague-drones",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "af21f335",
+        "kind": "wargear",
+        "name": "Plague Marines: Icon of Despair (Aura)",
+        "ref": {
+          "item": "icon of despair (aura)",
+          "kind": "wargear",
+          "unit": "plague-marines"
+        },
+        "reviewed": true,
+        "sid": "5028ed26-8ff1-4fc8-b844-168659f516ac:plague-marines",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "ld",
+            "value": "6+",
+            "when": null
+          }
+        ],
+        "hash": "5db4589c",
+        "kind": "wargear",
+        "name": "Plaguebearers: Daemonic Icon",
+        "ref": {
+          "item": "daemonic icon",
+          "kind": "wargear",
+          "unit": "plaguebearers"
+        },
+        "reviewed": true,
+        "sid": "79b389ec-f1c4-42b1-833d-4e1b86817377:plaguebearers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "9fccd872",
+        "kind": "wargear",
+        "name": "Plaguebearers: Instrument of Chaos",
+        "ref": {
+          "item": "instrument of chaos",
+          "kind": "wargear",
+          "unit": "plaguebearers"
+        },
+        "reviewed": true,
+        "sid": "e77cb7d8-d6cd-472a-a771-91fee3e48bcd:plaguebearers",
+        "ver": 925
+      }
+    ],
+    "formatVersion": 1,
+    "slug": "death-guard"
+  }
+}

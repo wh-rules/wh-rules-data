@@ -1,0 +1,4417 @@
+{
+  "default": {
+    "entries": [
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "only": {
+              "name": "Bloody Twins"
+            },
+            "op": "set",
+            "stat": "d",
+            "value": "3",
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          },
+          {
+            "on": "ranged",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "only": {
+              "name": "Bloody Twins"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-INFANTRY 5+",
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          },
+          {
+            "on": "ranged",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "only": {
+              "name": "Bloody Twins"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "28377a62",
+        "kind": "ability",
+        "name": "Asurmen: Hand of Asuryan",
+        "ref": {
+          "kind": "ability",
+          "unit": "asurmen"
+        },
+        "reviewed": true,
+        "sid": "77c94fb1-9705-4a8e-b27e-e20799540c56:asurmen",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "unit",
+            "value": 6,
+            "when": {
+              "en": "in a phase its unit Advanced (no Advance roll is made)",
+              "ru": "в фазе, когда отряд совершил Advance (бросок не делается)"
+            }
+          }
+        ],
+        "hash": "b34f63a7",
+        "kind": "ability",
+        "name": "Autarch Skyrunner: Ride the Wind",
+        "ref": {
+          "kind": "ability",
+          "unit": "autarch-skyrunner"
+        },
+        "reviewed": true,
+        "sid": "pack:autarch-skyrunner:ride-the-wind",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "mul",
+            "stat": "d",
+            "value": 0.5,
+            "when": null
+          }
+        ],
+        "hash": "f62f7f7a",
+        "kind": "ability",
+        "name": "Avatar of Khaine: Molten Form",
+        "ref": {
+          "kind": "ability",
+          "unit": "avatar-of-khaine"
+        },
+        "reviewed": true,
+        "sid": "f737f1fc-4495-41f8-9f62-67f77f31597b:avatar-of-khaine",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "935b9071",
+        "kind": "ability",
+        "name": "Avatar of Khaine: The Bloody-Handed",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "AELDARI"
+              ]
+            }
+          ],
+          "unit": "avatar-of-khaine"
+        },
+        "reviewed": true,
+        "sid": "58faded0-9585-4c7d-984b-eb5926fe37d1:avatar-of-khaine",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of a friendly WRAITH CONSTRUCT or ASURYANI VEHICLE unit and not leading a unit",
+              "ru": "пока в пределах 3\" от дружественного отряда WRAITH CONSTRUCT или ASURYANI VEHICLE и не ведёт отряд"
+            }
+          }
+        ],
+        "hash": "b2e6f2c0",
+        "kind": "ability",
+        "name": "Bonesinger: Bonesinger",
+        "ref": {
+          "kind": "ability",
+          "unit": "bonesinger"
+        },
+        "reviewed": true,
+        "sid": "pack:bonesinger:bonesinger",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Feel No Pain 6+",
+            "when": null
+          }
+        ],
+        "hash": "3b865e6d",
+        "kind": "ability",
+        "name": "Bonesinger: Way of the Shaper (Psychic)",
+        "ref": {
+          "kind": "ability",
+          "unit": "bonesinger"
+        },
+        "reviewed": true,
+        "sid": "pack:bonesinger:way-of-the-shaper-psychic",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "9c60d886",
+        "kind": "ability",
+        "name": "Clanblade: Blade of the Clans",
+        "ref": {
+          "kind": "ability",
+          "unit": "clanblade"
+        },
+        "reviewed": true,
+        "sid": "def6141c-f3be-438e-8d5c-3fed35eaec4f:clanblade",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "against the enemy unit selected at the start of the battle",
+              "ru": "против юнита, выбранного в начале битвы"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "against the enemy unit selected at the start of the battle",
+              "ru": "против юнита, выбранного в начале битвы"
+            }
+          }
+        ],
+        "hash": "3ef80f71",
+        "kind": "ability",
+        "name": "Corsair Voidscarred: Piratical Raiders",
+        "ref": {
+          "kind": "ability",
+          "unit": "corsair-voidscarred"
+        },
+        "reviewed": true,
+        "sid": "a3dd474d-2baa-4cc4-9427-3019a9c13991:corsair-voidscarred",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a unit that can FLY",
+              "ru": "по отряду с FLY"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against a unit that can FLY",
+              "ru": "по отряду с FLY"
+            }
+          }
+        ],
+        "hash": "3c09b472",
+        "kind": "ability",
+        "name": "Crimson Hunter: Skyhunter",
+        "ref": {
+          "kind": "ability",
+          "unit": "crimson-hunter"
+        },
+        "reviewed": true,
+        "sid": "78a72237-1038-43ef-a066-56d9f24eafea:crimson-hunter",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "t",
+            "value": "3",
+            "when": {
+              "en": "against an attack, while the unit still holds another model",
+              "ru": "против атаки, пока в отряде есть другая модель"
+            }
+          }
+        ],
+        "hash": "34ea935c",
+        "kind": "ability",
+        "name": "D-cannon Platform: Support Weapon",
+        "ref": {
+          "kind": "ability",
+          "unit": "d-cannon-platform"
+        },
+        "reviewed": true,
+        "sid": "75bc40c3-7ddf-487f-994a-812cebbd1ed8:d-cannon-platform",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "jester-ignores-cover"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Shrieker cannon"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "while this is the ability selected for this phase",
+              "ru": "пока на эту фазу выбрана эта способность"
+            }
+          },
+          {
+            "cond": [
+              "jester-precision"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Shrieker cannon"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "while this is the ability selected for this phase",
+              "ru": "пока на эту фазу выбрана эта способность"
+            }
+          },
+          {
+            "cond": [
+              "jester-sustained-3"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Shrieker cannon"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 3",
+            "when": {
+              "en": "while this is the ability selected for this phase",
+              "ru": "пока на эту фазу выбрана эта способность"
+            }
+          }
+        ],
+        "hash": "092439fb",
+        "kind": "ability",
+        "name": "Death Jester: Cruel Amusement",
+        "ref": {
+          "kind": "ability",
+          "unit": "death-jester"
+        },
+        "reviewed": true,
+        "sid": "6e60a9be-7fab-4b2c-b529-5a66ec1048d0:death-jester",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "against targets within half range",
+              "ru": "против целей в пределах половины дальности"
+            }
+          }
+        ],
+        "hash": "01e44683",
+        "kind": "ability",
+        "name": "Dire Avengers: Bladestorm",
+        "ref": {
+          "kind": "ability",
+          "unit": "dire-avengers"
+        },
+        "reviewed": true,
+        "sid": "0444e121-929b-4e43-a7a6-f14049b7a81a:dire-avengers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "13ab6310",
+        "kind": "ability",
+        "name": "Eldrad Ulthran: Doom",
+        "ref": {
+          "kind": "ability",
+          "unit": "eldrad-ulthran"
+        },
+        "reviewed": true,
+        "sid": "63e9f2c2-2aa2-410f-a31d-606d16783763:eldrad-ulthran",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "ba3e343b",
+        "kind": "ability",
+        "name": "Farseer Skyrunner: Misfortune",
+        "ref": {
+          "kind": "ability",
+          "unit": "farseer-skyrunner"
+        },
+        "reviewed": true,
+        "sid": "12923a40-5ab1-48cc-bf8f-9fff46e1602a:farseer-skyrunner",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "fb705230",
+        "kind": "ability",
+        "name": "Farseer: Guide",
+        "ref": {
+          "kind": "ability",
+          "unit": "farseer"
+        },
+        "reviewed": true,
+        "sid": "c4af05dc-c069-4ad5-bbdf-3c10f4f75166:farseer",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "tag": "MELTA"
+            },
+            "op": "add",
+            "stat": "range",
+            "target": "unit",
+            "value": 6,
+            "when": null
+          }
+        ],
+        "hash": "1770a34a",
+        "kind": "ability",
+        "name": "Fuegan: Burning Lance",
+        "ref": {
+          "kind": "ability",
+          "unit": "fuegan"
+        },
+        "reviewed": true,
+        "sid": "429cf5f2-2ead-418f-a158-ba517e1c137e:fuegan",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "b981890e",
+        "kind": "ability",
+        "name": "Irillyth: Reaper of Souls",
+        "note": "Read as Tzaangor Shaman: Bestial Prophet (thousand-sons), the same text.",
+        "ref": {
+          "kind": "ability",
+          "unit": "irillyth"
+        },
+        "reviewed": true,
+        "sid": "pack:irillyth:reaper-of-souls",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "unit",
+            "value": 6,
+            "when": {
+              "en": "in a phase this unit Advanced (no Advance roll is made)",
+              "ru": "в фазе, когда отряд совершил Advance (бросок не делается)"
+            }
+          }
+        ],
+        "hash": "7bf193e5",
+        "kind": "ability",
+        "name": "Jain Zar: Whirling Death",
+        "ref": {
+          "kind": "ability",
+          "unit": "jain-zar"
+        },
+        "reviewed": true,
+        "sid": "8a00605e-b319-4a00-9d3d-2da951171be8:jain-zar",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "b981890e",
+        "kind": "ability",
+        "name": "Karandras: Shadow Hunter",
+        "note": "Read as Tzaangor Shaman: Bestial Prophet (thousand-sons), the same text.",
+        "ref": {
+          "kind": "ability",
+          "unit": "karandras"
+        },
+        "reviewed": true,
+        "sid": "pack:karandras:shadow-hunter",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "722d30da",
+        "kind": "ability",
+        "name": "Kharseth: Fury of the Void",
+        "ref": {
+          "kind": "ability",
+          "unit": "kharseth"
+        },
+        "reviewed": true,
+        "sid": "65c1bd9f-dcc0-46ee-964f-573a55b3ea9a:kharseth",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "against targets within half range",
+              "ru": "против целей в пределах половины дальности"
+            }
+          }
+        ],
+        "hash": "19c269e2",
+        "kind": "ability",
+        "name": "Kygharil's Protectors Dire Avengers: Bladestorm",
+        "ref": null,
+        "reviewed": true,
+        "sid": "84fda62f-0d1d-4b3c-805f-3f37daad2073:kygharil-s-protectors-dire-avengers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "against targets within half range",
+              "ru": "против целей в пределах половины дальности"
+            }
+          }
+        ],
+        "hash": "19c269e2",
+        "kind": "ability",
+        "name": "Kygharil's Protectors Dire Avengers: Bladestorm",
+        "ref": {
+          "kind": "ability",
+          "unit": "kygharils-protectors-dire-avengers"
+        },
+        "reviewed": true,
+        "sid": "6779b58c-1f5a-4e04-916d-154c0e7a73e5:kygharils-protectors-dire-avengers",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": null
+          }
+        ],
+        "hash": "534fb70a",
+        "kind": "ability",
+        "name": "Kygharil's Protectors Dire Avengers: Shimmershield",
+        "ref": null,
+        "reviewed": true,
+        "sid": "c4e610f4-0715-4ffa-8d0f-c33932b48835:kygharil-s-protectors-dire-avengers",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": null
+          }
+        ],
+        "hash": "534fb70a",
+        "kind": "ability",
+        "name": "Kygharil's Protectors Dire Avengers: Shimmershield",
+        "ref": {
+          "kind": "ability",
+          "unit": "kygharils-protectors-dire-avengers"
+        },
+        "reviewed": true,
+        "sid": "e92ba2b2-1d9e-496e-8e7c-b670cd478805:kygharils-protectors-dire-avengers",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-INFANTRY 3+",
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "2495534c",
+        "kind": "ability",
+        "name": "Kygharil's Protectors Warp Spiders: Engulfing Flames (Once per battle per unit)",
+        "ref": {
+          "kind": "ability",
+          "unit": "kygharils-protectors-warp-spiders"
+        },
+        "reviewed": true,
+        "sid": "9f3ea182-ed96-41cc-a92e-7f2f2fc107ae:kygharils-protectors-warp-spiders",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": null
+          }
+        ],
+        "hash": "534fb70a",
+        "kind": "ability",
+        "name": "Kygharil's Protectors Wraithblades: Forceshield",
+        "ref": {
+          "kind": "ability",
+          "unit": "kygharils-protectors-wraithblades"
+        },
+        "reviewed": true,
+        "sid": "d2258257-bd87-43a4-b199-13d170ef541d:kygharils-protectors-wraithblades",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "ld",
+            "value": "6+",
+            "when": {
+              "en": "while within 12\" of a friendly AELDARI PSYKER model",
+              "ru": "пока в пределах 12\" от дружественной модели AELDARI PSYKER"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "while within 12\" of a friendly AELDARI PSYKER model",
+              "ru": "пока в пределах 12\" от дружественной модели AELDARI PSYKER"
+            }
+          }
+        ],
+        "hash": "1461228a",
+        "kind": "ability",
+        "name": "Kygharil's Protectors Wraithblades: Psychic Guidance:",
+        "ref": {
+          "kind": "ability",
+          "unit": "kygharils-protectors-wraithblades"
+        },
+        "reviewed": true,
+        "sid": "a83e927d-1bee-4192-b84e-7616365f6e55:kygharils-protectors-wraithblades",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 9,
+            "when": {
+              "en": "in a phase it Advanced (no Advance roll is made)",
+              "ru": "в фазе, когда совершил Advance (бросок не делается)"
+            }
+          }
+        ],
+        "hash": "27c7b058",
+        "kind": "ability",
+        "name": "Lynx: Speed of Vaul",
+        "ref": {
+          "kind": "ability",
+          "unit": "lynx"
+        },
+        "reviewed": true,
+        "sid": "pack:lynx:speed-of-vaul",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "3ef10aea",
+        "kind": "ability",
+        "name": "Night Spinner: Monofilament Web",
+        "ref": {
+          "kind": "ability",
+          "unit": "night-spinner"
+        },
+        "reviewed": true,
+        "sid": "aafd1de0-4432-4784-8f06-9d2d2204f308:night-spinner",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a unit that can FLY",
+              "ru": "по отряду с FLY"
+            }
+          }
+        ],
+        "hash": "5cff7af9",
+        "kind": "ability",
+        "name": "Nightwing: Interceptor",
+        "ref": {
+          "kind": "ability",
+          "unit": "nightwing"
+        },
+        "reviewed": true,
+        "sid": "pack:nightwing:interceptor",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a unit that cannot FLY",
+              "ru": "по отряду без FLY"
+            }
+          }
+        ],
+        "hash": "856c8978",
+        "kind": "ability",
+        "name": "Phoenix: Strafing Run",
+        "ref": {
+          "kind": "ability",
+          "unit": "phoenix"
+        },
+        "reviewed": true,
+        "sid": "pack:phoenix:strafing-run",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          },
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "0776f900",
+        "kind": "ability",
+        "name": "Prince Yriel: Piratical Hero",
+        "ref": {
+          "kind": "ability",
+          "unit": "prince-yriel"
+        },
+        "reviewed": true,
+        "sid": "d7a81ef9-41fa-4187-a223-452a4db79d50:prince-yriel",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 8,
+            "when": {
+              "en": "in a phase it Advanced (no Advance roll is made)",
+              "ru": "в фазе, когда совершил Advance (бросок не делается)"
+            }
+          }
+        ],
+        "hash": "cbe4ef30",
+        "kind": "ability",
+        "name": "Revenant Titan: Revenant Jet Pack",
+        "ref": {
+          "kind": "ability",
+          "unit": "revenant-titan"
+        },
+        "reviewed": true,
+        "sid": "da03c40c-8401-4e82-83a8-077d720c0c45:revenant-titan",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "422d9eb0",
+        "kind": "ability",
+        "name": "Scorpion: Lanced Obliteration",
+        "ref": {
+          "kind": "ability",
+          "unit": "scorpion"
+        },
+        "reviewed": true,
+        "sid": "pack:scorpion:lanced-obliteration",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "t",
+            "value": "3",
+            "when": {
+              "en": "against an attack, while the unit still holds another model",
+              "ru": "против атаки, пока в отряде есть другая модель"
+            }
+          }
+        ],
+        "hash": "34ea935c",
+        "kind": "ability",
+        "name": "Shadow Weaver Platform: Support Weapon",
+        "ref": {
+          "kind": "ability",
+          "unit": "shadow-weaver-platform"
+        },
+        "reviewed": true,
+        "sid": "75bc40c3-7ddf-487f-994a-812cebbd1ed8:shadow-weaver-platform",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "114e1547",
+        "kind": "ability",
+        "name": "Shadowseer: Treacherous Illusion",
+        "ref": {
+          "kind": "ability",
+          "unit": "shadowseer"
+        },
+        "reviewed": true,
+        "sid": "0b471474-b936-4ca9-9b31-df82df5f5ce2:shadowseer",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Stealth",
+            "when": null
+          },
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "vs": "melee",
+            "when": null
+          }
+        ],
+        "hash": "87a55d7c",
+        "kind": "ability",
+        "name": "Skyweavers: Acrobatic Grace",
+        "ref": {
+          "kind": "ability",
+          "unit": "skyweavers"
+        },
+        "reviewed": true,
+        "sid": "4597efdf-31b9-4972-b398-9116923f65ea:skyweavers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "once": {
+              "dur": "turn",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "m",
+            "value": "2D6",
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          },
+          {
+            "on": "melee",
+            "once": {
+              "dur": "turn",
+              "per": "unit"
+            },
+            "only": {
+              "name": "Solitaire"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 3,
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "09764894",
+        "kind": "ability",
+        "name": "Solitaire: Blitz",
+        "ref": {
+          "kind": "ability",
+          "unit": "solitaire"
+        },
+        "reviewed": true,
+        "sid": "c27d57ab-4d05-4e54-8319-bbd4e47aba54:solitaire",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "21149fa1",
+        "kind": "ability",
+        "name": "Spiritseer Kygharil: Spirit Mark (Psychic) (Once per turn per unit)",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [
+                "TITANIC"
+              ],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "WRAITH CONSTRUCT"
+              ]
+            }
+          ],
+          "unit": "spiritseer-kygharil"
+        },
+        "reviewed": true,
+        "sid": "c91f3f7c-5e8d-42da-b343-fe3f93ee2152:spiritseer-kygharil",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of a friendly WRAITH CONSTRUCT unit",
+              "ru": "пока в пределах 3\" от дружественного отряда WRAITH CONSTRUCT"
+            }
+          }
+        ],
+        "hash": "0075b36b",
+        "kind": "ability",
+        "name": "Spiritseer Kygharil: Spiritseer",
+        "ref": {
+          "kind": "ability",
+          "unit": "spiritseer-kygharil"
+        },
+        "reviewed": true,
+        "sid": "7bdcd61c-033a-4dd1-8f01-38870f3a58f0:spiritseer-kygharil",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "4947bb7a",
+        "kind": "ability",
+        "name": "Spiritseer: Spirit Mark",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [
+                "TITANIC"
+              ],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "WRAITH CONSTRUCT"
+              ]
+            }
+          ],
+          "unit": "spiritseer"
+        },
+        "reviewed": true,
+        "sid": "b3663a94-996e-49eb-9222-a6454f12733a:spiritseer",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of a friendly WRAITH CONSTRUCT unit",
+              "ru": "пока в пределах 3\" от дружественного отряда WRAITH CONSTRUCT"
+            }
+          }
+        ],
+        "hash": "cb16a106",
+        "kind": "ability",
+        "name": "Spiritseer: Spiritseer",
+        "ref": {
+          "kind": "ability",
+          "unit": "spiritseer"
+        },
+        "reviewed": true,
+        "sid": "12387ba9-c005-400c-b6a1-383571c02456:spiritseer",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "aura",
+            "value": "Stealth",
+            "when": {
+              "en": "until the end of the phase, for the one AELDARI INFANTRY unit this ability selected",
+              "ru": "до конца фазы, для одного отряда AELDARI INFANTRY, выбранного этой способностью"
+            }
+          }
+        ],
+        "hash": "3cc5239e",
+        "kind": "ability",
+        "name": "Starfangs: Hallucinogen Grenades",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "AELDARI INFANTRY"
+              ]
+            }
+          ],
+          "unit": "starfangs"
+        },
+        "reviewed": true,
+        "sid": "f40fc41c-07ce-4fb5-a82f-9f836a09b78b:starfangs",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "8fc274d8",
+        "kind": "ability",
+        "name": "Stonesinger: Elemental Ensnarement",
+        "ref": {
+          "kind": "ability",
+          "unit": "stonesinger"
+        },
+        "reviewed": true,
+        "sid": "5807db74-ec48-49cf-ab65-62ed949dcc29:stonesinger",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Fights First",
+            "when": null
+          }
+        ],
+        "hash": "f54f8f52",
+        "kind": "ability",
+        "name": "The Visarch: Way of the Blade",
+        "ref": {
+          "kind": "ability",
+          "unit": "the-visarch"
+        },
+        "reviewed": true,
+        "sid": "b2d8ae70-d954-416e-ac47-a237da706df5:the-visarch",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "6e31de92",
+        "kind": "ability",
+        "name": "The Visarch: Yvraine’s Champion",
+        "ref": {
+          "kind": "ability",
+          "unit": "the-visarch"
+        },
+        "reviewed": true,
+        "sid": "777969ea-dcca-4088-82fe-0b6eadb97124:the-visarch",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "3cee30cf",
+        "kind": "ability",
+        "name": "Troupe Master: Cegorach’s Favour",
+        "ref": {
+          "kind": "ability",
+          "unit": "troupe-master"
+        },
+        "reviewed": true,
+        "sid": "3c29ffd6-45d1-4309-9f05-a570218e8703:troupe-master",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "troupe-villains-doom"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "while Villain’s Doom is selected, until the end of the Fight phase",
+              "ru": "при выбранной Villain’s Doom, до конца Fight phase"
+            }
+          },
+          {
+            "cond": [
+              "troupe-heros-prowess"
+            ],
+            "op": "state",
+            "text": {
+              "en": "Re-roll Hit rolls of 1",
+              "ru": "Переброс бросков на попадание, равных 1"
+            },
+            "when": {
+              "en": "the option selected for this phase",
+              "ru": "вариант, выбранный на эту фазу"
+            }
+          },
+          {
+            "cond": [
+              "troupe-tricksters-grace"
+            ],
+            "op": "state",
+            "when": {
+              "en": "the option selected for this phase",
+              "ru": "вариант, выбранный на эту фазу"
+            }
+          },
+          {
+            "cond": [
+              "troupe-tricksters-grace"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": {
+              "en": "while Trickster’s Grace is selected, until the end of the Fight phase",
+              "ru": "при выбранной Trickster’s Grace, до конца Fight phase"
+            }
+          }
+        ],
+        "hash": "678b01b6",
+        "kind": "ability",
+        "name": "Troupe: Dance of Death",
+        "ref": {
+          "kind": "ability",
+          "unit": "troupe"
+        },
+        "reviewed": true,
+        "sid": "6ee70ac1-5d7f-4eed-a4fc-fe6047cdb895:troupe",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Vibro cannon"
+            },
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "per other VIBRO CANNON PLATFORM that shot the same target this phase",
+              "ru": "за каждую другую VIBRO CANNON PLATFORM, стрелявшую по той же цели в этой фазе"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Vibro cannon"
+            },
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "per other VIBRO CANNON PLATFORM that shot the same target this phase",
+              "ru": "за каждую другую VIBRO CANNON PLATFORM, стрелявшую по той же цели в этой фазе"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Vibro cannon"
+            },
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": {
+              "en": "per other VIBRO CANNON PLATFORM that shot the same target this phase",
+              "ru": "за каждую другую VIBRO CANNON PLATFORM, стрелявшую по той же цели в этой фазе"
+            }
+          }
+        ],
+        "hash": "a186f2f6",
+        "kind": "ability",
+        "name": "Vibro Cannon Platform: Sonic Destruction",
+        "ref": {
+          "kind": "ability",
+          "unit": "vibro-cannon-platform"
+        },
+        "reviewed": true,
+        "sid": "35260774-9854-428f-af0c-83b533726bed:vibro-cannon-platform",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "t",
+            "value": "3",
+            "when": {
+              "en": "against an attack, while the unit still holds another model",
+              "ru": "против атаки, пока в отряде есть другая модель"
+            }
+          }
+        ],
+        "hash": "34ea935c",
+        "kind": "ability",
+        "name": "Vibro Cannon Platform: Support Weapon",
+        "ref": {
+          "kind": "ability",
+          "unit": "vibro-cannon-platform"
+        },
+        "reviewed": true,
+        "sid": "75bc40c3-7ddf-487f-994a-812cebbd1ed8:vibro-cannon-platform",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "3f8444a0",
+        "kind": "ability",
+        "name": "Vyper: Harassment Fire",
+        "ref": {
+          "kind": "ability",
+          "unit": "vypers"
+        },
+        "reviewed": true,
+        "sid": "934810ee-f708-4a71-ba80-0e7eea0be1c7:vypers",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "db024523",
+        "kind": "ability",
+        "name": "War Walkers: Crystalline Targeting",
+        "ref": {
+          "kind": "ability",
+          "unit": "war-walkers"
+        },
+        "reviewed": true,
+        "sid": "a6519552-88c0-47db-ac86-c2d551fc6b4b:war-walkers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-led"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "when": {
+              "en": "while a FARSEER model is leading this unit",
+              "ru": "пока отряд возглавляет модель FARSEER"
+            }
+          }
+        ],
+        "hash": "79fc4f71",
+        "kind": "ability",
+        "name": "Warlock Conclave: Protect",
+        "ref": {
+          "kind": "ability",
+          "unit": "warlock-conclave"
+        },
+        "reviewed": true,
+        "sid": "c2793303-87f2-4f43-a0d2-92ffa62303fc:warlock-conclave",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Destructor"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "per friendly AELDARI PSYKER within 6\", up to +2",
+              "ru": "за каждого дружественного AELDARI PSYKER в 6\", максимум +2"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Destructor"
+            },
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "per friendly AELDARI PSYKER within 6\", up to +2",
+              "ru": "за каждого дружественного AELDARI PSYKER в 6\", максимум +2"
+            }
+          }
+        ],
+        "hash": "2acfba08",
+        "kind": "ability",
+        "name": "Warlock Conclave: Psychic Communion",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [
+                "AELDARI PSYKER"
+              ],
+              "targets": [
+                "AELDARI PSYKER"
+              ]
+            }
+          ],
+          "unit": "warlock-conclave"
+        },
+        "reviewed": true,
+        "sid": "4038cf0b-7832-4c7a-9c63-dc3e52bd0503:warlock-conclave",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Destructor"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "per friendly AELDARI PSYKER within 6\", up to +2",
+              "ru": "за каждого дружественного AELDARI PSYKER в 6\", максимум +2"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Destructor"
+            },
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "per friendly AELDARI PSYKER within 6\", up to +2",
+              "ru": "за каждого дружественного AELDARI PSYKER в 6\", максимум +2"
+            }
+          }
+        ],
+        "hash": "2acfba08",
+        "kind": "ability",
+        "name": "Warlock Skyrunners: Psychic Communion",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [
+                "AELDARI PSYKER"
+              ],
+              "targets": [
+                "AELDARI PSYKER"
+              ]
+            }
+          ],
+          "unit": "warlock-skyrunners"
+        },
+        "reviewed": true,
+        "sid": "4038cf0b-7832-4c7a-9c63-dc3e52bd0503:warlock-skyrunners",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": null
+          },
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "IGNORES COVER",
+            "when": null
+          }
+        ],
+        "hash": "f98460a0",
+        "kind": "ability",
+        "name": "Warlock Skyrunners: Runes of Battle",
+        "ref": {
+          "kind": "ability",
+          "unit": "warlock-skyrunners"
+        },
+        "reviewed": true,
+        "sid": "4a5d030e-9923-48ec-9d98-965fd02d6844:warlock-skyrunners",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Destructor"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "per friendly AELDARI PSYKER within 6\", up to +2",
+              "ru": "за каждого дружественного AELDARI PSYKER в 6\", максимум +2"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Destructor"
+            },
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "per friendly AELDARI PSYKER within 6\", up to +2",
+              "ru": "за каждого дружественного AELDARI PSYKER в 6\", максимум +2"
+            }
+          }
+        ],
+        "hash": "de03884e",
+        "kind": "ability",
+        "name": "Warlock: Psychic Communion",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [
+                "AELDARI PSYKER"
+              ],
+              "targets": [
+                "AELDARI PSYKER"
+              ]
+            }
+          ],
+          "unit": "warlock"
+        },
+        "reviewed": true,
+        "sid": "a5a823b5-a149-4479-afd6-63239abc7fd3:warlock",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "m",
+            "value": "24\"",
+            "when": {
+              "en": "until the end of a turn this ability was used (no charge that turn)",
+              "ru": "до конца хода, в котором использована способность (без charge)"
+            }
+          }
+        ],
+        "hash": "1124390d",
+        "kind": "ability",
+        "name": "Warp Spiders: Flickerjump",
+        "ref": {
+          "kind": "ability",
+          "unit": "warp-spiders"
+        },
+        "reviewed": true,
+        "sid": "765703cd-4b3a-4400-8f93-e1abd02a0b6e:warp-spiders",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 6,
+            "when": {
+              "en": "in a phase it Advanced (no Advance roll is made)",
+              "ru": "в фазе, когда совершил Advance (бросок не делается)"
+            }
+          }
+        ],
+        "hash": "18a0ce80",
+        "kind": "ability",
+        "name": "Wasp Assault Walker: Cloudbreakers",
+        "note": "Read as Ynnari Raider: Aethersails (aeldari), the same text.",
+        "ref": {
+          "kind": "ability",
+          "unit": "wasp-assault-walker"
+        },
+        "reviewed": true,
+        "sid": "pack:wasp-assault-walker:cloudbreakers",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "ranged-s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "b64881b6",
+        "kind": "ability",
+        "name": "Wave Serpent: Wave Serpent Shield",
+        "ref": {
+          "kind": "ability",
+          "unit": "wave-serpent"
+        },
+        "reviewed": true,
+        "sid": "a8395f79-bb69-466e-bbb8-f25ac208de2d:wave-serpent",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "e258d19a",
+        "kind": "ability",
+        "name": "Webway Gate: Fortification",
+        "ref": {
+          "kind": "ability",
+          "unit": "webway-gate"
+        },
+        "reviewed": true,
+        "sid": "pack:webway-gate:fortification",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "ld",
+            "value": "6+",
+            "when": {
+              "en": "within 12\" of a friendly AELDARI PSYKER",
+              "ru": "в 12\" от дружественного AELDARI PSYKER"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "while within 12\" of a friendly AELDARI PSYKER model",
+              "ru": "пока в 12\" от дружественной модели AELDARI PSYKER"
+            }
+          }
+        ],
+        "hash": "57550712",
+        "kind": "ability",
+        "name": "Wraithblades: Psychic Guidance",
+        "ref": {
+          "kind": "ability",
+          "unit": "wraithblades"
+        },
+        "reviewed": true,
+        "sid": "8a3daae2-6619-44f7-b774-f9452f4ab3c1:wraithblades",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "ld",
+            "value": "6+",
+            "when": {
+              "en": "within 12\" of a friendly AELDARI PSYKER",
+              "ru": "в 12\" от дружественного AELDARI PSYKER"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "while within 12\" of a friendly AELDARI PSYKER model",
+              "ru": "пока в 12\" от дружественной модели AELDARI PSYKER"
+            }
+          }
+        ],
+        "hash": "57550712",
+        "kind": "ability",
+        "name": "Wraithguard: Psychic Guidance",
+        "ref": {
+          "kind": "ability",
+          "unit": "wraithguard"
+        },
+        "reviewed": true,
+        "sid": "8a3daae2-6619-44f7-b774-f9452f4ab3c1:wraithguard",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "improve",
+            "stat": "bs",
+            "value": 1,
+            "when": {
+              "en": "within 12\" of a friendly AELDARI PSYKER",
+              "ru": "в 12\" от дружественного AELDARI PSYKER"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "improve",
+            "stat": "ws",
+            "value": 1,
+            "when": {
+              "en": "within 12\" of a friendly AELDARI PSYKER",
+              "ru": "в 12\" от дружественного AELDARI PSYKER"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "ld",
+            "value": "6+",
+            "when": {
+              "en": "within 12\" of a friendly AELDARI PSYKER",
+              "ru": "в 12\" от дружественного AELDARI PSYKER"
+            }
+          }
+        ],
+        "hash": "15d5d440",
+        "kind": "ability",
+        "name": "Wraithlord: Psychic Guidance",
+        "ref": {
+          "kind": "ability",
+          "unit": "wraithlord"
+        },
+        "reviewed": true,
+        "sid": "811132b9-8b0e-4945-bd3f-69916b0a8608:wraithlord",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 6,
+            "when": {
+              "en": "in a phase it Advanced (no Advance roll is made)",
+              "ru": "в фазе, когда совершил Advance (бросок не делается)"
+            }
+          }
+        ],
+        "hash": "18a0ce80",
+        "kind": "ability",
+        "name": "Ynnari Raider: Aethersails",
+        "ref": {
+          "kind": "ability",
+          "unit": "ynnari-raider"
+        },
+        "reviewed": true,
+        "sid": "842515a4-ceb3-4b60-912e-570959df315a:ynnari-raider",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-below-starting-strength"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Fights First",
+            "when": {
+              "en": "at the start of the Fight phase, while this unit is below its Starting Strength",
+              "ru": "в начале Fight phase, пока отряд ниже Starting Strength"
+            }
+          },
+          {
+            "cond": [
+              "unit-below-half-strength"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Fights First",
+            "when": {
+              "en": "at the start of the Fight phase, while this unit is below its Starting Strength",
+              "ru": "в начале Fight phase, пока отряд ниже Starting Strength"
+            }
+          }
+        ],
+        "hash": "21c2d773",
+        "kind": "ability",
+        "name": "Ynnari Succubus: Empowered by Death",
+        "ref": {
+          "kind": "ability",
+          "unit": "ynnari-succubus"
+        },
+        "reviewed": true,
+        "sid": "87e31755-0855-4acb-9561-42dc6d2f6040:ynnari-succubus",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "9d48081a",
+        "kind": "ability",
+        "name": "Ynnari Succubus: Storm of Blades",
+        "ref": {
+          "kind": "ability",
+          "unit": "ynnari-succubus"
+        },
+        "reviewed": true,
+        "sid": "d3d0bb1a-87c9-4e46-9237-2d6c05ccee4a:ynnari-succubus",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-manoeuvre-swift-as-the-wind"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 2,
+            "when": {
+              "en": "for the phase, after the unit performs the Swift as the Wind Agile Manoeuvre",
+              "ru": "на фазу, после того как отряд выполнил манёвр Swift as the Wind"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": {
+              "en": "for the turn, after a VEHICLE unit performs the Star Engines Agile Manoeuvre",
+              "ru": "на ход, после того как VEHICLE выполнил манёвр Star Engines"
+            }
+          }
+        ],
+        "hash": "1b5a1ea7",
+        "kind": "armyRule",
+        "name": "Battle Focus",
+        "ref": {
+          "kind": "armyRule"
+        },
+        "reviewed": true,
+        "sid": "6727344a-cbbc-4ce3-972b-221a4daeb484",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "218596b3",
+        "kind": "armyRule",
+        "name": "Disparate Paths",
+        "note": "army-composition rule — which units may be included, no printed number",
+        "ref": {
+          "kind": "armyRule"
+        },
+        "reviewed": true,
+        "sid": "04d0ed6a-3233-413d-8173-c96ace7f0f89",
+        "ver": 925
+      },
+      {
+        "det": "Armoured Warhost",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": null
+          }
+        ],
+        "hash": "9e5439da",
+        "kind": "detachmentRule",
+        "name": "Skilled Crews",
+        "ref": {
+          "det": "armoured-warhost",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "73913fb3-24fa-4911-8b59-a10e65e627dd",
+        "ver": 925
+      },
+      {
+        "det": "Aspect Host",
+        "effects": [
+          {
+            "cond": [
+              "path-hit-1"
+            ],
+            "op": "state",
+            "text": {
+              "en": "Re-roll Hit rolls of 1",
+              "ru": "Переброс бросков на попадание, равных 1"
+            },
+            "when": {
+              "en": "the one picked when the unit is selected to shoot or fight",
+              "ru": "выбранная, когда отряд выбран для стрельбы или боя"
+            }
+          },
+          {
+            "cond": [
+              "path-wound-1"
+            ],
+            "op": "state",
+            "text": {
+              "en": "Re-roll Wound rolls of 1",
+              "ru": "Переброс бросков на ранение, равных 1"
+            },
+            "when": {
+              "en": "the one picked when the unit is selected to shoot or fight",
+              "ru": "выбранная, когда отряд выбран для стрельбы или боя"
+            }
+          }
+        ],
+        "hash": "e9a4c1e1",
+        "kind": "detachmentRule",
+        "name": "Path of the Warrior",
+        "ref": {
+          "det": "aspect-host",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "8ec06eb8-c47f-4443-b3d6-831c588f7eb1",
+        "ver": 925
+      },
+      {
+        "det": "Devoted of Ynnead",
+        "effects": [],
+        "hash": "81a3d78f",
+        "kind": "detachmentRule",
+        "name": "Strength from Death",
+        "ref": {
+          "det": "devoted-of-ynnead",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "8ec01895-99aa-488d-9ee9-e49c6deb3585",
+        "ver": 925
+      },
+      {
+        "det": "Fateful Performance",
+        "effects": [],
+        "hash": "6f29f280",
+        "kind": "detachmentRule",
+        "name": "Acrobatic Onslaught",
+        "ref": {
+          "det": "fateful-performance",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "773800e9-fbea-434d-a848-c857a5879e37",
+        "ver": 995
+      },
+      {
+        "det": "Guardian Battlehost",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "if this unit and/or the target is within range of an objective marker",
+              "ru": "если отряд и/или цель в радиусе маркера цели"
+            }
+          }
+        ],
+        "hash": "92103900",
+        "kind": "detachmentRule",
+        "name": "Defend At All Costs",
+        "ref": {
+          "det": "guardian-battlehost",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "ffd11536-5f6e-44a3-8f8a-f3833e44dc1c",
+        "ver": 925
+      },
+      {
+        "det": "Kygharil's Protectors",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "67359c8d",
+        "kind": "detachmentRule",
+        "name": "Graceful Warriors",
+        "ref": {
+          "det": "cp:aeldari",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "a308d6d8-a15c-4342-acbf-19b49950f7c0",
+        "ver": 995
+      },
+      {
+        "det": "Serpent’s Brood",
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "Harlequins Mounted and Vehicle models only",
+              "ru": "только модели Harlequins Mounted и Vehicle"
+            }
+          }
+        ],
+        "hash": "fd67f44f",
+        "kind": "detachmentRule",
+        "name": "Boons of the Brood",
+        "ref": {
+          "det": "serpents-brood",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "da81ccd6-35d7-4a5c-91f4-8bf64cf14ef3",
+        "ver": 925
+      },
+      {
+        "det": "Spirit Conclave",
+        "effects": [],
+        "hash": "67e4484a",
+        "kind": "detachmentRule",
+        "name": "Shepherds of the Dead",
+        "ref": {
+          "det": "spirit-conclave",
+          "kind": "detachmentRule",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "WRAITHBLADES",
+                "WRAITHGUARD",
+                "WRAITHLORD"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "04a0d658-c70b-4603-b49e-b510bec9a0e9",
+        "ver": 925
+      },
+      {
+        "det": "Twilight Flickers",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "255ff2e4",
+        "kind": "detachmentRule",
+        "name": "Dance of Distortion",
+        "ref": {
+          "det": "twilight-flickers",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "1c52dc8a-4a81-4545-aad5-e373d306e9cb",
+        "ver": 925
+      },
+      {
+        "det": "Warhost",
+        "effects": [
+          {
+            "cond": [
+              "unit-manoeuvre-swift-as-the-wind"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 1,
+            "when": {
+              "en": "for the phase, after the unit performs the Swift as the Wind Agile Manoeuvre",
+              "ru": "на фазу, после того как отряд выполнил манёвр Swift as the Wind"
+            }
+          }
+        ],
+        "hash": "47ff3ab0",
+        "kind": "detachmentRule",
+        "name": "Martial Grace",
+        "ref": {
+          "det": "warhost",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "f40ed095-81a8-49e6-b58a-6c5e8c907e68",
+        "ver": 925
+      },
+      {
+        "det": "Armoured Warhost",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "selected": true,
+            "stat": "hit",
+            "target": "aura",
+            "value": 1,
+            "when": {
+              "en": "the VEHICLE unit selected at the start of your Shooting phase",
+              "ru": "отряд VEHICLE, выбранный в начале вашей фазы стрельбы"
+            }
+          }
+        ],
+        "hash": "472d75a4",
+        "kind": "enhancement",
+        "name": "Guiding Presence",
+        "ref": {
+          "det": "armoured-warhost",
+          "kind": "enhancement",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "AELDARI VEHICLE"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "ee7b206e-5fe4-4050-8d7b-9e5f569adc9f",
+        "ver": 995
+      },
+      {
+        "det": "Armoured Warhost",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of a friendly AELDARI VEHICLE unit",
+              "ru": "пока в пределах 3\" от дружественного отряда AELDARI VEHICLE"
+            }
+          }
+        ],
+        "hash": "863f06db",
+        "kind": "enhancement",
+        "name": "Spirit Stone of Raelyth",
+        "ref": {
+          "det": "armoured-warhost",
+          "kind": "enhancement",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "AELDARI VEHICLE"
+              ]
+            },
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [
+                "AELDARI VEHICLE"
+              ],
+              "targets": [
+                "AELDARI VEHICLE"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "c6afafd7-2084-43da-af98-5ea9d98ed9f3",
+        "ver": 925
+      },
+      {
+        "det": "Aspect Host",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": null
+          }
+        ],
+        "hash": "5d2ea32e",
+        "kind": "enhancement",
+        "name": "Aspect of Murder",
+        "ref": {
+          "det": "aspect-host",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "af33d000-b02d-40ef-9c11-0e0e92432740",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading-aspect-warriors"
+        ],
+        "det": "Aspect Host",
+        "effects": [],
+        "hash": "37758e03",
+        "kind": "enhancement",
+        "name": "Mantle of Wisdom",
+        "ref": {
+          "det": "aspect-host",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "1ae1869b-921c-48fa-9c64-69dd2b1da1b0",
+        "ver": 995
+      },
+      {
+        "appliesWhile": [
+          "unit-leading-aspect-warriors"
+        ],
+        "det": "Aspect Host",
+        "effects": [
+          {
+            "cond": [
+              "unit-leading-aspect-warriors"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "ranged",
+            "when": {
+              "en": "while the bearer is leading an ASPECT WARRIORS unit",
+              "ru": "пока носитель возглавляет отряд ASPECT WARRIORS"
+            }
+          },
+          {
+            "cond": [
+              "unit-leading-aspect-warriors"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "target": "led",
+            "value": -1,
+            "vs": "ranged",
+            "when": {
+              "en": "while the bearer is leading an ASPECT WARRIORS unit",
+              "ru": "пока носитель возглавляет отряд ASPECT WARRIORS"
+            }
+          }
+        ],
+        "hash": "40ee044b",
+        "kind": "enhancement",
+        "name": "Shimmerstone",
+        "ref": {
+          "det": "aspect-host",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "94c1a89a-9440-4408-86ab-de0674cc8068",
+        "ver": 995
+      },
+      {
+        "appliesWhile": [
+          "unit-leading-aspect-warriors"
+        ],
+        "det": "Aspect Host",
+        "effects": [
+          {
+            "cond": [
+              "unit-leading-aspect-warriors"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "while the bearer is leading an Aspect Warriors unit",
+              "ru": "пока носитель ведёт отряд Aspect Warriors"
+            }
+          }
+        ],
+        "hash": "02866b33",
+        "kind": "enhancement",
+        "name": "Strategic Savant",
+        "ref": {
+          "det": "aspect-host",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "8d9c8be4-f9d6-4cf2-bdf9-1b50f5e73c04",
+        "ver": 925
+      },
+      {
+        "det": "Corsair Coterie",
+        "effects": [],
+        "hash": "60aa4936",
+        "kind": "enhancement",
+        "name": "Infamy (Aura)",
+        "ref": {
+          "det": "corsair-coterie",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "558885b8-e1fc-4c9e-8100-f7402cbda111",
+        "ver": 925
+      },
+      {
+        "det": "Corsair Coterie",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "led",
+            "value": "5+",
+            "when": null
+          }
+        ],
+        "hash": "73e64d98",
+        "kind": "enhancement",
+        "name": "Voidstone",
+        "ref": {
+          "det": "corsair-coterie",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "1b083a45-8703-43da-8966-0c3340d8c4e2",
+        "ver": 925
+      },
+      {
+        "det": "Corsair Coterie",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Deep Strike",
+            "when": null
+          }
+        ],
+        "hash": "5abca7e4",
+        "kind": "enhancement",
+        "name": "Webway Pathstone",
+        "ref": {
+          "det": "corsair-coterie",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "867996f1-aa68-4a1d-a57c-bc2ee1e0e36d",
+        "ver": 925
+      },
+      {
+        "det": "Devoted of Ynnead",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 2,
+            "when": null
+          }
+        ],
+        "hash": "54a21c8e",
+        "kind": "enhancement",
+        "name": "Borrowed Vigour",
+        "ref": {
+          "det": "devoted-of-ynnead",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "4c728b85-8794-4043-9890-15c62ee1ee74",
+        "ver": 925
+      },
+      {
+        "det": "Devoted of Ynnead",
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "name": "Eldritch Storm"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": null
+          }
+        ],
+        "hash": "022bb834",
+        "kind": "enhancement",
+        "name": "Gaze of Ynnead",
+        "ref": {
+          "det": "devoted-of-ynnead",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "26849fdc-c5cb-4c85-b018-9a4be81c4266",
+        "ver": 925
+      },
+      {
+        "det": "Eldritch Raiders",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "LANCE",
+            "when": null
+          }
+        ],
+        "hash": "82118b6b",
+        "kind": "enhancement",
+        "name": "Alacritous Assault",
+        "ref": {
+          "det": "eldritch-raiders",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "00eb75e2-21f5-445c-8fd4-431a1133ceb6",
+        "ver": 925
+      },
+      {
+        "det": "Eldritch Raiders",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "ANTI-MONSTER 5+",
+            "when": null
+          },
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "ANTI-VEHICLE 5+",
+            "when": null
+          }
+        ],
+        "hash": "558ddc7e",
+        "kind": "enhancement",
+        "name": "Exotic Munitions",
+        "ref": {
+          "det": "eldritch-raiders",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "4ac38d29-d3a8-4299-b36d-adce59b94bb7",
+        "ver": 925
+      },
+      {
+        "det": "Fateful Performance",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Infiltrators",
+            "when": null
+          }
+        ],
+        "hash": "2faf0432",
+        "kind": "enhancement",
+        "name": "Mistweave",
+        "ref": {
+          "det": "fateful-performance",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "0b334c87-9ac3-471d-9708-20ecb762b900",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading"
+        ],
+        "det": "Ghosts of the Webway",
+        "effects": [
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Infiltrators",
+            "when": {
+              "en": "while the bearer is leading a unit",
+              "ru": "пока носитель ведёт отряд"
+            }
+          }
+        ],
+        "hash": "800a886e",
+        "kind": "enhancement",
+        "name": "Mistweave",
+        "ref": {
+          "det": "ghosts-of-the-webway",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "67e3f31f-1ec0-4ad5-b92e-c5e9d7ce7146",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading-storm-guardians"
+        ],
+        "det": "Guardian Battlehost",
+        "effects": [],
+        "hash": "83cb465b",
+        "kind": "enhancement",
+        "name": "Breath of Vaul",
+        "ref": {
+          "det": "guardian-battlehost",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "a6dc92ee-14cc-409a-adb4-12aeb3178bce",
+        "ver": 995
+      },
+      {
+        "det": "Guardian Battlehost",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "oc",
+            "value": "5",
+            "when": null
+          }
+        ],
+        "hash": "698ed5fe",
+        "kind": "enhancement",
+        "name": "Craftworld’s Champion",
+        "ref": {
+          "det": "guardian-battlehost",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "0ab6c77a-f7e0-4175-a08a-d7ac02cee847",
+        "ver": 925
+      },
+      {
+        "det": "Guardian Battlehost",
+        "effects": [],
+        "hash": "d05a838a",
+        "kind": "enhancement",
+        "name": "Ethereal Pathway",
+        "ref": {
+          "det": "guardian-battlehost",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "b9241196-72d9-4b64-94f2-7e485bf0a84b",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading-dire-avengers-or-guardians"
+        ],
+        "det": "Guardian Battlehost",
+        "effects": [],
+        "hash": "e1b8ef97",
+        "kind": "enhancement",
+        "name": "Protector of the Paths",
+        "ref": {
+          "det": "guardian-battlehost",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "f0cce164-4c78-40a7-8b37-448cd4dc2d0c",
+        "ver": 995
+      },
+      {
+        "det": "Kygharil's Protectors",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Scouts 6\"",
+            "when": null
+          }
+        ],
+        "hash": "47487144",
+        "kind": "enhancement",
+        "name": "Guided Jump",
+        "ref": {
+          "det": "cp:aeldari",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "9f284647-768c-470b-a84e-42450935b075",
+        "ver": 925
+      },
+      {
+        "det": "Kygharil's Protectors",
+        "effects": [],
+        "hash": "6d851a6c",
+        "kind": "enhancement",
+        "name": "Seer’s Hand",
+        "note": "the healing and [PRECISION] land on a DIFFERENT unit the bearer selects, not on the bearer, and this layer only ever modifies the model carrying the enhancement",
+        "ref": {
+          "det": "cp:aeldari",
+          "kind": "enhancement",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "KYGHARIL'S PROTECTORS WRAITHBLADES"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "38c84028-2718-4537-bf80-3808d06997bd",
+        "ver": 925
+      },
+      {
+        "det": "Path of the Outcast",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "ap",
+            "target": "unit",
+            "value": -1,
+            "when": {
+              "en": "per ranged attack against a CHARACTER unit",
+              "ru": "за стрелковую атаку по отряду CHARACTER"
+            }
+          }
+        ],
+        "hash": "55966571",
+        "kind": "enhancement",
+        "name": "Assassins' Eye (Upgrade)",
+        "ref": {
+          "det": "path-of-the-outcast",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "95508954-f634-4150-9300-b76953d3217f",
+        "ver": 925
+      },
+      {
+        "det": "Seer Council",
+        "effects": [],
+        "hash": "a8019d78",
+        "kind": "enhancement",
+        "name": "Lucid Eye",
+        "ref": {
+          "det": "seer-council",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "2829e959-9dd5-485b-ad55-9b162e11d54f",
+        "ver": 925
+      },
+      {
+        "det": "Seer Council",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Feel No Pain 4+ (vs mortal wounds, Psychic Attacks and [DEVASTATING WOUNDS])",
+            "when": null
+          }
+        ],
+        "hash": "8aae3144",
+        "kind": "enhancement",
+        "name": "Runes of Warding",
+        "ref": {
+          "det": "seer-council",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "c2eaaffb-4410-4c56-ba4c-f24c5b725653",
+        "ver": 925
+      },
+      {
+        "det": "Seer Council",
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "add",
+            "stat": "range",
+            "value": 12,
+            "when": null
+          }
+        ],
+        "hash": "e7c50bbd",
+        "kind": "enhancement",
+        "name": "Stone of Eldritch Fury",
+        "note": "the +12\" is real and unconditional, but it applies to a SUBSET of the weapon table this format cannot address, so it annotates instead of rewriting every range",
+        "ref": {
+          "det": "seer-council",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "d4232944-2e90-4b98-8350-2fedc2258f40",
+        "ver": 925
+      },
+      {
+        "det": "Serpent’s Brood",
+        "effects": [],
+        "hash": "2e53e4e8",
+        "kind": "enhancement",
+        "name": "Fanged Leer",
+        "ref": {
+          "det": "serpents-brood",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "aadd7a8b-5a65-42f3-81fc-ec7af02d3685",
+        "ver": 925
+      },
+      {
+        "det": "Serpent’s Brood",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Scouts 6\"",
+            "when": null
+          }
+        ],
+        "hash": "645c7155",
+        "kind": "enhancement",
+        "name": "Key of Ghosts",
+        "ref": {
+          "det": "serpents-brood",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "39ac87c1-1d96-4aaf-909b-6addb2fa6cad",
+        "ver": 925
+      },
+      {
+        "det": "Serpent’s Brood",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 3,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "48dfea8e",
+        "kind": "enhancement",
+        "name": "Weavers' Wail",
+        "ref": {
+          "det": "serpents-brood",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "964c822b-33e6-412a-8ebd-fa8d57373161",
+        "ver": 925
+      },
+      {
+        "det": "Spirit Conclave",
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "Infantry models of one Wraith Construct unit you select each Command phase",
+              "ru": "модели Infantry одного отряда Wraith Construct, выбираемого в каждой фазе командования"
+            }
+          },
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 3,
+            "when": {
+              "en": "Monster models of that same selected unit",
+              "ru": "модели Monster того же выбранного отряда"
+            }
+          }
+        ],
+        "hash": "236ea7df",
+        "kind": "enhancement",
+        "name": "Light of Clarity",
+        "ref": {
+          "det": "spirit-conclave",
+          "kind": "enhancement",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "WRAITH CONSTRUCT"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "518aa1c5-0552-4956-a26e-1f1b0ef0735d",
+        "ver": 925
+      },
+      {
+        "det": "Spirit Conclave",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "on a Critical Wound",
+              "ru": "на Critical Wound"
+            }
+          }
+        ],
+        "hash": "f3dc41b8",
+        "kind": "enhancement",
+        "name": "Stave of Kurnous",
+        "ref": {
+          "det": "spirit-conclave",
+          "kind": "enhancement",
+          "scopes": [
+            {
+              "excludes": [
+                "TITANIC"
+              ],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "WRAITH CONSTRUCT"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "282aca3c-3003-4f0c-beaa-48e503c7cea5",
+        "ver": 925
+      },
+      {
+        "det": "Twilight Flickers",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Scouts 6\"",
+            "when": null
+          }
+        ],
+        "hash": "9316d2d5",
+        "kind": "enhancement",
+        "name": "Prelude Performer",
+        "ref": {
+          "det": "twilight-flickers",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "be347cc7-e483-497b-a475-0d5d3be07a32",
+        "ver": 925
+      },
+      {
+        "det": "Twilight Flickers",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Fights First",
+            "when": null
+          }
+        ],
+        "hash": "2a9b512e",
+        "kind": "enhancement",
+        "name": "Shadowfall Masks (Upgrade)",
+        "ref": {
+          "det": "twilight-flickers",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "627a96a6-71e7-4eb1-81ef-83be078a8900",
+        "ver": 925
+      },
+      {
+        "det": "Warhost",
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "dc1a1a15",
+        "kind": "enhancement",
+        "name": "Psychic Destroyer",
+        "ref": {
+          "det": "warhost",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "7c7a454e-4548-414f-9cf1-5faf80dddd9d",
+        "ver": 925
+      },
+      {
+        "det": "Windrider Host",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Scouts 9\"",
+            "when": null
+          }
+        ],
+        "hash": "61e696d7",
+        "kind": "enhancement",
+        "name": "Firstdrawn Blade",
+        "ref": {
+          "det": "windrider-host",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "fb8a0e05-6f2c-49f6-aa41-963dfe850ef3",
+        "ver": 925
+      },
+      {
+        "det": "Windrider Host",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          },
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "17a036d1",
+        "kind": "enhancement",
+        "name": "Mirage Field",
+        "ref": {
+          "det": "windrider-host",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "c73157aa-c3a9-4b4b-a079-fa4317388710",
+        "ver": 995
+      },
+      {
+        "det": "Windrider Host",
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-MONSTER 2+",
+            "when": null
+          },
+          {
+            "on": "ranged",
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-VEHICLE 2+",
+            "when": null
+          }
+        ],
+        "hash": "18e21f20",
+        "kind": "enhancement",
+        "name": "Seersight Strike",
+        "ref": {
+          "det": "windrider-host",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "16d5e738-7ef2-4b1c-8ab2-0d06387fe9c8",
+        "ver": 925
+      },
+      {
+        "det": "Armoured Warhost",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+ (vs mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "5967579f",
+        "kind": "stratagem",
+        "name": "Layered Wards",
+        "ref": {
+          "det": "armoured-warhost",
+          "kind": "stratagem",
+          "name": "Layered Wards"
+        },
+        "reviewed": true,
+        "sid": "0353efc2-003c-4da7-bb1b-c687e36155b6",
+        "ver": 925
+      },
+      {
+        "det": "Aspect Host",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "name": "The Wailing Doom"
+            },
+            "op": "set",
+            "stat": "range",
+            "value": "18\"",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "on": "ranged",
+            "only": {
+              "name": "The Wailing Doom"
+            },
+            "op": "set",
+            "stat": "d",
+            "value": "8",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "9fbe4041",
+        "kind": "stratagem",
+        "name": "Doom Inescapable",
+        "ref": {
+          "det": "aspect-host",
+          "kind": "stratagem",
+          "name": "Doom Inescapable"
+        },
+        "reviewed": true,
+        "sid": "7ef3eaef-b37c-48e2-9bd4-0378cdc068b9",
+        "ver": 925
+      },
+      {
+        "det": "Aspect Host",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "preternatural-ignores-cover"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "while this is an ability selected for this Stratagem (two only if an Aspect Shrine token was removed)",
+              "ru": "пока эта способность выбрана для этой стратагемы (две — только если снят Aspect Shrine token)"
+            }
+          },
+          {
+            "cond": [
+              "preternatural-lethal"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while this is an ability selected for this Stratagem (two only if an Aspect Shrine token was removed)",
+              "ru": "пока эта способность выбрана для этой стратагемы (две — только если снят Aspect Shrine token)"
+            }
+          },
+          {
+            "cond": [
+              "preternatural-sustained"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while this is an ability selected for this Stratagem (two only if an Aspect Shrine token was removed)",
+              "ru": "пока эта способность выбрана для этой стратагемы (две — только если снят Aspect Shrine token)"
+            }
+          }
+        ],
+        "hash": "b371afef",
+        "kind": "stratagem",
+        "name": "Preternatural Precision",
+        "ref": {
+          "det": "aspect-host",
+          "kind": "stratagem",
+          "name": "Preternatural Precision"
+        },
+        "reviewed": true,
+        "sid": "cd5eaa9d-3a56-4cc5-8b88-b644f4c6afe3",
+        "ver": 925
+      },
+      {
+        "det": "Corsair Coterie",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "2e05f68c",
+        "kind": "stratagem",
+        "name": "Cloak and Shadow",
+        "ref": {
+          "det": "corsair-coterie",
+          "kind": "stratagem",
+          "name": "Cloak and Shadow"
+        },
+        "reviewed": true,
+        "sid": "e6d81d10-fb30-42ac-b70b-dcf91203b6fe",
+        "ver": 925
+      },
+      {
+        "det": "Corsair Coterie",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "RAPID FIRE 1",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "9a8f4e3a",
+        "kind": "stratagem",
+        "name": "Outcast Ambush",
+        "ref": {
+          "det": "corsair-coterie",
+          "kind": "stratagem",
+          "name": "Outcast Ambush"
+        },
+        "reviewed": true,
+        "sid": "def8613e-eee9-4cb4-9297-76807bced5b5",
+        "ver": 925
+      },
+      {
+        "det": "Corsair Coterie",
+        "effects": [],
+        "hash": "fa5d89ce",
+        "kind": "stratagem",
+        "name": "Pirates’ Due",
+        "ref": {
+          "det": "corsair-coterie",
+          "kind": "stratagem",
+          "name": "Pirates’ Due"
+        },
+        "reviewed": true,
+        "sid": "da1a7e68-a91b-4bc5-a466-6ec7fc740224",
+        "ver": 925
+      },
+      {
+        "det": "Devoted of Ynnead",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "6d559221",
+        "kind": "stratagem",
+        "name": "Macabre Resilience",
+        "ref": {
+          "det": "devoted-of-ynnead",
+          "kind": "stratagem",
+          "name": "Macabre Resilience"
+        },
+        "reviewed": true,
+        "sid": "c3609894-ebe0-49fa-8e3f-58e4c84264e2",
+        "ver": 995
+      },
+      {
+        "det": "Devoted of Ynnead",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "15e3ea47",
+        "kind": "stratagem",
+        "name": "Soulsight",
+        "ref": {
+          "det": "devoted-of-ynnead",
+          "kind": "stratagem",
+          "name": "Soulsight"
+        },
+        "reviewed": true,
+        "sid": "d5737f54-4a3e-4335-9ddf-6759368bd099",
+        "ver": 925
+      },
+      {
+        "det": "Eldritch Raiders",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "if the attack’s Strength is less than the target’s highest Toughness",
+              "ru": "если S атаки меньше наибольшей T в отряде цели"
+            }
+          }
+        ],
+        "hash": "6ccbd7b0",
+        "kind": "stratagem",
+        "name": "No Prey too Big",
+        "ref": {
+          "det": "eldritch-raiders",
+          "kind": "stratagem",
+          "name": "No Prey too Big"
+        },
+        "reviewed": true,
+        "sid": "23a9ccd8-c557-4ec6-8a93-15f3b41ee8f5",
+        "ver": 925
+      },
+      {
+        "det": "Eldritch Raiders",
+        "dur": "round",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "ff404a82",
+        "kind": "stratagem",
+        "name": "Raider’s Spoils",
+        "ref": {
+          "det": "eldritch-raiders",
+          "kind": "stratagem",
+          "name": "Raider’s Spoils"
+        },
+        "reviewed": true,
+        "sid": "12ded315-0be2-463a-ab26-808bb701d1c8",
+        "ver": 925
+      },
+      {
+        "det": "Eldritch Raiders",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "ffe64ef9",
+        "kind": "stratagem",
+        "name": "Ruthless Killers",
+        "ref": {
+          "det": "eldritch-raiders",
+          "kind": "stratagem",
+          "name": "Ruthless Killers"
+        },
+        "reviewed": true,
+        "sid": "25fa402d-6cb8-46cb-9fcb-d6dc03f2ae22",
+        "ver": 925
+      },
+      {
+        "det": "Eldritch Raiders",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "2dcc4ebb",
+        "kind": "stratagem",
+        "name": "Yriel’s Example",
+        "ref": {
+          "det": "eldritch-raiders",
+          "kind": "stratagem",
+          "name": "Yriel’s Example"
+        },
+        "reviewed": true,
+        "sid": "b6e68ab5-ae3a-4ca1-83bd-4e4a370cea97",
+        "ver": 925
+      },
+      {
+        "det": "Guardian Battlehost",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PISTOL",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "9885d13f",
+        "kind": "stratagem",
+        "name": "Blades of Asuryan",
+        "ref": {
+          "det": "guardian-battlehost",
+          "kind": "stratagem",
+          "name": "Blades of Asuryan"
+        },
+        "reviewed": true,
+        "sid": "51ff6332-28a3-4308-bc38-3644ffd4c908",
+        "ver": 925
+      },
+      {
+        "det": "Guardian Battlehost",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "when": {
+              "en": "if your unit is within range of an objective marker",
+              "ru": "если отряд в зоне маркера objective"
+            }
+          }
+        ],
+        "hash": "8290f3e9",
+        "kind": "stratagem",
+        "name": "Shield Nodes",
+        "ref": {
+          "det": "guardian-battlehost",
+          "kind": "stratagem",
+          "name": "Shield Nodes"
+        },
+        "reviewed": true,
+        "sid": "05a41026-685b-4152-82cd-652e666ec684",
+        "ver": 995
+      },
+      {
+        "det": "Guardian Battlehost",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 6,
+            "when": {
+              "en": "in a phase it Advanced (no Advance roll)",
+              "ru": "в фазе с Advance (без броска)"
+            }
+          }
+        ],
+        "hash": "90a2030a",
+        "kind": "stratagem",
+        "name": "Time to Strike",
+        "ref": {
+          "det": "guardian-battlehost",
+          "kind": "stratagem",
+          "name": "Time to Strike"
+        },
+        "reviewed": true,
+        "sid": "35d8b42d-ab6c-4646-97e5-96f5b764a976",
+        "ver": 925
+      },
+      {
+        "det": "Kygharil's Protectors",
+        "effects": [],
+        "hash": "e80d2b39",
+        "kind": "stratagem",
+        "name": "Suppressing Storm",
+        "ref": {
+          "det": "cp:aeldari",
+          "kind": "stratagem",
+          "name": "Suppressing Storm"
+        },
+        "reviewed": true,
+        "sid": "92b58a90-823a-4880-810b-6c491cde687d",
+        "ver": 995
+      },
+      {
+        "det": "Seer Council",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "7a7d39b5",
+        "kind": "stratagem",
+        "name": "Fate Inescapable",
+        "ref": {
+          "det": "seer-council",
+          "kind": "stratagem",
+          "name": "Fate Inescapable"
+        },
+        "reviewed": true,
+        "sid": "26af9c53-96f1-4cee-8720-b19621384d41",
+        "ver": 925
+      },
+      {
+        "det": "Seer Council",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          },
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "ce51385d",
+        "kind": "stratagem",
+        "name": "Forewarned",
+        "ref": {
+          "det": "seer-council",
+          "kind": "stratagem",
+          "name": "Forewarned"
+        },
+        "reviewed": true,
+        "sid": "e9659875-df8c-4064-afef-18cd2a054730",
+        "ver": 995
+      },
+      {
+        "det": "Seer Council",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Deep Strike",
+            "when": null
+          }
+        ],
+        "hash": "5b5a949f",
+        "kind": "stratagem",
+        "name": "Unshrouded Truth",
+        "ref": {
+          "det": "seer-council",
+          "kind": "stratagem",
+          "name": "Unshrouded Truth"
+        },
+        "reviewed": true,
+        "sid": "9907d0a7-4f77-449d-8e36-28115304d029",
+        "ver": 981
+      },
+      {
+        "det": "Spirit Conclave",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "2cb6465b",
+        "kind": "stratagem",
+        "name": "Blades From Beyond",
+        "ref": {
+          "det": "spirit-conclave",
+          "kind": "stratagem",
+          "name": "Blades From Beyond"
+        },
+        "reviewed": true,
+        "sid": "178f6e1e-0a30-4650-9ad5-77b19be4c409",
+        "ver": 925
+      },
+      {
+        "det": "Spirit Conclave",
+        "effects": [],
+        "hash": "153c452c",
+        "kind": "stratagem",
+        "name": "Crushing Strides",
+        "ref": {
+          "det": "spirit-conclave",
+          "kind": "stratagem",
+          "name": "Crushing Strides"
+        },
+        "reviewed": true,
+        "sid": "9803bbcb-1dd8-4742-ad0b-309a06da2330",
+        "ver": 925
+      },
+      {
+        "det": "Spirit Conclave",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "6d37add7",
+        "kind": "stratagem",
+        "name": "Wraithbone Armour",
+        "ref": {
+          "det": "spirit-conclave",
+          "kind": "stratagem",
+          "name": "Wraithbone Armour"
+        },
+        "reviewed": true,
+        "sid": "0dc77037-8e04-4c5f-86d2-aa8663b70788",
+        "ver": 925
+      },
+      {
+        "det": "Twilight Flickers",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LANCE",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "127e1a54",
+        "kind": "stratagem",
+        "name": "Presaged Rehearsal",
+        "ref": {
+          "det": "twilight-flickers",
+          "kind": "stratagem",
+          "name": "Presaged Rehearsal"
+        },
+        "reviewed": true,
+        "sid": "cd8a2849-148d-42c2-baa8-70fde6c32971",
+        "ver": 925
+      },
+      {
+        "det": "Warhost",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "against targets within 12\"",
+              "ru": "против целей в 12\""
+            }
+          }
+        ],
+        "hash": "f2c288f7",
+        "kind": "stratagem",
+        "name": "Blitzing Firepower",
+        "ref": {
+          "det": "warhost",
+          "kind": "stratagem",
+          "name": "Blitzing Firepower"
+        },
+        "reviewed": true,
+        "sid": "45d32b81-e8d4-41f7-a259-aa2b7b83e55b",
+        "ver": 925
+      },
+      {
+        "det": "Warhost",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "214dc667",
+        "kind": "stratagem",
+        "name": "Lightning-fast Reactions",
+        "ref": {
+          "det": "warhost",
+          "kind": "stratagem",
+          "name": "Lightning-fast Reactions"
+        },
+        "reviewed": true,
+        "sid": "2d1e6da6-2f05-409b-9ec4-c3c99d081c99",
+        "ver": 995
+      },
+      {
+        "det": "Windrider Host",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "20ff758a",
+        "kind": "stratagem",
+        "name": "Focused Firepower",
+        "ref": {
+          "det": "windrider-host",
+          "kind": "stratagem",
+          "name": "Focused Firepower"
+        },
+        "reviewed": true,
+        "sid": "7b546fe8-2b6e-4d32-addb-60eae596cdca",
+        "ver": 925
+      },
+      {
+        "det": "Windrider Host",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "987d6ae0",
+        "kind": "stratagem",
+        "name": "Spiralling Evasion",
+        "ref": {
+          "det": "windrider-host",
+          "kind": "stratagem",
+          "name": "Spiralling Evasion"
+        },
+        "reviewed": true,
+        "sid": "5af63059-fb17-4c24-b61d-34535b3102d7",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "5e0ca50d",
+        "kind": "wargear",
+        "name": "Corsair Voidreavers: Mistshield",
+        "ref": {
+          "item": "mistshield",
+          "kind": "wargear",
+          "unit": "corsair-voidreavers"
+        },
+        "reviewed": true,
+        "sid": "2169123d-6e3f-4f28-a135-c8d388172eab:corsair-voidreavers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "f4c11bbc",
+        "kind": "wargear",
+        "name": "Corsair Voidscarred: Channeller Stones",
+        "ref": {
+          "item": "channeller stones",
+          "kind": "wargear",
+          "unit": "corsair-voidscarred"
+        },
+        "reviewed": true,
+        "sid": "18c4bfb4-b13e-4b82-96fd-6aad896046dc:corsair-voidscarred",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": null
+          }
+        ],
+        "hash": "c40143bc",
+        "kind": "wargear",
+        "name": "Corsair Voidscarred: Faolchú",
+        "ref": {
+          "item": "faolchú",
+          "kind": "wargear",
+          "unit": "corsair-voidscarred"
+        },
+        "reviewed": true,
+        "sid": "00cd87c9-1c81-4922-91fc-e8c993814efb:corsair-voidscarred",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "5e0ca50d",
+        "kind": "wargear",
+        "name": "Corsair Voidscarred: Mistshield",
+        "ref": {
+          "item": "mistshield",
+          "kind": "wargear",
+          "unit": "corsair-voidscarred"
+        },
+        "reviewed": true,
+        "sid": "2169123d-6e3f-4f28-a135-c8d388172eab:corsair-voidscarred",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "5e0ca50d",
+        "kind": "wargear",
+        "name": "Dire Avengers: Shimmershield",
+        "ref": {
+          "item": "shimmershield",
+          "kind": "wargear",
+          "unit": "dire-avengers"
+        },
+        "reviewed": true,
+        "sid": "1471d478-16f0-4ae5-8e10-b81d96a07945:dire-avengers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "against units without TITANIC",
+              "ru": "по отрядам без TITANIC"
+            }
+          }
+        ],
+        "hash": "e679790b",
+        "kind": "wargear",
+        "name": "Karandras: The Scorpion’s Bite",
+        "ref": {
+          "item": "the scorpion's bite",
+          "kind": "wargear",
+          "unit": "karandras"
+        },
+        "reviewed": true,
+        "sid": "pack:karandras:the-scorpion-s-bite",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "5e0ca50d",
+        "kind": "wargear",
+        "name": "Shining Spears: Shimmershield",
+        "ref": {
+          "item": "shimmershield",
+          "kind": "wargear",
+          "unit": "shining-spears"
+        },
+        "reviewed": true,
+        "sid": "1471d478-16f0-4ae5-8e10-b81d96a07945:shining-spears",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": null
+          }
+        ],
+        "hash": "5e0ca50d",
+        "kind": "wargear",
+        "name": "Skathach Wraithknight: Scattershield",
+        "ref": {
+          "item": "scattershield",
+          "kind": "wargear",
+          "unit": "skathach-wraithknight"
+        },
+        "reviewed": true,
+        "sid": "pack:skathach-wraithknight:scattershield",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "5+",
+            "when": null
+          }
+        ],
+        "hash": "40d840b6",
+        "kind": "wargear",
+        "name": "Storm Guardians: Serpent shield",
+        "ref": {
+          "item": "serpent shield",
+          "kind": "wargear",
+          "unit": "storm-guardians"
+        },
+        "reviewed": true,
+        "sid": "23aebc71-e6d1-4ccd-bbc6-7344e8c3f89d:storm-guardians",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "5e0ca50d",
+        "kind": "wargear",
+        "name": "Wraithblades: Forceshield",
+        "ref": {
+          "item": "forceshield",
+          "kind": "wargear",
+          "unit": "wraithblades"
+        },
+        "reviewed": true,
+        "sid": "c763e3a3-a9ea-48c5-947e-bbbe7ae67d83:wraithblades",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": null
+          },
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "a9f98625",
+        "kind": "wargear",
+        "name": "Wraithknight with Ghostglaive: Scattershield",
+        "ref": {
+          "item": "scattershield",
+          "kind": "wargear",
+          "unit": "wraithknight-with-ghostglaive"
+        },
+        "reviewed": true,
+        "sid": "88c4b502-3037-48b4-bd44-937d14a7c999:wraithknight-with-ghostglaive",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": null
+          },
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "a9f98625",
+        "kind": "wargear",
+        "name": "Wraithknight: Scattershield",
+        "ref": {
+          "item": "scattershield",
+          "kind": "wargear",
+          "unit": "wraithknight"
+        },
+        "reviewed": true,
+        "sid": "88c4b502-3037-48b4-bd44-937d14a7c999:wraithknight",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Grenades",
+            "when": null
+          }
+        ],
+        "hash": "85f5be75",
+        "kind": "wargear",
+        "name": "Ynnari Kabalite Warriors: Phantasm grenade launcher",
+        "ref": {
+          "item": "phantasm grenade launcher",
+          "kind": "wargear",
+          "unit": "ynnari-kabalite-warriors"
+        },
+        "reviewed": true,
+        "sid": "a27f1572-67ff-4f06-89a5-0c3147bdb33b:ynnari-kabalite-warriors",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LANCE",
+            "when": {
+              "en": "the bearer's weapons only",
+              "ru": "только оружие носителя"
+            }
+          }
+        ],
+        "hash": "cdfab1c2",
+        "kind": "wargear",
+        "name": "Ynnari Reavers: Grav-talon",
+        "ref": {
+          "item": "grav-talon",
+          "kind": "wargear",
+          "unit": "ynnari-reavers"
+        },
+        "reviewed": true,
+        "sid": "f4d519e6-ad5f-48f7-9e96-c9b8168322c2:ynnari-reavers",
+        "ver": 925
+      }
+    ],
+    "formatVersion": 1,
+    "slug": "aeldari"
+  }
+}

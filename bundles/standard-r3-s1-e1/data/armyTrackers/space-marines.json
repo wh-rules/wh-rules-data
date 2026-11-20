@@ -1,0 +1,82 @@
+{
+  "default": {
+    "detachmentOverrides": {
+      "assault brethren": {
+        "bonusUses": {
+          "assault": 1
+        }
+      },
+      "blade of ultramar": {
+        "bonusUses": {
+          "assault": 1,
+          "devastator": 1,
+          "tactical": 1
+        }
+      },
+      "devastator brethren": {
+        "bonusUses": {
+          "devastator": 1
+        }
+      },
+      "forgefather's seekers": {
+        "bonusUses": {
+          "devastator": 1
+        }
+      },
+      "gladius task force": {
+        "spareUses": 1
+      },
+      "spearpoint task force": {
+        "limitedSpares": [
+          {
+            "ids": [
+              "assault",
+              "tactical"
+            ],
+            "n": 1
+          }
+        ]
+      },
+      "tactical brethren": {
+        "bonusUses": {
+          "tactical": 1
+        }
+      }
+    },
+    "kind": "selection",
+    "label": "Combat Doctrine",
+    "note": {
+      "en": "Selected at the start of your Command phase, active for your Adeptus Astartes units until your next one. Each doctrine once per battle; a unit has only one active doctrine.",
+      "ru": "Выбирается в начале твоей Command phase и действует на твои Adeptus Astartes-отряды до следующей. Каждая доктрина — раз за бой; у отряда активна только одна."
+    },
+    "options": [
+      {
+        "body": {
+          "en": "An advance move does not stop this unit from being eligible to declare a charge.",
+          "ru": "Advance move не мешает этому отряду объявить charge."
+        },
+        "id": "assault",
+        "name": "Assault Doctrine"
+      },
+      {
+        "body": {
+          "en": "This unit’s ranged attacks have [ASSAULT].",
+          "ru": "Ranged-атаки этого отряда получают [ASSAULT]."
+        },
+        "id": "devastator",
+        "name": "Devastator Doctrine"
+      },
+      {
+        "body": {
+          "en": "A fall-back move does not stop this unit from being eligible to shoot and to declare a charge.",
+          "ru": "Fall-back move не мешает этому отряду стрелять и объявить charge."
+        },
+        "id": "tactical",
+        "name": "Tactical Doctrine"
+      }
+    ],
+    "perBattle": 1,
+    "ruleName": "Combat Doctrines",
+    "slug": "space-marines"
+  }
+}

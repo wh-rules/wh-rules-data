@@ -1,0 +1,1814 @@
+{
+  "edits": [
+    {
+      "create": {
+        "entries": [],
+        "updated": []
+      },
+      "file": "src/data/factionFaq.json",
+      "item": "sor-01",
+      "push": [
+        "adepta-sororitas",
+        "entries"
+      ],
+      "value": {
+        "a": "Yes.",
+        "q": "When using the Divine Intervention stratagem, can I use any of the Miracle dice that were generated when that CHARACTER was destroyed as part of the Miracle dice I can discard to set that CHARACTER back up?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": []
+      },
+      "file": "src/data/factionFaqRu.json",
+      "item": "sor-01",
+      "push": [
+        "adepta-sororitas",
+        "entries"
+      ],
+      "value": {
+        "a": "Да.",
+        "q": "При использовании стратагемы Divine Intervention могу ли я использовать кубы чуда (Miracle dice), полученные при уничтожении этого CHARACTER, как часть кубов чуда, которые я сбрасываю, чтобы вернуть этого CHARACTER на поле боя?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": [],
+        "updated": []
+      },
+      "file": "src/data/factionFaq.json",
+      "item": "cus-01",
+      "push": [
+        "adeptus-custodes",
+        "entries"
+      ],
+      "value": {
+        "a": "Yes.",
+        "q": "Can a Shield-Captain use its Master of Ka'tahs ability to activate both the Dacatarai and Kaptaris ka'tah abilities in the same phase, by activating one, using Master of Ka'tahs to become readied, then activating the other?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": []
+      },
+      "file": "src/data/factionFaqRu.json",
+      "item": "cus-01",
+      "push": [
+        "adeptus-custodes",
+        "entries"
+      ],
+      "value": {
+        "a": "Да.",
+        "q": "Может ли Shield-Captain с помощью способности Master of Ka'tahs активировать в одной фазе и Dacatarai, и Kaptaris: активировать одну, стать готовым (readied) через Master of Ka'tahs, а затем активировать другую?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": [],
+        "updated": []
+      },
+      "file": "src/data/factionFaq.json",
+      "item": "cus-02",
+      "push": [
+        "adeptus-custodes",
+        "entries"
+      ],
+      "value": {
+        "a": "No.",
+        "q": "When I target a unit with the Unleash the Lions stratagem, is that unit destroyed?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": []
+      },
+      "file": "src/data/factionFaqRu.json",
+      "item": "cus-02",
+      "push": [
+        "adeptus-custodes",
+        "entries"
+      ],
+      "value": {
+        "a": "Нет.",
+        "q": "Когда я выбираю юнит целью стратагемы Unleash the Lions, считается ли этот юнит уничтоженным?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": [],
+        "updated": []
+      },
+      "file": "src/data/factionFaq.json",
+      "item": "cus-03",
+      "push": [
+        "adeptus-custodes",
+        "entries"
+      ],
+      "value": {
+        "a": "Yes.",
+        "q": "When I target a unit with the Unleash the Lions stratagem, does that unit leave the battlefield?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": []
+      },
+      "file": "src/data/factionFaqRu.json",
+      "item": "cus-03",
+      "push": [
+        "adeptus-custodes",
+        "entries"
+      ],
+      "value": {
+        "a": "Да.",
+        "q": "Когда я выбираю юнит целью стратагемы Unleash the Lions, покидает ли этот юнит поле боя?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": [],
+        "updated": []
+      },
+      "file": "src/data/factionFaq.json",
+      "item": "cus-04",
+      "push": [
+        "adeptus-custodes",
+        "entries"
+      ],
+      "value": {
+        "a": "No.",
+        "q": "When I target a unit with the Unleash the Lions stratagem, do persisting rules effects pass to the new units (e.g. Fulgrim's Daemonic Poisons ability)?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": []
+      },
+      "file": "src/data/factionFaqRu.json",
+      "item": "cus-04",
+      "push": [
+        "adeptus-custodes",
+        "entries"
+      ],
+      "value": {
+        "a": "Нет.",
+        "q": "Когда я выбираю юнит целью стратагемы Unleash the Lions, переходят ли действующие на него длительные эффекты правил на новые юниты (например, способность Daemonic Poisons у Fulgrim)?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": [],
+        "updated": []
+      },
+      "file": "src/data/factionFaq.json",
+      "item": "cus-05",
+      "push": [
+        "adeptus-custodes",
+        "entries"
+      ],
+      "value": {
+        "a": "Yes.",
+        "q": "When I target a unit with the Unleash the Lions stratagem, do the new units have their 'once per battle' abilities even if the original unit used those abilities?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": []
+      },
+      "file": "src/data/factionFaqRu.json",
+      "item": "cus-05",
+      "push": [
+        "adeptus-custodes",
+        "entries"
+      ],
+      "value": {
+        "a": "Да.",
+        "q": "Когда я выбираю юнит целью стратагемы Unleash the Lions, есть ли у новых юнитов их способности «once per battle», даже если исходный юнит уже их использовал?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": [],
+        "updated": []
+      },
+      "file": "src/data/factionFaq.json",
+      "item": "cus-06",
+      "push": [
+        "adeptus-custodes",
+        "entries"
+      ],
+      "value": {
+        "a": "The unit singled out no longer exists but is not destroyed, so your unit will not be able to reselect a unit to be singled out.",
+        "q": "If my unit has an ability that singles out a unit until that unit is destroyed (e.g. an Invictor Tactical Warsuit's Forward Assault Warsuit ability, a Blade Champion's Sword of the Throne ability, or a Knight Ruinator's Methodical Destruction ability), what happens if the unit singled out is targeted with the Unleash the Lions stratagem?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": []
+      },
+      "file": "src/data/factionFaqRu.json",
+      "item": "cus-06",
+      "push": [
+        "adeptus-custodes",
+        "entries"
+      ],
+      "value": {
+        "a": "Выделенный юнит больше не существует, но не уничтожен, поэтому ваш юнит не сможет выделить другой юнит.",
+        "q": "Если у моего юнита есть способность, которая выделяет юнит до его уничтожения (например, Forward Assault Warsuit у Invictor Tactical Warsuit, Sword of the Throne у Blade Champion или Methodical Destruction у Knight Ruinator), что происходит, если выделенный юнит выбран целью стратагемы Unleash the Lions?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": [],
+        "updated": []
+      },
+      "file": "src/data/factionFaq.json",
+      "item": "ael-01",
+      "push": [
+        "aeldari",
+        "entries"
+      ],
+      "value": {
+        "a": "Yes.",
+        "q": "Can Dragon Knights use multiple Drakolithe tokens against the same unit that ended a move within 8\"?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": []
+      },
+      "file": "src/data/factionFaqRu.json",
+      "item": "ael-01",
+      "push": [
+        "aeldari",
+        "entries"
+      ],
+      "value": {
+        "a": "Да.",
+        "q": "Могут ли Dragon Knights использовать несколько жетонов Drakolithe против одного и того же юнита, завершившего манёвр в пределах 8\"?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": [],
+        "updated": []
+      },
+      "file": "src/data/factionFaq.json",
+      "item": "am-01",
+      "push": [
+        "astra-militarum",
+        "entries"
+      ],
+      "value": {
+        "a": "No.",
+        "q": "When using a Commissar’s Summary Execution ability or Commissar Graves’ Brutal Disciplinarian ability to remove battle-shock from a unit, if that unit was issued an Order, does that unit regain the effect of that Order?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": []
+      },
+      "file": "src/data/factionFaqRu.json",
+      "item": "am-01",
+      "push": [
+        "astra-militarum",
+        "entries"
+      ],
+      "value": {
+        "a": "Нет.",
+        "q": "Когда способность Summary Execution у Commissar или Brutal Disciplinarian у Commissar Graves снимает боевой шок с юнита, получивший приказ, вернёт ли этот юнит действие этого приказа?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": [],
+        "updated": []
+      },
+      "file": "src/data/factionFaq.json",
+      "item": "am-02",
+      "push": [
+        "astra-militarum",
+        "entries"
+      ],
+      "value": {
+        "a": "Yes.",
+        "q": "Can a Kasrkin unit that is battle-shocked use its Warrior Elite ability to select an Order?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": []
+      },
+      "file": "src/data/factionFaqRu.json",
+      "item": "am-02",
+      "push": [
+        "astra-militarum",
+        "entries"
+      ],
+      "value": {
+        "a": "Да.",
+        "q": "Может ли юнит Kasrkin, подверженный боевому шоку, использовать свою способность Warrior Elite, чтобы выбрать приказ?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": [],
+        "updated": []
+      },
+      "file": "src/data/factionFaq.json",
+      "item": "cd-01",
+      "push": [
+        "chaos-daemons",
+        "entries"
+      ],
+      "value": {
+        "a": "Yes.",
+        "q": "Can a Pink Horrors unit with a CHARACTER attached to it use its Split ability if all Pink Horror models are destroyed in one activation (but the CHARACTER survives)?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": []
+      },
+      "file": "src/data/factionFaqRu.json",
+      "item": "cd-01",
+      "push": [
+        "chaos-daemons",
+        "entries"
+      ],
+      "value": {
+        "a": "Да.",
+        "q": "Может ли юнит Pink Horrors с присоединённым CHARACTER использовать способность Split, если все модели Pink Horror уничтожены за одну активацию (а CHARACTER выжил)?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": [],
+        "updated": []
+      },
+      "file": "src/data/factionFaq.json",
+      "item": "dg-03",
+      "push": [
+        "death-guard",
+        "entries"
+      ],
+      "value": {
+        "a": "When an attack with [DEVASTATING WOUNDS] results in a critical wound, the attack sequence ends for that attack. Those wounds will not be in the ‘pool’ of wounds that your opponent resolves when you use this stratagem, and the mortal wounds that result from those attacks will still be suffered by the target unit (your POXWALKERS unit cannot ‘absorb’ them).\n\nExample: If your opponent’s two [DEVASTATING WOUNDS] attacks result in one wound and one critical wound, your opponent would resolve the wound as described in your stratagem, but the attack sequence would end for the critical wound, and your opponent’s target would suffer the mortal wounds from that attack.",
+        "q": "When I use the Shambling Wall stratagem, what happens to my opponent’s [DEVASTATING WOUNDS] attacks?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": []
+      },
+      "file": "src/data/factionFaqRu.json",
+      "item": "dg-03",
+      "push": [
+        "death-guard",
+        "entries"
+      ],
+      "value": {
+        "a": "Когда атака с [DEVASTATING WOUNDS] даёт критическое ранение, последовательность атаки для этой атаки заканчивается. Такие ранения не попадают в «пул» ранений, которые ваш оппонент разрешает при использовании этой стратагемы, а смертельные раны от этих атак всё равно получает юнит-цель (ваш юнит POXWALKERS не может их «поглотить»).\n\nПример: если две атаки [DEVASTATING WOUNDS] вашего оппонента дали одно ранение и одно критическое ранение, оппонент разрешит ранение так, как описано в вашей стратагеме, но для критического ранения последовательность атаки закончится, и цель оппонента получит смертельные раны от этой атаки.",
+        "q": "Что происходит с атаками [DEVASTATING WOUNDS] моего оппонента, когда я использую стратагему Shambling Wall?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": [],
+        "updated": []
+      },
+      "file": "src/data/factionFaq.json",
+      "item": "dg-04",
+      "push": [
+        "death-guard",
+        "entries"
+      ],
+      "value": {
+        "a": "No, the remaining damage is lost.",
+        "q": "When I use the Shambling Wall stratagem, what happens if an attack with D greater than 1 destroys the last POXWALKER model? Does the remaining damage ‘spill over’ to the target unit?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": []
+      },
+      "file": "src/data/factionFaqRu.json",
+      "item": "dg-04",
+      "push": [
+        "death-guard",
+        "entries"
+      ],
+      "value": {
+        "a": "Нет, оставшийся урон теряется.",
+        "q": "Что происходит, когда я использую стратагему Shambling Wall, если атака с D больше 1 уничтожает последнюю модель POXWALKER? Переходит ли оставшийся урон на юнит-цель?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": [],
+        "updated": []
+      },
+      "file": "src/data/factionFaq.json",
+      "item": "dg-05",
+      "push": [
+        "death-guard",
+        "entries"
+      ],
+      "value": {
+        "a": "Yes.",
+        "q": "If my Chaos Spawn unit is destroyed by melee attacks, is that unit’s Lethal Ichor ability still resolved for those attacks?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": []
+      },
+      "file": "src/data/factionFaqRu.json",
+      "item": "dg-05",
+      "push": [
+        "death-guard",
+        "entries"
+      ],
+      "value": {
+        "a": "Да.",
+        "q": "Если мой юнит Chaos Spawn уничтожен атаками ближнего боя, разрешается ли его способность Lethal Ichor для этих атак?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": [],
+        "updated": []
+      },
+      "file": "src/data/factionFaq.json",
+      "item": "dru-02",
+      "push": [
+        "drukhari",
+        "entries"
+      ],
+      "value": {
+        "a": "When an attack with [DEVASTATING WOUNDS] results in a critical wound, the attack sequence ends for that attack. Those wounds will not be in the ‘pool’ of wounds that your opponent resolves when you use this stratagem, and the mortal wounds that result from those attacks will still be suffered by the target unit (your DRUKHARI unit cannot ‘absorb’ them).\n\nExample: If your opponent’s two [DEVASTATING WOUNDS] attacks result in one wound and one critical wound, your opponent would resolve the wound as described in your stratagem, but the attack sequence would end for the critical wound, and your opponent’s target would suffer the mortal wounds from that attack.",
+        "q": "When I use the Double-cross stratagem, what happens to my opponent’s [DEVASTATING WOUNDS] attacks?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": []
+      },
+      "file": "src/data/factionFaqRu.json",
+      "item": "dru-02",
+      "push": [
+        "drukhari",
+        "entries"
+      ],
+      "value": {
+        "a": "Когда атака с [DEVASTATING WOUNDS] даёт критическое ранение, последовательность атаки для этой атаки заканчивается. Такие ранения не попадают в «пул» ранений, которые ваш оппонент разрешает при использовании этой стратагемы, а смертельные раны от этих атак всё равно получает юнит-цель (ваш юнит DRUKHARI не может их «поглотить»).\n\nПример: если две атаки [DEVASTATING WOUNDS] вашего оппонента дали одно ранение и одно критическое ранение, оппонент разрешит ранение так, как описано в вашей стратагеме, но для критического ранения последовательность атаки закончится, и цель оппонента получит смертельные раны от этой атаки.",
+        "q": "Что происходит с атаками [DEVASTATING WOUNDS] моего оппонента, когда я использую стратагему Double-cross?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": [],
+        "updated": []
+      },
+      "file": "src/data/factionFaq.json",
+      "item": "dru-03",
+      "push": [
+        "drukhari",
+        "entries"
+      ],
+      "value": {
+        "a": "No, the remaining damage is lost.",
+        "q": "When I use the Double-cross stratagem, what happens if an attack with D greater than 1 destroys the last DRUKHARI model? Does the remaining damage ‘spill over’ to the target unit?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": []
+      },
+      "file": "src/data/factionFaqRu.json",
+      "item": "dru-03",
+      "push": [
+        "drukhari",
+        "entries"
+      ],
+      "value": {
+        "a": "Нет, оставшийся урон теряется.",
+        "q": "Что происходит, когда я использую стратагему Double-cross, если атака с D больше 1 уничтожает последнюю модель DRUKHARI? Переходит ли оставшийся урон на юнит-цель?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": [],
+        "updated": []
+      },
+      "file": "src/data/factionFaq.json",
+      "item": "dru-04",
+      "push": [
+        "drukhari",
+        "entries"
+      ],
+      "value": {
+        "a": "You will resolve the Feel No Pain rolls for your unit each time your opponent follows the steps in your stratagem.\n\nExample: If your opponent has three attacks that wound, each with D 3, they would end the attack sequence for one of those wounds, your unit would make three Feel No Pain rolls, and suffer one mortal wound for each of those rolls that failed. If your DRUKHARI unit is not destroyed, your opponent would end the attack sequence for the next wound, and so on.",
+        "q": "When I use the Double-cross stratagem, what happens if my DRUKHARI unit has Feel No Pain?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": []
+      },
+      "file": "src/data/factionFaqRu.json",
+      "item": "dru-04",
+      "push": [
+        "drukhari",
+        "entries"
+      ],
+      "value": {
+        "a": "Вы делаете броски Feel No Pain за свой юнит каждый раз, когда оппонент выполняет шаги вашей стратагемы.\n\nПример: если у оппонента три атаки нанесли ранения, каждая с D 3, он заканчивает последовательность атаки для одного из этих ранений, ваш юнит делает три броска Feel No Pain и получает одну смертельную рану за каждый проваленный бросок. Если ваш юнит DRUKHARI не уничтожен, оппонент заканчивает последовательность атаки для следующего ранения, и так далее.",
+        "q": "Что происходит, когда я использую стратагему Double-cross, если у моего юнита DRUKHARI есть Feel No Pain?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": [],
+        "updated": []
+      },
+      "file": "src/data/factionFaq.json",
+      "item": "ia-04",
+      "push": [
+        "imperial-agents",
+        "entries"
+      ],
+      "value": {
+        "a": "Yes.",
+        "q": "When using an Assassin’s Shadow Assignment rule, if I am using the Veiled Blade Elimination Force detachment and I replace that Assassin model with another, does the replacement Assassin have the relevant Extremis ability?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": []
+      },
+      "file": "src/data/factionFaqRu.json",
+      "item": "ia-04",
+      "push": [
+        "imperial-agents",
+        "entries"
+      ],
+      "value": {
+        "a": "Да.",
+        "q": "Если при использовании правила Shadow Assignment у Assassin в детачменте Veiled Blade Elimination Force я заменяю эту модель Assassin на другую, есть ли у нового Assassin соответствующая способность Extremis?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": [],
+        "updated": []
+      },
+      "file": "src/data/factionFaq.json",
+      "item": "ik-02",
+      "push": [
+        "imperial-knights",
+        "entries"
+      ],
+      "value": {
+        "a": "At the point you determine your additional Oath.",
+        "q": "When determining an additional Oath as part of the Heroes of Legend detachment rule for the Questoris Companions detachment, if I select We Vow to Lay Low the Tyrant…, when do I select the CHARACTER model in my opponent’s army?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": []
+      },
+      "file": "src/data/factionFaqRu.json",
+      "item": "ik-02",
+      "push": [
+        "imperial-knights",
+        "entries"
+      ],
+      "value": {
+        "a": "В момент, когда вы определяете дополнительную клятву.",
+        "q": "Когда я определяю дополнительную клятву по правилу детачмента Heroes of Legend детачмента Questoris Companions и выбираю We Vow to Lay Low the Tyrant…, когда я выбираю модель CHARACTER в армии оппонента?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": [],
+        "updated": []
+      },
+      "file": "src/data/factionFaq.json",
+      "item": "nec-01",
+      "push": [
+        "necrons",
+        "entries"
+      ],
+      "value": {
+        "a": "Yes.",
+        "q": "When my Necron Warriors are within range of my Canoptek Reanimator’s Nanoscarab Reanimation Beam Aura, and I use the Necron Warriors’ ability to re-roll the Reanimation Protocols roll, do I also re-roll the D3 additional wounds from the Nanoscarab Reanimation Beam Aura?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": []
+      },
+      "file": "src/data/factionFaqRu.json",
+      "item": "nec-01",
+      "push": [
+        "necrons",
+        "entries"
+      ],
+      "value": {
+        "a": "Да.",
+        "q": "Когда мои Necron Warriors находятся в дистанции ауры Nanoscarab Reanimation Beam у моего Canoptek Reanimator и я использую способность Necron Warriors, чтобы перебросить бросок Reanimation Protocols, перебрасываю ли я также D3 дополнительных ран от ауры Nanoscarab Reanimation Beam?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": [],
+        "updated": []
+      },
+      "file": "src/data/factionFaq.json",
+      "item": "nec-02",
+      "push": [
+        "necrons",
+        "entries"
+      ],
+      "value": {
+        "a": "No.",
+        "q": "If I target a Canoptek Wraiths unit with the Canoptek Court Reactive Subroutines Stratagem, can this trigger that unit’s Wraith Form ability?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": []
+      },
+      "file": "src/data/factionFaqRu.json",
+      "item": "nec-02",
+      "push": [
+        "necrons",
+        "entries"
+      ],
+      "value": {
+        "a": "Нет.",
+        "q": "Если я выбираю юнит Canoptek Wraiths целью стратагемы Reactive Subroutines детачмента Canoptek Court, может ли это вызвать способность Wraith Form этого юнита?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": [],
+        "updated": []
+      },
+      "file": "src/data/factionFaq.json",
+      "item": "ork-02",
+      "push": [
+        "orks",
+        "entries"
+      ],
+      "value": {
+        "a": "If your opponent ends the attack sequence for a [LETHAL HITS] attack that resulted in a critical hit, that attack has no further effect (there is no 'automatic wound'). If your opponent ends the attack sequence for a [SUSTAINED HITS] attack that resulted in a critical hit, that will not also remove the additional hits generated by that attack - those hits will still be resolved step by step as described by the stratagem.\n\nFor example, if your opponent removes a critical hit with [SUSTAINED HITS 1], there will still be a hit from that attack left to resolve: the hit generated by [SUSTAINED HITS 1]. If the GRETCHIN unit has been destroyed, the attack sequence will continue for that hit.",
+        "q": "When I use the Grot Shields stratagem, what happens to my opponent's [LETHAL HITS]/[SUSTAINED HITS] attacks?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": []
+      },
+      "file": "src/data/factionFaqRu.json",
+      "item": "ork-02",
+      "push": [
+        "orks",
+        "entries"
+      ],
+      "value": {
+        "a": "Если оппонент заканчивает последовательность атаки для атаки [LETHAL HITS], давшей критическое попадание, эта атака больше ничего не делает (нет «автоматического ранения»). Если оппонент заканчивает последовательность атаки для атаки [SUSTAINED HITS], давшей критическое попадание, это не убирает дополнительные попадания этой атаки — они всё равно разрешаются шаг за шагом, как описано в стратагеме.\n\nНапример, если оппонент убирает критическое попадание с [SUSTAINED HITS 1], от этой атаки остаётся ещё одно попадание: то, что дал [SUSTAINED HITS 1]. Если юнит GRETCHIN уже уничтожен, последовательность атаки продолжается для этого попадания.",
+        "q": "Что происходит с атаками [LETHAL HITS]/[SUSTAINED HITS] моего оппонента, когда я использую стратагему Grot Shields?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": [],
+        "updated": []
+      },
+      "file": "src/data/factionFaq.json",
+      "item": "sm-02",
+      "push": [
+        "space-marines",
+        "entries"
+      ],
+      "value": {
+        "a": "No.",
+        "q": "When using an ability such as Author of the Codex, Master Tactician or Strategic Acumen to select a combat doctrine to be active for a unit, does this count as my once per battle combat doctrine selection for the Combat Doctrines army rule?",
+        "type": "qa"
+      }
+    },
+    {
+      "create": {
+        "entries": []
+      },
+      "file": "src/data/factionFaqRu.json",
+      "item": "sm-02",
+      "push": [
+        "space-marines",
+        "entries"
+      ],
+      "value": {
+        "a": "Нет.",
+        "q": "Когда способность вроде Author of the Codex, Master Tactician или Strategic Acumen делает боевую доктрину активной для юнита, считается ли это моим выбором боевой доктрины «раз за битву» по армейскому правилу Combat Doctrines?",
+        "type": "qa"
+      }
+    },
+    {
+      "file": "src/data/reference.js",
+      "find": "      a: 'No.',\n    },\n  ],\n  ru: [\n",
+      "item": "core-faq-en",
+      "items": [
+        "core-01",
+        "core-02",
+        "core-05",
+        "core-06",
+        "core-07",
+        "core-08",
+        "core-09",
+        "core-10",
+        "core-11",
+        "core-12",
+        "core-13",
+        "core-14"
+      ],
+      "replace": "      a: 'No.',\n    },\n    {\n      q: 'When a revived CHARACTER model comes back as a new unit, do that unit\\'s \\'while leading\\' abilities still work?',\n      a: 'No.',\n    },\n    {\n      q: 'When a model with a \\'fight on death\\' ability is destroyed, do that model\\'s keywords still apply to that model\\'s unit until that model is removed from the battlefield?',\n      a: 'Yes.',\n    },\n    {\n      q: 'When I’m moving a model (excluding INFANTRY/BEASTS/SWARM/MOBILE models) horizontally through a dense terrain feature, and the path that model takes only goes over parts of that dense terrain feature that are less than 2\" in height, do I have to move that model vertically?',\n      a: 'No.',\n    },\n    {\n      q: 'When I select a unit to shoot, if that unit makes no attacks, is it still hidden?',\n      a: 'Yes.',\n    },\n    {\n      q: 'Can I use a stratagem that specifically targets a stated number of units (e.g. \\'two\\') when I have fewer than that number of eligible units to target?',\n      a: 'No.',\n    },\n    {\n      q: 'If an attached unit with a CHARACTER model contains a bodyguard unit with an enhancement, and that bodyguard unit is destroyed, does the CHARACTER model still have the benefit of the enhancement?',\n      a: 'No.',\n    },\n    {\n      q: 'If I attach a CHARACTER model to a unit that is later split, which of the two \\'new\\' units benefits from that CHARACTER model\\'s \\'while leading\\'/\\'this unit\\' abilities?',\n      a: 'Only the unit that includes that CHARACTER model.',\n    },\n    {\n      q: 'If an ability says that when my unit arrives from strategic reserves, I treat the battle round number as being one higher than it is, can the unit using that ability make an ingress move in my first turn?',\n      a: 'Yes.',\n    },\n    {\n      q: 'If an ability places my unit in strategic reserves and says that my unit must make an ingress move in this/my next Movement phase, can that unit make an ingress move in my first turn?',\n      a: 'Yes.',\n    },\n    {\n      q: 'When a model makes a surge move, does that model have to move the maximum distance permitted by that move?',\n      a: 'No.',\n    },\n    {\n      q: 'If I have given an upgrade enhancement to my CHARACTER leader/support unit that is part of an attached unit, if the bearer of the upgrade enhancement is then destroyed (via [PRECISION] attacks or other means), does the unit still benefit from the upgrade enhancement?',\n      a: 'No.',\n    },\n    {\n      q: 'If I have an ability that reduces damage, does this work against [DEVASTATING WOUNDS]?',\n      a: 'Yes.',\n    },\n  ],\n  ru: [\n"
+    },
+    {
+      "file": "src/data/reference.js",
+      "find": "у Arkanyst Evaluator этой модели Lone Operative, если единственный другой юнит в пределах 3\" — другой Arkanyst Evaluator?',\n      a: 'Нет.',\n    },\n  ],\n}\n",
+      "item": "core-faq-ru",
+      "items": [
+        "core-01",
+        "core-02",
+        "core-05",
+        "core-06",
+        "core-07",
+        "core-08",
+        "core-09",
+        "core-10",
+        "core-11",
+        "core-12",
+        "core-13",
+        "core-14"
+      ],
+      "replace": "у Arkanyst Evaluator этой модели Lone Operative, если единственный другой юнит в пределах 3\" — другой Arkanyst Evaluator?',\n      a: 'Нет.',\n    },\n    {\n      q: 'Когда возвращённая модель CHARACTER возвращается как новый юнит, действуют ли способности «while leading» этого юнита?',\n      a: 'Нет.',\n    },\n    {\n      q: 'Когда модель со способностью «fight on death» уничтожена, действуют ли ключевые слова этой модели для её юнита, пока эту модель не убрали с поля боя?',\n      a: 'Да.',\n    },\n    {\n      q: 'Когда я перемещаю модель (кроме моделей INFANTRY/BEASTS/SWARM/MOBILE) по горизонтали сквозь элемент плотного ландшафта, и путь этой модели проходит только над частями этого элемента ниже 2\", должен ли я перемещать эту модель по вертикали?',\n      a: 'Нет.',\n    },\n    {\n      q: 'Если юнит, выбранный для стрельбы, не совершает ни одной атаки, остаётся ли он скрытым (hidden)?',\n      a: 'Да.',\n    },\n    {\n      q: 'Могу ли я использовать стратагему, которая выбирает целью определённое число юнитов (например, «два»), если у меня меньше допустимых целей?',\n      a: 'Нет.',\n    },\n    {\n      q: 'Если составной юнит с моделью CHARACTER содержит юнит-телохранитель с улучшением и этот юнит-телохранитель уничтожен, сохраняет ли модель CHARACTER действие этого улучшения?',\n      a: 'Нет.',\n    },\n    {\n      q: 'Если я присоединяю модель CHARACTER к юниту, который позже разделяется, какой из двух «новых» юнитов получает способности этой модели «while leading» / «this unit»?',\n      a: 'Только юнит, в который входит эта модель CHARACTER.',\n    },\n    {\n      q: 'Если способность гласит, что когда мой юнит прибывает из стратегического резерва, я считаю номер раунда боя на единицу больше, может ли юнит с этой способностью совершить ingress move в мой первый ход?',\n      a: 'Да.',\n    },\n    {\n      q: 'Если способность помещает мой юнит в стратегический резерв и гласит, что мой юнит обязан совершить ingress move в эту/мою следующую фазу перемещения, может ли этот юнит совершить ingress move в мой первый ход?',\n      a: 'Да.',\n    },\n    {\n      q: 'Когда модель совершает surge move, обязана ли она пройти максимальное расстояние, которое позволяет этот манёвр?',\n      a: 'Нет.',\n    },\n    {\n      q: 'Если я выдал улучшение-апгрейд (upgrade) своему юниту CHARACTER — лидеру или поддержке в составном юните — и носитель этого улучшения затем уничтожен (атаками [PRECISION] или иначе), продолжает ли юнит пользоваться этим улучшением?',\n      a: 'Нет.',\n    },\n    {\n      q: 'Если у меня есть способность, уменьшающая урон, действует ли она против [DEVASTATING WOUNDS]?',\n      a: 'Да.',\n    },\n  ],\n}\n"
+    },
+    {
+      "file": "src/data/reference.js",
+      "find": "\\n▪ They can use their datasheet abilities.",
+      "item": "core-03",
+      "replace": "\\n▪ They can use their datasheet abilities.\\n▪ While making attacks, the destroyed model is considered to have 1 wound remaining, unless otherwise stated."
+    },
+    {
+      "file": "src/data/reference.js",
+      "find": "\\n▪ Они могут использовать способности своего датащита.",
+      "item": "core-03",
+      "replace": "\\n▪ Они могут использовать способности своего датащита.\\n▪ Совершая атаки, уничтоженная модель считается имеющей 1 оставшуюся рану, если не указано иное."
+    },
+    {
+      "file": "src/data/battleRound.js",
+      "find": "that unit can re-roll **hazard rolls** made for the **desperate escape** mode of a **fall-back move**.`,\n          },\n",
+      "item": "core-04",
+      "replace": "that unit can re-roll **hazard rolls** made for the **desperate escape** mode of a **fall-back move**.`,\n          },\n          {\n            id: 'section-09-07-02',\n            sectionNum: '09.07.02',\n            title: 'Desperate Escape and Moving Through Models',\n            body: `When you select a unit to make a **[gloss:fall-back-move:fall-back move]**, if that unit has an ability that allows models in that unit to move through all types of model, you do not need to select the **[gloss:desperate-escape:desperate escape]** mode for models in that unit to move through enemy models.`,\n          },\n"
+    },
+    {
+      "file": "src/data/battleRound.js",
+      "find": "этот юнит может перебрасывать **проверки опасности**, совершаемые для режима **отчаянного побега** при **отступлении**.`,\n          },\n",
+      "item": "core-04",
+      "replace": "этот юнит может перебрасывать **проверки опасности**, совершаемые для режима **отчаянного побега** при **отступлении**.`,\n          },\n          {\n            title: 'Отчаянный побег и перемещение сквозь модели (Desperate Escape and Moving Through Models)',\n            body: `Когда вы выбираете юнит для совершения **[gloss:fall-back-move:отступления]**, если у этого юнита есть способность, позволяющая его моделям перемещаться сквозь модели любого типа, вам не нужно выбирать режим **[gloss:desperate-escape:отчаянного побега]**, чтобы модели этого юнита перемещались сквозь вражеские модели.`,\n          },\n"
+    },
+    {
+      "file": "src/data/eventCompanion.js",
+      "find": "        a: 'Yes, as long as you control the objective(s) those operation markers are within.',\n      },\n",
+      "item": "deck-faq-en",
+      "items": [
+        "deck-01",
+        "deck-02",
+        "deck-03",
+        "deck-04"
+      ],
+      "replace": "        a: 'Yes, as long as you control the objective(s) those operation markers are within.',\n      },\n      {\n        q: 'For the purposes of scoring the Consecrate Primary Mission, if I am using the Adeptus Custodes Lions of the Emperor detachment and I target a consecration unit with the Unleash the Lions stratagem, are the new units consecration units?',\n        a: 'No.',\n      },\n      {\n        q: 'For the purposes of scoring the Beacon Secondary Mission, if I am using the Adeptus Custodes Lions of the Emperor detachment and I target my beacon unit with the Unleash the Lions stratagem, are the new units beacon units?',\n        a: 'No.',\n      },\n      {\n        q: 'For the purposes of scoring the Punishment Primary Mission, if my opponent is using the Adeptus Custodes Lions of the Emperor detachment and they target a condemned unit with the Unleash the Lions stratagem, does that unit leave the battlefield?',\n        a: 'Yes.',\n      },\n      {\n        q: 'On layouts that have a terrain area 6\" from a battlefield edge, can a unit come in 6\" from the battlefield edge via strategic reserves and start the Plunder action for that terrain area, or contest that objective?',\n        a: 'Yes.',\n      },\n"
+    },
+    {
+      "file": "src/data/eventCompanion.js",
+      "find": "        a: 'Да, пока вы контролируете цель(и), в пределах которой находятся эти маркеры операций.',\n      },\n",
+      "item": "deck-faq-ru",
+      "items": [
+        "deck-01",
+        "deck-02",
+        "deck-03",
+        "deck-04"
+      ],
+      "replace": "        a: 'Да, пока вы контролируете цель(и), в пределах которой находятся эти маркеры операций.',\n      },\n      {\n        q: 'Для подсчёта очков основной миссии Consecrate: если я использую детачмент Adeptus Custodes Lions of the Emperor и выбираю целью стратагемы Unleash the Lions юнит освящения (consecration unit), являются ли новые юниты юнитами освящения?',\n        a: 'Нет.',\n      },\n      {\n        q: 'Для подсчёта очков вторичной миссии Beacon: если я использую детачмент Adeptus Custodes Lions of the Emperor и выбираю целью стратагемы Unleash the Lions свой юнит-маяк (beacon unit), являются ли новые юниты юнитами-маяками?',\n        a: 'Нет.',\n      },\n      {\n        q: 'Для подсчёта очков основной миссии Punishment: если мой оппонент использует детачмент Adeptus Custodes Lions of the Emperor и выбирает целью стратагемы Unleash the Lions осуждённый юнит (condemned unit), покидает ли этот юнит поле боя?',\n        a: 'Да.',\n      },\n      {\n        q: 'На раскладках, где область ландшафта находится в 6\" от края поля боя, может ли юнит выйти из стратегического резерва в 6\" от края поля боя и начать действие Plunder для этой области или оспаривать эту цель?',\n        a: 'Да.',\n      },\n"
+    },
+    {
+      "file": "src/data/factions/dark-angels.js",
+      "find": "▪ TERMINATOR units.\\n▪ BLADEGUARD",
+      "item": "da-01",
+      "replace": "▪ TERMINATOR units (excluding DEATHWATCH TERMINATOR SQUAD).\\n▪ BLADEGUARD"
+    },
+    {
+      "file": "src/data/factions/ru/dark-angels.js",
+      "find": "▪ Юниты TERMINATOR.\n▪ Юниты BLADEGUARD",
+      "item": "da-01",
+      "replace": "▪ Юниты TERMINATOR (кроме DEATHWATCH TERMINATOR SQUAD).\n▪ Юниты BLADEGUARD"
+    },
+    {
+      "file": "src/data/factions/death-guard.js",
+      "find": "effect: \"Until the end of the phase, each time you would allocate an attack to a model in your DEATH GUARD unit, if your POXWALKERS unit is visible to the attacking model and is an eligible target for that attack, no saving throw is made for that attack; instead a number of POXWALKERS from your POXWALKERS unit equal to the Damage characteristic of that attack are destroyed.\",",
+      "item": "dg-01",
+      "replace": "effect: \"When an enemy unit is making attacks, at the end of the Wound Rolls step, if those attacks target that DEATH GUARD unit, your opponent does the following:\\n▪ Select one wound.\\n▪ End the attack sequence for that wound.\\n▪ A number of models in your POXWALKERS unit equal to that attack’s D are destroyed.\\n\\nYour opponent repeats these steps until there are no wounds to resolve, or until your POXWALKERS unit is destroyed (whichever happens first). When your POXWALKERS unit is destroyed, the attack sequence continues for any remaining attacks.\","
+    },
+    {
+      "file": "src/data/factions/ru/death-guard.js",
+      "find": "effect: 'До конца фазы каждый раз, когда вы должны были бы распределить атаку на модель вашего юнита DEATH GUARD, если ваш юнит POXWALKERS видим атакующей модели и является допустимой целью для этой атаки, для этой атаки не совершается спас-бросок; вместо этого уничтожается число POXWALKERS из вашего юнита POXWALKERS, равное характеристике урона этой атаки.',",
+      "item": "dg-01",
+      "replace": "effect: 'Когда вражеский юнит совершает атаки, в конце шага бросков на ранение, если эти атаки нацелены на тот юнит DEATH GUARD, ваш оппонент делает следующее:\\n▪ Выбирает одно ранение.\\n▪ Заканчивает последовательность атаки для этого ранения.\\n▪ Число моделей вашего юнита POXWALKERS, равное D этой атаки, уничтожается.\\n\\nОппонент повторяет эти шаги, пока не останется ранений или пока ваш юнит POXWALKERS не будет уничтожен (что произойдёт раньше). Когда ваш юнит POXWALKERS уничтожен, последовательность атаки продолжается для оставшихся атак.',"
+    },
+    {
+      "file": "src/data/datasheets/death-guard.js",
+      "find": "\"text\": \"The first time a model with this ability is destroyed in a battle round, roll one D6 at the end of the phase. On a 2+, set that model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with 3 wounds remaining. Each model can only be set up in this way once per battle.\"",
+      "item": "dg-02",
+      "replace": "\"text\": \"(Once per battle, per unit) When a friendly model with this ability is destroyed, roll one D6 at the end of the phase. On a 2+, set that model back up on the battlefield, as close as possible to where it was destroyed, unengaged, with 3 wounds remaining. Each model can only be set up in this way once per battle.\""
+    },
+    {
+      "file": "src/data/datasheets/ru/death-guard.js",
+      "find": "'Когда модель с этой способностью впервые уничтожается в раунде боя, бросьте один D6 в конце фазы. На 2+ снова поставьте эту модель на поле боя как можно ближе к месту, где она была уничтожена, и не в дистанции ввязывания каких-либо вражеских юнитов, с 3 оставшимися ранами. Каждую модель можно так поставить только один раз за битву.'",
+      "item": "dg-02",
+      "replace": "'(Один раз за битву, на юнит) Когда дружественная модель с этой способностью уничтожена, бросьте один D6 в конце фазы. На 2+ снова поставьте эту модель на поле боя как можно ближе к месту, где она была уничтожена, не связанной боем, с 3 оставшимися ранами. Каждую модель можно так поставить только один раз за битву.'"
+    },
+    {
+      "file": "src/data/factions/drukhari.js",
+      "find": "effect: 'Until the end of the phase, each time you would allocate an attack to a model in your Kabal or Blades for Hire unit, if your DRUKHARI unit is within Engagement Range of the attacking model, no saving throw is made for that attack; instead, your Drukhari unit suffers a number of mortal wounds equal to the Damage characteristic of that attack.',",
+      "item": "dru-01",
+      "replace": "effect: 'When an enemy unit is making attacks, at the end of the Wound Rolls step, if those attacks target that KABAL or BLADES FOR HIRE unit and if your DRUKHARI unit is engaged with the attacking unit, your opponent does the following:\\n▪ Select one wound.\\n▪ End the attack sequence for that wound.\\n▪ Your DRUKHARI unit suffers a number of mortal wounds equal to that attack’s D.\\n\\nYour opponent repeats these steps until there are no wounds to resolve, or until your DRUKHARI unit is destroyed (whichever happens first). When your DRUKHARI unit is destroyed, the attack sequence continues for any remaining attacks.',"
+    },
+    {
+      "file": "src/data/factions/ru/drukhari.js",
+      "find": "effect: 'До конца фазы каждый раз, когда вы должны были бы распределить атаку на модель вашего юнита Kabal или Blades for Hire, если ваш юнит DRUKHARI в радиусе связывания атакующей модели, для этой атаки не совершается спас-бросок; вместо этого ваш юнит Drukhari получает число смертельных ран, равное характеристике урона этой атаки.',",
+      "item": "dru-01",
+      "replace": "effect: 'Когда вражеский юнит совершает атаки, в конце шага бросков на ранение, если эти атаки нацелены на тот юнит KABAL или BLADES FOR HIRE и если ваш юнит DRUKHARI связан боем с атакующим юнитом, ваш оппонент делает следующее:\\n▪ Выбирает одно ранение.\\n▪ Заканчивает последовательность атаки для этого ранения.\\n▪ Ваш юнит DRUKHARI получает число смертельных ран, равное D этой атаки.\\n\\nОппонент повторяет эти шаги, пока не останется ранений или пока ваш юнит DRUKHARI не будет уничтожен (что произойдёт раньше). Когда ваш юнит DRUKHARI уничтожен, последовательность атаки продолжается для оставшихся атак.',"
+    },
+    {
+      "file": "src/data/factions/imperial-agents.js",
+      "find": "you can select one of the available Detachments from this publication as normal.",
+      "item": "ia-01",
+      "replace": "you can select one or more of the available Detachments from this book as normal."
+    },
+    {
+      "file": "src/data/factions/ru/imperial-agents.js",
+      "find": "вы можете выбрать один из доступных детачментов из этой книги как обычно.",
+      "item": "ia-01",
+      "replace": "вы можете выбрать один или несколько доступных детачментов из этой книги как обычно."
+    },
+    {
+      "count": 2,
+      "file": "src/data/datasheets/imperial-knights.js",
+      "find": "Your Canis Rex unit is not considered to be destroyed until Sir Hekhtur is also destroyed.",
+      "item": "ik-01",
+      "replace": "Your Canis Rex model/unit is not considered to be destroyed or to have left the battlefield until Sir Hekhtur is also destroyed."
+    },
+    {
+      "count": 2,
+      "file": "src/data/datasheets/ru/imperial-knights.js",
+      "find": "Ваш юнит Canis Rex не считается уничтоженным, пока не уничтожен и Sir Hekhtur.",
+      "item": "ik-01",
+      "replace": "Ваша модель/юнит Canis Rex не считается уничтоженной или покинувшей поле боя, пока не уничтожен и Sir Hekhtur."
+    },
+    {
+      "file": "src/data/factions/orks.js",
+      "find": "effect: `When a **[gloss:hit-roll:hit roll]** for that enemy unit’s ranged attacks that target that ORKS unit results in a hit, if a model in your GRETCHIN unit is on the battlefield, end the attack sequence for that attack and your GRETCHIN unit suffers 1 **[gloss:mortal-wound:mortal wound]**.`,",
+      "item": "ork-01",
+      "replace": "effect: `When an enemy unit is making attacks, at the end of the Hit Rolls step, if those attacks target that ORKS INFANTRY unit, your opponent does the following:\n▪ Select one hit.\n▪ End the attack sequence for that hit.\n▪ Your GRETCHIN unit suffers one **[gloss:mortal-wound:mortal wound]**.\n\nYour opponent repeats these steps until there are no hits to resolve, or until your GRETCHIN unit is destroyed (whichever happens first). When your GRETCHIN unit is destroyed, the attack sequence continues for any remaining hits.`,"
+    },
+    {
+      "file": "src/data/factions/ru/orks.js",
+      "find": "'Когда **[gloss:hit-roll:бросок на попадание]** дальнобойной атаки того вражеского юнита по тому юниту ORKS даёт попадание, если модель вашего юнита GRETCHIN на поле боя, прервите последовательность этой атаки, а ваш юнит GRETCHIN получает 1 **[gloss:mortal-wound:смертельную рану]**.',",
+      "item": "ork-01",
+      "replace": "'Когда вражеский юнит совершает атаки, в конце шага бросков на попадание, если эти атаки нацелены на тот юнит ORKS INFANTRY, ваш оппонент делает следующее:\\n▪ Выбирает одно попадание.\\n▪ Заканчивает последовательность атаки для этого попадания.\\n▪ Ваш юнит GRETCHIN получает одну **[gloss:mortal-wound:смертельную рану]**.\\n\\nОппонент повторяет эти шаги, пока не останется попаданий или пока ваш юнит GRETCHIN не будет уничтожен (что произойдёт раньше). Когда ваш юнит GRETCHIN уничтожен, последовательность атаки продолжается для оставшихся попаданий.',"
+    },
+    {
+      "file": "src/data/factions/thousand-sons.js",
+      "find": "\n▪ Place this unit in **[gloss:strategic-reserves:strategic reserves]**.\n▪ This unit has [core:Deep Strike]",
+      "item": "ts-01",
+      "replace": "\n▪ If this unit is on the battlefield, place this unit in **[gloss:strategic-reserves:strategic reserves]**.\n▪ This unit has [core:Deep Strike]"
+    },
+    {
+      "file": "src/data/factions/ru/thousand-sons.js",
+      "find": "\\n▪ Поместите этот юнит в **[gloss:strategic-reserves:стратегические резервы]**.\\n▪ Этот юнит имеет [core:Deep Strike]",
+      "item": "ts-01",
+      "replace": "\\n▪ Если этот юнит на поле боя, поместите его в **[gloss:strategic-reserves:стратегические резервы]**.\\n▪ Этот юнит имеет [core:Deep Strike]"
+    },
+    {
+      "file": "src/data/datasheets/world-eaters.js",
+      "find": "\"text\": \"In your opponent’s Movement phase, each time an enemy unit is set up or ends a Normal, Advance or Fall Back move within 8\\\" of this model, any units embarked within it can disembark.\"",
+      "item": "we-01",
+      "replace": "\"text\": \"In your opponent’s Movement phase, when an enemy unit ends a move within 8\\\" of this model, units embarked within this model can make a disembark move using the rapid disembark mode.\""
+    },
+    {
+      "file": "src/data/datasheets/ru/world-eaters.js",
+      "find": "'В фазе перемещения вашего оппонента, каждый раз, когда вражеский юнит развёртывается или завершает обычный манёвр, продвижение или отступление в пределах 8\" от этой модели, любые юниты, погружённые в неё, могут высадиться.'",
+      "item": "we-01",
+      "replace": "'В фазе перемещения вашего оппонента, когда вражеский юнит завершает манёвр в пределах 8\" от этой модели, юниты, погружённые в эту модель, могут совершить манёвр высадки в режиме быстрой высадки (rapid disembark).'"
+    },
+    {
+      "file": "src/data/datasheets/world-eaters.js",
+      "find": "set up on the battlefield within 12\\\" of this model; this model can then either:",
+      "item": "we-02",
+      "replace": "set up on the battlefield within 12\\\" of this model this phase; this model can then either:"
+    },
+    {
+      "file": "src/data/datasheets/ru/world-eaters.js",
+      "find": "развёрнут на поле боя в пределах 12\" от этой модели; эта модель может затем либо:",
+      "item": "we-02",
+      "replace": "развёрнут на поле боя в пределах 12\" от этой модели в этой фазе; эта модель может затем либо:"
+    },
+    {
+      "file": "src/data/factions/space-marines.js",
+      "find": "▪ __Or:__ Re-roll __one__ **damage roll**.\"",
+      "item": "ih-01",
+      "replace": "▪ __Or:__ Re-roll __one__ **damage roll**.\\n\\n**Restrictions:** Your army can include IRON HANDS units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter.\""
+    },
+    {
+      "file": "src/data/factions/ru/space-marines.js",
+      "find": "▪ __Или:__ перебросить __один__ **бросок на урон**.`",
+      "item": "ih-01",
+      "replace": "▪ __Или:__ перебросить __один__ **бросок на урон**.\n\n**Ограничения:** в вашу армию могут входить юниты IRON HANDS, но в неё не могут входить юниты ADEPTUS ASTARTES из любого другого ордена.`"
+    },
+    {
+      "file": "src/data/factions/space-marines.js",
+      "find": "When you use the **Into Darkness stratagem**, that use is -1CP.\"",
+      "item": "rg-01",
+      "replace": "When you use the **Into Darkness stratagem**, that use is -1CP.\\n\\n**Restrictions:** Your army can include RAVEN GUARD units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter.\""
+    },
+    {
+      "file": "src/data/factions/ru/space-marines.js",
+      "find": "когда вы используете **стратагему Into Darkness**, это использование стоит -1CP.`",
+      "item": "rg-01",
+      "replace": "когда вы используете **стратагему Into Darkness**, это использование стоит -1CP.\n\n**Ограничения:** в вашу армию могут входить юниты RAVEN GUARD, но в неё не могут входить юниты ADEPTUS ASTARTES из любого другого ордена.`"
+    },
+    {
+      "file": "src/data/factions/space-marines.js",
+      "find": "tactical doctrine** each one additional time per battle.\"",
+      "item": "um-01",
+      "replace": "tactical doctrine** each one additional time per battle.\\n\\n**Restrictions:** Your army can include ULTRAMARINES units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter.\""
+    },
+    {
+      "file": "src/data/factions/ru/space-marines.js",
+      "find": "tactical doctrine** — каждую — один дополнительный раз за битву.'",
+      "item": "um-01",
+      "replace": "tactical doctrine** — каждую — один дополнительный раз за битву.\\n\\n**Ограничения:** в вашу армию могут входить юниты ULTRAMARINES, но в неё не могут входить юниты ADEPTUS ASTARTES из любого другого ордена.'"
+    },
+    {
+      "file": "src/data/factions/space-wolves.js",
+      "find": "When you target this unit with the **[gloss:heroic-intervention:Heroic Intervention stratagem]**, that use is -1CP.\"",
+      "item": "sw-01",
+      "replace": "When you target this unit with the **[gloss:heroic-intervention:Heroic Intervention stratagem]**, that use is -1CP.\\n\\n**Restrictions:** Your army can include SPACE WOLVES units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter.\""
+    },
+    {
+      "file": "src/data/factions/ru/space-wolves.js",
+      "find": "▪ Это применение не мешает применять эту **стратагему** к другим юнитам в этой фазе.`",
+      "item": "sw-01",
+      "replace": "▪ Это применение не мешает применять эту **стратагему** к другим юнитам в этой фазе.\n\n**Ограничения:** в вашу армию могут входить юниты SPACE WOLVES, но в неё не могут входить юниты ADEPTUS ASTARTES из любого другого ордена.`"
+    },
+    {
+      "file": "src/data/factions/space-wolves.js",
+      "find": "\"body\": \"Attacks made by friendly BLOOD CLAWS/THUNDERWOLF CAVALRY/WULFEN units have [LETHAL HITS: CHARACTER/MONSTER/VEHICLE].\"",
+      "item": "sw-02",
+      "replace": "\"body\": \"Attacks made by friendly BLOOD CLAWS/THUNDERWOLF CAVALRY/WULFEN units have [LETHAL HITS: CHARACTER/MONSTER/VEHICLE].\\n\\n**Restrictions:** Your army can include SPACE WOLVES units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter.\""
+    },
+    {
+      "file": "src/data/factions/ru/space-wolves.js",
+      "find": "body: 'Атаки дружественных юнитов BLOOD CLAWS/THUNDERWOLF CAVALRY/WULFEN имеют [LETHAL HITS: CHARACTER/MONSTER/VEHICLE].'",
+      "item": "sw-02",
+      "replace": "body: 'Атаки дружественных юнитов BLOOD CLAWS/THUNDERWOLF CAVALRY/WULFEN имеют [LETHAL HITS: CHARACTER/MONSTER/VEHICLE].\\n\\n**Ограничения:** в вашу армию могут входить юниты SPACE WOLVES, но в неё не могут входить юниты ADEPTUS ASTARTES из любого другого ордена.'"
+    },
+    {
+      "file": "src/data/datasheets/blood-angels.js",
+      "find": "\"name\": \"Plasma Pistol – supercharge\",\n        \"tags\": [\n          \"ASSAULT\",\n          \"CLOSE-QUARTERS\"\n        ],",
+      "item": "ba-01",
+      "replace": "\"name\": \"Plasma Pistol – supercharge\",\n        \"tags\": [\n          \"ASSAULT\",\n          \"CLOSE-QUARTERS\",\n          \"HAZARDOUS\"\n        ],",
+      "within": "\n    \"name\": \"Chief Librarian Mephiston\","
+    },
+    {
+      "file": "src/data/datasheets/blood-angels.js",
+      "find": "\"name\": \"Plasma Pistol – supercharge\",\n        \"tags\": [\n          \"HAZARDOUS\"\n        ],",
+      "item": "ba-02",
+      "replace": "\"name\": \"Plasma Pistol – supercharge\",\n        \"tags\": [\n          \"CLOSE-QUARTERS\",\n          \"HAZARDOUS\"\n        ],",
+      "within": "\n    \"name\": \"Death Company Captain with Jump Pack\","
+    },
+    {
+      "file": "src/data/datasheets/blood-angels.js",
+      "find": "\"name\": \"Twin Heavy Bolter\",\n        \"tags\": [\n          \"SUSTAINED HITS 1\",\n          \"TWIN-LINKED\"\n        ],",
+      "item": "ba-03",
+      "replace": "\"name\": \"Twin Heavy Bolter\",\n        \"tags\": [\n          \"RAPID FIRE 2\",\n          \"SUSTAINED HITS 1\",\n          \"TWIN-LINKED\"\n        ],",
+      "within": "\n    \"name\": \"Death Company Dreadnought\","
+    },
+    {
+      "file": "src/data/datasheets/blood-angels.js",
+      "find": "\"baseSize\": \"40mm\"",
+      "item": "ba-04",
+      "replace": "\"baseSize\": \"50mm\"",
+      "within": "\n    \"name\": \"Commander Dante\","
+    },
+    {
+      "file": "src/data/datasheets/chaos-space-marines.js",
+      "find": "\"range\": \"24\\\"\",\n        \"a\": \"1\",\n        \"bs\": \"4+\",\n        \"s\": \"4\",\n        \"ap\": \"0\",",
+      "item": "csm-01",
+      "replace": "\"range\": \"24\\\"\",\n        \"a\": \"1\",\n        \"bs\": \"4+\",\n        \"s\": \"5\",\n        \"ap\": \"-1\",",
+      "within": "\n    \"name\": \"Chaos Bikers\","
+    },
+    {
+      "file": "src/data/datasheets/chaos-space-marines.js",
+      "find": "\"name\": \"Close combat weapon\",\n        \"tags\": [],\n        \"a\": \"3\",\n        \"ws\": \"3+\",\n        \"s\": \"4\",",
+      "item": "csm-02",
+      "replace": "\"name\": \"Close combat weapon\",\n        \"tags\": [],\n        \"a\": \"3\",\n        \"ws\": \"3+\",\n        \"s\": \"5\",",
+      "within": "\n    \"name\": \"Nemesis Claw\","
+    },
+    {
+      "file": "src/data/datasheets/deathwatch.js",
+      "find": "\"name\": \"Plasma Cannon – standard\",\n        \"tags\": [\n          \"BLAST 1\"\n        ],\n        \"range\": \"36\\\"\",\n        \"a\": \"3\",\n        \"bs\": \"3+\",\n        \"s\": \"9\",",
+      "item": "dw-01",
+      "replace": "\"name\": \"Plasma Cannon – standard\",\n        \"tags\": [\n          \"BLAST 1\"\n        ],\n        \"range\": \"36\\\"\",\n        \"a\": \"3\",\n        \"bs\": \"3+\",\n        \"s\": \"7\",",
+      "within": "\n    \"name\": \"Deathwatch Terminator Squad\","
+    },
+    {
+      "file": "src/data/datasheets/deathwatch.js",
+      "find": "\"name\": \"Plasma Cannon – supercharge\",\n        \"tags\": [\n          \"BLAST 1\",\n          \"HAZARDOUS\"\n        ],\n        \"range\": \"36\\\"\",\n        \"a\": \"3\",\n        \"bs\": \"3+\",\n        \"s\": \"10\",",
+      "item": "dw-02",
+      "replace": "\"name\": \"Plasma Cannon – supercharge\",\n        \"tags\": [\n          \"BLAST 1\",\n          \"HAZARDOUS\"\n        ],\n        \"range\": \"36\\\"\",\n        \"a\": \"3\",\n        \"bs\": \"3+\",\n        \"s\": \"8\",",
+      "within": "\n    \"name\": \"Deathwatch Terminator Squad\","
+    },
+    {
+      "file": "src/data/datasheets/deathwatch.js",
+      "find": "\"name\": \"Combi-weapon – damnatus\",\n        \"tags\": [],",
+      "item": "dw-03",
+      "replace": "\"name\": \"Combi-weapon – damnatus\",\n        \"tags\": [\n          \"MELTA 2\"\n        ],",
+      "within": "\n    \"name\": \"Deathwatch Veterans\","
+    },
+    {
+      "file": "src/data/datasheets/deathwatch.js",
+      "find": "\"name\": \"Combi-weapon – purgatus\",\n        \"tags\": [\n          \"MELTA 2\"\n        ],",
+      "item": "dw-04",
+      "replace": "\"name\": \"Combi-weapon – purgatus\",\n        \"tags\": [],",
+      "within": "\n    \"name\": \"Deathwatch Veterans\","
+    },
+    {
+      "file": "src/data/datasheets/space-marines.js",
+      "find": "\"name\": \"Auto Boltstorm Gauntlets\",\n        \"tags\": [\n          \"CLOSE-QUARTERS\",\n          \"TWIN-LINKED\"\n        ],",
+      "item": "sm-01",
+      "replace": "\"name\": \"Auto Boltstorm Gauntlets\",\n        \"tags\": [\n          \"TWIN-LINKED\"\n        ],",
+      "within": "\n    \"name\": \"Aggressor Squad\","
+    },
+    {
+      "file": "src/data/datasheets/imperial-agents.js",
+      "find": "\n      \"Explosives\",",
+      "item": "ia-02",
+      "replace": "\n      \"Deathwatch\",\n      \"Explosives\",",
+      "within": "\n    \"name\": \"Aquila Kill Team\",",
+      "withinEnd": "\"factionKeywords\""
+    },
+    {
+      "file": "factions/agents-of-the-imperium.json",
+      "find": "\n        \"Explosives\",",
+      "item": "ia-02",
+      "replace": "\n        \"Deathwatch\",\n        \"Explosives\",",
+      "root": "appdata",
+      "within": "\n      \"name\": \"Aquila Kill Team\",",
+      "withinEnd": "\"factionKeywords\""
+    },
+    {
+      "file": "src/data/datasheets/imperial-agents.js",
+      "find": "\n      \"Imperium\",",
+      "item": "ia-02",
+      "replace": "\n      \"Deathwatch\",\n      \"Imperium\",",
+      "within": "\n    \"name\": \"Corvus Blackstar\",",
+      "withinEnd": "\"factionKeywords\""
+    },
+    {
+      "file": "factions/agents-of-the-imperium.json",
+      "find": "\n        \"Imperium\",",
+      "item": "ia-02",
+      "replace": "\n        \"Deathwatch\",\n        \"Imperium\",",
+      "root": "appdata",
+      "within": "\n      \"name\": \"Corvus Blackstar\",",
+      "withinEnd": "\"factionKeywords\""
+    },
+    {
+      "file": "src/data/datasheets/imperial-agents.js",
+      "find": "\n      \"Explosives\",",
+      "item": "ia-02",
+      "replace": "\n      \"Deathwatch\",\n      \"Explosives\",",
+      "within": "\n    \"name\": \"Deathwatch Kill Team\",",
+      "withinEnd": "\"factionKeywords\""
+    },
+    {
+      "file": "factions/agents-of-the-imperium.json",
+      "find": "\n        \"Explosives\",",
+      "item": "ia-02",
+      "replace": "\n        \"Deathwatch\",\n        \"Explosives\",",
+      "root": "appdata",
+      "within": "\n      \"name\": \"Deathwatch Kill Team\",",
+      "withinEnd": "\"factionKeywords\""
+    },
+    {
+      "file": "src/data/datasheets/imperial-agents.js",
+      "find": "\n      \"Epic Hero\",",
+      "item": "ia-02",
+      "replace": "\n      \"Deathwatch\",\n      \"Epic Hero\",",
+      "within": "\n    \"name\": \"Watch Captain Artemis\",",
+      "withinEnd": "\"factionKeywords\""
+    },
+    {
+      "file": "factions/agents-of-the-imperium.json",
+      "find": "\n        \"Epic Hero\",",
+      "item": "ia-02",
+      "replace": "\n        \"Deathwatch\",\n        \"Epic Hero\",",
+      "root": "appdata",
+      "within": "\n      \"name\": \"Watch Captain Artemis\",",
+      "withinEnd": "\"factionKeywords\""
+    },
+    {
+      "file": "src/data/datasheets/imperial-agents.js",
+      "find": "\n      \"Explosives\",",
+      "item": "ia-02",
+      "replace": "\n      \"Deathwatch\",\n      \"Explosives\",",
+      "within": "\n    \"name\": \"Watch Master\",",
+      "withinEnd": "\"factionKeywords\""
+    },
+    {
+      "file": "factions/agents-of-the-imperium.json",
+      "find": "\n        \"Explosives\",",
+      "item": "ia-02",
+      "replace": "\n        \"Deathwatch\",\n        \"Explosives\",",
+      "root": "appdata",
+      "within": "\n      \"name\": \"Watch Master\",",
+      "withinEnd": "\"factionKeywords\""
+    },
+    {
+      "file": "src/data/datasheets/imperial-agents.js",
+      "find": "\"keywords\": [\n      \"Character\",",
+      "item": "ia-03",
+      "replace": "\"keywords\": [\n      \"Captain\",\n      \"Character\",",
+      "within": "\n    \"name\": \"Watch Master\",",
+      "withinEnd": "\"factionKeywords\""
+    },
+    {
+      "file": "factions/agents-of-the-imperium.json",
+      "find": "\"keywords\": [\n        \"Character\",",
+      "item": "ia-03",
+      "replace": "\"keywords\": [\n        \"Captain\",\n        \"Character\",",
+      "root": "appdata",
+      "within": "\n      \"name\": \"Watch Master\",",
+      "withinEnd": "\"factionKeywords\""
+    }
+  ],
+  "items": [
+    {
+      "a": "No.",
+      "faction": null,
+      "id": "core-01",
+      "kind": "faq",
+      "page": 1,
+      "q": "When a revived CHARACTER model comes back as a new unit, do that unit's 'while leading' abilities still work?",
+      "ref": "01.02.03"
+    },
+    {
+      "a": "Yes.",
+      "faction": null,
+      "id": "core-02",
+      "kind": "faq",
+      "page": 1,
+      "q": "When a model with a 'fight on death' ability is destroyed, do that model's keywords still apply to that model's unit until that model is removed from the battlefield?",
+      "ref": "05.04.05"
+    },
+    {
+      "a": "Models awaiting a Fight On Death ability are still present on the battlefield for all rules purposes. This includes (but is not limited to) the following regarding such models:\n▪ They can be measured to by friendly/enemy abilities.\n▪ They can be considered visible to friendly/enemy models where relevant.\n▪ They can use their datasheet abilities.\n▪ While making attacks, the destroyed model is considered to have 1 wound remaining, unless otherwise stated.\n▪ They can be targeted by stratagems.\n▪ Enemy units can still be engaged with them (which may restrict the opposing player's consolidation/pile-in moves made as part of an overrun fight).",
+      "faction": null,
+      "id": "core-03",
+      "kind": "faq-revision",
+      "page": 1,
+      "q": "Fight On Death (05.04.05) requires models awaiting such an ability to stay on the battlefield until their unit has attacked (or until the end of the phase). How do these models function while this is the case?",
+      "ref": "05.04.05"
+    },
+    {
+      "faction": null,
+      "id": "core-04",
+      "kind": "core-rule-add",
+      "page": 1,
+      "ref": "09.07.02",
+      "text": "When you select a unit to make a fall-back move, if that unit has an ability that allows models in that unit to move through all types of model, you do not need to select the desperate escape mode for models in that unit to move through enemy models.",
+      "title": "Desperate Escape and Moving Through Models"
+    },
+    {
+      "a": "No.",
+      "faction": null,
+      "id": "core-05",
+      "kind": "faq",
+      "page": 1,
+      "q": "When I’m moving a model (excluding INFANTRY/BEASTS/SWARM/MOBILE models) horizontally through a dense terrain feature, and the path that model takes only goes over parts of that dense terrain feature that are less than 2\" in height, do I have to move that model vertically?",
+      "ref": "13.05"
+    },
+    {
+      "a": "Yes.",
+      "faction": null,
+      "id": "core-06",
+      "kind": "faq",
+      "page": 1,
+      "q": "When I select a unit to shoot, if that unit makes no attacks, is it still hidden?",
+      "ref": "13.09"
+    },
+    {
+      "a": "No.",
+      "faction": null,
+      "id": "core-07",
+      "kind": "faq",
+      "page": 1,
+      "q": "Can I use a stratagem that specifically targets a stated number of units (e.g. 'two') when I have fewer than that number of eligible units to target?",
+      "ref": "15.01"
+    },
+    {
+      "a": "No.",
+      "faction": null,
+      "id": "core-08",
+      "kind": "faq",
+      "page": 1,
+      "q": "If an attached unit with a CHARACTER model contains a bodyguard unit with an enhancement, and that bodyguard unit is destroyed, does the CHARACTER model still have the benefit of the enhancement?",
+      "ref": "19.04"
+    },
+    {
+      "a": "Only the unit that includes that CHARACTER model.",
+      "faction": null,
+      "id": "core-09",
+      "kind": "faq",
+      "page": 1,
+      "q": "If I attach a CHARACTER model to a unit that is later split, which of the two 'new' units benefits from that CHARACTER model's 'while leading'/'this unit' abilities?",
+      "ref": "19.04"
+    },
+    {
+      "a": "Yes.",
+      "faction": null,
+      "id": "core-10",
+      "kind": "faq",
+      "page": 1,
+      "q": "If an ability says that when my unit arrives from strategic reserves, I treat the battle round number as being one higher than it is, can the unit using that ability make an ingress move in my first turn?",
+      "ref": "20.03"
+    },
+    {
+      "a": "Yes.",
+      "faction": null,
+      "id": "core-11",
+      "kind": "faq",
+      "page": 2,
+      "q": "If an ability places my unit in strategic reserves and says that my unit must make an ingress move in this/my next Movement phase, can that unit make an ingress move in my first turn?",
+      "ref": "20.03"
+    },
+    {
+      "a": "No.",
+      "faction": null,
+      "id": "core-12",
+      "kind": "faq",
+      "page": 2,
+      "q": "When a model makes a surge move, does that model have to move the maximum distance permitted by that move?",
+      "ref": "21.01"
+    },
+    {
+      "a": "No.",
+      "faction": null,
+      "id": "core-13",
+      "kind": "faq",
+      "page": 2,
+      "q": "If I have given an upgrade enhancement to my CHARACTER leader/support unit that is part of an attached unit, if the bearer of the upgrade enhancement is then destroyed (via [PRECISION] attacks or other means), does the unit still benefit from the upgrade enhancement?",
+      "ref": "21.01"
+    },
+    {
+      "a": "Yes.",
+      "faction": null,
+      "id": "core-14",
+      "kind": "faq",
+      "page": 2,
+      "q": "If I have an ability that reduces damage, does this work against [DEVASTATING WOUNDS]?",
+      "ref": "24.10"
+    },
+    {
+      "a": "No.",
+      "faction": "mission-deck",
+      "id": "deck-01",
+      "kind": "faq",
+      "page": 2,
+      "q": "For the purposes of scoring the Consecrate Primary Mission, if I am using the Adeptus Custodes Lions of the Emperor detachment and I target a consecration unit with the Unleash the Lions stratagem, are the new units consecration units?"
+    },
+    {
+      "a": "No.",
+      "faction": "mission-deck",
+      "id": "deck-02",
+      "kind": "faq",
+      "page": 2,
+      "q": "For the purposes of scoring the Beacon Secondary Mission, if I am using the Adeptus Custodes Lions of the Emperor detachment and I target my beacon unit with the Unleash the Lions stratagem, are the new units beacon units?"
+    },
+    {
+      "a": "Yes.",
+      "faction": "mission-deck",
+      "id": "deck-03",
+      "kind": "faq",
+      "page": 2,
+      "q": "For the purposes of scoring the Punishment Primary Mission, if my opponent is using the Adeptus Custodes Lions of the Emperor detachment and they target a condemned unit with the Unleash the Lions stratagem, does that unit leave the battlefield?"
+    },
+    {
+      "a": "Yes.",
+      "faction": "mission-deck",
+      "id": "deck-04",
+      "kind": "faq",
+      "page": 2,
+      "q": "On layouts that have a terrain area 6\" from a battlefield edge, can a unit come in 6\" from the battlefield edge via strategic reserves and start the Plunder action for that terrain area, or contest that objective?"
+    },
+    {
+      "a": "Yes.",
+      "faction": "adepta-sororitas",
+      "id": "sor-01",
+      "kind": "faq",
+      "page": 2,
+      "q": "When using the Divine Intervention stratagem, can I use any of the Miracle dice that were generated when that CHARACTER was destroyed as part of the Miracle dice I can discard to set that CHARACTER back up?"
+    },
+    {
+      "a": "Yes.",
+      "faction": "adeptus-custodes",
+      "id": "cus-01",
+      "kind": "faq",
+      "page": 2,
+      "q": "Can a Shield-Captain use its Master of Ka'tahs ability to activate both the Dacatarai and Kaptaris ka'tah abilities in the same phase, by activating one, using Master of Ka'tahs to become readied, then activating the other?"
+    },
+    {
+      "a": "No.",
+      "faction": "adeptus-custodes",
+      "id": "cus-02",
+      "kind": "faq",
+      "page": 2,
+      "q": "When I target a unit with the Unleash the Lions stratagem, is that unit destroyed?"
+    },
+    {
+      "a": "Yes.",
+      "faction": "adeptus-custodes",
+      "id": "cus-03",
+      "kind": "faq",
+      "page": 2,
+      "q": "When I target a unit with the Unleash the Lions stratagem, does that unit leave the battlefield?"
+    },
+    {
+      "a": "No.",
+      "faction": "adeptus-custodes",
+      "id": "cus-04",
+      "kind": "faq",
+      "page": 2,
+      "q": "When I target a unit with the Unleash the Lions stratagem, do persisting rules effects pass to the new units (e.g. Fulgrim's Daemonic Poisons ability)?"
+    },
+    {
+      "a": "Yes.",
+      "faction": "adeptus-custodes",
+      "id": "cus-05",
+      "kind": "faq",
+      "page": 2,
+      "q": "When I target a unit with the Unleash the Lions stratagem, do the new units have their 'once per battle' abilities even if the original unit used those abilities?"
+    },
+    {
+      "a": "The unit singled out no longer exists but is not destroyed, so your unit will not be able to reselect a unit to be singled out.",
+      "faction": "adeptus-custodes",
+      "id": "cus-06",
+      "kind": "faq",
+      "page": 2,
+      "q": "If my unit has an ability that singles out a unit until that unit is destroyed (e.g. an Invictor Tactical Warsuit's Forward Assault Warsuit ability, a Blade Champion's Sword of the Throne ability, or a Knight Ruinator's Methodical Destruction ability), what happens if the unit singled out is targeted with the Unleash the Lions stratagem?"
+    },
+    {
+      "a": "Yes.",
+      "faction": "aeldari",
+      "id": "ael-01",
+      "kind": "faq",
+      "page": 2,
+      "q": "Can Dragon Knights use multiple Drakolithe tokens against the same unit that ended a move within 8\"?"
+    },
+    {
+      "a": "No.",
+      "faction": "astra-militarum",
+      "id": "am-01",
+      "kind": "faq",
+      "page": 2,
+      "q": "When using a Commissar’s Summary Execution ability or Commissar Graves’ Brutal Disciplinarian ability to remove battle-shock from a unit, if that unit was issued an Order, does that unit regain the effect of that Order?"
+    },
+    {
+      "a": "Yes.",
+      "faction": "astra-militarum",
+      "id": "am-02",
+      "kind": "faq",
+      "page": 2,
+      "q": "Can a Kasrkin unit that is battle-shocked use its Warrior Elite ability to select an Order?"
+    },
+    {
+      "change": "Add [HAZARDOUS]",
+      "faction": "blood-angels",
+      "id": "ba-01",
+      "kind": "weapon",
+      "page": 2,
+      "unit": "Chief Librarian Mephiston",
+      "weapon": "Plasma Pistol - Supercharge"
+    },
+    {
+      "change": "Add [CLOSE-QUARTERS]",
+      "faction": "blood-angels",
+      "id": "ba-02",
+      "kind": "weapon",
+      "page": 2,
+      "unit": "Death Company Captain with Jump Pack",
+      "weapon": "Plasma Pistol - Supercharge"
+    },
+    {
+      "change": "Add [RAPID FIRE 2]",
+      "faction": "blood-angels",
+      "id": "ba-03",
+      "kind": "weapon",
+      "page": 2,
+      "unit": "Death Company Dreadnought",
+      "weapon": "Twin Heavy Bolter"
+    },
+    {
+      "change": "50mm",
+      "faction": "blood-angels",
+      "id": "ba-04",
+      "kind": "base-size",
+      "page": 2,
+      "unit": "Commander Dante"
+    },
+    {
+      "a": "Yes.",
+      "faction": "chaos-daemons",
+      "id": "cd-01",
+      "kind": "faq",
+      "page": 2,
+      "q": "Can a Pink Horrors unit with a CHARACTER attached to it use its Split ability if all Pink Horror models are destroyed in one activation (but the CHARACTER survives)?"
+    },
+    {
+      "change": "S5, AP -1",
+      "faction": "chaos-space-marines",
+      "id": "csm-01",
+      "kind": "weapon",
+      "page": 3,
+      "unit": "Chaos Bikers",
+      "weapon": "Combi-weapon"
+    },
+    {
+      "change": "S5",
+      "faction": "chaos-space-marines",
+      "id": "csm-02",
+      "kind": "weapon",
+      "page": 3,
+      "unit": "Nemesis Claw",
+      "weapon": "Close Combat Weapon"
+    },
+    {
+      "faction": "dark-angels",
+      "id": "da-01",
+      "kind": "rule-text",
+      "mechanics": [
+        "conditionalKeywords: DEATHWING grants"
+      ],
+      "page": 3,
+      "target": "The Deathwing Army Rule",
+      "text": "The following friendly ADEPTUS ASTARTES units have DEATHWING:\n▪ TERMINATOR units (excluding DEATHWATCH TERMINATOR SQUAD).\n▪ BLADEGUARD ANCIENT, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD and VANGUARD VETERAN SQUAD WITH JUMP PACKS units.\n▪ LAND RAIDER, LAND RAIDER CRUSADER, LAND RAIDER REDEEMER, REPULSOR and REPULSOR EXECUTIONER units.\n▪ DREADNOUGHT units."
+    },
+    {
+      "faction": "death-guard",
+      "id": "dg-01",
+      "kind": "rule-text",
+      "page": 3,
+      "target": "Shamblerot Vectorium Detachment, Shambling Wall Stratagem, Effect",
+      "text": "When an enemy unit is making attacks, at the end of the Wound Rolls step, if those attacks target that DEATH GUARD unit, your opponent does the following:\n▪ Select one wound.\n▪ End the attack sequence for that wound.\n▪ A number of models in your POXWALKERS unit equal to that attack’s D are destroyed.\n\nYour opponent repeats these steps until there are no wounds to resolve, or until your POXWALKERS unit is destroyed (whichever happens first). When your POXWALKERS unit is destroyed, the attack sequence continues for any remaining attacks."
+    },
+    {
+      "faction": "death-guard",
+      "id": "dg-02",
+      "kind": "rule-text",
+      "page": 3,
+      "target": "Lord of Contagion, Unholy Resilience ability",
+      "text": "(Once per battle, per unit) When a friendly model with this ability is destroyed, roll one D6 at the end of the phase. On a 2+, set that model back up on the battlefield, as close as possible to where it was destroyed, unengaged, with 3 wounds remaining. Each model can only be set up in this way once per battle."
+    },
+    {
+      "a": "When an attack with [DEVASTATING WOUNDS] results in a critical wound, the attack sequence ends for that attack. Those wounds will not be in the ‘pool’ of wounds that your opponent resolves when you use this stratagem, and the mortal wounds that result from those attacks will still be suffered by the target unit (your POXWALKERS unit cannot ‘absorb’ them).\n\nExample: If your opponent’s two [DEVASTATING WOUNDS] attacks result in one wound and one critical wound, your opponent would resolve the wound as described in your stratagem, but the attack sequence would end for the critical wound, and your opponent’s target would suffer the mortal wounds from that attack.",
+      "faction": "death-guard",
+      "id": "dg-03",
+      "kind": "faq",
+      "page": 3,
+      "q": "When I use the Shambling Wall stratagem, what happens to my opponent’s [DEVASTATING WOUNDS] attacks?"
+    },
+    {
+      "a": "No, the remaining damage is lost.",
+      "faction": "death-guard",
+      "id": "dg-04",
+      "kind": "faq",
+      "page": 3,
+      "q": "When I use the Shambling Wall stratagem, what happens if an attack with D greater than 1 destroys the last POXWALKER model? Does the remaining damage ‘spill over’ to the target unit?"
+    },
+    {
+      "a": "Yes.",
+      "faction": "death-guard",
+      "id": "dg-05",
+      "kind": "faq",
+      "page": 3,
+      "q": "If my Chaos Spawn unit is destroyed by melee attacks, is that unit’s Lethal Ichor ability still resolved for those attacks?"
+    },
+    {
+      "change": "S7",
+      "faction": "deathwatch",
+      "id": "dw-01",
+      "kind": "weapon",
+      "page": 3,
+      "unit": "Deathwatch Terminator Squad",
+      "weapon": "Plasma Cannon - Standard"
+    },
+    {
+      "change": "S8",
+      "faction": "deathwatch",
+      "id": "dw-02",
+      "kind": "weapon",
+      "page": 3,
+      "unit": "Deathwatch Terminator Squad",
+      "weapon": "Plasma Cannon - Supercharge"
+    },
+    {
+      "change": "Add [MELTA 2]",
+      "faction": "deathwatch",
+      "id": "dw-03",
+      "kind": "weapon",
+      "page": 3,
+      "unit": "Deathwatch Veterans",
+      "weapon": "Combi-weapon - Damnatus"
+    },
+    {
+      "change": "Remove [MELTA 2]",
+      "faction": "deathwatch",
+      "id": "dw-04",
+      "kind": "weapon",
+      "page": 3,
+      "unit": "Deathwatch Veterans",
+      "weapon": "Combi-weapon - Purgatus"
+    },
+    {
+      "change": "Kill Team Intercessor with Jump Pack: add TACTICUS; Kill Team Heavy Intercessor with Jump Pack: add GRAVIS",
+      "faction": "deathwatch",
+      "id": "dw-05",
+      "kind": "keyword",
+      "page": 3,
+      "unit": "Talonstrike Kill Team"
+    },
+    {
+      "faction": "drukhari",
+      "id": "dru-01",
+      "kind": "rule-text",
+      "page": 3,
+      "target": "Kabalite Cartel Detachment, Double-cross Stratagem, Effect",
+      "text": "When an enemy unit is making attacks, at the end of the Wound Rolls step, if those attacks target that KABAL or BLADES FOR HIRE unit and if your DRUKHARI unit is engaged with the attacking unit, your opponent does the following:\n▪ Select one wound.\n▪ End the attack sequence for that wound.\n▪ Your DRUKHARI unit suffers a number of mortal wounds equal to that attack’s D.\n\nYour opponent repeats these steps until there are no wounds to resolve, or until your DRUKHARI unit is destroyed (whichever happens first). When your DRUKHARI unit is destroyed, the attack sequence continues for any remaining attacks."
+    },
+    {
+      "a": "When an attack with [DEVASTATING WOUNDS] results in a critical wound, the attack sequence ends for that attack. Those wounds will not be in the ‘pool’ of wounds that your opponent resolves when you use this stratagem, and the mortal wounds that result from those attacks will still be suffered by the target unit (your DRUKHARI unit cannot ‘absorb’ them).\n\nExample: If your opponent’s two [DEVASTATING WOUNDS] attacks result in one wound and one critical wound, your opponent would resolve the wound as described in your stratagem, but the attack sequence would end for the critical wound, and your opponent’s target would suffer the mortal wounds from that attack.",
+      "faction": "drukhari",
+      "id": "dru-02",
+      "kind": "faq",
+      "page": 3,
+      "q": "When I use the Double-cross stratagem, what happens to my opponent’s [DEVASTATING WOUNDS] attacks?"
+    },
+    {
+      "a": "No, the remaining damage is lost.",
+      "faction": "drukhari",
+      "id": "dru-03",
+      "kind": "faq",
+      "page": 3,
+      "q": "When I use the Double-cross stratagem, what happens if an attack with D greater than 1 destroys the last DRUKHARI model? Does the remaining damage ‘spill over’ to the target unit?"
+    },
+    {
+      "a": "You will resolve the Feel No Pain rolls for your unit each time your opponent follows the steps in your stratagem.\n\nExample: If your opponent has three attacks that wound, each with D 3, they would end the attack sequence for one of those wounds, your unit would make three Feel No Pain rolls, and suffer one mortal wound for each of those rolls that failed. If your DRUKHARI unit is not destroyed, your opponent would end the attack sequence for the next wound, and so on.",
+      "faction": "drukhari",
+      "id": "dru-04",
+      "kind": "faq",
+      "page": 4,
+      "q": "When I use the Double-cross stratagem, what happens if my DRUKHARI unit has Feel No Pain?"
+    },
+    {
+      "faction": "imperial-agents",
+      "id": "ia-01",
+      "kind": "rule-text",
+      "mechanics": [
+        "roster: detachment selection for AGENTS OF THE IMPERIUM armies"
+      ],
+      "page": 4,
+      "target": "Assigned Agents Army Rule",
+      "text": "If your Army Faction is AGENTS OF THE IMPERIUM, then in the Select Detachment Rules step, you can select one or more of the available Detachments from this book as normal."
+    },
+    {
+      "change": "Add DEATHWATCH",
+      "faction": "imperial-agents",
+      "id": "ia-02",
+      "kind": "keyword",
+      "page": 4,
+      "unit": "Aquila Kill Team, Corvus Blackstar, Deathwatch Kill Team, Watch Captain Artemis, Watch Master"
+    },
+    {
+      "change": "Add CAPTAIN",
+      "faction": "imperial-agents",
+      "id": "ia-03",
+      "kind": "keyword",
+      "page": 4,
+      "unit": "Watch Master"
+    },
+    {
+      "a": "Yes.",
+      "faction": "imperial-agents",
+      "id": "ia-04",
+      "kind": "faq",
+      "page": 4,
+      "q": "When using an Assassin’s Shadow Assignment rule, if I am using the Veiled Blade Elimination Force detachment and I replace that Assassin model with another, does the replacement Assassin have the relevant Extremis ability?"
+    },
+    {
+      "faction": "imperial-knights",
+      "id": "ik-01",
+      "kind": "rule-text",
+      "page": 4,
+      "target": "Sir Hekhtur, Using Sir Hekhtur",
+      "text": "If your Canis Rex model is destroyed, this model is treated as a model disembarking from a destroyed TRANSPORT and must perform an Emergency Disembarkation. Sir Hekhtur cannot be selected as the target of any of your Stratagems other than Core Stratagems. Your Canis Rex model/unit is not considered to be destroyed or to have left the battlefield until Sir Hekhtur is also destroyed."
+    },
+    {
+      "a": "At the point you determine your additional Oath.",
+      "faction": "imperial-knights",
+      "id": "ik-02",
+      "kind": "faq",
+      "page": 4,
+      "q": "When determining an additional Oath as part of the Heroes of Legend detachment rule for the Questoris Companions detachment, if I select We Vow to Lay Low the Tyrant…, when do I select the CHARACTER model in my opponent’s army?"
+    },
+    {
+      "faction": "space-marines",
+      "id": "ih-01",
+      "kind": "restriction",
+      "page": 4,
+      "target": "Medusa's Wrath Detachment",
+      "text": "Restrictions: Your army can include IRON HANDS units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter."
+    },
+    {
+      "a": "Yes.",
+      "faction": "necrons",
+      "id": "nec-01",
+      "kind": "faq",
+      "page": 4,
+      "q": "When my Necron Warriors are within range of my Canoptek Reanimator’s Nanoscarab Reanimation Beam Aura, and I use the Necron Warriors’ ability to re-roll the Reanimation Protocols roll, do I also re-roll the D3 additional wounds from the Nanoscarab Reanimation Beam Aura?"
+    },
+    {
+      "a": "No.",
+      "faction": "necrons",
+      "id": "nec-02",
+      "kind": "faq",
+      "page": 4,
+      "q": "If I target a Canoptek Wraiths unit with the Canoptek Court Reactive Subroutines Stratagem, can this trigger that unit’s Wraith Form ability?"
+    },
+    {
+      "faction": "orks",
+      "id": "ork-01",
+      "kind": "rule-text",
+      "page": 4,
+      "target": "Runt Swarm Detachment, Grot Shields Stratagem, Effect",
+      "text": "When an enemy unit is making attacks, at the end of the Hit Rolls step, if those attacks target that ORKS INFANTRY unit, your opponent does the following:\n▪ Select one hit.\n▪ End the attack sequence for that hit.\n▪ Your GRETCHIN unit suffers one mortal wound.\n\nYour opponent repeats these steps until there are no hits to resolve, or until your GRETCHIN unit is destroyed (whichever happens first). When your GRETCHIN unit is destroyed, the attack sequence continues for any remaining hits."
+    },
+    {
+      "a": "If your opponent ends the attack sequence for a [LETHAL HITS] attack that resulted in a critical hit, that attack has no further effect (there is no 'automatic wound'). If your opponent ends the attack sequence for a [SUSTAINED HITS] attack that resulted in a critical hit, that will not also remove the additional hits generated by that attack - those hits will still be resolved step by step as described by the stratagem.\n\nFor example, if your opponent removes a critical hit with [SUSTAINED HITS 1], there will still be a hit from that attack left to resolve: the hit generated by [SUSTAINED HITS 1]. If the GRETCHIN unit has been destroyed, the attack sequence will continue for that hit.",
+      "faction": "orks",
+      "id": "ork-02",
+      "kind": "faq",
+      "page": 4,
+      "q": "When I use the Grot Shields stratagem, what happens to my opponent's [LETHAL HITS]/[SUSTAINED HITS] attacks?"
+    },
+    {
+      "faction": "space-marines",
+      "id": "rg-01",
+      "kind": "restriction",
+      "page": 4,
+      "target": "Shadowmark Talon Detachment",
+      "text": "Restrictions: Your army can include RAVEN GUARD units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter."
+    },
+    {
+      "change": "Remove [CLOSE-QUARTERS]",
+      "faction": "space-marines",
+      "id": "sm-01",
+      "kind": "weapon",
+      "page": 4,
+      "unit": "Aggressor Squad",
+      "weapon": "Auto Boltstorm Gauntlets"
+    },
+    {
+      "a": "No.",
+      "faction": "space-marines",
+      "id": "sm-02",
+      "kind": "faq",
+      "page": 4,
+      "q": "When using an ability such as Author of the Codex, Master Tactician or Strategic Acumen to select a combat doctrine to be active for a unit, does this count as my once per battle combat doctrine selection for the Combat Doctrines army rule?"
+    },
+    {
+      "faction": "space-wolves",
+      "id": "sw-01",
+      "kind": "restriction",
+      "page": 4,
+      "target": "Champions of Fenris Detachment",
+      "text": "Restrictions: Your army can include SPACE WOLVES units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter."
+    },
+    {
+      "faction": "space-wolves",
+      "id": "sw-02",
+      "kind": "restriction",
+      "page": 4,
+      "target": "Saga of the Beastslayer Detachment",
+      "text": "Restrictions: Your army can include SPACE WOLVES units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter."
+    },
+    {
+      "faction": "thousand-sons",
+      "id": "ts-01",
+      "kind": "rule-text",
+      "page": 5,
+      "target": "Umbralefic Crystal Enhancement",
+      "text": "THOUSAND SONS model only. (Once per battle, per army) In your Command phase, if this unit is unengaged, you can use this ability. If you do:\n▪ If this unit is on the battlefield, place this unit in strategic reserves.\n▪ This unit has Deep Strike until the start of your next Shooting phase.\n▪ This unit must make an ingress move in your next Movement phase (including in your first turn)."
+    },
+    {
+      "faction": "space-marines",
+      "id": "um-01",
+      "kind": "restriction",
+      "page": 5,
+      "target": "Blade of Ultramar Detachment",
+      "text": "Restrictions: Your army can include ULTRAMARINES units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter."
+    },
+    {
+      "faction": "world-eaters",
+      "id": "we-01",
+      "kind": "rule-text",
+      "page": 5,
+      "target": "Chaos Rhino, Meet Any Challenge ability",
+      "text": "In your opponent’s Movement phase, when an enemy unit ends a move within 8\" of this model, units embarked within this model can make a disembark move using the rapid disembark mode."
+    },
+    {
+      "faction": "world-eaters",
+      "id": "we-02",
+      "kind": "rule-text",
+      "page": 5,
+      "target": "Defiler, Unleash Wrath ability",
+      "text": "At the end of your opponent’s Movement phase, you can select one enemy unit that was set up on the battlefield within 12” of this model this phase; this model can then either:\n▪ Shoot at that unit, but only if it is an eligible target.\n▪ Declare a charge. This unit must end that charge move engaged with the enemy unit you selected (note that even if this charge is successful, this unit does not receive any Charge bonus this turn)."
+    }
+  ],
+  "name": "wcw2026",
+  "noEdit": {
+    "dw-05": "Already in the base: app 2.8.1 (data 995, 16.10.2026) added TACTICUS and GRAVIS to Talonstrike Kill Team — src/data/patches/995.json"
+  },
+  "source": {
+    "file": "sources/wcw2026/wcw2026_40k_update.pdf",
+    "pages": 5,
+    "scope": "Valid only for the Warhammer 40,000 event at the World Championships of Warhammer, December 2026",
+    "title": "World Championships Rules Updates - November 2026"
+  }
+}

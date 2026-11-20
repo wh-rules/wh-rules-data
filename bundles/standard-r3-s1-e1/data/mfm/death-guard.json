@@ -1,0 +1,734 @@
+{
+  "default": {
+    "detachments": [
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Cornucophagus",
+            "points": 35
+          },
+          {
+            "name": "Final Ingredient",
+            "points": 20
+          },
+          {
+            "name": "Needle of Nurgle",
+            "points": 25
+          },
+          {
+            "name": "Visions of Virulence",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Champions of Contagion"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Lancet of the Worldsore (Upgrade)",
+            "points": 15
+          },
+          {
+            "name": "Parasitic Woe‑reaper (Upgrade)",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Contagion Engines"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Face of Death",
+            "points": 10
+          },
+          {
+            "name": "Helm of The Fly King",
+            "points": 20
+          },
+          {
+            "name": "Vile Vigour",
+            "points": 15
+          },
+          {
+            "name": "Warprot Talisman",
+            "points": 30
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Death Lord’s Chosen"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Insectile Murmuration (Upgrade)",
+            "points": 15
+          },
+          {
+            "name": "Plagueveil (Upgrade)",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Flyblown Host"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Bilemaw Blight",
+            "points": 10
+          },
+          {
+            "name": "Eye of Affliction",
+            "points": 20
+          },
+          {
+            "name": "Shriekworm Familiar",
+            "points": 15
+          },
+          {
+            "name": "Tendrilous Emissions",
+            "points": 30
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Mortarion’s Hammer"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Host of the Hybridised Pox",
+            "points": 40
+          },
+          {
+            "name": "Rejuvenating Swarm",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Paragons of Putrescence"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Lord of the Walking Pox",
+            "points": 15
+          },
+          {
+            "name": "Sorrowsyphon",
+            "points": 10
+          },
+          {
+            "name": "Talisman of Burgeoning",
+            "points": 25
+          },
+          {
+            "name": "Witherbone Pipes",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Shamblerot Vectorium"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Beckoning Blight",
+            "points": 20
+          },
+          {
+            "name": "Entropic Knell",
+            "points": 15
+          },
+          {
+            "name": "Fell Harvester",
+            "points": 10
+          },
+          {
+            "name": "Tome of Bounteous Blessings",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Tallyband Summoners"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Arch Contaminator",
+            "points": 25
+          },
+          {
+            "name": "Daemon Weapon of Nurgle",
+            "points": 10
+          },
+          {
+            "name": "Furnace of Plagues",
+            "points": 25
+          },
+          {
+            "name": "Revolting Regeneration",
+            "points": 30
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold",
+          "Purge the Foe"
+        ],
+        "name": "Virulent Vectorium"
+      }
+    ],
+    "id": "death-guard",
+    "legends": [
+      {
+        "name": "Death Guard Chaos Lord",
+        "options": [
+          {
+            "models": 1,
+            "points": 65
+          }
+        ]
+      },
+      {
+        "name": "Death Guard Chaos Lord in Terminator Armour",
+        "options": [
+          {
+            "models": 1,
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Death Guard Cultists",
+        "options": [
+          {
+            "models": 10,
+            "points": 50
+          },
+          {
+            "models": 20,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Death Guard Possessed",
+        "options": [
+          {
+            "models": 5,
+            "points": 155
+          },
+          {
+            "models": 10,
+            "points": 310
+          }
+        ]
+      },
+      {
+        "name": "Death Guard Sorcerer in Terminator Armour",
+        "options": [
+          {
+            "models": 1,
+            "points": 70
+          }
+        ]
+      }
+    ],
+    "name": "Death Guard",
+    "slug": "death-guard",
+    "sourceUrl": "https://mfm.warhammer-community.com/en/death-guard",
+    "subfactions": [
+      {
+        "name": "Plague Legions",
+        "units": [
+          {
+            "name": "Beasts of Nurgle",
+            "options": [
+              {
+                "models": 1,
+                "points": 70
+              },
+              {
+                "models": 2,
+                "points": 140
+              }
+            ]
+          },
+          {
+            "name": "Great Unclean One",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-2nd",
+                "points": 265
+              },
+              {
+                "models": 1,
+                "note": "3rd+",
+                "points": 280
+              }
+            ]
+          },
+          {
+            "name": "Nurglings",
+            "options": [
+              {
+                "models": 3,
+                "points": 45
+              },
+              {
+                "models": 6,
+                "points": 90
+              }
+            ]
+          },
+          {
+            "name": "Plaguebearers",
+            "options": [
+              {
+                "models": 10,
+                "points": 115
+              }
+            ]
+          },
+          {
+            "name": "Plague Drones",
+            "options": [
+              {
+                "models": 3,
+                "points": 110
+              },
+              {
+                "models": 6,
+                "points": 220
+              }
+            ]
+          },
+          {
+            "name": "Rotigus",
+            "options": [
+              {
+                "models": 1,
+                "points": 280
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "units": [
+      {
+        "name": "Biologus Putrifier",
+        "options": [
+          {
+            "models": 1,
+            "points": 60
+          }
+        ]
+      },
+      {
+        "name": "Blightlord Terminators",
+        "options": [
+          {
+            "models": 3,
+            "note": "1st-2nd",
+            "points": 115
+          },
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 185
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 370
+          },
+          {
+            "models": 3,
+            "note": "3rd+",
+            "points": 145
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 215
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 400
+          }
+        ]
+      },
+      {
+        "name": "Chaos Land Raider",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 220
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 240
+          }
+        ]
+      },
+      {
+        "name": "Chaos Predator Annihilator",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 130
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 140
+          }
+        ]
+      },
+      {
+        "name": "Chaos Predator Destructor",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 140
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 150
+          }
+        ]
+      },
+      {
+        "name": "Chaos Rhino",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-3rd",
+            "points": 75
+          },
+          {
+            "models": 1,
+            "note": "4th+",
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Chaos Spawn",
+        "options": [
+          {
+            "models": 2,
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Daemon Prince of Nurgle",
+        "options": [
+          {
+            "models": 1,
+            "points": 185
+          }
+        ]
+      },
+      {
+        "name": "Daemon Prince of Nurgle with Wings",
+        "options": [
+          {
+            "models": 1,
+            "points": 160
+          }
+        ]
+      },
+      {
+        "name": "Deathshroud Terminators",
+        "options": [
+          {
+            "models": 3,
+            "note": "1st-2nd",
+            "points": 150
+          },
+          {
+            "models": 6,
+            "note": "1st-2nd",
+            "points": 305
+          },
+          {
+            "models": 3,
+            "note": "3rd+",
+            "points": 160
+          },
+          {
+            "models": 6,
+            "note": "3rd+",
+            "points": 315
+          }
+        ]
+      },
+      {
+        "name": "Defiler",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 300
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 350
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Heavy Reaper Autocannon",
+            "points": 15
+          },
+          {
+            "name": "Hades Lascannon",
+            "points": 15
+          }
+        ]
+      },
+      {
+        "name": "Foetid Bloat-Drone",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 100
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 110
+          }
+        ]
+      },
+      {
+        "name": "Foetid Bloat-Drone with Heavy Blight Launcher",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 125
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 135
+          }
+        ]
+      },
+      {
+        "name": "Foul Blightspawn",
+        "options": [
+          {
+            "models": 1,
+            "points": 60
+          }
+        ]
+      },
+      {
+        "name": "Helbrute",
+        "options": [
+          {
+            "models": 1,
+            "points": 105
+          }
+        ]
+      },
+      {
+        "name": "Icon Bearer",
+        "options": [
+          {
+            "models": 1,
+            "points": 45
+          }
+        ]
+      },
+      {
+        "name": "Lord of Contagion",
+        "options": [
+          {
+            "models": 1,
+            "points": 110
+          }
+        ]
+      },
+      {
+        "name": "Lord of Poxes",
+        "options": [
+          {
+            "models": 1,
+            "points": 65
+          }
+        ]
+      },
+      {
+        "name": "Lord of Virulence",
+        "options": [
+          {
+            "models": 1,
+            "points": 90
+          }
+        ]
+      },
+      {
+        "name": "Malignant Plaguecaster",
+        "options": [
+          {
+            "models": 1,
+            "points": 60
+          }
+        ]
+      },
+      {
+        "name": "Miasmic Malignifier",
+        "options": [
+          {
+            "models": 1,
+            "points": 105
+          }
+        ]
+      },
+      {
+        "name": "Mortarion",
+        "options": [
+          {
+            "models": 1,
+            "points": 375
+          }
+        ]
+      },
+      {
+        "name": "Myphitic Blight-Haulers",
+        "options": [
+          {
+            "models": 1,
+            "points": 95
+          },
+          {
+            "models": 2,
+            "points": 190
+          }
+        ]
+      },
+      {
+        "name": "Noxious Blightbringer",
+        "options": [
+          {
+            "models": 1,
+            "points": 50
+          }
+        ]
+      },
+      {
+        "name": "Plagueburst Crawler",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 170
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 200
+          }
+        ]
+      },
+      {
+        "name": "Plague Marines",
+        "options": [
+          {
+            "models": 5,
+            "points": 90
+          },
+          {
+            "models": 7,
+            "points": 125
+          },
+          {
+            "models": 10,
+            "points": 175
+          }
+        ]
+      },
+      {
+        "name": "Plague Surgeon",
+        "options": [
+          {
+            "models": 1,
+            "points": 50
+          }
+        ]
+      },
+      {
+        "name": "Poxwalkers",
+        "options": [
+          {
+            "models": 10,
+            "points": 65
+          },
+          {
+            "models": 20,
+            "points": 130
+          }
+        ]
+      },
+      {
+        "name": "Tallyman",
+        "options": [
+          {
+            "models": 1,
+            "points": 60
+          }
+        ]
+      },
+      {
+        "name": "Typhus",
+        "options": [
+          {
+            "models": 1,
+            "points": 90
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,6041 @@
+{
+  "default": {
+    "detachments": [
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "limit": 3,
+            "name": "Boss Boomer (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "Wagon"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "limit": 3,
+            "name": "Targetin’ Gizmos (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 25,
+            "req": [
+              {
+                "kw": [
+                  "Wagon"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Blitz Brigade",
+        "sid": "0e5059d2-a59b-4e2f-bb95-ac173b814600"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Surly as a Squiggoth",
+            "pts": 25,
+            "req": [
+              {
+                "kw": [
+                  "Infantry",
+                  "Warboss"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Brutal But Kunnin’",
+            "pts": 30,
+            "req": [
+              {
+                "kw": [
+                  "Warboss"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Blitzboss",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Warboss"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Proper Killy",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Warboss"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Morgog’s Finkin’ Cap",
+            "pts": 50,
+            "req": [
+              {
+                "kw": [
+                  "Warboss"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Da Gobshot Thunderbuss",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Warboss"
+                ]
+              }
+            ],
+            "type": "miniature",
+            "weapons": {
+              "melee": [],
+              "ranged": [
+                {
+                  "a": "6",
+                  "ap": "-2",
+                  "bs": "4+",
+                  "d": "2",
+                  "name": "Da Gobshot Thunderbuss",
+                  "range": "24\"",
+                  "s": "7",
+                  "tags": [
+                    "LETHAL HITS: non-MONSTER/VEHICLE",
+                    "RAPID FIRE 6"
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Brute Bosses",
+        "sid": "0f071f29-4547-4912-b020-d667768633b4"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "limit": 3,
+            "name": "Wimp-kickaz (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "ds": "Nobz"
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "name": "Tellyporta Boss",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Mega Armour"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Bully Boyz",
+        "sid": "1d37b096-4033-427c-81eb-0c1f17f6e8ae"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Glory Hog",
+            "pts": 25,
+            "req": [
+              {
+                "kw": [
+                  "Beast Snagga"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "It Came from da Drops",
+            "pts": 20,
+            "req": [
+              {
+                "ds": "Beastboss on Squigosaur"
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Da Big Hunt",
+        "sid": "a8c9d0d1-fb4d-456b-a7e0-5b438f11df28"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Cybork Boosta",
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "Big Mek"
+                ]
+              },
+              {
+                "ds": "Big Mek"
+              },
+              {
+                "ds": "Mek"
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Dreadherder",
+            "pts": 30,
+            "req": [
+              {
+                "ds": "Big Mek"
+              },
+              {
+                "kw": [
+                  "Big Mek"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Dread Mob",
+        "sid": "aa4d4b3d-e148-4807-9c97-cfd753a7b8ed"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "limit": 3,
+            "name": "Flyboss (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Orks"
+                ],
+                "kw": [
+                  "Aircraft"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "limit": 3,
+            "name": "Impulsive Recon (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Orks"
+                ],
+                "kw": [
+                  "Aircraft"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Flyboyz",
+        "sid": "2dd2c66d-0dea-44fd-81c6-26d869796c62"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Ferocious Show-off",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Orks"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "limit": 3,
+            "name": "'Ardboyz (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 25,
+            "req": [
+              {
+                "ds": "Boyz"
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Green Tide",
+        "sid": "ba6295df-4f61-4f43-9efb-3010eb9c88c3"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "limit": 3,
+            "name": "Smoky Gubbinz (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "Speed Freeks"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "name": "Competitive Streak",
+            "pts": 15,
+            "req": [
+              {
+                "ds": "Deffkilla Wartrike"
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Kult of Speed",
+        "sid": "1c84ef6c-4164-4a64-abdf-8577f64d629a"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Mekwaaagh! Mastermind",
+            "pts": 30,
+            "req": [
+              {
+                "kw": [
+                  "Big Mek"
+                ]
+              },
+              {
+                "ds": "Big Mek"
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "limit": 3,
+            "name": "Temperamental Shokka (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 20,
+            "req": [
+              {
+                "ds": "Big Mek with Shokk Attack Gun"
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "limit": 3,
+            "name": "Enhanced Runt-maw (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 10,
+            "req": [
+              {
+                "ds": "Big Mek with Shokk Attack Gun"
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Disruption"
+        ],
+        "name": "Madcap Meks",
+        "sid": "beaf8d96-1012-484c-abaa-afe3b0911236"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "limit": 3,
+            "name": "Extra Sneaky (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 10,
+            "req": [
+              {
+                "ds": "Gretchin"
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "limit": 3,
+            "name": "Minefield Detail (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 10,
+            "req": [
+              {
+                "ds": "Gretchin"
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Runt Swarm",
+        "sid": "623dee62-7c5e-4239-83a6-cb74adeb3afe"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "exclKw": [
+              "Psyker"
+            ],
+            "name": "Supa-glowy Fing",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Orks"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Targetin' Squigs",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Big Mek"
+                ]
+              },
+              {
+                "kw": [
+                  "Warboss"
+                ]
+              },
+              {
+                "ds": "Bigboss"
+              },
+              {
+                "ds": "Big Mek"
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Shoota Boyz",
+        "sid": "7e37200a-f6d0-4a2b-9fc1-ad9f16cf709a"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "attach": [
+              {
+                "to": "kommandos",
+                "type": "leader"
+              }
+            ],
+            "name": "Kill Kommanda",
+            "pts": 20,
+            "req": [
+              {
+                "ds": "Big Mek"
+              },
+              {
+                "kw": [
+                  "Big Mek"
+                ]
+              },
+              {
+                "kw": [
+                  "Infantry",
+                  "Warboss"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "limit": 3,
+            "name": "Throat-slittas (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "ds": "Stormboyz"
+              },
+              {
+                "ds": "Kommandos"
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Taktikal Brigade",
+        "sid": "1ac21eaa-018a-4d1c-9ed3-b49532c30bed"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Headwoppa's Killchoppa",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Orks"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Da Boss is Watchin'",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Orks"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Kunnin’ But Brutal",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Orks"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Follow Me Ladz",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Orks"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold",
+          "Purge the Foe"
+        ],
+        "name": "War Horde",
+        "sid": "597e09eb-b32e-47de-bbf6-3765d43579ca"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "attach": [
+              {
+                "to": "flash-gitz",
+                "type": "leader"
+              }
+            ],
+            "name": "Kaptin's Hat",
+            "pts": 25,
+            "req": [
+              {
+                "ds": "Big Mek"
+              },
+              {
+                "kw": [
+                  "Infantry",
+                  "Warboss"
+                ]
+              },
+              {
+                "kw": [
+                  "Big Mek",
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "limit": 3,
+            "name": "Supa-snazz Dakka (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 25,
+            "req": [
+              {
+                "ds": "Flash Gitz"
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Wreckas",
+        "sid": "57d116b1-ecfb-40f9-bf73-a99ff5b024e8"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Da Krunch",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Orks"
+                ],
+                "kw": [
+                  "Psyker"
+                ]
+              }
+            ],
+            "type": "miniature",
+            "weapons": {
+              "melee": [],
+              "ranged": [
+                {
+                  "a": "3",
+                  "ap": "-1",
+                  "bs": "4+",
+                  "d": "1",
+                  "name": "Da Krunch",
+                  "range": "24\"",
+                  "s": "5",
+                  "tags": [
+                    "BLAST 3",
+                    "HAZARDOUS",
+                    "LETHAL HITS",
+                    "PSYCHIC"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "name": "'Eadbanger",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Orks"
+                ],
+                "kw": [
+                  "Psyker"
+                ]
+              }
+            ],
+            "type": "miniature",
+            "weapons": {
+              "melee": [],
+              "ranged": [
+                {
+                  "a": "2",
+                  "ap": "-3",
+                  "bs": "4+",
+                  "d": "3",
+                  "name": "'Eadbanger",
+                  "range": "24\"",
+                  "s": "6",
+                  "tags": [
+                    "HAZARDOUS",
+                    "PRECISION",
+                    "PSYCHIC"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "name": "Warphead",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Orks"
+                ],
+                "kw": [
+                  "Psyker"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Disruption"
+        ],
+        "name": "Wurrband",
+        "sid": "89c022fe-0f5b-4ff4-9b10-a17665571fdb"
+      }
+    ],
+    "name": "Orks",
+    "slug": "orks",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1943,
+                1
+              ],
+              [
+                1944,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "bannernob",
+        "kws": [
+          "Character",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "nobz",
+            "type": "support"
+          },
+          {
+            "to": "boyz",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Bannernob",
+        "sid": "73c5ba73-501a-41df-81d5-80c7db95c59c",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 30
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1947,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1948
+              ]
+            ],
+            "t": 701
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                4
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                1949
+              ]
+            ],
+            "t": 702
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1950
+              ]
+            ],
+            "t": 703
+          }
+        ],
+        "id": "battlewagon",
+        "kws": [
+          "Frame",
+          "Transport",
+          "Vehicle",
+          "Wagon"
+        ],
+        "linked": 1,
+        "name": "Battlewagon",
+        "sid": "1c9d82f2-a0cd-4991-8653-e955460637b3",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 160
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1976,
+                1
+              ],
+              [
+                1977,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                1978,
+                1
+              ],
+              [
+                1976,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                10,
+                1
+              ],
+              [
+                20,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                1979
+              ]
+            ],
+            "t": 710
+          }
+        ],
+        "id": "beast-snagga-boyz",
+        "kws": [
+          "Battleline",
+          "Beast Snagga",
+          "Infantry",
+          "Mob"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Beast Snagga Boy"
+          },
+          {
+            "n": "Nob"
+          }
+        ],
+        "name": "Beast Snagga Boyz",
+        "sid": "ebb6b151-5a87-487a-81c9-d019440cc01b",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                9
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 80
+          },
+          {
+            "comp": [
+              [
+                0,
+                18
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "per": [
+              20,
+              20
+            ],
+            "pts": 160
+          }
+        ],
+        "step": {
+          "at": 4,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1957,
+                1
+              ],
+              [
+                1958,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "beastboss",
+        "kws": [
+          "Beast Snagga",
+          "Character",
+          "Infantry",
+          "Warboss"
+        ],
+        "leads": [
+          {
+            "to": "beast-snagga-boyz",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Beastboss",
+        "sid": "32b88410-dc45-48ea-b070-f0e0154b5327",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 85
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1966,
+                1
+              ],
+              [
+                1967,
+                1
+              ],
+              [
+                1968,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1969
+              ]
+            ],
+            "t": 707
+          }
+        ],
+        "id": "beastboss-on-squigosaur",
+        "kws": [
+          "Beast Snagga",
+          "Character",
+          "Monster",
+          "Warboss"
+        ],
+        "linked": 1,
+        "name": "Beastboss on Squigosaur",
+        "sid": "c338b81f-4198-4721-8fb4-7daf22eca5cd",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 140
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2003,
+                1
+              ],
+              [
+                2004,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2005
+              ]
+            ],
+            "rep": [
+              2003
+            ],
+            "t": 719
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2006
+              ]
+            ],
+            "rep": [
+              2004
+            ],
+            "t": 720
+          }
+        ],
+        "id": "big-mek",
+        "kws": [
+          "Character",
+          "Explosives",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "nobz",
+            "type": "leader"
+          },
+          {
+            "to": "breaka-boyz",
+            "type": "leader"
+          },
+          {
+            "to": "flash-gitz",
+            "type": "leader"
+          },
+          {
+            "to": "tankbustas",
+            "type": "leader"
+          },
+          {
+            "to": "boyz",
+            "type": "leader"
+          },
+          {
+            "to": "mek-gunz",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Big Mek",
+        "sid": "f1b5d961-a505-4806-85b7-311b64fc8697",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 100
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2012,
+                1
+              ],
+              [
+                2013,
+                1
+              ],
+              [
+                2014,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "big-mek-dakkarig",
+        "kws": [
+          "Big Mek",
+          "Character",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Big Mek Dakkarig",
+        "sid": "087d21d9-47b7-4d5f-a207-aed4005f0dcb",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 160
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2018,
+                1
+              ],
+              [
+                2019,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2020
+              ],
+              [
+                2021
+              ]
+            ],
+            "t": 721
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2022
+              ],
+              [
+                2023
+              ],
+              [
+                2024
+              ]
+            ],
+            "rep": [
+              2019
+            ],
+            "t": 722
+          }
+        ],
+        "id": "big-mek-in-mega-armour",
+        "kws": [
+          "Big Mek",
+          "Character",
+          "Explosives",
+          "Infantry",
+          "Mega Armour"
+        ],
+        "leads": [
+          {
+            "to": "mek-gunz",
+            "type": "leader"
+          },
+          {
+            "to": "meganobz",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Big Mek in Mega Armour",
+        "sid": "c074df95-5b3d-49b3-8b6f-bfa9918bd8a0",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 90
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2025,
+                1
+              ],
+              [
+                2026,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "big-mek-with-shokk-attack-gun",
+        "kws": [
+          "Big Mek",
+          "Character",
+          "Explosives",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "boyz",
+            "type": "leader"
+          },
+          {
+            "to": "nobz",
+            "type": "leader"
+          },
+          {
+            "to": "mek-gunz",
+            "type": "leader"
+          },
+          {
+            "to": "tankbustas",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Big Mek with Shokk Attack Gun",
+        "sid": "e9066eed-965d-4e48-b462-02d66ff2a047",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 110
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1939,
+                1
+              ],
+              [
+                1940,
+                2
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1941
+              ],
+              [
+                1942
+              ]
+            ],
+            "t": 700
+          }
+        ],
+        "id": "big-trakk",
+        "kws": [
+          "Frame",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Big Trakk",
+        "sid": "d2611657-c70c-4afe-82bd-6f569624007c",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 90
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1995,
+                1
+              ],
+              [
+                1996,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                3
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                1996
+              ]
+            ],
+            "t": 715
+          }
+        ],
+        "id": "biged-bossbunka",
+        "kws": [
+          "Fortification",
+          "Frame",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Big’Ed Bossbunka",
+        "sid": "72f4b744-afbe-4846-9ec6-2c4a34674a48",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 135
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1983,
+                1
+              ],
+              [
+                1984,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "bigboss",
+        "kws": [
+          "Character",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "boyz",
+            "type": "support"
+          },
+          {
+            "to": "breaka-boyz",
+            "type": "support"
+          },
+          {
+            "to": "nobz",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Bigboss",
+        "sid": "a7a56757-d2be-4487-af71-55715c66a767",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 50
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2031,
+                1
+              ],
+              [
+                2032,
+                1
+              ],
+              [
+                2033,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "id": "blitza-bommer",
+        "kws": [
+          "Aircraft",
+          "Fly",
+          "Speed Freeks",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Blitza‑bommer",
+        "sid": "ec718ab5-ef45-4887-bbc9-0db34bde5431",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 115
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2034,
+                1
+              ],
+              [
+                2035,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "boss-snikrot",
+        "kws": [
+          "Character",
+          "Epic Hero",
+          "Explosives",
+          "Infantry",
+          "Smoke"
+        ],
+        "leads": [
+          {
+            "to": "kommandos",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Boss Snikrot",
+        "sid": "ca1b7913-c219-4acb-b6bb-a95e669c4ae5",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1945,
+                1
+              ],
+              [
+                1946,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "boss-zagstruk",
+        "kws": [
+          "Character",
+          "Epic Hero",
+          "Fly",
+          "Infantry",
+          "Jump Pack"
+        ],
+        "leads": [
+          {
+            "to": "stormboyz",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Boss Zagstruk",
+        "sid": "5234e2a8-f6d0-481d-9b2a-6ff0c9e310bc",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 90
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2036,
+                1
+              ],
+              [
+                2037,
+                1
+              ],
+              [
+                2038,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                2039,
+                1
+              ],
+              [
+                2040,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                2041
+              ]
+            ],
+            "rep": [
+              2040,
+              2039
+            ],
+            "t": 724
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                2042
+              ]
+            ],
+            "rep": [
+              2040
+            ],
+            "t": 725
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                2043
+              ],
+              [
+                2044
+              ]
+            ],
+            "rep": [
+              2039
+            ],
+            "t": 726
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                10,
+                1
+              ],
+              [
+                20,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2045
+              ]
+            ],
+            "rep": [
+              2038
+            ],
+            "t": 727
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                10,
+                1
+              ],
+              [
+                20,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2046
+              ]
+            ],
+            "rep": [
+              2038
+            ],
+            "t": 728
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                10,
+                1
+              ],
+              [
+                20,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2047
+              ]
+            ],
+            "rep": [
+              2038
+            ],
+            "t": 729
+          }
+        ],
+        "id": "boyz",
+        "kws": [
+          "Battleline",
+          "Explosives",
+          "Infantry",
+          "Mob"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Boy"
+          },
+          {
+            "n": "Nob"
+          }
+        ],
+        "name": "Boyz",
+        "sid": "01474b35-18d2-4231-9e9d-c175829eec3d",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                9
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 85
+          },
+          {
+            "comp": [
+              [
+                0,
+                18
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "per": [
+              20,
+              20
+            ],
+            "pts": 170
+          }
+        ],
+        "step": {
+          "at": 4,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2048,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                2049,
+                1
+              ],
+              [
+                2048,
+                1
+              ],
+              [
+                2050,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 1,
+            "o": [
+              [
+                2049
+              ]
+            ],
+            "rep": [
+              2048
+            ],
+            "t": 730
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2051
+              ]
+            ],
+            "rep": [
+              2048
+            ],
+            "t": 731
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2052
+              ]
+            ],
+            "rep": [
+              2048
+            ],
+            "t": 732
+          }
+        ],
+        "id": "breaka-boyz",
+        "kws": [
+          "Explosives",
+          "Infantry"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Breaka Boy"
+          },
+          {
+            "n": "Nob"
+          }
+        ],
+        "name": "Breaka Boyz",
+        "sid": "9c5dc3fe-b149-4aa5-9973-6e95ad2dac8b",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              6,
+              6
+            ],
+            "pts": 120
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                1951,
+                1
+              ],
+              [
+                1952,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                1953,
+                1
+              ],
+              [
+                1954,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                1955
+              ],
+              [
+                1956
+              ]
+            ],
+            "rep": [
+              1954
+            ],
+            "t": 704
+          }
+        ],
+        "id": "burna-boyz",
+        "kws": [
+          "Infantry"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Spanner"
+          },
+          {
+            "n": "Burna Boy"
+          }
+        ],
+        "name": "Burna Boyz",
+        "sid": "e2d407d7-3962-4c7d-a6f6-3443604a90a1",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 60
+          },
+          {
+            "comp": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                8
+              ]
+            ],
+            "per": [
+              10,
+              10
+            ],
+            "pts": 120
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2053,
+                1
+              ],
+              [
+                2054,
+                1
+              ],
+              [
+                2055,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2056
+              ]
+            ],
+            "t": 733
+          }
+        ],
+        "id": "burna-bommer",
+        "kws": [
+          "Aircraft",
+          "Fly",
+          "Speed Freeks",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Burna‑bommer",
+        "sid": "85e33a56-f6fa-46ef-a868-aec1a2949e99",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 125
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2057,
+                2
+              ],
+              [
+                2058,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2057
+              ]
+            ],
+            "t": 734
+          }
+        ],
+        "id": "dakkajet",
+        "kws": [
+          "Aircraft",
+          "Fly",
+          "Speed Freeks",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Dakkajet",
+        "sid": "4186d0d0-2abb-4c28-91a4-1e5b81a7e0b0",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 125
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2059,
+                1
+              ],
+              [
+                2060,
+                1
+              ],
+              [
+                2061,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2062
+              ],
+              [
+                2063
+              ],
+              [
+                2064
+              ]
+            ],
+            "rep": [
+              2059
+            ],
+            "t": 735
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2062
+              ],
+              [
+                2059
+              ],
+              [
+                2063
+              ],
+              [
+                2064
+              ]
+            ],
+            "rep": [
+              2060
+            ],
+            "t": 736
+          }
+        ],
+        "id": "deff-dread",
+        "kws": [
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Deff Dread",
+        "sid": "914f5a07-e9e1-4cad-a149-fd7b0d07298a",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 130
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2065,
+                1
+              ],
+              [
+                2066,
+                1
+              ],
+              [
+                2067,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "deffkilla-wartrike",
+        "kws": [
+          "Character",
+          "Mounted",
+          "Speed Freeks",
+          "Warboss"
+        ],
+        "leads": [
+          {
+            "to": "warbikers",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Deffkilla Wartrike",
+        "sid": "61f7eb94-3def-4e9b-94fb-44548a36dc27",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2068,
+                1
+              ],
+              [
+                2069,
+                1
+              ],
+              [
+                2070,
+                1
+              ],
+              [
+                2071,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                3,
+                1
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2072
+              ]
+            ],
+            "rep": [
+              2069
+            ],
+            "t": 737
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "deffkoptas",
+        "kws": [
+          "Explosives",
+          "Fly",
+          "Mounted",
+          "Speed Freeks"
+        ],
+        "linked": 1,
+        "name": "Deffkoptas",
+        "sid": "1502e293-1237-4c81-9cb4-d913ba23b246",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 85
+          },
+          {
+            "per": [
+              4,
+              6
+            ],
+            "pts": 170
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                2073,
+                1
+              ],
+              [
+                2074,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                2074,
+                1
+              ],
+              [
+                2073,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "id": "flash-gitz",
+        "kws": [
+          "Explosives",
+          "Infantry"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Flash Git"
+          },
+          {
+            "n": "Kaptin"
+          }
+        ],
+        "name": "Flash Gitz",
+        "sid": "a8848006-145a-4941-a1b1-be910f71c7a7",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 110
+          },
+          {
+            "comp": [
+              [
+                0,
+                5,
+                9
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 220
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 40
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2075,
+                1
+              ],
+              [
+                2076,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2077
+              ]
+            ],
+            "rep": [
+              2076
+            ],
+            "t": 738
+          }
+        ],
+        "id": "gargantuan-squiggoth",
+        "kws": [
+          "Frame",
+          "Monster",
+          "Titanic",
+          "Towering",
+          "Transport"
+        ],
+        "linked": 1,
+        "name": "Gargantuan Squiggoth",
+        "sid": "85400667-20b1-4a24-ac2b-ce42c3101749",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 500
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 100
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2078,
+                1
+              ],
+              [
+                2079,
+                1
+              ],
+              [
+                2080,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "supreme": 1
+        },
+        "id": "ghazghkull-thraka",
+        "kws": [
+          "Character",
+          "Epic Hero",
+          "Explosives",
+          "Infantry",
+          "Warboss"
+        ],
+        "linked": 1,
+        "name": "Ghazghkull Thraka",
+        "sid": "85197265-dcd6-4f1c-b699-cacba1b123c6",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 290
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2081,
+                1
+              ],
+              [
+                2082,
+                2
+              ],
+              [
+                2083,
+                1
+              ],
+              [
+                2084,
+                1
+              ],
+              [
+                2085,
+                2
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "id": "gorkanaut",
+        "kws": [
+          "Titanic",
+          "Towering",
+          "Transport",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Gorkanaut",
+        "sid": "f7abac94-2442-4805-81c9-9a56a2448d10",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 325
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 30
+        }
+      },
+      {
+        "condBattleline": 1,
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2086,
+                1
+              ],
+              [
+                2087,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "grants": [
+          {
+            "det": "runt-swarm",
+            "kw": "Battleline"
+          }
+        ],
+        "id": "gretchin",
+        "kws": [
+          "Grots",
+          "Infantry"
+        ],
+        "linked": 1,
+        "name": "Gretchin",
+        "sid": "e526e829-57ea-445d-b69d-5b4b2fa394eb",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 45
+          },
+          {
+            "per": [
+              20,
+              20
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1959,
+                1
+              ],
+              [
+                1960,
+                1
+              ],
+              [
+                1961,
+                1
+              ],
+              [
+                1962,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1959
+              ],
+              [
+                1963
+              ],
+              [
+                1964
+              ],
+              [
+                1965
+              ]
+            ],
+            "rep": [
+              1960
+            ],
+            "t": 705
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1960
+              ],
+              [
+                1963
+              ],
+              [
+                1964
+              ],
+              [
+                1965
+              ]
+            ],
+            "rep": [
+              1959
+            ],
+            "t": 706
+          }
+        ],
+        "id": "grot-mega-tank",
+        "kws": [
+          "Frame",
+          "Grots",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Grot Mega-tank",
+        "sid": "9a551e47-352e-4bad-a13d-5d4ca3c562dc",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 110
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1970,
+                1
+              ],
+              [
+                1971,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                1972
+              ],
+              [
+                1973
+              ],
+              [
+                1974
+              ],
+              [
+                1975
+              ]
+            ],
+            "rep": [
+              1970
+            ],
+            "t": 708
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                4,
+                1
+              ],
+              [
+                8,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                1972
+              ],
+              [
+                1974
+              ],
+              [
+                1975
+              ],
+              [
+                1970
+              ],
+              [
+                1973
+              ]
+            ],
+            "t": 709
+          }
+        ],
+        "id": "grot-tanks",
+        "kws": [
+          "Frame",
+          "Grots",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Grot Tanks",
+        "sid": "c602db26-58bf-406b-8f31-81c9652b1e51",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              4,
+              4
+            ],
+            "pts": 155
+          },
+          {
+            "per": [
+              8,
+              8
+            ],
+            "pts": 310
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2088,
+                1
+              ],
+              [
+                2089,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2090
+              ]
+            ],
+            "t": 701
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2091
+              ]
+            ],
+            "t": 703
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2092
+              ]
+            ],
+            "t": 739
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                4
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2093
+              ]
+            ],
+            "t": 702
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2094
+              ],
+              [
+                2095,
+                10
+              ]
+            ],
+            "rep": [
+              2088
+            ],
+            "t": 740
+          }
+        ],
+        "id": "gunwagon",
+        "kws": [
+          "Frame",
+          "Transport",
+          "Vehicle",
+          "Wagon"
+        ],
+        "linked": 1,
+        "name": "Gunwagon",
+        "sid": "e42d2971-db7d-4901-8036-735b3e7cf278",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 150
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2096,
+                1
+              ],
+              [
+                2097,
+                1
+              ],
+              [
+                2098,
+                1
+              ],
+              [
+                2099,
+                1
+              ],
+              [
+                2100,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "id": "hunta-rig",
+        "kws": [
+          "Beast Snagga",
+          "Monster",
+          "Transport",
+          "Wagon"
+        ],
+        "linked": 1,
+        "name": "Hunta Rig",
+        "sid": "8214c6e2-2233-4229-a9d9-3257fe8dbe22",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 165
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1980,
+                1
+              ],
+              [
+                1981,
+                1
+              ],
+              [
+                1982,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "id": "kaptin-badrukk",
+        "kws": [
+          "Character",
+          "Epic Hero",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "flash-gitz",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Kaptin Badrukk",
+        "sid": "3cbc8431-9491-4815-9a01-717b27bc81c1",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2103,
+                1
+              ],
+              [
+                2104,
+                1
+              ],
+              [
+                2105,
+                1
+              ],
+              [
+                2106,
+                1
+              ],
+              [
+                2107,
+                1
+              ],
+              [
+                2108,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "id": "kill-rig",
+        "kws": [
+          "Beast Snagga",
+          "Monster",
+          "Psyker",
+          "Transport",
+          "Wagon"
+        ],
+        "linked": 1,
+        "name": "Kill Rig",
+        "sid": "40287b42-ee16-4ae4-8cbb-96e87d827a0b",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 175
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1985,
+                1
+              ],
+              [
+                1986,
+                1
+              ],
+              [
+                1987,
+                1
+              ],
+              [
+                1988,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1989
+              ],
+              [
+                1987
+              ]
+            ],
+            "rep": [
+              1986
+            ],
+            "t": 711
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1986
+              ],
+              [
+                1989
+              ]
+            ],
+            "rep": [
+              1987
+            ],
+            "t": 712
+          },
+          {
+            "fixed": 1,
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1990,
+                    1
+                  ],
+                  [
+                    1991,
+                    3
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1990,
+                    1
+                  ],
+                  [
+                    1991,
+                    2
+                  ],
+                  [
+                    1992,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1990,
+                    1
+                  ],
+                  [
+                    1991,
+                    2
+                  ],
+                  [
+                    1993,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1990,
+                    1
+                  ],
+                  [
+                    1991,
+                    1
+                  ],
+                  [
+                    1992,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1990,
+                    1
+                  ],
+                  [
+                    1991,
+                    1
+                  ],
+                  [
+                    1992,
+                    1
+                  ],
+                  [
+                    1993,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1990,
+                    1
+                  ],
+                  [
+                    1991,
+                    1
+                  ],
+                  [
+                    1993,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1990,
+                    1
+                  ],
+                  [
+                    1992,
+                    3
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1990,
+                    1
+                  ],
+                  [
+                    1992,
+                    2
+                  ],
+                  [
+                    1993,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1990,
+                    1
+                  ],
+                  [
+                    1992,
+                    1
+                  ],
+                  [
+                    1993,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1990,
+                    1
+                  ],
+                  [
+                    1993,
+                    3
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1988,
+              1985
+            ],
+            "t": 713
+          },
+          {
+            "cond": [
+              2,
+              1
+            ],
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                5
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                1994
+              ]
+            ],
+            "t": 714
+          }
+        ],
+        "id": "kill-tank",
+        "kws": [
+          "Frame",
+          "Transport",
+          "Vehicle",
+          "Wagon"
+        ],
+        "linked": 1,
+        "name": "Kill Tank",
+        "sid": "813cc9eb-9b06-4bd1-897d-5ac9b7b7d95a",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 300
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2101,
+                1
+              ],
+              [
+                2102,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "id": "killa-kans",
+        "kws": [
+          "Grots",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Killa Kans",
+        "sid": "f49b305a-f2eb-4a3c-a090-931958c6f53b",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 130
+          },
+          {
+            "per": [
+              4,
+              6
+            ],
+            "pts": 275
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 40
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2109,
+                1
+              ],
+              [
+                2110,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                2109,
+                1
+              ],
+              [
+                2110,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 1,
+            "o": [
+              [
+                2111
+              ],
+              [
+                2112
+              ]
+            ],
+            "rep": [
+              2110
+            ],
+            "t": 741
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2113
+              ]
+            ],
+            "t": 742
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2114
+              ]
+            ],
+            "t": 743
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2115
+              ]
+            ],
+            "rep": [
+              2110
+            ],
+            "t": 744
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2116
+              ]
+            ],
+            "t": 745
+          }
+        ],
+        "id": "kommandos",
+        "kws": [
+          "Explosives",
+          "Infantry",
+          "Smoke"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Kommando"
+          },
+          {
+            "n": "Nob"
+          }
+        ],
+        "name": "Kommandos",
+        "sid": "4476a990-945b-406e-a44f-f5f02cf7c3d4",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                9
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 125
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1997,
+                1
+              ],
+              [
+                1998,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1999
+              ]
+            ],
+            "t": 716
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    2000,
+                    1
+                  ],
+                  [
+                    2001,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    2000,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    2001,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "t": 717
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2002
+              ]
+            ],
+            "t": 718
+          }
+        ],
+        "id": "lifta-wagon",
+        "kws": [
+          "Frame",
+          "Vehicle",
+          "Wagon"
+        ],
+        "linked": 1,
+        "name": "Lifta Wagon",
+        "sid": "52168db2-871c-4ddb-8c9c-833282ad3bda",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 135
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2007,
+                1
+              ],
+              [
+                2008,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                2007,
+                1
+              ],
+              [
+                2009,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                2010
+              ],
+              [
+                2011
+              ]
+            ],
+            "rep": [
+              2008
+            ],
+            "t": 704
+          }
+        ],
+        "id": "lootas",
+        "kws": [
+          "Infantry"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Spanner"
+          },
+          {
+            "n": "Loota"
+          }
+        ],
+        "name": "Lootas",
+        "sid": "d4652762-fb5b-453a-81d5-bea44d715a73",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 50
+          },
+          {
+            "comp": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                8
+              ]
+            ],
+            "per": [
+              10,
+              10
+            ],
+            "pts": 100
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2015,
+                1
+              ],
+              [
+                2016,
+                1
+              ],
+              [
+                2017,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "id": "mad-dok-grotsnik",
+        "kws": [
+          "Character",
+          "Epic Hero",
+          "Infantry",
+          "Painboy"
+        ],
+        "leads": [
+          {
+            "to": "boyz",
+            "type": "leader"
+          },
+          {
+            "to": "lootas",
+            "type": "leader"
+          },
+          {
+            "to": "nobz",
+            "type": "leader"
+          },
+          {
+            "to": "burna-boyz",
+            "type": "leader"
+          },
+          {
+            "to": "tankbustas",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Mad Dok Grotsnik",
+        "sid": "1dbfa0d2-d563-422d-ac00-731e8593800d",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 65
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2117,
+                1
+              ],
+              [
+                2118,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                2119,
+                5
+              ]
+            ],
+            "rep": [
+              2117
+            ],
+            "t": 746
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                2120
+              ]
+            ],
+            "rep": [
+              2118
+            ],
+            "t": 747
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                2121,
+                5
+              ]
+            ],
+            "rep": [
+              2117,
+              2118
+            ],
+            "t": 748
+          }
+        ],
+        "id": "meganobz",
+        "kws": [
+          "Explosives",
+          "Infantry",
+          "Mega Armour"
+        ],
+        "linked": 1,
+        "name": "Meganobz",
+        "sid": "3bd34d99-cc45-4b10-9829-ad114eb8b614",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              2,
+              2
+            ],
+            "pts": 70
+          },
+          {
+            "per": [
+              3,
+              3
+            ],
+            "pts": 105
+          },
+          {
+            "per": [
+              4,
+              5
+            ],
+            "pts": 175
+          },
+          {
+            "per": [
+              6,
+              6
+            ],
+            "pts": 210
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 40
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2122,
+                1
+              ],
+              [
+                2123,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "mek",
+        "kws": [
+          "Character",
+          "Explosives",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "boyz",
+            "type": "support"
+          },
+          {
+            "to": "flash-gitz",
+            "type": "support"
+          },
+          {
+            "to": "tankbustas",
+            "type": "support"
+          },
+          {
+            "to": "mek-gunz",
+            "type": "support"
+          },
+          {
+            "to": "nobz",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Mek",
+        "sid": "b92b38a2-55a2-4fba-8d36-56d254b9813f",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 55
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2124,
+                1
+              ],
+              [
+                2125,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                2126
+              ],
+              [
+                2127
+              ],
+              [
+                2128
+              ]
+            ],
+            "rep": [
+              2125
+            ],
+            "t": 749
+          }
+        ],
+        "id": "mek-gunz",
+        "kws": [
+          "Frame",
+          "Grots",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Mek Gunz",
+        "sid": "776a3fba-6bf3-42e9-a41a-f137c4c8053e",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 55
+          },
+          {
+            "per": [
+              2,
+              2
+            ],
+            "pts": 110
+          },
+          {
+            "per": [
+              3,
+              3
+            ],
+            "pts": 165
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "mekboy-workshop",
+        "kws": [
+          "Fortification",
+          "Frame",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Mekboy Workshop",
+        "sid": "a5d9be6d-c65a-437b-973a-1574eacce2d7",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2129,
+                1
+              ],
+              [
+                2130,
+                2
+              ],
+              [
+                2131,
+                2
+              ],
+              [
+                2132,
+                1
+              ],
+              [
+                2133,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "id": "morkanaut",
+        "kws": [
+          "Titanic",
+          "Towering",
+          "Transport",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Morkanaut",
+        "sid": "b3a5277b-0a65-47a7-925c-f7622cda3dd3",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 345
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2134,
+                1
+              ],
+              [
+                2135,
+                1
+              ],
+              [
+                2136,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "mozrog-skragbad",
+        "kws": [
+          "Beast Snagga",
+          "Character",
+          "Epic Hero",
+          "Monster"
+        ],
+        "linked": 1,
+        "name": "Mozrog Skragbad",
+        "sid": "2f346abf-971d-4e4d-a528-7d7a820c605f",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 170
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2137,
+                1
+              ],
+              [
+                2138,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "nazdreg",
+        "kws": [
+          "Character",
+          "Epic Hero",
+          "Infantry",
+          "Mega Armour",
+          "Warboss"
+        ],
+        "leads": [
+          {
+            "to": "meganobz",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Nazdreg",
+        "sid": "5a8b2395-8999-4421-8f66-d9768be02673",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 165
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2139,
+                1
+              ],
+              [
+                2140,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                5,
+                1
+              ],
+              [
+                10,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    2141,
+                    1
+                  ],
+                  [
+                    2142,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              2139,
+              2140
+            ],
+            "t": 750
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                5,
+                1
+              ],
+              [
+                10,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    2143,
+                    1
+                  ],
+                  [
+                    2142,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              2139,
+              2140
+            ],
+            "t": 751
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                5,
+                1
+              ],
+              [
+                10,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2144
+              ]
+            ],
+            "rep": [
+              2139,
+              2140
+            ],
+            "t": 752
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                5,
+                1
+              ],
+              [
+                10,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2145,
+                5
+              ]
+            ],
+            "rep": [
+              2140
+            ],
+            "t": 753
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                2146
+              ]
+            ],
+            "rep": [
+              2140
+            ],
+            "t": 754
+          }
+        ],
+        "id": "nobz",
+        "kws": [
+          "Explosives",
+          "Infantry"
+        ],
+        "linked": 1,
+        "name": "Nobz",
+        "sid": "d063a486-12c5-466e-911b-e14e87b97f9e",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 115
+          },
+          {
+            "per": [
+              6,
+              10
+            ],
+            "pts": 230
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2147,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "painboss",
+        "kws": [
+          "Beast Snagga",
+          "Character",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "beast-snagga-boyz",
+            "type": "support"
+          },
+          {
+            "to": "squighog-boyz",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Painboss",
+        "sid": "db0dcb52-1257-44f2-9d7f-07e419f8c2fa",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2148,
+                1
+              ],
+              [
+                2149,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "painboy",
+        "kws": [
+          "Character",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "breaka-boyz",
+            "type": "support"
+          },
+          {
+            "to": "tankbustas",
+            "type": "support"
+          },
+          {
+            "to": "boyz",
+            "type": "support"
+          },
+          {
+            "to": "flash-gitz",
+            "type": "support"
+          },
+          {
+            "to": "nobz",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Painboy",
+        "sid": "e5028623-8bef-4f11-9084-3fb20212307b",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 45
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2150,
+                1
+              ],
+              [
+                2151,
+                1
+              ],
+              [
+                2152,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "id": "rukkatrukk-squigbuggies",
+        "kws": [
+          "Explosives",
+          "Speed Freeks",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Rukkatrukk Squigbuggies",
+        "sid": "8111429e-0358-4760-b435-1f77c43125d0",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 85
+          },
+          {
+            "per": [
+              2,
+              2
+            ],
+            "pts": 160
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2153,
+                1
+              ],
+              [
+                2154,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "runtherd",
+        "kws": [
+          "Character",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "gretchin",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Runtherd",
+        "sid": "1cb8e0e2-a7d6-4218-9776-102b86524adc",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 10
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2155,
+                1
+              ],
+              [
+                2156,
+                1
+              ],
+              [
+                2157,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                2155,
+                1
+              ],
+              [
+                2158,
+                1
+              ],
+              [
+                2159,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "id": "squighog-boyz",
+        "kws": [
+          "Beast Snagga",
+          "Explosives",
+          "Mobile",
+          "Mounted"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Squighog Boy"
+          },
+          {
+            "n": "Nob on Smasha Squig"
+          }
+        ],
+        "name": "Squighog Boyz",
+        "sid": "50c806c7-a2ee-45d1-916a-94984e19b06e",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              4,
+              4
+            ],
+            "pts": 130
+          },
+          {
+            "comp": [
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "per": [
+              8,
+              8
+            ],
+            "pts": 260
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2160,
+                1
+              ],
+              [
+                2161,
+                5
+              ],
+              [
+                2162,
+                1
+              ],
+              [
+                2163,
+                1
+              ],
+              [
+                2164,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "id": "stompa",
+        "kws": [
+          "Frame",
+          "Titanic",
+          "Towering",
+          "Transport",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Stompa",
+        "sid": "f89e7381-3eea-46b0-8339-860fa41cb77a",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 700
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 100
+        }
+      },
+      {
+        "condBattleline": 1,
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2165,
+                1
+              ],
+              [
+                2166,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                2167,
+                1
+              ],
+              [
+                2165,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                2167
+              ],
+              [
+                2168
+              ]
+            ],
+            "rep": [
+              2167
+            ],
+            "t": 755
+          }
+        ],
+        "grants": [
+          {
+            "det": "taktikal-brigade",
+            "kw": "Battleline"
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "stormboyz",
+        "kws": [
+          "Explosives",
+          "Fly",
+          "Infantry",
+          "Jump Pack"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Stormboy"
+          },
+          {
+            "n": "Nob"
+          }
+        ],
+        "name": "Stormboyz",
+        "sid": "cc2fce5d-ed17-4064-a8aa-7286b5ce54c9",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 70
+          },
+          {
+            "comp": [
+              [
+                0,
+                5,
+                9
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 140
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                2169,
+                2
+              ],
+              [
+                2170,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                2171,
+                1
+              ],
+              [
+                2172,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 1,
+            "o": [
+              [
+                2173
+              ]
+            ],
+            "rc": 1,
+            "rep": [
+              2169
+            ],
+            "t": 756
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                2172
+              ],
+              [
+                2174
+              ]
+            ],
+            "t": 757
+          }
+        ],
+        "id": "tankbustas",
+        "kws": [
+          "Explosives",
+          "Infantry"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Tankbusta"
+          },
+          {
+            "n": "Nob"
+          }
+        ],
+        "name": "Tankbustas",
+        "sid": "cd03e48d-ef51-40a1-97c7-0f2ada778c7c",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              6,
+              6
+            ],
+            "pts": 160
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2175,
+                1
+              ],
+              [
+                2176,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2177
+              ]
+            ],
+            "rep": [
+              2176
+            ],
+            "t": 758
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2178
+              ],
+              [
+                2179
+              ]
+            ],
+            "t": 759
+          }
+        ],
+        "id": "trukk",
+        "kws": [
+          "Dedicated Transport",
+          "Frame",
+          "Speed Freeks",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Trukk",
+        "sid": "c168aeaf-e2f6-483e-9bc6-c334b720c8be",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ],
+        "step": {
+          "at": 4,
+          "pts": 10
+        }
+      },
+      {
+        "condBattleline": 1,
+        "defaults": [
+          [
+            1,
+            [
+              [
+                2180,
+                1
+              ],
+              [
+                2181,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                2182,
+                1
+              ],
+              [
+                2183,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "grants": [
+          {
+            "det": "kult-of-speed",
+            "kw": "Battleline"
+          }
+        ],
+        "id": "warbikers",
+        "kws": [
+          "Explosives",
+          "Mounted",
+          "Speed Freeks"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Warbiker"
+          },
+          {
+            "n": "Biker Nob"
+          }
+        ],
+        "name": "Warbikers",
+        "sid": "99e837f4-ef82-488b-ad2f-0d27d5ddbead",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 75
+          },
+          {
+            "comp": [
+              [
+                0,
+                3,
+                5
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "per": [
+              4,
+              6
+            ],
+            "pts": 140
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2184,
+                1
+              ],
+              [
+                2185,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2186
+              ]
+            ],
+            "rep": [
+              2185
+            ],
+            "t": 760
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2187
+              ],
+              [
+                2188
+              ]
+            ],
+            "rep": [
+              2184
+            ],
+            "t": 761
+          }
+        ],
+        "id": "warboss",
+        "kws": [
+          "Character",
+          "Explosives",
+          "Infantry",
+          "Warboss"
+        ],
+        "leads": [
+          {
+            "to": "nobz",
+            "type": "leader"
+          },
+          {
+            "to": "breaka-boyz",
+            "type": "leader"
+          },
+          {
+            "to": "boyz",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Warboss",
+        "sid": "d7d98a90-7e1d-4432-976e-9219baece76c",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2189,
+                1
+              ],
+              [
+                2190,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "warboss-in-mega-armour",
+        "kws": [
+          "Character",
+          "Infantry",
+          "Mega Armour",
+          "Warboss"
+        ],
+        "leads": [
+          {
+            "to": "meganobz",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Warboss in Mega Armour",
+        "sid": "8728a0a4-4d67-4cb4-bde1-02710547bf45",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 115
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2027,
+                1
+              ],
+              [
+                2028,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1,
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2029
+              ],
+              [
+                2030
+              ]
+            ],
+            "rep": [
+              2027
+            ],
+            "t": 723
+          }
+        ],
+        "id": "warboss-on-warbike",
+        "kws": [
+          "Character",
+          "Explosives",
+          "Mounted",
+          "Speed Freeks"
+        ],
+        "leads": [
+          {
+            "to": "warbikers",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Warboss on Warbike",
+        "sid": "3d3b408d-b1c4-4b53-ac50-6a8638397e29",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 75
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2191,
+                1
+              ],
+              [
+                2192,
+                1
+              ],
+              [
+                2193,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                2194
+              ]
+            ],
+            "rep": [
+              2191
+            ],
+            "t": 762
+          }
+        ],
+        "id": "warbuggies",
+        "kws": [
+          "Explosives",
+          "Speed Freeks",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Warbuggies",
+        "sid": "9bac8fe0-9305-4e46-b8d1-8a2dc6c9052d",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 70
+          },
+          {
+            "per": [
+              2,
+              2
+            ],
+            "pts": 130
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2195,
+                1
+              ],
+              [
+                2196,
+                1
+              ],
+              [
+                2197,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "id": "wartrakks",
+        "kws": [
+          "Mounted",
+          "Speed Freeks"
+        ],
+        "linked": 1,
+        "name": "Wartrakks",
+        "sid": "a0a04c15-fee5-4144-9bb7-6d9fdc78fea1",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 70
+          },
+          {
+            "per": [
+              2,
+              2
+            ],
+            "pts": 130
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2202,
+                1
+              ],
+              [
+                2203,
+                1
+              ],
+              [
+                2204,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2205
+              ]
+            ],
+            "rep": [
+              2203
+            ],
+            "t": 763
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2206
+              ]
+            ],
+            "t": 764
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2207
+              ]
+            ],
+            "t": 734
+          }
+        ],
+        "id": "wazbom-blastajet",
+        "kws": [
+          "Aircraft",
+          "Fly",
+          "Smoke",
+          "Speed Freeks",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Wazbom Blastajet",
+        "sid": "36dc2926-66df-4ea5-a02e-d4732617025f",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 215
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2198,
+                1
+              ],
+              [
+                2199,
+                1
+              ],
+              [
+                2200,
+                1
+              ],
+              [
+                2201,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "wazdakka-gutsmek",
+        "kws": [
+          "Character",
+          "Epic Hero",
+          "Mounted",
+          "Smoke",
+          "Speed Freeks",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Wazdakka Gutsmek",
+        "sid": "007dd4d3-a1d8-441c-9581-6c2d6b466deb",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 200
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2208,
+                1
+              ],
+              [
+                2209,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "weirdboy",
+        "kws": [
+          "Character",
+          "Infantry",
+          "Psyker"
+        ],
+        "leads": [
+          {
+            "to": "boyz",
+            "type": "support"
+          },
+          {
+            "to": "beast-snagga-boyz",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Weirdboy",
+        "sid": "7691a766-172f-4011-807d-a9af6f9d7ceb",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2210,
+                1
+              ],
+              [
+                2211,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "zodgrod-wortsnagga",
+        "kws": [
+          "Character",
+          "Epic Hero",
+          "Infantry",
+          "Runtherd"
+        ],
+        "leads": [
+          {
+            "to": "gretchin",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Zodgrod Wortsnagga",
+        "sid": "0ab156a5-a197-44b1-a7fa-ee0ab31defbd",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 50
+          }
+        ]
+      }
+    ]
+  }
+}

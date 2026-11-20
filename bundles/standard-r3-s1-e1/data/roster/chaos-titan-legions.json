@@ -1,0 +1,478 @@
+{
+  "default": {
+    "allies": [
+      {
+        "ids": [
+          "chaos-knights:chaos-acastus-knight-asterius",
+          "chaos-knights:chaos-acastus-knight-porphyrion",
+          "chaos-knights:chaos-cerastus-knight-acheron",
+          "chaos-knights:chaos-cerastus-knight-atrapos",
+          "chaos-knights:chaos-cerastus-knight-castigator",
+          "chaos-knights:chaos-cerastus-knight-lancer",
+          "chaos-knights:chaos-questoris-knight-magaera",
+          "chaos-knights:chaos-questoris-knight-styrix",
+          "chaos-knights:knight-abominant",
+          "chaos-knights:knight-desecrator",
+          "chaos-knights:knight-despoiler",
+          "chaos-knights:knight-rampager",
+          "chaos-knights:knight-ruinator",
+          "chaos-knights:knight-tyrant",
+          "chaos-knights:war-dog-brigand",
+          "chaos-knights:war-dog-executioner",
+          "chaos-knights:war-dog-huntsman",
+          "chaos-knights:war-dog-karnivore",
+          "chaos-knights:war-dog-moirax",
+          "chaos-knights:war-dog-stalker"
+        ],
+        "key": "chaos-knights",
+        "lim": {
+          "Titanic": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "War Dog": {
+            "incursion": 3,
+            "onslaught": 3,
+            "strike-force": 3
+          }
+        },
+        "mutex": 1,
+        "name": "Chaos Knights"
+      }
+    ],
+    "detachments": [],
+    "name": "Titanicus Traitoris",
+    "slug": "chaos-titan-legions",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1166,
+                1
+              ],
+              [
+                1167,
+                1
+              ],
+              [
+                1168,
+                1
+              ],
+              [
+                1169,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Titanicus Traitoris"
+        ],
+        "flags": {
+          "nonCharWarlordOk": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1166
+              ],
+              [
+                1170
+              ],
+              [
+                1171
+              ],
+              [
+                1172
+              ]
+            ],
+            "rep": [
+              1167
+            ],
+            "t": 438
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1167
+              ],
+              [
+                1170
+              ],
+              [
+                1171
+              ]
+            ],
+            "rep": [
+              1166
+            ],
+            "t": 439
+          }
+        ],
+        "id": "chaos-reaver-titan",
+        "kws": [
+          "Chaos",
+          "Frame",
+          "Reaver Titan",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Chaos Reaver Titan",
+        "sid": "8f87372e-5a06-47dd-a98f-68061be3f51e",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 2200
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1173,
+                1
+              ],
+              [
+                1174,
+                1
+              ],
+              [
+                1166,
+                1
+              ],
+              [
+                1175,
+                3
+              ],
+              [
+                1176,
+                2
+              ],
+              [
+                1167,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Titanicus Traitoris"
+        ],
+        "flags": {
+          "nonCharWarlordOk": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1177
+              ]
+            ],
+            "rep": [
+              1173
+            ],
+            "t": 440
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1166
+              ],
+              [
+                1170
+              ],
+              [
+                1171
+              ]
+            ],
+            "rep": [
+              1167
+            ],
+            "t": 441
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1167
+              ],
+              [
+                1170
+              ],
+              [
+                1171
+              ]
+            ],
+            "rep": [
+              1166
+            ],
+            "t": 439
+          }
+        ],
+        "id": "chaos-warbringer-nemesis-titan",
+        "kws": [
+          "Chaos",
+          "Frame",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker",
+          "Warbringer Nemesis Titan"
+        ],
+        "linked": 1,
+        "name": "Chaos Warbringer Nemesis Titan",
+        "sid": "232ffc10-a301-4e38-9f71-93682f54dcc8",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 2600
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1178,
+                1
+              ],
+              [
+                1179,
+                1
+              ],
+              [
+                1180,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Titanicus Traitoris"
+        ],
+        "flags": {
+          "nonCharWarlordOk": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1181
+              ],
+              [
+                1182
+              ],
+              [
+                1179
+              ]
+            ],
+            "rep": [
+              1180
+            ],
+            "t": 442
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1181
+              ],
+              [
+                1180
+              ],
+              [
+                1182
+              ]
+            ],
+            "rep": [
+              1179
+            ],
+            "t": 443
+          }
+        ],
+        "id": "chaos-warhound-titan",
+        "kws": [
+          "Chaos",
+          "Frame",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker",
+          "Warhound Titan"
+        ],
+        "linked": 1,
+        "name": "Chaos Warhound Titan",
+        "sid": "89a9e228-43e5-4741-8dbe-37b5b65ab71f",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 1100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1183,
+                1
+              ],
+              [
+                1184,
+                1
+              ],
+              [
+                1175,
+                2
+              ],
+              [
+                1185,
+                2
+              ],
+              [
+                1186,
+                2
+              ],
+              [
+                1187,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Titanicus Traitoris"
+        ],
+        "flags": {
+          "nonCharWarlordOk": 1
+        },
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1188,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1185
+            ],
+            "t": 444
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1189
+              ],
+              [
+                1184
+              ],
+              [
+                1190
+              ],
+              [
+                1191
+              ]
+            ],
+            "rep": [
+              1183
+            ],
+            "t": 445
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1183
+              ],
+              [
+                1189
+              ],
+              [
+                1190
+              ],
+              [
+                1191
+              ]
+            ],
+            "rep": [
+              1184
+            ],
+            "t": 446
+          }
+        ],
+        "id": "chaos-warlord-titan",
+        "kws": [
+          "Chaos",
+          "Frame",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker",
+          "Warlord Titan"
+        ],
+        "linked": 1,
+        "name": "Chaos Warlord Titan",
+        "sid": "afbb101d-c97e-4fa7-b194-8e2733f8883c",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 3500
+          }
+        ]
+      }
+    ]
+  }
+}
