@@ -1,0 +1,1567 @@
+{
+  "default": {
+    "entries": [
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-led"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": {
+              "en": "while a CHARACTER is leading this unit",
+              "ru": "пока отряд возглавляет CHARACTER"
+            }
+          }
+        ],
+        "hash": "b178de89",
+        "kind": "ability",
+        "name": "Aberrants: Hulking Bodyguards",
+        "ref": {
+          "kind": "ability",
+          "unit": "aberrants"
+        },
+        "reviewed": true,
+        "sid": "ef2a8a7e-ff69-4080-bdd5-fe96843862bb:aberrants",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "bb57ed5e",
+        "kind": "ability",
+        "name": "Achilles Ridgerunners: Crossfire",
+        "ref": {
+          "kind": "ability",
+          "unit": "achilles-ridgerunners"
+        },
+        "reviewed": true,
+        "sid": "03af0fc0-6c26-48af-83e0-fa6060aeaa40:achilles-ridgerunners",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Feel No Pain 5+",
+            "when": null
+          }
+        ],
+        "hash": "84109d35",
+        "kind": "ability",
+        "name": "Acolyte Iconward: Nexus of Devotion",
+        "ref": {
+          "kind": "ability",
+          "unit": "acolyte-iconward"
+        },
+        "reviewed": true,
+        "sid": "78c4722f-e85f-4711-b4f8-4a2fd144aa3c:acolyte-iconward",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "LETHAL HITS",
+            "when": null
+          }
+        ],
+        "hash": "43cbb91e",
+        "kind": "ability",
+        "name": "Benefictus: Bio‐horror Disruption",
+        "ref": {
+          "kind": "ability",
+          "unit": "benefictus"
+        },
+        "reviewed": true,
+        "sid": "3f241c29-b6ef-42bb-a5c4-21ba949e7963:benefictus",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "b8c2ff80",
+        "kind": "ability",
+        "name": "Benefictus: Psionic Shield",
+        "ref": {
+          "kind": "ability",
+          "unit": "benefictus"
+        },
+        "reviewed": true,
+        "sid": "dd83e9d1-2776-4f37-86a3-2bc688cab040:benefictus",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "only": {
+              "name": "Injector goad"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 3,
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          },
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "only": {
+              "name": "Injector goad"
+            },
+            "op": "add",
+            "stat": "d",
+            "value": 3,
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "eb80a84d",
+        "kind": "ability",
+        "name": "Biophagus: Biological Warfare",
+        "ref": {
+          "kind": "ability",
+          "unit": "biophagus"
+        },
+        "reviewed": true,
+        "sid": "6f6a9bfc-98b4-4cb9-965b-27c4adb7d4b9:biophagus",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "LETHAL HITS",
+            "when": null
+          }
+        ],
+        "hash": "d2a9d0ad",
+        "kind": "ability",
+        "name": "Biophagus: Twisted Science",
+        "ref": {
+          "kind": "ability",
+          "unit": "biophagus"
+        },
+        "reviewed": true,
+        "sid": "ddc1b543-9402-48c8-87aa-89d5b50d25be:biophagus",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "d30ad47d",
+        "kind": "ability",
+        "name": "Claw of Ascension Achilles Ridgerunner: Crossfire",
+        "ref": {
+          "kind": "ability",
+          "unit": "claw-of-ascension-achilles-ridgerunner"
+        },
+        "reviewed": true,
+        "sid": "cbcf55d0-953b-4bc4-b374-7d6ab4f3a268:claw-of-ascension-achilles-ridgerunner",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "adaptable-sustained"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "the one picked when the unit is selected to attack",
+              "ru": "выбранная, когда отряд выбран для атаки"
+            }
+          },
+          {
+            "cond": [
+              "adaptable-lethal"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "the one picked when the unit is selected to attack",
+              "ru": "выбранная, когда отряд выбран для атаки"
+            }
+          }
+        ],
+        "hash": "9503861f",
+        "kind": "ability",
+        "name": "Claw of Ascension Atalan Jackals: Adaptable Fighters",
+        "ref": {
+          "kind": "ability",
+          "unit": "claw-of-ascension-atalan-jackals"
+        },
+        "reviewed": true,
+        "sid": "8603e51c-bbb0-4519-acfb-05d2285aa161:claw-of-ascension-atalan-jackals",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "6e31de92",
+        "kind": "ability",
+        "name": "Locus: Bodyguard",
+        "ref": {
+          "kind": "ability",
+          "unit": "locus"
+        },
+        "reviewed": true,
+        "sid": "c08a3b23-279d-4a26-b01f-2f6c41aa60af:locus",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Fights First",
+            "when": null
+          }
+        ],
+        "hash": "f54f8f52",
+        "kind": "ability",
+        "name": "Locus: Sudden Assault",
+        "ref": {
+          "kind": "ability",
+          "unit": "locus"
+        },
+        "reviewed": true,
+        "sid": "8cfd92c9-55d5-491d-b50d-719ab02e443e:locus",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "f35bd49c",
+        "kind": "ability",
+        "name": "Magus: Mind Control",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [
+                "PSYKER"
+              ],
+              "targets": [
+                "PSYKER"
+              ]
+            }
+          ],
+          "unit": "magus"
+        },
+        "reviewed": true,
+        "sid": "693e090d-72eb-4589-b1b2-526042d1a974:magus",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "30bf8a33",
+        "kind": "ability",
+        "name": "Magus: Psychic Familiar",
+        "ref": {
+          "kind": "ability",
+          "unit": "magus"
+        },
+        "reviewed": true,
+        "sid": "40bcdab4-08ee-48d9-a197-d5be1748f7aa:magus",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "DEVASTATING WOUNDS",
+            "when": null
+          }
+        ],
+        "hash": "a184123b",
+        "kind": "ability",
+        "name": "Patriarch: Might From Beyond",
+        "ref": {
+          "kind": "ability",
+          "unit": "patriarch"
+        },
+        "reviewed": true,
+        "sid": "845b6f18-3061-4e1d-b8c7-175fbfca25ac:patriarch",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "6987189b",
+        "kind": "ability",
+        "name": "Patriarch: Psychic Familiar",
+        "ref": {
+          "kind": "ability",
+          "unit": "patriarch"
+        },
+        "reviewed": true,
+        "sid": "666a876e-6d72-44f5-87c2-7cef96d2d540:patriarch",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "10806b5a",
+        "kind": "ability",
+        "name": "Primus: Cult Demagogue",
+        "ref": {
+          "kind": "ability",
+          "unit": "primus"
+        },
+        "reviewed": true,
+        "sid": "b4d10d6c-d53c-467c-a367-298fc3433418:primus",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "e258d19a",
+        "kind": "ability",
+        "name": "Tectonic Fragdrill: Fortification",
+        "ref": {
+          "kind": "ability",
+          "unit": "tectonic-fragdrill"
+        },
+        "reviewed": true,
+        "sid": "pack:tectonic-fragdrill:fortification",
+        "ver": 995
+      },
+      {
+        "det": "Biosanctic Broodsurge",
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "add",
+            "scope": 0,
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "after making a Charge move this turn",
+              "ru": "после чарджа в этом ходу"
+            }
+          }
+        ],
+        "hash": "364caafb",
+        "kind": "detachmentRule",
+        "name": "Hypermorphic Fury",
+        "ref": {
+          "det": "biosanctic-broodsurge",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "bb51fe29-292d-4c77-a593-ea15daa0d3e3",
+        "ver": 925
+      },
+      {
+        "det": "Brood Brothers Auxilia",
+        "effects": [],
+        "hash": "84a0b160",
+        "kind": "detachmentRule",
+        "name": "Brood Brothers",
+        "note": "army-composition rule — allied allowance and its exclusions",
+        "ref": {
+          "det": "brood-brothers-auxilia",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "692e28b8-13f6-4464-80ad-d4dca1f1d287",
+        "ver": 925
+      },
+      {
+        "det": "Brood Brothers Auxilia",
+        "effects": [],
+        "hash": "8afd11d5",
+        "kind": "detachmentRule",
+        "name": "Integrated Tactics",
+        "ref": {
+          "det": "brood-brothers-auxilia",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "d9d6cbe6-3df2-4a10-be73-424fe1d490c5",
+        "ver": 925
+      },
+      {
+        "det": "Claw of Ascension",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "ranged-s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "6a71d0f1",
+        "kind": "detachmentRule",
+        "name": "Xenos Resilience",
+        "ref": {
+          "det": "cp:genestealer-cults",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "f4031e00-d3d0-43c0-9dfb-f4c579906260",
+        "ver": 995
+      },
+      {
+        "det": "Final Day",
+        "effects": [],
+        "hash": "14212d1a",
+        "kind": "detachmentRule",
+        "name": "Psionic Parasitism",
+        "ref": {
+          "det": "final-day",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "7767306f-ad29-4d17-8510-f5dcb2a06f78",
+        "ver": 925
+      },
+      {
+        "det": "Heroes of the Uprising",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "scope": 0,
+            "stat": "keyword",
+            "value": "Killer",
+            "when": null
+          }
+        ],
+        "hash": "2413320a",
+        "kind": "detachmentRule",
+        "name": "Killer Reputation",
+        "ref": {
+          "det": "heroes-of-the-uprising",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "28217f4d-ffb6-4df2-b0e5-1e78c7f86366",
+        "ver": 995
+      },
+      {
+        "det": "Host of Ascension",
+        "effects": [
+          {
+            "cond": [
+              "unit-arrived-from-reserves"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "until the end of your next Fight phase after that unit arrives as Reinforcements",
+              "ru": "до конца вашей следующей фазы боя после прибытия отряда из резерва"
+            }
+          },
+          {
+            "cond": [
+              "unit-arrived-from-reserves"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "until the end of your next Fight phase after that unit arrives as Reinforcements",
+              "ru": "до конца вашей следующей фазы боя после прибытия отряда из резерва"
+            }
+          }
+        ],
+        "hash": "dfb73c3c",
+        "kind": "detachmentRule",
+        "name": "A Perfect Ambush",
+        "ref": {
+          "det": "host-of-ascension",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "4947e8db-c886-450b-a59c-4e3455f2d533",
+        "ver": 925
+      },
+      {
+        "det": "Outlander Claw",
+        "effects": [
+          {
+            "cond": [
+              "unit-not-battle-shocked"
+            ],
+            "on": "profile",
+            "op": "add",
+            "scope": 0,
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "Mounted and Vehicle models, while not Battle-shocked",
+              "ru": "модели Mounted и Vehicle, пока не Battle-shocked"
+            }
+          }
+        ],
+        "hash": "912340d2",
+        "kind": "detachmentRule",
+        "name": "Rapid Takeover",
+        "ref": {
+          "det": "outlander-claw",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "ccfe9240-89b1-433e-a3b9-e7557e36d2a6",
+        "ver": 925
+      },
+      {
+        "det": "Purestrain Broodswarm",
+        "effects": [],
+        "hash": "47e4d27b",
+        "kind": "detachmentRule",
+        "name": "Enemy Within",
+        "ref": {
+          "det": "purestrain-broodswarm",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "5b337e6a-34a4-4fc5-a725-bfb57625867a",
+        "ver": 995
+      },
+      {
+        "appliesWhile": [
+          "unit-led"
+        ],
+        "det": "Xenocreed Congregation",
+        "effects": [],
+        "hash": "2174a241",
+        "kind": "detachmentRule",
+        "name": "Unquestioning Fanaticism",
+        "ref": {
+          "det": "xenocreed-congregation",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "b58f14db-dd11-4e6c-80f0-7e3915af5840",
+        "ver": 925
+      },
+      {
+        "det": "Xenocult Masses",
+        "effects": [],
+        "hash": "50f0c6e3",
+        "kind": "detachmentRule",
+        "name": "Hordes of the Faithful",
+        "ref": {
+          "det": "xenocult-masses",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "289da449-4707-4d3e-91e8-ffe2c81b3c18",
+        "ver": 995
+      },
+      {
+        "det": "Biosanctic Broodsurge",
+        "effects": [],
+        "hash": "e7e2571e",
+        "kind": "enhancement",
+        "name": "Alien Majesty",
+        "ref": {
+          "det": "biosanctic-broodsurge",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "4554e2a3-cef7-4ce5-97a6-20c3a3389180",
+        "ver": 925
+      },
+      {
+        "det": "Biosanctic Broodsurge",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "4223c31d",
+        "kind": "enhancement",
+        "name": "Biomorph Adaptation",
+        "ref": {
+          "det": "biosanctic-broodsurge",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "3f4c0ade-9d77-49c0-915b-29b7e942703c",
+        "ver": 925
+      },
+      {
+        "det": "Biosanctic Broodsurge",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Infiltrators",
+            "when": null
+          }
+        ],
+        "hash": "2680efcf",
+        "kind": "enhancement",
+        "name": "Predatory Instincts",
+        "ref": {
+          "det": "biosanctic-broodsurge",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "175dea26-cb65-4e86-be1c-5a1bb166f8ac",
+        "ver": 925
+      },
+      {
+        "det": "Brood Brothers Auxilia",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "ap",
+            "target": "aura",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "88e4b31d",
+        "kind": "enhancement",
+        "name": "Martial Espionage",
+        "ref": {
+          "det": "brood-brothers-auxilia",
+          "kind": "enhancement",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "ASTRA MILITARUM INFANTRY",
+                "ASTRA MILITARUM MOUNTED"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "e01ab9b2-f087-4e37-9b71-1cc22a578c83",
+        "ver": 925
+      },
+      {
+        "det": "Brood Brothers Auxilia",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "improve",
+            "stat": "ld",
+            "target": "led",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "target": "led",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "8ef27e44",
+        "kind": "enhancement",
+        "name": "The Hero Returned",
+        "ref": {
+          "det": "brood-brothers-auxilia",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "e95ab1e2-a777-46ae-af4e-8beea260091c",
+        "ver": 925
+      },
+      {
+        "det": "Claw of Ascension",
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "name": "Achilles missile launcher"
+            },
+            "op": "add",
+            "stat": "a",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "ranged",
+            "only": {
+              "name": "Achilles missile launcher"
+            },
+            "op": "add",
+            "stat": "s",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "ranged",
+            "only": {
+              "name": "Achilles missile launcher"
+            },
+            "op": "add",
+            "stat": "ap",
+            "target": "unit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "79c5cf6b",
+        "kind": "enhancement",
+        "name": "Heavy Munitions",
+        "ref": {
+          "det": "cp:genestealer-cults",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "e7fc2192-7062-46ff-a419-4fd5045ddf1f",
+        "ver": 925
+      },
+      {
+        "det": "Claw of Ascension",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against the one enemy unit selected",
+              "ru": "против одного выбранного вражеского отряда"
+            }
+          }
+        ],
+        "hash": "22b570c6",
+        "kind": "enhancement",
+        "name": "Practiced Eye",
+        "ref": {
+          "det": "cp:genestealer-cults",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "3ddc79d6-e82b-4898-ad3c-c3c174f9e145",
+        "ver": 995
+      },
+      {
+        "det": "Final Day",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while targeting an enemy unit within 6\" of a friendly Tyranids unit",
+              "ru": "пока целью является отряд противника в пределах 6\" от дружественного отряда Tyranids"
+            }
+          }
+        ],
+        "hash": "04560364",
+        "kind": "enhancement",
+        "name": "Inhuman Integration",
+        "ref": {
+          "det": "final-day",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "2bcf475c-6bb6-4b44-83d7-f0c8832afc0d",
+        "ver": 925
+      },
+      {
+        "det": "Final Day",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "7fe0b929",
+        "kind": "enhancement",
+        "name": "Vanguard Tyrant",
+        "ref": {
+          "det": "final-day",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "ab3c5d79-10c6-469d-a00f-ecf411b344ed",
+        "ver": 925
+      },
+      {
+        "det": "Heroes of the Uprising",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "s",
+            "target": "led",
+            "value": 2,
+            "when": null
+          }
+        ],
+        "hash": "c8aed89b",
+        "kind": "enhancement",
+        "name": "Contraband Munitions",
+        "ref": {
+          "det": "heroes-of-the-uprising",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "75a729bf-56a4-44c1-9afd-f91861a38ba9",
+        "ver": 925
+      },
+      {
+        "det": "Heroes of the Uprising",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "bde455d0",
+        "kind": "enhancement",
+        "name": "Gene-tailored Toxins",
+        "ref": {
+          "det": "heroes-of-the-uprising",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "41aca640-4f20-4528-8342-11821d5aefa3",
+        "ver": 925
+      },
+      {
+        "det": "Host of Ascension",
+        "effects": [
+          {
+            "cond": [
+              "unit-arrived-from-reserves"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "until the end of your next Fight phase after the bearer arrives as Reinforcements",
+              "ru": "до конца вашей следующей фазы боя после прибытия носителя из резерва"
+            }
+          }
+        ],
+        "hash": "9d8852ff",
+        "kind": "enhancement",
+        "name": "A Chink In Their Armour",
+        "ref": {
+          "det": "host-of-ascension",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "0cc09514-6805-4a02-84ac-40b66bad5d9d",
+        "ver": 925
+      },
+      {
+        "det": "Host of Ascension",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "against a CHARACTER unit",
+              "ru": "по отряду CHARACTER"
+            }
+          }
+        ],
+        "hash": "80b09c5b",
+        "kind": "enhancement",
+        "name": "Assassination Edict",
+        "ref": {
+          "det": "host-of-ascension",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "fdcaf518-62e4-4b42-8452-32bd9d786dd4",
+        "ver": 925
+      },
+      {
+        "det": "Host of Ascension",
+        "effects": [],
+        "hash": "8a5b2e3f",
+        "kind": "enhancement",
+        "name": "Our Time is Nigh",
+        "ref": {
+          "det": "host-of-ascension",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "9e598472-acd4-48c8-9141-8e722eea543c",
+        "ver": 925
+      },
+      {
+        "det": "Outlander Claw",
+        "effects": [],
+        "hash": "bf5bec2d",
+        "kind": "enhancement",
+        "name": "Cartographic Data-leech",
+        "ref": {
+          "det": "outlander-claw",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "4704f5a9-ad36-4f05-a804-59da08a53869",
+        "ver": 925
+      },
+      {
+        "det": "Outlander Claw",
+        "effects": [],
+        "hash": "855ce9db",
+        "kind": "enhancement",
+        "name": "Starfall Shells",
+        "ref": {
+          "det": "outlander-claw",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "05991a9e-c519-4267-971c-b9d69f36e679",
+        "ver": 995
+      },
+      {
+        "det": "Purestrain Broodswarm",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "sv",
+            "target": "unit",
+            "value": "4+",
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "0529fabb",
+        "kind": "enhancement",
+        "name": "Mark of the Star Children (Upgrade)",
+        "ref": {
+          "det": "purestrain-broodswarm",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "4fb6414e-4c63-4843-b06c-ebcb2e5d0469",
+        "ver": 925
+      },
+      {
+        "det": "Xenocreed Congregation",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "against a CHARACTER unit",
+              "ru": "по отряду CHARACTER"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "against a CHARACTER unit",
+              "ru": "по отряду CHARACTER"
+            }
+          }
+        ],
+        "hash": "5c9be627",
+        "kind": "enhancement",
+        "name": "Denunciator of Tyrants",
+        "ref": {
+          "det": "xenocreed-congregation",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "600d4605-dd14-421c-862c-c10be1906647",
+        "ver": 925
+      },
+      {
+        "det": "Biosanctic Broodsurge",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": {
+              "en": "against that enemy unit, if it failed its Battle-shock test",
+              "ru": "против этого вражеского отряда, если он провалил тест Battle-shock"
+            }
+          }
+        ],
+        "hash": "0cda3d9c",
+        "kind": "stratagem",
+        "name": "Bio-horror Revelation",
+        "ref": {
+          "det": "biosanctic-broodsurge",
+          "kind": "stratagem",
+          "name": "Bio-horror Revelation"
+        },
+        "reviewed": true,
+        "sid": "4cb1bc53-b399-4352-8b12-743fa82c9e82",
+        "ver": 995
+      },
+      {
+        "det": "Biosanctic Broodsurge",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against a MONSTER or VEHICLE unit",
+              "ru": "по отряду MONSTER или VEHICLE"
+            }
+          }
+        ],
+        "hash": "29fc7b5f",
+        "kind": "stratagem",
+        "name": "Gene-twisted Muscle",
+        "ref": {
+          "det": "biosanctic-broodsurge",
+          "kind": "stratagem",
+          "name": "Gene-twisted Muscle"
+        },
+        "reviewed": true,
+        "sid": "89f9667a-2fe9-43f7-acae-2da2c36fdd58",
+        "ver": 925
+      },
+      {
+        "det": "Final Day",
+        "effects": [],
+        "hash": "abdfd34a",
+        "kind": "stratagem",
+        "name": "Avenge the Star Children",
+        "ref": {
+          "det": "final-day",
+          "kind": "stratagem",
+          "name": "Avenge the Star Children"
+        },
+        "reviewed": true,
+        "sid": "e361c74a-b210-419e-8896-e612c5b2eb1a",
+        "ver": 925
+      },
+      {
+        "det": "Heroes of the Uprising",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "KILLER models only",
+              "ru": "только модели KILLER"
+            }
+          }
+        ],
+        "hash": "9ac68057",
+        "kind": "stratagem",
+        "name": "Surging Broodworship",
+        "ref": {
+          "det": "heroes-of-the-uprising",
+          "kind": "stratagem",
+          "name": "Surging Broodworship"
+        },
+        "reviewed": true,
+        "sid": "265289eb-b508-484a-9f67-0e0aa86cd3e4",
+        "ver": 925
+      },
+      {
+        "det": "Host of Ascension",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against the selected enemy unit",
+              "ru": "по выбранному вражескому отряду"
+            }
+          }
+        ],
+        "hash": "ac39cd86",
+        "kind": "stratagem",
+        "name": "Coordinated Trap",
+        "ref": {
+          "det": "host-of-ascension",
+          "kind": "stratagem",
+          "name": "Coordinated Trap"
+        },
+        "reviewed": true,
+        "sid": "c76dd692-ec4c-47a9-a699-83ce9fa6f236",
+        "ver": 925
+      },
+      {
+        "det": "Outlander Claw",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "against targets within 18\"",
+              "ru": "против целей в 18\""
+            }
+          }
+        ],
+        "hash": "a0c70c35",
+        "kind": "stratagem",
+        "name": "Close-range Shoot-out",
+        "ref": {
+          "det": "outlander-claw",
+          "kind": "stratagem",
+          "name": "Close-range Shoot-out"
+        },
+        "reviewed": true,
+        "sid": "2cde0724-fb92-4638-b2b9-ac61fc0bc08c",
+        "ver": 925
+      },
+      {
+        "det": "Outlander Claw",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "987d6ae0",
+        "kind": "stratagem",
+        "name": "Deft Manoeuvring",
+        "ref": {
+          "det": "outlander-claw",
+          "kind": "stratagem",
+          "name": "Deft Manoeuvring"
+        },
+        "reviewed": true,
+        "sid": "7e26616d-df7c-434a-a91f-049f78fd0863",
+        "ver": 925
+      },
+      {
+        "det": "Outlander Claw",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "df9c6903",
+        "kind": "stratagem",
+        "name": "Devoted Crew",
+        "ref": {
+          "det": "outlander-claw",
+          "kind": "stratagem",
+          "name": "Devoted Crew"
+        },
+        "reviewed": true,
+        "sid": "fb05d738-b1ad-4a65-8c61-878f9e0f5ee4",
+        "ver": 925
+      },
+      {
+        "det": "Xenocreed Congregation",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "excluding CHARACTER models (their weapons also gain [HAZARDOUS])",
+              "ru": "кроме моделей CHARACTER (оружие получает [HAZARDOUS])"
+            }
+          },
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "melee",
+            "op": "improve",
+            "stat": "ws",
+            "value": 1,
+            "when": {
+              "en": "excluding CHARACTER models (their weapons also gain [HAZARDOUS])",
+              "ru": "кроме моделей CHARACTER (оружие получает [HAZARDOUS])"
+            }
+          },
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "HAZARDOUS",
+            "when": {
+              "en": "models other than CHARACTERS",
+              "ru": "кроме моделей CHARACTER"
+            }
+          }
+        ],
+        "hash": "e009a163",
+        "kind": "stratagem",
+        "name": "Frenzied Devotion",
+        "ref": {
+          "det": "xenocreed-congregation",
+          "kind": "stratagem",
+          "name": "Frenzied Devotion"
+        },
+        "reviewed": true,
+        "sid": "ed33177c-e79a-4f2e-b2af-f1c616eefef5",
+        "ver": 925
+      },
+      {
+        "det": "Xenocreed Congregation",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "cf9bdcda",
+        "kind": "stratagem",
+        "name": "Transcendent Celerity",
+        "ref": {
+          "det": "xenocreed-congregation",
+          "kind": "stratagem",
+          "name": "Transcendent Celerity"
+        },
+        "reviewed": true,
+        "sid": "33af9d30-cab9-49b0-bb8b-66ac614470c0",
+        "ver": 925
+      },
+      {
+        "det": "Xenocult Masses",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "ap",
+            "value": 1,
+            "vs": "ranged",
+            "when": null
+          }
+        ],
+        "hash": "8562af04",
+        "kind": "stratagem",
+        "name": "Slunk from the Underbelly",
+        "ref": {
+          "det": "xenocult-masses",
+          "kind": "stratagem",
+          "name": "Slunk from the Underbelly"
+        },
+        "reviewed": true,
+        "sid": "244095c9-a6cb-42da-987f-277997385935",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Smoke",
+            "when": null
+          }
+        ],
+        "hash": "f9a96d14",
+        "kind": "wargear",
+        "name": "Achilles Ridgerunners: Flare launcher",
+        "ref": {
+          "item": "flare launcher",
+          "kind": "wargear",
+          "unit": "achilles-ridgerunners"
+        },
+        "reviewed": true,
+        "sid": "61c63ee8-1c41-4e6c-b0e8-5451c154c896:achilles-ridgerunners",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "ranged",
+            "op": "set",
+            "stat": "bs",
+            "value": "3+",
+            "when": {
+              "en": "the bearer's weapons only",
+              "ru": "только оружие носителя"
+            }
+          }
+        ],
+        "hash": "b4db684e",
+        "kind": "wargear",
+        "name": "Achilles Ridgerunners: Spotter",
+        "ref": {
+          "item": "spotter",
+          "kind": "wargear",
+          "unit": "achilles-ridgerunners"
+        },
+        "reviewed": true,
+        "sid": "ea265349-dc8b-491b-a164-16e0ef1e0a55:achilles-ridgerunners",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "against the marked enemy unit",
+              "ru": "по отмеченному вражескому отряду"
+            }
+          }
+        ],
+        "hash": "ce56a5b3",
+        "kind": "wargear",
+        "name": "Achilles Ridgerunners: Survey Augur",
+        "ref": {
+          "item": "survey augur",
+          "kind": "wargear",
+          "unit": "achilles-ridgerunners"
+        },
+        "reviewed": true,
+        "sid": "d47b0a50-f539-4af2-b886-e08f4ef8c786:achilles-ridgerunners",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "wound",
+            "target": "unit",
+            "value": 1,
+            "when": {
+              "en": "once per battle, for the phase, against an INFANTRY unit",
+              "ru": "раз за битву, на фазу, по отряду INFANTRY"
+            }
+          }
+        ],
+        "hash": "8a6ddd66",
+        "kind": "wargear",
+        "name": "Biophagus: Alchemicus Familiar",
+        "ref": {
+          "item": "alchemicus familiar",
+          "kind": "wargear",
+          "unit": "biophagus"
+        },
+        "reviewed": true,
+        "sid": "8315877d-349f-4db7-8f6d-2122795cdb93:biophagus",
+        "ver": 925
+      }
+    ],
+    "formatVersion": 1,
+    "slug": "genestealer-cults"
+  }
+}

@@ -1,0 +1,3232 @@
+{
+  "default": {
+    "entries": [
+      {
+        "det": null,
+        "effects": [],
+        "hash": "290c3fa6",
+        "kind": "ability",
+        "name": "Aquila Kill Team: Death to the Alien",
+        "ref": {
+          "kind": "ability",
+          "unit": "aquila-kill-team"
+        },
+        "reviewed": true,
+        "sid": "b82bc4eb-e01d-4fe8-90ae-b1ceefa6670f:aquila-kill-team",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "da4e1674",
+        "kind": "ability",
+        "name": "Aquila Kill Team: Kill Team",
+        "ref": {
+          "kind": "ability",
+          "unit": "aquila-kill-team"
+        },
+        "reviewed": true,
+        "sid": "b7bf8d62-0f75-4e4b-bc0f-662c1a16ef68:aquila-kill-team",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": null
+          }
+        ],
+        "hash": "7edac6d1",
+        "kind": "ability",
+        "name": "Corvus Blackstar: Auspex Array",
+        "ref": {
+          "kind": "ability",
+          "unit": "corvus-blackstar"
+        },
+        "reviewed": true,
+        "sid": "cf0e2c9b-6fee-4388-8434-38600335cc8d:corvus-blackstar",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 2+ (vs Psychic Attacks)",
+            "when": null
+          }
+        ],
+        "hash": "0d07cd2a",
+        "kind": "ability",
+        "name": "Culexus Assassin: Abomination",
+        "ref": {
+          "kind": "ability",
+          "unit": "culexus-assassin"
+        },
+        "reviewed": true,
+        "sid": "f8711d73-0a55-4e7d-a23c-92b9b2ec60b2:culexus-assassin",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-led"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "oc",
+            "value": "1",
+            "when": {
+              "en": "while an INQUISITOR is leading this unit",
+              "ru": "пока отряд ведёт INQUISITOR"
+            }
+          }
+        ],
+        "hash": "c9f8edd4",
+        "kind": "ability",
+        "name": "Daemonhost: Bound Daemon",
+        "ref": {
+          "kind": "ability",
+          "unit": "daemonhost"
+        },
+        "reviewed": true,
+        "sid": "pack:daemonhost:bound-daemon",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-led"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "5+",
+            "when": {
+              "en": "while an INQUISITOR is leading this unit",
+              "ru": "пока отряд ведёт INQUISITOR"
+            }
+          },
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "leader",
+            "value": "5+",
+            "when": null
+          }
+        ],
+        "hash": "5fa821fc",
+        "kind": "ability",
+        "name": "Daemonhost: Malefic Warding",
+        "ref": {
+          "kind": "ability",
+          "unit": "daemonhost"
+        },
+        "reviewed": true,
+        "sid": "pack:daemonhost:malefic-warding",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "290c3fa6",
+        "kind": "ability",
+        "name": "Deathwatch Kill Team: Death to the Alien",
+        "ref": {
+          "kind": "ability",
+          "unit": "deathwatch-kill-team"
+        },
+        "reviewed": true,
+        "sid": "ebff3e61-ed19-4d44-9de6-384714553def:deathwatch-kill-team",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "once": {
+              "dur": "turn",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "m",
+            "value": 6,
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          },
+          {
+            "on": "melee",
+            "once": {
+              "dur": "turn",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 3,
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "23baf762",
+        "kind": "ability",
+        "name": "Eversor Assassin: Overkill",
+        "ref": {
+          "kind": "ability",
+          "unit": "eversor-assassin"
+        },
+        "reviewed": true,
+        "sid": "3abf4a41-24a8-4b00-99ff-070da866be07:eversor-assassin",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "against the marked enemy unit",
+              "ru": "по отмеченному вражескому отряду"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "against the marked enemy unit",
+              "ru": "по отмеченному вражескому отряду"
+            }
+          }
+        ],
+        "hash": "d83f9fee",
+        "kind": "ability",
+        "name": "Exaction Squad: Imperial Law",
+        "ref": {
+          "kind": "ability",
+          "unit": "exaction-squad"
+        },
+        "reviewed": true,
+        "sid": "45a6c1ac-0a09-47da-9ac0-b8716abdc416:exaction-squad",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a unit that is Below Half-strength",
+              "ru": "по отряду Below Half-strength"
+            }
+          }
+        ],
+        "hash": "89d62c76",
+        "kind": "ability",
+        "name": "Fortis Kill Team: Fortis Doctrines",
+        "ref": {
+          "kind": "ability",
+          "unit": "fortis-kill-team"
+        },
+        "reviewed": true,
+        "sid": "pack:fortis-kill-team:fortis-doctrines",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "64def260",
+        "kind": "ability",
+        "name": "Fortis Kill Team: Kill Team",
+        "ref": {
+          "kind": "ability",
+          "unit": "fortis-kill-team"
+        },
+        "reviewed": true,
+        "sid": "pack:fortis-kill-team:kill-team",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "until the end of a turn it made a Charge move",
+              "ru": "до конца хода, в котором совершил Charge"
+            }
+          }
+        ],
+        "hash": "88d43136",
+        "kind": "ability",
+        "name": "Grey Knights Terminator Squad: Hammerhand",
+        "ref": {
+          "kind": "ability",
+          "unit": "grey-knights-terminator-squad"
+        },
+        "reviewed": true,
+        "sid": "a3719eb1-6c71-4db2-927b-f1a50dffbb3b:grey-knights-terminator-squad",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "once per battle, the phase it is used",
+              "ru": "раз за битву, фаза, в которую применено"
+            }
+          }
+        ],
+        "hash": "c01c6511",
+        "kind": "ability",
+        "name": "Imperial Navy Breachers: CAT Unit",
+        "ref": {
+          "kind": "ability",
+          "unit": "imperial-navy-breachers"
+        },
+        "reviewed": true,
+        "sid": "88b7c551-6538-4fab-a565-528f90bccd49:imperial-navy-breachers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-below-starting-strength"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "while this unit is below its Starting Strength",
+              "ru": "пока отряд ниже Starting Strength"
+            }
+          },
+          {
+            "cond": [
+              "unit-below-half-strength"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "while this unit is below its Starting Strength",
+              "ru": "пока отряд ниже Starting Strength"
+            }
+          },
+          {
+            "cond": [
+              "unit-below-half-strength"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "while this unit is Below Half-strength",
+              "ru": "пока отряд Below Half-strength"
+            }
+          }
+        ],
+        "hash": "496e063b",
+        "kind": "ability",
+        "name": "Indomitor Kill Team: Indomitor Doctrines",
+        "note": "Read as Death Korps of Krieg: Grim Demeanour (astra-militarum), the same text.",
+        "ref": {
+          "kind": "ability",
+          "unit": "indomitor-kill-team"
+        },
+        "reviewed": true,
+        "sid": "pack:indomitor-kill-team:indomitor-doctrines",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "64def260",
+        "kind": "ability",
+        "name": "Indomitor Kill Team: Kill Team",
+        "ref": {
+          "kind": "ability",
+          "unit": "indomitor-kill-team"
+        },
+        "reviewed": true,
+        "sid": "pack:indomitor-kill-team:kill-team",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "unit",
+            "value": "6+",
+            "when": null
+          },
+          {
+            "alt": 0,
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "unit",
+            "value": "4+",
+            "when": {
+              "en": "against Psychic Attacks and DAEMON attacks, instead",
+              "ru": "против Psychic Attacks и атак DAEMON, вместо этого"
+            }
+          }
+        ],
+        "hash": "7c363fc8",
+        "kind": "ability",
+        "name": "Inquisitor Coteaz: Malefic Wardings",
+        "ref": {
+          "kind": "ability",
+          "unit": "inquisitor-coteaz"
+        },
+        "reviewed": true,
+        "sid": "500e30b2-050d-43e9-9682-e9902367e0a8:inquisitor-coteaz",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "target": "unit",
+            "value": 1,
+            "when": {
+              "en": "against an enemy unit that has neither the IMPERIUM nor the CHAOS keyword",
+              "ru": "по вражескому отряду без ключевых слов IMPERIUM и CHAOS"
+            }
+          }
+        ],
+        "hash": "22b18374",
+        "kind": "ability",
+        "name": "Inquisitor Draxus: Xenos Hunter",
+        "ref": {
+          "kind": "ability",
+          "unit": "inquisitor-draxus"
+        },
+        "reviewed": true,
+        "sid": "8f8f280c-f5a8-4df4-93b4-0b402c61e3fa:inquisitor-draxus",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "9becbd8a",
+        "kind": "ability",
+        "name": "Inquisitor Eisenhorn: Dominate Will (Psychic)",
+        "ref": {
+          "kind": "ability",
+          "unit": "inquisitor-eisenhorn"
+        },
+        "reviewed": true,
+        "sid": "pack:inquisitor-eisenhorn:dominate-will-psychic",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "only": {
+              "name": "Warp grasp"
+            },
+            "op": "mul",
+            "stat": "a",
+            "target": "led",
+            "value": 2,
+            "when": null
+          }
+        ],
+        "hash": "518705b7",
+        "kind": "ability",
+        "name": "Inquisitor Eisenhorn: Malus Codicium",
+        "ref": {
+          "kind": "ability",
+          "unit": "inquisitor-eisenhorn"
+        },
+        "reviewed": true,
+        "sid": "pack:inquisitor-eisenhorn:malus-codicium",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "target": "unit",
+            "value": 1,
+            "when": {
+              "en": "against a unit that is Below Half-strength",
+              "ru": "по отряду, который Below Half-strength"
+            }
+          }
+        ],
+        "hash": "a2c8eed2",
+        "kind": "ability",
+        "name": "Inquisitor Greyfax: No Mercy",
+        "ref": {
+          "kind": "ability",
+          "unit": "inquisitor-greyfax"
+        },
+        "reviewed": true,
+        "sid": "5ad5311f-39c0-48d2-b0aa-45afbe912f33:inquisitor-greyfax",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "ANTI-PSYKER 4+",
+            "when": null
+          }
+        ],
+        "hash": "5f809e24",
+        "kind": "ability",
+        "name": "Inquisitor Greyfax: Psyoculum",
+        "ref": {
+          "kind": "ability",
+          "unit": "inquisitor-greyfax"
+        },
+        "reviewed": true,
+        "sid": "8aed8c98-1577-4b0e-ad6f-42b69a9097d5:inquisitor-greyfax",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "improve",
+            "stat": "ld",
+            "target": "aura",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "cc945e29",
+        "kind": "ability",
+        "name": "Inquisitor Karamazov: Throne of Judgement (Aura)",
+        "ref": {
+          "kind": "ability",
+          "unit": "inquisitor-karamazov"
+        },
+        "reviewed": true,
+        "sid": "pack:inquisitor-karamazov:throne-of-judgement-aura",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "e2380af3",
+        "kind": "ability",
+        "name": "Inquisitor Karamazov: Unsubtle Crusader",
+        "ref": {
+          "kind": "ability",
+          "unit": "inquisitor-karamazov"
+        },
+        "reviewed": true,
+        "sid": "pack:inquisitor-karamazov:unsubtle-crusader",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "tox-cycler-hit"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Jindarii tox"
+            },
+            "op": "add",
+            "stat": "s",
+            "value": 2,
+            "when": {
+              "en": "for the rest of the battle, once it scored a hit with that weapon",
+              "ru": "до конца битвы, если это оружие попало"
+            }
+          },
+          {
+            "cond": [
+              "tox-cycler-hit"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Jindarii tox"
+            },
+            "op": "add",
+            "stat": "d",
+            "value": 2,
+            "when": {
+              "en": "for the rest of the battle, once it scored a hit with that weapon (max Damage 6)",
+              "ru": "до конца битвы, если это оружие попало (Урон не выше 6)"
+            }
+          }
+        ],
+        "hash": "c11f932c",
+        "kind": "ability",
+        "name": "Inquisitor Kroyle: Tox‑cycler",
+        "ref": {
+          "kind": "ability",
+          "unit": "inquisitor-kroyle"
+        },
+        "reviewed": true,
+        "sid": "ee171eca-1e2b-4684-8eae-ad0356a9491c:inquisitor-kroyle",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "vs": "psychic",
+            "when": {
+              "en": "while this model is leading a unit",
+              "ru": "пока модель возглавляет отряд"
+            }
+          },
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "psychic",
+            "when": {
+              "en": "while this model is leading a unit",
+              "ru": "пока модель возглавляет отряд"
+            }
+          },
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": -1,
+            "vs": "psychic",
+            "when": {
+              "en": "while this model is leading a unit",
+              "ru": "пока модель возглавляет отряд"
+            }
+          },
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "target": "led",
+            "value": -1,
+            "vs": "psychic",
+            "when": {
+              "en": "while this model is leading a unit",
+              "ru": "пока модель возглавляет отряд"
+            }
+          }
+        ],
+        "hash": "8116e94b",
+        "kind": "ability",
+        "name": "Inquisitor Ostromandeus: Ward Against the Malefic Arts",
+        "ref": {
+          "kind": "ability",
+          "unit": "inquisitor-ostromandeus"
+        },
+        "reviewed": true,
+        "sid": "pack:inquisitor-ostromandeus:ward-against-the-malefic-arts",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "once": {
+              "dur": "turn",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "ap",
+            "value": -4,
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "4b4fabb9",
+        "kind": "ability",
+        "name": "Inquisitor's Hand Eversor Assassin: Overkill (Once per battle per unit)",
+        "ref": {
+          "kind": "ability",
+          "unit": "inquisitors-hand-eversor-assassin"
+        },
+        "reviewed": true,
+        "sid": "0368fd0e-375b-43eb-9e6e-1d317e3409e0:inquisitors-hand-eversor-assassin",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "when": {
+              "en": "while within range of an objective",
+              "ru": "пока отряд в зоне objective"
+            }
+          }
+        ],
+        "hash": "2cb36b7e",
+        "kind": "ability",
+        "name": "Inquisitor's Hand Inquisitorial Agents: Loyal To The Cause",
+        "ref": {
+          "kind": "ability",
+          "unit": "inquisitors-hand-inquisitorial-agents"
+        },
+        "reviewed": true,
+        "sid": "b7876872-429d-42de-a361-23d1e6dca045:inquisitors-hand-inquisitorial-agents",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against a unit below half-strength",
+              "ru": "против отряда ниже половины численности"
+            }
+          }
+        ],
+        "hash": "ca60952f",
+        "kind": "ability",
+        "name": "Inquisitor's Hand Vigilant Squad: Merciless Judgement",
+        "ref": null,
+        "reviewed": true,
+        "sid": "776b5a9d-b02d-4ea2-96f3-430531adbd1e:inquisitor-s-hand-vigilant-squad",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against a unit below half-strength",
+              "ru": "против отряда ниже половины численности"
+            }
+          }
+        ],
+        "hash": "ca60952f",
+        "kind": "ability",
+        "name": "Inquisitor's Hand Vigilant Squad: Merciless Judgement",
+        "ref": {
+          "kind": "ability",
+          "unit": "inquisitors-hand-vigilant-squad"
+        },
+        "reviewed": true,
+        "sid": "95a72e50-3b4b-4d55-b16b-d2a29e92d773:inquisitors-hand-vigilant-squad",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-led"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "when": {
+              "en": "while an INQUISITOR model is leading this unit",
+              "ru": "пока отряд возглавляет модель INQUISITOR"
+            }
+          }
+        ],
+        "hash": "02c92ad9",
+        "kind": "ability",
+        "name": "Inquisitorial Agents: Loyal Henchmen",
+        "ref": {
+          "kind": "ability",
+          "unit": "inquisitorial-agents"
+        },
+        "reviewed": true,
+        "sid": "9058cf2b-6f2c-4605-9161-f4428f83c993:inquisitorial-agents",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "backroom-deals",
+              "unit-leading"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Infiltrators",
+            "when": {
+              "en": "while this unit is the one selected for this ability in the Declare Battle Formations step and is leading a unit",
+              "ru": "пока этот отряд — выбранный для этой способности в шаге Declare Battle Formations и ведёт отряд"
+            }
+          }
+        ],
+        "hash": "90b508e3",
+        "kind": "ability",
+        "name": "Janus Draik: Backroom Deals",
+        "note": "Read as Rogue Trader Entourage: Backroom Deals (imperial-agents), the same text.",
+        "ref": {
+          "kind": "ability",
+          "unit": "janus-draik"
+        },
+        "reviewed": true,
+        "sid": "pack:janus-draik:backroom-deals",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "oc",
+            "value": "1",
+            "when": {
+              "en": "while an INQUISITOR also leads its unit",
+              "ru": "пока отряд также ведёт INQUISITOR"
+            }
+          }
+        ],
+        "hash": "c3f5174d",
+        "kind": "ability",
+        "name": "Jokaero Weaponsmith: A Weaponsmith, Not a Warlord",
+        "ref": {
+          "kind": "ability",
+          "unit": "jokaero-weaponsmith"
+        },
+        "reviewed": true,
+        "sid": "pack:jokaero-weaponsmith:a-weaponsmith-not-a-warlord",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "LETHAL HITS",
+            "when": null
+          }
+        ],
+        "hash": "29574b05",
+        "kind": "ability",
+        "name": "Jokaero Weaponsmith: Inconceivable Augmentation",
+        "ref": {
+          "kind": "ability",
+          "unit": "jokaero-weaponsmith"
+        },
+        "reviewed": true,
+        "sid": "pack:jokaero-weaponsmith:inconceivable-augmentation",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "contains-chaplain-cassius"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "while this unit contains Chaplain Cassius",
+              "ru": "пока в отряде есть Chaplain Cassius"
+            }
+          }
+        ],
+        "hash": "ce021738",
+        "kind": "ability",
+        "name": "Kill Team Cassius: Catechism of Death",
+        "ref": {
+          "kind": "ability",
+          "unit": "kill-team-cassius"
+        },
+        "reviewed": true,
+        "sid": "pack:kill-team-cassius:catechism-of-death",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "64def260",
+        "kind": "ability",
+        "name": "Kill Team Cassius: Kill Team",
+        "ref": {
+          "kind": "ability",
+          "unit": "kill-team-cassius"
+        },
+        "reviewed": true,
+        "sid": "pack:kill-team-cassius:kill-team",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "9d48081a",
+        "kind": "ability",
+        "name": "Ministorum Priest: Holy Hatred",
+        "ref": {
+          "kind": "ability",
+          "unit": "ministorum-priest"
+        },
+        "reviewed": true,
+        "sid": "7b8abd6e-ceb3-4e6b-90c4-b46306d857c5:ministorum-priest",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 3,
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          },
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "s",
+            "value": 3,
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "0ff5db45",
+        "kind": "ability",
+        "name": "Ministorum Priest: Zealot",
+        "ref": {
+          "kind": "ability",
+          "unit": "ministorum-priest"
+        },
+        "reviewed": true,
+        "sid": "3814e980-da68-4a95-b974-1ae6ff5c7542:ministorum-priest",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "backroom-deals",
+              "unit-leading"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Infiltrators",
+            "when": {
+              "en": "while this unit is the one selected for this ability in the Declare Battle Formations step and is leading a unit",
+              "ru": "пока этот отряд — выбранный для этой способности в шаге Declare Battle Formations и ведёт отряд"
+            }
+          }
+        ],
+        "hash": "90b508e3",
+        "kind": "ability",
+        "name": "Neyam Shai Murad: Backroom Deals",
+        "note": "Read as Rogue Trader Entourage: Backroom Deals (imperial-agents), the same text.",
+        "ref": {
+          "kind": "ability",
+          "unit": "neyam-shai-murad"
+        },
+        "reviewed": true,
+        "sid": "pack:neyam-shai-murad:backroom-deals",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "23578dc1",
+        "kind": "ability",
+        "name": "Preacher Teguen: Holy Hatred",
+        "ref": {
+          "kind": "ability",
+          "unit": "preacher-teguen"
+        },
+        "reviewed": true,
+        "sid": "f44961d2-ef44-41e8-ae8f-ad3d2486401e:preacher-teguen",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 3,
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          },
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "s",
+            "value": 3,
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "b7d24256",
+        "kind": "ability",
+        "name": "Preacher Teguen: Zealot (Once per battle per unit)",
+        "ref": {
+          "kind": "ability",
+          "unit": "preacher-teguen"
+        },
+        "reviewed": true,
+        "sid": "529d2a22-6ed3-43d9-91a3-21a95385892f:preacher-teguen",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "64def260",
+        "kind": "ability",
+        "name": "Proteus Kill Team: Kill Team",
+        "ref": {
+          "kind": "ability",
+          "unit": "proteus-kill-team"
+        },
+        "reviewed": true,
+        "sid": "pack:proteus-kill-team:kill-team",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a unit that is not Below Half-strength",
+              "ru": "по отряду, который не Below Half-strength"
+            }
+          }
+        ],
+        "hash": "8f8b26fd",
+        "kind": "ability",
+        "name": "Proteus Kill Team: Proteus Doctrines",
+        "ref": {
+          "kind": "ability",
+          "unit": "proteus-kill-team"
+        },
+        "reviewed": true,
+        "sid": "pack:proteus-kill-team:proteus-doctrines",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "backroom-deals",
+              "unit-leading"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Infiltrators",
+            "when": {
+              "en": "while this unit is the one selected for this ability in the Declare Battle Formations step and is leading a unit",
+              "ru": "пока этот отряд — выбранный для этой способности в шаге Declare Battle Formations и ведёт отряд"
+            }
+          }
+        ],
+        "hash": "90b508e3",
+        "kind": "ability",
+        "name": "Rogue Trader Entourage: Backroom Deals",
+        "ref": {
+          "kind": "ability",
+          "unit": "rogue-trader-entourage"
+        },
+        "reviewed": true,
+        "sid": "a6a3da0c-0f81-4ebf-89b7-4e9e0db73fe8:rogue-trader-entourage",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "while this unit contains a MINISTORUM PRIEST",
+              "ru": "пока в отряде есть MINISTORUM PRIEST"
+            }
+          }
+        ],
+        "hash": "657ab3df",
+        "kind": "ability",
+        "name": "Sanctifiers: Ministorum Sermon",
+        "ref": {
+          "kind": "ability",
+          "unit": "sanctifiers"
+        },
+        "reviewed": true,
+        "sid": "9a2a9f27-0b49-4bdc-8718-77a8122c1ddd:sanctifiers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "64def260",
+        "kind": "ability",
+        "name": "Spectrus Kill Team: Kill Team",
+        "ref": {
+          "kind": "ability",
+          "unit": "spectrus-kill-team"
+        },
+        "reviewed": true,
+        "sid": "pack:spectrus-kill-team:kill-team",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 6,
+            "when": {
+              "en": "in a phase it Advanced (no Advance roll is made)",
+              "ru": "в фазе, когда совершил Advance (бросок не делается)"
+            }
+          }
+        ],
+        "hash": "0ffc4f9b",
+        "kind": "ability",
+        "name": "Veteran Bike Squad: Turbo-boost",
+        "ref": {
+          "kind": "ability",
+          "unit": "veteran-bike-squad"
+        },
+        "reviewed": true,
+        "sid": "pack:veteran-bike-squad:turbo-boost",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against a unit that is Below Half-strength",
+              "ru": "по отряду Below Half-strength"
+            }
+          }
+        ],
+        "hash": "fc5b3a68",
+        "kind": "ability",
+        "name": "Vigilant Squad: Merciless Judgement",
+        "ref": {
+          "kind": "ability",
+          "unit": "vigilant-squad"
+        },
+        "reviewed": true,
+        "sid": "29dd94a6-896b-4c38-98f1-abea90c30860:vigilant-squad",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "1efabeb5",
+        "kind": "ability",
+        "name": "Vindicare Assassin: Dead‐shot",
+        "ref": {
+          "kind": "ability",
+          "unit": "vindicare-assassin"
+        },
+        "reviewed": true,
+        "sid": "3e661faf-c623-45b8-b474-70050fa69514:vindicare-assassin",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "once per battle, exitus rifle with a shieldbreaker round, for the phase",
+              "ru": "раз за битву, exitus rifle с shieldbreaker round, на фазу"
+            }
+          }
+        ],
+        "hash": "3c91cf55",
+        "kind": "ability",
+        "name": "Vindicare Assassin: Shieldbreaker",
+        "ref": {
+          "kind": "ability",
+          "unit": "vindicare-assassin"
+        },
+        "reviewed": true,
+        "sid": "4c404272-6d02-4187-85a5-d2d4fb13d862:vindicare-assassin",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "against the closest eligible target",
+              "ru": "по ближайшей допустимой цели"
+            }
+          }
+        ],
+        "hash": "004c9f4b",
+        "kind": "ability",
+        "name": "Voidsmen-at-Arms: Masters of Close Confines",
+        "ref": {
+          "kind": "ability",
+          "unit": "voidsmen-at-arms"
+        },
+        "reviewed": true,
+        "sid": "5571bc03-10a6-402c-94c9-a15e83b30d1a:voidsmen-at-arms",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          },
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "38355f6d",
+        "kind": "ability",
+        "name": "Watch Captain Artemis: Tactical Instinct",
+        "ref": {
+          "kind": "ability",
+          "unit": "watch-captain-artemis"
+        },
+        "reviewed": true,
+        "sid": "cdf49818-e7ce-4f10-852a-a41ba42689fa:watch-captain-artemis",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "4aa3a14f",
+        "kind": "armyRule",
+        "name": "Assigned Agents",
+        "note": "army-composition rule — how many Agents units may be included",
+        "ref": {
+          "kind": "armyRule"
+        },
+        "reviewed": true,
+        "sid": "82ad414b-e19f-4a6a-be1a-5ce96e420d21",
+        "ver": 925
+      },
+      {
+        "det": "Imperialis Fleet",
+        "effects": [
+          {
+            "cond": [
+              "costs-acquire",
+              "never"
+            ],
+            "on": "profile",
+            "op": "improve",
+            "stat": "ld",
+            "value": 1,
+            "when": {
+              "en": "with the Acquire objective chosen, while within range of that objective marker",
+              "ru": "при выбранной цели «Acquire», пока юнит в радиусе действия этого маркера"
+            }
+          },
+          {
+            "cond": [
+              "costs-acquire",
+              "never"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "with the Acquire objective chosen, while within range of that objective marker",
+              "ru": "при выбранной цели «Acquire», пока юнит в радиусе действия этого маркера"
+            }
+          },
+          {
+            "cond": [
+              "costs-acquire",
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "5+",
+            "when": {
+              "en": "with the Acquire objective chosen, while within range of that objective marker",
+              "ru": "при выбранной цели «Acquire», пока юнит в радиусе действия этого маркера"
+            }
+          },
+          {
+            "cond": [
+              "costs-eliminate",
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "with Eliminate At All Costs, against the selected enemy unit",
+              "ru": "при Eliminate At All Costs, по выбранному вражескому отряду"
+            }
+          },
+          {
+            "cond": [
+              "costs-eliminate"
+            ],
+            "op": "state",
+            "when": {
+              "en": "the option selected this Command phase",
+              "ru": "вариант, выбранный в эту фазу командования"
+            }
+          },
+          {
+            "cond": [
+              "costs-acquire"
+            ],
+            "op": "state",
+            "when": {
+              "en": "the option selected this Command phase",
+              "ru": "вариант, выбранный в эту фазу командования"
+            }
+          }
+        ],
+        "hash": "c7734e00",
+        "kind": "detachmentRule",
+        "name": "At All Costs",
+        "ref": {
+          "det": "imperialis-fleet",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "dc3732a7-5647-49b0-b3d1-8279dcfc40e4",
+        "ver": 925
+      },
+      {
+        "det": "Inquisitor’s Hand",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "against the enemy unit selected in your Command phase",
+              "ru": "против вражеского отряда, выбранного в вашей фазе Command"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "against the enemy unit selected in your Command phase",
+              "ru": "против вражеского отряда, выбранного в вашей фазе Command"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "against the enemy unit selected in your Command phase",
+              "ru": "против вражеского отряда, выбранного в вашей фазе Command"
+            }
+          }
+        ],
+        "hash": "2a6b4c24",
+        "kind": "detachmentRule",
+        "name": "Marked for Death",
+        "ref": {
+          "det": "cp:imperial-agents",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "9eadf65d-fca8-447c-8a41-d996bb2c13e5",
+        "ver": 995
+      },
+      {
+        "det": "Ordo Hereticus, Purgation Force",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": null
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "against a Chaos unit of 5 or more models",
+              "ru": "по отряду Chaos из 5+ моделей"
+            }
+          }
+        ],
+        "hash": "c4b91060",
+        "kind": "detachmentRule",
+        "name": "Root out Heresy",
+        "ref": {
+          "det": "ordo-hereticus-purgation-force",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "f06dc6ab-3722-4c1f-b2ce-0c0f37b0b520",
+        "ver": 925
+      },
+      {
+        "det": "Ordo Xenos, Alien Hunters",
+        "effects": [
+          {
+            "cond": [
+              "tactic-furor"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while the Furor Tactics Mission Tactic is active",
+              "ru": "пока активна тактика Furor Tactics"
+            }
+          },
+          {
+            "cond": [
+              "tactic-malleus"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while the Malleus Tactics Mission Tactic is active",
+              "ru": "пока активна тактика Malleus Tactics"
+            }
+          },
+          {
+            "cond": [
+              "tactic-furor"
+            ],
+            "op": "state",
+            "when": {
+              "en": "the Mission Tactic selected this Command phase",
+              "ru": "Mission Tactic, выбранная в эту фазу командования"
+            }
+          },
+          {
+            "cond": [
+              "tactic-malleus"
+            ],
+            "op": "state",
+            "when": {
+              "en": "the Mission Tactic selected this Command phase",
+              "ru": "Mission Tactic, выбранная в эту фазу командования"
+            }
+          },
+          {
+            "cond": [
+              "tactic-purgatus"
+            ],
+            "op": "state",
+            "when": {
+              "en": "the Mission Tactic selected this Command phase",
+              "ru": "Mission Tactic, выбранная в эту фазу командования"
+            }
+          }
+        ],
+        "hash": "6d06128c",
+        "kind": "detachmentRule",
+        "name": "Deathwatch Mission Tactics",
+        "ref": {
+          "det": "ordo-xenos-alien-hunters",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "7c93a7f0-c620-488f-a19c-65c23ed26631",
+        "ver": 925
+      },
+      {
+        "det": "Veiled Blade Elimination Force",
+        "effects": [],
+        "hash": "5f5a5f0a",
+        "kind": "detachmentRule",
+        "name": "Extremis Sanction",
+        "ref": {
+          "det": "veiled-blade-elimination-force",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "4e34ecd7-53de-4493-8468-666e9bd1d875",
+        "ver": 925
+      },
+      {
+        "det": "Imperialis Fleet",
+        "effects": [],
+        "hash": "4e6f00a6",
+        "kind": "enhancement",
+        "name": "Clandestine Operation",
+        "ref": {
+          "det": "imperialis-fleet",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "c994437c-491b-40e6-b0f2-de686fdc461c",
+        "ver": 925
+      },
+      {
+        "det": "Imperialis Fleet",
+        "effects": [],
+        "hash": "83c16170",
+        "kind": "enhancement",
+        "name": "Combat Landers",
+        "ref": {
+          "det": "imperialis-fleet",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "eecfa9a1-38bf-4ece-993b-b2ce3f595fad",
+        "ver": 925
+      },
+      {
+        "det": "Inquisitor’s Hand",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "once per turn, against a unit whose T is at least the attack’s S",
+              "ru": "раз за ход, против отряда, у которого T не меньше S атаки"
+            }
+          }
+        ],
+        "hash": "8394dc76",
+        "kind": "enhancement",
+        "name": "Sanctic Slayers",
+        "ref": {
+          "det": "cp:imperial-agents",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "f4e50e8e-c2b2-4202-8dbc-f97bede9e1ec",
+        "ver": 995
+      },
+      {
+        "det": "Ordo Hereticus, Purgation Force",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": null
+          },
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "MELTA 1",
+            "when": null
+          },
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": null
+          }
+        ],
+        "hash": "024b237f",
+        "kind": "enhancement",
+        "name": "Ignis Judicium",
+        "ref": {
+          "det": "ordo-hereticus-purgation-force",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "c03746fa-d420-4d0a-b792-5fe5b1e1be66",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading"
+        ],
+        "det": "Ordo Hereticus, Purgation Force",
+        "effects": [],
+        "hash": "8099c25c",
+        "kind": "enhancement",
+        "name": "Witch Hunter",
+        "ref": {
+          "det": "ordo-hereticus-purgation-force",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "d56dad26-d23e-48cd-bc7a-53736bb6f6f7",
+        "ver": 995
+      },
+      {
+        "det": "Ordo Malleus, Daemon Hunters",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-DAEMON 3+",
+            "when": null
+          }
+        ],
+        "hash": "c4f1ac1e",
+        "kind": "enhancement",
+        "name": "Daemon Slayer",
+        "ref": {
+          "det": "ordo-malleus-daemon-hunters",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "20cc49fb-5221-4dcf-b631-b116a84b02c3",
+        "ver": 925
+      },
+      {
+        "det": "Ordo Malleus, Daemon Hunters",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "improve",
+            "stat": "ld",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "46a46316",
+        "kind": "enhancement",
+        "name": "Formidable Resolve",
+        "ref": {
+          "det": "ordo-malleus-daemon-hunters",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "65ac2883-9467-4478-847c-55858dde8251",
+        "ver": 925
+      },
+      {
+        "det": "Ordo Malleus, Daemon Hunters",
+        "effects": [],
+        "hash": "77f50fbb",
+        "kind": "enhancement",
+        "name": "Grimoire of True Names (Aura)",
+        "ref": {
+          "det": "ordo-malleus-daemon-hunters",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "43034cd6-adca-4c3f-a1ca-2cc5274871f2",
+        "ver": 925
+      },
+      {
+        "det": "Ordo Xenos, Alien Hunters",
+        "effects": [],
+        "hash": "f32b2b09",
+        "kind": "enhancement",
+        "name": "Amulet of Auto-chastisement",
+        "ref": {
+          "det": "ordo-xenos-alien-hunters",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "2fd8c362-7e6c-418f-b6dc-cfe8901adec0",
+        "ver": 995
+      },
+      {
+        "det": "Ordo Xenos, Alien Hunters",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Deep Strike",
+            "when": null
+          }
+        ],
+        "hash": "c5b989c7",
+        "kind": "enhancement",
+        "name": "Beacon Angelis",
+        "ref": {
+          "det": "ordo-xenos-alien-hunters",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "ab3c3644-1c9d-4cd8-9c6f-8022be72daee",
+        "ver": 925
+      },
+      {
+        "det": "Ordo Xenos, Alien Hunters",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+",
+            "when": null
+          }
+        ],
+        "hash": "5ab93aa4",
+        "kind": "enhancement",
+        "name": "Blackweave Shroud",
+        "ref": {
+          "det": "ordo-xenos-alien-hunters",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "14192d59-f64c-484c-a1b5-f31eeb356288",
+        "ver": 925
+      },
+      {
+        "det": "Ordo Xenos, Alien Hunters",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-INFANTRY 2+",
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-MONSTER 4+",
+            "when": null
+          }
+        ],
+        "hash": "ae5663cb",
+        "kind": "enhancement",
+        "name": "Universal Anathema",
+        "ref": {
+          "det": "ordo-xenos-alien-hunters",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "853414cb-e3c5-4543-a1cd-3ef2101c6682",
+        "ver": 925
+      },
+      {
+        "det": "Veiled Blade Elimination Force",
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "name": "Exitus rifle"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-MONSTER 4+",
+            "when": null
+          },
+          {
+            "on": "ranged",
+            "only": {
+              "name": "Exitus rifle"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-VEHICLE 4+",
+            "when": null
+          }
+        ],
+        "hash": "28d383b3",
+        "kind": "enhancement",
+        "name": "Micromelta Rounds",
+        "ref": {
+          "det": "veiled-blade-elimination-force",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "aa4924d4-a606-4e06-9da3-b1467cd20ebb",
+        "ver": 925
+      },
+      {
+        "det": "Imperialis Fleet",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "against targets within 12\"",
+              "ru": "против целей в 12\""
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "against targets within 12\"",
+              "ru": "против целей в 12\""
+            }
+          }
+        ],
+        "hash": "7a1247be",
+        "kind": "stratagem",
+        "name": "Close-quarters Barrage",
+        "ref": {
+          "det": "imperialis-fleet",
+          "kind": "stratagem",
+          "name": "Close-quarters Barrage"
+        },
+        "reviewed": true,
+        "sid": "0671736d-e932-4396-85e8-7aed0f5fbbf0",
+        "ver": 925
+      },
+      {
+        "det": "Imperialis Fleet",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "1326869d",
+        "kind": "stratagem",
+        "name": "Displacer Field",
+        "ref": {
+          "det": "imperialis-fleet",
+          "kind": "stratagem",
+          "name": "Displacer Field"
+        },
+        "reviewed": true,
+        "sid": "3b79b387-0009-4617-9ce3-c07efe843e8d",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-led"
+        ],
+        "det": "Imperialis Fleet",
+        "effects": [],
+        "hash": "e2841d92",
+        "kind": "stratagem",
+        "name": "Selfless Bodyguard",
+        "ref": {
+          "det": "imperialis-fleet",
+          "kind": "stratagem",
+          "name": "Selfless Bodyguard"
+        },
+        "reviewed": true,
+        "sid": "a3e18b4f-0acc-4b1f-847d-1ce78c4af55b",
+        "ver": 925
+      },
+      {
+        "det": "Imperialis Fleet",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "against a unit within range of an objective marker",
+              "ru": "по отряду в зоне objective marker"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LANCE",
+            "when": {
+              "en": "against a unit within range of an objective marker",
+              "ru": "по отряду в зоне objective marker"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "against a unit within range of an objective marker",
+              "ru": "по отряду в зоне objective marker"
+            }
+          }
+        ],
+        "hash": "c71b6a30",
+        "kind": "stratagem",
+        "name": "Violent Acquisition",
+        "ref": {
+          "det": "imperialis-fleet",
+          "kind": "stratagem",
+          "name": "Violent Acquisition"
+        },
+        "reviewed": true,
+        "sid": "d8ce9636-0f38-40be-8918-76c5597c91d3",
+        "ver": 925
+      },
+      {
+        "det": "Inquisitor’s Hand",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "93165ff9",
+        "kind": "stratagem",
+        "name": "Superior Weaponry",
+        "ref": {
+          "det": "cp:imperial-agents",
+          "kind": "stratagem",
+          "name": "Superior Weaponry"
+        },
+        "reviewed": true,
+        "sid": "741664f3-5afd-4ff1-819b-7f4275d075fa",
+        "ver": 925
+      },
+      {
+        "det": "Inquisitor’s Hand",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "ap",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "975b05f7",
+        "kind": "stratagem",
+        "name": "Urban Enforcers",
+        "ref": {
+          "det": "cp:imperial-agents",
+          "kind": "stratagem",
+          "name": "Urban Enforcers"
+        },
+        "reviewed": true,
+        "sid": "53b6c4d3-7b4d-4aac-b53f-d9325c617c9b",
+        "ver": 925
+      },
+      {
+        "det": "Ordo Hereticus, Purgation Force",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "99f3de63",
+        "kind": "stratagem",
+        "name": "Dispense Justice",
+        "ref": {
+          "det": "ordo-hereticus-purgation-force",
+          "kind": "stratagem",
+          "name": "Dispense Justice"
+        },
+        "reviewed": true,
+        "sid": "b3c0a844-4b92-48dc-8ca3-6d169a5fe918",
+        "ver": 925
+      },
+      {
+        "det": "Ordo Hereticus, Purgation Force",
+        "dur": "round",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "against the CHARACTER this stratagem named",
+              "ru": "против CHARACTER, названного стратагемой"
+            }
+          }
+        ],
+        "hash": "eaecd977",
+        "kind": "stratagem",
+        "name": "Execution Order",
+        "ref": {
+          "det": "ordo-hereticus-purgation-force",
+          "kind": "stratagem",
+          "name": "Execution Order"
+        },
+        "reviewed": true,
+        "sid": "51d5caed-b41a-4bac-a398-a0458cbed119",
+        "ver": 925
+      },
+      {
+        "det": "Ordo Hereticus, Purgation Force",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "2dcc4ebb",
+        "kind": "stratagem",
+        "name": "Inviolate Jurisdiction",
+        "ref": {
+          "det": "ordo-hereticus-purgation-force",
+          "kind": "stratagem",
+          "name": "Inviolate Jurisdiction"
+        },
+        "reviewed": true,
+        "sid": "cbd2a41a-d9c0-444b-ac39-82079d07fcca",
+        "ver": 925
+      },
+      {
+        "det": "Ordo Hereticus, Purgation Force",
+        "effects": [],
+        "hash": "89de0db7",
+        "kind": "stratagem",
+        "name": "Stun Grenades",
+        "ref": {
+          "det": "ordo-hereticus-purgation-force",
+          "kind": "stratagem",
+          "name": "Stun Grenades"
+        },
+        "reviewed": true,
+        "sid": "ae044166-2410-4c16-bff9-84828d009345",
+        "ver": 995
+      },
+      {
+        "det": "Ordo Malleus, Daemon Hunters",
+        "effects": [],
+        "hash": "50036792",
+        "kind": "stratagem",
+        "name": "Hexagrammic Wards",
+        "ref": {
+          "det": "ordo-malleus-daemon-hunters",
+          "kind": "stratagem",
+          "name": "Hexagrammic Wards"
+        },
+        "reviewed": true,
+        "sid": "aa2b5fe6-cfe5-46f6-b3bd-2a525e755ab2",
+        "ver": 925
+      },
+      {
+        "det": "Ordo Malleus, Daemon Hunters",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PSYCHIC",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "98b02112",
+        "kind": "stratagem",
+        "name": "Psybolt Ammunition",
+        "ref": {
+          "det": "ordo-malleus-daemon-hunters",
+          "kind": "stratagem",
+          "name": "Psybolt Ammunition"
+        },
+        "reviewed": true,
+        "sid": "14441c71-f592-476f-96b0-e0e8b2d7b4f2",
+        "ver": 925
+      },
+      {
+        "det": "Ordo Malleus, Daemon Hunters",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "against the marked enemy unit",
+              "ru": "по отмеченному вражескому отряду"
+            }
+          }
+        ],
+        "hash": "23bf6dc9",
+        "kind": "stratagem",
+        "name": "Rites of Exorcism",
+        "ref": {
+          "det": "ordo-malleus-daemon-hunters",
+          "kind": "stratagem",
+          "name": "Rites of Exorcism"
+        },
+        "reviewed": true,
+        "sid": "d79ad24e-26e3-4049-bcfa-95132cd95810",
+        "ver": 925
+      },
+      {
+        "det": "Ordo Malleus, Daemon Hunters",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "ap",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "068f028a",
+        "kind": "stratagem",
+        "name": "Truesilver Armour",
+        "ref": {
+          "det": "ordo-malleus-daemon-hunters",
+          "kind": "stratagem",
+          "name": "Truesilver Armour"
+        },
+        "reviewed": true,
+        "sid": "4191fc9b-51ff-4fd7-ba42-fbc7b0d5a138",
+        "ver": 925
+      },
+      {
+        "det": "Ordo Xenos, Alien Hunters",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "ap",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "068f028a",
+        "kind": "stratagem",
+        "name": "Armour of Contempt",
+        "ref": {
+          "det": "ordo-xenos-alien-hunters",
+          "kind": "stratagem",
+          "name": "Armour of Contempt"
+        },
+        "reviewed": true,
+        "sid": "3c71b9ec-b40c-44e1-9daa-fd22abee459f",
+        "ver": 925
+      },
+      {
+        "det": "Ordo Xenos, Alien Hunters",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "c741719e",
+        "kind": "stratagem",
+        "name": "Dragonfire Rounds",
+        "ref": {
+          "det": "ordo-xenos-alien-hunters",
+          "kind": "stratagem",
+          "name": "Dragonfire Rounds"
+        },
+        "reviewed": true,
+        "sid": "78859713-cdea-4729-815f-91a9d8c94491",
+        "ver": 925
+      },
+      {
+        "det": "Ordo Xenos, Alien Hunters",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "notTag": "DEVASTATING WOUNDS"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-INFANTRY 2+",
+            "when": null
+          },
+          {
+            "on": "ranged",
+            "only": {
+              "notTag": "DEVASTATING WOUNDS"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-MONSTER 5+",
+            "when": null
+          }
+        ],
+        "hash": "c1d7b05d",
+        "kind": "stratagem",
+        "name": "Hellfire Rounds",
+        "ref": {
+          "det": "ordo-xenos-alien-hunters",
+          "kind": "stratagem",
+          "name": "Hellfire Rounds"
+        },
+        "reviewed": true,
+        "sid": "a8dc46f8-40e0-4820-90ec-cf475621a130",
+        "ver": 925
+      },
+      {
+        "det": "Ordo Xenos, Alien Hunters",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "range",
+            "value": 6,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "7afed4a4",
+        "kind": "stratagem",
+        "name": "Kraken Rounds",
+        "ref": {
+          "det": "ordo-xenos-alien-hunters",
+          "kind": "stratagem",
+          "name": "Kraken Rounds"
+        },
+        "reviewed": true,
+        "sid": "30ea96b9-4327-4f32-8c09-ac1de917be40",
+        "ver": 925
+      },
+      {
+        "det": "Veiled Blade Elimination Force",
+        "dur": "turn",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "a CALLIDUS ASSASSIN that made a Charge move through this Stratagem, until the end of the turn",
+              "ru": "CALLIDUS ASSASSIN, совершивший Charge по этой стратагеме, до конца хода"
+            }
+          }
+        ],
+        "hash": "f82ef638",
+        "kind": "stratagem",
+        "name": "Ensnaring Trap",
+        "ref": {
+          "det": "veiled-blade-elimination-force",
+          "kind": "stratagem",
+          "name": "Ensnaring Trap"
+        },
+        "reviewed": true,
+        "sid": "82047dbf-135c-4375-b0cb-6e3ce35037fe",
+        "ver": 963
+      },
+      {
+        "det": "Veiled Blade Elimination Force",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+",
+            "when": {
+              "en": "EVERSOR ASSASSIN units only, while this stratagem is in force",
+              "ru": "только отряды EVERSOR ASSASSIN, пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "96d8e448",
+        "kind": "stratagem",
+        "name": "Hyperstimms",
+        "ref": {
+          "det": "veiled-blade-elimination-force",
+          "kind": "stratagem",
+          "name": "Hyperstimms"
+        },
+        "reviewed": true,
+        "sid": "ba362a01-cce9-4344-b5d2-259651658189",
+        "ver": 925
+      },
+      {
+        "det": "Veiled Blade Elimination Force",
+        "effects": [],
+        "hash": "f0f985fa",
+        "kind": "stratagem",
+        "name": "Orbital Oversight",
+        "ref": {
+          "det": "veiled-blade-elimination-force",
+          "kind": "stratagem",
+          "name": "Orbital Oversight"
+        },
+        "reviewed": true,
+        "sid": "607a4536-6c68-4bf8-ad36-382e18c16d12",
+        "ver": 925
+      },
+      {
+        "det": "Veiled Blade Elimination Force",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "e412350c",
+        "kind": "stratagem",
+        "name": "Will-sapping Salvo",
+        "ref": {
+          "det": "veiled-blade-elimination-force",
+          "kind": "stratagem",
+          "name": "Will-sapping Salvo"
+        },
+        "reviewed": true,
+        "sid": "f05e1f04-a826-41ea-942a-0ab6e6048212",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "fb8f103d",
+        "kind": "wargear",
+        "name": "Aquila Kill Team: Storm Shield",
+        "ref": {
+          "item": "storm shield",
+          "kind": "wargear",
+          "unit": "aquila-kill-team"
+        },
+        "reviewed": true,
+        "sid": "7a8d5f30-60bd-457c-889a-dc6c3dbc200b:aquila-kill-team",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": null
+          }
+        ],
+        "hash": "a8073fac",
+        "kind": "wargear",
+        "name": "Corvus Blackstar: Auspex Array",
+        "ref": {
+          "item": "auspex array",
+          "kind": "wargear",
+          "unit": "corvus-blackstar"
+        },
+        "reviewed": true,
+        "sid": "f7579dbf-b927-430a-8da6-c82b100cc0ba:corvus-blackstar",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "fb8f103d",
+        "kind": "wargear",
+        "name": "Deathwatch Kill Team: Storm Shield",
+        "ref": {
+          "item": "storm shield",
+          "kind": "wargear",
+          "unit": "deathwatch-kill-team"
+        },
+        "reviewed": true,
+        "sid": "7a8d5f30-60bd-457c-889a-dc6c3dbc200b:deathwatch-kill-team",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "w",
+            "value": "4",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "38451d6c",
+        "kind": "wargear",
+        "name": "Deathwatch Terminator Squad: Storm Shield",
+        "note": "Read as Bullgryn Squad: Slabshield (astra-militarum), the same text.",
+        "ref": {
+          "item": "storm shield",
+          "kind": "wargear",
+          "unit": "deathwatch-terminator-squad"
+        },
+        "reviewed": true,
+        "sid": "pack:deathwatch-terminator-squad:storm-shield",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": null
+          }
+        ],
+        "hash": "c40143bc",
+        "kind": "wargear",
+        "name": "Exaction Squad: Soulguilt Scanner",
+        "ref": {
+          "item": "soulguilt scanner",
+          "kind": "wargear",
+          "unit": "exaction-squad"
+        },
+        "reviewed": true,
+        "sid": "bde4aec2-30a1-4d29-a294-e5c220d4c16b:exaction-squad",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "ec06b6a4",
+        "kind": "wargear",
+        "name": "Grey Knights Terminator Squad: Ancient’s Banner",
+        "ref": {
+          "item": "ancient's banner",
+          "kind": "wargear",
+          "unit": "grey-knights-terminator-squad"
+        },
+        "reviewed": true,
+        "sid": "314a4643-59ab-4fd8-a1a8-d05172bb2070:grey-knights-terminator-squad",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "5e0ca50d",
+        "kind": "wargear",
+        "name": "Imperial Navy Breachers: Endurant Shield",
+        "ref": {
+          "item": "endurant shield",
+          "kind": "wargear",
+          "unit": "imperial-navy-breachers"
+        },
+        "reviewed": true,
+        "sid": "074ac92a-0ebc-4951-8e67-e459cb11bae3:imperial-navy-breachers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "m",
+            "value": "10\"",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "34369015",
+        "kind": "wargear",
+        "name": "Indomitor Kill Team: Jump Pack",
+        "ref": {
+          "item": "jump pack",
+          "kind": "wargear",
+          "unit": "indomitor-kill-team"
+        },
+        "reviewed": true,
+        "sid": "pack:indomitor-kill-team:jump-pack",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "unit",
+            "value": "6+",
+            "when": null
+          }
+        ],
+        "hash": "bda848a8",
+        "kind": "wargear",
+        "name": "Inquisitor in Terminator Armour: Blessed Wardings",
+        "note": "Read as Inquisitor: Blessed Wardings (imperial-agents), the same text.",
+        "ref": {
+          "item": "blessed wardings",
+          "kind": "wargear",
+          "unit": "inquisitor-in-terminator-armour"
+        },
+        "reviewed": true,
+        "sid": "pack:inquisitor-in-terminator-armour:blessed-wardings",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Psyker",
+            "when": null
+          }
+        ],
+        "hash": "4153f25b",
+        "kind": "wargear",
+        "name": "Inquisitor in Terminator Armour: Psychic Gifts",
+        "ref": {
+          "item": "psychic gifts",
+          "kind": "wargear",
+          "unit": "inquisitor-in-terminator-armour"
+        },
+        "reviewed": true,
+        "sid": "pack:inquisitor-in-terminator-armour:psychic-gifts",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "unit",
+            "value": "6+",
+            "when": null
+          }
+        ],
+        "hash": "bda848a8",
+        "kind": "wargear",
+        "name": "Inquisitor: Blessed Wardings",
+        "ref": {
+          "item": "blessed wardings",
+          "kind": "wargear",
+          "unit": "inquisitor"
+        },
+        "reviewed": true,
+        "sid": "4c0dbe01-e4a8-4fd5-992b-f35d5ef423a4:inquisitor",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Psyker",
+            "when": null
+          }
+        ],
+        "hash": "a7eed996",
+        "kind": "wargear",
+        "name": "Inquisitor: Psychic Gifts",
+        "ref": {
+          "item": "psychic gifts",
+          "kind": "wargear",
+          "unit": "inquisitor"
+        },
+        "reviewed": true,
+        "sid": "a49e2a76-e166-4227-965c-ad9b4ef36f1f:inquisitor",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "m",
+            "value": "12\"",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "da4a395d",
+        "kind": "wargear",
+        "name": "Kill Team Cassius: Jump Pack",
+        "ref": {
+          "item": "jump pack",
+          "kind": "wargear",
+          "unit": "kill-team-cassius"
+        },
+        "reviewed": true,
+        "sid": "pack:kill-team-cassius:jump-pack",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+ (vs Psychic Attacks)",
+            "when": null
+          }
+        ],
+        "hash": "1d4ed2a6",
+        "kind": "wargear",
+        "name": "Kill Team Cassius: Psychic Hood",
+        "ref": {
+          "item": "psychic hood",
+          "kind": "wargear",
+          "unit": "kill-team-cassius"
+        },
+        "reviewed": true,
+        "sid": "pack:kill-team-cassius:psychic-hood",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "5e0ca50d",
+        "kind": "wargear",
+        "name": "Proteus Kill Team: Astartes Shield",
+        "ref": {
+          "item": "astartes shield",
+          "kind": "wargear",
+          "unit": "proteus-kill-team"
+        },
+        "reviewed": true,
+        "sid": "pack:proteus-kill-team:astartes-shield",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "m",
+            "value": "12\"",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "da4a395d",
+        "kind": "wargear",
+        "name": "Proteus Kill Team: Jump Pack",
+        "ref": {
+          "item": "jump pack",
+          "kind": "wargear",
+          "unit": "proteus-kill-team"
+        },
+        "reviewed": true,
+        "sid": "pack:proteus-kill-team:jump-pack",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "w",
+            "value": "4",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "38451d6c",
+        "kind": "wargear",
+        "name": "Proteus Kill Team: Storm Shield",
+        "note": "Read as Bullgryn Squad: Slabshield (astra-militarum), the same text.",
+        "ref": {
+          "item": "storm shield",
+          "kind": "wargear",
+          "unit": "proteus-kill-team"
+        },
+        "reviewed": true,
+        "sid": "pack:proteus-kill-team:storm-shield",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "improve",
+            "stat": "ld",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "f2b9e017",
+        "kind": "wargear",
+        "name": "Sanctifiers: Simulacrum Imperialis",
+        "ref": {
+          "item": "simulacrum imperialis",
+          "kind": "wargear",
+          "unit": "sanctifiers"
+        },
+        "reviewed": true,
+        "sid": "34c3c209-6c20-4bfd-941b-5cf6224c3011:sanctifiers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "improve",
+            "stat": "ld",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "f2b9e017",
+        "kind": "wargear",
+        "name": "Sisters of Battle Squad: Simulacrum Imperialis",
+        "ref": {
+          "item": "simulacrum imperialis",
+          "kind": "wargear",
+          "unit": "sisters-of-battle-squad"
+        },
+        "reviewed": true,
+        "sid": "34c3c209-6c20-4bfd-941b-5cf6224c3011:sisters-of-battle-squad",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 6+",
+            "when": null
+          }
+        ],
+        "hash": "7c0f0ce2",
+        "kind": "wargear",
+        "name": "Spectrus Kill Team: Helix Gauntlet",
+        "ref": {
+          "item": "helix gauntlet",
+          "kind": "wargear",
+          "unit": "spectrus-kill-team"
+        },
+        "reviewed": true,
+        "sid": "pack:spectrus-kill-team:helix-gauntlet",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "m",
+            "value": "12\"",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "da4a395d",
+        "kind": "wargear",
+        "name": "Spectrus Kill Team: Jump Pack",
+        "ref": {
+          "item": "jump pack",
+          "kind": "wargear",
+          "unit": "spectrus-kill-team"
+        },
+        "reviewed": true,
+        "sid": "pack:spectrus-kill-team:jump-pack",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "5e0ca50d",
+        "kind": "wargear",
+        "name": "Veteran Bike Squad: Astartes Shield",
+        "ref": {
+          "item": "astartes shield",
+          "kind": "wargear",
+          "unit": "veteran-bike-squad"
+        },
+        "reviewed": true,
+        "sid": "pack:veteran-bike-squad:astartes-shield",
+        "ver": 972
+      }
+    ],
+    "formatVersion": 1,
+    "slug": "imperial-agents"
+  }
+}

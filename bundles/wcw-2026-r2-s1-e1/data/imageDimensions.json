@@ -1,0 +1,524 @@
+{
+  "default": {
+    "/images/attached/attacking-attached-units-diagram.webp": [
+      1200,
+      1587
+    ],
+    "/images/attack/allocation-groups-diagram.webp": [
+      1200,
+      1565
+    ],
+    "/images/attack/making-attacks-diagram.webp": [
+      777,
+      1453
+    ],
+    "/images/attack/resolve-attack-dice-diagram.webp": [
+      777,
+      1465
+    ],
+    "/images/attack/resolve-other-attacks-diagram.webp": [
+      777,
+      1465
+    ],
+    "/images/charge/making-a-charge-move-diagram.webp": [
+      1200,
+      967
+    ],
+    "/images/coherency/coherency-diagram.webp": [
+      1200,
+      1054
+    ],
+    "/images/combat-patrol/layout-a.webp": [
+      1535,
+      1961
+    ],
+    "/images/combat-patrol/layout-b.webp": [
+      1535,
+      1961
+    ],
+    "/images/combat-patrol/layout-c.webp": [
+      1535,
+      1961
+    ],
+    "/images/command/battle-shock-1-diagram.webp": [
+      933,
+      547
+    ],
+    "/images/command/battle-shock-2-diagram.webp": [
+      933,
+      549
+    ],
+    "/images/command/battle-shock-3-diagram.webp": [
+      933,
+      537
+    ],
+    "/images/command/battle-shock-4-diagram.webp": [
+      933,
+      537
+    ],
+    "/images/event/layout-disruption-disruption-a-clean.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-disruption-disruption-a-v2.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-disruption-disruption-b-clean.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-disruption-disruption-b-v2.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-disruption-disruption-c-clean.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-disruption-disruption-c-v2.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-disruption-priority-assets-a-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-disruption-priority-assets-a-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-disruption-priority-assets-b-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-disruption-priority-assets-b-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-disruption-priority-assets-c-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-disruption-priority-assets-c-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-disruption-reconnaissance-a-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-disruption-reconnaissance-a-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-disruption-reconnaissance-b-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-disruption-reconnaissance-b-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-disruption-reconnaissance-c-clean.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-disruption-reconnaissance-c-v2.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-priority-assets-priority-assets-a-clean.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-priority-assets-priority-assets-a-v2.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-priority-assets-priority-assets-b-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-priority-assets-priority-assets-b-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-priority-assets-priority-assets-c-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-priority-assets-priority-assets-c-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-disruption-a-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-disruption-a-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-disruption-b-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-disruption-b-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-disruption-c-clean.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-disruption-c-v2.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-priority-assets-a-clean.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-priority-assets-a-v2.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-priority-assets-b-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-priority-assets-b-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-priority-assets-c-clean.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-priority-assets-c-v2.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-purge-the-foe-a-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-purge-the-foe-a-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-purge-the-foe-b-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-purge-the-foe-b-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-purge-the-foe-c-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-purge-the-foe-c-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-reconnaissance-a-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-reconnaissance-a-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-reconnaissance-b-clean.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-reconnaissance-b-v2.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-reconnaissance-c-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-purge-the-foe-reconnaissance-c-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-reconnaissance-priority-assets-a-clean.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-reconnaissance-priority-assets-a-v2.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-reconnaissance-priority-assets-b-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-reconnaissance-priority-assets-b-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-reconnaissance-priority-assets-c-clean.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-reconnaissance-priority-assets-c-v2.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-reconnaissance-reconnaissance-a-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-reconnaissance-reconnaissance-a-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-reconnaissance-reconnaissance-b-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-reconnaissance-reconnaissance-b-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-reconnaissance-reconnaissance-c-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-reconnaissance-reconnaissance-c-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-disruption-a-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-disruption-a-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-disruption-b-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-disruption-b-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-disruption-c-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-disruption-c-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-priority-assets-a-clean.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-priority-assets-a-v2.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-priority-assets-b-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-priority-assets-b-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-priority-assets-c-clean.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-priority-assets-c-v2.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-purge-the-foe-a-clean.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-purge-the-foe-a-v2.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-purge-the-foe-b-clean.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-purge-the-foe-b-v2.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-purge-the-foe-c-clean.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-purge-the-foe-c-v2.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-reconnaissance-a-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-reconnaissance-a-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-reconnaissance-b-clean.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-reconnaissance-b-v2.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-reconnaissance-c-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-reconnaissance-c-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-take-and-hold-a-clean.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-take-and-hold-a-v2.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-take-and-hold-b-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-take-and-hold-b-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-take-and-hold-c-clean-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/event/layout-take-and-hold-take-and-hold-c-v3.webp": [
+      1535,
+      1961
+    ],
+    "/images/fight/normal-fight-diagram.webp": [
+      1200,
+      863
+    ],
+    "/images/fight/objective-consolidation-diagram.webp": [
+      1200,
+      863
+    ],
+    "/images/fight/ongoing-consolidation-diagram.webp": [
+      1200,
+      863
+    ],
+    "/images/fight/overrun-fight-diagram.webp": [
+      1200,
+      863
+    ],
+    "/images/fight/pile-in-moves-diagram.webp": [
+      1200,
+      863
+    ],
+    "/images/fight/start-of-fight-phase-diagram.webp": [
+      1200,
+      863
+    ],
+    "/images/fire/plunging-fire-diagram.webp": [
+      1200,
+      671
+    ],
+    "/images/intro/datasheet.webp": [
+      1280,
+      821
+    ],
+    "/images/monsters/engaged-monsters-vehicles-shooting-diagram.webp": [
+      1200,
+      907
+    ],
+    "/images/moving/moving-straight-line-diagram.webp": [
+      933,
+      1146
+    ],
+    "/images/moving/rotating-diagram.webp": [
+      1200,
+      863
+    ],
+    "/images/surge/making-a-surge-move-diagram.webp": [
+      1200,
+      871
+    ],
+    "/images/surge/taking-to-the-skies-diagram.webp": [
+      1200,
+      1270
+    ],
+    "/images/terrain/benefit-of-cover-diagram.webp": [
+      774,
+      1075
+    ],
+    "/images/terrain/controlling-a-terrain-objective-diagram.webp": [
+      1200,
+      1138
+    ],
+    "/images/terrain/hidden-and-obscuring-diagram.webp": [
+      775,
+      1146
+    ],
+    "/images/terrain/solid-diagram.webp": [
+      1200,
+      649
+    ],
+    "/images/terrain/terrain-and-movement-2-diagram.webp": [
+      1200,
+      863
+    ],
+    "/images/terrain/terrain-and-movement-diagram.webp": [
+      1200,
+      863
+    ],
+    "/images/terrain/terrain-placed-on-a-mat-diagram.webp": [
+      1200,
+      863
+    ],
+    "/images/terrain/terrain-placed-on-the-battlefield-diagram.webp": [
+      1200,
+      863
+    ],
+    "/images/visibility/engagement-diagram.webp": [
+      1200,
+      863
+    ],
+    "/images/visibility/model-fully-visible-diagram.webp": [
+      1200,
+      526
+    ],
+    "/images/visibility/model-visible-diagram.webp": [
+      1200,
+      522
+    ],
+    "/images/visibility/unit-fully-visible-diagram.webp": [
+      1200,
+      521
+    ],
+    "/images/visibility/unit-visible-diagram.webp": [
+      1200,
+      522
+    ]
+  }
+}

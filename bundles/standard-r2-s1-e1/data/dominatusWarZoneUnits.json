@@ -1,0 +1,74 @@
+{
+  "warZoneUnits": {
+    "Ash Clouds": {
+      "kws": [
+        "Aircraft",
+        "Fly"
+      ]
+    },
+    "Canyon Walls": {
+      "none": "the battlefield edges and where an ingress move may end"
+    },
+    "Defence Networks": {
+      "all": true
+    },
+    "Foxholes": {
+      "kws": [
+        "Infantry"
+      ]
+    },
+    "Landing Craft": {
+      "none": "a choice among the units in reserves, not a unit's own rule"
+    },
+    "Lead from the Front": {
+      "warlord": true
+    },
+    "One Shall Stand, One Shall Fall": {
+      "none": "the price of a stratagem"
+    },
+    "Orbital Lance Bombardment": {
+      "none": "a random objective at the end of the round"
+    },
+    "Rapid Reinforcements": {
+      "none": "the price of a stratagem"
+    },
+    "Rock Falls": {
+      "none": "any move ended near a canyon wall, a matter of the table"
+    },
+    "Second Wave": {
+      "none": "adds units to the army, once per battle"
+    },
+    "Shielded Mek Shops": {
+      "none": "any unit set up near an objective, a matter of the table"
+    },
+    "Shrouding Smoke": {
+      "all": true
+    },
+    "Surgical Insertion": {
+      "none": "a choice among the units in reserves, not a unit's own rule"
+    },
+    "Titan Clash": {
+      "kws": [
+        "Monster",
+        "Vehicle",
+        "Titanic"
+      ]
+    },
+    "Treacherous Terrain": {
+      "none": "a hazard roll for any unit, and the charge roll by the target's terrain"
+    },
+    "Tunnel Fighters": {
+      "kws": [
+        "Infantry"
+      ]
+    },
+    "Vermillion Sanction": {
+      "none": "the number of Upgrades in a battle, counted at upgradeLimit"
+    },
+    "Veteran Fighters": {
+      "kws": [
+        "Battleline"
+      ]
+    }
+  }
+}

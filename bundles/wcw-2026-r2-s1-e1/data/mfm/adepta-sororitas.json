@@ -1,0 +1,676 @@
+{
+  "default": {
+    "detachments": [
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Blade of Saint Ellynor",
+            "points": 15
+          },
+          {
+            "name": "Divine Aspect",
+            "points": 5
+          },
+          {
+            "name": "Litanies of Faith",
+            "points": 10
+          },
+          {
+            "name": "Triptych of the Macharian Crusade",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Army of Faith"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Fire and Fury",
+            "points": 30
+          },
+          {
+            "name": "Iron Surplice of Saint Istalela",
+            "points": 10
+          },
+          {
+            "name": "Manual of Saint Griselda",
+            "points": 20
+          },
+          {
+            "name": "Righteous Rage",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Bringers of Flame"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Eyes of the Oracle",
+            "points": 10
+          },
+          {
+            "name": "Mark of Devotion",
+            "points": 30
+          },
+          {
+            "name": "Sanctified Amulet",
+            "points": 25
+          },
+          {
+            "name": "Triptych of Judgement",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Champions of Faith",
+        "unique": "REVEREND"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Clarion of Urgency",
+            "points": 15
+          },
+          {
+            "name": "Symphonic Payload (Upgrade)",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Chorus of Condemnation"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Chaplet of Sacrifice",
+            "points": 25
+          },
+          {
+            "name": "Mantle of Ophelia",
+            "points": 20
+          },
+          {
+            "name": "Saintly Example",
+            "points": 10
+          },
+          {
+            "name": "Through Suffering, Strength",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold",
+          "Priority Assets"
+        ],
+        "name": "Hallowed Martyrs"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Catechism of Divine Penitence",
+            "points": 15
+          },
+          {
+            "name": "Psalm of Righteous Judgement",
+            "points": 20
+          },
+          {
+            "name": "Refrain of Enduring Faith",
+            "points": 15
+          },
+          {
+            "name": "Verse of Holy Piety",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Penitent Host"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Perfervid Haste",
+            "points": 10
+          },
+          {
+            "name": "Writ of Compunction (Upgrade)",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Sacred Champions",
+        "unique": "REVEREND"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Hagiomnifex (Upgrade)",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Sanctified Orators"
+      }
+    ],
+    "id": "adepta-sororitas",
+    "legends": [
+      {
+        "name": "Battle Sanctum",
+        "options": [
+          {
+            "models": 1,
+            "points": 170
+          }
+        ]
+      },
+      {
+        "name": "Celestian Sacresant Aveline",
+        "options": [
+          {
+            "models": 1,
+            "points": 45
+          }
+        ]
+      },
+      {
+        "name": "Crusaders",
+        "options": [
+          {
+            "models": 2,
+            "points": 40
+          },
+          {
+            "models": 4,
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Death Cult Assassins",
+        "options": [
+          {
+            "models": 2,
+            "points": 55
+          },
+          {
+            "models": 4,
+            "points": 110
+          }
+        ]
+      },
+      {
+        "name": "Repressor",
+        "options": [
+          {
+            "models": 1,
+            "points": 130
+          }
+        ]
+      }
+    ],
+    "name": "Adepta Sororitas",
+    "slug": "adepta-sororitas",
+    "sourceUrl": "https://mfm.warhammer-community.com/en/adepta-sororitas",
+    "subfactions": [],
+    "units": [
+      {
+        "name": "Aestred Thurga and Agathae Dolan",
+        "options": [
+          {
+            "models": 2,
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Arco-Flagellants",
+        "options": [
+          {
+            "models": 3,
+            "points": 50
+          },
+          {
+            "models": 10,
+            "points": 140
+          }
+        ]
+      },
+      {
+        "name": "Battle Sisters Squad",
+        "options": [
+          {
+            "models": 10,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Canoness",
+        "options": [
+          {
+            "models": 1,
+            "points": 60
+          }
+        ]
+      },
+      {
+        "name": "Canoness with Jump Pack",
+        "options": [
+          {
+            "models": 1,
+            "points": 75
+          }
+        ]
+      },
+      {
+        "name": "Castigator",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 165
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 185
+          }
+        ]
+      },
+      {
+        "name": "Celestian Insidiants",
+        "options": [
+          {
+            "models": 10,
+            "points": 115
+          }
+        ]
+      },
+      {
+        "name": "Celestian Sacresants",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 75
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 150
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 85
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 160
+          }
+        ]
+      },
+      {
+        "name": "Daemonifuge",
+        "options": [
+          {
+            "models": 2,
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Dialogus",
+        "options": [
+          {
+            "models": 1,
+            "points": 40
+          }
+        ]
+      },
+      {
+        "name": "Dogmata",
+        "options": [
+          {
+            "models": 1,
+            "points": 45
+          }
+        ]
+      },
+      {
+        "name": "Dominion Squad",
+        "options": [
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 90
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 100
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Meltagun",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Exorcist",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 175
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 215
+          }
+        ]
+      },
+      {
+        "name": "Hospitaller",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 65
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 75
+          }
+        ]
+      },
+      {
+        "name": "Imagifier",
+        "options": [
+          {
+            "models": 1,
+            "points": 55
+          }
+        ]
+      },
+      {
+        "name": "Immolator",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-3rd",
+            "points": 100
+          },
+          {
+            "models": 1,
+            "note": "4th+",
+            "points": 115
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Twin Multi-melta",
+            "points": 15
+          }
+        ]
+      },
+      {
+        "name": "Intranzia Fraye",
+        "options": [
+          {
+            "models": 1,
+            "points": 135
+          }
+        ]
+      },
+      {
+        "name": "Junith Eruita",
+        "options": [
+          {
+            "models": 1,
+            "points": 105
+          }
+        ]
+      },
+      {
+        "name": "Ministorum Priest",
+        "options": [
+          {
+            "models": 1,
+            "points": 50
+          }
+        ]
+      },
+      {
+        "name": "Mortifiers",
+        "options": [
+          {
+            "models": 1,
+            "points": 70
+          },
+          {
+            "models": 2,
+            "points": 130
+          }
+        ]
+      },
+      {
+        "name": "Morvenn Vahl",
+        "options": [
+          {
+            "models": 1,
+            "points": 215
+          }
+        ]
+      },
+      {
+        "name": "Palatine",
+        "options": [
+          {
+            "models": 1,
+            "points": 50
+          }
+        ]
+      },
+      {
+        "name": "Paragon Warsuits",
+        "options": [
+          {
+            "models": 3,
+            "note": "1st-2nd",
+            "points": 165
+          },
+          {
+            "models": 3,
+            "note": "3rd+",
+            "points": 175
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Multi-melta",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Penitent Engines",
+        "options": [
+          {
+            "models": 1,
+            "points": 70
+          },
+          {
+            "models": 2,
+            "points": 140
+          }
+        ]
+      },
+      {
+        "name": "Repentia Squad",
+        "options": [
+          {
+            "models": 5,
+            "points": 70
+          },
+          {
+            "models": 10,
+            "points": 140
+          }
+        ]
+      },
+      {
+        "name": "Retributor Squad",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 105
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 115
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Multi-melta",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Saint Celestine",
+        "options": [
+          {
+            "models": 3,
+            "points": 135
+          }
+        ]
+      },
+      {
+        "name": "Sanctifiers",
+        "options": [
+          {
+            "models": 9,
+            "points": 110
+          }
+        ]
+      },
+      {
+        "name": "Seraphim Squad",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 75
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 150
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 85
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 160
+          }
+        ]
+      },
+      {
+        "name": "Sisters Novitiate Squad",
+        "options": [
+          {
+            "models": 10,
+            "points": 90
+          }
+        ]
+      },
+      {
+        "name": "Sororitas Rhino",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-3rd",
+            "points": 65
+          },
+          {
+            "models": 1,
+            "note": "4th+",
+            "points": 75
+          }
+        ]
+      },
+      {
+        "name": "Triumph of Saint Katherine",
+        "options": [
+          {
+            "models": 1,
+            "points": 245
+          }
+        ]
+      },
+      {
+        "name": "Zephyrim Squad",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 75
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 150
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 85
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 160
+          }
+        ]
+      }
+    ]
+  }
+}

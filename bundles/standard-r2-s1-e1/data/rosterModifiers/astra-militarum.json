@@ -1,0 +1,3124 @@
+{
+  "default": {
+    "entries": [
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "LETHAL HITS",
+            "when": null
+          }
+        ],
+        "hash": "b68a3722",
+        "kind": "ability",
+        "name": "‘Iron Hand’ Straken: Cold Steel and Courage",
+        "ref": {
+          "kind": "ability",
+          "unit": "iron-hand-straken"
+        },
+        "reviewed": true,
+        "sid": "pack:iron-hand-straken:cold-steel-and-courage",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "e83499ed",
+        "kind": "ability",
+        "name": "Aegis Defence Line: Defence Line",
+        "ref": {
+          "kind": "ability",
+          "unit": "aegis-defence-line"
+        },
+        "reviewed": true,
+        "sid": "e42730d6-21b4-4166-ba64-964869fc997a:aegis-defence-line",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "ee7e3001",
+        "kind": "ability",
+        "name": "Aegis Defence Line: Fortification",
+        "ref": {
+          "kind": "ability",
+          "unit": "aegis-defence-line"
+        },
+        "reviewed": true,
+        "sid": "26b11011-e99c-4bcd-8f2d-fe34af25bfa4:aegis-defence-line",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "824347a8",
+        "kind": "ability",
+        "name": "Banesword: Armour Obliteration",
+        "ref": {
+          "kind": "ability",
+          "unit": "banesword"
+        },
+        "reviewed": true,
+        "sid": "c66da885-1906-4bf5-a086-a226b02b16a9:banesword",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "6903aaca",
+        "kind": "ability",
+        "name": "Bullgryn Squad: Wall of Muscle",
+        "ref": {
+          "kind": "ability",
+          "unit": "bullgryn-squad"
+        },
+        "reviewed": true,
+        "sid": "08b3225e-bcec-4fae-9468-2d9074112dd4:bullgryn-squad",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "76c79108",
+        "kind": "ability",
+        "name": "Cadian Castellan: Senior Officer",
+        "ref": {
+          "kind": "ability",
+          "unit": "cadian-castellan"
+        },
+        "reviewed": true,
+        "sid": "48a44349-782e-4f73-b49e-92687089533b:cadian-castellan",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": {
+              "en": "while this unit contains an OFFICER",
+              "ru": "пока в отряде есть OFFICER"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "ASSAULT",
+            "when": {
+              "en": "while this unit contains an OFFICER",
+              "ru": "пока в отряде есть OFFICER"
+            }
+          }
+        ],
+        "hash": "49344c1f",
+        "kind": "ability",
+        "name": "Catachan Command Squad: Gung-ho Command",
+        "ref": {
+          "kind": "ability",
+          "unit": "catachan-command-squad"
+        },
+        "reviewed": true,
+        "sid": "6dd38dcc-c4f1-4ea9-8580-ff2c3bc7f579:catachan-command-squad",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "if this unit made a Charge move or was charged this turn",
+              "ru": "если отряд совершил Charge или был атакован Charge в этот ход"
+            }
+          }
+        ],
+        "hash": "7784b290",
+        "kind": "ability",
+        "name": "Catachan Jungle Fighters: Jungle Fighters",
+        "ref": {
+          "kind": "ability",
+          "unit": "catachan-jungle-fighters"
+        },
+        "reviewed": true,
+        "sid": "da4fb92f-a7c1-40f2-87b1-49fa3b267967:catachan-jungle-fighters",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "per 3 models embarked, while not Battle-shocked",
+              "ru": "за каждые 3 модели на борту, пока не Battle-shocked"
+            }
+          }
+        ],
+        "hash": "f98b988c",
+        "kind": "ability",
+        "name": "Centaur RSV: Rapid Strike Vehicle",
+        "ref": {
+          "kind": "ability",
+          "unit": "centaur-rsv"
+        },
+        "reviewed": true,
+        "sid": "4b4cda10-99d6-4df7-b8d2-4e087557d379:centaur-rsv",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+ (vs Psychic Attacks and mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "4fbc0c74",
+        "kind": "ability",
+        "name": "Ciaphas Cain: Psychic Blank",
+        "ref": {
+          "kind": "ability",
+          "unit": "ciaphas-cain"
+        },
+        "reviewed": true,
+        "sid": "pack:ciaphas-cain:psychic-blank",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "once": {
+              "dur": "phase",
+              "per": "army"
+            },
+            "op": "set",
+            "stat": "inv",
+            "value": "2+",
+            "when": {
+              "en": "once per battle, for the phase this ability is used",
+              "ru": "раз за битву, на фазу, когда способность использована"
+            }
+          }
+        ],
+        "hash": "d605a48d",
+        "kind": "ability",
+        "name": "Ciaphas Cain: Unparalleled Luck (Once per battle, per army)",
+        "ref": {
+          "kind": "ability",
+          "unit": "ciaphas-cain"
+        },
+        "reviewed": true,
+        "sid": "pack:ciaphas-cain:unparalleled-luck-once-per-battle-per-army",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-stationary"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Colossus siege mortar"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-MONSTER 5+",
+            "when": {
+              "en": "in a turn this unit remained stationary",
+              "ru": "в ходу, когда отряд остался на месте"
+            }
+          },
+          {
+            "cond": [
+              "unit-stationary"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Colossus siege mortar"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-VEHICLE 5+",
+            "when": {
+              "en": "in a turn this unit remained stationary",
+              "ru": "в ходу, когда отряд остался на месте"
+            }
+          }
+        ],
+        "hash": "c61c1236",
+        "kind": "ability",
+        "name": "Colossus: Tracking Target",
+        "ref": {
+          "kind": "ability",
+          "unit": "colossus"
+        },
+        "reviewed": true,
+        "sid": "pack:colossus:tracking-target",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "3066cae6",
+        "kind": "ability",
+        "name": "Commissar Yarrick: Counterstrategist",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "REGIMENT"
+              ]
+            }
+          ],
+          "set": "Hero of Hades Hive",
+          "unit": "commissar-yarrick"
+        },
+        "reviewed": true,
+        "sid": "70a1ca8c-56dc-4a33-a686-8dcc96c513a0:commissar-yarrick",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "e8bad77d",
+        "kind": "ability",
+        "name": "Commissar Yarrick: Decisive Command",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "Hero of Hades Hive",
+          "unit": "commissar-yarrick"
+        },
+        "reviewed": true,
+        "sid": "d93dac8b-cce2-4779-9091-ccf212d1ef77:commissar-yarrick",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "c0575d91",
+        "kind": "ability",
+        "name": "Commissar Yarrick: Inspiring Hero (Aura)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "ASTRA MILITARUM"
+              ]
+            }
+          ],
+          "set": "Hero of Hades Hive",
+          "unit": "commissar-yarrick"
+        },
+        "reviewed": true,
+        "sid": "ef6bd73d-249a-4518-b0c7-c31ae41d6fd9:commissar-yarrick",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-below-starting-strength"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "while this unit is below its Starting Strength",
+              "ru": "пока отряд ниже Starting Strength"
+            }
+          },
+          {
+            "cond": [
+              "unit-below-half-strength"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "while this unit is below its Starting Strength",
+              "ru": "пока отряд ниже Starting Strength"
+            }
+          },
+          {
+            "cond": [
+              "unit-below-half-strength"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "while this unit is Below Half-strength",
+              "ru": "пока отряд Below Half-strength"
+            }
+          }
+        ],
+        "hash": "496e063b",
+        "kind": "ability",
+        "name": "Death Korps of Krieg: Grim Demeanour",
+        "ref": {
+          "kind": "ability",
+          "unit": "death-korps-of-krieg"
+        },
+        "reviewed": true,
+        "sid": "6a0a7444-b91a-4ce4-8215-fb04d764ab7c:death-korps-of-krieg",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 6+",
+            "when": null
+          }
+        ],
+        "hash": "54180cc7",
+        "kind": "ability",
+        "name": "Drayden's Lance Command Squad: Medi-pack",
+        "ref": {
+          "kind": "ability",
+          "unit": "draydens-lance-command-squad"
+        },
+        "reviewed": true,
+        "sid": "0223b4f3-5ba1-4534-ba8b-c6c7eca3c016:draydens-lance-command-squad",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "1ff3a604",
+        "kind": "ability",
+        "name": "Drayden's Lance Command Squad: Regimental Standard",
+        "ref": {
+          "kind": "ability",
+          "unit": "draydens-lance-command-squad"
+        },
+        "reviewed": true,
+        "sid": "d627eacc-bd80-4426-b40f-f10912926b6d:draydens-lance-command-squad",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "95df2d8d",
+        "kind": "ability",
+        "name": "Drayden's Lance Kasrkin: Melta Mine (Once per battle, per unit)",
+        "ref": {
+          "kind": "ability",
+          "unit": "draydens-lance-kasrkin"
+        },
+        "reviewed": true,
+        "sid": "26b1cc07-1885-46c7-9479-21454d54bb53:draydens-lance-kasrkin",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "e258d19a",
+        "kind": "ability",
+        "name": "Earthshaker Platform: Fortification",
+        "ref": {
+          "kind": "ability",
+          "unit": "earthshaker-platform"
+        },
+        "reviewed": true,
+        "sid": "pack:earthshaker-platform:fortification",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-stationary"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "after it Remained Stationary, until your next Movement phase",
+              "ru": "после того как остался на месте, до вашей следующей фазы движения"
+            }
+          }
+        ],
+        "hash": "9b4fe74b",
+        "kind": "ability",
+        "name": "Elysian Sniper Squad: Mark the Target",
+        "ref": {
+          "kind": "ability",
+          "unit": "elysian-sniper-squad"
+        },
+        "reviewed": true,
+        "sid": "pack:elysian-sniper-squad:mark-the-target",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-stationary"
+            ],
+            "on": "ranged",
+            "only": {
+              "tag": "HEAVY"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while under an Order, having Remained Stationary",
+              "ru": "под приказом, если остался на месте"
+            }
+          }
+        ],
+        "hash": "d4552c8a",
+        "kind": "ability",
+        "name": "Field Ordnance Battery: Rearm, Reload, Fire",
+        "ref": {
+          "kind": "ability",
+          "unit": "field-ordnance-battery"
+        },
+        "reviewed": true,
+        "sid": "6cbbd413-470c-423c-8ca9-13eb380bd682:field-ordnance-battery",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Deep Strike",
+            "when": {
+              "en": "until your next Shooting phase, when this unit used this ability to go into strategic reserves",
+              "ru": "до вашей следующей Shooting phase, если отряд применил эту способность и ушёл в strategic reserves"
+            }
+          }
+        ],
+        "hash": "4375ff00",
+        "kind": "ability",
+        "name": "Gaunt’s Ghosts: Covert Stealth Team",
+        "ref": {
+          "kind": "ability",
+          "unit": "gaunts-ghosts"
+        },
+        "reviewed": true,
+        "sid": "94c195aa-261a-444f-b3d6-d01693f81baf:gaunts-ghosts",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "99cfdd0a",
+        "kind": "ability",
+        "name": "Griffon Mortar Carrier: Suppression Bombardment",
+        "ref": {
+          "kind": "ability",
+          "unit": "griffon-mortar-carrier"
+        },
+        "reviewed": true,
+        "sid": "pack:griffon-mortar-carrier:suppression-bombardment",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-stationary"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while under an Order, having Remained Stationary",
+              "ru": "под приказом, если остался на месте"
+            }
+          }
+        ],
+        "hash": "09293164",
+        "kind": "ability",
+        "name": "Heavy Mortar Team: Rearm, Reload, Fire",
+        "ref": {
+          "kind": "ability",
+          "unit": "heavy-mortar-team"
+        },
+        "reviewed": true,
+        "sid": "pack:heavy-mortar-team:rearm-reload-fire",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "a48daefc",
+        "kind": "ability",
+        "name": "Heavy Quad Launcher Team: Suppression Bombardment",
+        "ref": {
+          "kind": "ability",
+          "unit": "heavy-quad-launcher-team"
+        },
+        "reviewed": true,
+        "sid": "pack:heavy-quad-launcher-team:suppression-bombardment",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "improve",
+            "stat": "ld",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "profile",
+            "op": "improve",
+            "stat": "ld",
+            "target": "led",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "0b053ecb",
+        "kind": "ability",
+        "name": "Hell’s Last: Lesk’s Heroes",
+        "ref": {
+          "kind": "ability",
+          "unit": "hells-last"
+        },
+        "reviewed": true,
+        "sid": "pack:hells-last:lesk-s-heroes",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "e258d19a",
+        "kind": "ability",
+        "name": "Hydra Platform: Fortification",
+        "ref": {
+          "kind": "ability",
+          "unit": "hydra-platform"
+        },
+        "reviewed": true,
+        "sid": "pack:hydra-platform:fortification",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "vs": "ranged",
+            "when": {
+              "en": "while this model has the Benefit of Cover against that attack",
+              "ru": "если у модели есть Benefit of Cover против этой атаки"
+            }
+          }
+        ],
+        "hash": "8ccaff62",
+        "kind": "ability",
+        "name": "Leman Russ Eradicator: Urban Warfare",
+        "ref": {
+          "kind": "ability",
+          "unit": "leman-russ-eradicator"
+        },
+        "reviewed": true,
+        "sid": "f05d9118-3d4f-4356-bffd-dd7693bc5d92:leman-russ-eradicator",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "executioner plasma cannon, against a unit that is Below Half-strength",
+              "ru": "executioner plasma cannon, по отряду Below Half-strength"
+            }
+          }
+        ],
+        "hash": "0abc0d99",
+        "kind": "ability",
+        "name": "Leman Russ Executioner: Gung-ho Executioners",
+        "ref": {
+          "kind": "ability",
+          "unit": "leman-russ-executioner"
+        },
+        "reviewed": true,
+        "sid": "351fe1e2-238c-4149-ad34-22cf5b861d35:leman-russ-executioner",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "17edce82",
+        "kind": "ability",
+        "name": "Leman Russ Exterminator: Withering Hail",
+        "ref": {
+          "kind": "ability",
+          "unit": "leman-russ-exterminator"
+        },
+        "reviewed": true,
+        "sid": "fab2bea2-2e0e-46c5-9542-a5a7c5f3ee94:leman-russ-exterminator",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "against targets other than MONSTERS and VEHICLES",
+              "ru": "по целям, кроме MONSTER и VEHICLE"
+            }
+          }
+        ],
+        "hash": "6437713f",
+        "kind": "ability",
+        "name": "Leman Russ Punisher: Mow Down the Enemy",
+        "ref": {
+          "kind": "ability",
+          "unit": "leman-russ-punisher"
+        },
+        "reviewed": true,
+        "sid": "db5683f1-9393-4ac4-b03e-eb4f8de5e101:leman-russ-punisher",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "until the end of a turn its unit made a Charge move",
+              "ru": "до конца хода, в котором отряд совершил Charge"
+            }
+          },
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "until the end of a turn its unit made a Charge move",
+              "ru": "до конца хода, в котором отряд совершил Charge"
+            }
+          }
+        ],
+        "hash": "6a6c4936",
+        "kind": "ability",
+        "name": "Lord Marshal Dreir: Leading The Charge",
+        "ref": {
+          "kind": "ability",
+          "unit": "lord-marshal-dreir"
+        },
+        "reviewed": true,
+        "sid": "6299b4be-a5b7-4a5e-9989-3c89e2e79694:lord-marshal-dreir",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "against an enemy unit within half range",
+              "ru": "по вражескому отряду в пределах половины дальности"
+            }
+          }
+        ],
+        "hash": "2aa7b74c",
+        "kind": "ability",
+        "name": "Malcador Annihilator: Battlefield Dominance",
+        "ref": {
+          "kind": "ability",
+          "unit": "malcador-annihilator"
+        },
+        "reviewed": true,
+        "sid": "pack:malcador-annihilator:battlefield-dominance",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "ap",
+            "value": 1,
+            "vs": "ranged",
+            "when": null
+          }
+        ],
+        "hash": "2f253aea",
+        "kind": "ability",
+        "name": "Malcador: Rugged Reliability",
+        "ref": {
+          "kind": "ability",
+          "unit": "malcador"
+        },
+        "reviewed": true,
+        "sid": "pack:malcador:rugged-reliability",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "e258d19a",
+        "kind": "ability",
+        "name": "Manticore Platform: Fortification",
+        "ref": {
+          "kind": "ability",
+          "unit": "manticore-platform"
+        },
+        "reviewed": true,
+        "sid": "pack:manticore-platform:fortification",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "ee8bd009",
+        "kind": "ability",
+        "name": "Manticore: Furious Barrage",
+        "ref": {
+          "kind": "ability",
+          "unit": "manticore"
+        },
+        "reviewed": true,
+        "sid": "ff7a4560-5c66-40ed-9890-e145a5612d8e:manticore",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "contains-tempestor-prime"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while this unit contains a Tempestor Prime",
+              "ru": "пока в отряде есть Tempestor Prime"
+            }
+          },
+          {
+            "cond": [
+              "contains-tempestor-prime"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while this unit contains a Tempestor Prime",
+              "ru": "пока в отряде есть Tempestor Prime"
+            }
+          }
+        ],
+        "hash": "49bb1499",
+        "kind": "ability",
+        "name": "Militarum Tempestus Command Squad: Tempestor Prime",
+        "ref": {
+          "kind": "ability",
+          "unit": "militarum-tempestus-command-squad"
+        },
+        "reviewed": true,
+        "sid": "7e6e8ed7-a90a-4161-8315-75be03893b26:militarum-tempestus-command-squad",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "9d48081a",
+        "kind": "ability",
+        "name": "Ministorum Priest: War Hymns",
+        "ref": {
+          "kind": "ability",
+          "unit": "ministorum-priest"
+        },
+        "reviewed": true,
+        "sid": "eaf8c6e0-b388-4ea1-9528-4e7e915cc617:ministorum-priest",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "e577ede9",
+        "kind": "ability",
+        "name": "Minotaur: Armoured Frontis",
+        "note": "Read as Telemon Heavy Dreadnought: Guardian Eternal (adeptus-custodes), the same text.",
+        "ref": {
+          "kind": "ability",
+          "unit": "minotaur"
+        },
+        "reviewed": true,
+        "sid": "pack:minotaur:armoured-frontis",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-led"
+            ],
+            "on": "ranged",
+            "op": "improve",
+            "stat": "bs",
+            "value": 1,
+            "when": {
+              "en": "while a TECH-PRIEST ENGINSEER is leading this unit",
+              "ru": "пока отряд ведёт TECH-PRIEST ENGINSEER"
+            }
+          },
+          {
+            "cond": [
+              "unit-led"
+            ],
+            "on": "melee",
+            "op": "improve",
+            "stat": "ws",
+            "value": 1,
+            "when": {
+              "en": "while a TECH-PRIEST ENGINSEER is leading this unit",
+              "ru": "пока отряд ведёт TECH-PRIEST ENGINSEER"
+            }
+          }
+        ],
+        "hash": "54cde2a5",
+        "kind": "ability",
+        "name": "Munitorum Servitors: Mindlock",
+        "ref": {
+          "kind": "ability",
+          "unit": "munitorum-servitors"
+        },
+        "reviewed": true,
+        "sid": "pack:munitorum-servitors:mindlock",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "5a214fd7",
+        "kind": "ability",
+        "name": "Nork Deddog: Ogryn Bodyguard",
+        "ref": {
+          "kind": "ability",
+          "unit": "nork-deddog"
+        },
+        "reviewed": true,
+        "sid": "7df2649f-03eb-4f18-bc9c-3038fb440140:nork-deddog",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "5a214fd7",
+        "kind": "ability",
+        "name": "Ogryn Bodyguard: Ogryn Bodyguard",
+        "ref": {
+          "kind": "ability",
+          "unit": "ogryn-bodyguard"
+        },
+        "reviewed": true,
+        "sid": "7df2649f-03eb-4f18-bc9c-3038fb440140:ogryn-bodyguard",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "against the closest eligible target",
+              "ru": "против ближайшей допустимой цели"
+            }
+          }
+        ],
+        "hash": "53aaa79e",
+        "kind": "ability",
+        "name": "Ogryn Squad: Point-blank Barrage",
+        "ref": {
+          "kind": "ability",
+          "unit": "ogryn-squad"
+        },
+        "reviewed": true,
+        "sid": "2bc28ee1-1701-4d6b-aae1-47d5753a0728:ogryn-squad",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Feel No Pain 4+ (vs Psychic Attacks)",
+            "when": null
+          }
+        ],
+        "hash": "d4f151a2",
+        "kind": "ability",
+        "name": "Primaris Psyker: Malign Wardings",
+        "ref": {
+          "kind": "ability",
+          "unit": "primaris-psyker"
+        },
+        "reviewed": true,
+        "sid": "bb85a21b-d82c-4f35-b0bd-6d406ecba587:primaris-psyker",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "on a 2+ at the start of your opponent's Shooting phase",
+              "ru": "на 2+ в начале фазы стрельбы оппонента"
+            }
+          }
+        ],
+        "hash": "b426ff9f",
+        "kind": "ability",
+        "name": "Primaris Psyker: Psychic Barrier",
+        "ref": {
+          "kind": "ability",
+          "unit": "primaris-psyker"
+        },
+        "reviewed": true,
+        "sid": "ef45d7dd-4980-4bb0-a26d-1489424d91b7:primaris-psyker",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "improve",
+            "stat": "ld",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "16650f13",
+        "kind": "ability",
+        "name": "Provisionally Prepared: Well-stocked Supplies",
+        "ref": {
+          "kind": "ability",
+          "unit": "provisionally-prepared"
+        },
+        "reviewed": true,
+        "sid": "pack:provisionally-prepared:well-stocked-supplies",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "contains-medicae-servitors"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+",
+            "when": {
+              "en": "while this unit contains Medicae Servitors",
+              "ru": "пока в отряде есть Medicae Servitors"
+            }
+          },
+          {
+            "cond": [
+              "contains-medicae-servitors"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Feel No Pain 5+",
+            "when": {
+              "en": "while this unit contains Medicae Servitors",
+              "ru": "пока в отряде есть Medicae Servitors"
+            }
+          }
+        ],
+        "hash": "e8e53ad6",
+        "kind": "ability",
+        "name": "Quartermaster Cadre Squad: Medicae Medi-packs",
+        "ref": {
+          "kind": "ability",
+          "unit": "quartermaster-cadre-squad"
+        },
+        "reviewed": true,
+        "sid": "pack:quartermaster-cadre-squad:medicae-medi-packs",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "contains-quartermaster-revenant"
+            ],
+            "on": "melee",
+            "only": {
+              "name": "Medical scalpels"
+            },
+            "op": "improve",
+            "stat": "ws",
+            "value": 1,
+            "when": {
+              "en": "while this unit contains a Quartermaster Revenant",
+              "ru": "пока в отряде есть Quartermaster Revenant"
+            }
+          }
+        ],
+        "hash": "7b68999d",
+        "kind": "ability",
+        "name": "Quartermaster Cadre Squad: Mindlock",
+        "ref": {
+          "kind": "ability",
+          "unit": "quartermaster-cadre-squad"
+        },
+        "reviewed": true,
+        "sid": "pack:quartermaster-cadre-squad:mindlock",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-stationary"
+            ],
+            "on": "ranged",
+            "only": {
+              "tag": "HEAVY"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while under an Order, having Remained Stationary",
+              "ru": "под приказом, если остался на месте"
+            }
+          }
+        ],
+        "hash": "ca382cda",
+        "kind": "ability",
+        "name": "Rapier Laser Destroyer Battery: Powerful Volley",
+        "ref": {
+          "kind": "ability",
+          "unit": "rapier-laser-destroyer-battery"
+        },
+        "reviewed": true,
+        "sid": "pack:rapier-laser-destroyer-battery:powerful-volley",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "a660eb8c",
+        "kind": "ability",
+        "name": "Regimental Attachés: Aeronautica Commander",
+        "ref": {
+          "kind": "ability",
+          "unit": "regimental-attaches"
+        },
+        "reviewed": true,
+        "sid": "pack:regimental-attaches:aeronautica-commander",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "462130ef",
+        "kind": "ability",
+        "name": "Regimental Attachés: Artillery Commander",
+        "ref": {
+          "kind": "ability",
+          "unit": "regimental-attaches"
+        },
+        "reviewed": true,
+        "sid": "pack:regimental-attaches:artillery-commander",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "c1c6946a",
+        "kind": "ability",
+        "name": "Rogal Dorn Battle Tank: Ablative Plating",
+        "ref": {
+          "kind": "ability",
+          "unit": "rogal-dorn-battle-tank"
+        },
+        "reviewed": true,
+        "sid": "3ab67e3d-9134-477a-a176-59ac72bc9e26:rogal-dorn-battle-tank",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "e258d19a",
+        "kind": "ability",
+        "name": "Sabre Weapons Battery: Fortification",
+        "ref": {
+          "kind": "ability",
+          "unit": "sabre-weapons-battery"
+        },
+        "reviewed": true,
+        "sid": "pack:sabre-weapons-battery:fortification",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "vs": "ranged",
+            "when": {
+              "en": "while this model is leading a unit, against attackers more than 12\" away",
+              "ru": "пока модель возглавляет отряд, против атакующих дальше 12\""
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": -1,
+            "vs": "ranged",
+            "when": {
+              "en": "while this model is leading a unit, against attackers more than 12\" away",
+              "ru": "пока модель возглавляет отряд, против атакующих дальше 12\""
+            }
+          }
+        ],
+        "hash": "486e0ac9",
+        "kind": "ability",
+        "name": "Sergeant Harker: Harker’s Hellraisers",
+        "ref": {
+          "kind": "ability",
+          "unit": "sergeant-harker"
+        },
+        "reviewed": true,
+        "sid": "pack:sergeant-harker:harker-s-hellraisers",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "only": {
+              "name": "Payback"
+            },
+            "op": "set",
+            "stat": "a",
+            "value": "6",
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          },
+          {
+            "on": "ranged",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "only": {
+              "name": "Payback"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 3",
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "3047da6e",
+        "kind": "ability",
+        "name": "Sergeant Harker: Payback Time",
+        "ref": {
+          "kind": "ability",
+          "unit": "sergeant-harker"
+        },
+        "reviewed": true,
+        "sid": "pack:sergeant-harker:payback-time",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "against MONSTER or VEHICLE targets",
+              "ru": "по целям MONSTER или VEHICLE"
+            }
+          }
+        ],
+        "hash": "14994df9",
+        "kind": "ability",
+        "name": "Shadowsword: Titan-killer",
+        "ref": {
+          "kind": "ability",
+          "unit": "shadowsword"
+        },
+        "reviewed": true,
+        "sid": "33045c06-1dbd-443b-b374-61783b865d2b:shadowsword",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against a VEHICLE unit",
+              "ru": "по отряду VEHICLE"
+            }
+          }
+        ],
+        "hash": "44afe737",
+        "kind": "ability",
+        "name": "Stygies Destroyer Tank Hunter: Tank Hunter",
+        "ref": {
+          "kind": "ability",
+          "unit": "stygies-destroyer-tank-hunter"
+        },
+        "reviewed": true,
+        "sid": "pack:stygies-destroyer-tank-hunter:tank-hunter",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 6,
+            "when": {
+              "en": "in a phase it Advanced (no Advance roll is made)",
+              "ru": "в фазе, когда совершил Advance (бросок не делается)"
+            }
+          }
+        ],
+        "hash": "18a0ce80",
+        "kind": "ability",
+        "name": "Tauros Assault Vehicle: Turbo-boost",
+        "note": "Read as Ynnari Raider: Aethersails (aeldari), the same text.",
+        "ref": {
+          "kind": "ability",
+          "unit": "tauros-assault-vehicle"
+        },
+        "reviewed": true,
+        "sid": "pack:tauros-assault-vehicle:turbo-boost",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of a friendly ASTRA MILITARUM VEHICLE unit",
+              "ru": "пока в пределах 3\" от дружественного отряда ASTRA MILITARUM VEHICLE"
+            }
+          }
+        ],
+        "hash": "75f5205a",
+        "kind": "ability",
+        "name": "Tech-Priest Enginseer: Enginseer",
+        "ref": {
+          "kind": "ability",
+          "unit": "tech-priest-enginseer"
+        },
+        "reviewed": true,
+        "sid": "7f40c14c-ac8c-40f8-8cf4-39a6b6dec019:tech-priest-enginseer",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "aura",
+            "value": "4+",
+            "when": null
+          }
+        ],
+        "hash": "35bf3335",
+        "kind": "ability",
+        "name": "Tech-Priest Enginseer: Omnissiah’s Blessing",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [
+                "ASTRA MILITARUM VEHICLE"
+              ],
+              "targets": [
+                "ASTRA MILITARUM VEHICLE"
+              ]
+            }
+          ],
+          "unit": "tech-priest-enginseer"
+        },
+        "reviewed": true,
+        "sid": "76861981-15ee-4efa-84a1-7302daa8e7a6:tech-priest-enginseer",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "only": {
+              "name": "Enginseer axe"
+            },
+            "op": "set",
+            "stat": "a",
+            "value": "6",
+            "when": {
+              "en": "for the rest of the battle, once a friendly VEHICLE was destroyed within 12\"",
+              "ru": "до конца битвы, если дружественный VEHICLE уничтожен в 12\""
+            }
+          }
+        ],
+        "hash": "20517a1b",
+        "kind": "ability",
+        "name": "Tech-Priest Enginseer: Vengeance for the Omnissiah",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [
+                "ASTRA MILITARUM VEHICLE"
+              ],
+              "targets": [
+                "ASTRA MILITARUM VEHICLE"
+              ]
+            }
+          ],
+          "unit": "tech-priest-enginseer"
+        },
+        "reviewed": true,
+        "sid": "4553de7a-0245-4160-ab0d-8cdc58b86136:tech-priest-enginseer",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "663cf92e",
+        "kind": "ability",
+        "name": "Voss-pattern Lightning: Agile Dogfighter",
+        "ref": {
+          "kind": "ability",
+          "unit": "voss-pattern-lightning"
+        },
+        "reviewed": true,
+        "sid": "pack:voss-pattern-lightning:agile-dogfighter",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "7a8a87f6",
+        "kind": "ability",
+        "name": "Wyvern: Suppression Bombardment",
+        "ref": {
+          "kind": "ability",
+          "unit": "wyvern"
+        },
+        "reviewed": true,
+        "sid": "83038c28-eb5f-4279-9a58-aea5ec64cdc2:wyvern",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "6d141cb4",
+        "kind": "allegiance",
+        "name": "Steel Hammer Keywords: Character",
+        "note": "the keyword this grants is applied by the roster layer itself (rosterEngine's allegKeyword feeds DatasheetCard's grantedKeywords), so recording it here too would show it twice; no printed number changes",
+        "ref": {
+          "g": "steel-hammer-keywords",
+          "gid": "ccb4bec6",
+          "kind": "allegiance",
+          "opt": "Character"
+        },
+        "reviewed": true,
+        "sid": "3b10e68b-0230-4669-a0a3-f0c29feaa3b4",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "order-move-move-move"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 3,
+            "when": {
+              "en": "while affected by the «Move! Move! Move!» Order",
+              "ru": "пока на отряд действует приказ «Move! Move! Move!»"
+            }
+          },
+          {
+            "cond": [
+              "order-fix-bayonets"
+            ],
+            "on": "melee",
+            "op": "improve",
+            "stat": "ws",
+            "value": 1,
+            "when": {
+              "en": "while affected by the «Fix Bayonets!» Order",
+              "ru": "пока на отряд действует приказ «Fix Bayonets!»"
+            }
+          },
+          {
+            "cond": [
+              "order-take-aim"
+            ],
+            "on": "ranged",
+            "op": "improve",
+            "stat": "bs",
+            "value": 1,
+            "when": {
+              "en": "while affected by the «Take Aim!» Order",
+              "ru": "пока на отряд действует приказ «Take Aim!»"
+            }
+          },
+          {
+            "cond": [
+              "order-first-rank-fire"
+            ],
+            "on": "ranged",
+            "only": {
+              "tag": "RAPID FIRE"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "while affected by the «First Rank, Fire! Second Rank, Fire!» Order — Rapid Fire weapons only",
+              "ru": "пока на отряд действует приказ «First Rank, Fire! Second Rank, Fire!» — только для оружия Rapid Fire"
+            }
+          },
+          {
+            "best": "3+",
+            "cond": [
+              "order-take-cover"
+            ],
+            "on": "profile",
+            "op": "improve",
+            "stat": "sv",
+            "value": 1,
+            "when": {
+              "en": "while affected by the «Take Cover!» Order — never better than 3+",
+              "ru": "пока на отряд действует приказ «Take Cover!» — не лучше 3+"
+            }
+          },
+          {
+            "cond": [
+              "order-duty-and-honour"
+            ],
+            "on": "profile",
+            "op": "improve",
+            "stat": "ld",
+            "value": 1,
+            "when": {
+              "en": "while affected by the «Duty and Honour!» Order",
+              "ru": "пока на отряд действует приказ «Duty and Honour!»"
+            }
+          },
+          {
+            "cond": [
+              "order-duty-and-honour"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "while affected by the «Duty and Honour!» Order",
+              "ru": "пока на отряд действует приказ «Duty and Honour!»"
+            }
+          }
+        ],
+        "hash": "0dcb714d",
+        "kind": "armyRule",
+        "name": "Voice of Command",
+        "ref": {
+          "kind": "armyRule"
+        },
+        "reviewed": true,
+        "sid": "1a356af1-830d-41dc-98c2-e3da02b19021",
+        "ver": 925
+      },
+      {
+        "det": "Abhuman Auxiliaries",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "scope": 0,
+            "stat": "keyword",
+            "value": "Abhuman",
+            "when": null
+          }
+        ],
+        "hash": "ca821946",
+        "kind": "detachmentRule",
+        "name": "Absolutist Principles",
+        "ref": {
+          "det": "abhuman-auxiliaries",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "31fd1a92-acc6-4b73-89a5-fdb7334e3de7",
+        "ver": 995
+      },
+      {
+        "det": "Bridgehead Strike",
+        "effects": [
+          {
+            "cond": [
+              "warlord-tempestus-officer"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "BATTLELINE",
+            "when": {
+              "en": "if a Militarum Tempestus Officer model is your Warlord",
+              "ru": "если ваш WARLORD — модель Militarum Tempestus Officer"
+            }
+          },
+          {
+            "cond": [
+              "warlord-tempestus-officer"
+            ],
+            "on": "profile",
+            "op": "add",
+            "scope": 0,
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "if a Militarum Tempestus Officer model is your Warlord",
+              "ru": "если ваш WARLORD — модель Militarum Tempestus Officer"
+            }
+          },
+          {
+            "cond": [
+              "unit-set-up-this-turn"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "scope": 1,
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "if this unit was set up this turn",
+              "ru": "если отряд выставлен на поле в этом ходу"
+            }
+          }
+        ],
+        "hash": "67541d4d",
+        "kind": "detachmentRule",
+        "name": "Fire Zone Purge",
+        "ref": {
+          "det": "bridgehead-strike",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "19c61e87-4eec-4e4c-ba37-e6dfcb4aa815",
+        "ver": 925
+      },
+      {
+        "det": "Combined Arms",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "against targets other than MONSTERS and VEHICLES",
+              "ru": "по целям, кроме MONSTER и VEHICLE"
+            }
+          }
+        ],
+        "hash": "a541e463",
+        "kind": "detachmentRule",
+        "name": "Born Soldiers",
+        "ref": {
+          "det": "combined-arms",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "afb94836-c7b8-4435-aa2c-a4e8ff4c9fca",
+        "ver": 925
+      },
+      {
+        "det": "Designation Force",
+        "effects": [],
+        "hash": "f65d906f",
+        "kind": "detachmentRule",
+        "name": "Designated Targets",
+        "ref": {
+          "det": "designation-force",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "4311f790-0f31-4209-a196-142b9a4d9f3b",
+        "ver": 995
+      },
+      {
+        "det": "Grizzled Company",
+        "effects": [],
+        "hash": "9a88e64d",
+        "kind": "detachmentRule",
+        "name": "Ruthless Discipline",
+        "ref": {
+          "det": "grizzled-company",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "635a612e-5dec-4bcd-b575-8a799e40c485",
+        "ver": 925
+      },
+      {
+        "det": "Hammer of the Emperor",
+        "effects": [
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 6,
+            "when": {
+              "en": "when that unit Advances, until the end of the phase",
+              "ru": "когда юнит совершает Advance, до конца фазы"
+            }
+          }
+        ],
+        "hash": "33c60adf",
+        "kind": "detachmentRule",
+        "name": "Iron Tread",
+        "ref": {
+          "det": "hammer-of-the-emperor",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "200cc030-71f3-4c06-ad3c-4d98b7567d12",
+        "ver": 925
+      },
+      {
+        "det": "Mechanised Assault",
+        "effects": [
+          {
+            "cond": [
+              "unit-disembarked"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "in a turn in which the unit disembarked from a TRANSPORT",
+              "ru": "в ход, когда отряд высадился из TRANSPORT"
+            }
+          }
+        ],
+        "hash": "80bd5ae3",
+        "kind": "detachmentRule",
+        "name": "Armoured Fist",
+        "ref": {
+          "det": "mechanised-assault",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "998e3c77-a541-44a6-a64e-e7b2bbe5e398",
+        "ver": 925
+      },
+      {
+        "det": "Recon Element",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "scope": 0,
+            "stat": "core",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "6646ca9d",
+        "kind": "detachmentRule",
+        "name": "Masters of Camouflage",
+        "ref": {
+          "det": "recon-element",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "536ea1fd-61ca-4160-9e68-6c61384eee0d",
+        "ver": 931
+      },
+      {
+        "det": "Siege Regiment",
+        "effects": [
+          {
+            "cond": [
+              "artillery-creeping-barrage"
+            ],
+            "op": "state",
+            "when": {
+              "en": "the artillery support selected this battle round",
+              "ru": "артиллерийская поддержка, выбранная в этом раунде"
+            }
+          },
+          {
+            "cond": [
+              "artillery-incendiary-bombardment"
+            ],
+            "op": "state",
+            "when": {
+              "en": "the artillery support selected this battle round",
+              "ru": "артиллерийская поддержка, выбранная в этом раунде"
+            }
+          },
+          {
+            "cond": [
+              "artillery-smoke-shells"
+            ],
+            "op": "state",
+            "when": {
+              "en": "the artillery support selected this battle round",
+              "ru": "артиллерийская поддержка, выбранная в этом раунде"
+            }
+          }
+        ],
+        "hash": "f8f73c83",
+        "kind": "detachmentRule",
+        "name": "Artillery Support",
+        "ref": {
+          "det": "siege-regiment",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "c63d8c87-0781-4ce3-9960-2f0d2b96df60",
+        "ver": 925
+      },
+      {
+        "det": "Abhuman Auxiliaries",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+",
+            "when": null
+          }
+        ],
+        "hash": "77091950",
+        "kind": "enhancement",
+        "name": "Exemplar of Duty (Upgrade)",
+        "ref": {
+          "det": "abhuman-auxiliaries",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "c1ce9799-014d-4556-b261-ab8fd004daf1",
+        "ver": 925
+      },
+      {
+        "det": "Armoured Infantry",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "aura",
+            "value": "Feel No Pain 5+",
+            "when": null
+          }
+        ],
+        "hash": "03ae5d87",
+        "kind": "enhancement",
+        "name": "Omnissian Unguents (Aura)",
+        "ref": {
+          "det": "armoured-infantry",
+          "kind": "enhancement",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "ARMOURED SKIRMISHER"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "d1fe63bf-bc7b-44f4-9755-a95196e76d59",
+        "ver": 925
+      },
+      {
+        "det": "Combined Arms",
+        "effects": [],
+        "hash": "5c661f24",
+        "kind": "enhancement",
+        "name": "Death Mask of Ollanius",
+        "ref": {
+          "det": "combined-arms",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "de0f8d4e-827f-4582-9af5-290b0fc40780",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading"
+        ],
+        "det": "Combined Arms",
+        "effects": [],
+        "hash": "bf3096cc",
+        "kind": "enhancement",
+        "name": "Drill Commander",
+        "ref": {
+          "det": "combined-arms",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "42d66b66-bba8-4fcc-a54c-c71804512bad",
+        "ver": 995
+      },
+      {
+        "det": "Designation Force",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Infiltrators",
+            "when": null
+          }
+        ],
+        "hash": "b21c3efe",
+        "kind": "enhancement",
+        "name": "Long-range Scout (Upgrade)",
+        "ref": {
+          "det": "designation-force",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "4272bd39-3d22-455a-be75-91c7e5bbafce",
+        "ver": 925
+      },
+      {
+        "det": "Grizzled Company",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "against enemy units within 12\", while affected by the bearer's Target Weak Spot Order",
+              "ru": "против вражеских отрядов в пределах 12\", пока действует приказ носителя Target Weak Spot"
+            }
+          }
+        ],
+        "hash": "1f348adf",
+        "kind": "enhancement",
+        "name": "Aquilan Eye",
+        "ref": {
+          "det": "grizzled-company",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "bc853f1d-57e1-4dce-bedb-71dcb438bfaf",
+        "ver": 925
+      },
+      {
+        "det": "Grizzled Company",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "selected": true,
+            "stat": "core",
+            "target": "aura",
+            "value": "Stealth",
+            "when": {
+              "en": "while affected by the bearer's Move to the Shadows Order",
+              "ru": "пока действует приказ носителя Move to the Shadows"
+            }
+          }
+        ],
+        "hash": "e7a36e89",
+        "kind": "enhancement",
+        "name": "Spec Ops Veteran",
+        "ref": {
+          "det": "grizzled-company",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "44f6e32f-71ad-4198-b5a4-17c2b54d388c",
+        "ver": 925
+      },
+      {
+        "det": "Hammer of the Emperor",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 6+",
+            "when": null
+          }
+        ],
+        "hash": "604211f6",
+        "kind": "enhancement",
+        "name": "Indomitable Steed",
+        "ref": {
+          "det": "hammer-of-the-emperor",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "4b8b684b-2f0d-41b3-9333-1945e0c3329c",
+        "ver": 925
+      },
+      {
+        "det": "Hammer of the Emperor",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 3,
+            "when": null
+          }
+        ],
+        "hash": "be358b28",
+        "kind": "enhancement",
+        "name": "Regimental Banner",
+        "ref": {
+          "det": "hammer-of-the-emperor",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "9023c1ea-65ac-4554-a508-34400cc1136f",
+        "ver": 925
+      },
+      {
+        "det": "Recon Element",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Scouts 6\"",
+            "when": null
+          }
+        ],
+        "hash": "1546a885",
+        "kind": "enhancement",
+        "name": "Survival Gear",
+        "ref": {
+          "det": "recon-element",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "59e0757c-0d0e-4587-99d3-72e61e622a4e",
+        "ver": 925
+      },
+      {
+        "det": "Recon Element",
+        "effects": [],
+        "hash": "0806e260",
+        "kind": "enhancement",
+        "name": "Tripwires",
+        "ref": {
+          "det": "recon-element",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "8bb2377e-6388-45ff-9b3c-05b8117106b1",
+        "ver": 995
+      },
+      {
+        "appliesWhile": [
+          "unit-leading-regiment"
+        ],
+        "det": "Siege Regiment",
+        "effects": [
+          {
+            "cond": [
+              "unit-leading-regiment"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Scouts 6\"",
+            "when": {
+              "en": "while the bearer is leading a REGIMENT unit",
+              "ru": "пока носитель ведёт отряд REGIMENT"
+            }
+          }
+        ],
+        "hash": "6722076d",
+        "kind": "enhancement",
+        "name": "Eager Advance",
+        "ref": {
+          "det": "siege-regiment",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "e5d2ca6f-bdfc-498e-bef1-9c753c55bc64",
+        "ver": 925
+      },
+      {
+        "det": "Siege Regiment",
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "tag": "PISTOL"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 2,
+            "when": null
+          }
+        ],
+        "hash": "02dc4227",
+        "kind": "enhancement",
+        "name": "Legacy Sidearm",
+        "ref": {
+          "det": "siege-regiment",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "e38c0b38-9334-43e5-aaf5-abe27a176bc8",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading"
+        ],
+        "det": "Siege Regiment",
+        "effects": [],
+        "hash": "3113a642",
+        "kind": "enhancement",
+        "name": "Stalwart’s Honours",
+        "ref": {
+          "det": "siege-regiment",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "9d9bac51-6e67-4fe1-a422-6f83d9611f18",
+        "ver": 995
+      },
+      {
+        "det": "Steel Hammer",
+        "effects": [],
+        "hash": "a4f753ee",
+        "kind": "enhancement",
+        "name": "Engine Speaker",
+        "note": "the +3\" Move is given to a VEHICLE the bearer picks, not to the bearer",
+        "ref": {
+          "det": "steel-hammer",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "6419d3ce-ef9b-4cb2-9da6-6b06b0ca1952",
+        "ver": 925
+      },
+      {
+        "det": "Abhuman Auxiliaries",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "ap",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "9e50d86d",
+        "kind": "stratagem",
+        "name": "Thick-skulled Obdurance",
+        "ref": {
+          "det": "abhuman-auxiliaries",
+          "kind": "stratagem",
+          "name": "Thick-skulled Obdurance"
+        },
+        "reviewed": true,
+        "sid": "a30bf1f8-e97b-4b24-a8a7-197d9bd736c7",
+        "ver": 925
+      },
+      {
+        "det": "Armoured Infantry",
+        "effects": [],
+        "hash": "94e33ba5",
+        "kind": "stratagem",
+        "name": "Combined Fire",
+        "ref": {
+          "det": "armoured-infantry",
+          "kind": "stratagem",
+          "name": "Combined Fire"
+        },
+        "reviewed": true,
+        "sid": "e49aa10b-2b42-4430-aa54-86a349613571",
+        "ver": 925
+      },
+      {
+        "det": "Armoured Infantry",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "78ce0ea9",
+        "kind": "stratagem",
+        "name": "Opening Salvo",
+        "ref": {
+          "det": "armoured-infantry",
+          "kind": "stratagem",
+          "name": "Opening Salvo"
+        },
+        "reviewed": true,
+        "sid": "93db3b51-7abc-4b11-8f6f-3122bf6600cf",
+        "ver": 925
+      },
+      {
+        "det": "Bridgehead Strike",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Hot-shot"
+            },
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "against targets within 12\"",
+              "ru": "против целей в 12\""
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Hot-shot"
+            },
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "against targets within 12\"",
+              "ru": "против целей в 12\""
+            }
+          }
+        ],
+        "hash": "383d8f30",
+        "kind": "stratagem",
+        "name": "Firing Hot",
+        "ref": {
+          "det": "bridgehead-strike",
+          "kind": "stratagem",
+          "name": "Firing Hot"
+        },
+        "reviewed": true,
+        "sid": "47d1a118-137e-4364-a40a-a37ae92455ee",
+        "ver": 925
+      },
+      {
+        "det": "Bridgehead Strike",
+        "effects": [],
+        "hash": "e315b303",
+        "kind": "stratagem",
+        "name": "Servo-designators",
+        "ref": {
+          "det": "bridgehead-strike",
+          "kind": "stratagem",
+          "name": "Servo-designators"
+        },
+        "reviewed": true,
+        "sid": "ed83bb30-81ad-4d1c-859d-c70bd6be0aba",
+        "ver": 925
+      },
+      {
+        "det": "Combined Arms",
+        "effects": [],
+        "hash": "46d37624",
+        "kind": "stratagem",
+        "name": "Fields of Fire",
+        "ref": {
+          "det": "combined-arms",
+          "kind": "stratagem",
+          "name": "Fields of Fire"
+        },
+        "reviewed": true,
+        "sid": "964e2794-16c2-4508-9ad7-64b12b74da63",
+        "ver": 925
+      },
+      {
+        "det": "Grizzled Company",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "ap",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "068f028a",
+        "kind": "stratagem",
+        "name": "Additional Armour",
+        "ref": {
+          "det": "grizzled-company",
+          "kind": "stratagem",
+          "name": "Additional Armour"
+        },
+        "reviewed": true,
+        "sid": "7a6ff137-248f-4f3d-bd6a-1bc96184895e",
+        "ver": 925
+      },
+      {
+        "det": "Grizzled Company",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "b04ae3d6",
+        "kind": "stratagem",
+        "name": "Mordian Minute",
+        "ref": {
+          "det": "grizzled-company",
+          "kind": "stratagem",
+          "name": "Mordian Minute"
+        },
+        "reviewed": true,
+        "sid": "e85f3b10-ba5a-436e-a292-251fc2f299f3",
+        "ver": 925
+      },
+      {
+        "det": "Grizzled Company",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while within range of an objective marker",
+              "ru": "пока отряд в зоне objective"
+            }
+          }
+        ],
+        "hash": "db679fe6",
+        "kind": "stratagem",
+        "name": "Purging Fire",
+        "ref": {
+          "det": "grizzled-company",
+          "kind": "stratagem",
+          "name": "Purging Fire"
+        },
+        "reviewed": true,
+        "sid": "001c82b3-7360-4b5a-a97d-9e743075c9e8",
+        "ver": 925
+      },
+      {
+        "det": "Grizzled Company",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "f7f93b26",
+        "kind": "stratagem",
+        "name": "Veteran Sharpshooters",
+        "ref": {
+          "det": "grizzled-company",
+          "kind": "stratagem",
+          "name": "Veteran Sharpshooters"
+        },
+        "reviewed": true,
+        "sid": "ff94fb92-54ab-4572-957d-9442010d4246",
+        "ver": 925
+      },
+      {
+        "det": "Hammer of the Emperor",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "3b9d003d",
+        "kind": "stratagem",
+        "name": "Ablative Plating",
+        "ref": {
+          "det": "hammer-of-the-emperor",
+          "kind": "stratagem",
+          "name": "Ablative Plating"
+        },
+        "reviewed": true,
+        "sid": "84115c52-4624-40fd-ac54-5a14b36b52c0",
+        "ver": 925
+      },
+      {
+        "det": "Hammer of the Emperor",
+        "dur": "round",
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "notTag": "ONE SHOT"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "HAZARDOUS",
+            "when": null
+          }
+        ],
+        "hash": "1ccef127",
+        "kind": "stratagem",
+        "name": "Final Hour",
+        "ref": {
+          "det": "hammer-of-the-emperor",
+          "kind": "stratagem",
+          "name": "Final Hour"
+        },
+        "reviewed": true,
+        "sid": "81eb0dfa-af6b-4da6-892a-44d54185b879",
+        "ver": 925
+      },
+      {
+        "det": "Hammer of the Emperor",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "against targets within 12\"",
+              "ru": "против целей в 12\""
+            }
+          }
+        ],
+        "hash": "88f4bd82",
+        "kind": "stratagem",
+        "name": "Furious Cannonade",
+        "ref": {
+          "det": "hammer-of-the-emperor",
+          "kind": "stratagem",
+          "name": "Furious Cannonade"
+        },
+        "reviewed": true,
+        "sid": "55e95ac0-2b37-4118-8518-9939794e5d4e",
+        "ver": 925
+      },
+      {
+        "det": "Recon Element",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 6+",
+            "when": null
+          }
+        ],
+        "hash": "3c4a457e",
+        "kind": "stratagem",
+        "name": "Courageous Diversion",
+        "ref": {
+          "det": "recon-element",
+          "kind": "stratagem",
+          "name": "Courageous Diversion"
+        },
+        "reviewed": true,
+        "sid": "88921ea9-e94b-46ff-8fa5-ac1d8b58b133",
+        "ver": 925
+      },
+      {
+        "det": "Recon Element",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "473ff39b",
+        "kind": "stratagem",
+        "name": "Crack Shots",
+        "ref": {
+          "det": "recon-element",
+          "kind": "stratagem",
+          "name": "Crack Shots"
+        },
+        "reviewed": true,
+        "sid": "5eb2bbea-e871-43f3-a6d0-b216ed4ec55e",
+        "ver": 925
+      },
+      {
+        "det": "Siege Regiment",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "against targets within half range",
+              "ru": "против целей в пределах половины дальности"
+            }
+          }
+        ],
+        "hash": "23d41eda",
+        "kind": "stratagem",
+        "name": "Furious Fusillade",
+        "ref": {
+          "det": "siege-regiment",
+          "kind": "stratagem",
+          "name": "Furious Fusillade"
+        },
+        "reviewed": true,
+        "sid": "df9c53eb-bd3b-49a7-8d62-d77bf0e5f111",
+        "ver": 925
+      },
+      {
+        "det": "Steel Hammer",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 6,
+            "when": {
+              "en": "against the one enemy unit this stratagem named",
+              "ru": "против юнита, названного стратагемой"
+            }
+          }
+        ],
+        "hash": "ddb9d3b6",
+        "kind": "stratagem",
+        "name": "Engine of Wrath",
+        "ref": {
+          "det": "steel-hammer",
+          "kind": "stratagem",
+          "name": "Engine of Wrath"
+        },
+        "reviewed": true,
+        "sid": "cae76a6f-025e-4be1-86e1-4537c6427c31",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "5e0ca50d",
+        "kind": "wargear",
+        "name": "Bullgryn Squad: Brute Shield",
+        "ref": {
+          "item": "brute shield",
+          "kind": "wargear",
+          "unit": "bullgryn-squad"
+        },
+        "reviewed": true,
+        "sid": "150b107a-a9ed-4c7e-b696-45ec389a0bdf:bullgryn-squad",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "w",
+            "value": "4",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "38451d6c",
+        "kind": "wargear",
+        "name": "Bullgryn Squad: Slabshield",
+        "ref": {
+          "item": "slabshield",
+          "kind": "wargear",
+          "unit": "bullgryn-squad"
+        },
+        "reviewed": true,
+        "sid": "6fa6c35b-da60-40aa-8bfe-2f213147c014:bullgryn-squad",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "ec06b6a4",
+        "kind": "wargear",
+        "name": "Cadian Command Squad: Regimental Standard",
+        "ref": {
+          "item": "regimental standard",
+          "kind": "wargear",
+          "unit": "cadian-command-squad"
+        },
+        "reviewed": true,
+        "sid": "bd18f68e-60d7-4e24-aba4-9b56dd43c8aa:cadian-command-squad",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "ec06b6a4",
+        "kind": "wargear",
+        "name": "Catachan Command Squad: Regimental Standard",
+        "ref": {
+          "item": "regimental standard",
+          "kind": "wargear",
+          "unit": "catachan-command-squad"
+        },
+        "reviewed": true,
+        "sid": "bd18f68e-60d7-4e24-aba4-9b56dd43c8aa:catachan-command-squad",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "ec06b6a4",
+        "kind": "wargear",
+        "name": "Hell’s Last: Regimental Banner",
+        "note": "Read as Allarus Custodians: Vexilla (adeptus-custodes), the same text.",
+        "ref": {
+          "item": "regimental banner",
+          "kind": "wargear",
+          "unit": "hells-last"
+        },
+        "reviewed": true,
+        "sid": "pack:hells-last:regimental-banner",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 6+ (vs mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "5cc20e86",
+        "kind": "wargear",
+        "name": "Krieg Command Squad: Alchemyk Counteragents",
+        "ref": {
+          "item": "alchemyk counteragents",
+          "kind": "wargear",
+          "unit": "krieg-command-squad"
+        },
+        "reviewed": true,
+        "sid": "264530a8-a2ae-4fe3-8776-022de8bbddf7:krieg-command-squad",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "ec06b6a4",
+        "kind": "wargear",
+        "name": "Krieg Command Squad: Regimental Standard",
+        "ref": {
+          "item": "regimental standard",
+          "kind": "wargear",
+          "unit": "krieg-command-squad"
+        },
+        "reviewed": true,
+        "sid": "bd18f68e-60d7-4e24-aba4-9b56dd43c8aa:krieg-command-squad",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "ec06b6a4",
+        "kind": "wargear",
+        "name": "Militarum Tempestus Command Squad: Regimental Standard",
+        "ref": {
+          "item": "regimental standard",
+          "kind": "wargear",
+          "unit": "militarum-tempestus-command-squad"
+        },
+        "reviewed": true,
+        "sid": "bd18f68e-60d7-4e24-aba4-9b56dd43c8aa:militarum-tempestus-command-squad",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "5e0ca50d",
+        "kind": "wargear",
+        "name": "Ogryn Bodyguard: Brute Shield",
+        "ref": {
+          "item": "brute shield",
+          "kind": "wargear",
+          "unit": "ogryn-bodyguard"
+        },
+        "reviewed": true,
+        "sid": "150b107a-a9ed-4c7e-b696-45ec389a0bdf:ogryn-bodyguard",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "w",
+            "value": "7",
+            "when": null
+          }
+        ],
+        "hash": "d4febadd",
+        "kind": "wargear",
+        "name": "Ogryn Bodyguard: Slabshield",
+        "ref": {
+          "item": "slabshield",
+          "kind": "wargear",
+          "unit": "ogryn-bodyguard"
+        },
+        "reviewed": true,
+        "sid": "0538f546-232d-4070-9200-e13f335f1c33:ogryn-bodyguard",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Grenades",
+            "when": null
+          }
+        ],
+        "hash": "85f5be75",
+        "kind": "wargear",
+        "name": "Ratlings: Demolition Gear",
+        "ref": {
+          "item": "demolition gear",
+          "kind": "wargear",
+          "unit": "ratlings"
+        },
+        "reviewed": true,
+        "sid": "bfac6bb6-bcd7-42ef-a2fa-a13960d7f9cf:ratlings",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "ef12c0e2",
+        "kind": "wargear",
+        "name": "Ratlings: Ratling Battlemutt",
+        "ref": {
+          "item": "ratling battlemutt",
+          "kind": "wargear",
+          "unit": "ratlings"
+        },
+        "reviewed": true,
+        "sid": "2ed95431-ef55-48db-8e8b-d100d3a3b193:ratlings",
+        "ver": 925
+      }
+    ],
+    "formatVersion": 1,
+    "slug": "astra-militarum"
+  }
+}

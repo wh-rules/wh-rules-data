@@ -1,0 +1,1913 @@
+{
+  "eventCompanion": {
+    "en": {
+      "dispositions": [
+        {
+          "icon": "/images/event/dispo-take-and-hold.webp",
+          "id": "take-and-hold",
+          "name": "Take and Hold"
+        },
+        {
+          "icon": "/images/event/dispo-purge-the-foe.webp",
+          "id": "purge-the-foe",
+          "name": "Purge the Foe"
+        },
+        {
+          "icon": "/images/event/dispo-disruption.webp",
+          "id": "disruption",
+          "name": "Disruption"
+        },
+        {
+          "icon": "/images/event/dispo-reconnaissance.webp",
+          "id": "reconnaissance",
+          "name": "Reconnaissance"
+        },
+        {
+          "icon": "/images/event/dispo-priority-assets.webp",
+          "id": "priority-assets",
+          "name": "Priority Assets"
+        }
+      ],
+      "doubles": {
+        "blocks": [
+          {
+            "body": "The Warhammer Doubles Event Companion is used **alongside** the Warhammer Event Companion. It changes three things:\n▪ **Mission Sequence:** adjustments to the steps used to generate a mission and prepare the battlefield.\n▪ **Terminology:** what a Doubles event calls a team's pair of armies, and how much those armies share.\n▪ **Core Rules Changes:** the adjustments that let two players fight alongside each other.\nFor everything else — errata, FAQs, missions and terrain layouts — refer to the rest of the Event Companion. Pairing and ranking at a Doubles event is done **by team** rather than by player, but is otherwise the standard methodology.",
+            "id": "doubles-overview",
+            "seeAlso": [
+              "Mission Sequence EC:sequence",
+              "Pairings & Rankings EC:pairings"
+            ],
+            "title": "Overview"
+          },
+          {
+            "body": "Before the event each team — two players — musters as described in the Warhammer 40,000 app, with the following exceptions:\n▪ EPIC HERO units, datasheets that cannot be included more than once in your army, [gloss:enhancement:enhancements], and any other ‘once per army’ items cannot be included more than once **across both armies** within a team.\n▪ A particular [gloss:upgrade:Upgrade] can be included more than once in a player's army following the usual muster armies rules, but cannot be included in **both** armies in a team.\n▪ Each team selects one CHARACTER model from either army to be their team's [gloss:warlord:WARLORD].\n▪ Each team selects one [FORCE DISPOSITION] card available to either of the armies in that team and records that on their roster.",
+            "id": "doubles-muster",
+            "note": "**Example:** a team could not include a Genestealer Cults Patriarch more than once, or the same Upgrade in both armies, even if both players have selected the same detachments.\n\n**Designer's Note:** Players within a team can choose to use the same faction keywords or different keywords, and can choose the same detachments or a different selection of detachments. See Terminology and Core Rules Changes below for what that does to the team's armies.",
+            "seeAlso": [
+              "Muster Armies EC:sequence#step-1"
+            ],
+            "title": "1 · Muster Armies"
+          },
+          {
+            "body": "The remaining steps are the standard ones, resolved **by team instead of by player** — the two players decide together and count as one side:\n▪ **2 · Determine Mission** — each team finds their opponents' Force Disposition symbol on their own card; the [PRIMARY MISSION] below it is that **team's**.\n▪ **5 · Determine Attacker and Defender** — [gloss:roll-off:roll off]: the winner decides which **team** is the Attacker and which the Defender.\n▪ **6 · Select Secondary Missions** — each team notes down Tactical or Fixed, draws and discards as one, and its Secondary Missions are active for the whole team.\n▪ **8 · Deploy Armies** — **teams** take it in turns to set up one unit at a time, starting with the Defender. A TITANIC unit costs the team its **next** turn to set up a unit, and once a team has finished, the other team sets up whatever is left.\n▪ **9 · Redeploy Units** and **11 · Resolve Pre-battle Rules** — **teams** alternate, starting with the Attacker and with the team taking the first turn respectively.\n▪ **12 · Begin the Battle** — the players in a team **take their turn together**, as if they were a single player.\n▪ **13 · End the Battle** — teams play out their turns to the end of the fifth battle round even if a team has no models left on the battlefield.\n▪ **14 · Determine Victor** — a team scores 10VP if **their armies** are painted to a Battle Ready standard, and the team with the most VP is the victor. The maximum VP per source is unchanged: 45VP primary, 45VP secondary, 10VP Battle Ready — a team total, not one per player.",
+            "id": "doubles-sequence",
+            "note": "Steps **3 · Determine a Layout**, **4 · Create the Battlefield**, **7 · Declare Battle Formations** and **10 · Determine First Turn** are unchanged word for word, as are the Designer's Notes on reading Secondary Mission cards.",
+            "seeAlso": [
+              "Mission Sequence EC:sequence"
+            ],
+            "title": "The Rest of the Sequence"
+          },
+          {
+            "body": "Warhammer Doubles events use the following terminology:\n▪ **Force:** the combined armies of a pair of players.\n▪ **Unified Force:** a force where both armies have all the same [gloss:faction-keyword:faction keywords] in common. For ADEPTUS ASTARTES forces to be a unified force, units in one army do not need to have the same Chapter keyword as units in the other army.\n▪ **Force of Convenience:** any force which is not a unified force.",
+            "id": "doubles-terminology",
+            "note": "**Designer's Note:** Ignore units included as allies — for example an IMPERIAL KNIGHTS unit included in another IMPERIUM army — when determining whether a force is a unified force or a force of convenience.",
+            "title": "Terminology"
+          },
+          {
+            "body": "In a **unified force**, models/units in both armies that make up that force are [gloss:friendly:friendly] models/units.\n\nOtherwise, models/units in your force that are not part of your army are **neither friendly nor enemy** models/units.",
+            "id": "doubles-units-models",
+            "note": "**Example:** in a unified force with the ADEPTUS ASTARTES faction keyword, units in one army can benefit from the Blessings of the Omnissiah ability of a Techmarine in their teammate's army.\n\n**Example:** in a force of convenience, units in one army (even one whose units have the IMPERIUM keyword) will not benefit from their teammate's ability that affects friendly IMPERIUM units.",
+            "seeAlso": [
+              "Units and Models 01.02"
+            ],
+            "title": "Units and Models 01.02"
+          },
+          {
+            "body": "Each **force** (rather than each player) gains 1 Command Point ([gloss:command-points:CP]). Forces may not generate more than one extra CP per battle round.",
+            "id": "doubles-core-cp",
+            "seeAlso": [
+              "Gain Core CP 08.02"
+            ],
+            "title": "Gain Core CP 08.02"
+          },
+          {
+            "body": "A force's CP total is **shared** by both players on the team. Rules limiting the use of [gloss:stratagem:stratagems] are applied to a force, rather than to each player or army.",
+            "id": "doubles-stratagems",
+            "note": "**Example:** a unit in your force can only be the target of one of your force’s stratagems per phase, and use of the Insane Bravery stratagem is limited to once per battle, **per force**.",
+            "seeAlso": [
+              "Using Stratagems 15.01"
+            ],
+            "title": "Using Stratagems 15.01"
+          },
+          {
+            "body": "In a **unified force**, units/models from one army can [gloss:embark:embark] within/begin the battle embarked within a TRANSPORT model from the other army, as long as that unit could normally embark within that TRANSPORT.",
+            "id": "doubles-transports",
+            "note": "**Example:** in a unified force with the ADEPTUS ASTARTES faction keyword, a Techmarine from one army can embark within/begin the battle embarked within an Impulsor from the other army.",
+            "seeAlso": [
+              "Transports 18.00"
+            ],
+            "title": "Transports 18.00"
+          },
+          {
+            "body": "In a **unified force**, the force uses its [gloss:army-rules:army rules] as if it were a single army — one shared pool, gained by the force rather than by each army in it. Otherwise, each army within a force uses its own army rules.\n\nIn a **unified force**, if both players have chosen the **same** detachments, the force uses its [gloss:detachment-rule:detachment rules] as if it were a single army. Otherwise, each player's detachment rules can only affect enemy units and units in **their own** army — even in a unified force.",
+            "id": "doubles-army-detachment",
+            "note": "**Example:** a unified force with the DRUKHARI faction keyword has one pain token pool, and the force gains pain tokens as described in Power From Pain.\n\n**Example:** if the players of a unified force with the ADEPTUS ASTARTES faction keyword have selected different detachments, one player could not target the other player's units with a stratagem (even one that targets a friendly ADEPTUS ASTARTES unit), or grant them the benefit of any detachment rule (even one that affects all friendly ADEPTUS ASTARTES units).",
+            "title": "Army and Detachment Rules"
+          },
+          {
+            "body": "Rules that have restrictions based on the size of a player's army are based on the [gloss:points-limit:points limit] of the army of that **individual** player.",
+            "id": "doubles-points",
+            "note": "**Example:** if a player wishes to bring Chaos Daemons as allies, doing so would be based on the points limit of that player's army within their force.",
+            "title": "Point Restrictions"
+          }
+        ],
+        "intro": "A Doubles event is one in which players compete in teams of two, with a team's two armies fighting as a single force against another team's. This chapter collects only what Doubles changes; every step and rule not named here is the standard Event Companion one."
+      },
+      "faq": {
+        "errata": "Chapter Approved Mission Deck errata: **None.**",
+        "intro": "When playing in a Warhammer Event Mission, the following amendments to cards in the Chapter Approved Mission Deck are used. Questions about the Chapter Approved Mission Deck will be reviewed periodically and answered below.",
+        "items": [
+          {
+            "a": "The terrain area.",
+            "q": "The Plunder [SECONDARY MISSION] references ‘One unit within a terrain area that is not within your territory.’ Is the requirement to be ‘not within your territory’ referring to the unit or the terrain area?"
+          },
+          {
+            "a": "No, which means you will be unable to achieve that mission. We recommend discarding it on your turn to gain 1CP!",
+            "q": "If the unit I select to be my Beacon unit upon drawing the Beacon [SECONDARY MISSION] is destroyed prior to achieving the mission, can I select a new Beacon unit?"
+          },
+          {
+            "a": "No, VP scored at the end of the battle are not subject to the 15VP per battle round scoring limit.",
+            "q": "For the purposes of VP scoring limits, is the end of the battle the same timing as the end of the fifth battle round?"
+          },
+          {
+            "a": "Yes.",
+            "q": "When a mission action places an [OPERATION MARKER] and applies a status (e.g. ‘decoyed’), does removing that operation marker also remove that status?"
+          },
+          {
+            "a": "Your Primary Mission card will specify how and when you can remove operation markers from the battlefield. If it doesn't, you cannot remove operation markers.",
+            "q": "Some [PRIMARY MISSION] cards let a player place [OPERATION MARKER]s on the battlefield. Can I remove these?"
+          },
+          {
+            "a": "No.",
+            "q": "For the Death Trap Primary Mission, one objective reads 'One or more enemy units that started the turn within a terrain area were destroyed, if that terrain area is trapped.' Does that terrain area have to have been trapped at the point that enemy unit was destroyed?"
+          },
+          {
+            "a": "Yes.",
+            "q": "For the Surveil the Foe Primary Mission, one objective reads 'One or more enemy units were surveilled this turn, unless each of those units is within range of one or more objectives that have one or more operation markers within range of them.' For an enemy unit within range of an objective with an operation marker, can I achieve this objective if I remove the operation marker after surveilling that unit, as long as it is within the same turn?"
+          },
+          {
+            "a": "Yes, as long as you control the objective(s) those operation markers are within.",
+            "q": "For the Vital Link Primary Mission, if there is more than one central objective, can I score the cumulative VP for my operation markers regardless of which central objective(s) they are within?"
+          },
+          {
+            "a": "No.",
+            "q": "For the purposes of scoring the Consecrate Primary Mission, if I am using the Adeptus Custodes Lions of the Emperor detachment and I target a consecration unit with the Unleash the Lions stratagem, are the new units consecration units?"
+          },
+          {
+            "a": "No.",
+            "q": "For the purposes of scoring the Beacon Secondary Mission, if I am using the Adeptus Custodes Lions of the Emperor detachment and I target my beacon unit with the Unleash the Lions stratagem, are the new units beacon units?"
+          },
+          {
+            "a": "Yes.",
+            "q": "For the purposes of scoring the Punishment Primary Mission, if my opponent is using the Adeptus Custodes Lions of the Emperor detachment and they target a condemned unit with the Unleash the Lions stratagem, does that unit leave the battlefield?"
+          },
+          {
+            "a": "Yes.",
+            "q": "On layouts that have a terrain area 6\" from a battlefield edge, can a unit come in 6\" from the battlefield edge via strategic reserves and start the Plunder action for that terrain area, or contest that objective?"
+          }
+        ]
+      },
+      "glossary": [
+        {
+          "fullText": "The card a player selects after mustering their army. Your opponent's Force Disposition symbol on your card tells you your **[gloss:primary-mission:Primary Mission]** for the battle.",
+          "name": "[FORCE DISPOSITION]",
+          "num": ""
+        },
+        {
+          "fullText": "Your main source of VP (up to 45VP, max 15 per battle round), determined by the combination of both players' Force Dispositions.",
+          "name": "[PRIMARY MISSION]",
+          "num": ""
+        },
+        {
+          "fullText": "Additional ways to score VP (up to 45VP). Each player secretly chooses **Fixed** or **Tactical** Secondary Missions before the battle.",
+          "name": "[SECONDARY MISSION]",
+          "num": ""
+        },
+        {
+          "fullText": "Secondary Missions displayed face-up from the start. They cannot be discarded and stay active all battle (max 20VP per Fixed card).",
+          "name": "[FIXED MISSION]",
+          "num": ""
+        },
+        {
+          "fullText": "Secondary Missions drawn from a shuffled deck: draw two at the start of your Command phase (08); once per battle you may spend 1CP to discard one and redraw.",
+          "name": "[TACTICAL MISSION]",
+          "num": ""
+        },
+        {
+          "fullText": "Markers that some Primary Missions let you place on the battlefield. You can only remove them if the Primary Mission card states how and when.",
+          "name": "[OPERATION MARKER]",
+          "num": ""
+        },
+        {
+          "fullText": "A painting standard. Each player scores 10VP if their army is painted to a Battle Ready standard.",
+          "name": "[BATTLE READY]",
+          "num": ""
+        },
+        {
+          "fullText": "One of the two battle roles. The selected layout labels the Attacker's battlefield edges; the roles are decided by a roll-off when determining Attacker and Defender.",
+          "name": "[ATTACKER]",
+          "num": ""
+        },
+        {
+          "fullText": "One of the two battle roles. The Defender deploys first, and the layout labels the Defender's battlefield edge.",
+          "name": "[DEFENDER]",
+          "num": ""
+        },
+        {
+          "fullText": "One of three recommended terrain setups (A, B and C) for a given Primary Mission matchup, specifying terrain areas, features and objective positions.",
+          "name": "[LAYOUT]",
+          "num": ""
+        }
+      ],
+      "matchups": [
+        {
+          "a": "take-and-hold",
+          "b": "take-and-hold",
+          "layouts": [
+            {
+              "deploymentMap": "Tipping Point",
+              "edge": "h",
+              "id": "A",
+              "image": "/images/event/layout-take-and-hold-take-and-hold-a-v2.png",
+              "imageClean": "/images/event/layout-take-and-hold-take-and-hold-a-clean.png"
+            },
+            {
+              "deploymentMap": "Dawn of War",
+              "edge": "v",
+              "id": "B",
+              "image": "/images/event/layout-take-and-hold-take-and-hold-b-v3.png",
+              "imageClean": "/images/event/layout-take-and-hold-take-and-hold-b-clean-v3.png"
+            },
+            {
+              "deploymentMap": "Search and Destroy",
+              "edge": "v",
+              "id": "C",
+              "image": "/images/event/layout-take-and-hold-take-and-hold-c-v3.png",
+              "imageClean": "/images/event/layout-take-and-hold-take-and-hold-c-clean-v3.png"
+            }
+          ],
+          "missionA": "Battlefield Dominance",
+          "missionB": "Battlefield Dominance"
+        },
+        {
+          "a": "take-and-hold",
+          "b": "purge-the-foe",
+          "layouts": [
+            {
+              "deploymentMap": "Sweeping Engagement",
+              "edge": "v",
+              "id": "A",
+              "image": "/images/event/layout-take-and-hold-purge-the-foe-a-v2.png",
+              "imageClean": "/images/event/layout-take-and-hold-purge-the-foe-a-clean.png"
+            },
+            {
+              "deploymentMap": "Search and Destroy",
+              "edge": "v",
+              "id": "B",
+              "image": "/images/event/layout-take-and-hold-purge-the-foe-b-v2.png",
+              "imageClean": "/images/event/layout-take-and-hold-purge-the-foe-b-clean.png"
+            },
+            {
+              "deploymentMap": "Hammer and Anvil",
+              "edge": "h",
+              "id": "C",
+              "image": "/images/event/layout-take-and-hold-purge-the-foe-c-v2.png",
+              "imageClean": "/images/event/layout-take-and-hold-purge-the-foe-c-clean.png"
+            }
+          ],
+          "missionA": "Immovable Object",
+          "missionB": "Unstoppable Force"
+        },
+        {
+          "a": "take-and-hold",
+          "b": "disruption",
+          "layouts": [
+            {
+              "deploymentMap": "Sweeping Engagement",
+              "edge": "v",
+              "id": "A",
+              "image": "/images/event/layout-take-and-hold-disruption-a-v3.png",
+              "imageClean": "/images/event/layout-take-and-hold-disruption-a-clean-v3.png"
+            },
+            {
+              "deploymentMap": "Crucible of Battle",
+              "edge": "h",
+              "id": "B",
+              "image": "/images/event/layout-take-and-hold-disruption-b-v3.png",
+              "imageClean": "/images/event/layout-take-and-hold-disruption-b-clean-v3.png"
+            },
+            {
+              "deploymentMap": "Hammer and Anvil",
+              "edge": "h",
+              "id": "C",
+              "image": "/images/event/layout-take-and-hold-disruption-c-v3.png",
+              "imageClean": "/images/event/layout-take-and-hold-disruption-c-clean-v3.png"
+            }
+          ],
+          "missionA": "Determined Acquisition",
+          "missionB": "Death Trap"
+        },
+        {
+          "a": "take-and-hold",
+          "b": "reconnaissance",
+          "layouts": [
+            {
+              "deploymentMap": "Sweeping Engagement",
+              "edge": "h",
+              "id": "A",
+              "image": "/images/event/layout-take-and-hold-reconnaissance-a-v3.png",
+              "imageClean": "/images/event/layout-take-and-hold-reconnaissance-a-clean-v3.png"
+            },
+            {
+              "deploymentMap": "Crucible of Battle",
+              "edge": "v",
+              "id": "B",
+              "image": "/images/event/layout-take-and-hold-reconnaissance-b-v2.png",
+              "imageClean": "/images/event/layout-take-and-hold-reconnaissance-b-clean.png"
+            },
+            {
+              "deploymentMap": "Tipping Point",
+              "edge": "v",
+              "id": "C",
+              "image": "/images/event/layout-take-and-hold-reconnaissance-c-v3.png",
+              "imageClean": "/images/event/layout-take-and-hold-reconnaissance-c-clean-v3.png"
+            }
+          ],
+          "missionA": "Purge and Secure",
+          "missionB": "Reconnaissance Sweep"
+        },
+        {
+          "a": "take-and-hold",
+          "b": "priority-assets",
+          "layouts": [
+            {
+              "deploymentMap": "Crucible of Battle",
+              "edge": "h",
+              "id": "A",
+              "image": "/images/event/layout-take-and-hold-priority-assets-a-v2.png",
+              "imageClean": "/images/event/layout-take-and-hold-priority-assets-a-clean.png"
+            },
+            {
+              "deploymentMap": "Hammer and Anvil",
+              "edge": "h",
+              "id": "B",
+              "image": "/images/event/layout-take-and-hold-priority-assets-b-v3.png",
+              "imageClean": "/images/event/layout-take-and-hold-priority-assets-b-clean-v3.png"
+            },
+            {
+              "deploymentMap": "Dawn of War",
+              "edge": "v",
+              "id": "C",
+              "image": "/images/event/layout-take-and-hold-priority-assets-c-v2.png",
+              "imageClean": "/images/event/layout-take-and-hold-priority-assets-c-clean.png"
+            }
+          ],
+          "missionA": "Inescapable Dominion",
+          "missionB": "Secure Asset"
+        },
+        {
+          "a": "purge-the-foe",
+          "b": "purge-the-foe",
+          "layouts": [
+            {
+              "deploymentMap": "Search and Destroy",
+              "edge": "v",
+              "id": "A",
+              "image": "/images/event/layout-purge-the-foe-purge-the-foe-a-v3.png",
+              "imageClean": "/images/event/layout-purge-the-foe-purge-the-foe-a-clean-v3.png"
+            },
+            {
+              "deploymentMap": "Tipping Point",
+              "edge": "h",
+              "id": "B",
+              "image": "/images/event/layout-purge-the-foe-purge-the-foe-b-v3.png",
+              "imageClean": "/images/event/layout-purge-the-foe-purge-the-foe-b-clean-v3.png"
+            },
+            {
+              "deploymentMap": "Sweeping Engagement",
+              "edge": "v",
+              "id": "C",
+              "image": "/images/event/layout-purge-the-foe-purge-the-foe-c-v3.png",
+              "imageClean": "/images/event/layout-purge-the-foe-purge-the-foe-c-clean-v3.png"
+            }
+          ],
+          "missionA": "Meatgrinder",
+          "missionB": "Meatgrinder"
+        },
+        {
+          "a": "purge-the-foe",
+          "b": "disruption",
+          "layouts": [
+            {
+              "deploymentMap": "Search and Destroy",
+              "edge": "v",
+              "id": "A",
+              "image": "/images/event/layout-purge-the-foe-disruption-a-v3.png",
+              "imageClean": "/images/event/layout-purge-the-foe-disruption-a-clean-v3.png"
+            },
+            {
+              "deploymentMap": "Tipping Point",
+              "edge": "h",
+              "id": "B",
+              "image": "/images/event/layout-purge-the-foe-disruption-b-v3.png",
+              "imageClean": "/images/event/layout-purge-the-foe-disruption-b-clean-v3.png"
+            },
+            {
+              "deploymentMap": "Sweeping Engagement",
+              "edge": "v",
+              "id": "C",
+              "image": "/images/event/layout-purge-the-foe-disruption-c-v2.png",
+              "imageClean": "/images/event/layout-purge-the-foe-disruption-c-clean.png"
+            }
+          ],
+          "missionA": "Punishment",
+          "missionB": "Delaying Action"
+        },
+        {
+          "a": "purge-the-foe",
+          "b": "reconnaissance",
+          "layouts": [
+            {
+              "deploymentMap": "Hammer and Anvil",
+              "edge": "h",
+              "id": "A",
+              "image": "/images/event/layout-purge-the-foe-reconnaissance-a-v3.png",
+              "imageClean": "/images/event/layout-purge-the-foe-reconnaissance-a-clean-v3.png"
+            },
+            {
+              "deploymentMap": "Dawn of War",
+              "edge": "v",
+              "id": "B",
+              "image": "/images/event/layout-purge-the-foe-reconnaissance-b-v2.png",
+              "imageClean": "/images/event/layout-purge-the-foe-reconnaissance-b-clean.png"
+            },
+            {
+              "deploymentMap": "Crucible of Battle",
+              "edge": "h",
+              "id": "C",
+              "image": "/images/event/layout-purge-the-foe-reconnaissance-c-v3.png",
+              "imageClean": "/images/event/layout-purge-the-foe-reconnaissance-c-clean-v3.png"
+            }
+          ],
+          "missionA": "Consecrate",
+          "missionB": "Triangulation"
+        },
+        {
+          "a": "purge-the-foe",
+          "b": "priority-assets",
+          "layouts": [
+            {
+              "deploymentMap": "Dawn of War",
+              "edge": "v",
+              "id": "A",
+              "image": "/images/event/layout-purge-the-foe-priority-assets-a-v2.png",
+              "imageClean": "/images/event/layout-purge-the-foe-priority-assets-a-clean.png"
+            },
+            {
+              "deploymentMap": "Search and Destroy",
+              "edge": "v",
+              "id": "B",
+              "image": "/images/event/layout-purge-the-foe-priority-assets-b-v3.png",
+              "imageClean": "/images/event/layout-purge-the-foe-priority-assets-b-clean-v3.png"
+            },
+            {
+              "deploymentMap": "Hammer and Anvil",
+              "edge": "h",
+              "id": "C",
+              "image": "/images/event/layout-purge-the-foe-priority-assets-c-v2.png",
+              "imageClean": "/images/event/layout-purge-the-foe-priority-assets-c-clean.png"
+            }
+          ],
+          "missionA": "Destroyer's Wrath",
+          "missionB": "Vital Link"
+        },
+        {
+          "a": "disruption",
+          "b": "disruption",
+          "layouts": [
+            {
+              "deploymentMap": "Crucible of Battle",
+              "edge": "h",
+              "id": "A",
+              "image": "/images/event/layout-disruption-disruption-a-v2.png",
+              "imageClean": "/images/event/layout-disruption-disruption-a-clean.png"
+            },
+            {
+              "deploymentMap": "Tipping Point",
+              "edge": "h",
+              "id": "B",
+              "image": "/images/event/layout-disruption-disruption-b-v2.png",
+              "imageClean": "/images/event/layout-disruption-disruption-b-clean.png"
+            },
+            {
+              "deploymentMap": "Sweeping Engagement",
+              "edge": "v",
+              "id": "C",
+              "image": "/images/event/layout-disruption-disruption-c-v2.png",
+              "imageClean": "/images/event/layout-disruption-disruption-c-clean.png"
+            }
+          ],
+          "missionA": "Outmanoeuvre",
+          "missionB": "Outmanoeuvre"
+        },
+        {
+          "a": "disruption",
+          "b": "reconnaissance",
+          "layouts": [
+            {
+              "deploymentMap": "Tipping Point",
+              "edge": "h",
+              "id": "A",
+              "image": "/images/event/layout-disruption-reconnaissance-a-v3.png",
+              "imageClean": "/images/event/layout-disruption-reconnaissance-a-clean-v3.png"
+            },
+            {
+              "deploymentMap": "Search and Destroy",
+              "edge": "v",
+              "id": "B",
+              "image": "/images/event/layout-disruption-reconnaissance-b-v3.png",
+              "imageClean": "/images/event/layout-disruption-reconnaissance-b-clean-v3.png"
+            },
+            {
+              "deploymentMap": "Dawn of War",
+              "edge": "v",
+              "id": "C",
+              "image": "/images/event/layout-disruption-reconnaissance-c-v2.png",
+              "imageClean": "/images/event/layout-disruption-reconnaissance-c-clean.png"
+            }
+          ],
+          "missionA": "Smoke and Mirrors",
+          "missionB": "Surveil the Foe"
+        },
+        {
+          "a": "disruption",
+          "b": "priority-assets",
+          "layouts": [
+            {
+              "deploymentMap": "Sweeping Engagement",
+              "edge": "v",
+              "id": "A",
+              "image": "/images/event/layout-disruption-priority-assets-a-v3.png",
+              "imageClean": "/images/event/layout-disruption-priority-assets-a-clean-v3.png"
+            },
+            {
+              "deploymentMap": "Tipping Point",
+              "edge": "h",
+              "id": "B",
+              "image": "/images/event/layout-disruption-priority-assets-b-v3.png",
+              "imageClean": "/images/event/layout-disruption-priority-assets-b-clean-v3.png"
+            },
+            {
+              "deploymentMap": "Search and Destroy",
+              "edge": "v",
+              "id": "C",
+              "image": "/images/event/layout-disruption-priority-assets-c-v3.png",
+              "imageClean": "/images/event/layout-disruption-priority-assets-c-clean-v3.png"
+            }
+          ],
+          "missionA": "Locate and Deny",
+          "missionB": "Extract Relic"
+        },
+        {
+          "a": "reconnaissance",
+          "b": "reconnaissance",
+          "layouts": [
+            {
+              "deploymentMap": "Sweeping Engagement",
+              "edge": "v",
+              "id": "A",
+              "image": "/images/event/layout-reconnaissance-reconnaissance-a-v3.png",
+              "imageClean": "/images/event/layout-reconnaissance-reconnaissance-a-clean-v3.png"
+            },
+            {
+              "deploymentMap": "Crucible of Battle",
+              "edge": "h",
+              "id": "B",
+              "image": "/images/event/layout-reconnaissance-reconnaissance-b-v3.png",
+              "imageClean": "/images/event/layout-reconnaissance-reconnaissance-b-clean-v3.png"
+            },
+            {
+              "deploymentMap": "Tipping Point",
+              "edge": "h",
+              "id": "C",
+              "image": "/images/event/layout-reconnaissance-reconnaissance-c-v3.png",
+              "imageClean": "/images/event/layout-reconnaissance-reconnaissance-c-clean-v3.png"
+            }
+          ],
+          "missionA": "Gather Intel",
+          "missionB": "Gather Intel"
+        },
+        {
+          "a": "reconnaissance",
+          "b": "priority-assets",
+          "layouts": [
+            {
+              "deploymentMap": "Crucible of Battle",
+              "edge": "h",
+              "id": "A",
+              "image": "/images/event/layout-reconnaissance-priority-assets-a-v2.png",
+              "imageClean": "/images/event/layout-reconnaissance-priority-assets-a-clean.png"
+            },
+            {
+              "deploymentMap": "Tipping Point",
+              "edge": "h",
+              "id": "B",
+              "image": "/images/event/layout-reconnaissance-priority-assets-b-v3.png",
+              "imageClean": "/images/event/layout-reconnaissance-priority-assets-b-clean-v3.png"
+            },
+            {
+              "deploymentMap": "Sweeping Engagement",
+              "edge": "v",
+              "id": "C",
+              "image": "/images/event/layout-reconnaissance-priority-assets-c-v2.png",
+              "imageClean": "/images/event/layout-reconnaissance-priority-assets-c-clean.png"
+            }
+          ],
+          "missionA": "Search and Scour",
+          "missionB": "Vanguard Operation"
+        },
+        {
+          "a": "priority-assets",
+          "b": "priority-assets",
+          "layouts": [
+            {
+              "deploymentMap": "Sweeping Engagement",
+              "edge": "v",
+              "id": "A",
+              "image": "/images/event/layout-priority-assets-priority-assets-a-v2.png",
+              "imageClean": "/images/event/layout-priority-assets-priority-assets-a-clean.png"
+            },
+            {
+              "deploymentMap": "Crucible of Battle",
+              "edge": "h",
+              "id": "B",
+              "image": "/images/event/layout-priority-assets-priority-assets-b-v3.png",
+              "imageClean": "/images/event/layout-priority-assets-priority-assets-b-clean-v3.png"
+            },
+            {
+              "deploymentMap": "Tipping Point",
+              "edge": "h",
+              "id": "C",
+              "image": "/images/event/layout-priority-assets-priority-assets-c-v3.png",
+              "imageClean": "/images/event/layout-priority-assets-priority-assets-c-clean-v3.png"
+            }
+          ],
+          "missionA": "Sabotage",
+          "missionB": "Sabotage"
+        }
+      ],
+      "pairings": {
+        "blocks": [
+          {
+            "body": "While the first round of most tournaments is randomly paired, subsequent rounds can be paired in a number of ways. We recommend pairing players by the following criteria:\n▪ First — by record (the number of wins, losses and draws).\n▪ Second — by [gloss:win-path:win path] (the timing of the rounds in which a player won or lost).\n▪ Third — randomly within players of the same ranking.",
+            "id": "pairing-players",
+            "note": "A player's '[gloss:win-path:win path]' refers not to their number of wins and losses, but to the timing of those wins and losses. Pairing by win path tends to pair players based on shared recent experience, improving the enjoyment of both.\n\n**Example:** Take two 3-1 players. One of them lost their first game; they likely lowered their expectations for winning the whole event after this, but are probably in a great mood after three consecutive victories. The other won their first three games then lost their fourth — a sharp disappointment after a 3-0 start. Should these players face off, their shared enjoyment may be at odds, as they are in very different emotional places. Win path ensures players enter their match with recent common experiences to build on.",
+            "title": "Pairing Players"
+          },
+          {
+            "body": "To break ties between players who end an event with the same record, we recommend ranking players by the following criteria:\n▪ First — by overall record (wins, losses and draws).\n▪ Second — by their opponents' win records (strength of schedule).\n▪ Third — by total Victory points (VP).",
+            "id": "ranking-players",
+            "note": "We do not recommend using VP as a pairing metric, nor as a ranking metric until other metrics are exhausted: the VP scored in a game rarely tells a clear story about how close it actually was. Opponent win record is an ideal tie-breaker.",
+            "title": "Ranking Players"
+          },
+          {
+            "body": "There are myriad ways to enjoy the Warhammer hobby, and they all manifest at a tournament — from gifted painters and competitors aiming for Best General to casual players making new friends. Such hobbyists sometimes find unusual rules interactions at the fringes of Warhammer 40,000 that can challenge organisers looking to give clear answers.\n\nTo address any such uncertainties, the Warhammer 40,000 app contains a comprehensive Rules Appendix, along with faction-specific errata and FAQ entries. Should an odd rules interaction come up during your event and the Core Rules do not provide a clear answer, we recommend consulting these resources.",
+            "id": "rules-appendix",
+            "seeAlso": [
+              "Core Abilities 24.00",
+              "Errata & FAQs EC:faq"
+            ],
+            "title": "The Rules Appendix, Errata and FAQs"
+          },
+          {
+            "body": "Warhammer is more popular than ever, and this popularity has extended to the tournament scene. With so many hobbyists participating within growing communities, it is important to ruminate on the point of a tournament. First and foremost, it is not about celebrating the ultimate victor; someone who goes undefeated and wins Best General needs very little acclaim beyond the outcome itself (after all, they won!). Instead, it is the experience of every single attendee that truly matters, and the recognition that, for most people who attend a tournament, community and friendship are both the purpose and the outcome.\n\nBefore you roll a single dice against an opponent to start your tournament experience, remember two things:\n1. The person across the table from you shares your love of Warhammer.\n2. By the time the dust settles on the event, almost everyone will have lost a game (typically, at most, only one or two people will leave without a loss).\nWhile any game yields winners and losers on the tabletop, the magic of Warhammer in an event setting is the opportunity it provides every participant to become a bigger part of the community and to build friendships that can last a lifetime. Focus on this inalienable truth, and while most of you will have lost a game or two, you will all share victory in your experience of what it is to attend a Warhammer Event.\n\n— The Warhammer Design Studio and the Warhammer Events Team",
+            "flavor": true,
+            "id": "afterword",
+            "title": "Afterword — What is the Point of a Warhammer Event?"
+          }
+        ],
+        "intro": "There are countless ways to run a Warhammer Event. The following recommendations are followed at most official Games Workshop events and are designed to create the fairest, most fun experience for every attendee, regardless of standing."
+      },
+      "sequence": {
+        "blocks": [
+          {
+            "body": "Excluding Core CP, each player can gain a maximum of 1CP per battle round (including the CP gained when a player discards an active Secondary Mission card).",
+            "id": "generating-cp",
+            "title": "Generating Command Points"
+          },
+          {
+            "body": "Muster armies as described in the Warhammer 40,000 app, with the following exception: once they have mustered their army, a player selects one [FORCE DISPOSITION] card available to them and records that on their roster.",
+            "id": "step-1",
+            "seeAlso": [
+              "Terrain Layouts EC:layouts"
+            ],
+            "title": "1 · Muster Armies"
+          },
+          {
+            "body": "Each player finds their opponent's Force Disposition symbol on their Force Disposition card. The [PRIMARY MISSION] that is listed below that symbol is that player's Primary Mission, which describes how to score VP.",
+            "id": "step-2",
+            "seeAlso": [
+              "Missions EC:missions"
+            ],
+            "title": "2 · Determine Mission"
+          },
+          {
+            "body": "Each combination of Primary Missions has three recommended [LAYOUT]s, labelled **A**, **B** and **C**, which can be found in the **Terrain Layouts** section of this reference. As directed by the organiser, the players either use the layout specified or randomly determine which to use.\n\nWe recommend running through layouts **A**, **B** and **C** sequentially, repeating this as needed for the number of games being played.\n\n**Examples:** For a 5 round event, we recommend the layout order A, B, C, A, B. For a 6 round event, we recommend A, B, C, A, B, C. For an 8 round event, we recommend A, B, C, A, B, C, A, B.",
+            "id": "step-3",
+            "seeAlso": [
+              "Terrain Layouts EC:layouts"
+            ],
+            "title": "3 · Determine a Layout"
+          },
+          {
+            "body": "Missions are played on rectangular battlefields **44\" by 60\"** in size. Players set up the [gloss:terrain-area:terrain areas] as shown in the selected layout, then set up [gloss:terrain-feature:terrain features] (13) on those terrain areas as shown in the selected layout.",
+            "id": "step-4",
+            "seeAlso": [
+              "Terrain 13.00"
+            ],
+            "title": "4 · Create the Battlefield"
+          },
+          {
+            "body": "Players look at the selected layout and agree which edges of the battlefield the players have set up correspond with the [ATTACKER]'s and [DEFENDER]'s battlefield edges labelled on the card.\n\n→ Roll off: the winner decides who will be the [gloss:attacker:Attacker] and who will be the [gloss:defender:Defender].",
+            "id": "step-5",
+            "title": "5 · Determine Attacker and Defender"
+          },
+          {
+            "body": "[SECONDARY MISSION] cards detail additional ways to score VP. Players now secretly note down whether they will use Tactical or Fixed Secondary Missions. If using [FIXED MISSION]s, they also note down which two Fixed Missions they will use (see below). Players then reveal these decisions.",
+            "id": "step-6",
+            "title": "6 · Select Secondary Missions"
+          },
+          {
+            "body": "Players secretly note down, in order:\n▪ Which of their units will start the battle embarked within which TRANSPORTS (18).\n▪ Which of their units will start the battle in [gloss:strategic-reserves:strategic reserves] (20).\nPlayers then reveal these decisions.",
+            "id": "step-7",
+            "seeAlso": [
+              "Transports 18.00",
+              "Strategic Reserves 20.00"
+            ],
+            "title": "7 · Declare Battle Formations"
+          },
+          {
+            "body": "Players take it in turns to set up their units (excluding those in strategic reserves) one at a time, wholly within their [gloss:deployment-zone:deployment zone], starting with the **Defender**. If you set up a TITANIC unit when it is your turn to set up a unit, skip your next turn to set up a unit. Once you have finished setting up your units, if your opponent has any units that have not been set up, they set up those units.",
+            "id": "step-8",
+            "title": "8 · Deploy Armies"
+          },
+          {
+            "body": "Some rules let you redeploy certain units after both armies are deployed. Unless otherwise stated, you resolve those rules in this step. Players alternate resolving any such rules, starting with the Attacker. Units placed in strategic reserves (20) in this step do not count towards the combined points value of your strategic reserves units.",
+            "id": "step-9",
+            "title": "9 · Redeploy Units"
+          },
+          {
+            "body": "→ Roll off: the winner takes the first turn.",
+            "id": "step-10",
+            "title": "10 · Determine First Turn"
+          },
+          {
+            "body": "Players alternate resolving any pre-battle rules units from their army may have, starting with the player who will take the first turn.",
+            "id": "step-11",
+            "title": "11 · Resolve Pre-battle Rules"
+          },
+          {
+            "body": "The first [gloss:battle-round:battle round] begins.",
+            "id": "step-12",
+            "title": "12 · Begin the Battle"
+          },
+          {
+            "body": "The battle ends after five battle rounds (07) have been completed. Even if you have no models remaining in your army at the start of your turn, players continue to play out their turns until the battle ends.",
+            "id": "step-13",
+            "title": "13 · End the Battle"
+          },
+          {
+            "body": "Each player scores **10VP** if their army is painted to a [BATTLE READY] standard. At the end of the battle, the player with the most VP is the victor. If the players are tied, the battle is a draw. The maximum VP that can be scored from each source of VP is listed below. Any VP you score in excess of these maximums are ignored.",
+            "id": "step-14",
+            "table": {
+              "headers": [
+                "VP Source",
+                "Maximum VP"
+              ],
+              "rows": [
+                [
+                  "[gloss:primary-mission:Primary Mission]",
+                  "45VP (up to 15VP per battle round)"
+                ],
+                [
+                  "[gloss:secondary-mission:Secondary Missions]",
+                  "45VP (up to 15VP per battle round)*"
+                ],
+                [
+                  "Battle Ready Army",
+                  "10VP"
+                ]
+              ],
+              "title": "Maximum VP per Source"
+            },
+            "tableNote": "* In addition, you can gain a maximum of 20VP per Fixed Secondary Mission card.",
+            "title": "14 · Determine Victor"
+          }
+        ],
+        "designerNotes": [
+          {
+            "body": "Some cards include a condition marked as 'cumulative' that follows a normal condition. If a player achieves the cumulative condition, they gain the VP for both that and the normal condition.\n\nSome cards include one or more conditions marked 'or' that follow a normal condition. A player can only gain VP for one of these conditions or the normal condition.",
+            "id": "cumulative-or",
+            "title": "'Cumulative' and 'Or' Conditions"
+          },
+          {
+            "body": "Some cards refer to a unit or units leaving the battlefield. A unit leaves the battlefield if it is destroyed, if it embarks on a TRANSPORT (18), or if a rule removes that unit from the battlefield (e.g. to place it in strategic reserves (20)).",
+            "id": "leaves-battlefield",
+            "title": "Leaves the Battlefield"
+          },
+          {
+            "body": "When a card states 'one', underlined, it means exactly one, not one or more.",
+            "id": "one",
+            "title": "One"
+          },
+          {
+            "body": "Some cards award VP up to a limit, e.g. (up to 5VP). In such cases, any VP you score in excess of this limit are ignored.",
+            "id": "vp-up-to-limit",
+            "title": "VP Up to a Limit"
+          },
+          {
+            "body": "Some Secondary Mission cards begin with a 'When Drawn' section. Note that this section only applies if you are using Tactical Secondary Missions.",
+            "id": "when-drawn",
+            "title": "When Drawn"
+          }
+        ],
+        "intro": "Before attending a Warhammer Event, each player musters their army; a Warhammer Event battle is then waged by completing the steps below.",
+        "introduction": {
+          "authorNote": "",
+          "body": "Welcome to the Warhammer Event Companion! This document is designed to help you run and play in organised events, from local leagues to the world championships. It uses the most recent Chapter Approved Mission Deck to create the best experiences for all hobbyists.\n\nWithin this companion, you’ll find a ready-made framework for levelling the playing field and getting games underway quickly. Its recommendations will be followed in full at most Games Workshop Warhammer Events, and are considered the official way to play Warhammer 40,000 in an event setting, but can be adapted to suit your own circumstances.\n\nThe recommendations are presented as follows:\n▪ **Warhammer Event Mission Sequence:** Adjustments to the steps players would normally follow to generate a mission and prepare the battlefield.\n▪ **Chapter Approved Mission Deck Errata & FAQs:** Updates to certain cards and answers to frequently asked questions.\n▪ **Pairings and Rankings:** Advice for fairly pairing players and determining rankings.\n▪ **Terrain Layouts:** A suite of carefully designed [gloss:terrain:terrain] setups to be used in conjunction with the Chapter Approved Mission Deck.\n▪ **Base Size Guide:** The most up-to-date base sizes appropriate for all Warhammer 40,000 models that can be used in Warhammer Events.",
+          "id": "introduction",
+          "note": "**Designer's Note:** This companion does not use the full contents of the Chapter Approved Mission Deck; it has been written to provide the best experience in a Warhammer Event. For this reason we have not included the Deployment or Twist cards, which are left for pick-up-and-play games.\n\nThis companion does not include rules and recommendations for doubles, teams or Dominatus Warhammer Events. These can be found on warhammer-community.com.",
+          "seeAlso": [
+            "Mission Sequence EC:sequence",
+            "Terrain Layouts EC:layouts"
+          ],
+          "title": "Introduction"
+        },
+        "secondary": [
+          {
+            "body": "Fixed Missions are those marked with the Fixed symbol. If you are using Fixed Missions, display your selected Fixed Mission cards face-up. Fixed Missions cannot be discarded and are active for you throughout the battle.",
+            "id": "fixed-missions",
+            "seeAlso": [
+              "Missions EC:missions"
+            ],
+            "title": "Fixed Missions"
+          },
+          {
+            "body": "If you are using [TACTICAL MISSION]s, shuffle your Secondary Mission deck face-down.\n▪ At the start of your Command phase (08), draw two Secondary Missions face-up from your Secondary Missions deck; these Secondary Missions are active for you.\n▪ (Once per battle) At the end of your Command phase, you can spend 1CP to discard one of your active Secondary Mission cards and draw one new Secondary Mission card.",
+            "id": "tactical-missions",
+            "seeAlso": [
+              "Missions EC:missions"
+            ],
+            "title": "Tactical Missions"
+          },
+          {
+            "body": "At the end of each player's turn, each player does the following, starting with the player whose turn it is:\n▪ First, if you met the conditions on one or more Secondary Missions, you can gain the VP specified on that card. If you do, and if you are using Tactical Secondary Missions, discard that Secondary Mission — it is achieved.\n▪ Then, if it is your turn and you are using Tactical Secondary Missions, you can discard one or more of your active Secondary Missions. If you do, you gain 1CP.",
+            "id": "achieving-secondary",
+            "title": "Achieving Secondary Missions"
+          }
+        ]
+      },
+      "teams": {
+        "blocks": [
+          {
+            "body": "The Warhammer Teams Event Companion is used **alongside** the Warhammer Event Companion. It changes only two things:\n▪ **Mission Sequence:** adjustments to the steps used to generate a mission and prepare the battlefield.\n▪ **Pairings and Rankings:** advice for fairly pairing teams and determining rankings.\nFor everything else — errata, FAQs, missions and terrain layouts — refer to the rest of the Event Companion.",
+            "id": "teams-overview",
+            "seeAlso": [
+              "Mission Sequence EC:sequence",
+              "Pairings & Rankings EC:pairings"
+            ],
+            "title": "Overview"
+          },
+          {
+            "body": "Excluding Core CP, each player can gain a maximum of 1CP per battle round (including the CP gained when a player discards an active Secondary Mission card).",
+            "id": "teams-generating-cp",
+            "seeAlso": [
+              "Generating Command Points EC:sequence#generating-cp"
+            ],
+            "title": "Generating Command Points"
+          },
+          {
+            "body": "Each team should have a single **captain** who is responsible for ensuring that players submit lists on time, and that scores are submitted at the end of each round.\n\nWithin each team, only one player can use units with a given **[gloss:faction-keyword:faction keyword]**. This will normally mean that only one player can use units from each Codex, including as allied forces. This does not apply to cases where the ally rules being used change faction keywords, or where datasheets appear in multiple Codexes with different faction keywords (e.g. Chaos Daemons and Khorne Daemons in Codex: World Eaters).\n\nEach player then musters an army as described in the Warhammer 40,000 app, with the following exception: once they have mustered their army, a player selects one [FORCE DISPOSITION] card available to them and records that on their roster.\n\nWithin each team, for every 5 players (rounding up), only one player can select each Force Disposition.",
+            "id": "team-composition",
+            "note": "**Example:** At a 5-player Teams Event, each player must have a different Force Disposition.\n\n**Example:** At an 8-player Teams Event, each Force Disposition must have been selected at least once by a different player; the remaining 3 players can then each select a 2nd instance of each Force Disposition.",
+            "title": "1 · Team Composition and Muster Armies"
+          },
+          {
+            "body": "In every round, each member of a team will play a game against one member of the opposing team, and the accumulated scores of all team members will decide the winner of a round. At the start of each round, both teams must follow the pairing system appropriate for the size of your teams. This determines which players from each team will play each other. **Team captains** are responsible for coordinating the pairing system.\n\nOnce the pairing system is complete, each player pair heads to their table to play. Each player finds their opponent's Force Disposition symbol on their Force Disposition card. The [PRIMARY MISSION] that is listed below that symbol is that player's Primary Mission, which describes how to score VP.\n\nThe pairing system is broken down into 3 modules, with the size of your teams determining which modules you use, as follows:",
+            "id": "pairing-system",
+            "table": {
+              "headers": [
+                "Team Size",
+                "Modules Used"
+              ],
+              "rows": [
+                [
+                  "3 players",
+                  "Main Engagement"
+                ],
+                [
+                  "4 players",
+                  "Main Engagement + Champion System"
+                ],
+                [
+                  "5 players",
+                  "Initial Skirmish + Main Engagement"
+                ],
+                [
+                  "6 players",
+                  "Initial Skirmish + Main Engagement + Champion System"
+                ],
+                [
+                  "7 players",
+                  "Initial Skirmish (×2) + Main Engagement"
+                ],
+                [
+                  "8 players",
+                  "Initial Skirmish (×2) + Main Engagement + Champion System"
+                ]
+              ],
+              "title": "Modules by Team Size"
+            },
+            "title": "2 · Pairing System"
+          },
+          {
+            "body": "1. Each team secretly selects one member to be their **Defender**.\n2. Each team's selected Defender is revealed simultaneously.\n3. Each team now secretly selects two of their remaining members to be **Attackers** against the opposing Defender.\n4. Each team's selected Attackers are revealed simultaneously.\n5. Each team now secretly chooses which of the two opposing Attackers they want their Defender to play against.\n6. The chosen Attackers are revealed simultaneously. This decides two match-ups.\n7. Each team's Defender declares their layout choice.",
+            "id": "initial-skirmish",
+            "note": "**Designer's Note:** Each combination of Primary Missions has three recommended layouts, labelled A, B and C. These can be found in the Warhammer 40,000 app and in the Warhammer Event Companion.",
+            "title": "Initial Skirmish"
+          },
+          {
+            "body": "1. Each team secretly selects one member to be their **Defender**.\n2. Each team's selected Defender is revealed simultaneously.\n3. Each team now secretly selects two of their remaining members to be **Attackers** against the opposing Defender.\n4. Each team's selected Attackers are revealed simultaneously.\n5. Each team now secretly chooses which of the two opposing Attackers they want their Defender to play against.\n6. The chosen Attackers are revealed simultaneously. This decides two matchups.\n7. Each team's Defender declares their layout choice.\n8. The **[gloss:refused-attacker:refused Attacker]** from each team plays against one another. These players will use a layout based on the round: in round 1 use Layout A, in round 2 use Layout B, and in round 3 use Layout C, repeating this cycle in further rounds.",
+            "id": "main-engagement",
+            "title": "Main Engagement"
+          },
+          {
+            "body": "This will leave one player from each team, who becomes the **Champion**. These players will use a layout based on the round: in round 1 use Layout A, in round 2 use Layout B, and in round 3 use Layout C, repeating this cycle in further rounds.",
+            "id": "champion-system",
+            "title": "Champion System"
+          },
+          {
+            "body": "Once pairings are set, each matchup plays out the rest of the standard Mission Sequence:\n▪ **Create the Battlefield** — missions are played on **44\" by 60\"** battlefields; set up terrain areas and features as shown in the selected layout.\n▪ **Determine Attacker and Defender** — agree which battlefield edges match the card, then **roll off**: the winner decides who will be the Attacker and who will be the Defender.\n▪ The remaining steps — Select Secondary Missions, Declare Battle Formations, Deploy, Redeploy, Determine First Turn, Resolve Pre-battle Rules, Begin and End the Battle, and Determine Victor — are unchanged from the standard sequence.",
+            "id": "teams-sequence-note",
+            "seeAlso": [
+              "Mission Sequence EC:sequence"
+            ],
+            "title": "The Rest of the Sequence"
+          },
+          {
+            "body": "After determining the victor, both players earn **Battle Points (BP)** for their team based on the VP differential of their individual game. Count your VP, subtract your opponent's VP, and consult the table. If your differential is negative, read your BP from the **Opponent** column.",
+            "id": "team-scoring-bp",
+            "note": "**Designer's Note:** the two players' BP always add up to 20.\n\n**Example:** A game ends 86–54. The differential is +32 for player A and −32 for player B, so player A scores 16BP for their team and player B scores 4BP for theirs.",
+            "table": {
+              "headers": [
+                "VP Difference",
+                "Player BP",
+                "Opponent BP"
+              ],
+              "rows": [
+                [
+                  "0–5",
+                  "10",
+                  "10"
+                ],
+                [
+                  "6–10",
+                  "11",
+                  "9"
+                ],
+                [
+                  "11–15",
+                  "12",
+                  "8"
+                ],
+                [
+                  "16–20",
+                  "13",
+                  "7"
+                ],
+                [
+                  "21–25",
+                  "14",
+                  "6"
+                ],
+                [
+                  "26–30",
+                  "15",
+                  "5"
+                ],
+                [
+                  "31–35",
+                  "16",
+                  "4"
+                ],
+                [
+                  "36–40",
+                  "17",
+                  "3"
+                ],
+                [
+                  "41–45",
+                  "18",
+                  "2"
+                ],
+                [
+                  "46–50",
+                  "19",
+                  "1"
+                ],
+                [
+                  "51+",
+                  "20",
+                  "0"
+                ]
+              ],
+              "title": "Battle Points by VP Differential"
+            },
+            "title": "14 · Team Scoring — Battle Points"
+          },
+          {
+            "body": "At the end of the round, each team's total BP is added up and a match winner is determined. A team's total BP must exceed their opponents' by at least the margin below to score a win — any smaller margin is a draw.",
+            "id": "team-scoring-match",
+            "note": "**Example:** At a 5-player Teams Event, Team A scores 54BP and Team B 46BP. The difference is at least 6BP, so Team A wins.\n\nThe match-winning team scores **3 Team Points (TP)**; the losing team scores **1TP**. A draw scores both teams 2TP.",
+            "table": {
+              "headers": [
+                "Team Size",
+                "Required BP Differential"
+              ],
+              "rows": [
+                [
+                  "3 players",
+                  "4"
+                ],
+                [
+                  "4 players",
+                  "6"
+                ],
+                [
+                  "5 players",
+                  "6"
+                ],
+                [
+                  "6 players",
+                  "8"
+                ],
+                [
+                  "7 players",
+                  "10"
+                ],
+                [
+                  "8 players",
+                  "12"
+                ]
+              ],
+              "title": "Winning Margin by Team Size"
+            },
+            "title": "Team Scoring — Match Result"
+          },
+          {
+            "body": "While the first round is usually randomly paired, subsequent rounds pair teams with the same record (e.g. a 3–1 team with another 3–1 team). To decide pairings beyond that, we recommend:\n▪ First — by Team Points (the number of wins, losses and draws).\n▪ Second — by total individual wins (the cumulative individual wins of every team member across all rounds so far).\n▪ Third — randomly within teams of the same ranking.",
+            "id": "teams-pairing",
+            "title": "Pairing Teams"
+          },
+          {
+            "body": "The overall [gloss:best-team:Best Team] is often the single undefeated team at the end of the event. When draws or the number of rounds leave this undetermined, we recommend ranking teams by:\n▪ First — by record (the number of wins, losses and draws).\n▪ Second — by total individual wins (the cumulative individual wins of every team member across all rounds).\n▪ Third — by total Battle Points (the cumulative BP of every team member across all rounds).",
+            "id": "teams-ranking",
+            "title": "Ranking Teams"
+          }
+        ],
+        "intro": "A Teams Event is one in which players compete in teams. Teams are matched against each other, with each member of a team fighting a battle against a member of the opposing team. This page collects the Teams-specific rules; everything else follows the standard Event Companion."
+      },
+      "terrain": {
+        "footprints": {
+          "footnote": "Official printable templates: [Terrain Area Footprints (PDF)](https://assets.warhammer-community.com/eng_12-06_warhammer40000_terrainareafootprints-biavo5zf9f-gxdahkydbj.pdf)",
+          "headers": [
+            "Terrain Area Footprint Size",
+            "Quantity"
+          ],
+          "rows": [
+            [
+              "6\" × 4\"",
+              "4"
+            ],
+            [
+              "10\" × 2.5\"",
+              "2"
+            ],
+            [
+              "6\" × 2\"",
+              "4"
+            ],
+            [
+              "7\" × 11.5\"",
+              "4"
+            ],
+            [
+              "8\" × 11.5\" Polygon",
+              "2"
+            ]
+          ],
+          "title": "Recommended Terrain Area Footprints"
+        },
+        "intro": "These are the layouts used at Games Workshop events, designed by the Warhammer Studio to create risk-and-reward decisions with each player's [gloss:objective:objectives] (14) in mind. Each combination of [PRIMARY MISSION]s has three recommended [LAYOUT]s (A, B and C). As directed by the organiser, players either use the layout specified or randomly determine which to use.\n\nSelect your [FORCE DISPOSITION] and your opponent's below to view the matchup's Primary Missions and its three terrain layouts.",
+        "keyNote": "Each layout uses the [gloss:terrain-feature:terrain features] from the Battlefields: Armageddon box in the 'Warhammer recommended' build, each denoted as a **[gloss:dense-terrain:dense]** (green) or **[gloss:light-terrain:light]** (yellow) terrain feature. Letters (AB, CD, EF, GH) mark which terrain feature corresponds with the component markings on that terrain set. The configurations are designed to create the best experience with the Hidden rule and movement rules for various units, and space is purposely left between a terrain feature and the edge of its terrain area so a line of models can stand on the terrain area from the outside.\n\nIf you do not have the Battlefields: Armageddon terrain, you can recreate these layouts with your own terrain close to the same size as the various features, denoting for all players whether each is a dense or light terrain feature.",
+        "legend": [
+          {
+            "desc": "Coloured green on the layouts.",
+            "icon": "/images/event/legend-dense.webp",
+            "id": "dense",
+            "label": "Dense Terrain"
+          },
+          {
+            "desc": "Coloured yellow on the layouts.",
+            "icon": "/images/event/legend-light.webp",
+            "id": "light",
+            "label": "Light Terrain"
+          },
+          {
+            "desc": "Marked on layouts where neighbouring terrain features are treated as separate terrain areas.",
+            "icon": "/images/event/legend-separate.webp",
+            "id": "separate",
+            "label": "Separate Terrain Areas"
+          },
+          {
+            "desc": "Marked on layouts where neighbouring terrain features are treated as one single terrain area.",
+            "icon": "/images/event/legend-single.webp",
+            "id": "single",
+            "label": "Single Terrain Area"
+          },
+          {
+            "desc": "The letters marking each terrain feature correspond with the component markings on the Battlefields: Armageddon terrain set.",
+            "icon": "/images/event/legend-letters.webp",
+            "id": "letters",
+            "label": "Terrain Feature Letters"
+          },
+          {
+            "desc": "The Attacker sets up their units wholly within this area.",
+            "icon": "/images/event/legend-atk-dz.webp",
+            "id": "atk-dz",
+            "label": "Attacker's Deployment Zone"
+          },
+          {
+            "desc": "The Defender sets up their units wholly within this area.",
+            "icon": "/images/event/legend-def-dz.webp",
+            "id": "def-dz",
+            "label": "Defender's Deployment Zone"
+          },
+          {
+            "desc": "The region not within either player's deployment zone.",
+            "icon": "/images/event/legend-nml.webp",
+            "id": "nml",
+            "label": "No Man's Land"
+          },
+          {
+            "desc": "The half of the battlefield that includes the Attacker's deployment zone.",
+            "icon": "/images/event/legend-atk-territory.webp",
+            "id": "atk-territory",
+            "label": "Attacker's Territory"
+          },
+          {
+            "desc": "The half of the battlefield that includes the Defender's deployment zone.",
+            "icon": "/images/event/legend-def-territory.webp",
+            "id": "def-territory",
+            "label": "Defender's Territory"
+          },
+          {
+            "desc": "",
+            "icon": "/images/event/marker-attacker.webp",
+            "id": "atk-edge",
+            "label": "Attacker's Battlefield Edge"
+          },
+          {
+            "desc": "",
+            "icon": "/images/event/marker-defender.webp",
+            "id": "def-edge",
+            "label": "Defender's Battlefield Edge"
+          },
+          {
+            "desc": "An objective marker in a player's own territory.",
+            "icon": "/images/event/legend-home-obj.webp",
+            "id": "home-obj",
+            "label": "Home Objective"
+          },
+          {
+            "desc": "An objective marker in the centre of the battlefield.",
+            "icon": "/images/event/legend-central-obj.webp",
+            "id": "central-obj",
+            "label": "Central Objective"
+          },
+          {
+            "desc": "An objective marker contested in No Man's Land.",
+            "icon": "/images/event/legend-expansion-obj.webp",
+            "id": "expansion-obj",
+            "label": "Expansion Objective"
+          }
+        ]
+      },
+      "twists": {
+        "blocks": [
+          {
+            "body": "A **BATTLELINE** unit can **start an [gloss:action:action]** in a turn in which it made an **[gloss:advance-move:advance move]**. A **BATTLELINE** unit can **shoot in a turn** in which it **started an [gloss:action:action]**.",
+            "example": "The rank and file of your armies are determined to demonstrate their value, advancing relentlessly toward their assigned objectives whilst maintaining a punishing rate of fire.",
+            "id": "martial-pride",
+            "note": "Designer's Note: This is a great twist for Incursion battles.",
+            "title": "Martial Pride"
+          },
+          {
+            "body": "The players both replace their **[gloss:primary-mission:Primary Mission]** card with the same one of the following **Primary Mission** cards. If both players agree on one of them, use that **Primary Mission** card; otherwise, roll a D6 and consult the table below.\n\n### Primary Mission (D6)\n▪ Battlefield Dominance — 1\n▪ Meatgrinder — 2\n▪ Outmanoeuvre — 3\n▪ Gather Intel — 4\n▪ Sabotage — 5\n▪ (Roll again) — 6",
+            "example": "As destinies converge, rival warlords find themselves on parallel paths, competing with one another to achieve near-identical outcomes and objectives.",
+            "id": "mirrored-world",
+            "note": "Designer's Note: This is a great twist for players who want to play a simpler battle of Warhammer 40,000, as both players will be trying to achieve the same **[gloss:primary-mission:Primary Mission]**.",
+            "title": "Mirrored World"
+          },
+          {
+            "body": "Each unit is **[gloss:not-visible:not visible]** to enemy models unless they are within 18\" of that unit, and each unit cannot be targeted by [INDIRECT FIRE] weapons unless the attacking model is within 18\" of that unit.",
+            "example": "A shroud of darkness has fallen across the battlefield, obscuring the vision of your warriors and providing them with cover beneath which to advance.",
+            "id": "night-fighting",
+            "note": "Designer's Note: This is a great twist for players who do not yet have a battlefield's worth of terrain.",
+            "title": "Night Fighting"
+          },
+          {
+            "body": "The players exchange their **[gloss:primary-mission:Primary Mission]** cards.",
+            "example": "Scrambled communications and intertwined vox-channels have disrupted the chain of command, leaving your orders and objectives unclear.",
+            "id": "scrambled-communications",
+            "note": "Designer's Note: This is a great twist to shake things up in a regular match-up, or for players who love to embrace chaos!",
+            "title": "Scrambled Communications"
+          },
+          {
+            "body": "When a unit makes a **[gloss:normal-move:normal]** or **[gloss:advance-move:advance move]**, models in that unit have the MOBILE keyword until that move ends.",
+            "example": "Decades of war have reduced the structures on this battlefield to hollow ruins. Your warriors stalk and scramble through the skeletal remnants of half-destroyed buildings as they close in upon their enemies.",
+            "id": "ruinscape",
+            "note": "Designer's Note: For players who want to play with a lot of terrain and/or with many large models, this twist can help keep the battle flowing.",
+            "title": "Ruinscape"
+          },
+          {
+            "body": "**[gloss:terrain-feature:Terrain features]** do not have the **Solid** rule.",
+            "example": "This battlefield only affords the illusion of cover — nowhere is safe.",
+            "id": "nowhere-to-hide",
+            "note": "Designer's Note: This twist lets models draw **[gloss:line-of-sight:line of sight]** through any gap in a **[gloss:terrain-feature:terrain feature]**, allowing more ‘true line of sight’ and more lethal shooting.",
+            "title": "Nowhere to Hide"
+          }
+        ],
+        "intro": "Twists are optional modifiers, agreed before the battle, that add variety to a game. Choose one together, roll for a random one, or play with no twist at all. A chosen twist applies to both players for the whole game."
+      }
+    },
+    "ru": {
+      "doubles": {
+        "blocks": [
+          {
+            "body": "Warhammer Doubles Event Companion используется **вместе** с Warhammer Event Companion. Он меняет три вещи:\n▪ **Последовательность миссии:** изменения в шагах генерации миссии и подготовки поля боя.\n▪ **Терминология:** как формат называет пару армий команды и насколько эти армии общие.\n▪ **Изменения базовых правил:** поправки, которые позволяют двум игрокам сражаться плечом к плечу.\nПо всему остальному — эррата, FAQ, миссии и раскладки террейна — обращайтесь к остальной части Event Companion. Паринг и ранжирование на Doubles-ивенте идут **по командам**, а не по игрокам, но в остальном методика обычная.",
+            "seeAlso": [
+              "Последовательность миссии EC:sequence",
+              "Паринги и ранжирование EC:pairings"
+            ],
+            "title": "Обзор"
+          },
+          {
+            "body": "Перед ивентом каждая команда — двое игроков — собирает армии, как описано в приложении Warhammer 40,000, со следующими исключениями:\n▪ Юниты EPIC HERO, листы данных, которые нельзя включить в армию более одного раза, [gloss:enhancement:улучшения] и любые другие элементы «once per army» нельзя включить более одного раза **на обе армии** команды.\n▪ Конкретный [gloss:upgrade:Upgrade] можно включить в армию игрока более одного раза по обычным правилам сбора армий, но нельзя включить в **обе** армии команды.\n▪ Каждая команда выбирает одну модель CHARACTER из любой из двух армий, которая станет [gloss:warlord:WARLORD] команды.\n▪ Каждая команда выбирает одну карту [FORCE DISPOSITION], доступную любой из её армий, и записывает её в ростер.",
+            "note": "**Пример:** команда не может включить Genestealer Cults Patriarch дважды или один и тот же Upgrade в обе армии, даже если оба игрока выбрали одинаковые детачменты.\n\n**Designer’s Note:** игроки внутри команды могут брать как одинаковые, так и разные ключевые слова фракции, и как одинаковые, так и разные детачменты. Что это даёт армиям команды — в разделах «Терминология» и «Изменения базовых правил» ниже.",
+            "seeAlso": [
+              "Сбор армий EC:sequence#step-1"
+            ],
+            "title": "1 · Сбор армий"
+          },
+          {
+            "body": "Остальные шаги — обычные, но выполняются **командой, а не игроком**: двое игроков решают вместе и считаются одной стороной:\n▪ **2 · Определение миссии** — каждая команда находит символ Force Disposition соперников на своей карте; указанная под ним [PRIMARY MISSION] — основная миссия **команды**.\n▪ **5 · Определение Атакующего и Защищающегося** — [gloss:roll-off:сделайте ролл-офф]: победитель решает, какая **команда** будет Атакующей, а какая Защищающейся.\n▪ **6 · Выбор вторичных миссий** — каждая команда записывает, тактические у неё миссии или фиксированные, тянет и сбрасывает карты как одно целое, и её вторичные миссии активны для всей команды.\n▪ **8 · Развёртывание армий** — **команды** по очереди выставляют по одному юниту, начиная с Защищающейся. Юнит TITANIC стоит команде её **следующей** очереди выставления, а когда команда закончила, вторая команда доставляет оставшееся.\n▪ **9 · Передислокация юнитов** и **11 · Отыгрыш предбоевых правил** — **команды** чередуются, начиная с Атакующей и с команды, которая ходит первой, соответственно.\n▪ **12 · Начало битвы** — игроки одной команды **играют свой ход вместе**, как если бы они были одним игроком.\n▪ **13 · Окончание битвы** — команды доигрывают ходы до конца пятого раунда, даже если у команды не осталось моделей на поле боя.\n▪ **14 · Определение победителя** — команда получает 10VP, если **её армии** покрашены до стандарта Battle Ready, и побеждает команда с наибольшим числом VP. Максимум VP по каждому источнику не меняется: 45VP за основную миссию, 45VP за вторичные, 10VP за покраску — это потолок команды, а не каждого игрока.",
+            "note": "Шаги **3 · Определение расстановки**, **4 · Создание поля боя**, **7 · Объявление боевых построений** и **10 · Определение первого хода** не меняются дословно, как и Designer’s Notes про чтение карт вторичных миссий.",
+            "seeAlso": [
+              "Последовательность миссии EC:sequence"
+            ],
+            "title": "Остальная последовательность"
+          },
+          {
+            "body": "На Doubles-ивентах используется следующая терминология:\n▪ **Force** (сила) — объединённые армии пары игроков.\n▪ **Unified Force** — сила, у обеих армий которой полностью совпадают [gloss:faction-keyword:ключевые слова фракции]. Чтобы сила ADEPTUS ASTARTES была unified force, юнитам одной армии не обязательно иметь то же ключевое слово ордена, что и юнитам другой.\n▪ **Force of Convenience** — любая сила, которая не является unified force.",
+            "note": "**Designer’s Note:** не учитывайте юниты, взятые как союзники — например юнит IMPERIAL KNIGHTS в другой армии IMPERIUM, — когда определяете, unified force перед вами или force of convenience.",
+            "title": "Терминология"
+          },
+          {
+            "body": "В **unified force** модели и юниты обеих армий, составляющих эту силу, [gloss:friendly:дружественны] друг другу.\n\nИначе модели и юниты вашей силы, не входящие в вашу армию, **не считаются ни дружественными, ни вражескими**.",
+            "note": "**Пример:** в unified force с ключевым словом фракции ADEPTUS ASTARTES юниты одной армии могут пользоваться способностью Blessings of the Omnissiah техномарина из армии напарника.\n\n**Пример:** в force of convenience юниты одной армии (даже если у них есть ключевое слово IMPERIUM) не получат способность напарника, действующую на дружественные юниты IMPERIUM.",
+            "seeAlso": [
+              "Юниты и модели 01.02"
+            ],
+            "title": "Юниты и модели 01.02"
+          },
+          {
+            "body": "Каждая **сила** (а не каждый игрок) получает 1 командное очко ([gloss:command-points:CP]). Сила не может получить более одного дополнительного CP за раунд битвы.",
+            "seeAlso": [
+              "Получение базовых CP 08.02"
+            ],
+            "title": "Получение базовых CP 08.02"
+          },
+          {
+            "body": "Запас CP у силы **общий** на обоих игроков команды. Правила, ограничивающие использование [gloss:stratagem:стратагем], применяются к силе, а не к каждому игроку или армии.",
+            "note": "**Пример:** юнит в вашей силе может быть целью только одной стратагемы вашей силы за фазу, а использование стратагемы Insane Bravery ограничено одним разом за битву, **на силу**.",
+            "seeAlso": [
+              "Использование стратегем 15.01"
+            ],
+            "title": "Использование стратагем 15.01"
+          },
+          {
+            "body": "В **unified force** юниты и модели из одной армии могут [gloss:embark:погрузиться] в модель TRANSPORT из другой армии или начать битву внутри неё, если этот юнит в принципе может грузиться в такой TRANSPORT.",
+            "note": "**Пример:** в unified force с ключевым словом фракции ADEPTUS ASTARTES техномарин из одной армии может погрузиться в Impulsor из другой или начать битву внутри него.",
+            "seeAlso": [
+              "Транспорты 18.00"
+            ],
+            "title": "Транспорты 18.00"
+          },
+          {
+            "body": "В **unified force** сила использует свои [gloss:army-rules:армейские правила] так, будто это одна армия — один общий пул, который пополняет сила, а не каждая армия в ней. Иначе каждая армия внутри силы использует свои армейские правила.\n\nВ **unified force**, если оба игрока выбрали **одинаковые** детачменты, сила использует [gloss:detachment-rule:правила детачмента] так, будто это одна армия. Иначе правила детачмента каждого игрока действуют только на вражеские юниты и на юниты **его собственной** армии — даже в unified force.",
+            "note": "**Пример:** у unified force с ключевым словом фракции DRUKHARI один пул pain token, и их получает сила, как описано в Power From Pain.\n\n**Пример:** если игроки unified force с ключевым словом фракции ADEPTUS ASTARTES выбрали разные детачменты, один игрок не сможет ни нацелить стратагему на юниты другого (даже стратагему, которая целится в дружественный юнит ADEPTUS ASTARTES), ни дать им эффект правила детачмента (даже такого, которое действует на все дружественные юниты ADEPTUS ASTARTES).",
+            "title": "Армейские правила и правила детачментов"
+          },
+          {
+            "body": "Правила с ограничениями, зависящими от размера армии игрока, считаются от [gloss:points-limit:лимита очков] армии этого **отдельного** игрока.",
+            "note": "**Пример:** если игрок хочет взять Chaos Daemons как союзников, это считается от лимита очков армии этого игрока внутри его силы.",
+            "title": "Ограничения по очкам"
+          }
+        ],
+        "intro": "Doubles-ивент — это мероприятие, где игроки соревнуются командами по два человека, и две армии команды сражаются как одна сила против армий другой команды. В этой главе собрано только то, что формат Doubles меняет; всё, что здесь не названо, работает как в обычном Event Companion."
+      },
+      "faq": {
+        "errata": "Эррата колоды Chapter Approved Mission Deck: **отсутствует.**",
+        "intro": "При игре в миссию Warhammer Event применяются следующие поправки к картам колоды Chapter Approved Mission Deck. Вопросы периодически пересматриваются, и ответы приведены ниже.",
+        "items": [
+          {
+            "a": "К участку укрытий.",
+            "q": "Вторичная миссия Plunder [SECONDARY MISSION] говорит про «One unit within a terrain area that is not within your territory». К чему относится условие «не в пределах вашей территории» — к юниту или к участку укрытий?"
+          },
+          {
+            "a": "Нет — а значит, выполнить эту миссию уже не получится. Советуем сбросить её в свой ход и получить 1 CP!",
+            "q": "Если юнит, выбранный маяком (Beacon) при вытягивании вторичной миссии Beacon [SECONDARY MISSION], уничтожен до выполнения миссии, можно ли выбрать новый юнит-маяк?"
+          },
+          {
+            "a": "Нет: VP, набранные в конце битвы, не попадают под лимит в 15VP за раунд битвы.",
+            "q": "Считается ли конец битвы тем же моментом, что и конец пятого раунда битвы, когда речь про лимиты набора VP?"
+          },
+          {
+            "a": "Да.",
+            "q": "Если действие миссии ставит [OPERATION MARKER] и накладывает статус (например, «decoyed»), снимается ли статус вместе с этим маркером операции?"
+          },
+          {
+            "a": "Ваша карта основной миссии укажет, как и когда вы можете убирать маркеры операций с поля боя. Если она этого не указывает, убирать маркеры операций нельзя.",
+            "q": "Некоторые карты [PRIMARY MISSION] позволяют игроку размещать [OPERATION MARKER] на поле боя. Можно ли их убирать?"
+          },
+          {
+            "a": "Нет.",
+            "q": "Для основной миссии Death Trap одна цель гласит: «Один или несколько вражеских юнитов, начавших ход на участке укрытий, были уничтожены, если этот участок заминирован». Должен ли участок быть заминирован именно в момент уничтожения вражеского юнита?"
+          },
+          {
+            "a": "Да.",
+            "q": "Для основной миссии Surveil the Foe одна цель гласит: «Один или несколько вражеских юнитов взяты под наблюдение в этом ходу, если только каждый из этих юнитов не находится в пределах досягаемости одной или нескольких целей, в пределах досягаемости которых есть один или несколько маркеров операций». Если вражеский юнит находится в пределах досягаемости цели с маркером операции, могу ли я выполнить эту цель, убрав маркер операции после слежения за этим юнитом, при условии что это происходит в тот же ход?"
+          },
+          {
+            "a": "Да, пока вы контролируете цель(и), в пределах которой находятся эти маркеры операций.",
+            "q": "Для основной миссии Vital Link, если центральных целей более одной, могу ли я получить накопительные VP за свои маркеры операций независимо от того, в пределах какой центральной цели(ей) они находятся?"
+          },
+          {
+            "a": "Нет.",
+            "q": "Для подсчёта очков основной миссии Consecrate: если я использую детачмент Adeptus Custodes Lions of the Emperor и выбираю целью стратагемы Unleash the Lions юнит освящения (consecration unit), являются ли новые юниты юнитами освящения?"
+          },
+          {
+            "a": "Нет.",
+            "q": "Для подсчёта очков вторичной миссии Beacon: если я использую детачмент Adeptus Custodes Lions of the Emperor и выбираю целью стратагемы Unleash the Lions свой юнит-маяк (beacon unit), являются ли новые юниты юнитами-маяками?"
+          },
+          {
+            "a": "Да.",
+            "q": "Для подсчёта очков основной миссии Punishment: если мой оппонент использует детачмент Adeptus Custodes Lions of the Emperor и выбирает целью стратагемы Unleash the Lions осуждённый юнит (condemned unit), покидает ли этот юнит поле боя?"
+          },
+          {
+            "a": "Да.",
+            "q": "На раскладках, где область ландшафта находится в 6\" от края поля боя, может ли юнит выйти из стратегического резерва в 6\" от края поля боя и начать действие Plunder для этой области или оспаривать эту цель?"
+          }
+        ]
+      },
+      "glossary": [
+        {
+          "fullText": "Карта, которую игрок выбирает после сбора армии. Символ Force Disposition соперника на вашей карте указывает вашу **[gloss:primary-mission:основную миссию]** на битву."
+        },
+        {
+          "fullText": "Ваш главный источник VP (до 45VP, максимум 15 за раунд боя), определяемый комбинацией Force Disposition обоих игроков."
+        },
+        {
+          "fullText": "Дополнительные способы набирать VP (до 45VP). Перед битвой каждый игрок тайно выбирает **фиксированные** (Fixed) или **тактические** (Tactical) вторичные миссии."
+        },
+        {
+          "fullText": "Вторичные миссии, выложенные лицом вверх с начала. Их нельзя сбрасывать, и они активны всю битву (максимум 20VP за фиксированную карту)."
+        },
+        {
+          "fullText": "Вторичные миссии, берущиеся из перемешанной колоды: возьмите две в начале вашей фазы командования (08); раз за битву можно потратить 1CP, чтобы сбросить одну и взять новую."
+        },
+        {
+          "fullText": "Маркеры, которые некоторые основные миссии позволяют размещать на поле боя. Снять их можно, только если карта основной миссии указывает, как и когда."
+        },
+        {
+          "fullText": "Стандарт покраски. Каждый игрок получает 10VP, если его армия покрашена по стандарту Battle Ready."
+        },
+        {
+          "fullText": "Одна из двух боевых ролей. Выбранная расстановка обозначает края поля боя Атакующего; роли определяются кубовкой при определении Атакующего и Защищающегося."
+        },
+        {
+          "fullText": "Одна из двух боевых ролей. Защищающийся развёртывается первым, и расстановка обозначает край поля боя Защищающегося."
+        },
+        {
+          "fullText": "Одна из трёх рекомендованных расстановок террейна (A, B и C) для конкретного матчапа основных миссий, задающая участки укрытий, элементы и позиции целей."
+        }
+      ],
+      "pairings": {
+        "blocks": [
+          {
+            "body": "Хотя первый раунд большинства турниров составляется случайно, последующие раунды можно составлять по-разному. Мы рекомендуем составлять пары игроков по следующим критериям:\n▪ Во-первых — по результату (число побед, поражений и ничьих).\n▪ Во-вторых — по [gloss:win-path:пути побед] (тайминг раундов, в которых игрок выиграл или проиграл).\n▪ В-третьих — случайно среди игроков с одинаковым рангом.",
+            "note": "«[gloss:win-path:Путь побед]» игрока — это не число его побед и поражений, а их тайминг. Составление пар по пути побед склонно объединять игроков со схожим недавним опытом, повышая удовольствие обоих.\n\n**Пример:** возьмём двух игроков с результатом 3-1. Один из них проиграл первую партию — после этого он, вероятно, снизил ожидания от всего турнира, но, скорее всего, находится в отличном настроении после трёх побед подряд. Другой выиграл первые три партии, а затем проиграл четвёртую — резкое разочарование после старта 3-0. Если этих игроков сведут друг с другом, их удовольствие от партии может не совпасть, ведь они находятся в очень разном эмоциональном состоянии. Путь побед гарантирует, что игроки вступают в партию со схожим недавним опытом, на который можно опереться.",
+            "title": "Составление пар"
+          },
+          {
+            "body": "Чтобы разрешить ничьи между игроками, завершившими мероприятие с одинаковым результатом, мы рекомендуем ранжировать игроков по следующим критериям:\n▪ Во-первых — по общему результату (победы, поражения и ничьи).\n▪ Во-вторых — по результатам побед их соперников (сила соперников).\n▪ В-третьих — по сумме очков победы (VP).",
+            "note": "Мы не рекомендуем использовать VP как метрику составления пар или ранжирования, пока не исчерпаны другие метрики: набранные в партии VP редко ясно говорят о том, насколько близкой она была. Результат побед соперников — идеальный тай-брейк.",
+            "title": "Ранжирование игроков"
+          },
+          {
+            "body": "Есть множество способов получать удовольствие от хобби Warhammer, и все они проявляются на турнире — от талантливых художников и соревнующихся за титул Best General до казуальных игроков, заводящих новых друзей. Такие хоббисты порой находят необычные взаимодействия правил на грани Warhammer 40,000, которые могут поставить организаторов перед задачей дать ясный ответ.\n\nДля разрешения подобных неопределённостей приложение Warhammer 40,000 содержит подробный Rules Appendix, а также эррату и записи FAQ по конкретным фракциям. Если во время вашего мероприятия возникает странное взаимодействие правил, а основные правила (Core Rules) не дают ясного ответа, мы рекомендуем обращаться к этим ресурсам.",
+            "seeAlso": [
+              "Базовые способности 24.00",
+              "Эррата и FAQ EC:faq"
+            ],
+            "title": "Rules Appendix, эррата и FAQ"
+          },
+          {
+            "body": "Warhammer популярен как никогда, и эта популярность распространилась на турнирную сцену. Когда столько хоббистов участвует в игре внутри растущих сообществ, важно поразмышлять о смысле турнира. Прежде всего, он не о чествовании абсолютного победителя; тому, кто проходит без поражений и берёт титул Best General, нужно очень мало признания помимо самого результата (в конце концов, он победил!). Напротив, важнее всего — опыт каждого отдельного участника и осознание того, что для большинства приходящих на турнир сообщество и дружба являются и целью, и результатом.\n\nПрежде чем бросить первый кубик против соперника и начать свой турнирный опыт, помните две вещи:\n1. Человек по ту сторону стола разделяет вашу любовь к Warhammer.\n2. К тому моменту, когда уляжется пыль, почти каждый потерпит хотя бы одно поражение (как правило, лишь один-два человека уйдут без поражений).\nХотя любая партия даёт победителей и проигравших на столе, магия Warhammer в турнирном формате — в возможности, которую он даёт каждому участнику, стать большей частью сообщества и завести дружбу на всю жизнь. Сосредоточьтесь на этой неоспоримой истине — и хотя большинство из вас проиграет партию-другую, вы все разделите победу в своём опыте того, что значит побывать на Warhammer Event.\n\n— Студия дизайна Warhammer и команда Warhammer Events",
+            "title": "Послесловие — В чём смысл Warhammer Event?"
+          }
+        ],
+        "intro": "Существует бесчисленное множество способов проводить Warhammer Event. Следующие рекомендации применяются на большинстве официальных мероприятий Games Workshop и призваны создать максимально честный и приятный опыт для каждого участника, независимо от его положения."
+      },
+      "sequence": {
+        "blocks": [
+          {
+            "body": "Не считая базовых CP, каждый игрок может получить не более 1CP за раунд боя (включая CP, полученное за сброс активной карты Secondary Mission).",
+            "title": "Начисление командных очков"
+          },
+          {
+            "body": "Соберите армии, как описано в приложении Warhammer 40,000, со следующим исключением: собрав армию, игрок выбирает одну доступную ему карту [FORCE DISPOSITION] и записывает её в свой ростер.",
+            "seeAlso": [
+              "Террейн и раскладки EC:layouts"
+            ],
+            "title": "1 · Сбор армий"
+          },
+          {
+            "body": "Каждый игрок находит символ Force Disposition своего соперника на своей карте Force Disposition. Указанная под этим символом [PRIMARY MISSION] — это основная миссия данного игрока, которая описывает, как набирать очки победы (VP).",
+            "seeAlso": [
+              "Миссии EC:missions"
+            ],
+            "title": "2 · Определение миссии"
+          },
+          {
+            "body": "Для каждой комбинации основных миссий есть три рекомендованные [LAYOUT], обозначенные **A**, **B** и **C**, которые можно найти в разделе **Terrain Layouts** этого справочника. По указанию организатора игроки либо используют заданную расстановку, либо определяют её случайно.\n\nРекомендуем идти по расстановкам **A**, **B** и **C** по порядку, повторяя цикл столько раз, сколько партий в ивенте.\n\n**Примеры:** для ивента из 5 раундов рекомендуем порядок A, B, C, A, B. Для 6 раундов — A, B, C, A, B, C. Для 8 раундов — A, B, C, A, B, C, A, B.",
+            "seeAlso": [
+              "Террейн и раскладки EC:layouts"
+            ],
+            "title": "3 · Определение расстановки"
+          },
+          {
+            "body": "Миссии играются на прямоугольных полях боя размером **44\" на 60\"**. Игроки расставляют [gloss:terrain-area:участки укрытий], как показано в выбранной расстановке, затем размещают на этих участках [gloss:terrain-feature:элементы ландшафта] (13), как показано в расстановке.",
+            "seeAlso": [
+              "Укрытия 13.00"
+            ],
+            "title": "4 · Создание поля боя"
+          },
+          {
+            "body": "Игроки смотрят на выбранную расстановку и договариваются, какие края поля боя соответствуют краям [ATTACKER] и [DEFENDER], обозначенным на карте.\n\n→ Кубовка: победитель решает, кто будет [gloss:attacker:Атакующим], а кто — [gloss:defender:Защищающимся].",
+            "title": "5 · Определение Атакующего и Защищающегося"
+          },
+          {
+            "body": "Карты [SECONDARY MISSION] описывают дополнительные способы набирать VP. Игроки тайно отмечают, будут ли они использовать тактические или фиксированные вторичные миссии. Если используются [FIXED MISSION], они также отмечают, какие две фиксированные миссии возьмут. Затем игроки раскрывают свои решения.",
+            "title": "6 · Выбор вторичных миссий"
+          },
+          {
+            "body": "Игроки тайно записывают, по порядку:\n▪ Какие их юниты начнут битву погружёнными в какие [gloss:transport:TRANSPORTS] (18).\n▪ Какие их юниты начнут битву в [gloss:strategic-reserves:стратегических резервах] (20).\nЗатем игроки раскрывают свои решения.",
+            "seeAlso": [
+              "Транспорты 18.00",
+              "Стратегические резервы 20.00"
+            ],
+            "title": "7 · Объявление боевых построений"
+          },
+          {
+            "body": "Игроки по очереди выставляют свои юниты (кроме находящихся в стратегических резервах) по одному, полностью в пределах своей [gloss:deployment-zone:зоны развёртывания], начиная с **Защищающегося**. Если в свой черёд вы выставляете TITANIC юнит, пропустите следующий черёд выставления юнита. Когда вы закончите, если у соперника остались невыставленные юниты, он выставляет их.",
+            "title": "8 · Развёртывание армий"
+          },
+          {
+            "body": "Некоторые правила позволяют передислоцировать определённые юниты после того, как обе армии развёрнуты. Если не указано иное, отыгрывайте такие правила на этом шаге. Игроки чередуются, начиная с Атакующего. Юниты, помещённые в стратегические резервы (20) на этом шаге, не учитываются в суммарной стоимости очков ваших юнитов в стратегических резервах.",
+            "title": "9 · Передислокация юнитов"
+          },
+          {
+            "body": "→ Кубовка: победитель берёт первый ход.",
+            "title": "10 · Определение первого хода"
+          },
+          {
+            "body": "Игроки чередуются, отыгрывая любые предбоевые правила юнитов своей армии, начиная с игрока, который будет ходить первым.",
+            "title": "11 · Отыгрыш предбоевых правил"
+          },
+          {
+            "body": "Начинается первый [gloss:battle-round:раунд боя].",
+            "title": "12 · Начало битвы"
+          },
+          {
+            "body": "Битва заканчивается после того, как сыграно пять раундов боя (07). Даже если у вас не осталось моделей в армии в начале вашего хода, игроки продолжают разыгрывать свои ходы до конца битвы.",
+            "title": "13 · Окончание битвы"
+          },
+          {
+            "body": "Каждый игрок получает **10VP**, если его армия покрашена по стандарту [BATTLE READY]. В конце битвы игрок с наибольшим числом VP — победитель; при равенстве — ничья. Максимум VP из каждого источника указан ниже — любые VP сверх этих максимумов игнорируются.",
+            "table": {
+              "headers": [
+                "Источник VP",
+                "Максимум VP"
+              ],
+              "rows": [
+                [
+                  "[gloss:primary-mission:Основная миссия]",
+                  "45VP (до 15VP за раунд боя)"
+                ],
+                [
+                  "[gloss:secondary-mission:Вторичные миссии]",
+                  "45VP (до 15VP за раунд боя)*"
+                ],
+                [
+                  "Армия Battle Ready",
+                  "10VP"
+                ]
+              ],
+              "title": "Максимум VP по источникам"
+            },
+            "tableNote": "* Кроме того, вы можете получить максимум 20VP за каждую карту фиксированной вторичной миссии.",
+            "title": "14 · Определение победителя"
+          }
+        ],
+        "designerNotes": [
+          {
+            "body": "Некоторые карты включают условие, отмеченное как «cumulative» (накопительное), которое следует за обычным условием. Если игрок выполняет накопительное условие, он получает VP и за него, и за обычное условие.\n\nНекоторые карты включают одно или несколько условий «or» (или), которые следуют за обычным условием. Игрок может получить VP только за одно из этих условий или за обычное условие.",
+            "title": "Условия «cumulative» и «or»"
+          },
+          {
+            "body": "Некоторые карты упоминают юнит или юниты, покидающие поле боя. Юнит покидает поле боя, если он уничтожен, если он погружается в [gloss:transport:TRANSPORT] (18) или если правило убирает этот юнит с поля боя (например, помещая его в стратегические резервы (20)).",
+            "title": "Покидание поля боя"
+          },
+          {
+            "body": "Когда карта указывает «one» (одно) с подчёркиванием, это означает ровно одно, а не одно или более.",
+            "title": "Одно (One)"
+          },
+          {
+            "body": "Некоторые карты дают VP до предела, например (up to 5VP). В таких случаях любые VP сверх этого предела игнорируются.",
+            "title": "VP до предела"
+          },
+          {
+            "body": "Некоторые карты вторичных миссий начинаются с секции «When Drawn» (при взятии). Эта секция применяется, только если вы используете тактические вторичные миссии.",
+            "title": "When Drawn"
+          }
+        ],
+        "intro": "Перед посещением мероприятия каждый игрок собирает свою армию; затем битва на Warhammer Event ведётся выполнением шагов ниже.",
+        "introduction": {
+          "authorNote": "",
+          "body": "Добро пожаловать в Warhammer Event Companion! Этот документ создан, чтобы помочь вам проводить организованные мероприятия и играть в них — от локальных лиг до мировых чемпионатов. Он использует самую свежую колоду Chapter Approved Mission Deck, чтобы дать лучший опыт всем хоббистам.\n\nВ этом путеводителе вы найдёте готовый каркас для выравнивания условий игры и быстрого начала партий. Его рекомендации в полном объёме применяются на большинстве мероприятий Games Workshop Warhammer Events и считаются официальным способом играть в Warhammer 40,000 в турнирном формате, но их можно адаптировать под ваши условия.\n\nРекомендации представлены следующим образом:\n▪ **Warhammer Event Mission Sequence:** изменения шагов, которые игроки обычно выполняют, чтобы сгенерировать миссию и подготовить поле боя.\n▪ **Chapter Approved Mission Deck Errata & FAQs:** обновления отдельных карт и ответы на частые вопросы.\n▪ **Pairings and Rankings:** советы по честному составлению пар и определению ранга.\n▪ **Terrain Layouts:** набор тщательно продуманных расстановок [gloss:terrain:террейна] для использования с Chapter Approved Mission Deck.\n▪ **Base Size Guide:** самые актуальные размеры подставок для всех моделей Warhammer 40,000, которые можно использовать на мероприятиях.",
+          "note": "**Designer's Note:** этот путеводитель использует не всё содержимое Chapter Approved Mission Deck; он написан, чтобы дать лучший опыт на турнире. По этой причине мы не включили карты Deployment и Twist — они оставлены для игр в формате pick-up-and-play.\n\nЭтот путеводитель не включает правила и рекомендации для парных, командных или Dominatus-мероприятий Warhammer Events. Их можно найти на warhammer-community.com.",
+          "seeAlso": [
+            "Последовательность миссии EC:sequence",
+            "Террейн и раскладки EC:layouts"
+          ],
+          "title": "Введение"
+        },
+        "secondary": [
+          {
+            "body": "Фиксированные миссии — это миссии, отмеченные символом Fixed. Если вы используете фиксированные миссии, выложите выбранные карты фиксированных миссий лицом вверх. Фиксированные миссии нельзя сбрасывать, и они активны для вас на протяжении всей битвы.",
+            "seeAlso": [
+              "Миссии EC:missions"
+            ],
+            "title": "Фиксированные миссии (Fixed Missions)"
+          },
+          {
+            "body": "Если вы используете [TACTICAL MISSION], перемешайте свою колоду вторичных миссий рубашкой вверх.\n▪ В начале вашей фазы командования (Command phase) (08) возьмите две вторичные миссии лицом вверх из колоды вторичных миссий; они активны для вас.\n▪ (Один раз за битву) В конце вашей фазы командования вы можете потратить 1CP, чтобы сбросить одну из активных карт вторичных миссий и взять одну новую карту.",
+            "seeAlso": [
+              "Миссии EC:missions"
+            ],
+            "title": "Тактические миссии (Tactical Missions)"
+          },
+          {
+            "body": "В конце хода каждого игрока каждый игрок делает следующее, начиная с игрока, чей ход:\n▪ Сначала, если вы выполнили условия одной или нескольких вторичных миссий, вы можете получить указанные VP. Если вы это делаете и используете тактические миссии, сбросьте эту вторичную миссию — она выполнена.\n▪ Затем, если это ваш ход и вы используете тактические миссии, вы можете сбросить одну или несколько активных вторичных миссий. Если вы это делаете, вы получаете 1CP.",
+            "title": "Выполнение вторичных миссий"
+          }
+        ]
+      },
+      "teams": {
+        "blocks": [
+          {
+            "body": "Warhammer Teams Event Companion используется **вместе** с Warhammer Event Companion. Он меняет только две вещи:\n▪ **Последовательность миссии:** изменения в шагах генерации миссии и подготовки поля боя.\n▪ **Паринги и ранжирование:** советы по честному составлению пар команд и определению рангов.\nПо всему остальному — эррата, FAQ, миссии и раскладки террейна — обращайтесь к остальной части Event Companion.",
+            "seeAlso": [
+              "Последовательность миссии EC:sequence",
+              "Паринги и ранжирование EC:pairings"
+            ],
+            "title": "Обзор"
+          },
+          {
+            "body": "Не считая базовых CP, каждый игрок может получить не более 1CP за раунд боя (включая CP, полученное за сброс активной карты Secondary Mission).",
+            "seeAlso": [
+              "Начисление командных очков EC:sequence#generating-cp"
+            ],
+            "title": "Начисление командных очков"
+          },
+          {
+            "body": "У каждой команды есть один **капитан**, отвечающий за то, чтобы игроки вовремя сдавали ростеры, а очки подавались в конце каждого раунда.\n\nВнутри команды только один игрок может использовать юниты с данным **[gloss:faction-keyword:ключевым словом фракции]**. Обычно это значит, что только один игрок может использовать юниты из каждого Кодекса, в том числе как союзные силы. Это не применяется, когда используемые правила союзников меняют ключевые слова фракции, или когда листы данных встречаются в нескольких Кодексах с разными ключевыми словами фракции (например, Chaos Daemons и Khorne Daemons в Codex: World Eaters).\n\nЗатем каждый игрок собирает армию, как описано в приложении Warhammer 40,000, с одним исключением: собрав армию, игрок выбирает одну доступную ему карту [FORCE DISPOSITION] и записывает её в ростер.\n\nВнутри команды на каждые 5 игроков (с округлением вверх) только один игрок может выбрать каждую Force Disposition.",
+            "note": "**Пример:** На командном ивенте из 5 игроков у каждого игрока должна быть разная Force Disposition.\n\n**Пример:** На командном ивенте из 8 игроков каждая Force Disposition должна быть выбрана хотя бы раз разными игроками; остальные 3 игрока затем могут выбрать по 2-му экземпляру каждой Force Disposition.",
+            "title": "1 · Состав команды и сбор армий"
+          },
+          {
+            "body": "В каждом раунде каждый участник команды играет партию против одного участника команды соперника, и суммарные очки всех участников команды определяют победителя раунда. В начале каждого раунда обе команды следуют системе паринга, подходящей для размера их команд. Она определяет, какие игроки двух команд сыграют друг с другом; её координируют **капитаны команд**.\n\nКогда паринг завершён, каждая пара игроков идёт к своему столу. Каждый игрок находит символ Force Disposition соперника на своей карте Force Disposition; [PRIMARY MISSION], указанная под этим символом, и есть его Primary Mission, которая описывает, как набирать VP.\n\nСистема делится на 3 модуля; размер команды определяет, какие из них использовать:",
+            "table": {
+              "headers": [
+                "Размер команды",
+                "Используемые модули"
+              ],
+              "rows": [
+                [
+                  "3 игрока",
+                  "Main Engagement"
+                ],
+                [
+                  "4 игрока",
+                  "Main Engagement + Champion System"
+                ],
+                [
+                  "5 игроков",
+                  "Initial Skirmish + Main Engagement"
+                ],
+                [
+                  "6 игроков",
+                  "Initial Skirmish + Main Engagement + Champion System"
+                ],
+                [
+                  "7 игроков",
+                  "Initial Skirmish (×2) + Main Engagement"
+                ],
+                [
+                  "8 игроков",
+                  "Initial Skirmish (×2) + Main Engagement + Champion System"
+                ]
+              ],
+              "title": "Модули по размеру команды"
+            },
+            "title": "2 · Система паринга"
+          },
+          {
+            "body": "1. Каждая команда тайно выбирает одного участника своим **Defender**.\n2. Выбранные Defender обеих команд раскрываются одновременно.\n3. Каждая команда тайно выбирает двух своих оставшихся участников **Attacker** против Defender соперника.\n4. Выбранные Attacker обеих команд раскрываются одновременно.\n5. Каждая команда тайно выбирает, против кого из двух Attacker соперника сыграет её Defender.\n6. Выбранные Attacker раскрываются одновременно. Это определяет две пары.\n7. Defender каждой команды объявляет выбор раскладки.",
+            "note": "**Designer's Note:** Каждая комбинация Primary Mission имеет три рекомендованные раскладки, обозначенные A, B и C. Их можно найти в приложении Warhammer 40,000 и в Event Companion.",
+            "title": "Initial Skirmish"
+          },
+          {
+            "body": "1. Каждая команда тайно выбирает одного участника своим **Defender**.\n2. Выбранные Defender обеих команд раскрываются одновременно.\n3. Каждая команда тайно выбирает двух своих оставшихся участников **Attacker** против Defender соперника.\n4. Выбранные Attacker обеих команд раскрываются одновременно.\n5. Каждая команда тайно выбирает, против кого из двух Attacker соперника сыграет её Defender.\n6. Выбранные Attacker раскрываются одновременно. Это определяет две пары.\n7. Defender каждой команды объявляет выбор раскладки.\n8. **[gloss:refused-attacker:Отклонённый Attacker]** каждой команды играет друг против друга, используя раскладку по номеру раунда: в раунде 1 — раскладку A, в раунде 2 — B, в раунде 3 — C, повторяя этот цикл в дальнейших раундах.",
+            "title": "Main Engagement"
+          },
+          {
+            "body": "Остаётся по одному игроку от каждой команды — он становится **Champion**. Эти игроки играют друг против друга, используя раскладку по номеру раунда: в раунде 1 — раскладку A, в раунде 2 — B, в раунде 3 — C, повторяя этот цикл в дальнейших раундах.",
+            "title": "Champion System"
+          },
+          {
+            "body": "Когда пары определены, каждый матч проходит остальную часть обычной последовательности миссии:\n▪ **Создание поля боя** — миссии играются на поле боя **44\" на 60\"**; расставьте зоны террейна и сам террейн, как показано на выбранной раскладке.\n▪ **Определение Attacker и Defender** — согласуйте, какие края поля боя соответствуют карте, затем сделайте **кубовку**: победитель решает, кто будет Attacker, а кто — Defender.\n▪ Остальные шаги — выбор вторичных миссий, объявление боевых построений, развёртывание, передислокация, определение первого хода, отыгрыш предбоевых правил, начало и конец битвы и определение победителя — не отличаются от обычной последовательности.",
+            "seeAlso": [
+              "Последовательность миссии EC:sequence"
+            ],
+            "title": "Остальная последовательность"
+          },
+          {
+            "body": "После определения победителя оба игрока получают **Battle Points (BP)** для своей команды на основе разницы VP в их личной партии. Посчитайте свои VP, вычтите VP соперника и сверьтесь с таблицей. Если ваша разница отрицательная, берите свои BP из столбца **Соперник**.",
+            "note": "**Designer's Note:** BP двух игроков всегда в сумме дают 20.\n\n**Пример:** Партия заканчивается 86–54. Разница составляет +32 для игрока A и −32 для игрока B, так что игрок A набирает 16BP для своей команды, а игрок B — 4BP для своей.",
+            "table": {
+              "headers": [
+                "Разница VP",
+                "BP игрока",
+                "BP соперника"
+              ],
+              "rows": [
+                [
+                  "0–5",
+                  "10",
+                  "10"
+                ],
+                [
+                  "6–10",
+                  "11",
+                  "9"
+                ],
+                [
+                  "11–15",
+                  "12",
+                  "8"
+                ],
+                [
+                  "16–20",
+                  "13",
+                  "7"
+                ],
+                [
+                  "21–25",
+                  "14",
+                  "6"
+                ],
+                [
+                  "26–30",
+                  "15",
+                  "5"
+                ],
+                [
+                  "31–35",
+                  "16",
+                  "4"
+                ],
+                [
+                  "36–40",
+                  "17",
+                  "3"
+                ],
+                [
+                  "41–45",
+                  "18",
+                  "2"
+                ],
+                [
+                  "46–50",
+                  "19",
+                  "1"
+                ],
+                [
+                  "51+",
+                  "20",
+                  "0"
+                ]
+              ],
+              "title": "Battle Points по разнице VP"
+            },
+            "title": "14 · Командный подсчёт — Battle Points"
+          },
+          {
+            "body": "В конце раунда суммируются общие BP каждой команды и определяется победитель матча. Общие BP команды должны превышать BP соперников хотя бы на указанную ниже величину, чтобы засчитать победу — любой меньший разрыв считается ничьёй.",
+            "note": "**Пример:** На командном ивенте из 5 игроков Team A набирает 54BP, а Team B — 46BP. Разница не меньше 6BP, поэтому побеждает Team A.\n\nКоманда-победитель матча получает **3 Team Points (TP)**; проигравшая команда получает **1TP**. При ничьей обе команды получают по 2TP.",
+            "table": {
+              "headers": [
+                "Размер команды",
+                "Нужная разница BP"
+              ],
+              "rows": [
+                [
+                  "3 игрока",
+                  "4"
+                ],
+                [
+                  "4 игрока",
+                  "6"
+                ],
+                [
+                  "5 игроков",
+                  "6"
+                ],
+                [
+                  "6 игроков",
+                  "8"
+                ],
+                [
+                  "7 игроков",
+                  "10"
+                ],
+                [
+                  "8 игроков",
+                  "12"
+                ]
+              ],
+              "title": "Разрыв для победы по размеру команды"
+            },
+            "title": "Командный подсчёт — результат матча"
+          },
+          {
+            "body": "Хотя первый раунд обычно составляется случайно, последующие раунды сводят команды с одинаковым результатом (например, команду 3–1 с другой командой 3–1). Чтобы определить пары дальше, мы рекомендуем:\n▪ Во-первых — по Team Points (число побед, поражений и ничьих).\n▪ Во-вторых — по сумме личных побед (суммарные личные победы каждого участника команды за все раунды на данный момент).\n▪ В-третьих — случайно среди команд с одинаковым рангом.",
+            "title": "Составление пар команд"
+          },
+          {
+            "body": "[gloss:best-team:Лучшей командой] обычно становится единственная команда без поражений к концу мероприятия. Когда ничьи или число раундов оставляют это неопределённым, мы рекомендуем ранжировать команды по:\n▪ Во-первых — по результату (число побед, поражений и ничьих).\n▪ Во-вторых — по сумме личных побед (суммарные личные победы каждого участника команды за все раунды).\n▪ В-третьих — по сумме Battle Points (суммарные BP каждого участника команды за все раунды).",
+            "title": "Ранжирование команд"
+          }
+        ],
+        "intro": "Командный ивент (Teams Event) — это мероприятие, где игроки соревнуются командами. Команды сводятся друг с другом, и каждый участник команды играет партию против участника команды соперника. На этой странице собраны правила, специфичные для командного формата; всё остальное следует обычному Event Companion."
+      },
+      "terrain": {
+        "footprints": {
+          "footnote": "Официальные футпринты для печати: [Terrain Area Footprints (PDF)](https://assets.warhammer-community.com/eng_12-06_warhammer40000_terrainareafootprints-biavo5zf9f-gxdahkydbj.pdf)",
+          "headers": [
+            "Размер участка укрытия",
+            "Количество"
+          ],
+          "title": "Рекомендованные размеры участков укрытий"
+        },
+        "intro": "Это расстановки, используемые на мероприятиях Games Workshop, разработанные студией Warhammer так, чтобы создавать решения «риск-награда» с учётом [gloss:objective:целей] (14) каждого игрока. Для каждой комбинации [PRIMARY MISSION] есть три рекомендованные [LAYOUT] (A, B и C). По указанию организатора игроки либо используют заданную расстановку, либо определяют её случайно.\n\nВыберите свою [FORCE DISPOSITION] и диспозицию соперника ниже, чтобы увидеть основные миссии матчапа и три его расстановки террейна.",
+        "keyNote": "В каждой расстановке используются [gloss:terrain-feature:элементы ландшафта] из набора Battlefields: Armageddon в сборке «Warhammer recommended», каждый обозначен как **[gloss:dense-terrain:плотный]** (зелёный) или **[gloss:light-terrain:лёгкий]** (жёлтый) элемент ландшафта. Буквы (AB, CD, EF, GH) указывают, какой элемент ландшафта соответствует маркировке компонентов в этом наборе. Конфигурации продуманы так, чтобы дать лучший опыт с правилом Hidden и правилами движения для разных юнитов, и между элементом ландшафта и краем его участка намеренно оставлено место, чтобы линия моделей могла стоять на участке снаружи.\n\nЕсли у вас нет набора Battlefields: Armageddon, вы можете воссоздать эти расстановки своими укрытиями близкого размера к различным элементам, обозначив для всех игроков, является ли каждый плотным или лёгким элементом ландшафта.",
+        "legend": [
+          {
+            "desc": "Окрашены зелёным на расстановках.",
+            "label": "Плотные укрытия (Dense Terrain)"
+          },
+          {
+            "desc": "Окрашены жёлтым на расстановках.",
+            "label": "Лёгкие укрытия (Light Terrain)"
+          },
+          {
+            "desc": "Отмечается на расстановках, где соседние элементы ландшафта считаются отдельными участками.",
+            "label": "Раздельные участки ландшафта (Separate Terrain Areas)"
+          },
+          {
+            "desc": "Отмечается на расстановках, где соседние элементы ландшафта считаются одним участком.",
+            "label": "Единый участок ландшафта (Single Terrain Area)"
+          },
+          {
+            "desc": "Буквы, обозначающие каждый элемент ландшафта, соответствуют маркировке компонентов набора Battlefields: Armageddon.",
+            "label": "Буквы на элементах ландшафта (Terrain Feature Letters)"
+          },
+          {
+            "desc": "Атакующий выставляет свои юниты полностью в пределах этой области.",
+            "label": "Зона развёртывания Атакующего"
+          },
+          {
+            "desc": "Защищающийся выставляет свои юниты полностью в пределах этой области.",
+            "label": "Зона развёртывания Защищающегося"
+          },
+          {
+            "desc": "Область, не входящая в зону развёртывания ни одного из игроков.",
+            "label": "Ничейная земля (No Man’s Land)"
+          },
+          {
+            "desc": "Половина поля боя, включающая зону развёртывания Атакующего.",
+            "label": "Территория Атакующего (Attacker’s Territory)"
+          },
+          {
+            "desc": "Половина поля боя, включающая зону развёртывания Защищающегося.",
+            "label": "Территория Защищающегося (Defender’s Territory)"
+          },
+          {
+            "desc": "",
+            "label": "Край стола Атакующего (Attacker’s Battlefield Edge)"
+          },
+          {
+            "desc": "",
+            "label": "Край стола Защищающегося (Defender’s Battlefield Edge)"
+          },
+          {
+            "desc": "Маркер цели на собственной территории игрока.",
+            "label": "Домашняя цель (Home Objective)"
+          },
+          {
+            "desc": "Маркер цели в центре поля боя.",
+            "label": "Центральная цель (Central Objective)"
+          },
+          {
+            "desc": "Маркер цели, оспариваемый на ничейной земле.",
+            "label": "Цель экспансии (Expansion Objective)"
+          }
+        ]
+      },
+      "twists": {
+        "blocks": [
+          {
+            "body": "Юнит **BATTLELINE** может **начать [gloss:action:действие]** в ходу, в котором он совершил **[gloss:advance-move:продвижение]**. Юнит **BATTLELINE** может **стрелять в ходу**, в котором он **начал [gloss:action:действие]**.",
+            "example": "Рядовые бойцы ваших армий полны решимости доказать свою ценность, неумолимо продвигаясь к назначенным целям и поддерживая беспощадный темп стрельбы.",
+            "note": "Designer's Note: Отличный твист для битв размера Incursion.",
+            "titleRu": "Воинская гордость"
+          },
+          {
+            "body": "Оба игрока заменяют свою карту **[gloss:primary-mission:основной миссии]** на одну и ту же из следующих карт. Если игроки договорились об одной из них, используйте её; иначе бросьте D6 и сверьтесь с таблицей ниже.\n\n### Основная миссия (D6)\n▪ Battlefield Dominance — 1\n▪ Meatgrinder — 2\n▪ Outmanoeuvre — 3\n▪ Gather Intel — 4\n▪ Sabotage — 5\n▪ (бросьте снова) — 6",
+            "example": "Судьбы сходятся, и соперничающие военачальники оказываются на параллельных путях, состязаясь за почти одинаковые цели и результаты.",
+            "note": "Designer's Note: Отличный твист для тех, кто хочет сыграть более простую партию Warhammer 40,000, ведь оба игрока будут стремиться выполнить одну и ту же **[gloss:primary-mission:основную миссию]**.",
+            "titleRu": "Зеркальный мир"
+          },
+          {
+            "body": "Каждый юнит **[gloss:not-visible:не виден]** вражеским моделям, если они не находятся в пределах 18\" от этого юнита, и каждый юнит нельзя выбрать целью оружия [INDIRECT FIRE], если атакующая модель не находится в пределах 18\" от этого юнита.",
+            "example": "Покров тьмы опустился на поле боя, застилая взор ваших воинов и давая им укрытие, под которым можно продвигаться.",
+            "note": "Designer's Note: Отличный твист для игроков, у которых пока нет полного набора террейна на поле боя.",
+            "titleRu": "Ночной бой"
+          },
+          {
+            "body": "Игроки обмениваются своими картами **[gloss:primary-mission:основной миссии]**.",
+            "example": "Спутанная связь и переплетённые вокс-каналы нарушили цепочку командования, сделав ваши приказы и цели неясными.",
+            "note": "Designer's Note: Отличный твист, чтобы встряхнуть привычную партию, или для тех, кто обожает хаос!",
+            "titleRu": "Нарушенная связь"
+          },
+          {
+            "body": "Когда юнит совершает **[gloss:normal-move:обычный манёвр]** или **[gloss:advance-move:продвижение]**, модели в этом юните получают ключевое слово MOBILE до конца этого манёвра.",
+            "example": "Десятилетия войны превратили строения на этом поле боя в пустые руины. Ваши воины крадутся и карабкаются через скелеты полуразрушенных зданий, подбираясь к врагам.",
+            "note": "Designer's Note: Для тех, кто хочет играть с большим количеством террейна и/или множеством крупных моделей, — этот твист помогает поддерживать темп битвы.",
+            "titleRu": "Руинный ландшафт"
+          },
+          {
+            "body": "**[gloss:terrain-feature:Участки укрытий]** не обладают правилом **Solid**.",
+            "example": "Это поле боя даёт лишь иллюзию укрытия — нигде не безопасно.",
+            "note": "Designer's Note: Этот твист позволяет моделям проводить **[gloss:line-of-sight:линию видимости]** через любой проём в **[gloss:terrain-feature:участке укрытий]**, обеспечивая больше «истинной линии видимости» и более смертоносную стрельбу.",
+            "titleRu": "Негде спрятаться"
+          }
+        ],
+        "intro": "Твисты — это опциональные модификаторы, согласованные перед битвой, которые добавляют игре разнообразия. Выберите один вместе, определите случайный броском кубика или играйте вообще без твиста. Выбранный твист действует на обоих игроков всю игру."
+      }
+    }
+  }
+}

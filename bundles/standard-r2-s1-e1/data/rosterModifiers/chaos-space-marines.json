@@ -1,0 +1,4457 @@
+{
+  "default": {
+    "entries": [
+      {
+        "det": null,
+        "effects": [],
+        "hash": "71c8951b",
+        "kind": "ability",
+        "name": "Abaddon the Despoiler: Lord of the Traitor Legions (Aura)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "scopes": [
+            {
+              "excludes": [
+                "DAMNED"
+              ],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "HERETIC ASTARTES"
+              ]
+            }
+          ],
+          "set": "Warmaster",
+          "unit": "abaddon-the-despoiler"
+        },
+        "reviewed": true,
+        "sid": "65763fed-86e9-4fc4-aaaf-cafb90f63b99:abaddon-the-despoiler",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "aura",
+            "value": "4+",
+            "when": {
+              "en": "while this ability is the one selected",
+              "ru": "пока выбрана эта способность"
+            }
+          }
+        ],
+        "hash": "d553fbfd",
+        "kind": "ability",
+        "name": "Abaddon the Despoiler: Mark of Chaos Ascendant (Aura)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "scopes": [
+            {
+              "excludes": [
+                "DAMNED"
+              ],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "HERETIC ASTARTES INFANTRY",
+                "HERETIC ASTARTES MOUNTED"
+              ]
+            }
+          ],
+          "set": "Warmaster",
+          "unit": "abaddon-the-despoiler"
+        },
+        "reviewed": true,
+        "sid": "338a2363-49b5-4862-b395-88a5463b1490:abaddon-the-despoiler",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "5a65192c",
+        "kind": "ability",
+        "name": "Abaddon the Despoiler: Paragon of Hatred (Aura)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "scopes": [
+            {
+              "excludes": [
+                "DAMNED"
+              ],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "HERETIC ASTARTES"
+              ]
+            }
+          ],
+          "set": "Warmaster",
+          "unit": "abaddon-the-despoiler"
+        },
+        "reviewed": true,
+        "sid": "02291736-47e1-4e9c-be70-af04df246944:abaddon-the-despoiler",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "used-sacrificial-dagger"
+            ],
+            "on": "weapon",
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "the phase this ability is used (this unit suffers 1 mortal wound)",
+              "ru": "фаза, в которую применена способность (отряд получает 1 смертельную рану)"
+            }
+          },
+          {
+            "cond": [
+              "used-sacrificial-dagger"
+            ],
+            "on": "weapon",
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "the phase this ability is used (this unit suffers 1 mortal wound)",
+              "ru": "фаза, в которую применена способность (отряд получает 1 смертельную рану)"
+            }
+          }
+        ],
+        "hash": "6258748a",
+        "kind": "ability",
+        "name": "Aranis Zarkan: Sacrificial Dagger",
+        "ref": {
+          "kind": "ability",
+          "unit": "aranis-zarkan"
+        },
+        "reviewed": true,
+        "sid": "2de6d3bc-a47d-480a-8683-50565426ab93:aranis-zarkan",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 6,
+            "when": {
+              "en": "in a phase it Advanced (no Advance roll is made)",
+              "ru": "в фазе, когда совершил Advance (бросок не делается)"
+            }
+          }
+        ],
+        "hash": "0ffc4f9b",
+        "kind": "ability",
+        "name": "Blood Slaughterer: Scuttling Gait",
+        "ref": {
+          "kind": "ability",
+          "unit": "blood-slaughterer"
+        },
+        "reviewed": true,
+        "sid": "pack:blood-slaughterer:scuttling-gait",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "if this unit made a Charge move this turn",
+              "ru": "если юнит совершил Charge в этом ходу"
+            }
+          }
+        ],
+        "hash": "7cd3528a",
+        "kind": "ability",
+        "name": "Chaos Bikers: Rapid Assault",
+        "ref": {
+          "kind": "ability",
+          "unit": "chaos-bikers"
+        },
+        "reviewed": true,
+        "sid": "74e8bcac-20e7-42a6-bb3f-da299f501a0c:chaos-bikers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "mul",
+            "stat": "d",
+            "value": 0.5,
+            "when": null
+          }
+        ],
+        "hash": "f62f7f7a",
+        "kind": "ability",
+        "name": "Chaos Lord in Terminator Armour: Formidably Resilient",
+        "ref": {
+          "kind": "ability",
+          "unit": "chaos-lord-in-terminator-armour"
+        },
+        "reviewed": true,
+        "sid": "aa8e2bfb-ada0-4a35-adfa-6187c6a5117c:chaos-lord-in-terminator-armour",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "ASSAULT",
+            "when": null
+          }
+        ],
+        "hash": "3b4686bc",
+        "kind": "ability",
+        "name": "Chaos Lord on Bike: Swift Assault",
+        "ref": {
+          "kind": "ability",
+          "unit": "chaos-lord-on-bike"
+        },
+        "reviewed": true,
+        "sid": "pack:chaos-lord-on-bike:swift-assault",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Feel No Pain 5+ (vs mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "0fcf2bb4",
+        "kind": "ability",
+        "name": "Chaos Lord on Disc of Tzeentch: Lord of Fate",
+        "ref": {
+          "kind": "ability",
+          "unit": "chaos-lord-on-disc-of-tzeentch"
+        },
+        "reviewed": true,
+        "sid": "pack:chaos-lord-on-disc-of-tzeentch:lord-of-fate",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "for the phase, once per battle, when this model uses Chance for Glory",
+              "ru": "на фазу, раз за битву, когда модель применила Chance for Glory"
+            }
+          },
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "for the phase, once per battle, when this model uses Chance for Glory",
+              "ru": "на фазу, раз за битву, когда модель применила Chance for Glory"
+            }
+          },
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "for the phase, once per battle, when this model uses Chance for Glory",
+              "ru": "на фазу, раз за битву, когда модель применила Chance for Glory"
+            }
+          },
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": {
+              "en": "for the phase, once per battle, when this model uses Chance for Glory",
+              "ru": "на фазу, раз за битву, когда модель применила Chance for Glory"
+            }
+          }
+        ],
+        "hash": "feb96c79",
+        "kind": "ability",
+        "name": "Chaos Lord: Chance for Glory",
+        "ref": {
+          "kind": "ability",
+          "unit": "chaos-lord"
+        },
+        "reviewed": true,
+        "sid": "b265fc6e-3f98-45af-a8a1-e5e2dbae3284:chaos-lord",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "against INFANTRY targets",
+              "ru": "против целей INFANTRY"
+            }
+          }
+        ],
+        "hash": "2acd6045",
+        "kind": "ability",
+        "name": "Chaos Predator Destructor: Destructor",
+        "ref": {
+          "kind": "ability",
+          "unit": "chaos-predator-destructor"
+        },
+        "reviewed": true,
+        "sid": "a5c1b3db-e8e5-48b2-a00e-4226c3ada951:chaos-predator-destructor",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "c304671c",
+        "kind": "ability",
+        "name": "Chaos Spawn: Mind-breaking Mutations",
+        "ref": {
+          "kind": "ability",
+          "unit": "chaos-spawn"
+        },
+        "reviewed": true,
+        "sid": "d5c7b61a-5526-422a-bb72-b37a8e9191c1:chaos-spawn",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "wound",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "64108c35",
+        "kind": "ability",
+        "name": "Dark Apostle: Dark Zealotry",
+        "ref": {
+          "kind": "ability",
+          "unit": "dark-apostle"
+        },
+        "reviewed": true,
+        "sid": "ee01d6ea-47cc-4a7c-8b94-dcd9e8a3c430:dark-apostle",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "once": {
+              "dur": "turn",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "once per battle, until the end of the turn, after Dark Ritual",
+              "ru": "раз за битву, до конца хода, после Dark Ritual"
+            }
+          },
+          {
+            "on": "weapon",
+            "once": {
+              "dur": "turn",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "once per battle, until the end of the turn, after Dark Ritual",
+              "ru": "раз за битву, до конца хода, после Dark Ritual"
+            }
+          },
+          {
+            "on": "weapon",
+            "once": {
+              "dur": "turn",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "once per battle, until the end of the turn, after Dark Ritual",
+              "ru": "раз за битву, до конца хода, после Dark Ritual"
+            }
+          },
+          {
+            "on": "weapon",
+            "once": {
+              "dur": "turn",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "wound",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "once per battle, until the end of the turn, after Dark Ritual",
+              "ru": "раз за битву, до конца хода, после Dark Ritual"
+            }
+          }
+        ],
+        "hash": "6943a0ee",
+        "kind": "ability",
+        "name": "Dark Commune: Dark Ritual",
+        "ref": {
+          "kind": "ability",
+          "unit": "dark-commune"
+        },
+        "reviewed": true,
+        "sid": "5e80071d-8c49-4d9d-a6dc-e04e944145a9:dark-commune",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "unit",
+            "value": "5+",
+            "when": null
+          }
+        ],
+        "hash": "4f9e73da",
+        "kind": "ability",
+        "name": "Dark Commune: Faithful Flock",
+        "ref": {
+          "kind": "ability",
+          "unit": "dark-commune"
+        },
+        "reviewed": true,
+        "sid": "3026a72c-5b06-4a83-b56b-36fb78ad9b55:dark-commune",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "b981890e",
+        "kind": "ability",
+        "name": "Exalted Champion: Dark Champion",
+        "note": "Read as Tzaangor Shaman: Bestial Prophet (thousand-sons), the same text.",
+        "ref": {
+          "kind": "ability",
+          "unit": "exalted-champion"
+        },
+        "reviewed": true,
+        "sid": "pack:exalted-champion:dark-champion",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "target": "led",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "target": "led",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "646e1a31",
+        "kind": "ability",
+        "name": "Fabius Bile: Enhanced Warriors",
+        "ref": {
+          "kind": "ability",
+          "unit": "fabius-bile"
+        },
+        "reviewed": true,
+        "sid": "8c1bf1ec-33df-49e3-b557-a8380670eaf6:fabius-bile",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "3d46d954",
+        "kind": "ability",
+        "name": "Fabius Bile: Surgeon Acolyte",
+        "ref": {
+          "kind": "ability",
+          "unit": "fabius-bile"
+        },
+        "reviewed": true,
+        "sid": "1604740b-05de-4f6c-bcde-d11fa64dd156:fabius-bile",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "used-daemonic-ordnance"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "while this ability is used",
+              "ru": "пока способность использована"
+            }
+          },
+          {
+            "cond": [
+              "used-daemonic-ordnance"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "HAZARDOUS",
+            "when": {
+              "en": "while this ability is used",
+              "ru": "пока способность использована"
+            }
+          }
+        ],
+        "hash": "cda3afdc",
+        "kind": "ability",
+        "name": "Forgefiend: Daemonic Ordnance",
+        "ref": {
+          "kind": "ability",
+          "unit": "forgefiend"
+        },
+        "reviewed": true,
+        "sid": "09820343-0004-4592-a040-cd760fd6e4d6:forgefiend",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+ (vs mortal wounds and Psychic Attacks)",
+            "when": null
+          }
+        ],
+        "hash": "30ecc971",
+        "kind": "ability",
+        "name": "Greater Brass Scorpion: Runes of the Blood God",
+        "ref": {
+          "kind": "ability",
+          "unit": "greater-brass-scorpion"
+        },
+        "reviewed": true,
+        "sid": "pack:greater-brass-scorpion:runes-of-the-blood-god",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-two-melee-besides-ccw"
+            ],
+            "on": "melee",
+            "only": {
+              "notName": [
+                "Close combat weapon"
+              ]
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 2,
+            "when": {
+              "en": "the two melee weapons taken in addition to the close combat weapon",
+              "ru": "два оружия ближнего боя, взятые вдобавок к close combat weapon"
+            }
+          }
+        ],
+        "hash": "67092a63",
+        "kind": "ability",
+        "name": "Helbrute: Devoted to Destruction",
+        "ref": {
+          "kind": "ability",
+          "unit": "helbrute"
+        },
+        "reviewed": true,
+        "sid": "90c6edaf-0f74-4a0e-9631-b01641bebe3f:helbrute",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a unit that can FLY",
+              "ru": "по отряду с FLY"
+            }
+          }
+        ],
+        "hash": "34bdf1df",
+        "kind": "ability",
+        "name": "Heldrake: Airborne Predator",
+        "ref": {
+          "kind": "ability",
+          "unit": "heldrake"
+        },
+        "reviewed": true,
+        "sid": "dacf05b3-c5a9-40f2-9452-5f86a89d342a:heldrake",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a unit that can FLY",
+              "ru": "по отряду с FLY"
+            }
+          }
+        ],
+        "hash": "5cff7af9",
+        "kind": "ability",
+        "name": "Hell Blade: Interceptor",
+        "ref": {
+          "kind": "ability",
+          "unit": "hell-blade"
+        },
+        "reviewed": true,
+        "sid": "pack:hell-blade:interceptor",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of a friendly HERETIC ASTARTES INFANTRY unit",
+              "ru": "пока в пределах 3\" от дружественного отряда HERETIC ASTARTES INFANTRY"
+            }
+          }
+        ],
+        "hash": "e10dbb71",
+        "kind": "ability",
+        "name": "Heretic Astartes Daemon Prince: Lord of Chaos",
+        "ref": {
+          "kind": "ability",
+          "unit": "heretic-astartes-daemon-prince"
+        },
+        "reviewed": true,
+        "sid": "16e941e3-a6e6-44d1-9759-29dcca29a912:heretic-astartes-daemon-prince",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "target": "aura",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "da456d08",
+        "kind": "ability",
+        "name": "Huron Blackheart: Lord of Badab",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [
+                "DAMNED"
+              ],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "HERETIC ASTARTES INFANTRY"
+              ]
+            }
+          ],
+          "unit": "huron-blackheart"
+        },
+        "reviewed": true,
+        "sid": "dffec24a-b638-4df7-82c4-9033614b490e:huron-blackheart",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "against the closest eligible target",
+              "ru": "против ближайшей допустимой цели"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "target": "led",
+            "value": -1,
+            "when": {
+              "en": "against the closest eligible target",
+              "ru": "против ближайшей допустимой цели"
+            }
+          }
+        ],
+        "hash": "662f868f",
+        "kind": "ability",
+        "name": "Kravek Morne: Headlong Destruction",
+        "ref": {
+          "kind": "ability",
+          "unit": "kravek-morne"
+        },
+        "reviewed": true,
+        "sid": "72d19783-f2d6-4900-a5f3-d616d886ec6c:kravek-morne",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "until the end of a turn it made a Charge move",
+              "ru": "до конца хода, в котором совершил Charge"
+            }
+          }
+        ],
+        "hash": "a3012fa8",
+        "kind": "ability",
+        "name": "Kytan Ravager: Bloodlust",
+        "ref": {
+          "kind": "ability",
+          "unit": "kytan-ravager"
+        },
+        "reviewed": true,
+        "sid": "pack:kytan-ravager:bloodlust",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "2170496e",
+        "kind": "ability",
+        "name": "Master of Possession: Daemonkin",
+        "ref": {
+          "kind": "ability",
+          "unit": "master-of-possession"
+        },
+        "reviewed": true,
+        "sid": "7f7f725f-6107-488d-b11b-845d2788a1ce:master-of-possession",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "used-sacrificial-dagger"
+            ],
+            "on": "weapon",
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "Psychic Attacks, for the phase, after Sacrificial Dagger",
+              "ru": "психические атаки, на фазу, после Sacrificial Dagger"
+            }
+          },
+          {
+            "cond": [
+              "used-sacrificial-dagger"
+            ],
+            "on": "weapon",
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "Psychic Attacks, for the phase, after Sacrificial Dagger",
+              "ru": "психические атаки, на фазу, после Sacrificial Dagger"
+            }
+          }
+        ],
+        "hash": "5302db8d",
+        "kind": "ability",
+        "name": "Master of Possession: Sacrificial Dagger",
+        "ref": {
+          "kind": "ability",
+          "unit": "master-of-possession"
+        },
+        "reviewed": true,
+        "sid": "8306ea6a-70d3-4f00-8c41-592f3fb35e63:master-of-possession",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "13d0c291",
+        "kind": "ability",
+        "name": "Mutoid Vermin: Mischief Makers (Aura)",
+        "ref": {
+          "kind": "ability",
+          "unit": "mutoid-vermin"
+        },
+        "reviewed": true,
+        "sid": "pack:mutoid-vermin:mischief-makers-aura",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a target below its Starting Strength",
+              "ru": "по цели ниже Starting Strength"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against a target that is Below Half-strength",
+              "ru": "по цели Below Half-strength"
+            }
+          }
+        ],
+        "hash": "fc58474b",
+        "kind": "ability",
+        "name": "Nemesis Claw: Visions of Suffering",
+        "ref": {
+          "kind": "ability",
+          "unit": "nemesis-claw"
+        },
+        "reviewed": true,
+        "sid": "73fd690a-fa45-4f1e-b838-f8e762cb0bce:nemesis-claw",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "ee7e3001",
+        "kind": "ability",
+        "name": "Noctilith Crown: Fortification",
+        "ref": {
+          "kind": "ability",
+          "unit": "noctilith-crown"
+        },
+        "reviewed": true,
+        "sid": "26b11011-e99c-4bcd-8f2d-fe34af25bfa4:noctilith-crown",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "improve",
+            "stat": "ld",
+            "target": "aura",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "ac410cf1",
+        "kind": "ability",
+        "name": "Noctilith Crown: Malevolent Locus",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "HERETIC ASTARTES"
+              ]
+            }
+          ],
+          "unit": "noctilith-crown"
+        },
+        "reviewed": true,
+        "sid": "99cceacb-030a-4660-8ec3-af728f5e0d8c:noctilith-crown",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "INDIRECT FIRE",
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "b9dfaeec",
+        "kind": "ability",
+        "name": "Obliterators: Warp Rift Firepower",
+        "ref": {
+          "kind": "ability",
+          "unit": "obliterators"
+        },
+        "reviewed": true,
+        "sid": "a9350d9a-923d-4d07-ba22-0c08d8635717:obliterators",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "once per battle, on a Dark Pact",
+              "ru": "раз за битву, при Dark Pact"
+            }
+          }
+        ],
+        "hash": "7560dd98",
+        "kind": "ability",
+        "name": "Possessed: Unholy Bloodshed",
+        "ref": {
+          "kind": "ability",
+          "unit": "possessed"
+        },
+        "reviewed": true,
+        "sid": "62fc1854-beb9-4a11-a8bb-d14939a8d3bf:possessed",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "after destroying an enemy unit, while not Battle-shocked",
+              "ru": "после уничтожения вражеского юнита, пока не Battle-shocked"
+            }
+          }
+        ],
+        "hash": "e876c282",
+        "kind": "ability",
+        "name": "Red Corsairs Raiders: Trophy Takers",
+        "ref": {
+          "kind": "ability",
+          "unit": "red-corsairs-raiders"
+        },
+        "reviewed": true,
+        "sid": "35a42e60-ee3e-4e40-a4e5-b3d3aeefe3e3:red-corsairs-raiders",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "until the end of the turn it ended a Charge move",
+              "ru": "до конца хода, в котором завершил Charge"
+            }
+          },
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "until the end of the turn it ended a Charge move",
+              "ru": "до конца хода, в котором завершил Charge"
+            }
+          }
+        ],
+        "hash": "1b4fdaf6",
+        "kind": "ability",
+        "name": "Red Corsairs Reave-Captain: Brutal Raider",
+        "ref": {
+          "kind": "ability",
+          "unit": "red-corsairs-reave-captain"
+        },
+        "reviewed": true,
+        "sid": "5af5e8b0-c662-4e8d-b69e-a57b48d46f49:red-corsairs-reave-captain",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "6903aaca",
+        "kind": "ability",
+        "name": "Renegade Plague Ogryns: Wall of Muscle",
+        "note": "Read as Bullgryn Squad: Wall of Muscle (astra-militarum), the same text.",
+        "ref": {
+          "kind": "ability",
+          "unit": "renegade-plague-ogryns"
+        },
+        "reviewed": true,
+        "sid": "pack:renegade-plague-ogryns:wall-of-muscle",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Feel No Pain 4+ (vs Psychic Attacks)",
+            "when": null
+          }
+        ],
+        "hash": "d4f151a2",
+        "kind": "ability",
+        "name": "Rogue Psyker: Cursed Wardings (Psychic)",
+        "note": "Read as Primaris Psyker: Malign Wardings (astra-militarum), the same text.",
+        "ref": {
+          "kind": "ability",
+          "unit": "rogue-psyker"
+        },
+        "reviewed": true,
+        "sid": "pack:rogue-psyker:cursed-wardings-psychic",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "on a 2+ at the start of your opponent's Shooting phase",
+              "ru": "на 2+ в начале фазы стрельбы оппонента"
+            }
+          }
+        ],
+        "hash": "d3dc334a",
+        "kind": "ability",
+        "name": "Rogue Psyker: Psychic Barrier (Psychic)",
+        "ref": {
+          "kind": "ability",
+          "unit": "rogue-psyker"
+        },
+        "reviewed": true,
+        "sid": "pack:rogue-psyker:psychic-barrier-psychic",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "1bfaa601",
+        "kind": "ability",
+        "name": "Sorcerer in Terminator Armour: Death Hex",
+        "ref": {
+          "kind": "ability",
+          "unit": "sorcerer-in-terminator-armour"
+        },
+        "reviewed": true,
+        "sid": "76261740-3578-4653-a8c7-d912c9fa7d47:sorcerer-in-terminator-armour",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": {
+              "en": "while this model is leading a unit",
+              "ru": "пока модель возглавляет отряд"
+            }
+          },
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": -1,
+            "when": {
+              "en": "while this model is leading a unit",
+              "ru": "пока модель возглавляет отряд"
+            }
+          }
+        ],
+        "hash": "311b9302",
+        "kind": "ability",
+        "name": "Sorcerer on Bike: Prescience (Psychic)",
+        "ref": {
+          "kind": "ability",
+          "unit": "sorcerer-on-bike"
+        },
+        "reviewed": true,
+        "sid": "pack:sorcerer-on-bike:prescience-psychic",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-dark-pact-invoked"
+            ],
+            "on": "weapon",
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "for the phase, after its unit makes a Dark Pact",
+              "ru": "на фазу, после того как его отряд заключил Dark Pact"
+            }
+          }
+        ],
+        "hash": "3355e9f6",
+        "kind": "ability",
+        "name": "Sorcerer on Bike: Unholy Power",
+        "ref": {
+          "kind": "ability",
+          "unit": "sorcerer-on-bike"
+        },
+        "reviewed": true,
+        "sid": "pack:sorcerer-on-bike:unholy-power",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "IGNORES COVER",
+            "when": null
+          }
+        ],
+        "hash": "ef111d18",
+        "kind": "ability",
+        "name": "Sorcerer on Disc of Tzeentch: Flames of Change (Psychic)",
+        "ref": {
+          "kind": "ability",
+          "unit": "sorcerer-on-disc-of-tzeentch"
+        },
+        "reviewed": true,
+        "sid": "pack:sorcerer-on-disc-of-tzeentch:flames-of-change-psychic",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "34bcfbd0",
+        "kind": "ability",
+        "name": "Sorcerer on Palanquin of Nurgle: Gift of Poxes (Psychic)",
+        "ref": {
+          "kind": "ability",
+          "unit": "sorcerer-on-palanquin-of-nurgle"
+        },
+        "reviewed": true,
+        "sid": "pack:sorcerer-on-palanquin-of-nurgle:gift-of-poxes-psychic",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "unit",
+            "value": "4+",
+            "when": null
+          }
+        ],
+        "hash": "58585162",
+        "kind": "ability",
+        "name": "Sorcerer on Steed of Slaanesh: Dark Favour (Psychic)",
+        "note": "Read as Epidemius: Blessed by the Plague God (chaos-daemons), the same text.",
+        "ref": {
+          "kind": "ability",
+          "unit": "sorcerer-on-steed-of-slaanesh"
+        },
+        "reviewed": true,
+        "sid": "pack:sorcerer-on-steed-of-slaanesh:dark-favour-psychic",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "m",
+            "target": "unit",
+            "value": "14\"",
+            "when": null
+          }
+        ],
+        "hash": "9367c498",
+        "kind": "ability",
+        "name": "Sorcerer on Steed of Slaanesh: Infernal Speed",
+        "ref": {
+          "kind": "ability",
+          "unit": "sorcerer-on-steed-of-slaanesh"
+        },
+        "reviewed": true,
+        "sid": "pack:sorcerer-on-steed-of-slaanesh:infernal-speed",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": {
+              "en": "while this model is leading a unit",
+              "ru": "пока модель возглавляет отряд"
+            }
+          },
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": -1,
+            "when": {
+              "en": "while this model is leading a unit",
+              "ru": "пока модель возглавляет отряд"
+            }
+          }
+        ],
+        "hash": "311b9302",
+        "kind": "ability",
+        "name": "Sorcerer: Prescience",
+        "ref": {
+          "kind": "ability",
+          "unit": "sorcerer"
+        },
+        "reviewed": true,
+        "sid": "3b80480f-15cb-4bdc-bcf4-02f9568a8fc0:sorcerer",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+",
+            "when": {
+              "en": "CHARACTER models only, while the unit contains a Traitor Ogryn model",
+              "ru": "только модели CHARACTER, пока в отряде есть модель Traitor Ogryn"
+            }
+          }
+        ],
+        "hash": "0f2a72fb",
+        "kind": "ability",
+        "name": "Traitor Enforcer: Mutated Bodyguard",
+        "ref": {
+          "kind": "ability",
+          "unit": "traitor-enforcer"
+        },
+        "reviewed": true,
+        "sid": "3ae2b3c4-81d6-4a30-a9ed-1ad9526ead12:traitor-enforcer",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "improve",
+            "stat": "sv",
+            "value": 1,
+            "when": {
+              "en": "against ranged attacks, while within range of an objective",
+              "ru": "против стрелковых атак, пока отряд в зоне объекта"
+            }
+          }
+        ],
+        "hash": "7331c5ce",
+        "kind": "ability",
+        "name": "Traitor Guardsmen Squad: Twisted Defence Force",
+        "ref": {
+          "kind": "ability",
+          "unit": "traitor-guardsmen-squad"
+        },
+        "reviewed": true,
+        "sid": "0d24cda7-bdcb-40f4-9834-1658b6928e06:traitor-guardsmen-squad",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of a friendly DAEMON VEHICLE unit",
+              "ru": "пока в пределах 3\" от дружественного отряда DAEMON VEHICLE"
+            }
+          }
+        ],
+        "hash": "0425934e",
+        "kind": "ability",
+        "name": "Vashtorr the Arkifane: Indentured Daemon Engines",
+        "ref": {
+          "kind": "ability",
+          "unit": "vashtorr-the-arkifane"
+        },
+        "reviewed": true,
+        "sid": "8078cf2e-7725-43ca-ab8e-8ca17fcdfcae:vashtorr-the-arkifane",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": {
+              "en": "against an enemy unit within 18\" of this model",
+              "ru": "против вражеского отряда в пределах 18\" от модели"
+            }
+          }
+        ],
+        "hash": "534d3d42",
+        "kind": "ability",
+        "name": "Vashtorr the Arkifane: Reorder Reality",
+        "ref": {
+          "kind": "ability",
+          "unit": "vashtorr-the-arkifane"
+        },
+        "reviewed": true,
+        "sid": "75f0b9f2-fe46-4f7a-a0ab-2742ef5ac288:vashtorr-the-arkifane",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "s",
+            "target": "aura",
+            "value": 2,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "target": "aura",
+            "value": 2,
+            "when": null
+          }
+        ],
+        "hash": "9a98f6d5",
+        "kind": "ability",
+        "name": "Vashtorr the Arkifane: Unholy Mechanisms",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "DAEMON VEHICLE"
+              ]
+            }
+          ],
+          "unit": "vashtorr-the-arkifane"
+        },
+        "reviewed": true,
+        "sid": "d84a3253-a1a3-4e20-988c-60f251f86f38:vashtorr-the-arkifane",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "soul-eater-fed"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "for the rest of the battle, once its attacks destroyed a unit in the Fight phase",
+              "ru": "до конца битвы, если его атаки уничтожили юнит в фазе боя"
+            }
+          }
+        ],
+        "hash": "57cf1b8c",
+        "kind": "ability",
+        "name": "Venomcrawler: Soul Eater",
+        "ref": {
+          "kind": "ability",
+          "unit": "venomcrawler"
+        },
+        "reviewed": true,
+        "sid": "3e9f3310-0131-40ae-a411-377a4aa6d0c6:venomcrawler",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "selected": true,
+            "stat": "hit",
+            "target": "aura",
+            "value": 1,
+            "when": {
+              "en": "the VEHICLE model selected in your Command phase, until your next one",
+              "ru": "модель VEHICLE, выбранная в вашу Command phase, до следующей"
+            }
+          }
+        ],
+        "hash": "4fb849da",
+        "kind": "ability",
+        "name": "Warpsmith: Master of Mechanisms",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [
+                "HERETIC ASTARTES VEHICLE"
+              ],
+              "targets": [
+                "HERETIC ASTARTES VEHICLE"
+              ]
+            }
+          ],
+          "unit": "warpsmith"
+        },
+        "reviewed": true,
+        "sid": "4a94c0cf-bfaa-4ed1-8a2d-6225e3536003:warpsmith",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of a friendly HERETIC ASTARTES VEHICLE unit",
+              "ru": "пока в пределах 3\" от дружественного отряда HERETIC ASTARTES VEHICLE"
+            }
+          }
+        ],
+        "hash": "e468c98d",
+        "kind": "ability",
+        "name": "Warpsmith: Warpsmith",
+        "ref": {
+          "kind": "ability",
+          "unit": "warpsmith"
+        },
+        "reviewed": true,
+        "sid": "0dbcd892-d932-499e-af4a-80fc6004bc52:warpsmith",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "once per battle, on a Dark Pact",
+              "ru": "раз за битву, при Dark Pact"
+            }
+          }
+        ],
+        "hash": "df7ce16a",
+        "kind": "ability",
+        "name": "Zarkan's Daemonkin Possessed: Unholy Bloodshed",
+        "ref": {
+          "kind": "ability",
+          "unit": "zarkans-daemonkin-possessed"
+        },
+        "reviewed": true,
+        "sid": "760cb5a0-d9f6-468c-851e-1e2930ab667b:zarkans-daemonkin-possessed",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 2,
+            "when": null
+          }
+        ],
+        "hash": "dd8b43ed",
+        "kind": "allegiance",
+        "name": "Daemonic Allegiance: Khorne",
+        "note": "every melee row on these datasheets IS the hellforged weapons (strike and sweep), so the +2 S applies to the whole table",
+        "ref": {
+          "g": "daemonic-allegiance",
+          "gid": "4957a102",
+          "kind": "allegiance",
+          "opt": "Khorne"
+        },
+        "reviewed": true,
+        "sid": "55eb487b-db92-4465-9c80-2a2604b8982f",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "2aca0f8e",
+        "kind": "allegiance",
+        "name": "Daemonic Allegiance: Nurgle",
+        "ref": {
+          "g": "daemonic-allegiance",
+          "gid": "4957a102",
+          "kind": "allegiance",
+          "opt": "Nurgle"
+        },
+        "reviewed": true,
+        "sid": "aec87847-8acd-461c-be6b-f47d78672d9c",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 2,
+            "when": null
+          }
+        ],
+        "hash": "4b7e0e58",
+        "kind": "allegiance",
+        "name": "Daemonic Allegiance: Slaanesh",
+        "ref": {
+          "g": "daemonic-allegiance",
+          "gid": "4957a102",
+          "kind": "allegiance",
+          "opt": "Slaanesh"
+        },
+        "reviewed": true,
+        "sid": "4d7d8292-64d6-4b3d-8c9e-24d639247b8b",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "a",
+            "value": 3,
+            "when": null
+          }
+        ],
+        "hash": "a6cb4ed4",
+        "kind": "allegiance",
+        "name": "Daemonic Allegiance: Tzeentch",
+        "note": "the infernal cannon is the only ranged row on these datasheets",
+        "ref": {
+          "g": "daemonic-allegiance",
+          "gid": "4957a102",
+          "kind": "allegiance",
+          "opt": "Tzeentch"
+        },
+        "reviewed": true,
+        "sid": "270fa7e3-a995-4372-99cb-1907dc6b2fcc",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "11844148",
+        "kind": "allegiance",
+        "name": "Mark of Chaos: Chaos Undivided",
+        "ref": {
+          "g": "mark-of-chaos",
+          "gid": "c890819b",
+          "kind": "allegiance",
+          "opt": "Chaos Undivided"
+        },
+        "reviewed": true,
+        "sid": "ef79c733-32e7-42e2-9e0b-6289b0006a6d",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "11844148",
+        "kind": "allegiance",
+        "name": "Mark of Chaos: Chaos Undivided",
+        "ref": {
+          "g": "mark-of-chaos",
+          "gid": "7aa26722",
+          "kind": "allegiance",
+          "opt": "Chaos Undivided"
+        },
+        "reviewed": true,
+        "sid": "7bf20970-b53d-463f-b837-72e7ac4ca2d2",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "e2d05110",
+        "kind": "allegiance",
+        "name": "Mark of Chaos: Khorne",
+        "ref": {
+          "g": "mark-of-chaos",
+          "gid": "c890819b",
+          "kind": "allegiance",
+          "opt": "Khorne"
+        },
+        "reviewed": true,
+        "sid": "0b2d5509-3965-4c7c-93cd-f390d394156f",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "1da9ffed",
+        "kind": "allegiance",
+        "name": "Mark of Chaos: Nurgle",
+        "ref": {
+          "g": "mark-of-chaos",
+          "gid": "c890819b",
+          "kind": "allegiance",
+          "opt": "Nurgle"
+        },
+        "reviewed": true,
+        "sid": "cd0646c6-ccd9-482d-9462-1e6b47f035b3",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "1da9ffed",
+        "kind": "allegiance",
+        "name": "Mark of Chaos: Nurgle",
+        "ref": {
+          "g": "mark-of-chaos",
+          "gid": "7aa26722",
+          "kind": "allegiance",
+          "opt": "Nurgle"
+        },
+        "reviewed": true,
+        "sid": "f6656d45-3b6c-4eea-8f80-b0236ae78ef9",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "0439badd",
+        "kind": "allegiance",
+        "name": "Mark of Chaos: Slaanesh",
+        "ref": {
+          "g": "mark-of-chaos",
+          "gid": "c890819b",
+          "kind": "allegiance",
+          "opt": "Slaanesh"
+        },
+        "reviewed": true,
+        "sid": "aec1fd9f-49d7-43b2-87a2-2ee70b0bc3ed",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "b3fb173f",
+        "kind": "allegiance",
+        "name": "Mark of Chaos: Slaanesh",
+        "ref": {
+          "g": "mark-of-chaos",
+          "gid": "7aa26722",
+          "kind": "allegiance",
+          "opt": "Slaanesh"
+        },
+        "reviewed": true,
+        "sid": "1a33c3f1-da1d-48cb-8de4-2cea16f5f015",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "748f330d",
+        "kind": "allegiance",
+        "name": "Mark of Chaos: Tzeentch",
+        "ref": {
+          "g": "mark-of-chaos",
+          "gid": "c890819b",
+          "kind": "allegiance",
+          "opt": "Tzeentch"
+        },
+        "reviewed": true,
+        "sid": "8dc87b76-961a-4180-a2a2-d7c9fc41199e",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "748f330d",
+        "kind": "allegiance",
+        "name": "Mark of Chaos: Tzeentch",
+        "ref": {
+          "g": "mark-of-chaos",
+          "gid": "7aa26722",
+          "kind": "allegiance",
+          "opt": "Tzeentch"
+        },
+        "reviewed": true,
+        "sid": "61bee31b-bf5a-4ad9-b67d-0c3cc4fff8be",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "pact-lethal"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while this is the ability the unit made its Dark Pact for",
+              "ru": "пока это способность, взятая отрядом по Dark Pact"
+            }
+          },
+          {
+            "cond": [
+              "pact-sustained"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while this is the ability the unit made its Dark Pact for",
+              "ru": "пока это способность, взятая отрядом по Dark Pact"
+            }
+          }
+        ],
+        "hash": "28ea3658",
+        "kind": "armyRule",
+        "name": "Dark Pacts",
+        "ref": {
+          "kind": "armyRule"
+        },
+        "reviewed": true,
+        "sid": "2a48b48d-4c98-479f-be11-754b83d5a47d",
+        "ver": 925
+      },
+      {
+        "det": "Cabal of Chaos",
+        "effects": [
+          {
+            "cond": [
+              "phase-shooting",
+              "unit-dark-pact-invoked"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "scope": 0,
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "in your Shooting phase, if that unit makes a Dark Pact",
+              "ru": "в вашей фазе стрельбы, если отряд заключил Dark Pact"
+            }
+          },
+          {
+            "cond": [
+              "phase-fight",
+              "unit-dark-pact-invoked"
+            ],
+            "on": "melee",
+            "op": "add",
+            "scope": 1,
+            "stat": "s",
+            "value": 2,
+            "when": {
+              "en": "in the Fight phase, if that unit makes a Dark Pact",
+              "ru": "в фазе боя, если отряд заключил Dark Pact"
+            }
+          },
+          {
+            "cond": [
+              "phase-fight",
+              "unit-dark-pact-invoked"
+            ],
+            "on": "melee",
+            "op": "add",
+            "scope": 1,
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "in the Fight phase, if that unit makes a Dark Pact",
+              "ru": "в фазе боя, если отряд заключил Dark Pact"
+            }
+          }
+        ],
+        "hash": "7f946683",
+        "kind": "detachmentRule",
+        "name": "Empyric Wellspring",
+        "ref": {
+          "det": "cabal-of-chaos",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "94c913b5-2ba2-423b-bc8e-c1e05512044c",
+        "ver": 925
+      },
+      {
+        "det": "Chaos Cult",
+        "effects": [
+          {
+            "cond": [
+              "unit-desperate-pact"
+            ],
+            "on": "profile",
+            "op": "add",
+            "scope": 0,
+            "stat": "m",
+            "value": 2,
+            "when": {
+              "en": "Damned units, for the phase, after making a Desperate Pact",
+              "ru": "отряды Damned, на фазу, после заключения Desperate Pact"
+            }
+          }
+        ],
+        "hash": "d2f86844",
+        "kind": "detachmentRule",
+        "name": "Desperate Devotion",
+        "ref": {
+          "det": "chaos-cult",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "cf85e0a8-77ed-4e68-b5a4-a6b757aad177",
+        "ver": 925
+      },
+      {
+        "det": "Creations of Bile",
+        "effects": [
+          {
+            "cond": [
+              "augment-cholinergic-accelerants"
+            ],
+            "on": "melee",
+            "op": "add",
+            "scope": 0,
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "Heretic Astartes Infantry, if the Cholinergic Accelerants augmentation is active",
+              "ru": "пехота Heretic Astartes, если активна аугментация Cholinergic Accelerants"
+            }
+          },
+          {
+            "cond": [
+              "augment-hyperadrenal-infusion"
+            ],
+            "on": "profile",
+            "op": "add",
+            "scope": 0,
+            "stat": "m",
+            "value": 2,
+            "when": {
+              "en": "Heretic Astartes Infantry, if the Hyperadrenal Infusion augmentation is active",
+              "ru": "пехота Heretic Astartes, если активна аугментация Hyperadrenal Infusion"
+            }
+          },
+          {
+            "cond": [
+              "augment-paraneural-reactions"
+            ],
+            "on": "melee",
+            "op": "improve",
+            "scope": 0,
+            "stat": "ws",
+            "value": 1,
+            "when": {
+              "en": "Heretic Astartes Infantry, if the Paraneural Reactions augmentation is active",
+              "ru": "пехота Heretic Astartes, если активна аугментация Paraneural Reactions"
+            }
+          },
+          {
+            "cond": [
+              "augment-supracutaneous-chitination"
+            ],
+            "on": "profile",
+            "op": "add",
+            "scope": 0,
+            "stat": "t",
+            "value": 1,
+            "when": {
+              "en": "Heretic Astartes Infantry, if the Supracutaneous Chitination augmentation is active",
+              "ru": "пехота Heretic Astartes, если активна аугментация Supracutaneous Chitination"
+            }
+          },
+          {
+            "cond": [
+              "augment-macrotensile-sinews"
+            ],
+            "on": "melee",
+            "op": "add",
+            "scope": 0,
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "Heretic Astartes Infantry, if the Macrotensile Sinews augmentation is active",
+              "ru": "пехота Heretic Astartes, если активна аугментация Macrotensile Sinews"
+            }
+          },
+          {
+            "cond": [
+              "augment-ophthalmic-enhancement"
+            ],
+            "on": "ranged",
+            "op": "improve",
+            "scope": 0,
+            "stat": "bs",
+            "value": 1,
+            "when": {
+              "en": "Heretic Astartes Infantry, if the Ophthalmic Enhancement augmentation is active",
+              "ru": "пехота Heretic Astartes, если активна аугментация Ophthalmic Enhancement"
+            }
+          }
+        ],
+        "hash": "f61816fc",
+        "kind": "detachmentRule",
+        "name": "Experimental Augmentations",
+        "ref": {
+          "det": "creations-of-bile",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "39d94781-feca-4238-9ef5-be6536baff52",
+        "ver": 925
+      },
+      {
+        "det": "Cult of the Arkifane",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "scope": 2,
+            "stat": "inv",
+            "value": "5+",
+            "when": null
+          }
+        ],
+        "hash": "abd2f746",
+        "kind": "detachmentRule",
+        "name": "Soul Forge Boons",
+        "ref": {
+          "det": "cult-of-the-arkifane",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "3eec525c-0bc1-4c11-a6f8-efce97bf6c3d",
+        "ver": 925
+      },
+      {
+        "det": "Deceptors",
+        "effects": [],
+        "hash": "fa30cdfe",
+        "kind": "detachmentRule",
+        "name": "Masters of Misdirection",
+        "ref": {
+          "det": "deceptors",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "5b2a4659-4811-4b0a-8b4f-eb57b6008469",
+        "ver": 925
+      },
+      {
+        "det": "Devotees of Destruction",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "HEAVY",
+            "when": null
+          }
+        ],
+        "hash": "c5bd1198",
+        "kind": "detachmentRule",
+        "name": "Rain of Ruin",
+        "ref": {
+          "det": "devotees-of-destruction",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "5fc0cd69-c9d0-4613-a01a-491e55bf56c0",
+        "ver": 925
+      },
+      {
+        "det": "Fellhammer Siege-host",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "ranged-s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "ab9d17ba",
+        "kind": "detachmentRule",
+        "name": "Iron Fortitude",
+        "ref": {
+          "det": "fellhammer-siege-host",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "40869151-c6d5-44d2-b3dd-859fe3168974",
+        "ver": 995
+      },
+      {
+        "det": "Huron’s Marauders",
+        "effects": [
+          {
+            "cond": [
+              "motivation-hurons-elite"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "while Huron’s Elite is the ability picked in your Command phase",
+              "ru": "пока в вашей фазе командования выбрана Huron’s Elite"
+            }
+          },
+          {
+            "cond": [
+              "motivation-mobile-marauders"
+            ],
+            "op": "state",
+            "when": {
+              "en": "the ability picked in your Command phase — both while the unit is visible to Huron Blackheart",
+              "ru": "способность, выбранная в вашей фазе командования; обе — пока отряд видит Huron Blackheart"
+            }
+          }
+        ],
+        "hash": "816d7350",
+        "kind": "detachmentRule",
+        "name": "Tyrannical Motivation",
+        "ref": {
+          "det": "hurons-marauders",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "1dacaf8f-9649-4bca-b267-e84aa6301dfb",
+        "ver": 925
+      },
+      {
+        "det": "Murdertalon Raiders",
+        "effects": [],
+        "hash": "196162de",
+        "kind": "detachmentRule",
+        "name": "Prey on the Weak",
+        "ref": {
+          "det": "murdertalon-raiders",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "99c64527-965d-47ff-8498-1050fa91925d",
+        "ver": 995
+      },
+      {
+        "det": "Nightmare Hunt",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a unit that is Below Half-strength",
+              "ru": "по отряду, который Below Half-strength"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against a Battle-shocked unit",
+              "ru": "по Battle-shocked отряду"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": {
+              "en": "against an attacking model that is Battle-shocked",
+              "ru": "против атакующей модели в состоянии Battle-shocked"
+            }
+          }
+        ],
+        "hash": "bcd56076",
+        "kind": "detachmentRule",
+        "name": "Terror Made Manifest",
+        "ref": {
+          "det": "nightmare-hunt",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "2d05fb7e-ff32-49ee-87f8-8276bc8705e2",
+        "ver": 925
+      },
+      {
+        "det": "Renegade Raiders",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "per attack against a unit within range of an objective marker",
+              "ru": "за атаку по отряду в радиусе маркера цели"
+            }
+          },
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": null
+          }
+        ],
+        "hash": "326bb479",
+        "kind": "detachmentRule",
+        "name": "Raiders and Reavers",
+        "ref": {
+          "det": "renegade-raiders",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "fc17c30d-c505-438f-80b0-32fc2cb45792",
+        "ver": 925
+      },
+      {
+        "det": "Renegade Warband",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": null
+          },
+          {
+            "cond": [
+              "twisted-doctrine-fell-back"
+            ],
+            "op": "state",
+            "when": {
+              "en": "Defaulted to Doctrine this Movement phase, until the end of the turn",
+              "ru": "Default to Doctrine в эту фазу движения, до конца хода"
+            }
+          },
+          {
+            "cond": [
+              "twisted-doctrine-advanced"
+            ],
+            "op": "state",
+            "when": {
+              "en": "Defaulted to Doctrine this Movement phase, until the end of the turn",
+              "ru": "Default to Doctrine в эту фазу движения, до конца хода"
+            }
+          }
+        ],
+        "hash": "d0e83155",
+        "kind": "detachmentRule",
+        "name": "Slaves to None",
+        "ref": {
+          "det": "renegade-warband",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "be2d456a-583e-430f-b6aa-6f3da4f250e5",
+        "ver": 925
+      },
+      {
+        "det": "Soulforged Warpack",
+        "effects": [
+          {
+            "cond": [
+              "unit-dark-pact-invoked"
+            ],
+            "on": "melee",
+            "op": "add",
+            "scope": 0,
+            "stat": "a",
+            "value": 2,
+            "when": {
+              "en": "Daemon Vehicle units, for the phase, after invoking their contract on a Dark Pact",
+              "ru": "отряды Daemon Vehicle, на фазу, после призыва контракта при Dark Pact"
+            }
+          },
+          {
+            "cond": [
+              "unit-dark-pact-invoked"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "scope": 0,
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "DAEMON VEHICLE units, for the phase, after invoking the contract with a Dark Pact",
+              "ru": "отряды DAEMON VEHICLE, на фазу, после призыва контракта при Dark Pact"
+            }
+          }
+        ],
+        "hash": "61196a22",
+        "kind": "detachmentRule",
+        "name": "Debt to the Soul Forge",
+        "ref": {
+          "det": "soulforged-warpack",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "180d0072-f72a-4976-bd90-a6531c9cd609",
+        "ver": 925
+      },
+      {
+        "det": "Zarkan’s Daemonkin",
+        "effects": [],
+        "hash": "f4d79faa",
+        "kind": "detachmentRule",
+        "name": "Abject Fear",
+        "ref": {
+          "det": "cp:chaos-space-marines",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "05ef298c-13c6-465c-986d-265e4d9a1be1",
+        "ver": 925
+      },
+      {
+        "det": "Cabal of Chaos",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LANCE",
+            "when": null
+          }
+        ],
+        "hash": "e227d712",
+        "kind": "enhancement",
+        "name": "Conduit of Chaos",
+        "ref": {
+          "det": "cabal-of-chaos",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "d5097c0b-09a5-4a90-821f-58d20bf7f336",
+        "ver": 925
+      },
+      {
+        "det": "Cabal of Chaos",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "scope": 0,
+            "stat": "keyword",
+            "value": "Psyker",
+            "when": null
+          },
+          {
+            "on": "weapon",
+            "op": "grant",
+            "scope": 1,
+            "stat": "ability",
+            "value": "PSYCHIC",
+            "when": null
+          }
+        ],
+        "hash": "0f71b1f4",
+        "kind": "enhancement",
+        "name": "Touched by the Warp",
+        "ref": {
+          "det": "cabal-of-chaos",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "91ff4c53-0812-4603-b6ac-8c82eb9a44cb",
+        "ver": 925
+      },
+      {
+        "det": "Chaos Cult",
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "Damned models, while the bearer's unit is below its Starting Strength",
+              "ru": "модели Damned, пока отряд носителя ниже начальной численности"
+            }
+          },
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "Damned models, while that unit is Below Half-strength",
+              "ru": "модели Damned, пока отряд ниже половины численности"
+            }
+          }
+        ],
+        "hash": "fb8f7297",
+        "kind": "enhancement",
+        "name": "Incendiary Goad",
+        "ref": {
+          "det": "chaos-cult",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "f8585ef9-bd3d-4536-99b2-d02ab20921da",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading-scouts"
+        ],
+        "det": "Chaos Cult",
+        "effects": [
+          {
+            "cond": [
+              "unit-leading-scouts"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Scouts 6\"",
+            "when": {
+              "en": "while the bearer is leading a unit that already has the Scouts 6\" ability",
+              "ru": "пока носитель ведёт отряд, у которого уже есть Scouts 6\""
+            }
+          }
+        ],
+        "hash": "e794e390",
+        "kind": "enhancement",
+        "name": "Warped Foresight",
+        "ref": {
+          "det": "chaos-cult",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "f3f59b36-f262-4dec-9a7a-9df55f658f00",
+        "ver": 925
+      },
+      {
+        "det": "Creations of Bile",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+",
+            "when": null
+          }
+        ],
+        "hash": "b3a94220",
+        "kind": "enhancement",
+        "name": "Living Carapace",
+        "ref": {
+          "det": "creations-of-bile",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "b75b9a64-a5bb-4f4d-8f77-1661f71300ab",
+        "ver": 925
+      },
+      {
+        "det": "Creations of Bile",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "10576f70",
+        "kind": "enhancement",
+        "name": "Prime Test Subject",
+        "ref": {
+          "det": "creations-of-bile",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "8d4d1353-1300-47e2-85eb-80baa8e149df",
+        "ver": 925
+      },
+      {
+        "det": "Creations of Bile",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": null
+          }
+        ],
+        "hash": "b20b3a0a",
+        "kind": "enhancement",
+        "name": "Surgical Precision",
+        "ref": {
+          "det": "creations-of-bile",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "a75445ba-2c59-4eeb-a687-6239357ea9cb",
+        "ver": 925
+      },
+      {
+        "det": "Cult of the Arkifane",
+        "effects": [],
+        "hash": "d3937f61",
+        "kind": "enhancement",
+        "name": "Crown of Worms",
+        "note": "extends the range of three ABILITIES, not of a weapon — no row on the card carries it",
+        "ref": {
+          "det": "cult-of-the-arkifane",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "cbe268b4-d3fc-4235-9e0f-9186b25e74d4",
+        "ver": 925
+      },
+      {
+        "det": "Cult of the Arkifane",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "target": "led",
+            "value": "Soul Forge",
+            "when": null
+          }
+        ],
+        "hash": "d4d18f7d",
+        "kind": "enhancement",
+        "name": "Cybinfernal Font",
+        "ref": {
+          "det": "cult-of-the-arkifane",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "f3bde6ed-505b-419d-8db9-5c8d9c4d0bff",
+        "ver": 925
+      },
+      {
+        "det": "Deceptors",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": null
+          }
+        ],
+        "hash": "79e14e04",
+        "kind": "enhancement",
+        "name": "Cursed Fang",
+        "ref": {
+          "det": "deceptors",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "eb2472a2-ce74-4e93-be22-a5e84d02fe04",
+        "ver": 925
+      },
+      {
+        "det": "Deceptors",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Stealth",
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": null
+          }
+        ],
+        "hash": "dbd03362",
+        "kind": "enhancement",
+        "name": "Shroud of Obfuscation",
+        "ref": {
+          "det": "deceptors",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "4619045f-80b0-4a61-9859-e808b38c2e34",
+        "ver": 925
+      },
+      {
+        "det": "Deceptors",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Psyker",
+            "when": {
+              "en": "while a Character is selected for it in your Command phase",
+              "ru": "пока в вашей фазе командования для него выбран персонаж"
+            }
+          }
+        ],
+        "hash": "3241761a",
+        "kind": "enhancement",
+        "name": "Soul Link",
+        "ref": {
+          "det": "deceptors",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "f7646e99-5ac1-483b-92e1-0ff76c88546d",
+        "ver": 925
+      },
+      {
+        "det": "Dread Talons",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "ac4b615c",
+        "kind": "enhancement",
+        "name": "Night’s Shroud",
+        "ref": {
+          "det": "dread-talons",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "d239ad4c-30b9-4d7d-803d-bfa976b2c2d2",
+        "ver": 925
+      },
+      {
+        "det": "Fellhammer Siege-host",
+        "effects": [],
+        "hash": "dc1cfdeb",
+        "kind": "enhancement",
+        "name": "Bastion Plate",
+        "ref": {
+          "det": "fellhammer-siege-host",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "449203c0-c0cf-44e3-8cc3-7ed306483ef7",
+        "ver": 925
+      },
+      {
+        "det": "Fellhammer Siege-host",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-VEHICLE 4+",
+            "when": null
+          },
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-FORTIFICATION 4+",
+            "when": null
+          }
+        ],
+        "hash": "1fb315ad",
+        "kind": "enhancement",
+        "name": "Iron Artifice",
+        "ref": {
+          "det": "fellhammer-siege-host",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "b76d0a7a-fc2f-4f5e-a569-ead3c9e8af46",
+        "ver": 925
+      },
+      {
+        "det": "Fellhammer Siege-host",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "while the bearer is within range of an objective marker",
+              "ru": "пока носитель в радиусе маркера цели"
+            }
+          }
+        ],
+        "hash": "067736ce",
+        "kind": "enhancement",
+        "name": "Ironbound Enmity",
+        "ref": {
+          "det": "fellhammer-siege-host",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "21b97ac4-0081-470d-910f-2e7c4d54b4a7",
+        "ver": 925
+      },
+      {
+        "det": "Huron’s Marauders",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Infiltrators",
+            "when": null
+          }
+        ],
+        "hash": "befd5d37",
+        "kind": "enhancement",
+        "name": "Eager for Bloodshed",
+        "ref": {
+          "det": "hurons-marauders",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "09c85dbd-492c-4df7-b190-e122e8d8c512",
+        "ver": 925
+      },
+      {
+        "det": "Murdertalon Raiders",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "DAEMON",
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "7e694e61",
+        "kind": "enhancement",
+        "name": "Pact of Cursed Pinions",
+        "ref": {
+          "det": "murdertalon-raiders",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "fb3a3dfd-c4f0-4908-b0b4-ddc1da594d6a",
+        "ver": 925
+      },
+      {
+        "det": "Murdertalon Raiders",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "led",
+            "value": "5+",
+            "when": null
+          }
+        ],
+        "hash": "502d3a63",
+        "kind": "enhancement",
+        "name": "Shadowcowl Talisman",
+        "ref": {
+          "det": "murdertalon-raiders",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "66eae82a-c460-42b5-9d4e-8f3be77fae03",
+        "ver": 995
+      },
+      {
+        "det": "Nightmare Hunt",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "41bc55ad",
+        "kind": "enhancement",
+        "name": "Greyveil Hex",
+        "ref": {
+          "det": "nightmare-hunt",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "004d85d1-b422-420d-9f03-e78dae340e0f",
+        "ver": 925
+      },
+      {
+        "det": "Nightmare Hunt",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Scouts 6\"",
+            "when": null
+          }
+        ],
+        "hash": "64ef35fc",
+        "kind": "enhancement",
+        "name": "Sorrowscent Vulture",
+        "ref": {
+          "det": "nightmare-hunt",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "65980ad3-eae6-4374-9540-13e6becd6513",
+        "ver": 925
+      },
+      {
+        "det": "Pactbound Zealots",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+",
+            "when": null
+          }
+        ],
+        "hash": "d22a796c",
+        "kind": "enhancement",
+        "name": "Intoxicating Elixir",
+        "ref": {
+          "det": "pactbound-zealots",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "2d4f3432-7ff2-4796-8f71-0f7b5800a3a2",
+        "ver": 925
+      },
+      {
+        "det": "Pactbound Zealots",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": null
+          },
+          {
+            "alt": 0,
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": "D3",
+            "when": {
+              "en": "roll a D3 and add that to Attacks and Strength instead, after the unit makes a Dark Pact without failing the Leadership test",
+              "ru": "бросьте D3 и добавьте результат к атакам и силе вместо +1, после Dark Pact без провала теста лидерства"
+            }
+          }
+        ],
+        "hash": "b64d0ef0",
+        "kind": "enhancement",
+        "name": "Talisman of Burning Blood",
+        "ref": {
+          "det": "pactbound-zealots",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "fcd7d534-d0e1-4aad-9872-32329d49349d",
+        "ver": 925
+      },
+      {
+        "det": "Renegade Raiders",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Scouts 6\"",
+            "when": null
+          }
+        ],
+        "hash": "ddfc38d3",
+        "kind": "enhancement",
+        "name": "Mark of the Hound",
+        "ref": {
+          "det": "renegade-raiders",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "d8f3b863-f305-4a11-aa76-5f5770aa5baa",
+        "ver": 925
+      },
+      {
+        "det": "Renegade Warband",
+        "effects": [],
+        "hash": "aaf5301a",
+        "kind": "enhancement",
+        "name": "Empyric Symbiote",
+        "ref": {
+          "det": "renegade-warband",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "e6de1854-8e17-4bec-aa86-2a3c67c1fb36",
+        "ver": 925
+      },
+      {
+        "det": "Renegade Warband",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "IGNORES COVER",
+            "when": null
+          }
+        ],
+        "hash": "2eaa360d",
+        "kind": "enhancement",
+        "name": "Eyes of the Hunter",
+        "ref": {
+          "det": "renegade-warband",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "b633020e-f18a-4a29-b2a7-2de5fcb08c2c",
+        "ver": 925
+      },
+      {
+        "det": "Soulforged Warpack",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "selected": true,
+            "stat": "core",
+            "target": "aura",
+            "value": "Feel No Pain 6+",
+            "when": {
+              "en": "until your next Command phase, for the one friendly HERETIC ASTARTES VEHICLE unit within 12\" selected in your Command phase",
+              "ru": "до вашей следующей Command phase, для одного дружественного отряда HERETIC ASTARTES VEHICLE в пределах 12\", выбранного в вашу Command phase"
+            }
+          }
+        ],
+        "hash": "0061db28",
+        "kind": "enhancement",
+        "name": "Forge’s Blessing",
+        "ref": {
+          "det": "soulforged-warpack",
+          "kind": "enhancement",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "HERETIC ASTARTES VEHICLE"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "ba117705-e7a3-45a4-ace6-4cc32afb9d46",
+        "ver": 925
+      },
+      {
+        "det": "Soulforged Warpack",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 4,
+            "when": null
+          }
+        ],
+        "hash": "e676a300",
+        "kind": "enhancement",
+        "name": "Invigorated Mechatendrils",
+        "ref": {
+          "det": "soulforged-warpack",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "163a57f4-8b75-4ef4-b9db-bc8272981dd2",
+        "ver": 925
+      },
+      {
+        "det": "Soulforged Warpack",
+        "effects": [],
+        "hash": "d4be7be1",
+        "kind": "enhancement",
+        "name": "Tempting Addendum",
+        "ref": {
+          "det": "soulforged-warpack",
+          "kind": "enhancement",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "HERETIC ASTARTES DAEMON VEHICLE"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "93079aa9-a7c7-4192-85b8-5e2375c6f36f",
+        "ver": 925
+      },
+      {
+        "det": "Veterans of the Long War",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "against your focus of hatred, if the bearer’s unit Fell Back this turn",
+              "ru": "по focus of hatred, если отряд носителя отступил в этот ход"
+            }
+          }
+        ],
+        "hash": "6bb482b1",
+        "kind": "enhancement",
+        "name": "Eager for Vengeance",
+        "ref": {
+          "det": "veterans-of-the-long-war",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "be6c68b6-1a7c-43f4-a442-0f16d5c2567b",
+        "ver": 925
+      },
+      {
+        "det": "Warpstrike Champions",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": null
+          },
+          {
+            "cond": [
+              "unit-arrived-from-reserves"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": {
+              "en": "until the end of the turn the bearer's unit arrives from Reserves",
+              "ru": "до конца хода, в котором отряд носителя прибыл из резерва"
+            }
+          }
+        ],
+        "hash": "01b61388",
+        "kind": "enhancement",
+        "name": "Tzagulla",
+        "ref": {
+          "det": "warpstrike-champions",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "992754f1-6976-4e97-88ac-c42b83f54d8e",
+        "ver": 925
+      },
+      {
+        "det": "Zarkan’s Daemonkin",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "s",
+            "target": "led",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "6b4f2235",
+        "kind": "enhancement",
+        "name": "Infernal Infusion",
+        "ref": {
+          "det": "cp:chaos-space-marines",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "62d03b18-0075-4b52-8b53-fadbc253fadb",
+        "ver": 925
+      },
+      {
+        "det": "Zarkan’s Daemonkin",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Scouts 6\"",
+            "when": null
+          }
+        ],
+        "hash": "0e243106",
+        "kind": "enhancement",
+        "name": "Prey on the Weak",
+        "ref": {
+          "det": "cp:chaos-space-marines",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "a917fba0-b0a2-4103-a2a9-647ee9bf7467",
+        "ver": 925
+      },
+      {
+        "det": "Cabal of Chaos",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "5938c3ef",
+        "kind": "stratagem",
+        "name": "Wreathed in Warpflame",
+        "ref": {
+          "det": "cabal-of-chaos",
+          "kind": "stratagem",
+          "name": "Wreathed in Warpflame"
+        },
+        "reviewed": true,
+        "sid": "f2ea7f7b-8a98-4850-8acd-b3e32c3261ad",
+        "ver": 925
+      },
+      {
+        "det": "Chaos Cult",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "unit-desperate-pact"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "if the unit made a Desperate Pact",
+              "ru": "если отряд заключил Desperate Pact"
+            }
+          }
+        ],
+        "hash": "48dd2041",
+        "kind": "stratagem",
+        "name": "Crazed Focus",
+        "ref": {
+          "det": "chaos-cult",
+          "kind": "stratagem",
+          "name": "Crazed Focus"
+        },
+        "reviewed": true,
+        "sid": "10738da7-fbb3-4a3b-8f16-de400702fd2f",
+        "ver": 925
+      },
+      {
+        "det": "Chaos Cult",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "unit-desperate-pact"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "if the unit made a Desperate Pact",
+              "ru": "если отряд заключил Desperate Pact"
+            }
+          }
+        ],
+        "hash": "2d0091a4",
+        "kind": "stratagem",
+        "name": "Infernal Sacrifice",
+        "ref": {
+          "det": "chaos-cult",
+          "kind": "stratagem",
+          "name": "Infernal Sacrifice"
+        },
+        "reviewed": true,
+        "sid": "95bd643e-d349-4e22-8626-d63f639092f4",
+        "ver": 925
+      },
+      {
+        "det": "Creations of Bile",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "214dc667",
+        "kind": "stratagem",
+        "name": "Monstrous Visages",
+        "ref": {
+          "det": "creations-of-bile",
+          "kind": "stratagem",
+          "name": "Monstrous Visages"
+        },
+        "reviewed": true,
+        "sid": "3baae1e2-4413-4abd-af9e-6d2f92c7697e",
+        "ver": 995
+      },
+      {
+        "det": "Cult of the Arkifane",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "20ff758a",
+        "kind": "stratagem",
+        "name": "Balefire Boon",
+        "ref": {
+          "det": "cult-of-the-arkifane",
+          "kind": "stratagem",
+          "name": "Balefire Boon"
+        },
+        "reviewed": true,
+        "sid": "b851a9d9-4f75-4968-a7c4-8903bcd801c1",
+        "ver": 925
+      },
+      {
+        "det": "Cult of the Arkifane",
+        "effects": [],
+        "hash": "5dcd2330",
+        "kind": "stratagem",
+        "name": "Biomechanoid Regeneration",
+        "ref": {
+          "det": "cult-of-the-arkifane",
+          "kind": "stratagem",
+          "name": "Biomechanoid Regeneration"
+        },
+        "reviewed": true,
+        "sid": "d79b41a0-37ef-42ce-821e-9022d683bd6a",
+        "ver": 925
+      },
+      {
+        "det": "Cult of the Arkifane",
+        "effects": [],
+        "hash": "acebe636",
+        "kind": "stratagem",
+        "name": "Forge-Fire Surge",
+        "ref": {
+          "det": "cult-of-the-arkifane",
+          "kind": "stratagem",
+          "name": "Forge-Fire Surge"
+        },
+        "reviewed": true,
+        "sid": "c45b573d-c5e1-495f-b216-2f6b5510bcfa",
+        "ver": 925
+      },
+      {
+        "det": "Cult of the Arkifane",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "49d0fd4c",
+        "kind": "stratagem",
+        "name": "Unholy Fortitude",
+        "ref": {
+          "det": "cult-of-the-arkifane",
+          "kind": "stratagem",
+          "name": "Unholy Fortitude"
+        },
+        "reviewed": true,
+        "sid": "b25009cd-dd67-424d-81b2-fdd1a6d906cb",
+        "ver": 925
+      },
+      {
+        "det": "Deceptors",
+        "effects": [],
+        "hash": "9553ca33",
+        "kind": "stratagem",
+        "name": "From All Sides",
+        "ref": {
+          "det": "deceptors",
+          "kind": "stratagem",
+          "name": "From All Sides"
+        },
+        "reviewed": true,
+        "sid": "67aa0902-a907-48b0-b675-c891a322b560",
+        "ver": 925
+      },
+      {
+        "det": "Devotees of Destruction",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "unit-dark-pact-invoked"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "when your unit uses the Dark Pacts ability",
+              "ru": "когда отряд использует способность Dark Pacts"
+            }
+          },
+          {
+            "cond": [
+              "unit-dark-pact-invoked"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "when your unit uses the Dark Pacts ability",
+              "ru": "когда отряд использует способность Dark Pacts"
+            }
+          }
+        ],
+        "hash": "9f79d0a4",
+        "kind": "stratagem",
+        "name": "Ruination’s Bounty",
+        "ref": {
+          "det": "devotees-of-destruction",
+          "kind": "stratagem",
+          "name": "Ruination’s Bounty"
+        },
+        "reviewed": true,
+        "sid": "2fb3b94d-9f11-42b5-8321-2697f3cb7faa",
+        "ver": 995
+      },
+      {
+        "det": "Devotees of Destruction",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "ed2665e0",
+        "kind": "stratagem",
+        "name": "Undying Hatred",
+        "ref": {
+          "det": "devotees-of-destruction",
+          "kind": "stratagem",
+          "name": "Undying Hatred"
+        },
+        "reviewed": true,
+        "sid": "9c3df035-418b-40af-9cff-e2a96fefeddc",
+        "ver": 995
+      },
+      {
+        "det": "Dread Talons",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "against Battle-shocked or Below Half-strength targets",
+              "ru": "против Battle-shocked или Below Half-strength целей"
+            }
+          }
+        ],
+        "hash": "ec435d17",
+        "kind": "stratagem",
+        "name": "Depthless Cruelty",
+        "ref": {
+          "det": "dread-talons",
+          "kind": "stratagem",
+          "name": "Depthless Cruelty"
+        },
+        "reviewed": true,
+        "sid": "dfd93880-0f0c-451d-a583-ae840e5c5aec",
+        "ver": 925
+      },
+      {
+        "det": "Fellhammer Siege-host",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "notTag": "BLAST"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "PISTOL",
+            "when": null
+          }
+        ],
+        "hash": "88580281",
+        "kind": "stratagem",
+        "name": "Point-blank Destruction",
+        "ref": {
+          "det": "fellhammer-siege-host",
+          "kind": "stratagem",
+          "name": "Point-blank Destruction"
+        },
+        "reviewed": true,
+        "sid": "3327c4a2-167a-4491-8a36-3fbce7dc75d3",
+        "ver": 925
+      },
+      {
+        "det": "Fellhammer Siege-host",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "2dcc4ebb",
+        "kind": "stratagem",
+        "name": "Steadfast Determination",
+        "ref": {
+          "det": "fellhammer-siege-host",
+          "kind": "stratagem",
+          "name": "Steadfast Determination"
+        },
+        "reviewed": true,
+        "sid": "7c923572-d246-407e-bcc1-44e9222569fe",
+        "ver": 925
+      },
+      {
+        "det": "Huron’s Marauders",
+        "dur": "round",
+        "effects": [
+          {
+            "cond": [
+              "hardened-bs"
+            ],
+            "on": "ranged",
+            "op": "improve",
+            "stat": "bs",
+            "value": 1,
+            "when": {
+              "en": "if this option was picked when the stratagem was used",
+              "ru": "если при применении выбран этот вариант"
+            }
+          },
+          {
+            "cond": [
+              "hardened-rapid-fire"
+            ],
+            "on": "ranged",
+            "only": {
+              "tag": "RAPID FIRE"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "if this option was picked when the stratagem was used",
+              "ru": "если при применении выбран этот вариант"
+            }
+          },
+          {
+            "cond": [
+              "hardened-save"
+            ],
+            "on": "profile",
+            "op": "improve",
+            "stat": "sv",
+            "value": 1,
+            "when": {
+              "en": "if this option was picked when the stratagem was used",
+              "ru": "если при применении выбран этот вариант"
+            }
+          }
+        ],
+        "hash": "2a9803ec",
+        "kind": "stratagem",
+        "name": "Hardened Killers",
+        "ref": {
+          "det": "hurons-marauders",
+          "kind": "stratagem",
+          "name": "Hardened Killers"
+        },
+        "reviewed": true,
+        "sid": "3f670811-2b11-430a-9b5f-bd34a6cb9070",
+        "ver": 925
+      },
+      {
+        "det": "Huron’s Marauders",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "e069da04",
+        "kind": "stratagem",
+        "name": "Reavers’ Flurry",
+        "ref": {
+          "det": "hurons-marauders",
+          "kind": "stratagem",
+          "name": "Reavers’ Flurry"
+        },
+        "reviewed": true,
+        "sid": "cbe69988-a5c2-472c-9111-a8b2bebba098",
+        "ver": 925
+      },
+      {
+        "det": "Huron’s Marauders",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 6,
+            "when": {
+              "en": "instead of an Advance roll",
+              "ru": "вместо броска Advance"
+            }
+          }
+        ],
+        "hash": "d930fd7c",
+        "kind": "stratagem",
+        "name": "Seize the Prize",
+        "ref": {
+          "det": "hurons-marauders",
+          "kind": "stratagem",
+          "name": "Seize the Prize"
+        },
+        "reviewed": true,
+        "sid": "158784e5-c154-4fd6-b348-abd9ec8fbf99",
+        "ver": 925
+      },
+      {
+        "det": "Murdertalon Raiders",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LANCE",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "127e1a54",
+        "kind": "stratagem",
+        "name": "Plunging Talons",
+        "ref": {
+          "det": "murdertalon-raiders",
+          "kind": "stratagem",
+          "name": "Plunging Talons"
+        },
+        "reviewed": true,
+        "sid": "5549aaa3-79e6-4861-8aa1-c55b3e482390",
+        "ver": 925
+      },
+      {
+        "det": "Nightmare Hunt",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "against Battle-shocked or Below Half-strength targets",
+              "ru": "против Battle-shocked или Below Half-strength целей"
+            }
+          }
+        ],
+        "hash": "5c14e8f3",
+        "kind": "stratagem",
+        "name": "Talons Sunk Deep",
+        "ref": {
+          "det": "nightmare-hunt",
+          "kind": "stratagem",
+          "name": "Talons Sunk Deep"
+        },
+        "reviewed": true,
+        "sid": "5966ecaf-dbbb-4c4f-b24a-f1da41fbc804",
+        "ver": 925
+      },
+      {
+        "det": "Pactbound Zealots",
+        "dur": "battle",
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 1,
+            "when": {
+              "en": "the CHARACTER model only",
+              "ru": "только модель CHARACTER"
+            }
+          },
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "value": 1,
+            "when": {
+              "en": "the CHARACTER model only",
+              "ru": "только модель CHARACTER"
+            }
+          },
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 1,
+            "when": {
+              "en": "the CHARACTER model only",
+              "ru": "только модель CHARACTER"
+            }
+          },
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "the CHARACTER model's weapons only",
+              "ru": "только оружие модели CHARACTER"
+            }
+          },
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "the CHARACTER model's weapons only",
+              "ru": "только оружие модели CHARACTER"
+            }
+          },
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": {
+              "en": "the CHARACTER model's weapons only",
+              "ru": "только оружие модели CHARACTER"
+            }
+          }
+        ],
+        "hash": "fd75d102",
+        "kind": "stratagem",
+        "name": "Eye of the Gods",
+        "ref": {
+          "det": "pactbound-zealots",
+          "kind": "stratagem",
+          "name": "Eye of the Gods"
+        },
+        "reviewed": true,
+        "sid": "6db426b9-51c3-4b16-9240-f0b25c6cecae",
+        "ver": 925
+      },
+      {
+        "det": "Pactbound Zealots",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "0404a432",
+        "kind": "stratagem",
+        "name": "Festering Miasma",
+        "ref": {
+          "det": "pactbound-zealots",
+          "kind": "stratagem",
+          "name": "Festering Miasma"
+        },
+        "reviewed": true,
+        "sid": "fe88b41d-bc36-4aea-9351-7cd09f219955",
+        "ver": 925
+      },
+      {
+        "det": "Renegade Raiders",
+        "effects": [],
+        "hash": "aadf101b",
+        "kind": "stratagem",
+        "name": "Reaver’s Haste",
+        "ref": {
+          "det": "renegade-raiders",
+          "kind": "stratagem",
+          "name": "Reaver’s Haste"
+        },
+        "reviewed": true,
+        "sid": "061789a4-030f-4b28-b7a8-4ac77d6ee146",
+        "ver": 925
+      },
+      {
+        "det": "Renegade Raiders",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "against a unit within range of an objective marker",
+              "ru": "по отряду в зоне objective marker"
+            }
+          }
+        ],
+        "hash": "fd176ce9",
+        "kind": "stratagem",
+        "name": "Scour and Seize",
+        "ref": {
+          "det": "renegade-raiders",
+          "kind": "stratagem",
+          "name": "Scour and Seize"
+        },
+        "reviewed": true,
+        "sid": "a7707cad-872d-4c6a-9c9b-7d1ab3c0d35b",
+        "ver": 925
+      },
+      {
+        "det": "Renegade Raiders",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "ap",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "068f028a",
+        "kind": "stratagem",
+        "name": "Unfailingly Obdurate",
+        "ref": {
+          "det": "renegade-raiders",
+          "kind": "stratagem",
+          "name": "Unfailingly Obdurate"
+        },
+        "reviewed": true,
+        "sid": "e38ba41a-8fc3-4b8f-9bd9-ca46d0235f51",
+        "ver": 925
+      },
+      {
+        "det": "Renegade Raiders",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 6,
+            "when": {
+              "en": "in a phase it Advanced (no Advance roll)",
+              "ru": "в фазе с Advance (без броска)"
+            }
+          }
+        ],
+        "hash": "50325371",
+        "kind": "stratagem",
+        "name": "Warpcharged Engines",
+        "ref": {
+          "det": "renegade-raiders",
+          "kind": "stratagem",
+          "name": "Warpcharged Engines"
+        },
+        "reviewed": true,
+        "sid": "e66eed41-c56b-4279-bd17-6730b64d986c",
+        "ver": 925
+      },
+      {
+        "det": "Renegade Warband",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "04e39710",
+        "kind": "stratagem",
+        "name": "Corrupted Munitions",
+        "ref": {
+          "det": "renegade-warband",
+          "kind": "stratagem",
+          "name": "Corrupted Munitions"
+        },
+        "reviewed": true,
+        "sid": "2876b144-3e84-42ec-90ba-2736e2efdb69",
+        "ver": 925
+      },
+      {
+        "det": "Renegade Warband",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against your Vendetta target",
+              "ru": "по цели Vendetta"
+            }
+          }
+        ],
+        "hash": "b85cebe7",
+        "kind": "stratagem",
+        "name": "Vengeful Destruction",
+        "ref": {
+          "det": "renegade-warband",
+          "kind": "stratagem",
+          "name": "Vengeful Destruction"
+        },
+        "reviewed": true,
+        "sid": "e3a9dcd4-c4c4-464d-9544-4578cf4493a2",
+        "ver": 925
+      },
+      {
+        "det": "Soulforged Warpack",
+        "dur": "battle",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Daemon",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "7aef849b",
+        "kind": "stratagem",
+        "name": "Daemonic Possession",
+        "ref": {
+          "det": "soulforged-warpack",
+          "kind": "stratagem",
+          "name": "Daemonic Possession"
+        },
+        "reviewed": true,
+        "sid": "d3143f1b-4e27-49b1-91d8-968dba1e0561",
+        "ver": 925
+      },
+      {
+        "det": "Soulforged Warpack",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "contract-invoked"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "if your unit invokes its contract this phase",
+              "ru": "если в этой фазе отряд заключает контракт"
+            }
+          }
+        ],
+        "hash": "2251371c",
+        "kind": "stratagem",
+        "name": "Desperate Pledge",
+        "ref": {
+          "det": "soulforged-warpack",
+          "kind": "stratagem",
+          "name": "Desperate Pledge"
+        },
+        "reviewed": true,
+        "sid": "c3a40b78-d68c-44cf-a75e-f9a841690720",
+        "ver": 925
+      },
+      {
+        "det": "Veterans of the Long War",
+        "dur": "turn",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "146e18d3",
+        "kind": "stratagem",
+        "name": "Black Crusade",
+        "ref": {
+          "det": "veterans-of-the-long-war",
+          "kind": "stratagem",
+          "name": "Black Crusade"
+        },
+        "reviewed": true,
+        "sid": "a215fd24-e15d-4808-93d2-67da59819f5d",
+        "ver": 925
+      },
+      {
+        "det": "Veterans of the Long War",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Fights First",
+            "when": null
+          }
+        ],
+        "hash": "de0797b3",
+        "kind": "stratagem",
+        "name": "Bringers of Despair",
+        "ref": {
+          "det": "veterans-of-the-long-war",
+          "kind": "stratagem",
+          "name": "Bringers of Despair"
+        },
+        "reviewed": true,
+        "sid": "664cb026-2bd0-43c1-98b4-ff3636a3dbff",
+        "ver": 925
+      },
+      {
+        "det": "Veterans of the Long War",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "ap",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "068f028a",
+        "kind": "stratagem",
+        "name": "Contemptuous Disregard",
+        "ref": {
+          "det": "veterans-of-the-long-war",
+          "kind": "stratagem",
+          "name": "Contemptuous Disregard"
+        },
+        "reviewed": true,
+        "sid": "fef09a92-d6c5-4819-a57b-4eff4c8b5ab7",
+        "ver": 925
+      },
+      {
+        "det": "Veterans of the Long War",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "on": "ranged",
+            "only": {
+              "tag": "TORRENT"
+            },
+            "op": "set",
+            "stat": "a",
+            "value": "6",
+            "when": {
+              "en": "Torrent weapons, while this stratagem is in force",
+              "ru": "Torrent-оружие, пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "78715830",
+        "kind": "stratagem",
+        "name": "Let the Galaxy Burn",
+        "ref": {
+          "det": "veterans-of-the-long-war",
+          "kind": "stratagem",
+          "name": "Let the Galaxy Burn"
+        },
+        "reviewed": true,
+        "sid": "8cfa3ae5-3836-474c-96de-6a7d8e93a9ad",
+        "ver": 925
+      },
+      {
+        "det": "Warpstrike Champions",
+        "dur": "turn",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "288334fc",
+        "kind": "stratagem",
+        "name": "Armour of Corruption",
+        "ref": {
+          "det": "warpstrike-champions",
+          "kind": "stratagem",
+          "name": "Armour of Corruption"
+        },
+        "reviewed": true,
+        "sid": "aebb7533-d9f6-473f-908f-e99d1577f45f",
+        "ver": 925
+      },
+      {
+        "det": "Warpstrike Champions",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "ap",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "068f028a",
+        "kind": "stratagem",
+        "name": "Empyric Dislocation",
+        "ref": {
+          "det": "warpstrike-champions",
+          "kind": "stratagem",
+          "name": "Empyric Dislocation"
+        },
+        "reviewed": true,
+        "sid": "6572fbd6-499b-46a8-ac6d-48a290969bb0",
+        "ver": 925
+      },
+      {
+        "det": "Warpstrike Champions",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "4cc6713e",
+        "kind": "stratagem",
+        "name": "Siegebreaker Strike",
+        "ref": {
+          "det": "warpstrike-champions",
+          "kind": "stratagem",
+          "name": "Siegebreaker Strike"
+        },
+        "reviewed": true,
+        "sid": "3810e6a7-25be-4932-8b5f-6e30447ba08b",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "b300d963",
+        "kind": "wargear",
+        "name": "Blood Slaughterer: Impaled",
+        "ref": {
+          "item": "impaled",
+          "kind": "wargear",
+          "unit": "blood-slaughterer"
+        },
+        "reviewed": true,
+        "sid": "pack:blood-slaughterer:impaled",
+        "ver": 972
+      }
+    ],
+    "formatVersion": 1,
+    "slug": "chaos-space-marines"
+  }
+}

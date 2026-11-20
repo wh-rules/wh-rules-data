@@ -1,0 +1,3656 @@
+{
+  "default": {
+    "allies": [
+      {
+        "dets": [
+          "Covenite Coterie",
+          "Exhibition of Slaughter",
+          "Kabalite Agonysts",
+          "Kabalite Cartel",
+          "Realspace Raiders",
+          "Skysplinter Assault",
+          "Spectacle of Spite",
+          "Tools of Torment"
+        ],
+        "ids": [
+          "aeldari:corsair-skyreavers",
+          "aeldari:corsair-voidreavers",
+          "aeldari:corsair-voidscarred",
+          "aeldari:death-jester",
+          "aeldari:kharseth",
+          "aeldari:prince-yriel",
+          "aeldari:shadowseer",
+          "aeldari:skyweavers",
+          "aeldari:solitaire",
+          "aeldari:starfangs",
+          "aeldari:starweaver",
+          "aeldari:troupe",
+          "aeldari:troupe-master",
+          "aeldari:voidweaver"
+        ],
+        "key": "asuryani-harlequins",
+        "name": "Asuryani / Harlequins",
+        "pts": {
+          "incursion": 250,
+          "onslaught": 750,
+          "strike-force": 500
+        }
+      },
+      {
+        "dets": [
+          "Reaper’s Wager"
+        ],
+        "enh": 1,
+        "ids": [
+          "aeldari:death-jester",
+          "aeldari:shadowseer",
+          "aeldari:skyweavers",
+          "aeldari:solitaire",
+          "aeldari:starweaver",
+          "aeldari:troupe",
+          "aeldari:troupe-master",
+          "aeldari:voidweaver"
+        ],
+        "key": "harlequins",
+        "name": "Harlequins",
+        "pts": {
+          "incursion": 500,
+          "onslaught": 1500,
+          "strike-force": 1000
+        }
+      }
+    ],
+    "detachments": [
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Master Regenesist",
+            "pts": 25,
+            "req": [
+              {
+                "kw": [
+                  "Haemonculus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Master Nemesine",
+            "pts": 5,
+            "req": [
+              {
+                "kw": [
+                  "Haemonculus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Master Artisan",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Haemonculus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Master Repugnomancer (Aura)",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Haemonculus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Covenite Coterie",
+        "sid": "eaf6ced2-c21b-42fa-b442-ee7437cc3430"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Periapt of Torments",
+            "pts": 20,
+            "req": [
+              {
+                "ds": "Succubus",
+                "fac": [
+                  "Drukhari"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Hyperstimm Trafficker",
+            "pts": 20,
+            "req": [
+              {
+                "ds": "Succubus",
+                "fac": [
+                  "Drukhari"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Exhibition of Slaughter",
+        "sid": "ebd949cd-20a6-46be-929e-17421b92e77d"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Towering Arrogance",
+            "pts": 15,
+            "req": [
+              {
+                "ds": "Archon",
+                "fac": [
+                  "Drukhari"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Contempt for Rivals",
+            "pts": 20,
+            "req": [
+              {
+                "ds": "Archon",
+                "fac": [
+                  "Drukhari"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Disruption"
+        ],
+        "name": "Kabalite Agonysts",
+        "sid": "091a9dfa-59b6-43e9-957a-a211981c684e"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Leechbite Plate",
+            "pts": 5,
+            "req": [
+              {
+                "kw": [
+                  "Archon"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Webway Awl",
+            "pts": 25,
+            "req": [
+              {
+                "kw": [
+                  "Archon"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Informant Network",
+            "pts": 30,
+            "req": [
+              {
+                "kw": [
+                  "Archon"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Towering Arrogance",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Archon"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Disruption"
+        ],
+        "name": "Kabalite Cartel",
+        "sid": "6693dc93-0d9b-4364-8e5a-4882debb529b"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Dark Vitality",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Drukhari"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Labyrinthine Cunning",
+            "pts": 25,
+            "req": [
+              {
+                "kw": [
+                  "Archon"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Eye of Spite",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Succubus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Crucible of Malediction",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Haemonculus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Realspace Raiders",
+        "sid": "bad361ab-6952-46ab-97f5-921e8d8984a0"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Archraider",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Drukhari"
+                ]
+              },
+              {
+                "fac": [
+                  "Harlequins"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Webway Walker",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Drukhari"
+                ]
+              },
+              {
+                "fac": [
+                  "Harlequins"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Reaper’s Cowl",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Harlequins"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Conductor of Torment",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Drukhari"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets",
+          "Purge the Foe"
+        ],
+        "name": "Reaper’s Wager",
+        "sid": "8205608c-1f2e-465f-854d-d6b99d455143"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Phantasmal Smoke",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Drukhari"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Sadistic Fulcrum",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Drukhari"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Spiteful Raider",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Drukhari"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Nightmare Shroud",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Drukhari"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Skysplinter Assault",
+        "sid": "6b2f4fd1-8411-4c4a-92f0-110bfe87ebb5"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Pharmacophex",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Succubus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Chronoshard",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Succubus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Periapt of Torments",
+            "pts": 25,
+            "req": [
+              {
+                "kw": [
+                  "Succubus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Morghenna’s Curse",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Succubus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Spectacle of Spite",
+        "sid": "07ecddab-2a2f-4eeb-b505-fff5138e729f"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Gnarlskin Experimentor",
+            "pts": 20,
+            "req": [
+              {
+                "ds": "Haemonculus",
+                "fac": [
+                  "Drukhari"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "limit": 3,
+            "name": "Elixir of the Corpse Courts (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "ds": "Cronos",
+                "fac": [
+                  "Drukhari"
+                ]
+              },
+              {
+                "ds": "Talos",
+                "fac": [
+                  "Drukhari"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Tools of Torment",
+        "sid": "cbe64aa9-4b35-42c6-8674-4d841cc6fcf9"
+      }
+    ],
+    "name": "Drukhari",
+    "slug": "drukhari",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1409,
+                1
+              ],
+              [
+                498,
+                1
+              ],
+              [
+                1410,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1411
+              ],
+              [
+                499
+              ]
+            ],
+            "rep": [
+              498
+            ],
+            "t": 515
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1412
+              ],
+              [
+                1413
+              ]
+            ],
+            "rep": [
+              1409
+            ],
+            "t": 516
+          }
+        ],
+        "id": "archon",
+        "kws": [
+          "Aeldari",
+          "Archon",
+          "Character",
+          "Infantry",
+          "Kabal"
+        ],
+        "leads": [
+          {
+            "to": "hand-of-the-archon",
+            "type": "leader"
+          },
+          {
+            "to": "kabalite-warriors",
+            "type": "leader"
+          },
+          {
+            "to": "incubi",
+            "type": "leader"
+          },
+          {
+            "to": "court-of-the-archon",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Archon",
+        "sid": "d1eb30b2-ed6d-4938-beb6-a5ff5f41c15a",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1429,
+                1
+              ],
+              [
+                1412,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3372,
+                1
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                3373,
+                1
+              ]
+            ]
+          ],
+          [
+            3,
+            [
+              [
+                3374,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {
+          "char": 1,
+          "legends": 1
+        },
+        "id": "beastmaster",
+        "kws": [
+          "Beasts",
+          "Aeldari",
+          "Fly",
+          "Mounted",
+          "Character",
+          "Beastmaster"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Beastmaster"
+          },
+          {
+            "n": "Clawed Fiend"
+          },
+          {
+            "n": "Khymerae"
+          },
+          {
+            "n": "Razorwing Flocks"
+          }
+        ],
+        "name": "Beastmaster",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "default": 1,
+            "per": [
+              7,
+              7
+            ],
+            "pts": 135
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3375,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3376,
+                1
+              ],
+              [
+                390,
+                1
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                1424,
+                1
+              ],
+              [
+                498,
+                1
+              ],
+              [
+                3377,
+                1
+              ]
+            ]
+          ],
+          [
+            3,
+            [
+              [
+                3378,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "court-of-the-archon",
+        "joins": {
+          "by": [
+            "archon",
+            "lady-malys"
+          ],
+          "one": [
+            "court-of-the-archon"
+          ],
+          "to": [
+            "hand-of-the-archon",
+            "kabalite-warriors"
+          ]
+        },
+        "kws": [
+          "Infantry",
+          "Kabal",
+          "Aeldari",
+          "Court of the Archon"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Lhamaean"
+          },
+          {
+            "n": "Medusae"
+          },
+          {
+            "n": "Sslyth"
+          },
+          {
+            "n": "Ur-ghul"
+          }
+        ],
+        "name": "Court of the Archon",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              4,
+              4
+            ],
+            "pts": 95
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1414,
+                1
+              ],
+              [
+                1415,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                1416
+              ]
+            ],
+            "t": 517
+          }
+        ],
+        "id": "cronos",
+        "kws": [
+          "Aeldari",
+          "Cronos",
+          "Fly",
+          "Haemonculus Covens",
+          "Monster"
+        ],
+        "linked": 1,
+        "name": "Cronos",
+        "sid": "35d5461d-5518-42f1-9e65-c1a6075f8692",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 55
+          },
+          {
+            "per": [
+              2,
+              2
+            ],
+            "pts": 100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1417,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "drazhar",
+        "kws": [
+          "Aeldari",
+          "Blades for Hire",
+          "Character",
+          "Drazhar",
+          "Epic Hero",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "incubi",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Drazhar",
+        "sid": "a1654b25-220b-4f99-87f7-3f6545186b8f",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 85
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3379,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    3380,
+                    1
+                  ],
+                  [
+                    1470,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              3379
+            ],
+            "t": 1123
+          }
+        ],
+        "id": "grotesques",
+        "kws": [
+          "Infantry",
+          "Haemonculus Covens",
+          "Aeldari",
+          "Grotesques"
+        ],
+        "linked": 1,
+        "name": "Grotesques",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 80
+          },
+          {
+            "per": [
+              4,
+              6
+            ],
+            "pts": 170
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1418,
+                1
+              ],
+              [
+                1419,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "haemonculus",
+        "kws": [
+          "Aeldari",
+          "Character",
+          "Haemonculus",
+          "Haemonculus Covens",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "wracks",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Haemonculus",
+        "sid": "f2b4d576-17af-4717-af8c-b85fb6273c8a",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 50
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                95,
+                1
+              ],
+              [
+                502,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                95,
+                1
+              ],
+              [
+                502,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1420
+              ]
+            ],
+            "rep": [
+              95
+            ],
+            "t": 518
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                505
+              ],
+              [
+                506
+              ]
+            ],
+            "rep": [
+              502
+            ],
+            "t": 519
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1421
+              ],
+              [
+                1422
+              ]
+            ],
+            "t": 520
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                332
+              ],
+              [
+                336
+              ]
+            ],
+            "rep": [
+              502
+            ],
+            "t": 521
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                507
+              ],
+              [
+                508
+              ]
+            ],
+            "rep": [
+              502
+            ],
+            "t": 521
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1423
+              ]
+            ],
+            "rep": [
+              502
+            ],
+            "t": 522
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1424
+              ]
+            ],
+            "rep": [
+              502
+            ],
+            "t": 523
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1425
+              ]
+            ],
+            "rep": [
+              502
+            ],
+            "t": 524
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                [
+                  [
+                    506,
+                    1
+                  ],
+                  [
+                    1426,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              502
+            ],
+            "t": 525
+          },
+          {
+            "cond": [
+              3,
+              0,
+              null,
+              [
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            ],
+            "in": "checkbox",
+            "keep": [
+              502
+            ],
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1427
+              ]
+            ],
+            "t": 526
+          }
+        ],
+        "id": "hand-of-the-archon",
+        "kws": [
+          "Aeldari",
+          "Grenades",
+          "Hand of the Archon",
+          "Infantry",
+          "Kabal"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Kabalite Archsybarite"
+          },
+          {
+            "n": "Kabalite Agents"
+          }
+        ],
+        "name": "Hand of the Archon",
+        "sid": "c991ab8b-7c08-46e1-b82e-c209e815d569",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 115
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                1428,
+                1
+              ],
+              [
+                1429,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                1429,
+                1
+              ],
+              [
+                1428,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1430
+              ]
+            ],
+            "t": 527
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    506,
+                    1
+                  ],
+                  [
+                    1431,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    506,
+                    1
+                  ],
+                  [
+                    1432,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1428
+            ],
+            "t": 528
+          },
+          {
+            "cond": [
+              1,
+              1
+            ],
+            "in": "checkbox",
+            "keep": [
+              1428
+            ],
+            "m": 0,
+            "o": [
+              [
+                1428
+              ]
+            ],
+            "t": 529
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "hellions",
+        "kws": [
+          "Aeldari",
+          "Fly",
+          "Hellions",
+          "Mounted",
+          "Wych Cult"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Helliarch"
+          },
+          {
+            "n": "Hellion"
+          }
+        ],
+        "name": "Hellions",
+        "sid": "0c17850d-e2c4-428c-a3c8-3d3d801d7914",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 90
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 180
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                1433,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                1433,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1434
+              ]
+            ],
+            "rep": [
+              1433
+            ],
+            "t": 174
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                5,
+                1
+              ],
+              [
+                10,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                1435
+              ]
+            ],
+            "t": 530
+          }
+        ],
+        "id": "incubi",
+        "kws": [
+          "Aeldari",
+          "Blades for Hire",
+          "Incubi",
+          "Infantry"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Klaivex"
+          },
+          {
+            "n": "Incubi"
+          }
+        ],
+        "name": "Incubi",
+        "sid": "fcf530d2-6c38-40d1-b576-b33fc17103ec",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 90
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 180
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                502,
+                1
+              ],
+              [
+                95,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                95,
+                1
+              ],
+              [
+                502,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1436
+              ]
+            ],
+            "rep": [
+              95
+            ],
+            "t": 531
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1421
+              ],
+              [
+                1430
+              ]
+            ],
+            "t": 532
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                505
+              ],
+              [
+                506
+              ]
+            ],
+            "rep": [
+              502
+            ],
+            "t": 177
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                332
+              ]
+            ],
+            "rep": [
+              502
+            ],
+            "t": 178
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                507
+              ]
+            ],
+            "rep": [
+              502
+            ],
+            "t": 179
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                336
+              ]
+            ],
+            "rep": [
+              502
+            ],
+            "t": 180
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                508
+              ]
+            ],
+            "rep": [
+              502
+            ],
+            "t": 181
+          }
+        ],
+        "id": "kabalite-warriors",
+        "kws": [
+          "Aeldari",
+          "Battleline",
+          "Infantry",
+          "Kabal",
+          "Kabalite Warriors"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Sybarite"
+          },
+          {
+            "n": "Kabalite Warrior"
+          }
+        ],
+        "name": "Kabalite Warriors",
+        "sid": "cfa50fc8-d751-4423-a584-480d46334f5f",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 110
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1437,
+                1
+              ],
+              [
+                1438,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "lady-malys",
+        "kws": [
+          "Aeldari",
+          "Archon",
+          "Character",
+          "Epic Hero",
+          "Infantry",
+          "Kabal",
+          "Lady Malys"
+        ],
+        "leads": [
+          {
+            "to": "kabalite-warriors",
+            "type": "leader"
+          },
+          {
+            "to": "incubi",
+            "type": "leader"
+          },
+          {
+            "to": "hand-of-the-archon",
+            "type": "leader"
+          },
+          {
+            "to": "court-of-the-archon",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Lady Malys",
+        "sid": "4416d0b0-3c86-47c6-ad02-4f6d55a6828a",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1439,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "lelith-hesperax",
+        "kws": [
+          "Aeldari",
+          "Character",
+          "Epic Hero",
+          "Infantry",
+          "Lelith Hesperax",
+          "Succubus",
+          "Wych Cult"
+        ],
+        "leads": [
+          {
+            "to": "wyches",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Lelith Hesperax",
+        "sid": "97d12366-0971-4196-91ee-f5e5af2144b4",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                1440,
+                1
+              ],
+              [
+                1441,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                1441,
+                1
+              ],
+              [
+                1440,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "mandrakes",
+        "kws": [
+          "Aeldari",
+          "Blades for Hire",
+          "Infantry",
+          "Mandrakes"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Nightfiend"
+          },
+          {
+            "n": "Mandrake"
+          }
+        ],
+        "name": "Mandrakes",
+        "sid": "58bfc42e-b7cb-49d7-90a0-c7f8c523fce2",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 80
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 160
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                510,
+                1
+              ],
+              [
+                1442,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1443
+              ]
+            ],
+            "rep": [
+              510
+            ],
+            "t": 182
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "raider",
+        "kws": [
+          "Aeldari",
+          "Dedicated Transport",
+          "Fly",
+          "Frame",
+          "Raider",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Raider",
+        "sid": "6e7fd3a2-bab3-436e-9cf4-3692e964943d",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 75
+          }
+        ],
+        "step": {
+          "at": 4,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1444,
+                1
+              ],
+              [
+                510,
+                3
+              ]
+            ]
+          ]
+        ],
+        "dw": [
+          [
+            0,
+            15
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "cp": 3,
+            "dr": 5,
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                1443
+              ]
+            ],
+            "rep": [
+              510
+            ],
+            "t": 533
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "ravager",
+        "kws": [
+          "Aeldari",
+          "Fly",
+          "Frame",
+          "Kabal",
+          "Ravager",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Ravager",
+        "sid": "00b3c755-3971-4f52-beb0-dce4695c6a05",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 110
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                510,
+                2
+              ],
+              [
+                3381,
+                1
+              ],
+              [
+                1445,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "raven-strike-fighter",
+        "kws": [
+          "Vehicle",
+          "Fly",
+          "Aircraft",
+          "Aeldari",
+          "Raven Strike Fighter"
+        ],
+        "linked": 1,
+        "name": "Raven Strike Fighter",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 170
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1445,
+                1
+              ],
+              [
+                1446,
+                1
+              ],
+              [
+                510,
+                2
+              ],
+              [
+                1447,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1443,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              510
+            ],
+            "t": 534
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                519
+              ]
+            ],
+            "rep": [
+              1446
+            ],
+            "t": 187
+          }
+        ],
+        "id": "razorwing-jetfighter",
+        "kws": [
+          "Aeldari",
+          "Aircraft",
+          "Fly",
+          "Razorwing Jetfighter",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Razorwing Jetfighter",
+        "sid": "25d7da7d-27e2-4a7d-8527-11e4ef259461",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 170
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3382,
+                1
+              ],
+              [
+                1462,
+                1
+              ],
+              [
+                3383,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "reaper",
+        "kws": [
+          "Vehicle",
+          "Kabal",
+          "Fly",
+          "Aeldari",
+          "Reaper"
+        ],
+        "linked": 1,
+        "name": "Reaper",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 115
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                506,
+                1
+              ],
+              [
+                1448,
+                1
+              ],
+              [
+                502,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                502,
+                1
+              ],
+              [
+                1448,
+                1
+              ],
+              [
+                506,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                332
+              ],
+              [
+                514
+              ]
+            ],
+            "rep": [
+              502
+            ],
+            "t": 184
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                516
+              ],
+              [
+                1449
+              ]
+            ],
+            "t": 185
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                332
+              ],
+              [
+                514
+              ]
+            ],
+            "rep": [
+              502
+            ],
+            "t": 184
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                516
+              ],
+              [
+                1449
+              ]
+            ],
+            "t": 185
+          }
+        ],
+        "id": "reavers",
+        "kws": [
+          "Aeldari",
+          "Fly",
+          "Mounted",
+          "Reavers",
+          "Wych Cult"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Arena Champion"
+          },
+          {
+            "n": "Reaver"
+          }
+        ],
+        "name": "Reavers",
+        "pools": [
+          {
+            "g": [
+              0,
+              2
+            ],
+            "lim": [
+              [
+                3,
+                1
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          },
+          {
+            "g": [
+              1,
+              3
+            ],
+            "lim": [
+              [
+                3,
+                1
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          }
+        ],
+        "sid": "fc53b2c1-0884-4388-a360-80567d8caf42",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 75
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                3,
+                5
+              ]
+            ],
+            "per": [
+              4,
+              6
+            ],
+            "pts": 150
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                95,
+                1
+              ],
+              [
+                1424,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                508,
+                1
+              ],
+              [
+                95,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    505,
+                    1
+                  ],
+                  [
+                    1436,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    506,
+                    1
+                  ],
+                  [
+                    1436,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1424
+            ],
+            "t": 535
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                332
+              ],
+              [
+                507,
+                5
+              ],
+              [
+                1450,
+                5
+              ],
+              [
+                1451
+              ],
+              [
+                336
+              ]
+            ],
+            "rep": [
+              508
+            ],
+            "t": 536
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "scourges-with-heavy-weapons",
+        "kws": [
+          "Aeldari",
+          "Blades for Hire",
+          "Fly",
+          "Grenades",
+          "Infantry",
+          "Jump Pack",
+          "Scourges",
+          "Scourges with Heavy Weapons"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Solarite"
+          },
+          {
+            "n": "Scourge"
+          }
+        ],
+        "name": "Scourges with Heavy Weapons",
+        "sid": "dbf067f4-4c83-45d1-9ba0-243cc1b89ea6",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 110
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                1424,
+                1
+              ],
+              [
+                95,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                95,
+                1
+              ],
+              [
+                1424,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    505,
+                    1
+                  ],
+                  [
+                    1436,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    506,
+                    1
+                  ],
+                  [
+                    1436,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1424
+            ],
+            "t": 535
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                332
+              ],
+              [
+                336
+              ]
+            ],
+            "rep": [
+              1424
+            ],
+            "t": 537
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "scourges-with-shardcarbines",
+        "kws": [
+          "Aeldari",
+          "Blades for Hire",
+          "Fly",
+          "Grenades",
+          "Infantry",
+          "Jump Pack",
+          "Scourges",
+          "Scourges with Shardcarbines"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Solarite"
+          },
+          {
+            "n": "Scourge"
+          }
+        ],
+        "name": "Scourges with Shardcarbines",
+        "sid": "7be772ef-f93a-418d-813c-75e36aae92ae",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 75
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1452,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "succubus",
+        "kws": [
+          "Aeldari",
+          "Character",
+          "Infantry",
+          "Succubus",
+          "Wych Cult"
+        ],
+        "leads": [
+          {
+            "to": "wyches",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Succubus",
+        "sid": "c1ae38f8-5363-4fad-8d87-0909b6f405df",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 50
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1453,
+                2
+              ],
+              [
+                1454,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                1455,
+                5
+              ],
+              [
+                1456
+              ],
+              [
+                1457
+              ]
+            ],
+            "rep": [
+              1454
+            ],
+            "t": 538
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                1458
+              ],
+              [
+                1459
+              ]
+            ],
+            "rc": 1,
+            "rep": [
+              1453
+            ],
+            "t": 539
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                1460
+              ],
+              [
+                1461
+              ]
+            ],
+            "rc": 1,
+            "rep": [
+              1453
+            ],
+            "t": 539
+          }
+        ],
+        "id": "talos",
+        "kws": [
+          "Aeldari",
+          "Fly",
+          "Haemonculus Covens",
+          "Monster",
+          "Talos"
+        ],
+        "linked": 1,
+        "name": "Talos",
+        "sid": "5cec7cfa-bc87-4e5d-a321-dfbc2a3aded9",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 70
+          },
+          {
+            "per": [
+              2,
+              2
+            ],
+            "pts": 140
+          }
+        ],
+        "stands": {
+          "1453": [
+            "Maco-scalpel"
+          ]
+        },
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3384,
+                1
+              ],
+              [
+                3385,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "tantalus",
+        "kws": [
+          "Vehicle",
+          "Transport",
+          "Fly",
+          "Aeldari",
+          "Tantalus"
+        ],
+        "linked": 1,
+        "name": "Tantalus",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 230
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3386,
+                1
+              ],
+              [
+                1418,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "id": "urien-rakarth",
+        "kws": [
+          "Infantry",
+          "Haemonculus Covens",
+          "Character",
+          "Epic Hero",
+          "Aeldari",
+          "Haemonculus",
+          "Urien Rakarth"
+        ],
+        "leads": [
+          {
+            "to": "wracks",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Urien Rakarth",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1462,
+                1
+              ],
+              [
+                1446,
+                1
+              ],
+              [
+                519,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                519
+              ]
+            ],
+            "rep": [
+              1446
+            ],
+            "t": 187
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "venom",
+        "kws": [
+          "Aeldari",
+          "Dedicated Transport",
+          "Fly",
+          "Frame",
+          "Transport",
+          "Vehicle",
+          "Venom"
+        ],
+        "linked": 1,
+        "name": "Venom",
+        "sid": "c38e6ff3-f68d-485b-a515-24211d90d7a1",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 65
+          }
+        ],
+        "step": {
+          "at": 4,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1445,
+                1
+              ],
+              [
+                1463,
+                2
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1464
+              ]
+            ],
+            "t": 540
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1465,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1463
+            ],
+            "t": 541
+          }
+        ],
+        "id": "voidraven-bomber",
+        "kws": [
+          "Aeldari",
+          "Aircraft",
+          "Fly",
+          "Vehicle",
+          "Voidraven Bomber"
+        ],
+        "linked": 1,
+        "name": "Voidraven Bomber",
+        "sid": "557d9e8e-4c8a-4e60-a5ce-cada18d562c8",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 245
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                1466,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                1466,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1467,
+                    1
+                  ],
+                  [
+                    1468,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1466
+            ],
+            "t": 542
+          },
+          {
+            "cond": [
+              0,
+              0
+            ],
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1467
+              ]
+            ],
+            "rep": [
+              1468
+            ],
+            "t": 543
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1469,
+                    1
+                  ],
+                  [
+                    1468,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1470,
+                    1
+                  ],
+                  [
+                    1468,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1471,
+                    1
+                  ],
+                  [
+                    1468,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1472,
+                    1
+                  ],
+                  [
+                    1468,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1466
+            ],
+            "t": 544
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                [
+                  [
+                    1469,
+                    1
+                  ],
+                  [
+                    1468,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1470,
+                    1
+                  ],
+                  [
+                    1468,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1471,
+                    1
+                  ],
+                  [
+                    1468,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1472,
+                    1
+                  ],
+                  [
+                    1468,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1466
+            ],
+            "t": 544
+          }
+        ],
+        "id": "wracks",
+        "kws": [
+          "Aeldari",
+          "Battleline",
+          "Haemonculus Covens",
+          "Infantry",
+          "Wracks"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Acothyst"
+          },
+          {
+            "n": "Wrack"
+          }
+        ],
+        "name": "Wracks",
+        "pools": [
+          {
+            "g": [
+              2,
+              3
+            ],
+            "lim": [
+              [
+                5,
+                4,
+                1
+              ],
+              [
+                10,
+                8,
+                2
+              ]
+            ]
+          }
+        ],
+        "sid": "7b244876-3ee9-4ae5-85e2-457f55569011",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 55
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                7
+              ]
+            ],
+            "per": [
+              6,
+              8
+            ],
+            "pts": 90
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                8,
+                9
+              ]
+            ],
+            "per": [
+              9,
+              10
+            ],
+            "pts": 110
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1473,
+                1
+              ],
+              [
+                506,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                506,
+                1
+              ],
+              [
+                1473,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Drukhari"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                522
+              ]
+            ],
+            "rep": [
+              506
+            ],
+            "t": 188
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1474
+              ]
+            ],
+            "rep": [
+              1473
+            ],
+            "t": 545
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                3
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1475
+              ]
+            ],
+            "rep": [
+              506,
+              1473
+            ],
+            "t": 546
+          }
+        ],
+        "id": "wyches",
+        "kws": [
+          "Aeldari",
+          "Battleline",
+          "Grenades",
+          "Infantry",
+          "Wych Cult",
+          "Wyches"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Hekatrix"
+          },
+          {
+            "n": "Wych"
+          }
+        ],
+        "name": "Wyches",
+        "sid": "ec56c788-7d9a-4de0-95b6-67040c98c4a9",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 90
+          }
+        ]
+      }
+    ]
+  }
+}

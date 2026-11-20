@@ -1,0 +1,49 @@
+{
+  "default": {
+    "detachments": [],
+    "id": "titan-legions",
+    "legends": [],
+    "name": "Titan Legions",
+    "slug": "titan-legions",
+    "sourceUrl": "https://mfm.warhammer-community.com/en/titan-legions",
+    "subfactions": [],
+    "units": [
+      {
+        "name": "Reaver Titan",
+        "options": [
+          {
+            "models": 1,
+            "points": 2200
+          }
+        ]
+      },
+      {
+        "name": "Warbringer Nemesis Titan",
+        "options": [
+          {
+            "models": 1,
+            "points": 2600
+          }
+        ]
+      },
+      {
+        "name": "Warhound Titan",
+        "options": [
+          {
+            "models": 1,
+            "points": 1100
+          }
+        ]
+      },
+      {
+        "name": "Warlord Titan",
+        "options": [
+          {
+            "models": 1,
+            "points": 3500
+          }
+        ]
+      }
+    ]
+  }
+}

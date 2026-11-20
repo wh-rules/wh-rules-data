@@ -1,0 +1,3297 @@
+{
+  "default": {
+    "entries": [
+      {
+        "det": null,
+        "effects": [],
+        "hash": "f2b25c39",
+        "kind": "ability",
+        "name": "Amonhotekh's Guard Canoptek Scarab Swarms: Scarab Interference",
+        "ref": {
+          "kind": "ability",
+          "unit": "amonhotekhs-guard-canoptek-scarab-swarms"
+        },
+        "reviewed": true,
+        "sid": "d0cc4c05-a640-456f-a04e-d2a15fd9b08f:amonhotekhs-guard-canoptek-scarab-swarms",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "1fb7609a",
+        "kind": "ability",
+        "name": "Amonhotekh's Guard Skorpekh Destroyers: Plasmacyte (Once per battle per unit)",
+        "ref": {
+          "kind": "ability",
+          "unit": "amonhotekhs-guard-skorpekh-destroyers"
+        },
+        "reviewed": true,
+        "sid": "076d361c-d1bb-4e8e-8eb4-251434f9d888:amonhotekhs-guard-skorpekh-destroyers",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "aa7eb7dd",
+        "kind": "ability",
+        "name": "Anrakyr the Traveller: Lord of the Pyrrhian Eternals",
+        "note": "Read as Bloodmaster: Bloodmaster (chaos-daemons), the same text.",
+        "ref": {
+          "kind": "ability",
+          "unit": "anrakyr-the-traveller"
+        },
+        "reviewed": true,
+        "sid": "pack:anrakyr-the-traveller:lord-of-the-pyrrhian-eternals",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "b4b8a89a",
+        "kind": "ability",
+        "name": "Anrakyr the Traveller: Mind in the Machine",
+        "ref": {
+          "kind": "ability",
+          "unit": "anrakyr-the-traveller"
+        },
+        "reviewed": true,
+        "sid": "pack:anrakyr-the-traveller:mind-in-the-machine",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "e577ede9",
+        "kind": "ability",
+        "name": "C’tan Shard of the Deceiver: Necrodermis",
+        "ref": {
+          "kind": "ability",
+          "unit": "ctan-shard-of-the-deceiver"
+        },
+        "reviewed": true,
+        "sid": "40311c84-87f3-4a29-b4b1-2d94c780193b:ctan-shard-of-the-deceiver",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "e577ede9",
+        "kind": "ability",
+        "name": "C’tan Shard of the Nightbringer: Necrodermis",
+        "ref": {
+          "kind": "ability",
+          "unit": "ctan-shard-of-the-nightbringer"
+        },
+        "reviewed": true,
+        "sid": "40311c84-87f3-4a29-b4b1-2d94c780193b:ctan-shard-of-the-nightbringer",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "e577ede9",
+        "kind": "ability",
+        "name": "C’tan Shard of the Void Dragon: Necrodermis",
+        "ref": {
+          "kind": "ability",
+          "unit": "ctan-shard-of-the-void-dragon"
+        },
+        "reviewed": true,
+        "sid": "40311c84-87f3-4a29-b4b1-2d94c780193b:ctan-shard-of-the-void-dragon",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "2603f445",
+        "kind": "ability",
+        "name": "Canoptek Acanthrites: Damaged Armour",
+        "ref": {
+          "kind": "ability",
+          "unit": "canoptek-acanthrites"
+        },
+        "reviewed": true,
+        "sid": "pack:canoptek-acanthrites:damaged-armour",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "728e6cc5",
+        "kind": "ability",
+        "name": "Canoptek Macrocytes: Harassment Swarm",
+        "ref": {
+          "kind": "ability",
+          "unit": "canoptek-macrocytes"
+        },
+        "reviewed": true,
+        "sid": "e7c4c440-1600-4062-bdf0-3d0d0f7cc406:canoptek-macrocytes",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "61cec700",
+        "kind": "ability",
+        "name": "Canoptek Scarab Swarms: Chittering Swarm",
+        "ref": {
+          "kind": "ability",
+          "unit": "canoptek-scarab-swarms"
+        },
+        "reviewed": true,
+        "sid": "ce417ae7-d402-4fe0-8666-aabd4aa80e64:canoptek-scarab-swarms",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "against a unit within range of an objective marker",
+              "ru": "по отряду в радиусе маркера цели"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "ap",
+            "value": 1,
+            "when": {
+              "en": "while this model is within range of an objective marker",
+              "ru": "пока модель в зоне маркера objective"
+            }
+          }
+        ],
+        "hash": "01d0774f",
+        "kind": "ability",
+        "name": "Canoptek Tomb Sentinel: Aggressor Guardian",
+        "ref": {
+          "kind": "ability",
+          "unit": "canoptek-tomb-sentinel"
+        },
+        "reviewed": true,
+        "sid": "pack:canoptek-tomb-sentinel:aggressor-guardian",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "04d9fb62",
+        "kind": "ability",
+        "name": "Catacomb Command Barge: Advanced Quantum Shielding",
+        "ref": {
+          "kind": "ability",
+          "unit": "catacomb-command-barge"
+        },
+        "reviewed": true,
+        "sid": "3bdd7bfe-5920-45cc-9e1a-ce8b5e81d64e:catacomb-command-barge",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "target": "aura",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "989d5d7f",
+        "kind": "ability",
+        "name": "Catacomb Command Barge: Carrier Wave",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "NECRONS"
+              ]
+            }
+          ],
+          "unit": "catacomb-command-barge"
+        },
+        "reviewed": true,
+        "sid": "e06de742-1a30-4957-9c7a-7afde6d40508:catacomb-command-barge",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Stealth",
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Stealth",
+            "when": null
+          },
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "vs": "melee",
+            "when": null
+          },
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": -1,
+            "vs": "melee",
+            "when": null
+          }
+        ],
+        "hash": "0e6a810e",
+        "kind": "ability",
+        "name": "Chronomancer: Timesplinter Mantle",
+        "ref": {
+          "kind": "ability",
+          "unit": "chronomancer"
+        },
+        "reviewed": true,
+        "sid": "790fff5e-e0e1-41a1-9677-b26052d6b7c5:chronomancer",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "ee7e3001",
+        "kind": "ability",
+        "name": "Convergence of Dominion: Fortification",
+        "ref": {
+          "kind": "ability",
+          "unit": "convergence-of-dominion"
+        },
+        "reviewed": true,
+        "sid": "26b11011-e99c-4bcd-8f2d-fe34af25bfa4:convergence-of-dominion",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "aura",
+            "value": "Feel No Pain 6+",
+            "when": null
+          }
+        ],
+        "hash": "61c675d8",
+        "kind": "ability",
+        "name": "Convergence of Dominion: Reanimation Nodes",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "NECRONS INFANTRY"
+              ]
+            }
+          ],
+          "unit": "convergence-of-dominion"
+        },
+        "reviewed": true,
+        "sid": "c31c6751-321c-4491-a903-cf7160117d54:convergence-of-dominion",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "leader",
+            "value": "Feel No Pain 4+",
+            "when": null
+          }
+        ],
+        "hash": "02088f8a",
+        "kind": "ability",
+        "name": "Cryptothralls: Bound Creation",
+        "ref": {
+          "kind": "ability",
+          "unit": "cryptothralls"
+        },
+        "reviewed": true,
+        "sid": "6ddcfb42-49e2-43ad-9517-3d69a35da32a:cryptothralls",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "63f3fa92",
+        "kind": "ability",
+        "name": "Doom Scythe: Atavistic Instigation",
+        "ref": {
+          "kind": "ability",
+          "unit": "doom-scythe"
+        },
+        "reviewed": true,
+        "sid": "06857b82-348e-4ef7-8443-87fede494115:doom-scythe",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-stationary"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Doomsday cannon"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "for the turn, if this model Remained Stationary",
+              "ru": "на ход, если модель осталась на месте"
+            }
+          }
+        ],
+        "hash": "e0183dc7",
+        "kind": "ability",
+        "name": "Doomsday Ark: Overwhelming Obliteration",
+        "ref": {
+          "kind": "ability",
+          "unit": "doomsday-ark"
+        },
+        "reviewed": true,
+        "sid": "79bafa09-ec84-4f99-8a58-3c6810810fcb:doomsday-ark",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "e258d19a",
+        "kind": "ability",
+        "name": "Gauss Pylon: Fortification",
+        "ref": {
+          "kind": "ability",
+          "unit": "gauss-pylon"
+        },
+        "reviewed": true,
+        "sid": "pack:gauss-pylon:fortification",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "aura",
+            "value": "5+",
+            "when": {
+              "en": "against ranged attacks",
+              "ru": "против стрелковых атак"
+            }
+          }
+        ],
+        "hash": "5deb1072",
+        "kind": "ability",
+        "name": "Gauss Pylon: Phase Shift Generator (Aura)",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "NECRONS"
+              ]
+            }
+          ],
+          "unit": "gauss-pylon"
+        },
+        "reviewed": true,
+        "sid": "pack:gauss-pylon:phase-shift-generator-aura",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "0b120c11",
+        "kind": "ability",
+        "name": "Geomancer: Tectonic Reverberations",
+        "ref": {
+          "kind": "ability",
+          "unit": "geomancer"
+        },
+        "reviewed": true,
+        "sid": "7d7ee4d3-72bd-404e-bb89-281b7cca87cd:geomancer",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "46c7fb8e",
+        "kind": "ability",
+        "name": "Illuminor Szeras: Atomic Energy Manipulator",
+        "ref": {
+          "kind": "ability",
+          "unit": "illuminor-szeras"
+        },
+        "reviewed": true,
+        "sid": "0a968330-aa2f-48db-927f-812e04f0f885:illuminor-szeras",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of another friendly NECRONS unit",
+              "ru": "пока в пределах 3\" от другого дружественного отряда NECRONS"
+            }
+          }
+        ],
+        "hash": "93fccbf0",
+        "kind": "ability",
+        "name": "Illuminor Szeras: Illuminor",
+        "ref": {
+          "kind": "ability",
+          "unit": "illuminor-szeras"
+        },
+        "reviewed": true,
+        "sid": "28266681-b62f-4d2a-a302-110de4ec2a57:illuminor-szeras",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "ap",
+            "target": "aura",
+            "value": -1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "target": "aura",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "4def783f",
+        "kind": "ability",
+        "name": "Illuminor Szeras: Mechanical Augmentation",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "NECRONS BATTLELINE"
+              ]
+            }
+          ],
+          "unit": "illuminor-szeras"
+        },
+        "reviewed": true,
+        "sid": "af817f85-0876-4ef6-9171-059e66d6f7d4:illuminor-szeras",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "6134aab8",
+        "kind": "ability",
+        "name": "Lord: Relentless March",
+        "ref": {
+          "kind": "ability",
+          "unit": "lord"
+        },
+        "reviewed": true,
+        "sid": "pack:lord:relentless-march",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-led"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": {
+              "en": "while a NOBLE model is leading this unit",
+              "ru": "пока отряд возглавляет модель NOBLE"
+            }
+          }
+        ],
+        "hash": "86100369",
+        "kind": "ability",
+        "name": "Lychguard: Guardian Protocols",
+        "ref": {
+          "kind": "ability",
+          "unit": "lychguard"
+        },
+        "reviewed": true,
+        "sid": "5cf76521-fd74-42b3-884e-209dcd730704:lychguard",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "240b73c5",
+        "kind": "ability",
+        "name": "Nekrosor Ammentar: Infectious Murder-Madness",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [
+                "MONSTER",
+                "TITANIC"
+              ],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "NECRONS"
+              ]
+            }
+          ],
+          "unit": "nekrosor-ammentar"
+        },
+        "reviewed": true,
+        "sid": "12dac8d8-3c5e-46bf-a06f-f216708577f7:nekrosor-ammentar",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of another friendly DESTROYER CULT unit",
+              "ru": "пока в пределах 3\" от другого дружественного отряда DESTROYER CULT"
+            }
+          }
+        ],
+        "hash": "f493341c",
+        "kind": "ability",
+        "name": "Nekrosor Ammentar: Protective Disciples",
+        "ref": {
+          "kind": "ability",
+          "unit": "nekrosor-ammentar"
+        },
+        "reviewed": true,
+        "sid": "5d1bb72b-de3f-4243-b853-98182615ad67:nekrosor-ammentar",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "a971f8e8",
+        "kind": "ability",
+        "name": "Obelisk: Gravitic Pulse",
+        "ref": {
+          "kind": "ability",
+          "unit": "obelisk"
+        },
+        "reviewed": true,
+        "sid": "6a0f149c-0d22-4446-a2ca-8ae8bb8c2331:obelisk",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "unit",
+            "value": "4+",
+            "when": null
+          }
+        ],
+        "hash": "58585162",
+        "kind": "ability",
+        "name": "Orikan the Diviner: Master Chronomancer",
+        "ref": {
+          "kind": "ability",
+          "unit": "orikan-the-diviner"
+        },
+        "reviewed": true,
+        "sid": "f53452e1-fe6d-4ffd-9765-52432f6a5f5e:orikan-the-diviner",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "f8eafa3d",
+        "kind": "ability",
+        "name": "Orikan the Diviner: The Stars Are Right",
+        "ref": {
+          "kind": "ability",
+          "unit": "orikan-the-diviner"
+        },
+        "reviewed": true,
+        "sid": "d8a7419e-b1a4-4050-a552-a7a64ee63ef0:orikan-the-diviner",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 6,
+            "when": {
+              "en": "in a phase its unit Advanced (no Advance roll is made)",
+              "ru": "в фазе, когда отряд совершил Advance (бросок не делается)"
+            }
+          },
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "led",
+            "value": 6,
+            "when": {
+              "en": "in a phase this unit Advanced (no Advance roll is made)",
+              "ru": "в фазе, когда отряд совершил Advance (бросок не делается)"
+            }
+          }
+        ],
+        "hash": "91c2463a",
+        "kind": "ability",
+        "name": "Overlord with Translocation Shroud: Translocation Shroud",
+        "ref": {
+          "kind": "ability",
+          "unit": "overlord-with-translocation-shroud"
+        },
+        "reviewed": true,
+        "sid": "b8e6affb-5576-4b41-bc38-9697321ab6cf:overlord-with-translocation-shroud",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "e577ede9",
+        "kind": "ability",
+        "name": "Overlord: Implacable Resilience",
+        "ref": {
+          "kind": "ability",
+          "unit": "overlord"
+        },
+        "reviewed": true,
+        "sid": "29df3a8e-64c7-4084-b2ad-bc7da0df3edd:overlord",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "e258d19a",
+        "kind": "ability",
+        "name": "Sentry Pylon: Fortification",
+        "ref": {
+          "kind": "ability",
+          "unit": "sentry-pylon"
+        },
+        "reviewed": true,
+        "sid": "pack:sentry-pylon:fortification",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "LETHAL HITS",
+            "when": null
+          }
+        ],
+        "hash": "d2a9d0ad",
+        "kind": "ability",
+        "name": "Skorpekh Lord: United In Destruction",
+        "ref": {
+          "kind": "ability",
+          "unit": "skorpekh-lord"
+        },
+        "reviewed": true,
+        "sid": "116d7153-6df1-4396-9ecd-d49de3e4bfa6:skorpekh-lord",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Feel No Pain 5+",
+            "when": null
+          }
+        ],
+        "hash": "ccc78431",
+        "kind": "ability",
+        "name": "Technomancer: Rites of Reanimation",
+        "ref": {
+          "kind": "ability",
+          "unit": "technomancer"
+        },
+        "reviewed": true,
+        "sid": "4732a1ed-ebd9-4064-b991-a984d9d345a1:technomancer",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "target": "aura",
+            "value": 1,
+            "when": {
+              "en": "while this ability is the one selected",
+              "ru": "пока выбрана эта способность"
+            }
+          }
+        ],
+        "hash": "39225b1a",
+        "kind": "ability",
+        "name": "The Silent King: Phaeron of the Blades (Aura)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "scopes": [
+            {
+              "excludes": [
+                "MONSTER"
+              ],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "NECRONS"
+              ]
+            }
+          ],
+          "set": "Triarch Abilities",
+          "unit": "the-silent-king"
+        },
+        "reviewed": true,
+        "sid": "1cee9f3a-90af-4c23-9c39-2ccf1011c722:the-silent-king",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "594b1a50",
+        "kind": "ability",
+        "name": "The Silent King: Phaeron of the Stars (Aura)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "scopes": [
+            {
+              "excludes": [
+                "MONSTER"
+              ],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "NECRONS"
+              ]
+            }
+          ],
+          "set": "Triarch Abilities",
+          "unit": "the-silent-king"
+        },
+        "reviewed": true,
+        "sid": "8c31ec08-cfe2-4d58-ad1d-3138807c9d28:the-silent-king",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "aura",
+            "value": 2,
+            "when": {
+              "en": "while this ability is the one selected",
+              "ru": "пока выбрана эта способность"
+            }
+          }
+        ],
+        "hash": "a7467e93",
+        "kind": "ability",
+        "name": "The Silent King: Relentless March (Aura)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "scopes": [
+            {
+              "excludes": [
+                "MONSTER"
+              ],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "NECRONS"
+              ]
+            }
+          ],
+          "set": "Triarch Abilities",
+          "unit": "the-silent-king"
+        },
+        "reviewed": true,
+        "sid": "4fac3e0b-fe87-430a-a259-4a7b70854de8:the-silent-king",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "improve",
+            "stat": "ld",
+            "target": "aura",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "dabf0c2d",
+        "kind": "ability",
+        "name": "The Silent King: The Silent King",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "NECRONS"
+              ]
+            }
+          ],
+          "unit": "the-silent-king"
+        },
+        "reviewed": true,
+        "sid": "1f7a8e5e-21cb-44e2-933a-fb3b131d6fe0:the-silent-king",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "e258d19a",
+        "kind": "ability",
+        "name": "Tomb Citadel Walls: Fortification",
+        "ref": {
+          "kind": "ability",
+          "unit": "tomb-citadel-walls"
+        },
+        "reviewed": true,
+        "sid": "pack:tomb-citadel-walls:fortification",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "20c5ef9b",
+        "kind": "ability",
+        "name": "Tomb Citadel Walls: Ziggurat Dock",
+        "ref": {
+          "kind": "ability",
+          "unit": "tomb-citadel-walls"
+        },
+        "reviewed": true,
+        "sid": "pack:tomb-citadel-walls:ziggurat-dock",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "e577ede9",
+        "kind": "ability",
+        "name": "Transcendent C’tan: Necrodermis",
+        "ref": {
+          "kind": "ability",
+          "unit": "transcendent-ctan"
+        },
+        "reviewed": true,
+        "sid": "40311c84-87f3-4a29-b4b1-2d94c780193b:transcendent-ctan",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Fights First",
+            "when": null
+          }
+        ],
+        "hash": "f54f8f52",
+        "kind": "ability",
+        "name": "Vargard Obyron: Ghostwalk Mantle",
+        "note": "Read as Aleya: Tactical Perception (adeptus-custodes), the same text.",
+        "ref": {
+          "kind": "ability",
+          "unit": "vargard-obyron"
+        },
+        "reviewed": true,
+        "sid": "pack:vargard-obyron:ghostwalk-mantle",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+",
+            "when": {
+              "en": "while in the same unit as Nemesor Zahndrekh",
+              "ru": "пока в одном отряде с Nemesor Zahndrekh"
+            }
+          }
+        ],
+        "hash": "9b9fe911",
+        "kind": "ability",
+        "name": "Vargard Obyron: The Vargard’s Duty",
+        "ref": {
+          "kind": "ability",
+          "unit": "vargard-obyron"
+        },
+        "reviewed": true,
+        "sid": "pack:vargard-obyron:the-vargard-s-duty",
+        "ver": 972
+      },
+      {
+        "det": "Amonhotekh’s Guard",
+        "effects": [
+          {
+            "cond": [
+              "unit-selected-command-phase"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "while selected at the end of your Command phase, until the start of your next",
+              "ru": "пока отряд выбран в конце вашей командной фазы, до начала следующей"
+            }
+          }
+        ],
+        "hash": "02b31bb5",
+        "kind": "detachmentRule",
+        "name": "Territorial Imperatives",
+        "ref": {
+          "det": "cp:necrons",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "71124c51-fb03-44ee-acf1-4e5f6b6d5c13",
+        "ver": 925
+      },
+      {
+        "det": "Annihilation Legion",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "Destroyer Cult units only, per ranged attack against the closest eligible target",
+              "ru": "только отряды Destroyer Cult, за стрелковую атаку по ближайшей допустимой цели"
+            }
+          }
+        ],
+        "hash": "99ac616f",
+        "kind": "detachmentRule",
+        "name": "Annihilation Protocol",
+        "ref": {
+          "det": "annihilation-legion",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "c8e67c94-634c-45a1-b354-fe1d1d0edf8a",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-led"
+        ],
+        "det": "Awakened Dynasty",
+        "effects": [
+          {
+            "cond": [
+              "unit-led"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "while a NECRONS CHARACTER is leading this unit",
+              "ru": "пока отряд ведёт персонаж NECRONS"
+            }
+          }
+        ],
+        "hash": "da8aa7b0",
+        "kind": "detachmentRule",
+        "name": "Command Protocols",
+        "ref": {
+          "det": "awakened-dynasty",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "0819b28a-215e-4a8f-b78e-c857db54aa64",
+        "ver": 925
+      },
+      {
+        "det": "Cryptek Conclave",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "scope": 0,
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": null
+          },
+          {
+            "cond": [
+              "techno-anti-infantry"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-INFANTRY 3+",
+            "when": {
+              "en": "in your Shooting phase, if that ability is the one selected for the unit",
+              "ru": "в вашей фазе стрельбы, если отряд выбрал эту способность"
+            }
+          },
+          {
+            "cond": [
+              "techno-anti-mounted"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-MOUNTED 4+",
+            "when": {
+              "en": "in your Shooting phase, if that ability is the one selected for the unit",
+              "ru": "в вашей фазе стрельбы, если отряд выбрал эту способность"
+            }
+          },
+          {
+            "cond": [
+              "techno-heavy"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "HEAVY",
+            "when": {
+              "en": "in your Shooting phase, if that ability is the one selected for the unit",
+              "ru": "в вашей фазе стрельбы, если отряд выбрал эту способность"
+            }
+          },
+          {
+            "cond": [
+              "techno-ignores-cover"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "in your Shooting phase, if that ability is the one selected for the unit",
+              "ru": "в вашей фазе стрельбы, если отряд выбрал эту способность"
+            }
+          },
+          {
+            "cond": [
+              "techno-assault"
+            ],
+            "op": "state",
+            "when": {
+              "en": "in your Shooting phase, if that ability is the one selected for the unit",
+              "ru": "в вашей фазе стрельбы, если отряд выбрал эту способность"
+            }
+          }
+        ],
+        "hash": "3c086d0c",
+        "kind": "detachmentRule",
+        "name": "Technosorcerous Augmentations",
+        "ref": {
+          "det": "cryptek-conclave",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "2f40d32d-d52c-4fea-881e-9f3afd245708",
+        "ver": 925
+      },
+      {
+        "det": "Cursed Legion",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "scope": 0,
+            "stat": "s",
+            "value": 2,
+            "when": null
+          },
+          {
+            "cond": [
+              "cold-fervour"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "scope": 1,
+            "stat": "s",
+            "value": 2,
+            "when": {
+              "en": "after a Destroyer Cult unit destroys a unit, until the end of the turn",
+              "ru": "после того как юнит Destroyer Cult уничтожит юнит, до конца хода"
+            }
+          }
+        ],
+        "hash": "f2aad384",
+        "kind": "detachmentRule",
+        "name": "Cold Fervour",
+        "ref": {
+          "det": "cursed-legion",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "da5c3d84-9fb3-4ea1-8e3c-c8d34d6100a7",
+        "ver": 925
+      },
+      {
+        "det": "Hand of the Dynasty",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": null
+          }
+        ],
+        "hash": "965e4fb5",
+        "kind": "detachmentRule",
+        "name": "Hypermotility Protocols",
+        "ref": {
+          "det": "hand-of-the-dynasty",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "534bef73-8f42-4c3b-ae80-2ad4106db41a",
+        "ver": 925
+      },
+      {
+        "det": "Obeisance Phalanx",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against the enemy unit selected in your Command phase",
+              "ru": "по вражескому отряду, выбранному в вашу Command phase"
+            }
+          }
+        ],
+        "hash": "f43f3287",
+        "kind": "detachmentRule",
+        "name": "Worthy Foes",
+        "ref": {
+          "det": "obeisance-phalanx",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "90b80a56-d420-47f0-85b1-405a01e4c0d3",
+        "ver": 925
+      },
+      {
+        "det": "Pantheon of Woe",
+        "effects": [],
+        "hash": "5c4c5667",
+        "kind": "detachmentRule",
+        "name": "Cosmic Distortion",
+        "ref": {
+          "det": "pantheon-of-woe",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "49d49ff2-3cb7-488d-bab6-5f046700f91f",
+        "ver": 925
+      },
+      {
+        "det": "Skyshroud Spearhead",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Deep Strike",
+            "when": null
+          },
+          {
+            "cond": [
+              "unit-arrived-from-reserves"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "scope": 1,
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "if this unit made an ingress move this turn",
+              "ru": "если отряд в этом ходу выполнил ingress move"
+            }
+          }
+        ],
+        "hash": "9c2e7911",
+        "kind": "detachmentRule",
+        "name": "Transdimensional Deployment",
+        "ref": {
+          "det": "skyshroud-spearhead",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "4ef33601-c63c-4fb7-866f-ce94f062e01b",
+        "ver": 925
+      },
+      {
+        "det": "Starshatter Arsenal",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a unit within range of an objective marker",
+              "ru": "по отряду в радиусе маркера цели"
+            }
+          }
+        ],
+        "hash": "66a38795",
+        "kind": "detachmentRule",
+        "name": "Relentless Onslaught",
+        "ref": {
+          "det": "starshatter-arsenal",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "dec1adcf-64dc-4e7a-b535-73fc56cb305c",
+        "ver": 925
+      },
+      {
+        "det": "The Phaeron's Armoury",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 6,
+            "when": null
+          }
+        ],
+        "hash": "92336869",
+        "kind": "detachmentRule",
+        "name": "Empowered Engines",
+        "ref": {
+          "det": "the-phaerons-armoury",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "23b709b7-1228-490b-98fe-7f039d5cd593",
+        "ver": 925
+      },
+      {
+        "det": "Amonhotekh’s Guard",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 2,
+            "when": null
+          }
+        ],
+        "hash": "69c38e3b",
+        "kind": "enhancement",
+        "name": "Metalline Might",
+        "ref": {
+          "det": "cp:necrons",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "78e7ca8e-1321-4a1c-9b04-2383ca1a2572",
+        "ver": 925
+      },
+      {
+        "det": "Amonhotekh’s Guard",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "ASSAULT",
+            "when": null
+          }
+        ],
+        "hash": "8ee2fd82",
+        "kind": "enhancement",
+        "name": "Unblemished Legions",
+        "ref": {
+          "det": "cp:necrons",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "90ecb256-bc18-494a-89a9-57bba7ac455b",
+        "ver": 925
+      },
+      {
+        "det": "Annihilation Legion",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "per attack that scores a Critical Wound",
+              "ru": "за атаку с критическим ранением"
+            }
+          }
+        ],
+        "hash": "ca631e3a",
+        "kind": "enhancement",
+        "name": "Ingrained Superiority",
+        "ref": {
+          "det": "annihilation-legion",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "f8e6d080-6a6c-432b-8196-e26598cd7fda",
+        "ver": 925
+      },
+      {
+        "det": "Awakened Dynasty",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+",
+            "when": null
+          }
+        ],
+        "hash": "3a8d1248",
+        "kind": "enhancement",
+        "name": "Enaegic Dermal Bond",
+        "ref": {
+          "det": "awakened-dynasty",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "9eaf87ca-f192-4962-abfe-71524fc8f81f",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading"
+        ],
+        "det": "Awakened Dynasty",
+        "effects": [
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Stealth",
+            "when": {
+              "en": "while the bearer is leading a unit",
+              "ru": "пока носитель ведёт отряд"
+            }
+          }
+        ],
+        "hash": "250c323a",
+        "kind": "enhancement",
+        "name": "Nether-realm Casket",
+        "ref": {
+          "det": "awakened-dynasty",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "682ea8a8-adb8-4f7f-96e4-8d991d22b7fa",
+        "ver": 925
+      },
+      {
+        "det": "Awakened Dynasty",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "target": "aura",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "b51daed7",
+        "kind": "enhancement",
+        "name": "Phasal Subjugator (Aura)",
+        "ref": {
+          "det": "awakened-dynasty",
+          "kind": "enhancement",
+          "scopes": [
+            {
+              "excludes": [
+                "CHARACTER"
+              ],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "NECRONS"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "a6e993f2-c457-4c04-b5f9-c1a7deda2c37",
+        "ver": 925
+      },
+      {
+        "det": "Awakened Dynasty",
+        "effects": [
+          {
+            "on": "unit",
+            "once": {
+              "dur": "round",
+              "per": "army"
+            },
+            "op": "grant",
+            "stat": "core",
+            "value": "Deep Strike",
+            "when": {
+              "en": "until your next Shooting phase, once per battle per army, when this unit used this ability to go into strategic reserves",
+              "ru": "до вашей следующей Shooting phase, раз за битву на армию, если отряд применил эту способность и ушёл в strategic reserves"
+            }
+          }
+        ],
+        "hash": "f531ccd6",
+        "kind": "enhancement",
+        "name": "Veil of Darkness",
+        "ref": {
+          "det": "awakened-dynasty",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "eff15605-8995-4196-a6fb-220bf5a2fe87",
+        "ver": 925
+      },
+      {
+        "det": "Canoptek Court",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Infiltrators",
+            "when": null
+          }
+        ],
+        "hash": "735cabe5",
+        "kind": "enhancement",
+        "name": "Dimensional Sanctum",
+        "ref": {
+          "det": "canoptek-court",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "b6b83c22-ccc1-4e7b-8abe-ab09ddd291c9",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading"
+        ],
+        "det": "Canoptek Court",
+        "effects": [],
+        "hash": "4c7d3a3f",
+        "kind": "enhancement",
+        "name": "Hyperphasic Fulcrum",
+        "ref": {
+          "det": "canoptek-court",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "59555bf5-512b-46c7-af47-3fa1ef0a3735",
+        "ver": 995
+      },
+      {
+        "det": "Cryptek Conclave",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "range",
+            "target": "led",
+            "value": 6,
+            "when": null
+          }
+        ],
+        "hash": "dd08044f",
+        "kind": "enhancement",
+        "name": "Gauntlet of Compression",
+        "ref": {
+          "det": "cryptek-conclave",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "6e0e59cb-c41f-4cb0-a009-c962aad3d392",
+        "ver": 925
+      },
+      {
+        "det": "Cryptek Conclave",
+        "effects": [],
+        "hash": "fc588c57",
+        "kind": "enhancement",
+        "name": "Gravitic Bolas",
+        "ref": {
+          "det": "cryptek-conclave",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "1a9b09ed-4256-40d8-962f-aacc25948e46",
+        "ver": 925
+      },
+      {
+        "det": "Cursed Legion",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "led",
+            "value": 2,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 2,
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Destroyer Cult",
+            "when": null
+          }
+        ],
+        "hash": "c15dd6d4",
+        "kind": "enhancement",
+        "name": "Destroyer Ankh",
+        "ref": {
+          "det": "cursed-legion",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "a17450e0-31f1-4b21-8952-5ea5c5bf7496",
+        "ver": 925
+      },
+      {
+        "det": "Cursed Legion",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "d0cc07b6",
+        "kind": "enhancement",
+        "name": "Mark of the Nekrosor",
+        "ref": {
+          "det": "cursed-legion",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "767a6e78-8eda-4299-ad7f-e0614152a40d",
+        "ver": 925
+      },
+      {
+        "det": "Cursed Legion",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Destroyer Cult",
+            "when": null
+          },
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 3,
+            "when": null
+          }
+        ],
+        "hash": "8eb42dfe",
+        "kind": "enhancement",
+        "name": "Murdermind",
+        "ref": {
+          "det": "cursed-legion",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "597b7938-15dd-4b21-adf6-c4c544287010",
+        "ver": 925
+      },
+      {
+        "det": "Hand of the Dynasty",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Scouts 5\"",
+            "when": null
+          }
+        ],
+        "hash": "c019b083",
+        "kind": "enhancement",
+        "name": "Enlivened Sentinels (Upgrade)",
+        "ref": {
+          "det": "hand-of-the-dynasty",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "08785e77-dca3-4170-ac4b-67317a780156",
+        "ver": 925
+      },
+      {
+        "det": "Hand of the Dynasty",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "RAPID FIRE 1",
+            "when": null
+          }
+        ],
+        "hash": "b1cd18ad",
+        "kind": "enhancement",
+        "name": "Tools of Dominion (Upgrade)",
+        "ref": {
+          "det": "hand-of-the-dynasty",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "28910499-26bf-4cf0-823a-17462276ea57",
+        "ver": 925
+      },
+      {
+        "det": "Hypercrypt Legion",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "led",
+            "value": 6,
+            "when": {
+              "en": "each time the bearer's unit Advances, until the end of the phase (replacing the Advance roll)",
+              "ru": "каждый раз, когда юнит носителя совершает Advance, до конца фазы (вместо броска Advance)"
+            }
+          }
+        ],
+        "hash": "ec5e298e",
+        "kind": "enhancement",
+        "name": "Hyperspatial Transfer Node",
+        "ref": {
+          "det": "hypercrypt-legion",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "dedd4e7b-9ddc-4edd-8a45-512061651b17",
+        "ver": 925
+      },
+      {
+        "det": "Hypercrypt Legion",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Deep Strike",
+            "when": null
+          }
+        ],
+        "hash": "cdcb4519",
+        "kind": "enhancement",
+        "name": "Osteoclave Fulcrum",
+        "ref": {
+          "det": "hypercrypt-legion",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "c1641e5f-db23-49aa-905f-12b1833efcf1",
+        "ver": 925
+      },
+      {
+        "det": "Obeisance Phalanx",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-INFANTRY 5+",
+            "when": null
+          }
+        ],
+        "hash": "5b96496f",
+        "kind": "enhancement",
+        "name": "Unflinching Will",
+        "ref": {
+          "det": "obeisance-phalanx",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "fe31d690-e8f6-4014-a53e-7b3db86f5a6e",
+        "ver": 925
+      },
+      {
+        "det": "Obeisance Phalanx",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "vs": "melee",
+            "when": null
+          },
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": -1,
+            "vs": "melee",
+            "when": null
+          }
+        ],
+        "hash": "6acc3ad1",
+        "kind": "enhancement",
+        "name": "Warrior Noble",
+        "ref": {
+          "det": "obeisance-phalanx",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "58ac4996-1d83-4a02-91d8-debebcf6de1c",
+        "ver": 995
+      },
+      {
+        "det": "Pantheon of Woe",
+        "effects": [],
+        "hash": "52d956a8",
+        "kind": "enhancement",
+        "name": "Animus Damper",
+        "ref": {
+          "det": "pantheon-of-woe",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "a0198bd7-14b1-4f97-a4fa-e977a89cea4d",
+        "ver": 995
+      },
+      {
+        "det": "Skyshroud Spearhead",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "ASSAULT",
+            "when": null
+          }
+        ],
+        "hash": "a4b54ef1",
+        "kind": "enhancement",
+        "name": "Deepening Madness (Upgrade)",
+        "ref": {
+          "det": "skyshroud-spearhead",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "c173a0bd-085d-42db-ac95-5c7ab17a267f",
+        "ver": 925
+      },
+      {
+        "det": "Starshatter Arsenal",
+        "effects": [],
+        "hash": "74d2c9d5",
+        "kind": "enhancement",
+        "name": "Chrono-impedance Fields",
+        "ref": {
+          "det": "starshatter-arsenal",
+          "kind": "enhancement",
+          "scopes": [
+            {
+              "excludes": [
+                "TITANIC"
+              ],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "NECRONS VEHICLE",
+                "NECRONS MOUNTED"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "27ae0787-64b1-4e1e-840d-027f27eb996f",
+        "ver": 925
+      },
+      {
+        "det": "Starshatter Arsenal",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "IGNORES COVER",
+            "when": null
+          }
+        ],
+        "hash": "93fc2b38",
+        "kind": "enhancement",
+        "name": "Miniaturised Nebuloscope",
+        "ref": {
+          "det": "starshatter-arsenal",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "dec27f61-8026-4986-872b-5ad9c8b34084",
+        "ver": 925
+      },
+      {
+        "det": "The Phaeron's Armoury",
+        "effects": [
+          {
+            "cond": [
+              "unit-arrived-from-reserves",
+              "optimiser-lethal"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "the one picked, if the bearer’s unit was set up through a Monolith’s Eternity Gate this turn",
+              "ru": "выбранная, если отряд носителя выставлен через Eternity Gate монолита в этот ход"
+            }
+          },
+          {
+            "cond": [
+              "unit-arrived-from-reserves",
+              "optimiser-sustained"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "the one picked, if the bearer’s unit was set up through a Monolith’s Eternity Gate this turn",
+              "ru": "выбранная, если отряд носителя выставлен через Eternity Gate монолита в этот ход"
+            }
+          },
+          {
+            "cond": [
+              "unit-arrived-from-reserves",
+              "optimiser-lethal"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "the one picked, if the bearer’s unit was set up through a Monolith’s Eternity Gate this turn",
+              "ru": "выбранная, если отряд носителя выставлен через Eternity Gate монолита в этот ход"
+            }
+          },
+          {
+            "cond": [
+              "unit-arrived-from-reserves",
+              "optimiser-sustained"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "the one picked, if the bearer’s unit was set up through a Monolith’s Eternity Gate this turn",
+              "ru": "выбранная, если отряд носителя выставлен через Eternity Gate монолита в этот ход"
+            }
+          }
+        ],
+        "hash": "59114045",
+        "kind": "enhancement",
+        "name": "Prelocational Optimiser",
+        "ref": {
+          "det": "the-phaerons-armoury",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "72dc72d3-3e78-48d4-a16e-396f635c8e07",
+        "ver": 995
+      },
+      {
+        "det": "Amonhotekh’s Guard",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "fe8dfc7e",
+        "kind": "stratagem",
+        "name": "Gauss Storm",
+        "ref": {
+          "det": "cp:necrons",
+          "kind": "stratagem",
+          "name": "Gauss Storm"
+        },
+        "reviewed": true,
+        "sid": "d2ab2c1b-9744-4545-995c-e41df16e488c",
+        "ver": 995
+      },
+      {
+        "det": "Amonhotekh’s Guard",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "improve",
+            "stat": "sv",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "97d04864",
+        "kind": "stratagem",
+        "name": "Reinforced Resilience",
+        "ref": {
+          "det": "cp:necrons",
+          "kind": "stratagem",
+          "name": "Reinforced Resilience"
+        },
+        "reviewed": true,
+        "sid": "a374ab23-5cc9-4eca-97e4-54dfc8cd461f",
+        "ver": 995
+      },
+      {
+        "det": "Annihilation Legion",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "214dc667",
+        "kind": "stratagem",
+        "name": "Masks of Death",
+        "ref": {
+          "det": "annihilation-legion",
+          "kind": "stratagem",
+          "name": "Masks of Death"
+        },
+        "reviewed": true,
+        "sid": "4d06f60e-e46d-4f28-b1c2-c9c10c7176a2",
+        "ver": 995
+      },
+      {
+        "det": "Annihilation Legion",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a target below its Starting Strength",
+              "ru": "по цели ниже Starting Strength"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against a target that is Below Half-strength",
+              "ru": "по цели Below Half-strength"
+            }
+          }
+        ],
+        "hash": "2fc82dc8",
+        "kind": "stratagem",
+        "name": "The Spoor of Frailty",
+        "ref": {
+          "det": "annihilation-legion",
+          "kind": "stratagem",
+          "name": "The Spoor of Frailty"
+        },
+        "reviewed": true,
+        "sid": "e911cb72-8416-456b-b29b-9d7e78845c3f",
+        "ver": 925
+      },
+      {
+        "det": "Awakened Dynasty",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "cond": [
+              "unit-led"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "also, while a NECRONS CHARACTER is leading the unit",
+              "ru": "и ещё, пока отрядом руководит NECRONS CHARACTER"
+            }
+          }
+        ],
+        "hash": "e16165bb",
+        "kind": "stratagem",
+        "name": "Protocol of the Hungry Void",
+        "ref": {
+          "det": "awakened-dynasty",
+          "kind": "stratagem",
+          "name": "Protocol of the Hungry Void"
+        },
+        "reviewed": true,
+        "sid": "189e9a56-08ba-4f1d-91fe-86a29a58fc97",
+        "ver": 925
+      },
+      {
+        "det": "Awakened Dynasty",
+        "dur": "turn",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "3747e0bf",
+        "kind": "stratagem",
+        "name": "Protocol of the Sudden Storm",
+        "ref": {
+          "det": "awakened-dynasty",
+          "kind": "stratagem",
+          "name": "Protocol of the Sudden Storm"
+        },
+        "reviewed": true,
+        "sid": "715892f9-4eab-4736-b3aa-cf87a1da9612",
+        "ver": 925
+      },
+      {
+        "det": "Canoptek Court",
+        "effects": [],
+        "hash": "6b386492",
+        "kind": "stratagem",
+        "name": "Curse of the Cryptek",
+        "ref": {
+          "det": "canoptek-court",
+          "kind": "stratagem",
+          "name": "Curse of the Cryptek"
+        },
+        "reviewed": true,
+        "sid": "c0a9369e-f600-4bff-afe3-953de7887c21",
+        "ver": 925
+      },
+      {
+        "det": "Canoptek Court",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "CRYPTEK and CANOPTEK models only",
+              "ru": "только модели CRYPTEK и CANOPTEK"
+            }
+          }
+        ],
+        "hash": "fe0b57a5",
+        "kind": "stratagem",
+        "name": "Cynosure of Eradication",
+        "ref": {
+          "det": "canoptek-court",
+          "kind": "stratagem",
+          "name": "Cynosure of Eradication"
+        },
+        "reviewed": true,
+        "sid": "d50a8525-0cda-4481-b35a-0166906008ce",
+        "ver": 925
+      },
+      {
+        "det": "Canoptek Court",
+        "effects": [],
+        "hash": "8605bfcf",
+        "kind": "stratagem",
+        "name": "Solar Pulse",
+        "ref": {
+          "det": "canoptek-court",
+          "kind": "stratagem",
+          "name": "Solar Pulse"
+        },
+        "reviewed": true,
+        "sid": "9c1084ea-a988-41ae-9e7e-93fff8618e30",
+        "ver": 925
+      },
+      {
+        "det": "Cryptek Conclave",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "5+",
+            "when": {
+              "en": "for a NECRON WARRIORS unit",
+              "ru": "для отряда NECRON WARRIORS"
+            }
+          },
+          {
+            "alt": 0,
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "for an IMMORTALS unit, instead",
+              "ru": "для отряда IMMORTALS, вместо этого"
+            }
+          }
+        ],
+        "hash": "7552fba5",
+        "kind": "stratagem",
+        "name": "Microscarab Swarm",
+        "ref": {
+          "det": "cryptek-conclave",
+          "kind": "stratagem",
+          "name": "Microscarab Swarm"
+        },
+        "reviewed": true,
+        "sid": "faa6ca0c-12bb-4e2b-8d3d-519132a0cd1f",
+        "ver": 925
+      },
+      {
+        "det": "Cryptek Conclave",
+        "effects": [],
+        "hash": "e970969b",
+        "kind": "stratagem",
+        "name": "Molecular Targeting",
+        "ref": {
+          "det": "cryptek-conclave",
+          "kind": "stratagem",
+          "name": "Molecular Targeting"
+        },
+        "reviewed": true,
+        "sid": "6bf52360-b8b5-446e-9492-171c06106583",
+        "ver": 925
+      },
+      {
+        "det": "Cryptek Conclave",
+        "effects": [],
+        "hash": "8fcebd15",
+        "kind": "stratagem",
+        "name": "Synergistic Empowerment",
+        "ref": {
+          "det": "cryptek-conclave",
+          "kind": "stratagem",
+          "name": "Synergistic Empowerment"
+        },
+        "reviewed": true,
+        "sid": "cd990928-7ba9-4233-8360-25dc7fdab369",
+        "ver": 925
+      },
+      {
+        "det": "Cursed Legion",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "214dc667",
+        "kind": "stratagem",
+        "name": "Image of Death",
+        "ref": {
+          "det": "cursed-legion",
+          "kind": "stratagem",
+          "name": "Image of Death"
+        },
+        "reviewed": true,
+        "sid": "a1713dd1-cc81-4060-834e-f9cd1990ab99",
+        "ver": 995
+      },
+      {
+        "det": "Cursed Legion",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "fd0d603c",
+        "kind": "stratagem",
+        "name": "Methodical Murder",
+        "ref": {
+          "det": "cursed-legion",
+          "kind": "stratagem",
+          "name": "Methodical Murder"
+        },
+        "reviewed": true,
+        "sid": "12fb9bc1-173f-4e4c-8c6b-7e9c03a33b0c",
+        "ver": 925
+      },
+      {
+        "det": "Cursed Legion",
+        "effects": [],
+        "hash": "651aec76",
+        "kind": "stratagem",
+        "name": "Spreading Madness",
+        "ref": {
+          "det": "cursed-legion",
+          "kind": "stratagem",
+          "name": "Spreading Madness"
+        },
+        "reviewed": true,
+        "sid": "d51f2004-facc-4f30-95bd-efeac95a5493",
+        "ver": 925
+      },
+      {
+        "det": "Hand of the Dynasty",
+        "dur": "turn",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "076afe4b",
+        "kind": "stratagem",
+        "name": "Dominance Protocols",
+        "ref": {
+          "det": "hand-of-the-dynasty",
+          "kind": "stratagem",
+          "name": "Dominance Protocols"
+        },
+        "reviewed": true,
+        "sid": "04c6e3ba-873f-4909-be7e-2c2e3fdc8bdc",
+        "ver": 925
+      },
+      {
+        "det": "Hypercrypt Legion",
+        "effects": [],
+        "hash": "4fd50ae6",
+        "kind": "stratagem",
+        "name": "Entropic Damping",
+        "ref": {
+          "det": "hypercrypt-legion",
+          "kind": "stratagem",
+          "name": "Entropic Damping"
+        },
+        "reviewed": true,
+        "sid": "4c4d4778-c7da-4a19-b7e8-d14c1c4ef657",
+        "ver": 925
+      },
+      {
+        "det": "Hypercrypt Legion",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "987d6ae0",
+        "kind": "stratagem",
+        "name": "Quantum Deflection",
+        "ref": {
+          "det": "hypercrypt-legion",
+          "kind": "stratagem",
+          "name": "Quantum Deflection"
+        },
+        "reviewed": true,
+        "sid": "34e9b24d-0cfa-4679-8fd5-a2ee1485e03b",
+        "ver": 925
+      },
+      {
+        "det": "Obeisance Phalanx",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "6d37add7",
+        "kind": "stratagem",
+        "name": "Nanoassembly Protocols",
+        "ref": {
+          "det": "obeisance-phalanx",
+          "kind": "stratagem",
+          "name": "Nanoassembly Protocols"
+        },
+        "reviewed": true,
+        "sid": "5ed9cb6e-a512-495d-af01-3e55d9966ca4",
+        "ver": 925
+      },
+      {
+        "det": "Obeisance Phalanx",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "10391964",
+        "kind": "stratagem",
+        "name": "Suffer No Rival",
+        "ref": {
+          "det": "obeisance-phalanx",
+          "kind": "stratagem",
+          "name": "Suffer No Rival"
+        },
+        "reviewed": true,
+        "sid": "4df51b07-bd1d-4510-9088-4734099be4cb",
+        "ver": 925
+      },
+      {
+        "det": "Obeisance Phalanx",
+        "dur": "round",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "alt": 0,
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 3,
+            "when": {
+              "en": "for a VEHICLE, instead",
+              "ru": "для VEHICLE, вместо этого"
+            }
+          }
+        ],
+        "hash": "24319947",
+        "kind": "stratagem",
+        "name": "Territorial Obsession",
+        "ref": {
+          "det": "obeisance-phalanx",
+          "kind": "stratagem",
+          "name": "Territorial Obsession"
+        },
+        "reviewed": true,
+        "sid": "a1f9d428-e9d5-484e-9791-7d0dcca30a6d",
+        "ver": 925
+      },
+      {
+        "det": "Skyshroud Spearhead",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "ranged-s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "f5133a4b",
+        "kind": "stratagem",
+        "name": "Evasive Protocols",
+        "ref": {
+          "det": "skyshroud-spearhead",
+          "kind": "stratagem",
+          "name": "Evasive Protocols"
+        },
+        "reviewed": true,
+        "sid": "2d178a91-fe95-4fcf-a613-af03204721ea",
+        "ver": 995
+      },
+      {
+        "det": "Starshatter Arsenal",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 6,
+            "when": {
+              "en": "in a phase it Advanced (no Advance roll)",
+              "ru": "в фазе с Advance (без броска)"
+            }
+          }
+        ],
+        "hash": "50325371",
+        "kind": "stratagem",
+        "name": "Chronoshift",
+        "ref": {
+          "det": "starshatter-arsenal",
+          "kind": "stratagem",
+          "name": "Chronoshift"
+        },
+        "reviewed": true,
+        "sid": "1b7e64e2-00bb-48a9-a88e-6c35d4aa0961",
+        "ver": 925
+      },
+      {
+        "det": "Starshatter Arsenal",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against a target within range of an objective marker",
+              "ru": "по цели в радиусе маркера цели"
+            }
+          }
+        ],
+        "hash": "42c640c7",
+        "kind": "stratagem",
+        "name": "Merciless Reclamation",
+        "ref": {
+          "det": "starshatter-arsenal",
+          "kind": "stratagem",
+          "name": "Merciless Reclamation"
+        },
+        "reviewed": true,
+        "sid": "fbcf624c-34ed-4f2c-b43a-4eb2ea002cb9",
+        "ver": 925
+      },
+      {
+        "det": "Starshatter Arsenal",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "4ee1e63c",
+        "kind": "stratagem",
+        "name": "Unyielding Forms",
+        "ref": {
+          "det": "starshatter-arsenal",
+          "kind": "stratagem",
+          "name": "Unyielding Forms"
+        },
+        "reviewed": true,
+        "sid": "5290c04e-be06-416f-a408-6bd7aa84319c",
+        "ver": 995
+      },
+      {
+        "det": "The Phaeron's Armoury",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "name": "Tesla sphere"
+            },
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "cc0ec271",
+        "kind": "stratagem",
+        "name": "Cosmic Storm",
+        "ref": {
+          "det": "the-phaerons-armoury",
+          "kind": "stratagem",
+          "name": "Cosmic Storm"
+        },
+        "reviewed": true,
+        "sid": "699ac868-919e-490d-8e00-c86730312e2f",
+        "ver": 925
+      },
+      {
+        "det": "The Phaeron's Armoury",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "ap",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "8965a6af",
+        "kind": "stratagem",
+        "name": "Subsurface Quantumweave",
+        "ref": {
+          "det": "the-phaerons-armoury",
+          "kind": "stratagem",
+          "name": "Subsurface Quantumweave"
+        },
+        "reviewed": true,
+        "sid": "c2ffac1d-7059-4e1f-bda2-8fb6ce20d1e3",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "improve",
+            "stat": "ws",
+            "target": "aura",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "f506766c",
+        "kind": "wargear",
+        "name": "Canoptek Macrocytes: Accelerator Mandible",
+        "ref": {
+          "item": "accelerator mandible",
+          "kind": "wargear",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "CANOPTEK"
+              ]
+            }
+          ],
+          "unit": "canoptek-macrocytes"
+        },
+        "reviewed": true,
+        "sid": "f8700f44-a5d3-43d0-b34f-c2b09a6b504b:canoptek-macrocytes",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "aura",
+            "value": "Feel No Pain 6+",
+            "when": null
+          }
+        ],
+        "hash": "d52964cd",
+        "kind": "wargear",
+        "name": "Canoptek Spyders: Fabricator Claw Array (Aura)",
+        "ref": {
+          "item": "fabricator claw array (aura)",
+          "kind": "wargear",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "NECRONS VEHICLE"
+              ]
+            }
+          ],
+          "unit": "canoptek-spyders"
+        },
+        "reviewed": true,
+        "sid": "ea2d4f7d-612f-41a0-980f-c538a5dc020d:canoptek-spyders",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "aura",
+            "value": "Feel No Pain 5+ (vs mortal wounds and Psychic Attacks)",
+            "when": null
+          }
+        ],
+        "hash": "6d14604f",
+        "kind": "wargear",
+        "name": "Canoptek Spyders: Gloom Prism (Aura)",
+        "ref": {
+          "item": "gloom prism (aura)",
+          "kind": "wargear",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "NECRONS"
+              ]
+            }
+          ],
+          "unit": "canoptek-spyders"
+        },
+        "reviewed": true,
+        "sid": "5084d88f-827f-4b35-90c6-86d8f84d6863:canoptek-spyders",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "aura",
+            "value": "Feel No Pain 4+ (vs Psychic Attacks)",
+            "when": null
+          }
+        ],
+        "hash": "45115fa3",
+        "kind": "wargear",
+        "name": "Canoptek Tomb Sentinel: Gloom Prism (Aura)",
+        "ref": {
+          "item": "gloom prism (aura)",
+          "kind": "wargear",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "NECRONS"
+              ]
+            }
+          ],
+          "unit": "canoptek-tomb-sentinel"
+        },
+        "reviewed": true,
+        "sid": "pack:canoptek-tomb-sentinel:gloom-prism-aura",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "aura",
+            "value": "Feel No Pain 4+ (vs Psychic Attacks)",
+            "when": null
+          }
+        ],
+        "hash": "45115fa3",
+        "kind": "wargear",
+        "name": "Canoptek Tomb Stalker: Gloom Prism (Aura)",
+        "ref": {
+          "item": "gloom prism (aura)",
+          "kind": "wargear",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "NECRONS"
+              ]
+            }
+          ],
+          "unit": "canoptek-tomb-stalker"
+        },
+        "reviewed": true,
+        "sid": "pack:canoptek-tomb-stalker:gloom-prism-aura",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+",
+            "when": null
+          }
+        ],
+        "hash": "b92eaf5f",
+        "kind": "wargear",
+        "name": "Lokhust Lord: Nanoscarab Amulet",
+        "ref": {
+          "item": "nanoscarab amulet",
+          "kind": "wargear",
+          "unit": "lokhust-lord"
+        },
+        "reviewed": true,
+        "sid": "c0da2d15-20c2-4da9-a9df-a0ce62051918:lokhust-lord",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "5e0ca50d",
+        "kind": "wargear",
+        "name": "Lychguard: Dispersion Shield",
+        "ref": {
+          "item": "dispersion shield",
+          "kind": "wargear",
+          "unit": "lychguard"
+        },
+        "reviewed": true,
+        "sid": "73c896ab-3e82-4c6c-8cd3-2490c776c67b:lychguard",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "aura",
+            "value": "Feel No Pain 5+ (vs mortal wounds and Psychic Attacks)",
+            "when": null
+          }
+        ],
+        "hash": "6d14604f",
+        "kind": "wargear",
+        "name": "Nekrosor Ammentar: Nullstone Field Generator (Aura)",
+        "ref": {
+          "item": "nullstone field generator (aura)",
+          "kind": "wargear",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "NECRONS"
+              ]
+            }
+          ],
+          "unit": "nekrosor-ammentar"
+        },
+        "reviewed": true,
+        "sid": "d0064c2e-8a21-4d58-bf03-02e6370585bb:nekrosor-ammentar",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "once per battle per Plasmacyte, while this ability is used",
+              "ru": "раз за битву на каждый Plasmacyte, пока способность использована"
+            }
+          }
+        ],
+        "hash": "c30781e0",
+        "kind": "wargear",
+        "name": "Ophydian Destroyers: Plasmacyte",
+        "ref": {
+          "item": "plasmacyte",
+          "kind": "wargear",
+          "unit": "ophydian-destroyers"
+        },
+        "reviewed": true,
+        "sid": "f6a5f8a4-40f5-498d-a806-d6d77283329d:ophydian-destroyers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "once per battle per Plasmacyte, while this ability is used",
+              "ru": "раз за битву на каждый Plasmacyte, пока способность использована"
+            }
+          }
+        ],
+        "hash": "c30781e0",
+        "kind": "wargear",
+        "name": "Skorpekh Destroyers: Plasmacyte",
+        "ref": {
+          "item": "plasmacyte",
+          "kind": "wargear",
+          "unit": "skorpekh-destroyers"
+        },
+        "reviewed": true,
+        "sid": "f6a5f8a4-40f5-498d-a806-d6d77283329d:skorpekh-destroyers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "the bearer's weapons only",
+              "ru": "только оружие носителя"
+            }
+          }
+        ],
+        "hash": "a8073fac",
+        "kind": "wargear",
+        "name": "Tomb Blades: Nebuloscope",
+        "ref": {
+          "item": "nebuloscope",
+          "kind": "wargear",
+          "unit": "tomb-blades"
+        },
+        "reviewed": true,
+        "sid": "04af9b1c-d69e-4d55-a73f-1594f009207f:tomb-blades",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "1764e07f",
+        "kind": "wargear",
+        "name": "Tomb Blades: Shadowloom",
+        "ref": {
+          "item": "shadowloom",
+          "kind": "wargear",
+          "unit": "tomb-blades"
+        },
+        "reviewed": true,
+        "sid": "0d59e1f0-4cca-4797-9810-89f34da9ac5a:tomb-blades",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "sv",
+            "value": "3+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          },
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "m",
+            "value": "8\"",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "7ad3d726",
+        "kind": "wargear",
+        "name": "Tomb Blades: Shieldvanes",
+        "ref": {
+          "item": "shieldvanes",
+          "kind": "wargear",
+          "unit": "tomb-blades"
+        },
+        "reviewed": true,
+        "sid": "106ffa9b-ad87-4845-a297-a73bceed0b02:tomb-blades",
+        "ver": 925
+      }
+    ],
+    "formatVersion": 1,
+    "slug": "necrons"
+  }
+}

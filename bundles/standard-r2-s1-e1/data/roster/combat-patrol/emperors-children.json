@@ -1,0 +1,226 @@
+{
+  "default": {
+    "box": "emperors-children",
+    "detachment": {
+      "dp": 0,
+      "enhancements": [
+        {
+          "name": "Invigorating Agonies",
+          "pts": null,
+          "req": [
+            {
+              "kw": [
+                "Lord Exultant",
+                "Callous Blades"
+              ]
+            }
+          ],
+          "type": "miniature"
+        },
+        {
+          "name": "Martial Perfection",
+          "nonCharOk": 1,
+          "pts": null,
+          "req": [
+            {
+              "ds": "Callous Blades Infractors"
+            }
+          ],
+          "type": "upgrade"
+        }
+      ],
+      "linkedUnits": [
+        {
+          "count": 1,
+          "unit": "lord-kaphrael-of-the-callous-blades",
+          "warlord": 1
+        },
+        {
+          "count": 1,
+          "unit": "callous-blades-flawless-blades"
+        },
+        {
+          "count": 1,
+          "unit": "callous-blades-flawless-blades"
+        },
+        {
+          "count": 1,
+          "unit": "callous-blades-infractors"
+        }
+      ],
+      "name": "Callous Blades",
+      "sid": "3228b035-5ffb-4238-9a53-ae82e643e2fe"
+    },
+    "slug": "emperors-children",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3687,
+                1
+              ],
+              [
+                3688,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Emperor’s Children"
+        ],
+        "flags": {},
+        "id": "callous-blades-flawless-blades",
+        "kws": [
+          "Callous Blades",
+          "Chaos",
+          "Explosives",
+          "Infantry",
+          "Slaanesh"
+        ],
+        "linked": 1,
+        "name": "Callous Blades Flawless Blades",
+        "sid": "4afabec4-3f10-4544-8e8c-692dc62811be",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3689,
+                1
+              ],
+              [
+                3690,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3689,
+                1
+              ],
+              [
+                3691,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Emperor’s Children"
+        ],
+        "flags": {},
+        "id": "callous-blades-infractors",
+        "kws": [
+          "Battleline",
+          "Callous Blades",
+          "Chaos",
+          "Explosives",
+          "Infantry",
+          "Slaanesh"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Obsessionist"
+          },
+          {
+            "n": "Infractor"
+          }
+        ],
+        "name": "Callous Blades Infractors",
+        "sid": "b972d344-bbd5-44f9-a628-e73802b09be6",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3685,
+                1
+              ],
+              [
+                3686,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Emperor’s Children"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "lord-kaphrael-of-the-callous-blades",
+        "kws": [
+          "Callous Blades",
+          "Chaos",
+          "Character",
+          "Explosives",
+          "Infantry",
+          "Lord Exultant",
+          "Slaanesh"
+        ],
+        "leads": [
+          {
+            "to": "callous-blades-infractors",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Lord Kaphrael of the Callous Blades",
+        "sid": "2dd39335-3509-41c4-b425-705148b95428",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2219 @@
+{
+  "default": {
+    "detachments": [
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Furious Assault (Upgrade)",
+            "points": 10
+          },
+          {
+            "name": "Imperium’s Sword",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Assault Brethren",
+        "unique": "DOCTRINES"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "A Giant Amongst Giants",
+            "points": 15
+          },
+          {
+            "name": "Preyslayer",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Champions of Fenris",
+        "unique": "TERMINATOR"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Beacon Angelis",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Deathwatch Support"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Honour of Vigilance",
+            "points": 20
+          },
+          {
+            "name": "Master-forged Firearms",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Devastator Brethren",
+        "unique": "DOCTRINES"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Damocles-class Uplink",
+            "points": 15
+          },
+          {
+            "name": "Linebreaker Onslaught",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Gauntlet Task Force"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Adept of the Codex",
+            "points": 20
+          },
+          {
+            "name": "Artificer Armour",
+            "points": 15
+          },
+          {
+            "name": "Laurels of Triumph",
+            "points": 20
+          },
+          {
+            "name": "Standard of the Emperor Ascendant",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold",
+          "Priority Assets"
+        ],
+        "name": "Gladius Task Force"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Indefatigable Fortitude",
+            "points": 20
+          },
+          {
+            "name": "Relentless Advance",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Gravis Linebreaker Force",
+        "unique": "GRAVIS"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Immovable Conquerors (Upgrade)",
+            "points": 15
+          },
+          {
+            "name": "Narthecis Gauntlet",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Gravis Siege Force",
+        "unique": "GRAVIS"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Artificer Sarcophagus (Upgrade)",
+            "points": 40
+          },
+          {
+            "name": "Venerable Champion (Aura) (Upgrade)",
+            "points": 30
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Ironclad Champions"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Gunnery Honours (Upgrade)",
+            "points": 15
+          },
+          {
+            "name": "Redoubtable Machine Spirit (Upgrade)",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Ironstorm Spearhead",
+        "unique": "IRONSTORM"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Execute and Redeploy",
+            "points": 25
+          },
+          {
+            "name": "Venator Omni-auspex",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Phobos Shadow Force",
+        "unique": "PHOBOS"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Seal of Shrouding",
+            "points": 15
+          },
+          {
+            "name": "Venator Omni-auspex",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Phobos Shock Force",
+        "unique": "PHOBOS"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Hunter’s Guile",
+            "points": 20
+          },
+          {
+            "name": "Wolf-Touched",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Saga of the Beastslayer"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Chariots of the Storm",
+            "points": 25
+          },
+          {
+            "name": "Grimnar’s Mark",
+            "points": 15
+          },
+          {
+            "name": "Howlmaw",
+            "points": 15
+          },
+          {
+            "name": "Skjald’s Foretelling",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Saga of the Great Wolf"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Auspex Triangulation Shrines (Upgrade)",
+            "points": 10
+          },
+          {
+            "name": "Supercharged Engines (Upgrade)",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Stormlance Task Force"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Laurels of Vigilance",
+            "points": 10
+          },
+          {
+            "name": "Tactical Insight",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Tactical Brethren",
+        "unique": "DOCTRINES"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Martial Paragon",
+            "points": 10
+          },
+          {
+            "name": "Spearpoint War Leader",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Tacticus Attack Force",
+        "unique": "TACTICUS"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Cyber-familiar",
+            "points": 15
+          },
+          {
+            "name": "Tempered in Battle (Aura)",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Tacticus Firestorm Force",
+        "unique": "TACTICUS"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Champion of the First Company",
+            "points": 20
+          },
+          {
+            "name": "Corporeum Reliquary",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Terminator Storm Force",
+        "unique": "TERMINATOR"
+      }
+    ],
+    "id": "space-wolves",
+    "legends": [
+      {
+        "name": "Canis Wolfborn",
+        "options": [
+          {
+            "models": 1,
+            "points": 75
+          }
+        ]
+      },
+      {
+        "name": "Centurion Assault Squad",
+        "options": [
+          {
+            "models": 3,
+            "points": 150
+          },
+          {
+            "models": 6,
+            "points": 300
+          }
+        ]
+      },
+      {
+        "name": "Centurion Devastator Squad",
+        "options": [
+          {
+            "models": 3,
+            "points": 175
+          },
+          {
+            "models": 6,
+            "points": 350
+          }
+        ]
+      },
+      {
+        "name": "Cerberus",
+        "options": [
+          {
+            "models": 1,
+            "points": 270
+          }
+        ]
+      },
+      {
+        "name": "Cyberwolf",
+        "options": [
+          {
+            "models": 1,
+            "points": 20
+          }
+        ]
+      },
+      {
+        "name": "Dreadnought",
+        "options": [
+          {
+            "models": 1,
+            "points": 135
+          }
+        ]
+      },
+      {
+        "name": "Falchion",
+        "options": [
+          {
+            "models": 1,
+            "points": 420
+          }
+        ]
+      },
+      {
+        "name": "Hammerfall Bunker",
+        "options": [
+          {
+            "models": 1,
+            "points": 175
+          }
+        ]
+      },
+      {
+        "name": "Harald Deathwolf",
+        "options": [
+          {
+            "models": 1,
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Hounds of Morkai",
+        "options": [
+          {
+            "models": 5,
+            "points": 95
+          },
+          {
+            "models": 10,
+            "points": 190
+          }
+        ]
+      },
+      {
+        "name": "Kratos",
+        "options": [
+          {
+            "models": 1,
+            "points": 240
+          }
+        ]
+      },
+      {
+        "name": "Krom Dragongaze",
+        "options": [
+          {
+            "models": 1,
+            "points": 65
+          }
+        ]
+      },
+      {
+        "name": "Land Raider Excelsior",
+        "options": [
+          {
+            "models": 1,
+            "points": 250
+          }
+        ]
+      },
+      {
+        "name": "Logan Grimnar on Stormrider",
+        "options": [
+          {
+            "models": 1,
+            "points": 180
+          }
+        ]
+      },
+      {
+        "name": "Long Fangs",
+        "options": [
+          {
+            "models": 5,
+            "points": 120
+          },
+          {
+            "models": 6,
+            "points": 145
+          }
+        ]
+      },
+      {
+        "name": "Lukas the Trickster",
+        "options": [
+          {
+            "models": 1,
+            "points": 50
+          }
+        ]
+      },
+      {
+        "name": "Mastodon",
+        "options": [
+          {
+            "models": 1,
+            "points": 540
+          }
+        ]
+      },
+      {
+        "name": "Predator Annihilator",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 135
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 145
+          }
+        ]
+      },
+      {
+        "name": "Predator Destructor",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 140
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 150
+          }
+        ]
+      },
+      {
+        "name": "Rapier Carrier",
+        "options": [
+          {
+            "models": 1,
+            "points": 90
+          }
+        ]
+      },
+      {
+        "name": "Razorback",
+        "options": [
+          {
+            "models": 1,
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Relic Razorback",
+        "options": [
+          {
+            "models": 1,
+            "points": 105
+          }
+        ]
+      },
+      {
+        "name": "Rhino Primaris",
+        "options": [
+          {
+            "models": 1,
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Scout Bike Squad",
+        "options": [
+          {
+            "models": 3,
+            "points": 75
+          },
+          {
+            "models": 6,
+            "points": 150
+          }
+        ]
+      },
+      {
+        "name": "Sicaran",
+        "options": [
+          {
+            "models": 1,
+            "points": 180
+          }
+        ]
+      },
+      {
+        "name": "Skyclaws",
+        "options": [
+          {
+            "models": 5,
+            "points": 90
+          },
+          {
+            "models": 10,
+            "points": 165
+          },
+          {
+            "models": 15,
+            "points": 240
+          }
+        ]
+      },
+      {
+        "name": "Stormfang Gunship",
+        "options": [
+          {
+            "models": 1,
+            "points": 300
+          }
+        ]
+      },
+      {
+        "name": "Stormhawk Interceptor",
+        "options": [
+          {
+            "models": 1,
+            "points": 155
+          }
+        ]
+      },
+      {
+        "name": "Stormraven Gunship",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 280
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 300
+          }
+        ]
+      },
+      {
+        "name": "Stormtalon Gunship",
+        "options": [
+          {
+            "models": 1,
+            "points": 165
+          }
+        ]
+      },
+      {
+        "name": "Stormwolf",
+        "options": [
+          {
+            "models": 1,
+            "points": 250
+          }
+        ]
+      },
+      {
+        "name": "Tarantula Air Defence Battery",
+        "options": [
+          {
+            "models": 1,
+            "points": 70
+          }
+        ]
+      },
+      {
+        "name": "Tarantula Sentry Battery",
+        "options": [
+          {
+            "models": 1,
+            "points": 30
+          },
+          {
+            "models": 2,
+            "points": 60
+          },
+          {
+            "models": 3,
+            "points": 90
+          }
+        ]
+      },
+      {
+        "name": "Terrax-Pattern Termite",
+        "options": [
+          {
+            "models": 1,
+            "points": 200
+          }
+        ]
+      },
+      {
+        "name": "Typhon",
+        "options": [
+          {
+            "models": 1,
+            "points": 320
+          }
+        ]
+      },
+      {
+        "name": "Vanguard Veteran Squad",
+        "options": [
+          {
+            "models": 5,
+            "points": 120
+          },
+          {
+            "models": 10,
+            "points": 240
+          }
+        ]
+      },
+      {
+        "name": "Venerable Dreadnought",
+        "options": [
+          {
+            "models": 1,
+            "points": 165
+          }
+        ]
+      },
+      {
+        "name": "Vindicator",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 185
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 200
+          }
+        ]
+      },
+      {
+        "name": "Whirlwind",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 175
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 195
+          }
+        ]
+      },
+      {
+        "name": "Wolf Guard",
+        "options": [
+          {
+            "models": 5,
+            "points": 85
+          },
+          {
+            "models": 10,
+            "points": 170
+          }
+        ]
+      },
+      {
+        "name": "Wolf Guard Battle Leader in Terminator Armour",
+        "options": [
+          {
+            "models": 1,
+            "points": 75
+          }
+        ]
+      },
+      {
+        "name": "Wolf Guard Battle Leader on Thunderwolf",
+        "options": [
+          {
+            "models": 1,
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Wolf Guard Pack Leader",
+        "options": [
+          {
+            "models": 1,
+            "points": 30
+          }
+        ]
+      },
+      {
+        "name": "Wolf Guard Pack Leader in Terminator Armour",
+        "options": [
+          {
+            "models": 1,
+            "points": 40
+          }
+        ]
+      },
+      {
+        "name": "Wolf Guard Pack Leader with Jump Pack",
+        "options": [
+          {
+            "models": 1,
+            "points": 35
+          }
+        ]
+      },
+      {
+        "name": "Wolf Lord on Thunderwolf",
+        "options": [
+          {
+            "models": 1,
+            "points": 100
+          }
+        ]
+      }
+    ],
+    "name": "Space Wolves",
+    "slug": "space-wolves",
+    "sourceUrl": "https://mfm.warhammer-community.com/en/space-wolves",
+    "subfactions": [
+      {
+        "name": "Space Marines",
+        "units": [
+          {
+            "name": "Aggressor Squad",
+            "options": [
+              {
+                "models": 3,
+                "points": 90
+              },
+              {
+                "models": 6,
+                "points": 180
+              }
+            ]
+          },
+          {
+            "name": "Ancient",
+            "options": [
+              {
+                "models": 1,
+                "points": 40
+              }
+            ]
+          },
+          {
+            "name": "Ancient in Terminator Armour",
+            "options": [
+              {
+                "models": 1,
+                "points": 75
+              }
+            ]
+          },
+          {
+            "name": "Assault Intercessor Squad",
+            "options": [
+              {
+                "models": 5,
+                "points": 85
+              },
+              {
+                "models": 10,
+                "points": 170
+              }
+            ]
+          },
+          {
+            "name": "Assault Intercessors with Jump Packs",
+            "options": [
+              {
+                "models": 5,
+                "note": "1st-2nd",
+                "points": 95
+              },
+              {
+                "models": 10,
+                "note": "1st-2nd",
+                "points": 190
+              },
+              {
+                "models": 5,
+                "note": "3rd+",
+                "points": 105
+              },
+              {
+                "models": 10,
+                "note": "3rd+",
+                "points": 200
+              }
+            ]
+          },
+          {
+            "name": "Astraeus",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st",
+                "points": 550
+              },
+              {
+                "models": 1,
+                "note": "2nd+",
+                "points": 650
+              }
+            ]
+          },
+          {
+            "name": "Ballistus Dreadnought",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-2nd",
+                "points": 150
+              },
+              {
+                "models": 1,
+                "note": "3rd+",
+                "points": 170
+              }
+            ]
+          },
+          {
+            "name": "Bladeguard Ancient",
+            "options": [
+              {
+                "models": 1,
+                "points": 70
+              }
+            ]
+          },
+          {
+            "name": "Bladeguard Veteran Squad",
+            "options": [
+              {
+                "models": 3,
+                "note": "1st-2nd",
+                "points": 90
+              },
+              {
+                "models": 6,
+                "note": "1st-2nd",
+                "points": 180
+              },
+              {
+                "models": 3,
+                "note": "3rd+",
+                "points": 110
+              },
+              {
+                "models": 6,
+                "note": "3rd+",
+                "points": 200
+              }
+            ]
+          },
+          {
+            "name": "Brutalis Dreadnought",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-2nd",
+                "points": 160
+              },
+              {
+                "models": 1,
+                "note": "3rd+",
+                "points": 180
+              }
+            ]
+          },
+          {
+            "name": "Captain",
+            "options": [
+              {
+                "models": 1,
+                "points": 90
+              }
+            ]
+          },
+          {
+            "name": "Captain in Gravis Armour",
+            "options": [
+              {
+                "models": 1,
+                "points": 90
+              }
+            ]
+          },
+          {
+            "name": "Captain in Phobos Armour",
+            "options": [
+              {
+                "models": 1,
+                "points": 75
+              }
+            ]
+          },
+          {
+            "name": "Captain in Terminator Armour",
+            "options": [
+              {
+                "models": 1,
+                "points": 90
+              }
+            ]
+          },
+          {
+            "name": "Captain on Bike",
+            "options": [
+              {
+                "models": 1,
+                "points": 110
+              }
+            ]
+          },
+          {
+            "name": "Captain with Jump Pack",
+            "options": [
+              {
+                "models": 1,
+                "points": 90
+              }
+            ]
+          },
+          {
+            "name": "Chaplain",
+            "options": [
+              {
+                "models": 1,
+                "points": 60
+              }
+            ]
+          },
+          {
+            "name": "Chaplain in Terminator Armour",
+            "options": [
+              {
+                "models": 1,
+                "points": 75
+              }
+            ]
+          },
+          {
+            "name": "Chaplain on Bike",
+            "options": [
+              {
+                "models": 1,
+                "points": 75
+              }
+            ]
+          },
+          {
+            "name": "Chaplain with Jump Pack",
+            "options": [
+              {
+                "models": 1,
+                "points": 75
+              }
+            ]
+          },
+          {
+            "name": "Company Heroes",
+            "options": [
+              {
+                "models": 4,
+                "note": "1st-2nd",
+                "points": 125
+              },
+              {
+                "models": 4,
+                "note": "3rd+",
+                "points": 145
+              }
+            ]
+          },
+          {
+            "name": "Desolation Squad",
+            "options": [
+              {
+                "models": 5,
+                "note": "1st-2nd",
+                "points": 140
+              },
+              {
+                "models": 5,
+                "note": "3rd+",
+                "points": 150
+              }
+            ],
+            "wargear": [
+              {
+                "name": "Vengor Launcher",
+                "points": 5
+              }
+            ]
+          },
+          {
+            "name": "Drop Pod",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-3rd",
+                "points": 60
+              },
+              {
+                "models": 1,
+                "note": "4th+",
+                "points": 70
+              }
+            ]
+          },
+          {
+            "name": "Eliminator Squad",
+            "options": [
+              {
+                "models": 3,
+                "points": 85
+              }
+            ]
+          },
+          {
+            "name": "Eradicator Squad with Heavy Bolters",
+            "options": [
+              {
+                "models": 3,
+                "note": "1st-2nd",
+                "points": 100
+              },
+              {
+                "models": 6,
+                "note": "1st-2nd",
+                "points": 215
+              },
+              {
+                "models": 3,
+                "note": "3rd+",
+                "points": 130
+              },
+              {
+                "models": 6,
+                "note": "3rd+",
+                "points": 245
+              }
+            ]
+          },
+          {
+            "name": "Eradicator Squad with Melta Rifles",
+            "options": [
+              {
+                "models": 3,
+                "note": "1st-2nd",
+                "points": 100
+              },
+              {
+                "models": 6,
+                "note": "1st-2nd",
+                "points": 200
+              },
+              {
+                "models": 3,
+                "note": "3rd+",
+                "points": 120
+              },
+              {
+                "models": 6,
+                "note": "3rd+",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "name": "Firestrike Servo-Turrets",
+            "options": [
+              {
+                "models": 1,
+                "points": 80
+              },
+              {
+                "models": 2,
+                "points": 160
+              }
+            ]
+          },
+          {
+            "name": "Gladiator Lancer",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-2nd",
+                "points": 160
+              },
+              {
+                "models": 1,
+                "note": "3rd+",
+                "points": 180
+              }
+            ]
+          },
+          {
+            "name": "Gladiator Reaper",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-2nd",
+                "points": 165
+              },
+              {
+                "models": 1,
+                "note": "3rd+",
+                "points": 185
+              }
+            ]
+          },
+          {
+            "name": "Gladiator Valiant",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-2nd",
+                "points": 165
+              },
+              {
+                "models": 1,
+                "note": "3rd+",
+                "points": 185
+              }
+            ]
+          },
+          {
+            "name": "Heavy Intercessor Squad",
+            "options": [
+              {
+                "models": 5,
+                "points": 115
+              },
+              {
+                "models": 10,
+                "points": 230
+              }
+            ]
+          },
+          {
+            "name": "Hellblaster Squad",
+            "options": [
+              {
+                "models": 5,
+                "note": "1st-2nd",
+                "points": 115
+              },
+              {
+                "models": 10,
+                "note": "1st-2nd",
+                "points": 230
+              },
+              {
+                "models": 5,
+                "note": "3rd+",
+                "points": 130
+              },
+              {
+                "models": 10,
+                "note": "3rd+",
+                "points": 245
+              }
+            ]
+          },
+          {
+            "name": "Impulsor",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-3rd",
+                "points": 70
+              },
+              {
+                "models": 1,
+                "note": "4th+",
+                "points": 80
+              }
+            ],
+            "wargear": [
+              {
+                "name": "Orbital Comms Array",
+                "points": 10
+              }
+            ]
+          },
+          {
+            "name": "Inceptor Squad",
+            "options": [
+              {
+                "models": 3,
+                "note": "1st-2nd",
+                "points": 130
+              },
+              {
+                "models": 6,
+                "note": "1st-2nd",
+                "points": 260
+              },
+              {
+                "models": 3,
+                "note": "3rd+",
+                "points": 150
+              },
+              {
+                "models": 6,
+                "note": "3rd+",
+                "points": 280
+              }
+            ]
+          },
+          {
+            "name": "Incursor Squad",
+            "options": [
+              {
+                "models": 5,
+                "note": "1st-2nd",
+                "points": 90
+              },
+              {
+                "models": 10,
+                "note": "1st-2nd",
+                "points": 170
+              },
+              {
+                "models": 5,
+                "note": "3rd+",
+                "points": 100
+              },
+              {
+                "models": 10,
+                "note": "3rd+",
+                "points": 180
+              }
+            ]
+          },
+          {
+            "name": "Infernus Squad",
+            "options": [
+              {
+                "models": 5,
+                "note": "1st-2nd",
+                "points": 95
+              },
+              {
+                "models": 10,
+                "note": "1st-2nd",
+                "points": 190
+              },
+              {
+                "models": 5,
+                "note": "3rd+",
+                "points": 105
+              },
+              {
+                "models": 10,
+                "note": "3rd+",
+                "points": 200
+              }
+            ]
+          },
+          {
+            "name": "Infiltrator Squad",
+            "options": [
+              {
+                "models": 5,
+                "points": 85
+              },
+              {
+                "models": 10,
+                "points": 150
+              }
+            ]
+          },
+          {
+            "name": "Intercessor Squad",
+            "options": [
+              {
+                "models": 5,
+                "points": 85
+              },
+              {
+                "models": 10,
+                "points": 170
+              }
+            ]
+          },
+          {
+            "name": "Invader Atvs",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-2nd",
+                "points": 65
+              },
+              {
+                "models": 2,
+                "note": "1st-2nd",
+                "points": 130
+              },
+              {
+                "models": 1,
+                "note": "3rd+",
+                "points": 75
+              },
+              {
+                "models": 2,
+                "note": "3rd+",
+                "points": 140
+              }
+            ],
+            "wargear": [
+              {
+                "name": "Multi-melta",
+                "points": 5
+              }
+            ]
+          },
+          {
+            "name": "Invictor Tactical Warsuit",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-2nd",
+                "points": 135
+              },
+              {
+                "models": 1,
+                "note": "3rd+",
+                "points": 150
+              }
+            ]
+          },
+          {
+            "name": "Judiciar",
+            "options": [
+              {
+                "models": 1,
+                "points": 50
+              }
+            ]
+          },
+          {
+            "name": "Land Raider",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st",
+                "points": 245
+              },
+              {
+                "models": 1,
+                "note": "2nd+",
+                "points": 265
+              }
+            ]
+          },
+          {
+            "name": "Land Raider Crusader",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st",
+                "points": 230
+              },
+              {
+                "models": 1,
+                "note": "2nd+",
+                "points": 250
+              }
+            ]
+          },
+          {
+            "name": "Land Raider Redeemer",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st",
+                "points": 245
+              },
+              {
+                "models": 1,
+                "note": "2nd+",
+                "points": 265
+              }
+            ]
+          },
+          {
+            "name": "Land Speeder",
+            "options": [
+              {
+                "models": 1,
+                "points": 105
+              }
+            ]
+          },
+          {
+            "name": "Librarian",
+            "options": [
+              {
+                "models": 1,
+                "points": 75
+              }
+            ]
+          },
+          {
+            "name": "Librarian in Phobos Armour",
+            "options": [
+              {
+                "models": 1,
+                "points": 75
+              }
+            ]
+          },
+          {
+            "name": "Librarian in Terminator Armour",
+            "options": [
+              {
+                "models": 1,
+                "points": 80
+              }
+            ]
+          },
+          {
+            "name": "Lieutenant",
+            "options": [
+              {
+                "models": 1,
+                "points": 50
+              }
+            ]
+          },
+          {
+            "name": "Lieutenant in Phobos Armour",
+            "options": [
+              {
+                "models": 1,
+                "points": 40
+              }
+            ]
+          },
+          {
+            "name": "Lieutenant with Combi-Weapon",
+            "options": [
+              {
+                "models": 1,
+                "points": 85
+              }
+            ]
+          },
+          {
+            "name": "Outrider Squad",
+            "options": [
+              {
+                "models": 3,
+                "points": 80
+              },
+              {
+                "models": 6,
+                "points": 160
+              }
+            ]
+          },
+          {
+            "name": "Redemptor Dreadnought",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-2nd",
+                "points": 170
+              },
+              {
+                "models": 1,
+                "note": "3rd+",
+                "points": 190
+              }
+            ],
+            "wargear": [
+              {
+                "name": "Macro plasma incinerator",
+                "points": 10
+              }
+            ]
+          },
+          {
+            "name": "Reiver Squad",
+            "options": [
+              {
+                "models": 5,
+                "points": 85
+              },
+              {
+                "models": 10,
+                "points": 165
+              }
+            ]
+          },
+          {
+            "name": "Repulsor",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-2nd",
+                "points": 190
+              },
+              {
+                "models": 1,
+                "note": "3rd+",
+                "points": 210
+              }
+            ]
+          },
+          {
+            "name": "Repulsor Executioner",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-2nd",
+                "points": 260
+              },
+              {
+                "models": 1,
+                "note": "3rd+",
+                "points": 280
+              }
+            ],
+            "wargear": [
+              {
+                "name": "Heavy Laser Destroyer",
+                "points": 10
+              }
+            ]
+          },
+          {
+            "name": "Rhino",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-3rd",
+                "points": 70
+              },
+              {
+                "models": 1,
+                "note": "4th+",
+                "points": 80
+              }
+            ]
+          },
+          {
+            "name": "Scout Squad",
+            "options": [
+              {
+                "models": 5,
+                "points": 65
+              },
+              {
+                "models": 10,
+                "points": 120
+              }
+            ]
+          },
+          {
+            "name": "Sternguard Veteran Squad",
+            "options": [
+              {
+                "models": 5,
+                "note": "1st-2nd",
+                "points": 105
+              },
+              {
+                "models": 10,
+                "note": "1st-2nd",
+                "points": 210
+              },
+              {
+                "models": 5,
+                "note": "3rd+",
+                "points": 120
+              },
+              {
+                "models": 10,
+                "note": "3rd+",
+                "points": 225
+              }
+            ]
+          },
+          {
+            "name": "Storm Speeder Hailstrike",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-2nd",
+                "points": 110
+              },
+              {
+                "models": 1,
+                "note": "3rd+",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "name": "Storm Speeder Hammerstrike",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-2nd",
+                "points": 140
+              },
+              {
+                "models": 1,
+                "note": "3rd+",
+                "points": 150
+              }
+            ]
+          },
+          {
+            "name": "Storm Speeder Thunderstrike",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-2nd",
+                "points": 140
+              },
+              {
+                "models": 1,
+                "note": "3rd+",
+                "points": 150
+              }
+            ]
+          },
+          {
+            "name": "Techmarine",
+            "options": [
+              {
+                "models": 1,
+                "points": 55
+              }
+            ]
+          },
+          {
+            "name": "Terminator Assault Squad",
+            "options": [
+              {
+                "models": 5,
+                "note": "1st-2nd",
+                "points": 170
+              },
+              {
+                "models": 10,
+                "note": "1st-2nd",
+                "points": 340
+              },
+              {
+                "models": 5,
+                "note": "3rd+",
+                "points": 210
+              },
+              {
+                "models": 10,
+                "note": "3rd+",
+                "points": 380
+              }
+            ],
+            "wargear": [
+              {
+                "name": "Storm Shield",
+                "points": 5
+              }
+            ]
+          },
+          {
+            "name": "Terminator Squad",
+            "options": [
+              {
+                "models": 5,
+                "note": "1st-2nd",
+                "points": 190
+              },
+              {
+                "models": 10,
+                "note": "1st-2nd",
+                "points": 380
+              },
+              {
+                "models": 5,
+                "note": "3rd+",
+                "points": 230
+              },
+              {
+                "models": 10,
+                "note": "3rd+",
+                "points": 420
+              }
+            ],
+            "wargear": [
+              {
+                "name": "Cyclone Missile Launcher",
+                "points": 10
+              }
+            ]
+          },
+          {
+            "name": "Thunderhawk Gunship",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st",
+                "points": 850
+              },
+              {
+                "models": 1,
+                "note": "2nd+",
+                "points": 950
+              }
+            ]
+          },
+          {
+            "name": "Vanguard Veteran Squad with Jump Packs",
+            "options": [
+              {
+                "models": 5,
+                "note": "1st-2nd",
+                "points": 110
+              },
+              {
+                "models": 10,
+                "note": "1st-2nd",
+                "points": 220
+              },
+              {
+                "models": 5,
+                "note": "3rd+",
+                "points": 130
+              },
+              {
+                "models": 10,
+                "note": "3rd+",
+                "points": 240
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "units": [
+      {
+        "name": "Arjac Rockfist",
+        "options": [
+          {
+            "models": 1,
+            "points": 105
+          }
+        ]
+      },
+      {
+        "name": "Bjorn the Fell-Handed",
+        "options": [
+          {
+            "models": 1,
+            "points": 160
+          }
+        ]
+      },
+      {
+        "name": "Blood Claws",
+        "options": [
+          {
+            "models": 10,
+            "points": 150
+          },
+          {
+            "models": 20,
+            "points": 290
+          }
+        ]
+      },
+      {
+        "name": "Fenrisian Wolves",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 45
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 75
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 50
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Grey Hunters",
+        "options": [
+          {
+            "models": 10,
+            "points": 180
+          }
+        ]
+      },
+      {
+        "name": "Iron Priest",
+        "options": [
+          {
+            "models": 1,
+            "points": 60
+          }
+        ]
+      },
+      {
+        "name": "Logan Grimnar",
+        "options": [
+          {
+            "models": 1,
+            "points": 150
+          }
+        ]
+      },
+      {
+        "name": "Murderfang",
+        "options": [
+          {
+            "models": 1,
+            "points": 150
+          }
+        ]
+      },
+      {
+        "name": "Njal Stormcaller",
+        "options": [
+          {
+            "models": 1,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Ragnar Blackmane",
+        "options": [
+          {
+            "models": 1,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Thunderwolf Cavalry",
+        "options": [
+          {
+            "models": 3,
+            "note": "1st-2nd",
+            "points": 115
+          },
+          {
+            "models": 6,
+            "note": "1st-2nd",
+            "points": 230
+          },
+          {
+            "models": 3,
+            "note": "3rd+",
+            "points": 145
+          },
+          {
+            "models": 6,
+            "note": "3rd+",
+            "points": 260
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Storm Shield",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Ulrik the Slayer",
+        "options": [
+          {
+            "models": 1,
+            "points": 90
+          }
+        ]
+      },
+      {
+        "name": "Venerable Dreadnought",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 130
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 140
+          }
+        ]
+      },
+      {
+        "name": "Wolf Guard Battle Leader",
+        "options": [
+          {
+            "models": 1,
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Wolf Guard Headtakers",
+        "options": [
+          {
+            "note": "3 Wolf Guard Headtakers (1st-2nd)",
+            "points": 85
+          },
+          {
+            "note": "3 Wolf Guard Headtakers, 3 Hunting Wolves (1st-2nd)",
+            "points": 115
+          },
+          {
+            "note": "6 Wolf Guard Headtakers (1st-2nd)",
+            "points": 170
+          },
+          {
+            "note": "6 Wolf Guard Headtakers, 6 Hunting Wolves (1st-2nd)",
+            "points": 230
+          },
+          {
+            "note": "3 Wolf Guard Headtakers (3rd+)",
+            "points": 95
+          },
+          {
+            "note": "3 Wolf Guard Headtakers, 3 Hunting Wolves (3rd+)",
+            "points": 125
+          },
+          {
+            "note": "6 Wolf Guard Headtakers (3rd+)",
+            "points": 180
+          },
+          {
+            "note": "6 Wolf Guard Headtakers, 6 Hunting Wolves (3rd+)",
+            "points": 240
+          }
+        ]
+      },
+      {
+        "name": "Wolf Guard Terminators",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 180
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 365
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 220
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 405
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Storm Shield",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Wolf Priest",
+        "options": [
+          {
+            "models": 1,
+            "points": 75
+          }
+        ]
+      },
+      {
+        "name": "Wolf Scouts",
+        "options": [
+          {
+            "models": 6,
+            "note": "1st-2nd",
+            "points": 95
+          },
+          {
+            "models": 12,
+            "note": "1st-2nd",
+            "points": 190
+          },
+          {
+            "models": 6,
+            "note": "3rd+",
+            "points": 105
+          },
+          {
+            "models": 12,
+            "note": "3rd+",
+            "points": 200
+          }
+        ]
+      },
+      {
+        "name": "Wulfen",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 90
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 180
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 105
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 195
+          }
+        ]
+      },
+      {
+        "name": "Wulfen Dreadnought",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 140
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 150
+          }
+        ]
+      },
+      {
+        "name": "Wulfen with Storm Shields",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 125
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 250
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 155
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 280
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "default": {
+    "canoptek-macrocytes": [
+      [
+        "Geomancer",
+        "support"
+      ]
+    ],
+    "canoptek-wraiths": [
+      [
+        "Technomancer",
+        "support"
+      ]
+    ],
+    "immortals": [
+      [
+        "Anrakyr the Traveller",
+        "leader"
+      ],
+      [
+        "Imotekh the Stormlord",
+        "leader"
+      ],
+      [
+        "Lord",
+        "leader"
+      ],
+      [
+        "Nemesor Zahndrekh",
+        "leader"
+      ],
+      [
+        "Overlord",
+        "leader"
+      ],
+      [
+        "Overlord with Translocation Shroud",
+        "leader"
+      ],
+      [
+        "Royal Warden",
+        "leader"
+      ],
+      [
+        "Trazyn the Infinite",
+        "leader"
+      ],
+      [
+        "Vargard Obyron",
+        "leader"
+      ],
+      [
+        "Chronomancer",
+        "support"
+      ],
+      [
+        "Geomancer",
+        "support"
+      ],
+      [
+        "Orikan the Diviner",
+        "support"
+      ],
+      [
+        "Plasmancer",
+        "support"
+      ],
+      [
+        "Psychomancer",
+        "support"
+      ],
+      [
+        "Technomancer",
+        "support"
+      ]
+    ],
+    "lokhust-destroyers": [
+      [
+        "Lokhust Lord",
+        "leader"
+      ],
+      [
+        "Murdermind",
+        "support",
+        {
+          "by": [
+            "Chronomancer",
+            "Geomancer",
+            "Plasmancer",
+            "Psychomancer",
+            "Technomancer"
+          ],
+          "det": "Cursed Legion",
+          "enh": 1
+        }
+      ]
+    ],
+    "lokhust-heavy-destroyers": [
+      [
+        "Lokhust Lord",
+        "leader"
+      ],
+      [
+        "Murdermind",
+        "support",
+        {
+          "by": [
+            "Chronomancer",
+            "Geomancer",
+            "Plasmancer",
+            "Psychomancer",
+            "Technomancer"
+          ],
+          "det": "Cursed Legion",
+          "enh": 1
+        }
+      ]
+    ],
+    "lychguard": [
+      [
+        "Imotekh the Stormlord",
+        "leader"
+      ],
+      [
+        "Lord",
+        "leader"
+      ],
+      [
+        "Nemesor Zahndrekh",
+        "leader"
+      ],
+      [
+        "Overlord",
+        "leader"
+      ],
+      [
+        "Overlord with Translocation Shroud",
+        "leader"
+      ],
+      [
+        "Trazyn the Infinite",
+        "leader"
+      ],
+      [
+        "Vargard Obyron",
+        "leader"
+      ]
+    ],
+    "necron-warriors": [
+      [
+        "Imotekh the Stormlord",
+        "leader"
+      ],
+      [
+        "Lord",
+        "leader"
+      ],
+      [
+        "Nemesor Zahndrekh",
+        "leader"
+      ],
+      [
+        "Overlord",
+        "leader"
+      ],
+      [
+        "Overlord with Translocation Shroud",
+        "leader"
+      ],
+      [
+        "Royal Warden",
+        "leader"
+      ],
+      [
+        "Trazyn the Infinite",
+        "leader"
+      ],
+      [
+        "Vargard Obyron",
+        "leader"
+      ],
+      [
+        "Chronomancer",
+        "support"
+      ],
+      [
+        "Geomancer",
+        "support"
+      ],
+      [
+        "Orikan the Diviner",
+        "support"
+      ],
+      [
+        "Plasmancer",
+        "support"
+      ],
+      [
+        "Psychomancer",
+        "support"
+      ],
+      [
+        "Technomancer",
+        "support"
+      ]
+    ],
+    "ophydian-destroyers": [
+      [
+        "Murdermind",
+        "support",
+        {
+          "by": [
+            "Chronomancer",
+            "Geomancer",
+            "Plasmancer",
+            "Psychomancer",
+            "Technomancer"
+          ],
+          "det": "Cursed Legion",
+          "enh": 1
+        }
+      ]
+    ],
+    "skorpekh-destroyers": [
+      [
+        "Skorpekh Lord",
+        "leader"
+      ],
+      [
+        "Murdermind",
+        "support",
+        {
+          "by": [
+            "Chronomancer",
+            "Geomancer",
+            "Plasmancer",
+            "Psychomancer",
+            "Technomancer"
+          ],
+          "det": "Cursed Legion",
+          "enh": 1
+        }
+      ]
+    ]
+  }
+}

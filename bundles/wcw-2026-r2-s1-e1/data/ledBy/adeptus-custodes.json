@@ -1,0 +1,172 @@
+{
+  "default": {
+    "allarus-custodians": [
+      [
+        "Shield‑Captain in Allarus Terminator Armour",
+        "leader"
+      ],
+      [
+        "Trajann Valoris",
+        "leader"
+      ]
+    ],
+    "aquilon-terminators-with-solarite-power-gauntlets": [
+      [
+        "Shield‑Captain in Allarus Terminator Armour",
+        "leader"
+      ],
+      [
+        "Trajann Valoris",
+        "leader"
+      ]
+    ],
+    "aquilon-terminators-with-solarite-power-talons": [
+      [
+        "Shield‑Captain in Allarus Terminator Armour",
+        "leader"
+      ],
+      [
+        "Trajann Valoris",
+        "leader"
+      ]
+    ],
+    "custodian-guard-sodality": [
+      [
+        "Blade Champion",
+        "leader"
+      ],
+      [
+        "Shield‑Captain",
+        "leader"
+      ],
+      [
+        "Trajann Valoris",
+        "leader"
+      ],
+      [
+        "Valerian",
+        "leader"
+      ]
+    ],
+    "custodian-guard-sodality-with-adrasite-spears": [
+      [
+        "Shield‑Captain",
+        "leader"
+      ],
+      [
+        "Trajann Valoris",
+        "leader"
+      ],
+      [
+        "Valerian",
+        "leader"
+      ]
+    ],
+    "custodian-guard-sodality-with-pyrithite-spears": [
+      [
+        "Shield‑Captain",
+        "leader"
+      ],
+      [
+        "Trajann Valoris",
+        "leader"
+      ],
+      [
+        "Valerian",
+        "leader"
+      ]
+    ],
+    "custodian-wardens": [
+      [
+        "Blade Champion",
+        "leader"
+      ],
+      [
+        "Shield‑Captain",
+        "leader"
+      ],
+      [
+        "Trajann Valoris",
+        "leader"
+      ],
+      [
+        "Valerian",
+        "leader"
+      ]
+    ],
+    "gyrfalcon-jetbike-sodality": [
+      [
+        "Shield‑Captain on Dawneagle Jetbike",
+        "leader"
+      ]
+    ],
+    "prosecutor-squad": [
+      [
+        "Aleya",
+        "leader"
+      ],
+      [
+        "Knight‑Centura",
+        "support"
+      ]
+    ],
+    "sagittarum-custodians-sodality": [
+      [
+        "Shield‑Captain",
+        "leader"
+      ],
+      [
+        "Trajann Valoris",
+        "leader"
+      ],
+      [
+        "Valerian",
+        "leader"
+      ]
+    ],
+    "sentinel-guard-sodality": [
+      [
+        "Blade Champion",
+        "leader"
+      ],
+      [
+        "Shield‑Captain",
+        "leader"
+      ],
+      [
+        "Trajann Valoris",
+        "leader"
+      ],
+      [
+        "Valerian",
+        "leader"
+      ]
+    ],
+    "vertus-praetors": [
+      [
+        "Shield‑Captain on Dawneagle Jetbike",
+        "leader"
+      ]
+    ],
+    "vigilator-squad": [
+      [
+        "Aleya",
+        "leader"
+      ],
+      [
+        "Knight‑Centura",
+        "support"
+      ]
+    ],
+    "witchseeker-squad": [
+      [
+        "Aleya",
+        "leader"
+      ],
+      [
+        "Knight‑Centura",
+        "support"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "default": {
+    "black-templars": [
+      {
+        "from": "space-marines",
+        "name": "Assault Brethren"
+      },
+      {
+        "from": "deathwatch",
+        "name": "Deathwatch Support"
+      },
+      {
+        "from": "space-marines",
+        "name": "Devastator Brethren"
+      },
+      {
+        "from": "space-marines",
+        "name": "Gauntlet Task Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Gravis Linebreaker Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Gravis Siege Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Ironclad Champions"
+      },
+      {
+        "from": "space-marines",
+        "name": "Ironstorm Spearhead"
+      },
+      {
+        "from": "space-marines",
+        "name": "Phobos Shadow Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Phobos Shock Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Stormlance Task Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Tactical Brethren"
+      },
+      {
+        "from": "space-marines",
+        "name": "Tacticus Attack Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Tacticus Firestorm Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Terminator Storm Force"
+      }
+    ],
+    "blood-angels": [
+      {
+        "from": "space-marines",
+        "name": "Assault Brethren"
+      },
+      {
+        "from": "deathwatch",
+        "name": "Deathwatch Support"
+      },
+      {
+        "from": "space-marines",
+        "name": "Devastator Brethren"
+      },
+      {
+        "from": "space-marines",
+        "name": "Gauntlet Task Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Gladius Task Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Gravis Linebreaker Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Gravis Siege Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Ironclad Champions"
+      },
+      {
+        "from": "space-marines",
+        "name": "Ironstorm Spearhead"
+      },
+      {
+        "from": "space-marines",
+        "name": "Phobos Shadow Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Phobos Shock Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Stormlance Task Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Tactical Brethren"
+      },
+      {
+        "from": "space-marines",
+        "name": "Tacticus Attack Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Tacticus Firestorm Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Terminator Storm Force"
+      }
+    ],
+    "dark-angels": [
+      {
+        "from": "space-marines",
+        "name": "Assault Brethren"
+      },
+      {
+        "from": "deathwatch",
+        "name": "Deathwatch Support"
+      },
+      {
+        "from": "space-marines",
+        "name": "Devastator Brethren"
+      },
+      {
+        "from": "space-marines",
+        "name": "Gauntlet Task Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Gladius Task Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Gravis Linebreaker Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Gravis Siege Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Ironclad Champions"
+      },
+      {
+        "from": "space-marines",
+        "name": "Ironstorm Spearhead"
+      },
+      {
+        "from": "space-marines",
+        "name": "Phobos Shadow Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Phobos Shock Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Stormlance Task Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Tactical Brethren"
+      },
+      {
+        "from": "space-marines",
+        "name": "Tacticus Attack Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Tacticus Firestorm Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Terminator Storm Force"
+      }
+    ],
+    "deathwatch": [
+      {
+        "from": "space-marines",
+        "name": "Assault Brethren"
+      },
+      {
+        "from": "space-marines",
+        "name": "Devastator Brethren"
+      },
+      {
+        "from": "space-marines",
+        "name": "Gauntlet Task Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Gladius Task Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Gravis Linebreaker Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Gravis Siege Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Ironclad Champions"
+      },
+      {
+        "from": "space-marines",
+        "name": "Ironstorm Spearhead"
+      },
+      {
+        "from": "space-marines",
+        "name": "Phobos Shadow Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Phobos Shock Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Stormlance Task Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Tactical Brethren"
+      },
+      {
+        "from": "space-marines",
+        "name": "Tacticus Attack Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Tacticus Firestorm Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Terminator Storm Force"
+      }
+    ],
+    "space-marines": [
+      {
+        "from": "deathwatch",
+        "name": "Deathwatch Support"
+      }
+    ],
+    "space-wolves": [
+      {
+        "from": "space-marines",
+        "name": "Assault Brethren"
+      },
+      {
+        "from": "deathwatch",
+        "name": "Deathwatch Support"
+      },
+      {
+        "from": "space-marines",
+        "name": "Devastator Brethren"
+      },
+      {
+        "from": "space-marines",
+        "name": "Gauntlet Task Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Gladius Task Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Gravis Linebreaker Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Gravis Siege Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Ironclad Champions"
+      },
+      {
+        "from": "space-marines",
+        "name": "Ironstorm Spearhead"
+      },
+      {
+        "from": "space-marines",
+        "name": "Phobos Shadow Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Phobos Shock Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Stormlance Task Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Tactical Brethren"
+      },
+      {
+        "from": "space-marines",
+        "name": "Tacticus Attack Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Tacticus Firestorm Force"
+      },
+      {
+        "from": "space-marines",
+        "name": "Terminator Storm Force"
+      }
+    ]
+  }
+}

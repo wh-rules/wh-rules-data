@@ -1,0 +1,1834 @@
+{
+  "default": {
+    "entries": [
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "e577ede9",
+        "kind": "ability",
+        "name": "Daemon Prince of Slaanesh with Wings: Stimulated by Pain",
+        "ref": {
+          "kind": "ability",
+          "unit": "daemon-prince-of-slaanesh-with-wings"
+        },
+        "reviewed": true,
+        "sid": "7a600218-890d-4259-a303-9a21f9a4ff83:daemon-prince-of-slaanesh-with-wings",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "target": "aura",
+            "value": -1,
+            "when": {
+              "en": "while that unit made a Charge move this turn",
+              "ru": "пока отряд совершил Charge в этом ходу"
+            }
+          }
+        ],
+        "hash": "bc5ddaee",
+        "kind": "ability",
+        "name": "Daemon Prince of Slaanesh: Excessive Vigour",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "SLAANESH"
+              ]
+            }
+          ],
+          "unit": "daemon-prince-of-slaanesh"
+        },
+        "reviewed": true,
+        "sid": "58688df3-babc-4cd6-be1d-7218763ca629:daemon-prince-of-slaanesh",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of a friendly SLAANESH INFANTRY unit",
+              "ru": "пока в пределах 3\" от дружественного отряда SLAANESH INFANTRY"
+            }
+          }
+        ],
+        "hash": "8318f2b9",
+        "kind": "ability",
+        "name": "Daemon Prince of Slaanesh: Lord of Excess",
+        "ref": {
+          "kind": "ability",
+          "unit": "daemon-prince-of-slaanesh"
+        },
+        "reviewed": true,
+        "sid": "d5100107-8fed-47bd-a7da-f399153361aa:daemon-prince-of-slaanesh",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against an enemy unit that is not Below Half-strength",
+              "ru": "по вражескому отряду, который не Below Half-strength"
+            }
+          }
+        ],
+        "hash": "189046ad",
+        "kind": "ability",
+        "name": "Defiler: Revel in Desecration",
+        "ref": {
+          "kind": "ability",
+          "unit": "defiler"
+        },
+        "reviewed": true,
+        "sid": "a4c58c7b-269b-4a5b-a1ec-476f7314b90e:defiler",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "0ffe6c64",
+        "kind": "ability",
+        "name": "Fulgrim: Beguiling Form",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "Daemon Primarch of Slaanesh",
+          "unit": "fulgrim"
+        },
+        "reviewed": true,
+        "sid": "8f5e1acd-04e7-4af5-9a10-260a57c23807:fulgrim",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Fights First",
+            "when": null
+          }
+        ],
+        "hash": "728f7122",
+        "kind": "ability",
+        "name": "Fulgrim: Daemonic Speed",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "Daemon Primarch of Slaanesh",
+          "unit": "fulgrim"
+        },
+        "reviewed": true,
+        "sid": "20022824-dde8-47a5-8860-7fcbe3c9af76:fulgrim",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "e93c66db",
+        "kind": "ability",
+        "name": "Fulgrim: Enthralling Hypnosis (Aura)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "Daemon Primarch of Slaanesh",
+          "unit": "fulgrim"
+        },
+        "reviewed": true,
+        "sid": "d43dee4b-b513-49f2-85d0-f84c7ab38017:fulgrim",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "target": "aura",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "959350b2",
+        "kind": "ability",
+        "name": "Keeper of Secrets: Daemon Lord of Slaanesh",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "LEGIONS OF EXCESS"
+              ]
+            }
+          ],
+          "unit": "keeper-of-secrets"
+        },
+        "reviewed": true,
+        "sid": "2c211c4e-657c-4c46-8cdf-23a93bd835cf:keeper-of-secrets",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "663cf92e",
+        "kind": "ability",
+        "name": "Keeper of Secrets: Mesmerising Form",
+        "ref": {
+          "kind": "ability",
+          "unit": "keeper-of-secrets"
+        },
+        "reviewed": true,
+        "sid": "94051d05-dee1-4839-9caf-8db7a2ffcc96:keeper-of-secrets",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 3,
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          },
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "6c534549",
+        "kind": "ability",
+        "name": "Lord Exultant: Euphoric Strikes",
+        "ref": {
+          "kind": "ability",
+          "unit": "lord-exultant"
+        },
+        "reviewed": true,
+        "sid": "ebc372fc-2320-4b92-b420-4ca74193af7f:lord-exultant",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "LETHAL HITS",
+            "when": null
+          }
+        ],
+        "hash": "abe50645",
+        "kind": "ability",
+        "name": "Lord Exultant: Perfectionists",
+        "ref": {
+          "kind": "ability",
+          "unit": "lord-exultant"
+        },
+        "reviewed": true,
+        "sid": "d189d02d-c6d5-4ef6-885c-3c7f6a5e86e4:lord-exultant",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "76c79108",
+        "kind": "ability",
+        "name": "Lord Kakophonist: Obsessive Annunciation",
+        "ref": {
+          "kind": "ability",
+          "unit": "lord-kakophonist"
+        },
+        "reviewed": true,
+        "sid": "d9fc4bde-fbfc-4b95-bab3-84d9815e112a:lord-kakophonist",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": null
+          }
+        ],
+        "hash": "342f0f9a",
+        "kind": "ability",
+        "name": "Lord Kaphrael of the Callous Blades: Peerless Killer",
+        "ref": {
+          "kind": "ability",
+          "unit": "lord-kaphrael-of-the-callous-blades"
+        },
+        "reviewed": true,
+        "sid": "c239d94d-5911-4afe-97d1-2ebf8182baec:lord-kaphrael-of-the-callous-blades",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Fights First",
+            "when": {
+              "en": "at the start of the Fight phase, while this model is not leading a unit",
+              "ru": "в начале Fight phase, пока модель не ведёт отряд"
+            }
+          }
+        ],
+        "hash": "5b8055de",
+        "kind": "ability",
+        "name": "Lucius the Eternal: Duellist’s Hubris",
+        "ref": {
+          "kind": "ability",
+          "unit": "lucius-the-eternal"
+        },
+        "reviewed": true,
+        "sid": "6bf37262-bc4e-4e29-ac45-6d8b05830003:lucius-the-eternal",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "while this model is below its Starting Strength",
+              "ru": "пока модель ниже Starting Strength"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "while this model is Below Half-strength",
+              "ru": "пока модель Below Half-strength"
+            }
+          }
+        ],
+        "hash": "5df84566",
+        "kind": "ability",
+        "name": "Maulerfiend: Glutton for Punishment",
+        "ref": {
+          "kind": "ability",
+          "unit": "maulerfiend"
+        },
+        "reviewed": true,
+        "sid": "09d47f55-a9bd-448a-81f2-a256005c8cd2:maulerfiend",
+        "ver": 925
+      },
+      {
+        "det": "Carnival of Excess",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while the unit is Empowered (within 6\" of the other half of the alliance)",
+              "ru": "пока отряд Empowered (в пределах 6\" от союзной половины)"
+            }
+          }
+        ],
+        "hash": "9cb3432e",
+        "kind": "detachmentRule",
+        "name": "Daemonic Empowerment",
+        "ref": {
+          "det": "carnival-of-excess",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "cd27788a-28c9-430c-8ccd-5916684fe11e",
+        "ver": 925
+      },
+      {
+        "det": "Court of the Phoenician",
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "in the Fight phase, if the unit made a Charge move this turn",
+              "ru": "в фазе боя, если юнит совершил чардж в этом ходу"
+            }
+          },
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "in the Fight phase, if the unit made a Charge move this turn",
+              "ru": "в фазе боя, если юнит совершил чардж в этом ходу"
+            }
+          }
+        ],
+        "hash": "89d4535f",
+        "kind": "detachmentRule",
+        "name": "Sensational Performance",
+        "ref": {
+          "det": "court-of-the-phoenician",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "3d5902bd-a800-4b2e-a1c2-1bb1f3d544ed",
+        "ver": 925
+      },
+      {
+        "det": "Frenzied Host",
+        "effects": [
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "BATTLELINE models only, until the end of the turn in which this unit was selected to make an advance or fall-back move",
+              "ru": "только модели BATTLELINE, до конца хода, в котором отряд выбран для advance/fall-back-перемещения"
+            }
+          }
+        ],
+        "hash": "f8ee1a07",
+        "kind": "detachmentRule",
+        "name": "Frantic Focus",
+        "ref": {
+          "det": "frenzied-host",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "b18e24ee-40da-4585-ae6e-d99bab42aab2",
+        "ver": 963
+      },
+      {
+        "det": "Peerless Bladesmen",
+        "effects": [
+          {
+            "cond": [
+              "swordsmanship-lethal",
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while resolving a fight after a Charge move, if this is the ability selected",
+              "ru": "при разрешении боя после Charge, если выбрана эта способность"
+            }
+          },
+          {
+            "cond": [
+              "swordsmanship-sustained",
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while resolving a fight after a Charge move, if this is the ability selected",
+              "ru": "при разрешении боя после Charge, если выбрана эта способность"
+            }
+          }
+        ],
+        "hash": "7922a85c",
+        "kind": "detachmentRule",
+        "name": "Exquisite Swordsmanship",
+        "ref": {
+          "det": "peerless-bladesmen",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "e52a05c5-4532-4ec3-a992-0b603e1c7474",
+        "ver": 925
+      },
+      {
+        "det": "Spectacle of Slaughter",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Fights First",
+            "when": null
+          }
+        ],
+        "hash": "2fae678d",
+        "kind": "detachmentRule",
+        "name": "Entitled to Victory",
+        "ref": {
+          "det": "spectacle-of-slaughter",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "74798d62-5f94-461d-9f8d-6e074b85f7ad",
+        "ver": 925
+      },
+      {
+        "det": "Callous Blades",
+        "effects": [
+          {
+            "on": "incoming",
+            "once": {
+              "dur": "phase",
+              "per": "army"
+            },
+            "op": "add",
+            "stat": "hit",
+            "target": "unit",
+            "value": -1,
+            "when": {
+              "en": "once per battle, for the Fight phase it is used in",
+              "ru": "раз за битву, на Fight phase, в которой использовано"
+            }
+          }
+        ],
+        "hash": "21c8743e",
+        "kind": "enhancement",
+        "name": "Martial Perfection",
+        "ref": {
+          "det": "cp:emperors-children",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "e61d3f70-e8b4-4f55-9641-2ab44322eb0d",
+        "ver": 995
+      },
+      {
+        "det": "Carnival of Excess",
+        "effects": [
+          {
+            "on": "profile",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "set",
+            "stat": "inv",
+            "value": "3+",
+            "when": {
+              "en": "once per battle, for the phase, after an enemy unit selects its targets",
+              "ru": "один раз за битву, на фазу, после того как вражеский отряд выбрал цели"
+            }
+          }
+        ],
+        "hash": "cd86219a",
+        "kind": "enhancement",
+        "name": "Dark Blessings",
+        "ref": {
+          "det": "carnival-of-excess",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "4dd6dec8-03dc-4b0a-919a-b00c3c34f726",
+        "ver": 925
+      },
+      {
+        "det": "Carnival of Excess",
+        "effects": [
+          {
+            "cond": [
+              "blocked-weapon"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "one melee weapon of the bearer, selected at the start of the battle",
+              "ru": "одно оружие ближнего боя носителя, выбранное в начале битвы"
+            }
+          },
+          {
+            "cond": [
+              "blocked-weapon"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": {
+              "en": "that same weapon, for the fight the bearer uses this Enhancement in",
+              "ru": "то же оружие, на бой, в котором носитель применил улучшение"
+            }
+          },
+          {
+            "cond": [
+              "blocked-weapon"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "that same weapon, for the fight the bearer uses this Enhancement in",
+              "ru": "то же оружие, на бой, в котором носитель применил улучшение"
+            }
+          },
+          {
+            "cond": [
+              "blocked-weapon"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "HAZARDOUS",
+            "when": {
+              "en": "that same weapon, for the fight the bearer uses this Enhancement in",
+              "ru": "то же оружие, на бой, в котором носитель применил улучшение"
+            }
+          }
+        ],
+        "hash": "9f4082d7",
+        "kind": "enhancement",
+        "name": "Possessed Blade",
+        "ref": {
+          "det": "carnival-of-excess",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "efd6eed5-0e4d-48be-bb5e-adeb57d9e386",
+        "ver": 925
+      },
+      {
+        "det": "Carnival of Excess",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "led",
+            "value": 6,
+            "when": {
+              "en": "each time the bearer's unit Advances, until the end of the phase (replacing the Advance roll)",
+              "ru": "каждый раз, когда юнит носителя совершает Advance, до конца фазы (вместо броска Advance)"
+            }
+          }
+        ],
+        "hash": "048159c1",
+        "kind": "enhancement",
+        "name": "Warp Walker",
+        "ref": {
+          "det": "carnival-of-excess",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "f8a976fd-eb1b-401d-8b99-50155fb04f4c",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading"
+        ],
+        "det": "Coterie of the Conceited",
+        "effects": [
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "profile",
+            "op": "improve",
+            "stat": "ld",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "while the bearer is leading that unit",
+              "ru": "пока носитель ведёт этот отряд"
+            }
+          },
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "while the bearer is leading that unit",
+              "ru": "пока носитель ведёт этот отряд"
+            }
+          }
+        ],
+        "hash": "c335f5f1",
+        "kind": "enhancement",
+        "name": "Pledge of Dark Glory",
+        "ref": {
+          "det": "coterie-of-the-conceited",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "739f0185-c80c-4793-8479-1d28bbad8a25",
+        "ver": 925
+      },
+      {
+        "det": "Court of the Phoenician",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "cdc77255",
+        "kind": "enhancement",
+        "name": "Exalted Patron",
+        "ref": {
+          "det": "court-of-the-phoenician",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "533b3db0-dd34-4863-84a7-bcd2eff86ea4",
+        "ver": 925
+      },
+      {
+        "det": "Court of the Phoenician",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "2923caab",
+        "kind": "enhancement",
+        "name": "Spiritsliver",
+        "ref": {
+          "det": "court-of-the-phoenician",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "cff5cb21-f229-467b-bbd6-faf82240043b",
+        "ver": 925
+      },
+      {
+        "det": "Elegant Brutes",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "scope": 1,
+            "stat": "ability",
+            "target": "led",
+            "value": "IGNORES COVER",
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Deep Strike",
+            "when": null
+          }
+        ],
+        "hash": "743a6cea",
+        "kind": "enhancement",
+        "name": "Cacophonic Accompaniment",
+        "note": "the Deep Strike in the first bullet is an ability, not a keyword or a weapon tag — nothing on the card carries it",
+        "ref": {
+          "det": "elegant-brutes",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "364cea95-8b5d-480c-930c-22d543f96013",
+        "ver": 925
+      },
+      {
+        "det": "Elegant Brutes",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "805adba2",
+        "kind": "enhancement",
+        "name": "Frenzied Ferocity (Upgrade)",
+        "ref": {
+          "det": "elegant-brutes",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "7949eef1-dbe1-42e6-9742-e18fea8532fe",
+        "ver": 925
+      },
+      {
+        "det": "Frenzied Host",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "4b6299cb",
+        "kind": "enhancement",
+        "name": "Euphoric Crown",
+        "ref": {
+          "det": "frenzied-host",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "07b233f5-b9d7-40a8-b114-06c572e45886",
+        "ver": 925
+      },
+      {
+        "det": "Frenzied Host",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "ap",
+            "target": "led",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "381682e9",
+        "kind": "enhancement",
+        "name": "Howling Plate",
+        "ref": {
+          "det": "frenzied-host",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "d4fcc7d3-1641-42fa-a300-9ba09b6776fb",
+        "ver": 925
+      },
+      {
+        "det": "Mercurial Host",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "melee-s-gt-t",
+            "when": null
+          },
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "target": "led",
+            "value": -1,
+            "vs": "melee-s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "d5ac5e2b",
+        "kind": "enhancement",
+        "name": "Intoxicating Musk",
+        "ref": {
+          "det": "mercurial-host",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "addaeefd-98ba-4ecc-acec-f55d28e38593",
+        "ver": 995
+      },
+      {
+        "det": "Mercurial Host",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "against a target below its Starting Strength",
+              "ru": "по цели ниже Starting Strength"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "against a target that is Below Half-strength",
+              "ru": "по цели Below Half-strength"
+            }
+          }
+        ],
+        "hash": "9e1c1938",
+        "kind": "enhancement",
+        "name": "Steeped in Suffering",
+        "ref": {
+          "det": "mercurial-host",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "4d0851fe-8c7b-4423-b688-916ad670d63e",
+        "ver": 925
+      },
+      {
+        "det": "Peerless Bladesmen",
+        "effects": [
+          {
+            "on": "unit",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Fights First",
+            "when": {
+              "en": "until the end of a Fight phase the bearer used this Enhancement in (once per battle)",
+              "ru": "до конца Fight phase, в которой носитель применил улучшение (раз за битву)"
+            }
+          }
+        ],
+        "hash": "4f1f261a",
+        "kind": "enhancement",
+        "name": "Blinding Speed",
+        "ref": {
+          "det": "peerless-bladesmen",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "a1f791ea-398b-4724-9736-83bd81581abc",
+        "ver": 925
+      },
+      {
+        "det": "Peerless Bladesmen",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "c0ee925e",
+        "kind": "enhancement",
+        "name": "Distortion",
+        "ref": {
+          "det": "peerless-bladesmen",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "75e69566-9f5c-408f-8780-7581588e4710",
+        "ver": 925
+      },
+      {
+        "det": "Rapid Evisceration",
+        "effects": [],
+        "hash": "c0f8388f",
+        "kind": "enhancement",
+        "name": "Heretek Adept",
+        "ref": {
+          "det": "rapid-evisceration",
+          "kind": "enhancement",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [
+                "EMPEROR'S CHILDREN VEHICLE"
+              ],
+              "targets": [
+                "EMPEROR'S CHILDREN VEHICLE"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "1f87a1d3-1319-475b-9cea-34ce5b50cd05",
+        "ver": 925
+      },
+      {
+        "det": "Slaanesh’s Chosen",
+        "effects": [
+          {
+            "cond": [
+              "unit-favoured-champions"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "led",
+            "value": 2,
+            "when": {
+              "en": "while the bearer's unit is your army's Favoured Champions",
+              "ru": "пока юнит носителя — Favoured Champions вашей армии"
+            }
+          }
+        ],
+        "hash": "964490da",
+        "kind": "enhancement",
+        "name": "Eager to Prove",
+        "ref": {
+          "det": "slaaneshs-chosen",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "b26e88ce-98ee-401d-a5c3-f12564e770e4",
+        "ver": 925
+      },
+      {
+        "det": "Slaanesh’s Chosen",
+        "effects": [
+          {
+            "cond": [
+              "unit-favoured-champions"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "while the bearer's unit is your army's Favoured Champions",
+              "ru": "пока отряд носителя — Favoured Champions вашей армии"
+            }
+          }
+        ],
+        "hash": "082e8442",
+        "kind": "enhancement",
+        "name": "Proud and Vainglorious",
+        "ref": {
+          "det": "slaaneshs-chosen",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "81c3ada4-c8c2-4493-948d-ac3e1d4838a0",
+        "ver": 925
+      },
+      {
+        "det": "Slaanesh’s Chosen",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "per attack against a Character unit",
+              "ru": "за атаку по отряду Character"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "per attack against a Character unit",
+              "ru": "за атаку по отряду Character"
+            }
+          },
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": null
+          }
+        ],
+        "hash": "dd60b2c1",
+        "kind": "enhancement",
+        "name": "Slayer of Champions",
+        "ref": {
+          "det": "slaaneshs-chosen",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "5b2cfa1f-d5ff-4096-a600-0edf9c647213",
+        "ver": 925
+      },
+      {
+        "det": "Spectacle of Slaughter",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "unit",
+            "value": 2,
+            "when": null
+          }
+        ],
+        "hash": "2ddd5ee8",
+        "kind": "enhancement",
+        "name": "Eager Patrons (Upgrade)",
+        "ref": {
+          "det": "spectacle-of-slaughter",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "87003c53-7a8a-49f0-bcc3-f07e7749ba3b",
+        "ver": 925
+      },
+      {
+        "det": "Callous Blades",
+        "effects": [],
+        "hash": "eee8ffc6",
+        "kind": "stratagem",
+        "name": "Duellist’s Death",
+        "ref": {
+          "det": "cp:emperors-children",
+          "kind": "stratagem",
+          "name": "Duellist’s Death"
+        },
+        "reviewed": true,
+        "sid": "157019a0-e16a-4ad5-a681-c4d760a06d78",
+        "ver": 995
+      },
+      {
+        "det": "Callous Blades",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "3463f06e",
+        "kind": "stratagem",
+        "name": "Shatter Strike",
+        "ref": {
+          "det": "cp:emperors-children",
+          "kind": "stratagem",
+          "name": "Shatter Strike"
+        },
+        "reviewed": true,
+        "sid": "4eb6db28-8316-4d64-a6ab-10333e405814",
+        "ver": 925
+      },
+      {
+        "det": "Carnival of Excess",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "214dc667",
+        "kind": "stratagem",
+        "name": "Uncanny Reactions",
+        "ref": {
+          "det": "carnival-of-excess",
+          "kind": "stratagem",
+          "name": "Uncanny Reactions"
+        },
+        "reviewed": true,
+        "sid": "76418992-162f-4dbb-b938-a63247cec6f4",
+        "ver": 995
+      },
+      {
+        "det": "Coterie of the Conceited",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "ap",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "068f028a",
+        "kind": "stratagem",
+        "name": "Armour of Abhorrence",
+        "ref": {
+          "det": "coterie-of-the-conceited",
+          "kind": "stratagem",
+          "name": "Armour of Abhorrence"
+        },
+        "reviewed": true,
+        "sid": "c31be1f6-a71d-44ba-85f7-b4b7021a6b9f",
+        "ver": 925
+      },
+      {
+        "det": "Coterie of the Conceited",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 6+",
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+ (vs mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "4cc38390",
+        "kind": "stratagem",
+        "name": "Protection of the Dark Prince",
+        "ref": {
+          "det": "coterie-of-the-conceited",
+          "kind": "stratagem",
+          "name": "Protection of the Dark Prince"
+        },
+        "reviewed": true,
+        "sid": "fadeb9fd-72d1-4595-bb0e-d16f1f67e57d",
+        "ver": 925
+      },
+      {
+        "det": "Court of the Phoenician",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "against targets within 12\"",
+              "ru": "против целей в 12\""
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "against targets within 12\"",
+              "ru": "против целей в 12\""
+            }
+          }
+        ],
+        "hash": "5cb3d608",
+        "kind": "stratagem",
+        "name": "Close-quarters Excruciation",
+        "ref": {
+          "det": "court-of-the-phoenician",
+          "kind": "stratagem",
+          "name": "Close-quarters Excruciation"
+        },
+        "reviewed": true,
+        "sid": "cd9eea99-4b5b-4a1f-b876-6a4d45610a7d",
+        "ver": 925
+      },
+      {
+        "det": "Court of the Phoenician",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "e353048d",
+        "kind": "stratagem",
+        "name": "Contemptuous Disregard",
+        "ref": {
+          "det": "court-of-the-phoenician",
+          "kind": "stratagem",
+          "name": "Contemptuous Disregard"
+        },
+        "reviewed": true,
+        "sid": "c6ca9284-bf28-49b7-8eac-7842282f0ba3",
+        "ver": 995
+      },
+      {
+        "det": "Elegant Brutes",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "ed2665e0",
+        "kind": "stratagem",
+        "name": "Delight in Agony",
+        "ref": {
+          "det": "elegant-brutes",
+          "kind": "stratagem",
+          "name": "Delight in Agony"
+        },
+        "reviewed": true,
+        "sid": "41273a31-ffea-438c-8b0a-3b1dc379b8eb",
+        "ver": 995
+      },
+      {
+        "det": "Elegant Brutes",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "s",
+            "value": 2,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "4e26dc3d",
+        "kind": "stratagem",
+        "name": "Psychedelic Soulflame",
+        "ref": {
+          "det": "elegant-brutes",
+          "kind": "stratagem",
+          "name": "Psychedelic Soulflame"
+        },
+        "reviewed": true,
+        "sid": "a66b93f1-8245-4923-9b41-2f77873604e0",
+        "ver": 925
+      },
+      {
+        "det": "Frenzied Host",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "ap",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "9e50d86d",
+        "kind": "stratagem",
+        "name": "Possessive Mania",
+        "ref": {
+          "det": "frenzied-host",
+          "kind": "stratagem",
+          "name": "Possessive Mania"
+        },
+        "reviewed": true,
+        "sid": "9d74338f-4543-4fb8-9cf5-ff661c0eaaba",
+        "ver": 925
+      },
+      {
+        "det": "Mercurial Host",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "214dc667",
+        "kind": "stratagem",
+        "name": "Capricious Reactions",
+        "ref": {
+          "det": "mercurial-host",
+          "kind": "stratagem",
+          "name": "Capricious Reactions"
+        },
+        "reviewed": true,
+        "sid": "f0c67e95-5910-4c56-8708-c9bff6bfa4e7",
+        "ver": 995
+      },
+      {
+        "det": "Mercurial Host",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "6d559221",
+        "kind": "stratagem",
+        "name": "Combat Stimms",
+        "ref": {
+          "det": "mercurial-host",
+          "kind": "stratagem",
+          "name": "Combat Stimms"
+        },
+        "reviewed": true,
+        "sid": "bd287e41-9e6c-40fd-87c2-93b59208d7a0",
+        "ver": 995
+      },
+      {
+        "det": "Mercurial Host",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 6,
+            "when": {
+              "en": "in a phase it Advanced (no Advance roll)",
+              "ru": "в фазе с Advance (без броска)"
+            }
+          }
+        ],
+        "hash": "f0ac49ee",
+        "kind": "stratagem",
+        "name": "Honour the Prince",
+        "ref": {
+          "det": "mercurial-host",
+          "kind": "stratagem",
+          "name": "Honour the Prince"
+        },
+        "reviewed": true,
+        "sid": "393f0842-1159-4dd0-920a-c98a41a15339",
+        "ver": 925
+      },
+      {
+        "det": "Mercurial Host",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "d91ad8da",
+        "kind": "stratagem",
+        "name": "Violent Excess",
+        "ref": {
+          "det": "mercurial-host",
+          "kind": "stratagem",
+          "name": "Violent Excess"
+        },
+        "reviewed": true,
+        "sid": "f69984fd-ed4d-4485-bc52-82866572b0b6",
+        "ver": 925
+      },
+      {
+        "det": "Peerless Bladesmen",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "381f84c3",
+        "kind": "stratagem",
+        "name": "Cruel Bladesman",
+        "ref": {
+          "det": "peerless-bladesmen",
+          "kind": "stratagem",
+          "name": "Cruel Bladesman"
+        },
+        "reviewed": true,
+        "sid": "3b83c2cd-a59c-475f-871c-88f9bc8b565b",
+        "ver": 925
+      },
+      {
+        "det": "Peerless Bladesmen",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "214dc667",
+        "kind": "stratagem",
+        "name": "Deft Parry",
+        "ref": {
+          "det": "peerless-bladesmen",
+          "kind": "stratagem",
+          "name": "Deft Parry"
+        },
+        "reviewed": true,
+        "sid": "240e2010-4374-4cce-97c4-f72eaac8a85e",
+        "ver": 995
+      },
+      {
+        "det": "Slaanesh’s Chosen",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "against the enemy unit this stratagem named",
+              "ru": "против юнита, названного стратагемой"
+            }
+          }
+        ],
+        "hash": "6db6bd62",
+        "kind": "stratagem",
+        "name": "Devoted Duellists",
+        "ref": {
+          "det": "slaaneshs-chosen",
+          "kind": "stratagem",
+          "name": "Devoted Duellists"
+        },
+        "reviewed": true,
+        "sid": "821d0384-2c3d-441d-9d74-dd36b23301ad",
+        "ver": 925
+      },
+      {
+        "det": "Slaanesh’s Chosen",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "for a CHARACTER that is not your Favoured Champions",
+              "ru": "для CHARACTER, не входящего в Favoured Champions"
+            }
+          }
+        ],
+        "hash": "b5596c56",
+        "kind": "stratagem",
+        "name": "Heightened Jealousy",
+        "ref": {
+          "det": "slaaneshs-chosen",
+          "kind": "stratagem",
+          "name": "Heightened Jealousy"
+        },
+        "reviewed": true,
+        "sid": "4eececb5-65f3-43ae-b6f0-a8396cd1528f",
+        "ver": 925
+      },
+      {
+        "det": "Spectacle of Slaughter",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "bf79a709",
+        "kind": "stratagem",
+        "name": "Honour Is for Fools",
+        "ref": {
+          "det": "spectacle-of-slaughter",
+          "kind": "stratagem",
+          "name": "Honour Is for Fools"
+        },
+        "reviewed": true,
+        "sid": "1e9e2ba7-f899-4d0b-b553-c8f46fa9deff",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "ld",
+            "value": "6+",
+            "when": null
+          }
+        ],
+        "hash": "5db4589c",
+        "kind": "wargear",
+        "name": "Daemonettes: Daemonic Icon",
+        "ref": {
+          "item": "daemonic icon",
+          "kind": "wargear",
+          "unit": "daemonettes"
+        },
+        "reviewed": true,
+        "sid": "79b389ec-f1c4-42b1-833d-4e1b86817377:daemonettes",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "9fccd872",
+        "kind": "wargear",
+        "name": "Daemonettes: Instrument of Chaos",
+        "ref": {
+          "item": "instrument of chaos",
+          "kind": "wargear",
+          "unit": "daemonettes"
+        },
+        "reviewed": true,
+        "sid": "e77cb7d8-d6cd-472a-a771-91fee3e48bcd:daemonettes",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "sv",
+            "value": "3+",
+            "when": null
+          }
+        ],
+        "hash": "2aa5c1c5",
+        "kind": "wargear",
+        "name": "Keeper of Secrets: Shining Aegis",
+        "ref": {
+          "item": "shining aegis",
+          "kind": "wargear",
+          "unit": "keeper-of-secrets"
+        },
+        "reviewed": true,
+        "sid": "5579aa57-632e-42a7-a12a-7ebc8c69e24d:keeper-of-secrets",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "ld",
+            "value": "6+",
+            "when": null
+          }
+        ],
+        "hash": "5db4589c",
+        "kind": "wargear",
+        "name": "Seekers: Daemonic Icon",
+        "ref": {
+          "item": "daemonic icon",
+          "kind": "wargear",
+          "unit": "seekers"
+        },
+        "reviewed": true,
+        "sid": "79b389ec-f1c4-42b1-833d-4e1b86817377:seekers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "9fccd872",
+        "kind": "wargear",
+        "name": "Seekers: Instrument of Chaos",
+        "ref": {
+          "item": "instrument of chaos",
+          "kind": "wargear",
+          "unit": "seekers"
+        },
+        "reviewed": true,
+        "sid": "e77cb7d8-d6cd-472a-a771-91fee3e48bcd:seekers",
+        "ver": 925
+      }
+    ],
+    "formatVersion": 1,
+    "slug": "emperors-children"
+  }
+}

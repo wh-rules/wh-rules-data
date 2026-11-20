@@ -1,0 +1,629 @@
+{
+  "default": {
+    "detachments": [
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Master Artisan",
+            "points": 20
+          },
+          {
+            "name": "Master Nemesine",
+            "points": 5
+          },
+          {
+            "name": "Master Regenesist",
+            "points": 25
+          },
+          {
+            "name": "Master Repugnomancer",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Covenite Coterie"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Hyperstimm Trafficker",
+            "points": 20
+          },
+          {
+            "name": "Periapt of Torments",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Exhibition of Slaughter"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Contempt for Rivals",
+            "points": 20
+          },
+          {
+            "name": "Towering Arrogance",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Kabalite Agonysts"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Informant Network",
+            "points": 30
+          },
+          {
+            "name": "Leechbite Plate",
+            "points": 5
+          },
+          {
+            "name": "Towering Arrogance",
+            "points": 20
+          },
+          {
+            "name": "Webway Awl",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Kabalite Cartel"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Crucible of Malediction",
+            "points": 15
+          },
+          {
+            "name": "Dark Vitality",
+            "points": 20
+          },
+          {
+            "name": "Eye of Spite",
+            "points": 15
+          },
+          {
+            "name": "Labyrinthine Cunning",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Realspace Raiders"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Archraider",
+            "points": 15
+          },
+          {
+            "name": "Conductor of Torment",
+            "points": 20
+          },
+          {
+            "name": "Reaper’s Cowl",
+            "points": 25
+          },
+          {
+            "name": "Webway Walker",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets",
+          "Purge the Foe"
+        ],
+        "name": "Reaper’s Wager"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "NIGHTMARE SHROUD",
+            "points": 20
+          },
+          {
+            "name": "Phantasmal Smoke",
+            "points": 15
+          },
+          {
+            "name": "Sadistic Fulcrum",
+            "points": 15
+          },
+          {
+            "name": "Spiteful Raider",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Skysplinter Assault"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Chronoshard",
+            "points": 15
+          },
+          {
+            "name": "Morghenna’s Curse",
+            "points": 20
+          },
+          {
+            "name": "Periapt of Torments",
+            "points": 25
+          },
+          {
+            "name": "Pharmacophex",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Spectacle of Spite"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Elixir of the Corpse Courts (Upgrade)",
+            "points": 15
+          },
+          {
+            "name": "Gnarlskin Experimentor",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Tools of Torment"
+      }
+    ],
+    "id": "drukhari",
+    "legends": [
+      {
+        "name": "Beastmaster",
+        "options": [
+          {
+            "models": 7,
+            "points": 135
+          }
+        ]
+      },
+      {
+        "name": "Court of the Archon",
+        "options": [
+          {
+            "models": 4,
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Grotesques",
+        "options": [
+          {
+            "models": 3,
+            "points": 80
+          },
+          {
+            "models": 6,
+            "points": 170
+          }
+        ]
+      },
+      {
+        "name": "Raven Strike Fighter",
+        "options": [
+          {
+            "models": 1,
+            "points": 170
+          }
+        ]
+      },
+      {
+        "name": "Reaper",
+        "options": [
+          {
+            "models": 1,
+            "points": 115
+          }
+        ]
+      },
+      {
+        "name": "Tantalus",
+        "options": [
+          {
+            "models": 1,
+            "points": 230
+          }
+        ]
+      },
+      {
+        "name": "Urien Rakarth",
+        "options": [
+          {
+            "models": 1,
+            "points": 80
+          }
+        ]
+      }
+    ],
+    "name": "Drukhari",
+    "slug": "drukhari",
+    "sourceUrl": "https://mfm.warhammer-community.com/en/drukhari",
+    "subfactions": [],
+    "units": [
+      {
+        "name": "Archon",
+        "options": [
+          {
+            "models": 1,
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Cronos",
+        "options": [
+          {
+            "models": 1,
+            "points": 55
+          },
+          {
+            "models": 2,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Drazhar",
+        "options": [
+          {
+            "models": 1,
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Haemonculus",
+        "options": [
+          {
+            "models": 1,
+            "points": 50
+          }
+        ]
+      },
+      {
+        "name": "Hand of the Archon",
+        "options": [
+          {
+            "models": 10,
+            "points": 115
+          }
+        ]
+      },
+      {
+        "name": "Hellions",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 90
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 180
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 100
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 190
+          }
+        ]
+      },
+      {
+        "name": "Incubi",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 90
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 180
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 100
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 190
+          }
+        ]
+      },
+      {
+        "name": "Kabalite Warriors",
+        "options": [
+          {
+            "models": 10,
+            "points": 110
+          }
+        ]
+      },
+      {
+        "name": "Lady Malys",
+        "options": [
+          {
+            "models": 1,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Lelith Hesperax",
+        "options": [
+          {
+            "models": 1,
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Mandrakes",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 80
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 160
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 90
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 170
+          }
+        ]
+      },
+      {
+        "name": "Raider",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-3rd",
+            "points": 75
+          },
+          {
+            "models": 1,
+            "note": "4th+",
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Ravager",
+        "options": [
+          {
+            "models": 1,
+            "points": 110
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Dark Lance",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Razorwing Jetfighter",
+        "options": [
+          {
+            "models": 1,
+            "points": 170
+          }
+        ]
+      },
+      {
+        "name": "Reavers",
+        "options": [
+          {
+            "models": 3,
+            "note": "1st-2nd",
+            "points": 75
+          },
+          {
+            "models": 6,
+            "note": "1st-2nd",
+            "points": 150
+          },
+          {
+            "models": 3,
+            "note": "3rd+",
+            "points": 85
+          },
+          {
+            "models": 6,
+            "note": "3rd+",
+            "points": 160
+          }
+        ]
+      },
+      {
+        "name": "Scourges with Heavy Weapons",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 110
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 120
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Haywire blaster",
+            "points": 5
+          },
+          {
+            "name": "Dark Lance",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Scourges with Shardcarbines",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 75
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Succubus",
+        "options": [
+          {
+            "models": 1,
+            "points": 50
+          }
+        ]
+      },
+      {
+        "name": "Talos",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 70
+          },
+          {
+            "models": 2,
+            "note": "1st-2nd",
+            "points": 140
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 80
+          },
+          {
+            "models": 2,
+            "note": "3rd+",
+            "points": 150
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Twin haywire blaster",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Venom",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-3rd",
+            "points": 65
+          },
+          {
+            "models": 1,
+            "note": "4th+",
+            "points": 75
+          }
+        ]
+      },
+      {
+        "name": "Voidraven Bomber",
+        "options": [
+          {
+            "models": 1,
+            "points": 245
+          }
+        ]
+      },
+      {
+        "name": "Wracks",
+        "options": [
+          {
+            "models": 5,
+            "points": 55
+          },
+          {
+            "models": 8,
+            "points": 90
+          },
+          {
+            "models": 10,
+            "points": 110
+          }
+        ]
+      },
+      {
+        "name": "Wyches",
+        "options": [
+          {
+            "models": 10,
+            "points": 90
+          }
+        ]
+      }
+    ]
+  }
+}
