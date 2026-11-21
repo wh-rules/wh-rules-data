@@ -1,0 +1,10 @@
+{
+  "default": {
+    "det:kroot-hunting-pack": [
+      {
+        "en": "Keywords\nIf you select this Detachment, Kroot Carnivore units from your army have the Battleline [gloss:keywords:keyword].",
+        "ru": "Ключевые слова\nЕсли вы выбираете этот [gloss:detachments:детачмент], юниты Kroot Carnivore вашей армии имеют [gloss:keywords:ключевое слово] Battleline."
+      }
+    ]
+  }
+}

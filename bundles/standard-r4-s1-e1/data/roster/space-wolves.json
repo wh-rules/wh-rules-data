@@ -1,0 +1,4484 @@
+{
+  "default": {
+    "allies": [
+      {
+        "ids": [
+          "titan-legions:reaver-titan",
+          "titan-legions:warbringer-nemesis-titan",
+          "titan-legions:warhound-titan",
+          "titan-legions:warlord-titan"
+        ],
+        "key": "adeptus-titanicus",
+        "lim": {
+          "Reaver Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warbringer Nemesis Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warhound Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warlord Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          }
+        },
+        "mutex": 1,
+        "name": "Adeptus Titanicus"
+      },
+      {
+        "free": [
+          {
+            "donor": [
+              "Inquisitor"
+            ],
+            "kw": "Retinue",
+            "recv": [
+              "Inquisitorial Agents"
+            ]
+          },
+          {
+            "donor": [
+              "Character",
+              "Voidfarers"
+            ],
+            "kw": "Retinue",
+            "recv": [
+              "Voidsmen-At-Arms"
+            ]
+          }
+        ],
+        "ids": [
+          "imperial-agents:aquila-kill-team",
+          "imperial-agents:callidus-assassin",
+          "imperial-agents:corvus-blackstar",
+          "imperial-agents:culexus-assassin",
+          "imperial-agents:deathwatch-kill-team",
+          "imperial-agents:eversor-assassin",
+          "imperial-agents:exaction-squad",
+          "imperial-agents:grey-knights-terminator-squad",
+          "imperial-agents:imperial-navy-breachers",
+          "imperial-agents:imperial-rhino",
+          "imperial-agents:inquisitor",
+          "imperial-agents:inquisitor-coteaz",
+          "imperial-agents:inquisitor-draxus",
+          "imperial-agents:inquisitor-greyfax",
+          "imperial-agents:inquisitor-kroyle",
+          "imperial-agents:inquisitorial-agents",
+          "imperial-agents:inquisitorial-chimera",
+          "imperial-agents:ministorum-priest",
+          "imperial-agents:navigator",
+          "imperial-agents:rogue-trader-entourage",
+          "imperial-agents:sanctifiers",
+          "imperial-agents:sisters-of-battle-immolator",
+          "imperial-agents:sisters-of-battle-squad",
+          "imperial-agents:subductor-squad",
+          "imperial-agents:vigilant-squad",
+          "imperial-agents:vindicare-assassin",
+          "imperial-agents:voidsmen-at-arms",
+          "imperial-agents:watch-captain-artemis",
+          "imperial-agents:watch-master"
+        ],
+        "key": "agents-of-the-imperium",
+        "lim": {
+          "Character": {
+            "incursion": 1,
+            "onslaught": 3,
+            "strike-force": 2
+          },
+          "Requisitioned": {
+            "incursion": 1,
+            "onslaught": 2,
+            "strike-force": 1
+          },
+          "Retinue": {
+            "incursion": 1,
+            "onslaught": 3,
+            "strike-force": 2
+          }
+        },
+        "name": "Agents of the Imperium",
+        "up": {
+          "imperial-agents:eversor-assassin": {
+            "1": 110
+          },
+          "imperial-agents:exaction-squad": {
+            "11": 85
+          },
+          "imperial-agents:grey-knights-terminator-squad": {
+            "5": 190
+          },
+          "imperial-agents:inquisitor": {
+            "1": 65
+          },
+          "imperial-agents:inquisitor-coteaz": {
+            "1": 95
+          },
+          "imperial-agents:inquisitor-draxus": {
+            "1": 110
+          },
+          "imperial-agents:inquisitorial-agents": {
+            "6": 60,
+            "11": 120,
+            "12": 120
+          },
+          "imperial-agents:navigator": {
+            "1": 75
+          },
+          "imperial-agents:rogue-trader-entourage": {
+            "4": 105
+          },
+          "imperial-agents:sisters-of-battle-immolator": {
+            "1": 105
+          },
+          "imperial-agents:sisters-of-battle-squad": {
+            "10": 110
+          },
+          "imperial-agents:subductor-squad": {
+            "11": 100
+          },
+          "imperial-agents:vindicare-assassin": {
+            "1": 125
+          },
+          "imperial-agents:voidsmen-at-arms": {
+            "6": 70
+          }
+        }
+      },
+      {
+        "enh": 1,
+        "ids": [
+          "deathwatch:corvus-blackstar",
+          "deathwatch:deathwatch-terminator-squad",
+          "deathwatch:deathwatch-veterans",
+          "deathwatch:decimus-kill-team",
+          "deathwatch:fortis-kill-team",
+          "deathwatch:indomitor-kill-team",
+          "deathwatch:spectrus-kill-team",
+          "deathwatch:talonstrike-kill-team",
+          "deathwatch:watch-captain-artemis",
+          "deathwatch:watch-master"
+        ],
+        "key": "deathwatch",
+        "name": "Deathwatch",
+        "pts": {
+          "incursion": 500,
+          "onslaught": 500,
+          "strike-force": 500
+        }
+      },
+      {
+        "ids": [
+          "imperial-knights:acastus-knight-asterius",
+          "imperial-knights:acastus-knight-porphyrion",
+          "imperial-knights:armiger-helverin",
+          "imperial-knights:armiger-moirax",
+          "imperial-knights:armiger-warglaive",
+          "imperial-knights:canis-rex",
+          "imperial-knights:cerastus-knight-acheron",
+          "imperial-knights:cerastus-knight-atrapos",
+          "imperial-knights:cerastus-knight-castigator",
+          "imperial-knights:cerastus-knight-lancer",
+          "imperial-knights:knight-castellan",
+          "imperial-knights:knight-crusader",
+          "imperial-knights:knight-defender",
+          "imperial-knights:knight-destrier",
+          "imperial-knights:knight-errant",
+          "imperial-knights:knight-gallant",
+          "imperial-knights:knight-paladin",
+          "imperial-knights:knight-preceptor",
+          "imperial-knights:knight-valiant",
+          "imperial-knights:knight-warden",
+          "imperial-knights:questoris-knight-magaera",
+          "imperial-knights:questoris-knight-styrix"
+        ],
+        "key": "imperial-knights",
+        "lim": {
+          "Armiger": {
+            "incursion": 3,
+            "onslaught": 3,
+            "strike-force": 3
+          },
+          "Titanic": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          }
+        },
+        "mutex": 1,
+        "name": "Imperial Knights"
+      }
+    ],
+    "detachments": [
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "A Giant Amongst Giants",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Astartes"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Preyslayer",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Astartes"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Champions of Fenris",
+        "sid": "853bae7f-116c-4b25-9bee-3e48782e19b6",
+        "unique": "TERMINATOR"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "attach": [
+              {
+                "to": "wulfen-with-storm-shields",
+                "type": "leader"
+              },
+              {
+                "to": "wulfen",
+                "type": "leader"
+              }
+            ],
+            "name": "Wolf-Touched",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Astartes"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Hunter's Guile",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Astartes"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Saga of the Beastslayer",
+        "sid": "074e6c80-307a-43b8-a644-c3fab8059e9a"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Grimnar's Mark",
+            "pts": 15,
+            "req": [
+              {
+                "ds": "Captain in Terminator Armour"
+              },
+              {
+                "fac": [
+                  "Adeptus Astartes"
+                ],
+                "kw": [
+                  "Terminator",
+                  "Captain"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Howlmaw",
+            "pts": 15,
+            "req": [
+              {
+                "ds": "Wolf Priest"
+              },
+              {
+                "kw": [
+                  "Wolf Priest"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Skjald's Foretelling",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Wolf Guard",
+                  "Battle Leader"
+                ]
+              },
+              {
+                "ds": "Wolf Guard Battle Leader"
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Chariots of the Storm",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Astartes"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Saga of the Great Wolf",
+        "sid": "ec410692-849f-4939-898b-2b88b8125892"
+      }
+    ],
+    "name": "Space Wolves",
+    "sharedDetachmentFrom": {
+      "Deathwatch Support": "deathwatch"
+    },
+    "sharedDetachments": [
+      "Assault Brethren",
+      "Deathwatch Support",
+      "Devastator Brethren",
+      "Gauntlet Task Force",
+      "Gladius Task Force",
+      "Gravis Linebreaker Force",
+      "Gravis Siege Force",
+      "Ironclad Champions",
+      "Ironstorm Spearhead",
+      "Phobos Shadow Force",
+      "Phobos Shock Force",
+      "Stormlance Task Force",
+      "Tactical Brethren",
+      "Tacticus Attack Force",
+      "Tacticus Firestorm Force",
+      "Terminator Storm Force"
+    ],
+    "sharedUnitIds": [
+      "aggressor-squad",
+      "ancient",
+      "ancient-in-terminator-armour",
+      "assault-intercessor-squad",
+      "assault-intercessors-with-jump-packs",
+      "astraeus",
+      "ballistus-dreadnought",
+      "bladeguard-ancient",
+      "bladeguard-veteran-squad",
+      "brutalis-dreadnought",
+      "captain",
+      "captain-in-gravis-armour",
+      "captain-in-phobos-armour",
+      "captain-in-terminator-armour",
+      "captain-on-bike",
+      "captain-with-jump-pack",
+      "centurion-assault-squad",
+      "centurion-devastator-squad",
+      "cerberus",
+      "chaplain",
+      "chaplain-in-terminator-armour",
+      "chaplain-on-bike",
+      "chaplain-with-jump-pack",
+      "company-heroes",
+      "desolation-squad",
+      "dreadnought",
+      "drop-pod",
+      "eliminator-squad",
+      "eradicator-squad-with-heavy-bolters",
+      "eradicator-squad-with-melta-rifles",
+      "falchion",
+      "firestrike-servo-turrets",
+      "gladiator-lancer",
+      "gladiator-reaper",
+      "gladiator-valiant",
+      "hammerfall-bunker",
+      "heavy-intercessor-squad",
+      "hellblaster-squad",
+      "impulsor",
+      "inceptor-squad",
+      "incursor-squad",
+      "infernus-squad",
+      "infiltrator-squad",
+      "intercessor-squad",
+      "invader-atvs",
+      "invictor-tactical-warsuit",
+      "judiciar",
+      "kratos",
+      "land-raider",
+      "land-raider-crusader",
+      "land-raider-excelsior",
+      "land-raider-redeemer",
+      "land-speeder",
+      "librarian",
+      "librarian-in-phobos-armour",
+      "librarian-in-terminator-armour",
+      "lieutenant",
+      "lieutenant-in-phobos-armour",
+      "lieutenant-with-combi-weapon",
+      "mastodon",
+      "outrider-squad",
+      "predator-annihilator",
+      "predator-destructor",
+      "rapier-carrier",
+      "razorback",
+      "redemptor-dreadnought",
+      "reiver-squad",
+      "relic-razorback",
+      "repulsor",
+      "repulsor-executioner",
+      "rhino",
+      "rhino-primaris",
+      "scout-bike-squad",
+      "scout-squad",
+      "sicaran",
+      "sternguard-veteran-squad",
+      "storm-speeder-hailstrike",
+      "storm-speeder-hammerstrike",
+      "storm-speeder-thunderstrike",
+      "stormhawk-interceptor",
+      "stormraven-gunship",
+      "stormtalon-gunship",
+      "tarantula-air-defence-battery",
+      "tarantula-sentry-battery",
+      "techmarine",
+      "terminator-assault-squad",
+      "terminator-squad",
+      "terrax-pattern-termite",
+      "thunderhawk-gunship",
+      "typhon",
+      "vanguard-veteran-squad",
+      "vanguard-veteran-squad-with-jump-packs",
+      "vindicator",
+      "whirlwind"
+    ],
+    "slug": "space-wolves",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2749,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "arjac-rockfist",
+        "kws": [
+          "Character",
+          "Epic Hero",
+          "Imperium",
+          "Infantry",
+          "Terminator"
+        ],
+        "leads": [
+          {
+            "to": "wolf-guard-terminators",
+            "type": "leader"
+          },
+          {
+            "to": "terminator-assault-squad",
+            "type": "leader"
+          },
+          {
+            "to": "terminator-squad",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Arjac Rockfist",
+        "sid": "a8dc6d02-1303-4d45-bbca-4ddb1406451c",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 105
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2750,
+                1
+              ],
+              [
+                2751,
+                1
+              ],
+              [
+                2752,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2753
+              ],
+              [
+                2754
+              ]
+            ],
+            "rep": [
+              2750
+            ],
+            "t": 883
+          }
+        ],
+        "id": "bjorn-the-fell-handed",
+        "kws": [
+          "Character",
+          "Dreadnought",
+          "Epic Hero",
+          "Imperium",
+          "Smoke",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Bjorn the Fell-handed",
+        "sid": "c5acd20b-d9dc-4ba1-800e-1f9157533cda",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 160
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2755,
+                1
+              ],
+              [
+                2756,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                2755,
+                1
+              ],
+              [
+                2756,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2757
+              ]
+            ],
+            "rep": [
+              2756
+            ],
+            "t": 884
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2758
+              ]
+            ],
+            "rep": [
+              2755
+            ],
+            "t": 885
+          }
+        ],
+        "id": "blood-claws",
+        "kws": [
+          "Battleline",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Tacticus"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Blood Claw Pack Leader"
+          },
+          {
+            "n": "Blood Claw"
+          }
+        ],
+        "name": "Blood Claws",
+        "sid": "567ac9f4-d173-49f4-bbb4-99bb63bea0f5",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 150
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                19
+              ]
+            ],
+            "per": [
+              20,
+              20
+            ],
+            "pts": 290
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1,
+                1
+              ],
+              [
+                3430,
+                1
+              ],
+              [
+                3431,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "id": "canis-wolfborn",
+        "kws": [
+          "Mounted",
+          "Character",
+          "Epic Hero",
+          "Imperium",
+          "Canis Wolfborn"
+        ],
+        "leads": [
+          {
+            "to": "fenrisian-wolves",
+            "type": "leader"
+          },
+          {
+            "to": "thunderwolf-cavalry",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Canis Wolfborn",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 75
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2759,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "char": 1,
+          "legends": 1
+        },
+        "id": "cyberwolf",
+        "kws": [
+          "Beast",
+          "Character",
+          "Imperium",
+          "Cyberwolf"
+        ],
+        "leads": [
+          {
+            "to": "fenrisian-wolves",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Cyberwolf",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 20
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2759,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {},
+        "id": "fenrisian-wolves",
+        "kws": [
+          "Beasts",
+          "Imperium"
+        ],
+        "linked": 1,
+        "name": "Fenrisian Wolves",
+        "sid": "3b736e89-e3f2-433f-9016-eab60e59303d",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 45
+          },
+          {
+            "per": [
+              10,
+              10
+            ],
+            "pts": 75
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 5
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2760,
+                1
+              ],
+              [
+                2761,
+                1
+              ],
+              [
+                2762,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                2760,
+                1
+              ],
+              [
+                2761,
+                1
+              ],
+              [
+                2762,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2763
+              ],
+              [
+                2764
+              ]
+            ],
+            "rep": [
+              2762
+            ],
+            "t": 886
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2765
+              ]
+            ],
+            "rep": [
+              2760
+            ],
+            "t": 887
+          }
+        ],
+        "id": "grey-hunters",
+        "kws": [
+          "Battleline",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Tacticus"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Grey Hunter Pack Leader"
+          },
+          {
+            "n": "Grey Hunter"
+          }
+        ],
+        "name": "Grey Hunters",
+        "sid": "e2253101-0c6c-4716-a309-5ba4d9ce03a2",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 180
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1,
+                1
+              ],
+              [
+                3430,
+                1
+              ],
+              [
+                3432,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "id": "harald-deathwolf",
+        "kws": [
+          "Mounted",
+          "Character",
+          "Epic Hero",
+          "Grenades",
+          "Imperium",
+          "Captain",
+          "Harald Deathwolf"
+        ],
+        "leads": [
+          {
+            "to": "thunderwolf-cavalry",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Harald Deathwolf",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 85
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3433,
+                1
+              ],
+              [
+                3434,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3433,
+                1
+              ],
+              [
+                3434,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "hounds-of-morkai",
+        "kws": [
+          "Infantry",
+          "Grenades",
+          "Smoke",
+          "Imperium",
+          "Phobos",
+          "Hounds of Morkai"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Hound of Morkai Pack Leader"
+          },
+          {
+            "n": "Hounds of Morkai"
+          }
+        ],
+        "name": "Hounds of Morkai",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 95
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 190
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2766,
+                1
+              ],
+              [
+                2767,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "iron-priest",
+        "kws": [
+          "Character",
+          "Imperium",
+          "Infantry",
+          "Techmarine"
+        ],
+        "leads": [
+          {
+            "to": "blood-claws",
+            "type": "leader"
+          },
+          {
+            "to": "grey-hunters",
+            "type": "leader"
+          },
+          {
+            "to": "wolf-guard-headtakers",
+            "type": "leader"
+          },
+          {
+            "to": "intercessor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "assault-intercessor-squad",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Iron Priest",
+        "sid": "79db442b-77b7-4244-86ca-0c9d3798318e",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1,
+                1
+              ],
+              [
+                3435,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "id": "krom-dragongaze",
+        "kws": [
+          "Infantry",
+          "Character",
+          "Epic Hero",
+          "Grenades",
+          "Imperium",
+          "Captain",
+          "Krom Dragongaze"
+        ],
+        "leads": [
+          {
+            "to": "blood-claws",
+            "type": "leader"
+          },
+          {
+            "to": "grey-hunters",
+            "type": "leader"
+          },
+          {
+            "to": "wolf-guard",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Krom Dragongaze",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 65
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2768,
+                1
+              ],
+              [
+                2769,
+                1
+              ],
+              [
+                2770,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "logan-grimnar",
+        "kws": [
+          "Chapter Master",
+          "Character",
+          "Epic Hero",
+          "Imperium",
+          "Infantry",
+          "Terminator"
+        ],
+        "leads": [
+          {
+            "to": "wolf-guard-terminators",
+            "type": "leader"
+          },
+          {
+            "to": "terminator-squad",
+            "type": "leader"
+          },
+          {
+            "to": "terminator-assault-squad",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Logan Grimnar",
+        "sid": "3786f037-dab8-4c69-9173-3946fe7044b3",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 150
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                38,
+                1
+              ],
+              [
+                3436,
+                1
+              ],
+              [
+                3437,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "id": "logan-grimnar-on-stormrider",
+        "kws": [
+          "Mounted",
+          "Character",
+          "Epic Hero",
+          "Imperium",
+          "Chapter Master",
+          "Logan Grimnar on Stormrider"
+        ],
+        "leads": [
+          {
+            "to": "thunderwolf-cavalry",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Logan Grimnar on Stormrider",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 180
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1501,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                390,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                1501,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                390,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                2438
+              ],
+              [
+                65
+              ],
+              [
+                2993
+              ],
+              [
+                580
+              ],
+              [
+                1096
+              ],
+              [
+                630
+              ],
+              [
+                1681
+              ]
+            ],
+            "rep": [
+              1501
+            ],
+            "t": 1161
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                334
+              ],
+              [
+                3211
+              ],
+              [
+                1504
+              ],
+              [
+                643
+              ],
+              [
+                571
+              ]
+            ],
+            "rep": [
+              1501
+            ],
+            "t": 1162
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1039
+              ],
+              [
+                1045
+              ],
+              [
+                13
+              ]
+            ],
+            "rep": [
+              390
+            ],
+            "t": 1163
+          }
+        ],
+        "id": "long-fangs",
+        "kws": [
+          "Infantry",
+          "Grenades",
+          "Imperium",
+          "Long Fangs"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Long Fang Pack Leader"
+          },
+          {
+            "n": "Long Fangs"
+          }
+        ],
+        "name": "Long Fangs",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 120
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5
+              ]
+            ],
+            "per": [
+              6,
+              6
+            ],
+            "pts": 145
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                571,
+                1
+              ],
+              [
+                3438,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "id": "lukas-the-trickster",
+        "kws": [
+          "Infantry",
+          "Character",
+          "Epic Hero",
+          "Grenades",
+          "Imperium",
+          "Lukas the Trickster"
+        ],
+        "leads": [
+          {
+            "to": "blood-claws",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Lukas the Trickster",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 50
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2771,
+                1
+              ],
+              [
+                2772,
+                1
+              ],
+              [
+                2773,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "noWarlord": 1
+        },
+        "id": "murderfang",
+        "kws": [
+          "Character",
+          "Dreadnought",
+          "Epic Hero",
+          "Imperium",
+          "Vehicle",
+          "Walker",
+          "Wulfen"
+        ],
+        "linked": 1,
+        "name": "Murderfang",
+        "sid": "084406d6-188c-4a7b-a783-a45599ea6f0e",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 150
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2774,
+                1
+              ],
+              [
+                2775,
+                1
+              ],
+              [
+                2776,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "njal-stormcaller",
+        "kws": [
+          "Character",
+          "Epic Hero",
+          "Imperium",
+          "Infantry",
+          "Psyker",
+          "Tacticus"
+        ],
+        "leads": [
+          {
+            "to": "blood-claws",
+            "type": "leader"
+          },
+          {
+            "to": "grey-hunters",
+            "type": "leader"
+          },
+          {
+            "to": "wolf-guard-headtakers",
+            "type": "leader"
+          },
+          {
+            "to": "intercessor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "assault-intercessor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "bladeguard-veteran-squad",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Njal Stormcaller",
+        "sid": "a66189e5-5ec5-4dd6-9a09-b4a465115668",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2777,
+                1
+              ],
+              [
+                2778,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "ragnar-blackmane",
+        "kws": [
+          "Captain",
+          "Character",
+          "Epic Hero",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Tacticus"
+        ],
+        "leads": [
+          {
+            "to": "blood-claws",
+            "type": "leader"
+          },
+          {
+            "to": "wolf-guard-headtakers",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Ragnar Blackmane",
+        "sid": "47b8725f-328d-4100-adf8-28680b6d45aa",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1,
+                1
+              ],
+              [
+                1039,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                1,
+                1
+              ],
+              [
+                1039,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                571
+              ]
+            ],
+            "rep": [
+              1
+            ],
+            "t": 1164
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1045
+              ],
+              [
+                13
+              ]
+            ],
+            "rep": [
+              1039
+            ],
+            "t": 1165
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                [
+                  [
+                    571,
+                    1
+                  ],
+                  [
+                    1039,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    334,
+                    1
+                  ],
+                  [
+                    390,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    3211,
+                    1
+                  ],
+                  [
+                    390,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1504,
+                    1
+                  ],
+                  [
+                    390,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    643,
+                    1
+                  ],
+                  [
+                    390,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1,
+              1039
+            ],
+            "t": 1166
+          }
+        ],
+        "id": "skyclaws",
+        "kws": [
+          "Infantry",
+          "Jump Pack",
+          "Fly",
+          "Grenades",
+          "Imperium",
+          "Skyclaws"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Skyclaw Pack Leader"
+          },
+          {
+            "n": "Skyclaws"
+          }
+        ],
+        "name": "Skyclaws",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 90
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 165
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                10,
+                14
+              ]
+            ],
+            "per": [
+              11,
+              15
+            ],
+            "pts": 240
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3439,
+                1
+              ],
+              [
+                1602,
+                2
+              ],
+              [
+                3440,
+                1
+              ],
+              [
+                598,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    61,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    60,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1602
+            ],
+            "t": 1167
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1099
+              ]
+            ],
+            "rep": [
+              3440
+            ],
+            "t": 1168
+          }
+        ],
+        "id": "stormfang-gunship",
+        "kws": [
+          "Vehicle",
+          "Aircraft",
+          "Fly",
+          "Transport",
+          "Imperium",
+          "Stormfang Gunship"
+        ],
+        "linked": 1,
+        "name": "Stormfang Gunship",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 300
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1602,
+                2
+              ],
+              [
+                3441,
+                1
+              ],
+              [
+                1099,
+                1
+              ],
+              [
+                598,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    60,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    61,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1602
+            ],
+            "t": 1169
+          }
+        ],
+        "id": "stormwolf",
+        "kws": [
+          "Vehicle",
+          "Aircraft",
+          "Fly",
+          "Transport",
+          "Imperium",
+          "Stormwolf"
+        ],
+        "linked": 1,
+        "name": "Stormwolf",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 250
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2779,
+                1
+              ],
+              [
+                2780,
+                1
+              ],
+              [
+                2781,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                2779,
+                1
+              ],
+              [
+                2780,
+                1
+              ],
+              [
+                2781,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2782
+              ]
+            ],
+            "rep": [
+              2779
+            ],
+            "t": 888
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    2783,
+                    1
+                  ],
+                  [
+                    1334,
+                    1
+                  ]
+                ],
+                5
+              ]
+            ],
+            "rep": [
+              2779
+            ],
+            "repall": 1,
+            "t": 889
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                2782
+              ]
+            ],
+            "rep": [
+              2779
+            ],
+            "t": 888
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                [
+                  [
+                    2783,
+                    1
+                  ],
+                  [
+                    1334,
+                    1
+                  ]
+                ],
+                5
+              ]
+            ],
+            "rep": [
+              2779
+            ],
+            "t": 889
+          }
+        ],
+        "id": "thunderwolf-cavalry",
+        "kws": [
+          "Explosives",
+          "Imperium",
+          "Mounted"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Thunderwolf Cavalry Pack Leader"
+          },
+          {
+            "n": "Thunderwolf Cavalry"
+          }
+        ],
+        "name": "Thunderwolf Cavalry",
+        "pools": [
+          {
+            "g": [
+              0,
+              2
+            ],
+            "lim": [
+              [
+                3,
+                1
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          },
+          {
+            "g": [
+              1,
+              3
+            ]
+          }
+        ],
+        "sid": "1fe84e8c-ef82-4b4c-91ee-d91ebc82d0a7",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 115
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5
+              ]
+            ],
+            "per": [
+              6,
+              6
+            ],
+            "pts": 230
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2784,
+                1
+              ],
+              [
+                2785,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "ulrik-the-slayer",
+        "kws": [
+          "Character",
+          "Epic Hero",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Wolf Priest"
+        ],
+        "leads": [
+          {
+            "to": "blood-claws",
+            "type": "leader"
+          },
+          {
+            "to": "grey-hunters",
+            "type": "leader"
+          },
+          {
+            "to": "wolf-guard-headtakers",
+            "type": "leader"
+          },
+          {
+            "to": "assault-intercessor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "intercessor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "bladeguard-veteran-squad",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Ulrik the Slayer",
+        "sid": "896e1a38-bb75-4ce6-a631-fa727b870cb1",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 90
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2380,
+                1
+              ],
+              [
+                2786,
+                1
+              ],
+              [
+                2787,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2788
+              ],
+              [
+                2789
+              ]
+            ],
+            "rep": [
+              2380
+            ],
+            "t": 883
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2790
+              ]
+            ],
+            "rep": [
+              2787
+            ],
+            "t": 821
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    2791,
+                    1
+                  ],
+                  [
+                    2792,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              2380,
+              2786
+            ],
+            "t": 890
+          }
+        ],
+        "id": "venerable-dreadnought",
+        "kws": [
+          "Dreadnought",
+          "Imperium",
+          "Smoke",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Venerable Dreadnought",
+        "sid": "bc4efed1-2079-428e-a34b-fb75d835d2da",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 130
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1,
+                1
+              ],
+              [
+                2296,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                1,
+                1
+              ],
+              [
+                2296,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1501
+              ],
+              [
+                1043
+              ],
+              [
+                571
+              ],
+              [
+                38
+              ],
+              [
+                1345
+              ]
+            ],
+            "rep": [
+              1
+            ],
+            "repall": 1,
+            "t": 1170
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                1501
+              ],
+              [
+                1043
+              ],
+              [
+                571
+              ],
+              [
+                38
+              ],
+              [
+                1345
+              ]
+            ],
+            "rep": [
+              1
+            ],
+            "t": 1170
+          }
+        ],
+        "id": "wolf-guard",
+        "kws": [
+          "Infantry",
+          "Grenades",
+          "Imperium",
+          "Wolf Guard"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Wolf Guard Pack Leader"
+          },
+          {
+            "n": "Wolf Guard"
+          }
+        ],
+        "name": "Wolf Guard",
+        "pools": [
+          {
+            "g": [
+              0,
+              1
+            ]
+          }
+        ],
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 85
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 170
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2793,
+                1
+              ],
+              [
+                2794,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2795
+              ]
+            ],
+            "rep": [
+              2793
+            ],
+            "t": 891
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1345
+              ]
+            ],
+            "rep": [
+              2794
+            ],
+            "t": 892
+          }
+        ],
+        "id": "wolf-guard-battle-leader",
+        "kws": [
+          "Character",
+          "Imperium",
+          "Infantry",
+          "Tacticus"
+        ],
+        "leads": [
+          {
+            "to": "blood-claws",
+            "type": "leader"
+          },
+          {
+            "to": "grey-hunters",
+            "type": "leader"
+          },
+          {
+            "to": "wolf-guard-headtakers",
+            "type": "leader"
+          },
+          {
+            "to": "assault-intercessor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "bladeguard-veteran-squad",
+            "type": "leader"
+          },
+          {
+            "to": "intercessor-squad",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Wolf Guard Battle Leader",
+        "sid": "27e2604f-8c2c-404c-a711-5e36d0512e7c",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                38,
+                1
+              ],
+              [
+                13,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "char": 1,
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1657
+              ],
+              [
+                1045
+              ],
+              [
+                [
+                  [
+                    814,
+                    1
+                  ],
+                  [
+                    390,
+                    1
+                  ]
+                ]
+              ],
+              [
+                2428
+              ]
+            ],
+            "rep": [
+              13
+            ],
+            "t": 1171
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1657
+              ],
+              [
+                1045
+              ],
+              [
+                13
+              ],
+              [
+                2428
+              ],
+              [
+                1043
+              ]
+            ],
+            "rep": [
+              38
+            ],
+            "t": 1172
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1048
+              ]
+            ],
+            "rep": [
+              38,
+              13
+            ],
+            "t": 1173
+          }
+        ],
+        "id": "wolf-guard-battle-leader-in-terminator-armour",
+        "kws": [
+          "Infantry",
+          "Character",
+          "Imperium",
+          "Terminator",
+          "Wolf Guard Battle Leader in Terminator Armour"
+        ],
+        "leads": [
+          {
+            "to": "terminator-assault-squad",
+            "type": "leader"
+          },
+          {
+            "to": "terminator-squad",
+            "type": "leader"
+          },
+          {
+            "to": "wolf-guard-terminators",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Wolf Guard Battle Leader in Terminator Armour",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 75
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1,
+                1
+              ],
+              [
+                3430,
+                1
+              ],
+              [
+                2415,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "char": 1,
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                571
+              ],
+              [
+                1045
+              ],
+              [
+                2428
+              ],
+              [
+                [
+                  [
+                    1345,
+                    1
+                  ],
+                  [
+                    390,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              2415
+            ],
+            "t": 1174
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1043
+              ],
+              [
+                171
+              ],
+              [
+                571
+              ],
+              [
+                38
+              ],
+              [
+                1045
+              ],
+              [
+                2415
+              ],
+              [
+                2428
+              ]
+            ],
+            "rep": [
+              1
+            ],
+            "t": 1175
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1048
+              ]
+            ],
+            "rep": [
+              1,
+              2415
+            ],
+            "t": 1176
+          }
+        ],
+        "id": "wolf-guard-battle-leader-on-thunderwolf",
+        "kws": [
+          "Mounted",
+          "Character",
+          "Grenades",
+          "Imperium",
+          "Wolf Guard Battle Leader on Thunderwolf"
+        ],
+        "leads": [
+          {
+            "to": "thunderwolf-cavalry",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Wolf Guard Battle Leader on Thunderwolf",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2796,
+                1
+              ],
+              [
+                2797,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                2798,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    2799,
+                    1
+                  ],
+                  [
+                    1334,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              2797
+            ],
+            "t": 893
+          }
+        ],
+        "id": "wolf-guard-headtakers",
+        "kws": [
+          "Beasts",
+          "Imperium",
+          "Infantry",
+          "Tacticus"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Wolf Guard Headtaker"
+          },
+          {
+            "n": "Hunting Wolf"
+          }
+        ],
+        "name": "Wolf Guard Headtakers",
+        "sid": "966dd7c1-7db6-47a4-ad41-fabaa1c0f053",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 85
+          },
+          {
+            "comp": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "per": [
+              6,
+              6
+            ],
+            "pts": 115
+          },
+          {
+            "comp": [
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "per": [
+              6,
+              6
+            ],
+            "pts": 170
+          },
+          {
+            "comp": [
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                6
+              ]
+            ],
+            "per": [
+              12,
+              12
+            ],
+            "pts": 230
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1,
+                1
+              ],
+              [
+                1501,
+                1
+              ],
+              [
+                390,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "char": 1,
+          "legends": 1
+        },
+        "gear": [
+          {
+            "ex": 2,
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                1
+              ],
+              [
+                1501
+              ],
+              [
+                1043
+              ],
+              [
+                571
+              ],
+              [
+                38
+              ],
+              [
+                1039
+              ],
+              [
+                1045
+              ],
+              [
+                13
+              ],
+              [
+                2428
+              ],
+              [
+                1345
+              ]
+            ],
+            "rep": [
+              1,
+              1501
+            ],
+            "t": 1177
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1048
+              ]
+            ],
+            "rep": [
+              1,
+              1501
+            ],
+            "t": 1178
+          }
+        ],
+        "id": "wolf-guard-pack-leader",
+        "kws": [
+          "Infantry",
+          "Character",
+          "Grenades",
+          "Imperium",
+          "Pack Leader",
+          "Wolf Guard Pack Leader"
+        ],
+        "leads": [
+          {
+            "to": "blood-claws",
+            "type": "support"
+          },
+          {
+            "to": "grey-hunters",
+            "type": "support"
+          },
+          {
+            "to": "long-fangs",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Wolf Guard Pack Leader",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 30
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                38,
+                1
+              ],
+              [
+                13,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "char": 1,
+          "legends": 1
+        },
+        "gear": [
+          {
+            "ex": 2,
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                1607
+              ],
+              [
+                2993
+              ],
+              [
+                [
+                  [
+                    2709,
+                    1
+                  ],
+                  [
+                    38,
+                    1
+                  ]
+                ]
+              ],
+              [
+                38
+              ],
+              [
+                1657
+              ],
+              [
+                1045
+              ],
+              [
+                2428
+              ],
+              [
+                1345
+              ]
+            ],
+            "rep": [
+              38,
+              13
+            ],
+            "t": 1179
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1048
+              ]
+            ],
+            "rep": [
+              38,
+              13
+            ],
+            "t": 1173
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1043
+              ]
+            ],
+            "rep": [
+              38
+            ],
+            "t": 1142
+          }
+        ],
+        "id": "wolf-guard-pack-leader-in-terminator-armour",
+        "kws": [
+          "Infantry",
+          "Character",
+          "Grenades",
+          "Imperium",
+          "Terminator",
+          "Pack Leader",
+          "Wolf Guard Pack Leader in Terminator Armour"
+        ],
+        "leads": [
+          {
+            "to": "blood-claws",
+            "type": "support"
+          },
+          {
+            "to": "grey-hunters",
+            "type": "support"
+          },
+          {
+            "to": "long-fangs",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Wolf Guard Pack Leader in Terminator Armour",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 40
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1,
+                1
+              ],
+              [
+                1039,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "char": 1,
+          "legends": 1
+        },
+        "gear": [
+          {
+            "ex": 2,
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                1
+              ],
+              [
+                1043
+              ],
+              [
+                571
+              ],
+              [
+                38
+              ],
+              [
+                1039
+              ],
+              [
+                1045
+              ],
+              [
+                13
+              ],
+              [
+                2428
+              ],
+              [
+                1345
+              ]
+            ],
+            "rep": [
+              1,
+              1039
+            ],
+            "t": 1180
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1048
+              ]
+            ],
+            "rep": [
+              1,
+              1039
+            ],
+            "t": 1181
+          }
+        ],
+        "id": "wolf-guard-pack-leader-with-jump-pack",
+        "kws": [
+          "Infantry",
+          "Character",
+          "Jump Pack",
+          "Fly",
+          "Grenades",
+          "Imperium",
+          "Pack Leader",
+          "Wolf Guard Pack Leader with Jump Pack"
+        ],
+        "leads": [
+          {
+            "to": "skyclaws",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Wolf Guard Pack Leader with Jump Pack",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 35
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2800,
+                1
+              ],
+              [
+                2801,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                2800,
+                1
+              ],
+              [
+                2801,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2802
+              ],
+              [
+                2803
+              ]
+            ],
+            "rep": [
+              2800,
+              2801
+            ],
+            "t": 894
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                5,
+                1
+              ],
+              [
+                10,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                [
+                  [
+                    2804,
+                    1
+                  ],
+                  [
+                    2805,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              2800,
+              2801
+            ],
+            "t": 895
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1345,
+                5
+              ]
+            ],
+            "rep": [
+              2800
+            ],
+            "repall": 1,
+            "t": 896
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                1345,
+                5
+              ]
+            ],
+            "rep": [
+              2800
+            ],
+            "t": 896
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "wolf-guard-terminators",
+        "kws": [
+          "Imperium",
+          "Infantry",
+          "Terminator"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Wolf Guard Terminator Pack Leader"
+          },
+          {
+            "n": "Wolf Guard Terminator"
+          }
+        ],
+        "name": "Wolf Guard Terminators",
+        "pools": [
+          {
+            "g": [
+              2,
+              3
+            ]
+          }
+        ],
+        "sid": "70485a61-879a-4bcf-b69b-66ce195b9c9e",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 180
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "per": [
+              10,
+              10
+            ],
+            "pts": 365
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 40
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1,
+                1
+              ],
+              [
+                3430,
+                1
+              ],
+              [
+                2415,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "char": 1,
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                571
+              ],
+              [
+                1045
+              ],
+              [
+                2428
+              ],
+              [
+                [
+                  [
+                    814,
+                    1
+                  ],
+                  [
+                    390,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              2415
+            ],
+            "t": 1182
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1043
+              ],
+              [
+                171
+              ],
+              [
+                571
+              ],
+              [
+                38
+              ],
+              [
+                1045
+              ],
+              [
+                2415
+              ],
+              [
+                2428
+              ]
+            ],
+            "rep": [
+              1
+            ],
+            "t": 1175
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1048
+              ]
+            ],
+            "rep": [
+              1,
+              2415
+            ],
+            "t": 1176
+          }
+        ],
+        "id": "wolf-lord-on-thunderwolf",
+        "kws": [
+          "Mounted",
+          "Character",
+          "Grenades",
+          "Imperium",
+          "Captain",
+          "Wolf Lord on Thunderwolf"
+        ],
+        "leads": [
+          {
+            "to": "thunderwolf-cavalry",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Wolf Lord on Thunderwolf",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2806,
+                1
+              ],
+              [
+                2807,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "wolf-priest",
+        "kws": [
+          "Character",
+          "Imperium",
+          "Infantry",
+          "Tacticus"
+        ],
+        "leads": [
+          {
+            "to": "blood-claws",
+            "type": "leader"
+          },
+          {
+            "to": "grey-hunters",
+            "type": "leader"
+          },
+          {
+            "to": "wolf-guard-headtakers",
+            "type": "leader"
+          },
+          {
+            "to": "intercessor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "assault-intercessor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "bladeguard-veteran-squad",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Wolf Priest",
+        "sid": "c67303fc-f9f6-40d1-b4c7-0f1c06f23fba",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 75
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2808,
+                1
+              ],
+              [
+                2809,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                2808,
+                1
+              ],
+              [
+                2810,
+                1
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                2811,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2812
+              ]
+            ],
+            "t": 897
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                [
+                  [
+                    2813,
+                    1
+                  ],
+                  [
+                    2814,
+                    1
+                  ],
+                  [
+                    2815,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              2808,
+              2810
+            ],
+            "t": 898
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                12,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                2816
+              ]
+            ],
+            "rep": [
+              2808
+            ],
+            "t": 899
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                2817
+              ]
+            ],
+            "rep": [
+              2808
+            ],
+            "t": 900
+          },
+          {
+            "in": "checkbox",
+            "m": 1,
+            "o": [
+              [
+                2812
+              ]
+            ],
+            "t": 897
+          }
+        ],
+        "id": "wolf-scouts",
+        "kws": [
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Phobos",
+          "Smoke"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Wolf Scout Pack Leader"
+          },
+          {
+            "n": "Wolf Scout"
+          },
+          {
+            "n": "Hunting Wolf"
+          }
+        ],
+        "name": "Wolf Scouts",
+        "pools": [
+          {
+            "g": [
+              0,
+              4
+            ],
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ]
+          }
+        ],
+        "sid": "f21a10ef-9b8b-4735-9d72-30000c0e92b1",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              6,
+              6
+            ],
+            "pts": 95
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ],
+              [
+                2,
+                2
+              ]
+            ],
+            "per": [
+              12,
+              12
+            ],
+            "pts": 190
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2818,
+                1
+              ],
+              [
+                2819,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                2820
+              ]
+            ],
+            "rep": [
+              2818
+            ],
+            "t": 901
+          }
+        ],
+        "id": "wulfen",
+        "kws": [
+          "Imperium",
+          "Infantry",
+          "Wulfen"
+        ],
+        "linked": 1,
+        "name": "Wulfen",
+        "sid": "e769d914-d77d-4974-ba44-9239d933fb0f",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 90
+          },
+          {
+            "per": [
+              10,
+              10
+            ],
+            "pts": 180
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2823,
+                1
+              ],
+              [
+                2824,
+                1
+              ],
+              [
+                2825,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2826
+              ]
+            ],
+            "rep": [
+              2823
+            ],
+            "t": 821
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                2792
+              ]
+            ],
+            "rep": [
+              2824
+            ],
+            "t": 903
+          }
+        ],
+        "id": "wulfen-dreadnought",
+        "kws": [
+          "Dreadnought",
+          "Imperium",
+          "Vehicle",
+          "Walker",
+          "Wulfen"
+        ],
+        "linked": 1,
+        "name": "Wulfen Dreadnought",
+        "sid": "6a88fb5f-9a97-4ceb-a25c-1990c09eb2c0",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 140
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2821,
+                1
+              ],
+              [
+                2822,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                2818
+              ]
+            ],
+            "rep": [
+              2822
+            ],
+            "t": 902
+          }
+        ],
+        "id": "wulfen-with-storm-shields",
+        "kws": [
+          "Imperium",
+          "Infantry",
+          "Wulfen"
+        ],
+        "linked": 1,
+        "name": "Wulfen with Storm Shields",
+        "sid": "6b5acbd0-f884-4c6e-81e5-d48bef177d26",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 125
+          },
+          {
+            "per": [
+              10,
+              10
+            ],
+            "pts": 250
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 30
+        }
+      }
+    ]
+  }
+}

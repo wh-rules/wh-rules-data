@@ -1,0 +1,500 @@
+{
+  "darkAngels": {
+    "en": {
+      "armyRule": {
+        "body": "At the start of your Command phase, you can select one **[gloss:sm-combat-doctrine:combat doctrine]** listed below. If you do, that **combat doctrine** is active for friendly ADEPTUS ASTARTES units with this ability until the start of your next Command phase.\n\n### Assault Doctrine\nWhen this unit is selected to make an **[gloss:advance-move:advance move]**, that **advance move** does not prevent this unit from being **[gloss:eligible-to-charge:eligible to declare a charge]**.\n\n### Devastator Doctrine\nThis unit’s ranged attacks have [ASSAULT].\n\n### Tactical Doctrine\nWhen this unit is selected to make a **[gloss:fall-back-move:fall-back move]**, that **fall-back move** does not prevent this unit from being **[gloss:eligible-to-shoot:eligible to shoot]** and **[gloss:eligible-to-charge:eligible to declare a charge]**.\n\nUnless otherwise stated:\n▪ You can only select each **[gloss:sm-combat-doctrine:combat doctrine]** once per battle.\n▪ Only one **combat doctrine** can be active for each unit. If a rule makes a **combat doctrine** active for a unit, any **combat doctrine** previously active for that unit is no longer active for that unit.\n\n### Transhuman Strategist\nAt the start of the battle round, if a model with this ability is your WARLORD, gain 1CP.\n\n### The Ravenwing\nThe following friendly ADEPTUS ASTARTES units have RAVENWING:\n▪ MOUNTED units.\n▪ VEHICLE FLY units.\n\n### The Deathwing\nThe following friendly ADEPTUS ASTARTES units have DEATHWING:\n▪ TERMINATOR units.\n▪ BLADEGUARD ANCIENT/BLADEGUARD VETERAN SQUAD/STERNGUARD VETERAN SQUAD/VANGUARD VETERAN SQUAD WITH JUMP PACKS units.\n▪ LAND RAIDER/LAND RAIDER CRUSADER/LAND RAIDER REDEEMER/REPULSOR/REPULSOR EXECUTIONER units.\n▪ DREADNOUGHT units.",
+        "flavor": "",
+        "id": "combat-doctrines",
+        "name": "Combat Doctrines"
+      },
+      "datasheets": [],
+      "detachments": [
+        {
+          "dp": 1,
+          "enhancements": [
+            {
+              "body": "DEATHWING model only. When this unit is selected to make a **[gloss:consolidation:consolidation move]**, this unit can move up to D3+3”.",
+              "flavor": "This warrior lets nothing stand in their way or slow their advance, closing swiftly and relentlessly with their quarry.",
+              "name": "Singular Will",
+              "points": 20
+            },
+            {
+              "body": "DEATHWING model only. This unit’s attacks that target an enemy unit within range of your **vowed objective** have [SUSTAINED HITS 1].",
+              "flavor": "Even amongst the elite of the Unforgiven, this warrior is a paragon of duty and martial might.",
+              "name": "Champion of the Deathwing",
+              "points": 20
+            }
+          ],
+          "forceDispositions": [
+            "Priority Assets"
+          ],
+          "id": "inner-circle-task-force",
+          "name": "Inner Circle Task Force",
+          "rule": {
+            "body": "In your Command phase, you can use this ability. If you do, select one **[gloss:objective:objective]**. That **objective** is your **vowed objective** until your next Command phase.\n▪ Friendly DEATHWING INFANTRY unit’s attacks that target an enemy unit within range of your **vowed objective** have +1 to **[gloss:wound-roll:wound rolls]**.\n\n**Restrictions:** Your army can include DARK ANGELS units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter.",
+            "flavor": "Whether its true significance is kept a secret or not, there is a singular prize here that the Inner Circle have come to either secure or destroy. They will pursue this strategic objective with cold ferocity.",
+            "name": "Vowed Target"
+          },
+          "source": "codex",
+          "stratagems": [
+            {
+              "cp": "1CP",
+              "effect": "When a model in your unit is **[gloss:destroyed:destroyed]**, if your unit has not been **[gloss:selected-to-fight:selected to fight]** this phase, roll one D6, with +1 to that roll if your unit is **[gloss:engaged:engaged]** with an enemy unit within range of your **vowed objective**:\n▪ On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.",
+              "flavor": "So driven by duty are the veterans of the Unforgiven that even death cannot keep them from it.",
+              "name": "Duty Unto Death",
+              "restrictions": "",
+              "sublabel": "Inner Circle Task Force – Stratagem",
+              "target": "That DEATHWING unit.",
+              "turn": "either",
+              "when": "Fight phase, when an enemy unit targets a friendly DEATHWING unit."
+            },
+            {
+              "cp": "1CP",
+              "effect": "▪ Your unit can be set up more than 6” horizontally from all enemy units (instead of more than 8”).\n▪ Your unit is __not__ **[gloss:eligible-to-charge:eligible to declare a charge]** until the end of this turn.",
+              "flavor": "The Deathwing employ ancient and incredibly powerful teleportariums, some older than the Great Crusade, to strike at their foes with unparalleled safety and accuracy.",
+              "name": "Relic Teleportarium",
+              "restrictions": "",
+              "sublabel": "Inner Circle Task Force – Stratagem",
+              "target": "That DEATHWING unit.",
+              "turn": "your",
+              "when": "Your Movement phase, when a friendly DEATHWING unit with the [core:Deep Strike] ability is selected to make an **[gloss:ingress-move:ingress move]**."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Select one enemy unit **[gloss:engaged:engaged]** with your unit. If you do, roll one D6 for each model in your unit **engaged** with that enemy unit:\n▪ For each 3+, that enemy unit suffers 1 **[gloss:mortal-wound:mortal wound]** (to a maximum of 6 **mortal wounds**).",
+              "flavor": "Channelling the strategic puissance and measured ferocity of their gene-sire, the veterans of the Unforgiven unleash a perfectly timed and utterly lethal storm of tightly controlled violence.",
+              "name": "Wrath of the Lion",
+              "restrictions": "",
+              "sublabel": "Inner Circle Task Force – Stratagem",
+              "target": "That DEATHWING unit.",
+              "turn": "your",
+              "when": "Your Charge phase, when a friendly DEATHWING unit ends a **[gloss:charge-move:charge move]**."
+            }
+          ]
+        },
+        {
+          "dp": 1,
+          "enhancements": [
+            {
+              "body": "LANDSPEEDER VENGEANCE unit only. This unit can re-roll:\n▪ Rolls to determine the **[gloss:attack-dice:A]** of a weapon.\n▪ **[gloss:hazard-roll:Hazard rolls]**.",
+              "flavor": "Use of these relic plasma storm batteries is granted only by dispensation of the Master of the Rock. They unleash devastating toroids of searing plasma, while their venting subsystems are known to be especially vigilant.",
+              "name": "Nightforged Battery (Upgrade)",
+              "points": 10
+            },
+            {
+              "body": "RAVENWING FLY/MOUNTED unit only. In your first Movement phase, this unit can make an **[gloss:ingress-move:ingress move]**.",
+              "flavor": "These master-wrought engines from the Dark Ages of Technology churn the gloom emanated by the Ravenwing's reliquaries into a billowing cawl that shrouds their advance, allowing them to strike when the foe least expects.",
+              "name": "Thundercowl Turbines (Upgrade)",
+              "points": 15
+            }
+          ],
+          "forceDispositions": [
+            "Reconnaissance"
+          ],
+          "id": "darkflight-pursuit",
+          "name": "Darkflight Pursuit",
+          "rule": {
+            "body": "Friendly RAVENWING FLY units' ranged attacks have [IGNORES COVER].\n\n**Restrictions:** Your army can include DARK ANGELS units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter.\n\nFriendly OUTRIDER SQUAD units have BATTLELINE.",
+            "flavor": "The anti-grav skimmers and combat aircraft of the Ravenwing bristle not only with potent weapons but also with powerful augurs and trackers, whose sleepless machine spirits are as vigilant as the black-armoured battle-brothers.",
+            "name": "Black-winged Vigilance"
+          },
+          "source": "codex",
+          "stratagems": [
+            {
+              "cp": "1CP",
+              "effect": "Your unit has [core:Stealth].",
+              "flavor": "Through subtle manoeuvring and empowered cameleoline armour, the swiftest of the Ravenwing evade attempts to bring their hunt to an end.",
+              "name": "Wings of Shadow",
+              "restrictions": "",
+              "sublabel": "Darkflight Pursuit – Stratagem",
+              "target": "That RAVENWING FLY/MOUNTED unit.",
+              "turn": "opponent",
+              "when": "Your opponent's Shooting phase, when an enemy unit targets a friendly RAVENWING FLY/MOUNTED unit."
+            },
+            {
+              "cp": "1CP",
+              "effect": "**[gloss:visible:Visible]** enemy units within 6\" of your unit have +3\" **[gloss:detection-range:detection range]**.",
+              "flavor": "The auspicators of the Ravenwing are sleepless, and from ideal hunting vantages, there is nowhere the foe can hide for long.",
+              "name": "Skyborne Surveillance",
+              "restrictions": "",
+              "sublabel": "Darkflight Pursuit – Stratagem",
+              "target": "That RAVENWING FLY unit.",
+              "turn": "your",
+              "when": "Your Shooting phase, when a friendly RAVENWING FLY unit has shot."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Your unit can make a **[gloss:normal-move:normal move]** of up to D3+3\".",
+              "flavor": "The Ravenwing's aerial assets are capable of swift and reactive manoeuvring to new firing positions, ensuring opportunities for rapid vengeance.",
+              "name": "We Are Vengeance",
+              "restrictions": "",
+              "sublabel": "Darkflight Pursuit – Stratagem",
+              "target": "That RAVENWING FLY unit.",
+              "turn": "opponent",
+              "when": "Your opponent's Shooting phase, when an enemy unit that targeted a friendly **[gloss:unengaged:unengaged]** RAVENWING FLY unit has shot."
+            }
+          ]
+        },
+        {
+          "dp": 2,
+          "enhancements": [
+            {
+              "body": "ADEPTUS ASTARTES model only. Friendly ADEPTUS ASTARTES units within 6” of this model can re-roll **[gloss:leadership-roll:leadership rolls]**.",
+              "flavor": "A veteran of the Inner Circle, this warrior inspires those around them to hold the line amidst the heat and chaos of battle.",
+              "name": "Tempered in Battle (Aura)",
+              "points": 10
+            },
+            {
+              "body": "DEATHWING model with the [core:Deep Strike] ability only. In your first Movement phase, this unit can make an **[gloss:ingress-move:ingress move]**.",
+              "flavor": "A veteran inductee of the Inner Circle, this champion has served amongst the Deathwing for centuries and become an unmatched master of teleportarium insertions.",
+              "name": "Deathwing Assault",
+              "points": 15
+            },
+            {
+              "body": "ADEPTUS ASTARTES model only. This model’s melee attacks:\n▪ Have +2 **[gloss:strength:S]**.\n▪ Have +1 **[gloss:armour-penetration:AP]**.",
+              "flavor": "The vaults of the Dark Angels contain many relics from Humanity’s distant past. This soldier has been granted the honour of bearing such a weapon to battle.",
+              "name": "Ancient Weapons",
+              "points": 20
+            },
+            {
+              "body": "RAVENWING model only. This unit can re-roll **[gloss:charge-roll:charge rolls]**.",
+              "flavor": "This commander has mastered the art of cavalry combat, instinctively noticing the opportune position to strike and navigating the chaos of battle with preternatural precision.",
+              "name": "Lord of the Ravenwing",
+              "points": 15
+            }
+          ],
+          "forceDispositions": [
+            "Take and Hold"
+          ],
+          "id": "wrath-of-the-rock",
+          "name": "Wrath of the Rock",
+          "rule": {
+            "body": "Attacks that target friendly ADEPTUS ASTARTES INFANTRY/MOUNTED units with a **[gloss:strength:S]** greater than that unit’s **[gloss:toughness:T]** have -1 to **[gloss:wound-roll:wound rolls]**.\n\n**Restrictions:** Your army can include DARK ANGELS units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter.",
+            "flavor": "Even amongst the Adeptus Astartes, the battle‑brothers of the Dark Angels are renowned for their tenacity and resilience on the battlefield. When ordered to war, they are utterly relentless in pursuing their objectives, wading into fields of withering fire and shrugging off blows that would slay mortal warriors outright.",
+            "name": "Dutiful Tenacity"
+          },
+          "source": "codex",
+          "stratagems": [
+            {
+              "cp": "1CP",
+              "effect": "Your unit has MOBILE.",
+              "flavor": "Atop their snarling mechanical steeds, the warriors of the Ravenwing surge through seemingly impassable terrain, smashing through rubble and ruin to unleash the wrath of the Unforgiven upon unsuspecting targets.",
+              "name": "Knights of Iron",
+              "restrictions": "",
+              "sublabel": "Wrath of the Rock – Stratagem",
+              "target": "That RAVENWING unit.",
+              "turn": "your",
+              "when": "Your Movement/Charge phase, when a friendly RAVENWING unit is **[gloss:selected-to-move:selected to move]** or **[gloss:declare-charge:declares a charge]**."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Your unit’s ranged attacks have +2 **[gloss:strength:S]**.",
+              "flavor": "Amongst the many secrets hoarded by the Dark Angels are those technological in nature. The armouries of the Rock contain potent weapons unseen in the armouries of other Chapters.",
+              "name": "Relics of the Dark Age",
+              "restrictions": "",
+              "sublabel": "Wrath of the Rock – Stratagem",
+              "target": "That ADEPTUS ASTARTES INFANTRY/MOUNTED unit.",
+              "turn": "your",
+              "when": "Your Shooting phase, when a friendly ADEPTUS ASTARTES INFANTRY/MOUNTED unit is **[gloss:selected-to-shoot:selected to shoot]**."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Your unit's melee attacks have [PRECISION].",
+              "flavor": "The Dark Angels are relentless in the pursuit of their foes, striking with ruthless ferocity and precision to take the heads of those who have crossed the Chapter.",
+              "name": "Inescapable Justice",
+              "restrictions": "",
+              "sublabel": "Wrath of the Rock – Stratagem",
+              "target": "That ADEPTUS ASTARTES unit.",
+              "turn": "either",
+              "when": "The Fight phase, when a friendly ADEPTUS ASTARTES unit is **[gloss:selected-to-fight:selected to fight]**."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Your unit has +1 **[gloss:objective-control:OC]** until the end of the turn.",
+              "flavor": "Unflinching in their loyalty to Chapter and Primarch, Dark Angels battle‑brothers seize and hold their objectives with unrelenting determination and zealous fury.",
+              "name": "Lion's Will",
+              "restrictions": "",
+              "sublabel": "Wrath of the Rock – Stratagem",
+              "target": "One friendly ADEPTUS ASTARTES unit that is within range of an **[gloss:objective:objective]**.",
+              "turn": "either",
+              "when": "Command phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Select one **[gloss:sm-combat-doctrine:combat doctrine]**. That **combat doctrine** is active for your unit until the start of your next Command phase.",
+              "flavor": "When the constituent elements of the Dark Angels fight as one, the enemy is often overwhelmed and torn apart by the Chapter’s tactical flexibility and mastery of rapid warfare.",
+              "name": "Tactical Mastery",
+              "restrictions": "",
+              "sublabel": "Wrath of the Rock – Stratagem",
+              "target": "One friendly DEATHWING/RAVENWING unit.",
+              "turn": "your",
+              "when": "Your Command phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Select one **[gloss:objective:objective]**:\n▪ That no enemy units (excluding AIRCRAFT units) are within range of.\n▪ That your unit was controlling at the end of the previous phase.\n\nThat **objective** is **[gloss:secured-objective:secured]**.",
+              "flavor": "Those inducted into the Dark Angels’ Inner Circle will gladly give their lives in pursuit of victory, and to see the Fallen brought to justice.",
+              "name": "In Sacrifice, Victory",
+              "restrictions": "",
+              "sublabel": "Wrath of the Rock – Stratagem",
+              "target": "That DEATHWING/RAVENWING unit. You can target that unit with this **[gloss:stratagem:stratagem]** even though it is **[gloss:destroyed:destroyed]**.",
+              "turn": "either",
+              "when": "Any phase, when a friendly DEATHWING/RAVENWING unit within range of an **[gloss:objective:objective]** is **[gloss:destroyed:destroyed]**."
+            }
+          ],
+          "unique": "TERMINATOR"
+        }
+      ],
+      "name": "Dark Angels",
+      "slug": "dark-angels"
+    },
+    "ru": {
+      "armyRule": {
+        "body": "At the start of your Command phase, you can select one **[gloss:sm-combat-doctrine:combat doctrine]** listed below. If you do, that **combat doctrine** is active for friendly ADEPTUS ASTARTES units with this ability until the start of your next Command phase.\n\n### Assault Doctrine\nWhen this unit is selected to make an **[gloss:advance-move:advance move]**, that **advance move** does not prevent this unit from being **[gloss:eligible-to-charge:eligible to declare a charge]**.\n\n### Devastator Doctrine\nThis unit’s ranged attacks have [ASSAULT].\n\n### Tactical Doctrine\nWhen this unit is selected to make a **[gloss:fall-back-move:fall-back move]**, that **fall-back move** does not prevent this unit from being **[gloss:eligible-to-shoot:eligible to shoot]** and **[gloss:eligible-to-charge:eligible to declare a charge]**.\n\nUnless otherwise stated:\n▪ You can only select each **[gloss:sm-combat-doctrine:combat doctrine]** once per battle.\n▪ Only one **combat doctrine** can be active for each unit. If a rule makes a **combat doctrine** active for a unit, any **combat doctrine** previously active for that unit is no longer active for that unit.\n\n### Transhuman Strategist\nAt the start of the battle round, if a model with this ability is your WARLORD, gain 1CP.\n\n### The Ravenwing\nThe following friendly ADEPTUS ASTARTES units have RAVENWING:\n▪ MOUNTED units.\n▪ VEHICLE FLY units.\n\n### The Deathwing\nThe following friendly ADEPTUS ASTARTES units have DEATHWING:\n▪ TERMINATOR units.\n▪ BLADEGUARD ANCIENT/BLADEGUARD VETERAN SQUAD/STERNGUARD VETERAN SQUAD/VANGUARD VETERAN SQUAD WITH JUMP PACKS units.\n▪ LAND RAIDER/LAND RAIDER CRUSADER/LAND RAIDER REDEEMER/REPULSOR/REPULSOR EXECUTIONER units.\n▪ DREADNOUGHT units.",
+        "flavor": "",
+        "id": "combat-doctrines",
+        "name": "Combat Doctrines"
+      },
+      "datasheets": [],
+      "detachments": [
+        {
+          "dp": 1,
+          "enhancements": [
+            {
+              "body": "DEATHWING model only. When this unit is selected to make a **[gloss:consolidation:consolidation move]**, this unit can move up to D3+3”.",
+              "flavor": "This warrior lets nothing stand in their way or slow their advance, closing swiftly and relentlessly with their quarry.",
+              "name": "Singular Will",
+              "points": 20
+            },
+            {
+              "body": "DEATHWING model only. This unit’s attacks that target an enemy unit within range of your **vowed objective** have [SUSTAINED HITS 1].",
+              "flavor": "Even amongst the elite of the Unforgiven, this warrior is a paragon of duty and martial might.",
+              "name": "Champion of the Deathwing",
+              "points": 20
+            }
+          ],
+          "forceDispositions": [
+            "Priority Assets"
+          ],
+          "id": "inner-circle-task-force",
+          "name": "Inner Circle Task Force",
+          "rule": {
+            "body": "In your Command phase, you can use this ability. If you do, select one **[gloss:objective:objective]**. That **objective** is your **vowed objective** until your next Command phase.\n▪ Friendly DEATHWING INFANTRY unit’s attacks that target an enemy unit within range of your **vowed objective** have +1 to **[gloss:wound-roll:wound rolls]**.\n\n**Restrictions:** Your army can include DARK ANGELS units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter.",
+            "flavor": "Whether its true significance is kept a secret or not, there is a singular prize here that the Inner Circle have come to either secure or destroy. They will pursue this strategic objective with cold ferocity.",
+            "name": "Vowed Target"
+          },
+          "source": "codex",
+          "stratagems": [
+            {
+              "cp": "1CP",
+              "effect": "When a model in your unit is **[gloss:destroyed:destroyed]**, if your unit has not been **[gloss:selected-to-fight:selected to fight]** this phase, roll one D6, with +1 to that roll if your unit is **[gloss:engaged:engaged]** with an enemy unit within range of your **vowed objective**:\n▪ On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.",
+              "flavor": "So driven by duty are the veterans of the Unforgiven that even death cannot keep them from it.",
+              "name": "Duty Unto Death",
+              "restrictions": "",
+              "sublabel": "Inner Circle Task Force – Stratagem",
+              "target": "That DEATHWING unit.",
+              "turn": "either",
+              "when": "Fight phase, when an enemy unit targets a friendly DEATHWING unit."
+            },
+            {
+              "cp": "1CP",
+              "effect": "▪ Your unit can be set up more than 6” horizontally from all enemy units (instead of more than 8”).\n▪ Your unit is __not__ **[gloss:eligible-to-charge:eligible to declare a charge]** until the end of this turn.",
+              "flavor": "The Deathwing employ ancient and incredibly powerful teleportariums, some older than the Great Crusade, to strike at their foes with unparalleled safety and accuracy.",
+              "name": "Relic Teleportarium",
+              "restrictions": "",
+              "sublabel": "Inner Circle Task Force – Stratagem",
+              "target": "That DEATHWING unit.",
+              "turn": "your",
+              "when": "Your Movement phase, when a friendly DEATHWING unit with the [core:Deep Strike] ability is selected to make an **[gloss:ingress-move:ingress move]**."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Select one enemy unit **[gloss:engaged:engaged]** with your unit. If you do, roll one D6 for each model in your unit **engaged** with that enemy unit:\n▪ For each 3+, that enemy unit suffers 1 **[gloss:mortal-wound:mortal wound]** (to a maximum of 6 **mortal wounds**).",
+              "flavor": "Channelling the strategic puissance and measured ferocity of their gene-sire, the veterans of the Unforgiven unleash a perfectly timed and utterly lethal storm of tightly controlled violence.",
+              "name": "Wrath of the Lion",
+              "restrictions": "",
+              "sublabel": "Inner Circle Task Force – Stratagem",
+              "target": "That DEATHWING unit.",
+              "turn": "your",
+              "when": "Your Charge phase, when a friendly DEATHWING unit ends a **[gloss:charge-move:charge move]**."
+            }
+          ]
+        },
+        {
+          "dp": 1,
+          "enhancements": [
+            {
+              "body": "LANDSPEEDER VENGEANCE unit only. This unit can re-roll:\n▪ Rolls to determine the **[gloss:attack-dice:A]** of a weapon.\n▪ **[gloss:hazard-roll:Hazard rolls]**.",
+              "flavor": "Use of these relic plasma storm batteries is granted only by dispensation of the Master of the Rock. They unleash devastating toroids of searing plasma, while their venting subsystems are known to be especially vigilant.",
+              "name": "Nightforged Battery (Upgrade)",
+              "points": 10
+            },
+            {
+              "body": "RAVENWING FLY/MOUNTED unit only. In your first Movement phase, this unit can make an **[gloss:ingress-move:ingress move]**.",
+              "flavor": "These master-wrought engines from the Dark Ages of Technology churn the gloom emanated by the Ravenwing's reliquaries into a billowing cawl that shrouds their advance, allowing them to strike when the foe least expects.",
+              "name": "Thundercowl Turbines (Upgrade)",
+              "points": 15
+            }
+          ],
+          "forceDispositions": [
+            "Reconnaissance"
+          ],
+          "id": "darkflight-pursuit",
+          "name": "Darkflight Pursuit",
+          "rule": {
+            "body": "Friendly RAVENWING FLY units' ranged attacks have [IGNORES COVER].\n\n**Restrictions:** Your army can include DARK ANGELS units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter.\n\nFriendly OUTRIDER SQUAD units have BATTLELINE.",
+            "flavor": "The anti-grav skimmers and combat aircraft of the Ravenwing bristle not only with potent weapons but also with powerful augurs and trackers, whose sleepless machine spirits are as vigilant as the black-armoured battle-brothers.",
+            "name": "Black-winged Vigilance"
+          },
+          "source": "codex",
+          "stratagems": [
+            {
+              "cp": "1CP",
+              "effect": "Your unit has [core:Stealth].",
+              "flavor": "Through subtle manoeuvring and empowered cameleoline armour, the swiftest of the Ravenwing evade attempts to bring their hunt to an end.",
+              "name": "Wings of Shadow",
+              "restrictions": "",
+              "sublabel": "Darkflight Pursuit – Stratagem",
+              "target": "That RAVENWING FLY/MOUNTED unit.",
+              "turn": "opponent",
+              "when": "Your opponent's Shooting phase, when an enemy unit targets a friendly RAVENWING FLY/MOUNTED unit."
+            },
+            {
+              "cp": "1CP",
+              "effect": "**[gloss:visible:Visible]** enemy units within 6\" of your unit have +3\" **[gloss:detection-range:detection range]**.",
+              "flavor": "The auspicators of the Ravenwing are sleepless, and from ideal hunting vantages, there is nowhere the foe can hide for long.",
+              "name": "Skyborne Surveillance",
+              "restrictions": "",
+              "sublabel": "Darkflight Pursuit – Stratagem",
+              "target": "That RAVENWING FLY unit.",
+              "turn": "your",
+              "when": "Your Shooting phase, when a friendly RAVENWING FLY unit has shot."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Your unit can make a **[gloss:normal-move:normal move]** of up to D3+3\".",
+              "flavor": "The Ravenwing's aerial assets are capable of swift and reactive manoeuvring to new firing positions, ensuring opportunities for rapid vengeance.",
+              "name": "We Are Vengeance",
+              "restrictions": "",
+              "sublabel": "Darkflight Pursuit – Stratagem",
+              "target": "That RAVENWING FLY unit.",
+              "turn": "opponent",
+              "when": "Your opponent's Shooting phase, when an enemy unit that targeted a friendly **[gloss:unengaged:unengaged]** RAVENWING FLY unit has shot."
+            }
+          ]
+        },
+        {
+          "dp": 2,
+          "enhancements": [
+            {
+              "body": "ADEPTUS ASTARTES model only. Friendly ADEPTUS ASTARTES units within 6” of this model can re-roll **[gloss:leadership-roll:leadership rolls]**.",
+              "flavor": "A veteran of the Inner Circle, this warrior inspires those around them to hold the line amidst the heat and chaos of battle.",
+              "name": "Tempered in Battle (Aura)",
+              "points": 10
+            },
+            {
+              "body": "DEATHWING model with the [core:Deep Strike] ability only. In your first Movement phase, this unit can make an **[gloss:ingress-move:ingress move]**.",
+              "flavor": "A veteran inductee of the Inner Circle, this champion has served amongst the Deathwing for centuries and become an unmatched master of teleportarium insertions.",
+              "name": "Deathwing Assault",
+              "points": 15
+            },
+            {
+              "body": "ADEPTUS ASTARTES model only. This model’s melee attacks:\n▪ Have +2 **[gloss:strength:S]**.\n▪ Have +1 **[gloss:armour-penetration:AP]**.",
+              "flavor": "The vaults of the Dark Angels contain many relics from Humanity’s distant past. This soldier has been granted the honour of bearing such a weapon to battle.",
+              "name": "Ancient Weapons",
+              "points": 20
+            },
+            {
+              "body": "RAVENWING model only. This unit can re-roll **[gloss:charge-roll:charge rolls]**.",
+              "flavor": "This commander has mastered the art of cavalry combat, instinctively noticing the opportune position to strike and navigating the chaos of battle with preternatural precision.",
+              "name": "Lord of the Ravenwing",
+              "points": 15
+            }
+          ],
+          "forceDispositions": [
+            "Take and Hold"
+          ],
+          "id": "wrath-of-the-rock",
+          "name": "Wrath of the Rock",
+          "rule": {
+            "body": "Attacks that target friendly ADEPTUS ASTARTES INFANTRY/MOUNTED units with a **[gloss:strength:S]** greater than that unit’s **[gloss:toughness:T]** have -1 to **[gloss:wound-roll:wound rolls]**.\n\n**Restrictions:** Your army can include DARK ANGELS units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter.",
+            "flavor": "Even amongst the Adeptus Astartes, the battle‑brothers of the Dark Angels are renowned for their tenacity and resilience on the battlefield. When ordered to war, they are utterly relentless in pursuing their objectives, wading into fields of withering fire and shrugging off blows that would slay mortal warriors outright.",
+            "name": "Dutiful Tenacity"
+          },
+          "source": "codex",
+          "stratagems": [
+            {
+              "cp": "1CP",
+              "effect": "Your unit has MOBILE.",
+              "flavor": "Atop their snarling mechanical steeds, the warriors of the Ravenwing surge through seemingly impassable terrain, smashing through rubble and ruin to unleash the wrath of the Unforgiven upon unsuspecting targets.",
+              "name": "Knights of Iron",
+              "restrictions": "",
+              "sublabel": "Wrath of the Rock – Stratagem",
+              "target": "That RAVENWING unit.",
+              "turn": "your",
+              "when": "Your Movement/Charge phase, when a friendly RAVENWING unit is **[gloss:selected-to-move:selected to move]** or **[gloss:declare-charge:declares a charge]**."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Your unit’s ranged attacks have +2 **[gloss:strength:S]**.",
+              "flavor": "Amongst the many secrets hoarded by the Dark Angels are those technological in nature. The armouries of the Rock contain potent weapons unseen in the armouries of other Chapters.",
+              "name": "Relics of the Dark Age",
+              "restrictions": "",
+              "sublabel": "Wrath of the Rock – Stratagem",
+              "target": "That ADEPTUS ASTARTES INFANTRY/MOUNTED unit.",
+              "turn": "your",
+              "when": "Your Shooting phase, when a friendly ADEPTUS ASTARTES INFANTRY/MOUNTED unit is **[gloss:selected-to-shoot:selected to shoot]**."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Your unit's melee attacks have [PRECISION].",
+              "flavor": "The Dark Angels are relentless in the pursuit of their foes, striking with ruthless ferocity and precision to take the heads of those who have crossed the Chapter.",
+              "name": "Inescapable Justice",
+              "restrictions": "",
+              "sublabel": "Wrath of the Rock – Stratagem",
+              "target": "That ADEPTUS ASTARTES unit.",
+              "turn": "either",
+              "when": "The Fight phase, when a friendly ADEPTUS ASTARTES unit is **[gloss:selected-to-fight:selected to fight]**."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Your unit has +1 **[gloss:objective-control:OC]** until the end of the turn.",
+              "flavor": "Unflinching in their loyalty to Chapter and Primarch, Dark Angels battle‑brothers seize and hold their objectives with unrelenting determination and zealous fury.",
+              "name": "Lion's Will",
+              "restrictions": "",
+              "sublabel": "Wrath of the Rock – Stratagem",
+              "target": "One friendly ADEPTUS ASTARTES unit that is within range of an **[gloss:objective:objective]**.",
+              "turn": "either",
+              "when": "Command phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Select one **[gloss:sm-combat-doctrine:combat doctrine]**. That **combat doctrine** is active for your unit until the start of your next Command phase.",
+              "flavor": "When the constituent elements of the Dark Angels fight as one, the enemy is often overwhelmed and torn apart by the Chapter’s tactical flexibility and mastery of rapid warfare.",
+              "name": "Tactical Mastery",
+              "restrictions": "",
+              "sublabel": "Wrath of the Rock – Stratagem",
+              "target": "One friendly DEATHWING/RAVENWING unit.",
+              "turn": "your",
+              "when": "Your Command phase."
+            },
+            {
+              "cp": "1CP",
+              "effect": "Select one **[gloss:objective:objective]**:\n▪ That no enemy units (excluding AIRCRAFT units) are within range of.\n▪ That your unit was controlling at the end of the previous phase.\n\nThat **objective** is **[gloss:secured-objective:secured]**.",
+              "flavor": "Those inducted into the Dark Angels’ Inner Circle will gladly give their lives in pursuit of victory, and to see the Fallen brought to justice.",
+              "name": "In Sacrifice, Victory",
+              "restrictions": "",
+              "sublabel": "Wrath of the Rock – Stratagem",
+              "target": "That DEATHWING/RAVENWING unit. You can target that unit with this **[gloss:stratagem:stratagem]** even though it is **[gloss:destroyed:destroyed]**.",
+              "turn": "either",
+              "when": "Any phase, when a friendly DEATHWING/RAVENWING unit within range of an **[gloss:objective:objective]** is **[gloss:destroyed:destroyed]**."
+            }
+          ],
+          "unique": "TERMINATOR"
+        }
+      ],
+      "name": "Dark Angels",
+      "slug": "dark-angels"
+    }
+  }
+}

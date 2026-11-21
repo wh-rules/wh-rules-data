@@ -1,0 +1,19 @@
+{
+  "default": {
+    "effect": {
+      "body": {
+        "en": "▪ Friendly ORKS units with the Waaagh! ability are riled up until the end of the next turn.\n\nWhile a unit is riled up:\n▪ That unit has 5+ InSv.\n▪ That unit's ranged attacks have [ASSAULT].\n▪ When that unit is selected to make an advance move, that move does not prevent it from being eligible to declare a charge.",
+        "ru": "▪ Дружественные отряды ORKS со способностью Waaagh! становятся riled up до конца следующего хода.\n\nПока отряд riled up:\n▪ У него 5+ InSv.\n▪ Его дальнобойные атаки получают [ASSAULT].\n▪ Когда отряд выбран для advance move, этот манёвр не мешает ему объявлять charge."
+      },
+      "name": "War Cry called"
+    },
+    "kind": "toggle",
+    "label": "Waaagh! — War Cry",
+    "maxUses": 1,
+    "note": {
+      "en": "Once per battle, per army, at the start of the Command phase. Riled up also comes from many other rules, one unit at a time — flip those on the unit itself, not here.",
+      "ru": "Раз за бой на армию, в начале Command phase. Riled up дают и многие другие правила, по одному отряду — их отмечай на самом отряде, а не здесь."
+    },
+    "slug": "orks"
+  }
+}

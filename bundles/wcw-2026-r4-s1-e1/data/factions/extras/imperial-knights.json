@@ -1,0 +1,10 @@
+{
+  "default": {
+    "det:spearhead-at-arms": [
+      {
+        "en": "KEYWORDS\nARMIGER models from your army gain the BATTLELINE keyword.",
+        "ru": "КЛЮЧЕВЫЕ СЛОВА\nМодели ARMIGER вашей армии получают ключевое слово BATTLELINE."
+      }
+    ]
+  }
+}

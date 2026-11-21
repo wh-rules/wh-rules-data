@@ -1,0 +1,576 @@
+{
+  "default": {
+    "detachments": [
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Alien Majesty",
+            "points": 15
+          },
+          {
+            "name": "Biomorph Adaptation",
+            "points": 25
+          },
+          {
+            "name": "Mutagenic Regeneration",
+            "points": 10
+          },
+          {
+            "name": "Predatory Instincts",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Biosanctic Broodsurge"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Adaptive Reprisal",
+            "points": 15
+          },
+          {
+            "name": "Fire-point Commander",
+            "points": 10
+          },
+          {
+            "name": "Martial Espionage",
+            "points": 25
+          },
+          {
+            "name": "The Hero Returned",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Brood Brothers Auxilia"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Enraptured Damnation",
+            "points": 10
+          },
+          {
+            "name": "Inhuman Integration",
+            "points": 20
+          },
+          {
+            "name": "Synaptic Auger",
+            "points": 15
+          },
+          {
+            "name": "Vanguard Tyrant",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Final Day"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Contraband Munitions",
+            "points": 20
+          },
+          {
+            "name": "Gene-tailored Toxins",
+            "points": 35
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Heroes of the Uprising"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "A Chink In Their Armour",
+            "points": 20
+          },
+          {
+            "name": "Assassination Edict",
+            "points": 15
+          },
+          {
+            "name": "Our Time is Nigh",
+            "points": 20
+          },
+          {
+            "name": "Prowling Agitant",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold",
+          "Reconnaissance"
+        ],
+        "name": "Host of Ascension",
+        "unique": "HOSTS"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Assault Commando",
+            "points": 15
+          },
+          {
+            "name": "Cartographic Data-leech",
+            "points": 10
+          },
+          {
+            "name": "Serpentine Tactics",
+            "points": 10
+          },
+          {
+            "name": "Starfall Shells",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Outlander Claw"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Mark of the Star Children (Upgrade)",
+            "points": 30
+          },
+          {
+            "name": "Talons of the Sire",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Purestrain Broodswarm"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Deeds that Speak to the Masses",
+            "points": 25
+          },
+          {
+            "name": "Denunciator of Tyrants",
+            "points": 25
+          },
+          {
+            "name": "Gene-sire’s Reliquant",
+            "points": 5
+          },
+          {
+            "name": "Incendiary Inspiration",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Xenocreed Congregation"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Devious Disguises (Upgrade)",
+            "points": 15
+          },
+          {
+            "name": "Inspired to Greatness",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Xenocult Masses",
+        "unique": "HOSTS"
+      }
+    ],
+    "id": "genestealer-cults",
+    "legends": [
+      {
+        "name": "Tectonic Fragdrill",
+        "options": [
+          {
+            "models": 1,
+            "points": 125
+          }
+        ]
+      }
+    ],
+    "name": "Genestealer Cults",
+    "slug": "genestealer-cults",
+    "sourceUrl": "https://mfm.warhammer-community.com/en/genestealer-cults",
+    "subfactions": [],
+    "units": [
+      {
+        "name": "Aberrants",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 140
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 280
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 150
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 290
+          }
+        ]
+      },
+      {
+        "name": "Abominant",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 85
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Achilles Ridgerunners",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 95
+          },
+          {
+            "models": 2,
+            "note": "1st-2nd",
+            "points": 160
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 105
+          },
+          {
+            "models": 2,
+            "note": "3rd+",
+            "points": 170
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Heavy mining laser",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Acolyte Hybrids with Autopistols",
+        "options": [
+          {
+            "models": 5,
+            "points": 65
+          },
+          {
+            "models": 10,
+            "points": 120
+          }
+        ]
+      },
+      {
+        "name": "Acolyte Hybrids with Hand Flamers",
+        "options": [
+          {
+            "models": 5,
+            "points": 75
+          },
+          {
+            "models": 10,
+            "points": 140
+          }
+        ]
+      },
+      {
+        "name": "Acolyte Iconward",
+        "options": [
+          {
+            "models": 1,
+            "points": 50
+          }
+        ]
+      },
+      {
+        "name": "Atalan Jackals",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 85
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 150
+          },
+          {
+            "models": 9,
+            "note": "1st-2nd",
+            "points": 160
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 95
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 160
+          },
+          {
+            "models": 9,
+            "note": "3rd+",
+            "points": 170
+          }
+        ]
+      },
+      {
+        "name": "Benefictus",
+        "options": [
+          {
+            "models": 1,
+            "points": 75
+          }
+        ]
+      },
+      {
+        "name": "Biophagus",
+        "options": [
+          {
+            "models": 1,
+            "points": 50
+          }
+        ]
+      },
+      {
+        "name": "Clamavus",
+        "options": [
+          {
+            "models": 1,
+            "points": 50
+          }
+        ]
+      },
+      {
+        "name": "Goliath Rockgrinder",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 110
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 120
+          }
+        ]
+      },
+      {
+        "name": "Goliath Truck",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-3rd",
+            "points": 75
+          },
+          {
+            "models": 1,
+            "note": "4th+",
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Hybrid Metamorphs",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 75
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 140
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 85
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 150
+          }
+        ]
+      },
+      {
+        "name": "Jackal Alphus",
+        "options": [
+          {
+            "models": 1,
+            "points": 55
+          }
+        ]
+      },
+      {
+        "name": "Kelermorph",
+        "options": [
+          {
+            "models": 1,
+            "points": 60
+          }
+        ]
+      },
+      {
+        "name": "Locus",
+        "options": [
+          {
+            "models": 1,
+            "points": 35
+          }
+        ]
+      },
+      {
+        "name": "Magus",
+        "options": [
+          {
+            "models": 1,
+            "points": 50
+          }
+        ]
+      },
+      {
+        "name": "Neophyte Hybrids",
+        "options": [
+          {
+            "models": 10,
+            "points": 70
+          },
+          {
+            "models": 20,
+            "points": 135
+          }
+        ]
+      },
+      {
+        "name": "Nexos",
+        "options": [
+          {
+            "models": 1,
+            "points": 50
+          }
+        ]
+      },
+      {
+        "name": "Patriarch",
+        "options": [
+          {
+            "models": 1,
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Primus",
+        "options": [
+          {
+            "models": 1,
+            "points": 60
+          }
+        ]
+      },
+      {
+        "name": "Purestrain Genestealers",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 75
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 140
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 85
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 150
+          }
+        ]
+      },
+      {
+        "name": "Reductus Saboteur",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 70
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Sanctus",
+        "options": [
+          {
+            "models": 1,
+            "points": 60
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1877 @@
+{
+  "default": {
+    "entries": [
+      {
+        "det": null,
+        "effects": [],
+        "hash": "8fa65f04",
+        "kind": "ability",
+        "name": "Angron: Driven by Ultimate Rage (Aura)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "WORLD EATERS"
+              ]
+            }
+          ],
+          "set": "Wrathful Presence",
+          "unit": "angron"
+        },
+        "reviewed": true,
+        "sid": "791c069c-fc4b-4198-8085-a8a00c78fd00:angron",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "19e2f271",
+        "kind": "ability",
+        "name": "Angron: Overwhelmlng Wrath (Aura)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "Wrathful Presence",
+          "unit": "angron"
+        },
+        "reviewed": true,
+        "sid": "0590eb08-1a08-422b-8aa7-cef2df169979:angron",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "8423f8d3",
+        "kind": "ability",
+        "name": "Angron: The Blood God’s Favour",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "Wrathful Presence",
+          "unit": "angron"
+        },
+        "reviewed": true,
+        "sid": "f2400e6f-7d30-487b-99a2-f8ffebf00817:angron",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "hit",
+            "target": "aura",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "d122b2c2",
+        "kind": "ability",
+        "name": "Bloodthirster: Daemon Lord of Khorne",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "BLOOD LEGIONS"
+              ]
+            }
+          ],
+          "unit": "bloodthirster"
+        },
+        "reviewed": true,
+        "sid": "2cbca890-eb1a-4b32-aed7-6e7abb2ac218:bloodthirster",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "954b014f",
+        "kind": "ability",
+        "name": "Chaos Predator Destructor: Punishing Suppression",
+        "ref": {
+          "kind": "ability",
+          "unit": "chaos-predator-destructor"
+        },
+        "reviewed": true,
+        "sid": "2228df96-5080-40db-a776-9d20423e6b2e:chaos-predator-destructor",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "only": {
+              "name": "Hellforged"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "until the end of a turn it made a Charge move",
+              "ru": "до конца хода, в котором совершил Charge"
+            }
+          }
+        ],
+        "hash": "869e0d05",
+        "kind": "ability",
+        "name": "Daemon Prince of Khorne: Devastating Assault",
+        "ref": {
+          "kind": "ability",
+          "unit": "daemon-prince-of-khorne"
+        },
+        "reviewed": true,
+        "sid": "33a3fdd4-beec-4f75-8779-cf16bbdadf0f:daemon-prince-of-khorne",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of a friendly WORLD EATERS INFANTRY unit",
+              "ru": "пока в пределах 3\" от дружественного отряда WORLD EATERS INFANTRY"
+            }
+          }
+        ],
+        "hash": "dfc9c1f4",
+        "kind": "ability",
+        "name": "Daemon Prince of Khorne: Lord of Murder",
+        "ref": {
+          "kind": "ability",
+          "unit": "daemon-prince-of-khorne"
+        },
+        "reviewed": true,
+        "sid": "f4b2702b-190a-42fb-a211-a230d826a89a:daemon-prince-of-khorne",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "hit",
+            "target": "aura",
+            "value": 1,
+            "when": {
+              "en": "against a unit other than a MONSTER or VEHICLE",
+              "ru": "по отряду, кроме MONSTER и VEHICLE"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "wound",
+            "target": "aura",
+            "value": 1,
+            "when": {
+              "en": "against such a unit that is Below Half-strength",
+              "ru": "по такому отряду, если он Below Half-strength"
+            }
+          }
+        ],
+        "hash": "fb1c6326",
+        "kind": "ability",
+        "name": "Eightbound: Beacons of Rage",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [
+                "MONSTERS",
+                "MONSTER",
+                "VEHICLES",
+                "VEHICLE"
+              ],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "WORLD EATERS"
+              ]
+            }
+          ],
+          "unit": "eightbound"
+        },
+        "reviewed": true,
+        "sid": "79ed7c3d-9cfc-4975-9b8c-df6efe860286:eightbound",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": {
+              "en": "against MONSTER or VEHICLE targets",
+              "ru": "против целей MONSTER или VEHICLE"
+            }
+          }
+        ],
+        "hash": "72dd735a",
+        "kind": "ability",
+        "name": "Exalted Eightbound: Rend and Tear",
+        "ref": {
+          "kind": "ability",
+          "unit": "exalted-eightbound"
+        },
+        "reviewed": true,
+        "sid": "3763072d-ee53-4a22-94c0-8c762a088c72:exalted-eightbound",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-two-melee-besides-ccw"
+            ],
+            "on": "melee",
+            "only": {
+              "notName": [
+                "Close combat weapon"
+              ]
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 2,
+            "when": {
+              "en": "the two melee weapons taken in addition to the close combat weapon",
+              "ru": "два оружия ближнего боя, взятые вдобавок к close combat weapon"
+            }
+          }
+        ],
+        "hash": "67092a63",
+        "kind": "ability",
+        "name": "Helbrute: Devoted to Destruction",
+        "ref": {
+          "kind": "ability",
+          "unit": "helbrute"
+        },
+        "reviewed": true,
+        "sid": "39106d1b-f767-4eb9-bb2b-51234b91611c:helbrute",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a unit that can FLY",
+              "ru": "по отряду с FLY"
+            }
+          }
+        ],
+        "hash": "34bdf1df",
+        "kind": "ability",
+        "name": "Heldrake: Airborne Predator",
+        "ref": {
+          "kind": "ability",
+          "unit": "heldrake"
+        },
+        "reviewed": true,
+        "sid": "dacf05b3-c5a9-40f2-9452-5f86a89d342a:heldrake",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "if this unit made a charge move this turn",
+              "ru": "если отряд совершил charge в этом ходу"
+            }
+          }
+        ],
+        "hash": "458de330",
+        "kind": "ability",
+        "name": "Khorne Berzerkers: Murderous Charge",
+        "ref": {
+          "kind": "ability",
+          "unit": "khorne-berzerkers"
+        },
+        "reviewed": true,
+        "sid": "463598bf-181c-4598-81c9-2fe0d7b18f80:khorne-berzerkers",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Deep Strike",
+            "when": null
+          }
+        ],
+        "hash": "4ced3263",
+        "kind": "ability",
+        "name": "Lord Invocatus: Fire Riders",
+        "ref": {
+          "kind": "ability",
+          "unit": "lord-invocatus"
+        },
+        "reviewed": true,
+        "sid": "5dcb3c9e-f998-4600-8c30-b7d16011e9dc:lord-invocatus",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "m",
+            "target": "unit",
+            "value": "10\"",
+            "when": null
+          }
+        ],
+        "hash": "55eac758",
+        "kind": "ability",
+        "name": "Lord on Juggernaut: Aggressive Advance",
+        "ref": {
+          "kind": "ability",
+          "unit": "lord-on-juggernaut"
+        },
+        "reviewed": true,
+        "sid": "a65415ae-941f-4500-a868-cbf1c0ed6f25:lord-on-juggernaut",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a target below its Starting Strength",
+              "ru": "по цели ниже Starting Strength"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against a target that is Below Half-strength",
+              "ru": "по цели Below Half-strength"
+            }
+          }
+        ],
+        "hash": "fb3f99dc",
+        "kind": "ability",
+        "name": "Maulerfiend: Savage Exaltation",
+        "ref": {
+          "kind": "ability",
+          "unit": "maulerfiend"
+        },
+        "reviewed": true,
+        "sid": "bb6455b4-5b89-4710-9777-79d66db0d1c2:maulerfiend",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "target": "aura",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "f5ad8bed",
+        "kind": "ability",
+        "name": "Skarbrand: Rage Embodied",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "BLOOD LEGIONS"
+              ]
+            }
+          ],
+          "unit": "skarbrand"
+        },
+        "reviewed": true,
+        "sid": "787f9581-a51d-4d80-af61-d5fa8acfb5c0:skarbrand",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 3,
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          },
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "343267c3",
+        "kind": "ability",
+        "name": "Slaughterbound: Possessed Lord",
+        "ref": {
+          "kind": "ability",
+          "unit": "slaughterbound"
+        },
+        "reviewed": true,
+        "sid": "848b2010-250d-4c2b-b325-8aee82639312:slaughterbound",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "if this unit made a Charge move this turn",
+              "ru": "если отряд совершил Charge в этом ходу"
+            }
+          }
+        ],
+        "hash": "22be2b24",
+        "kind": "ability",
+        "name": "Vorrakh, Lord of the Frenzied Reavers: Devastating Assault",
+        "ref": {
+          "kind": "ability",
+          "unit": "vorrakh-lord-of-the-frenzied-reavers"
+        },
+        "reviewed": true,
+        "sid": "0ecb9456-ccf0-48e8-86ce-7762decae226:vorrakh-lord-of-the-frenzied-reavers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of a friendly FRENZIED REAVERS INFANTRY unit",
+              "ru": "пока в пределах 3\" от дружественного отряда FRENZIED REAVERS INFANTRY"
+            }
+          }
+        ],
+        "hash": "8000d291",
+        "kind": "ability",
+        "name": "Vorrakh, Lord of the Frenzied Reavers: Lord of Murder",
+        "ref": {
+          "kind": "ability",
+          "unit": "vorrakh-lord-of-the-frenzied-reavers"
+        },
+        "reviewed": true,
+        "sid": "93fa81cd-a227-498a-bc31-4e7a03bf7d1a:vorrakh-lord-of-the-frenzied-reavers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "blessing-martial-excellence"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while the Martial Excellence Blessing is active for the battle round",
+              "ru": "пока в раунде активно благословение Martial Excellence"
+            }
+          },
+          {
+            "cond": [
+              "blessing-warp-blades"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while the Warp Blades Blessing is active for the battle round",
+              "ru": "пока в раунде активно благословение Warp Blades"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "while the Decapitating Strikes Blessing is active, against Infantry units",
+              "ru": "пока активно благословение Decapitating Strikes, против отрядов Infantry"
+            }
+          }
+        ],
+        "hash": "5fc04aa0",
+        "kind": "armyRule",
+        "name": "Blessings of Khorne",
+        "ref": {
+          "kind": "armyRule"
+        },
+        "reviewed": true,
+        "sid": "1cd5e4a2-6e59-4213-bca8-d2bc680bd681",
+        "ver": 925
+      },
+      {
+        "det": "Berzerker Warband",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "4d6c61f2",
+        "kind": "detachmentRule",
+        "name": "Relentless Rage",
+        "ref": {
+          "det": "berzerker-warband",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "145c3608-88ac-4d19-b441-93aec4eceee9",
+        "ver": 963
+      },
+      {
+        "det": "Brazen Engines",
+        "effects": [],
+        "hash": "e3a83735",
+        "kind": "detachmentRule",
+        "name": "Rampaging Terrors",
+        "ref": {
+          "det": "brazen-engines",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "f8e7c22f-1d9e-439b-9e5c-3fa51d3da5da",
+        "ver": 995
+      },
+      {
+        "det": "Cult of Blood",
+        "effects": [
+          {
+            "cond": [
+              "idol-infinite-rage"
+            ],
+            "op": "state",
+            "reach": [
+              "WORLD EATERS MONSTER",
+              "WORLD EATERS TITANIC"
+            ],
+            "text": {
+              "en": "Aura: friendly JAKHALS or GOREMONGERS units within 6\" (9\" if TITANIC) add 1 to Hit and Wound rolls",
+              "ru": "Аура: дружественные юниты JAKHALS или GOREMONGERS в пределах 6\" (9\", если модель TITANIC) добавляют 1 к броскам на попадание и ранение"
+            },
+            "when": {
+              "en": "the Idol selected this Command phase",
+              "ru": "Idol, выбранный в эту фазу командования"
+            }
+          },
+          {
+            "cond": [
+              "idol-burning-wrath"
+            ],
+            "op": "state",
+            "reach": [
+              "WORLD EATERS MONSTER",
+              "WORLD EATERS TITANIC"
+            ],
+            "text": {
+              "en": "Aura: friendly JAKHALS or GOREMONGERS units within 6\" (9\" if TITANIC) have +1\" Move and +1 to Advance and Charge rolls",
+              "ru": "Аура: дружественные юниты JAKHALS или GOREMONGERS в пределах 6\" (9\", если модель TITANIC) имеют +1\" к манёвру и +1 к броскам продвижения и нападения"
+            },
+            "when": {
+              "en": "the Idol selected this Command phase",
+              "ru": "Idol, выбранный в эту фазу командования"
+            }
+          },
+          {
+            "cond": [
+              "idol-blessed-blood"
+            ],
+            "op": "state",
+            "reach": [
+              "WORLD EATERS MONSTER",
+              "WORLD EATERS TITANIC"
+            ],
+            "text": {
+              "en": "Aura: friendly JAKHALS or GOREMONGERS units within 6\" (9\" if TITANIC) have a 4+ invulnerable save",
+              "ru": "Аура: дружественные юниты JAKHALS или GOREMONGERS в пределах 6\" (9\", если модель TITANIC) имеют неуязвимый спас-бросок 4+"
+            },
+            "when": {
+              "en": "the Idol selected this Command phase",
+              "ru": "Idol, выбранный в эту фазу командования"
+            }
+          }
+        ],
+        "hash": "60e57bd1",
+        "kind": "detachmentRule",
+        "name": "Idols of Khorne",
+        "ref": {
+          "det": "cult-of-blood",
+          "kind": "detachmentRule",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "JAKHALS",
+                "GOREMONGERS"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "e0bb7c79-6d19-4d69-84ae-f3d0b4036ad3",
+        "ver": 925
+      },
+      {
+        "det": "Frenzied Reavers",
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "when that unit is selected to fight, if it made a Charge move this turn",
+              "ru": "когда отряд выбран для боя, если в этом ходу он совершил charge-перемещение"
+            }
+          }
+        ],
+        "hash": "708f62a1",
+        "kind": "detachmentRule",
+        "name": "Berzerker Charge",
+        "ref": {
+          "det": "cp:world-eaters",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "5277c93c-81dd-4f76-b4d5-9a7f0609f836",
+        "ver": 925
+      },
+      {
+        "det": "Goretrack Onslaught",
+        "effects": [],
+        "hash": "c9160531",
+        "kind": "detachmentRule",
+        "name": "Rush to the Fray",
+        "ref": {
+          "det": "goretrack-onslaught",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "adf5998c-3b76-4841-b189-5e2e08a37b61",
+        "ver": 925
+      },
+      {
+        "det": "Khorne Daemonkin",
+        "effects": [
+          {
+            "cond": [
+              "tithe-boon-of-blood"
+            ],
+            "on": "profile",
+            "op": "set",
+            "scope": 3,
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "once the Boon of Blood ability is activated for 4 Blood Tithe points",
+              "ru": "после активации способности Boon of Blood за 4 очка Blood Tithe"
+            }
+          },
+          {
+            "cond": [
+              "tithe-daemonic-rage",
+              "never"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LANCE",
+            "when": {
+              "en": "BLOOD LEGIONS units, while the Daemonic Rage ability is paid for with 3BTP",
+              "ru": "отряды BLOOD LEGIONS, пока за 3BTP активирована Daemonic Rage"
+            }
+          },
+          {
+            "cond": [
+              "tithe-enraged-abjuration",
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+ (vs Psychic Attacks and mortal wounds)",
+            "when": {
+              "en": "BLOOD LEGIONS and WORLD EATERS units, while the Enraged Abjuration ability is paid for with 2BTP",
+              "ru": "отряды BLOOD LEGIONS и WORLD EATERS, пока за 2BTP активирована Enraged Abjuration"
+            }
+          },
+          {
+            "cond": [
+              "tithe-enraged-abjuration"
+            ],
+            "op": "state",
+            "text": {
+              "en": "Feel No Pain 5+ against Psychic Attacks and mortal wounds",
+              "ru": "Feel No Pain 5+ против психических атак и смертельных ран"
+            },
+            "when": {
+              "en": "activated with 2 Blood Tithe points, until the end of the battle",
+              "ru": "активирована за 2 очка Blood Tithe, до конца битвы"
+            }
+          },
+          {
+            "cond": [
+              "tithe-daemonic-rage"
+            ],
+            "op": "state",
+            "reach": [
+              "BLOOD LEGIONS"
+            ],
+            "text": {
+              "en": "Its melee weapons have [LANCE]",
+              "ru": "Его оружие ближнего боя имеет [LANCE]"
+            },
+            "when": {
+              "en": "activated with 3 Blood Tithe points, until the end of the battle",
+              "ru": "активирована за 3 очка Blood Tithe, до конца битвы"
+            }
+          },
+          {
+            "cond": [
+              "tithe-boon-of-blood"
+            ],
+            "op": "state",
+            "reach": [
+              "BLOOD LEGIONS"
+            ],
+            "when": {
+              "en": "activated with 4 Blood Tithe points, until the end of the battle",
+              "ru": "активирована за 4 очка Blood Tithe, до конца битвы"
+            }
+          },
+          {
+            "cond": [
+              "tithe-might-of-khorne"
+            ],
+            "op": "state",
+            "reach": [
+              "BLOOD LEGIONS"
+            ],
+            "text": {
+              "en": "It has the Blessings of Khorne ability",
+              "ru": "Имеет способность Blessings of Khorne"
+            },
+            "when": {
+              "en": "activated with 5 Blood Tithe points, until the end of the battle",
+              "ru": "активирована за 5 очков Blood Tithe, до конца битвы"
+            }
+          }
+        ],
+        "hash": "fce93df7",
+        "kind": "detachmentRule",
+        "name": "Blood Tithe",
+        "ref": {
+          "det": "khorne-daemonkin",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "8f1033a9-31fd-40a3-aa6d-529a58e31a8d",
+        "ver": 925
+      },
+      {
+        "det": "Vessels of Wrath",
+        "effects": [
+          {
+            "cond": [
+              "wrath-cleave"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "CLEAVE 1",
+            "when": {
+              "en": "the Character models' melee attacks, if that option is the one taken when selected to fight",
+              "ru": "атаки ближнего боя моделей Character, если при выборе для боя взят этот вариант"
+            }
+          },
+          {
+            "alt": 0,
+            "cond": [
+              "wrath-ap"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "+1 AP instead, for the Character models' melee attacks",
+              "ru": "вместо этого +1 AP для атак ближнего боя моделей Character"
+            }
+          }
+        ],
+        "hash": "814d0c45",
+        "kind": "detachmentRule",
+        "name": "Wrath of Khorne",
+        "ref": {
+          "det": "vessels-of-wrath",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "d6c37f06-0c31-480e-b0fc-d7a08735e284",
+        "ver": 925
+      },
+      {
+        "det": "Berzerker Warband",
+        "effects": [],
+        "hash": "42d701da",
+        "kind": "enhancement",
+        "name": "Battle-lust",
+        "ref": {
+          "det": "berzerker-warband",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "f7fbb275-bf28-483e-9f80-5bbedb3c3b51",
+        "ver": 925
+      },
+      {
+        "det": "Berzerker Warband",
+        "effects": [
+          {
+            "on": "melee",
+            "only": {
+              "notTag": "EXTRA ATTACKS"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "only": {
+              "notTag": "EXTRA ATTACKS"
+            },
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "5486231b",
+        "kind": "enhancement",
+        "name": "Berzerker Glaive",
+        "ref": {
+          "det": "berzerker-warband",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "156db4d1-d3d9-434a-a23a-8891a2dc103b",
+        "ver": 925
+      },
+      {
+        "det": "Berzerker Warband",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "31b6e128",
+        "kind": "enhancement",
+        "name": "Helm of Brazen Ire",
+        "ref": {
+          "det": "berzerker-warband",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "5c618647-d77c-420a-aef6-9b18e3c44c6f",
+        "ver": 925
+      },
+      {
+        "det": "Brazen Engines",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "target": "unit",
+            "value": "Daemon",
+            "when": null
+          }
+        ],
+        "hash": "ae4c4c9e",
+        "kind": "enhancement",
+        "name": "Murder-forged Entity (Upgrade)",
+        "ref": {
+          "det": "brazen-engines",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "ee328098-14cc-48ec-aaa0-0bc012746e78",
+        "ver": 995
+      },
+      {
+        "det": "Brazen Engines",
+        "effects": [
+          {
+            "on": "melee",
+            "only": {
+              "name": "Maulerfiend fists"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "CLEAVE 2",
+            "when": null
+          }
+        ],
+        "hash": "fd537c39",
+        "kind": "enhancement",
+        "name": "Talons of Butchery (Upgrade)",
+        "ref": {
+          "det": "brazen-engines",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "5b1f2f75-b53c-4e8c-b9e0-27b709684271",
+        "ver": 925
+      },
+      {
+        "det": "Butchers of Khorne",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "improve",
+            "stat": "ws",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "9b3cdb32",
+        "kind": "enhancement",
+        "name": "Gore-stained Veterans (Upgrade)",
+        "ref": {
+          "det": "butchers-of-khorne",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "3959a88d-7bdd-4c12-8e21-72050af167a2",
+        "ver": 925
+      },
+      {
+        "det": "Butchers of Khorne",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "71d1f520",
+        "kind": "enhancement",
+        "name": "Sanctified in Slaughter (Upgrade)",
+        "ref": {
+          "det": "butchers-of-khorne",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "36ceb8f3-1be2-4dfb-8f56-3cd0b801b2cd",
+        "ver": 925
+      },
+      {
+        "det": "Cult of Blood",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+",
+            "when": null
+          }
+        ],
+        "hash": "0173d648",
+        "kind": "enhancement",
+        "name": "Brazen Form",
+        "ref": {
+          "det": "cult-of-blood",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "a0a554a8-ce20-4b80-ae87-61273c56f07a",
+        "ver": 925
+      },
+      {
+        "det": "Cult of Blood",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Infiltrators",
+            "when": null
+          }
+        ],
+        "hash": "f1a9e3c6",
+        "kind": "enhancement",
+        "name": "Butcher Lord",
+        "ref": {
+          "det": "cult-of-blood",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "976e65fb-8d52-46c2-945c-2caac09d790b",
+        "ver": 925
+      },
+      {
+        "det": "Cult of Blood",
+        "effects": [],
+        "hash": "7b7acc1c",
+        "kind": "enhancement",
+        "name": "Chosen of the Blood God",
+        "note": "extends the range of the bearer's Aura abilities, not a weapon row",
+        "ref": {
+          "det": "cult-of-blood",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "b4cc8581-ed00-4444-878a-5aac6e4a0d12",
+        "ver": 925
+      },
+      {
+        "det": "Frenzied Reavers",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "oc",
+            "value": 5,
+            "when": null
+          }
+        ],
+        "hash": "d92b5e58",
+        "kind": "enhancement",
+        "name": "Fearsome Presence",
+        "ref": {
+          "det": "cp:world-eaters",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "3e6e5f14-b73e-4de8-99b8-3070977a4b2a",
+        "ver": 995
+      },
+      {
+        "det": "Goretrack Onslaught",
+        "effects": [],
+        "hash": "0b7be537",
+        "kind": "enhancement",
+        "name": "Aggressive Deployment",
+        "ref": {
+          "det": "goretrack-onslaught",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "aff00366-f427-452e-b17d-a7cb1b28ca6d",
+        "ver": 925
+      },
+      {
+        "det": "Goretrack Onslaught",
+        "effects": [
+          {
+            "on": "unit",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Fights First",
+            "when": {
+              "en": "until the end of a Fight phase the bearer used this Enhancement in (once per battle)",
+              "ru": "до конца Fight phase, в которой носитель применил улучшение (раз за битву)"
+            }
+          }
+        ],
+        "hash": "669b32ae",
+        "kind": "enhancement",
+        "name": "Infernal Infusion",
+        "ref": {
+          "det": "goretrack-onslaught",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "583dbda3-3181-460b-96ad-fc0535c79aea",
+        "ver": 925
+      },
+      {
+        "det": "Goretrack Onslaught",
+        "effects": [],
+        "hash": "e53db515",
+        "kind": "enhancement",
+        "name": "Unleash Hell",
+        "ref": {
+          "det": "goretrack-onslaught",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "6ba1aac3-7971-46b5-8b47-46b0f236dd1f",
+        "ver": 995
+      },
+      {
+        "det": "Khorne Daemonkin",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "f9ebe04f",
+        "kind": "enhancement",
+        "name": "Blade of Endless Bloodshed",
+        "ref": {
+          "det": "khorne-daemonkin",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "8d57055e-3476-401d-9382-c0c1eae33a4d",
+        "ver": 925
+      },
+      {
+        "det": "Khorne Daemonkin",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "sv",
+            "value": "2+",
+            "when": null
+          }
+        ],
+        "hash": "d735756f",
+        "kind": "enhancement",
+        "name": "Blood-Forged Armour",
+        "ref": {
+          "det": "khorne-daemonkin",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "fcbe8acf-9854-414e-b644-c0e0cb67e41c",
+        "ver": 925
+      },
+      {
+        "det": "Khorne Daemonkin",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Blood Legions",
+            "when": {
+              "en": "replaces the World Eaters Faction keyword rather than adding to it",
+              "ru": "заменяет фракционное ключевое слово World Eaters, а не добавляется к нему"
+            }
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Deep Strike",
+            "when": null
+          }
+        ],
+        "hash": "b14be783",
+        "kind": "enhancement",
+        "name": "Disciple of Khorne",
+        "ref": {
+          "det": "khorne-daemonkin",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "39eeeb4f-b6ba-45a6-8d96-7a7036b58d88",
+        "ver": 925
+      },
+      {
+        "det": "Possessed Slaughterband",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Deadly Demise D3+1",
+            "when": {
+              "en": "instead of the Deadly Demise D3 ability",
+              "ru": "вместо способности Deadly Demise D3"
+            }
+          }
+        ],
+        "hash": "2a5f25c5",
+        "kind": "enhancement",
+        "name": "Violent Demise",
+        "ref": {
+          "det": "possessed-slaughterband",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "78111068-bb4c-489e-822a-d283798812c0",
+        "ver": 925
+      },
+      {
+        "det": "Vessels of Wrath",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Mobile",
+            "when": null
+          }
+        ],
+        "hash": "f0e8c5ed",
+        "kind": "enhancement",
+        "name": "Gateways to Glory",
+        "ref": {
+          "det": "vessels-of-wrath",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "f3092328-4d66-4932-b3d4-07d3002b8f2a",
+        "ver": 995
+      },
+      {
+        "det": "Berzerker Warband",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "6d37add7",
+        "kind": "stratagem",
+        "name": "Frenzied Resilience",
+        "ref": {
+          "det": "berzerker-warband",
+          "kind": "stratagem",
+          "name": "Frenzied Resilience"
+        },
+        "reviewed": true,
+        "sid": "04245333-93c8-497c-9c6c-2bfe63210589",
+        "ver": 925
+      },
+      {
+        "det": "Berzerker Warband",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "381f84c3",
+        "kind": "stratagem",
+        "name": "Hack and Slash",
+        "ref": {
+          "det": "berzerker-warband",
+          "kind": "stratagem",
+          "name": "Hack and Slash"
+        },
+        "reviewed": true,
+        "sid": "0e2f8b70-b049-4a99-8e6b-3f08fc3720b4",
+        "ver": 925
+      },
+      {
+        "det": "Brazen Engines",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Mobile",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "6ab50acf",
+        "kind": "stratagem",
+        "name": "Trail of Destruction",
+        "ref": {
+          "det": "brazen-engines",
+          "kind": "stratagem",
+          "name": "Trail of Destruction"
+        },
+        "reviewed": true,
+        "sid": "6f84842b-c1a8-491e-9017-10178271d994",
+        "ver": 995
+      },
+      {
+        "det": "Butchers of Khorne",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against a MONSTER or VEHICLE unit",
+              "ru": "против отряда MONSTER или VEHICLE"
+            }
+          }
+        ],
+        "hash": "13351643",
+        "kind": "stratagem",
+        "name": "A Trophy for the Throne",
+        "ref": {
+          "det": "butchers-of-khorne",
+          "kind": "stratagem",
+          "name": "A Trophy for the Throne"
+        },
+        "reviewed": true,
+        "sid": "e164a302-d3ce-4b92-bc6b-fa64578c0661",
+        "ver": 995
+      },
+      {
+        "det": "Butchers of Khorne",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "83e4f304",
+        "kind": "stratagem",
+        "name": "Focused Ferocity",
+        "ref": {
+          "det": "butchers-of-khorne",
+          "kind": "stratagem",
+          "name": "Focused Ferocity"
+        },
+        "reviewed": true,
+        "sid": "ddce833e-6a6b-4621-8abd-4c2e764d798d",
+        "ver": 925
+      },
+      {
+        "det": "Butchers of Khorne",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "vs": "ranged",
+            "when": null
+          }
+        ],
+        "hash": "c853ac61",
+        "kind": "stratagem",
+        "name": "Wrath Beyond Reason",
+        "ref": {
+          "det": "butchers-of-khorne",
+          "kind": "stratagem",
+          "name": "Wrath Beyond Reason"
+        },
+        "reviewed": true,
+        "sid": "80b51c8d-7da0-4c7a-9584-40a017ea2cfa",
+        "ver": 925
+      },
+      {
+        "det": "Cult of Blood",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 6+",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "57c40746",
+        "kind": "stratagem",
+        "name": "In the Shadow of Brass Idols",
+        "ref": {
+          "det": "cult-of-blood",
+          "kind": "stratagem",
+          "name": "In the Shadow of Brass Idols"
+        },
+        "reviewed": true,
+        "sid": "b2c1204e-dc4a-4745-bf1e-76cffa675e99",
+        "ver": 925
+      },
+      {
+        "det": "Frenzied Reavers",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "ranged-s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "f5133a4b",
+        "kind": "stratagem",
+        "name": "Berserk Resilience",
+        "ref": {
+          "det": "cp:world-eaters",
+          "kind": "stratagem",
+          "name": "Berserk Resilience"
+        },
+        "reviewed": true,
+        "sid": "28f48ed7-7973-407d-a001-a1628c5bbc20",
+        "ver": 995
+      },
+      {
+        "det": "Khorne Daemonkin",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "5+",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "alt": 0,
+            "cond": [
+              "tithe-boon-of-blood"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "while the Boon of Blood is active, instead",
+              "ru": "пока активен Boon of Blood, вместо этого"
+            }
+          }
+        ],
+        "hash": "c3f648eb",
+        "kind": "stratagem",
+        "name": "Blessing of Burning Blood",
+        "ref": {
+          "det": "khorne-daemonkin",
+          "kind": "stratagem",
+          "name": "Blessing of Burning Blood"
+        },
+        "reviewed": true,
+        "sid": "4713f814-b1e9-4d19-bad3-f6cac53d2c6e",
+        "ver": 925
+      },
+      {
+        "det": "Khorne Daemonkin",
+        "dur": "turn",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LANCE",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "2370f986",
+        "kind": "stratagem",
+        "name": "Daemonic Fury",
+        "ref": {
+          "det": "khorne-daemonkin",
+          "kind": "stratagem",
+          "name": "Daemonic Fury"
+        },
+        "reviewed": true,
+        "sid": "8f8bdb9a-b906-48e6-84f4-7ce1762cf19e",
+        "ver": 925
+      },
+      {
+        "det": "Possessed Slaughterband",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "6d559221",
+        "kind": "stratagem",
+        "name": "Daemonic Resistance",
+        "ref": {
+          "det": "possessed-slaughterband",
+          "kind": "stratagem",
+          "name": "Daemonic Resistance"
+        },
+        "reviewed": true,
+        "sid": "c52715e8-0449-4e3d-adb9-feece5be12c6",
+        "ver": 995
+      },
+      {
+        "det": "Possessed Slaughterband",
+        "effects": [],
+        "hash": "1a3cc600",
+        "kind": "stratagem",
+        "name": "Daemonic Strength",
+        "ref": {
+          "det": "possessed-slaughterband",
+          "kind": "stratagem",
+          "name": "Daemonic Strength"
+        },
+        "reviewed": true,
+        "sid": "885813ba-ec4e-4279-bd3b-b0ea000890cb",
+        "ver": 925
+      },
+      {
+        "det": "Vessels of Wrath",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "CHARACTER models only",
+              "ru": "только модели CHARACTER"
+            }
+          },
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 2,
+            "when": {
+              "en": "CHARACTER models only",
+              "ru": "только модели CHARACTER"
+            }
+          }
+        ],
+        "hash": "03807c81",
+        "kind": "stratagem",
+        "name": "Aspire to Infamy",
+        "ref": {
+          "det": "vessels-of-wrath",
+          "kind": "stratagem",
+          "name": "Aspire to Infamy"
+        },
+        "reviewed": true,
+        "sid": "c719efe4-086b-4873-af62-1a50355b6c90",
+        "ver": 925
+      },
+      {
+        "det": "Vessels of Wrath",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+ (vs mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "84dbd5f5",
+        "kind": "stratagem",
+        "name": "Scorn the Witch",
+        "ref": {
+          "det": "vessels-of-wrath",
+          "kind": "stratagem",
+          "name": "Scorn the Witch"
+        },
+        "reviewed": true,
+        "sid": "059f08d4-8cb7-4a95-9670-8125006de9ef",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "ld",
+            "value": "6+",
+            "when": null
+          }
+        ],
+        "hash": "5db4589c",
+        "kind": "wargear",
+        "name": "Bloodcrushers: Daemonic Icon",
+        "ref": {
+          "item": "daemonic icon",
+          "kind": "wargear",
+          "unit": "bloodcrushers"
+        },
+        "reviewed": true,
+        "sid": "79b389ec-f1c4-42b1-833d-4e1b86817377:bloodcrushers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "9fccd872",
+        "kind": "wargear",
+        "name": "Bloodcrushers: Instrument of Chaos",
+        "ref": {
+          "item": "instrument of chaos",
+          "kind": "wargear",
+          "unit": "bloodcrushers"
+        },
+        "reviewed": true,
+        "sid": "e77cb7d8-d6cd-472a-a771-91fee3e48bcd:bloodcrushers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "ld",
+            "value": "6+",
+            "when": null
+          }
+        ],
+        "hash": "5db4589c",
+        "kind": "wargear",
+        "name": "Bloodletters: Daemonic Icon",
+        "ref": {
+          "item": "daemonic icon",
+          "kind": "wargear",
+          "unit": "bloodletters"
+        },
+        "reviewed": true,
+        "sid": "79b389ec-f1c4-42b1-833d-4e1b86817377:bloodletters",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "9fccd872",
+        "kind": "wargear",
+        "name": "Bloodletters: Instrument of Chaos",
+        "ref": {
+          "item": "instrument of chaos",
+          "kind": "wargear",
+          "unit": "bloodletters"
+        },
+        "reviewed": true,
+        "sid": "e77cb7d8-d6cd-472a-a771-91fee3e48bcd:bloodletters",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 3+ (vs Psychic Attacks)",
+            "when": null
+          }
+        ],
+        "hash": "7b24f7e2",
+        "kind": "wargear",
+        "name": "Flesh Hounds: Collar of Khorne",
+        "ref": {
+          "item": "collar of khorne",
+          "kind": "wargear",
+          "unit": "flesh-hounds"
+        },
+        "reviewed": true,
+        "sid": "80a80408-8489-4694-a5f4-72cf40036349:flesh-hounds",
+        "ver": 925
+      }
+    ],
+    "formatVersion": 1,
+    "slug": "world-eaters"
+  }
+}

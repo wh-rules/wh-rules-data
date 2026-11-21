@@ -1,0 +1,16 @@
+{
+  "default": {
+    "enh:awakened-dynasty:Veil of Darkness": [
+      {
+        "en": "NECRONS model only.",
+        "ru": "Только модель NECRONS."
+      }
+    ],
+    "enh:cursed-legion:Murdermind": [
+      {
+        "en": "In the Declare Battle Formations step, the bearer can be attached to a Lokhust Destroyers, Lokhust Heavy Destroyers, Ophydian Destroyers or Skorpekh Destroyers unit.",
+        "ru": "В шаге объявления боевых построений носитель может быть прикреплён к юниту Lokhust Destroyers, Lokhust Heavy Destroyers, Ophydian Destroyers или Skorpekh Destroyers."
+      }
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "warZonePhases": {
+    "Ash Clouds": {
+      "p": [
+        "movement"
+      ],
+      "s": {
+        "movement": "both"
+      }
+    },
+    "Canyon Walls": {
+      "m": {
+        "movement": "end"
+      },
+      "p": [
+        "movement"
+      ],
+      "s": {
+        "movement": "both"
+      }
+    },
+    "Defence Networks": {
+      "p": [
+        "shooting"
+      ],
+      "s": {
+        "shooting": "both"
+      }
+    },
+    "Foxholes": {
+      "p": [
+        "movement"
+      ],
+      "s": {
+        "movement": "own"
+      }
+    },
+    "Landing Craft": {
+      "p": [
+        "movement"
+      ],
+      "s": {
+        "movement": "both"
+      }
+    },
+    "Lead from the Front": {
+      "p": [
+        "command"
+      ],
+      "s": {
+        "command": "own"
+      }
+    },
+    "One Shall Stand, One Shall Fall": {
+      "p": [
+        "fight"
+      ],
+      "s": {
+        "fight": "both"
+      }
+    },
+    "Orbital Lance Bombardment": {
+      "at": "round-end"
+    },
+    "Rapid Reinforcements": {
+      "m": {
+        "movement": "end"
+      },
+      "p": [
+        "movement"
+      ],
+      "s": {
+        "movement": "opp"
+      }
+    },
+    "Rock Falls": {
+      "p": [
+        "movement",
+        "charge"
+      ],
+      "s": {
+        "charge": "own",
+        "movement": "own"
+      }
+    },
+    "Second Wave": {
+      "m": {
+        "command": "start"
+      },
+      "p": [
+        "command"
+      ],
+      "s": {
+        "command": "both"
+      }
+    },
+    "Shielded Mek Shops": {
+      "p": [
+        "movement"
+      ],
+      "s": {
+        "movement": "both"
+      }
+    },
+    "Shrouding Smoke": {
+      "p": [
+        "shooting"
+      ],
+      "s": {
+        "shooting": "both"
+      }
+    },
+    "Surgical Insertion": {
+      "p": [
+        "movement"
+      ],
+      "s": {
+        "movement": "both"
+      }
+    },
+    "Titan Clash": {
+      "p": [
+        "shooting",
+        "fight"
+      ],
+      "s": {
+        "fight": "both",
+        "shooting": "own"
+      }
+    },
+    "Treacherous Terrain": {
+      "p": [
+        "movement",
+        "charge"
+      ],
+      "s": {
+        "charge": "own",
+        "movement": "own"
+      }
+    },
+    "Tunnel Fighters": {
+      "p": [
+        "charge"
+      ],
+      "s": {
+        "charge": "own"
+      }
+    },
+    "Vermillion Sanction": {
+      "none": "the Upgrades are chosen before the battle (pre-battle step 7), where the setup reads the fourth"
+    },
+    "Veteran Fighters": {
+      "p": [
+        "shooting"
+      ],
+      "s": {
+        "shooting": "own"
+      }
+    }
+  }
+}

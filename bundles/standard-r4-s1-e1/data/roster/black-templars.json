@@ -1,0 +1,1931 @@
+{
+  "default": {
+    "allies": [
+      {
+        "ids": [
+          "titan-legions:reaver-titan",
+          "titan-legions:warbringer-nemesis-titan",
+          "titan-legions:warhound-titan",
+          "titan-legions:warlord-titan"
+        ],
+        "key": "adeptus-titanicus",
+        "lim": {
+          "Reaver Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warbringer Nemesis Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warhound Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warlord Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          }
+        },
+        "mutex": 1,
+        "name": "Adeptus Titanicus"
+      },
+      {
+        "free": [
+          {
+            "donor": [
+              "Inquisitor"
+            ],
+            "kw": "Retinue",
+            "recv": [
+              "Inquisitorial Agents"
+            ]
+          },
+          {
+            "donor": [
+              "Character",
+              "Voidfarers"
+            ],
+            "kw": "Retinue",
+            "recv": [
+              "Voidsmen-At-Arms"
+            ]
+          }
+        ],
+        "ids": [
+          "imperial-agents:aquila-kill-team",
+          "imperial-agents:callidus-assassin",
+          "imperial-agents:corvus-blackstar",
+          "imperial-agents:culexus-assassin",
+          "imperial-agents:deathwatch-kill-team",
+          "imperial-agents:eversor-assassin",
+          "imperial-agents:exaction-squad",
+          "imperial-agents:grey-knights-terminator-squad",
+          "imperial-agents:imperial-navy-breachers",
+          "imperial-agents:imperial-rhino",
+          "imperial-agents:inquisitor",
+          "imperial-agents:inquisitor-coteaz",
+          "imperial-agents:inquisitor-draxus",
+          "imperial-agents:inquisitor-greyfax",
+          "imperial-agents:inquisitor-kroyle",
+          "imperial-agents:inquisitorial-agents",
+          "imperial-agents:inquisitorial-chimera",
+          "imperial-agents:ministorum-priest",
+          "imperial-agents:navigator",
+          "imperial-agents:rogue-trader-entourage",
+          "imperial-agents:sanctifiers",
+          "imperial-agents:sisters-of-battle-immolator",
+          "imperial-agents:sisters-of-battle-squad",
+          "imperial-agents:subductor-squad",
+          "imperial-agents:vigilant-squad",
+          "imperial-agents:vindicare-assassin",
+          "imperial-agents:voidsmen-at-arms",
+          "imperial-agents:watch-captain-artemis",
+          "imperial-agents:watch-master"
+        ],
+        "key": "agents-of-the-imperium",
+        "lim": {
+          "Character": {
+            "incursion": 1,
+            "onslaught": 3,
+            "strike-force": 2
+          },
+          "Requisitioned": {
+            "incursion": 1,
+            "onslaught": 2,
+            "strike-force": 1
+          },
+          "Retinue": {
+            "incursion": 1,
+            "onslaught": 3,
+            "strike-force": 2
+          }
+        },
+        "name": "Agents of the Imperium",
+        "up": {
+          "imperial-agents:eversor-assassin": {
+            "1": 110
+          },
+          "imperial-agents:exaction-squad": {
+            "11": 85
+          },
+          "imperial-agents:grey-knights-terminator-squad": {
+            "5": 190
+          },
+          "imperial-agents:inquisitor": {
+            "1": 65
+          },
+          "imperial-agents:inquisitor-coteaz": {
+            "1": 95
+          },
+          "imperial-agents:inquisitor-draxus": {
+            "1": 110
+          },
+          "imperial-agents:inquisitorial-agents": {
+            "6": 60,
+            "11": 120,
+            "12": 120
+          },
+          "imperial-agents:navigator": {
+            "1": 75
+          },
+          "imperial-agents:rogue-trader-entourage": {
+            "4": 105
+          },
+          "imperial-agents:sisters-of-battle-immolator": {
+            "1": 105
+          },
+          "imperial-agents:sisters-of-battle-squad": {
+            "10": 110
+          },
+          "imperial-agents:subductor-squad": {
+            "11": 100
+          },
+          "imperial-agents:vindicare-assassin": {
+            "1": 125
+          },
+          "imperial-agents:voidsmen-at-arms": {
+            "6": 70
+          }
+        }
+      },
+      {
+        "enh": 1,
+        "ids": [
+          "deathwatch:corvus-blackstar",
+          "deathwatch:deathwatch-terminator-squad",
+          "deathwatch:deathwatch-veterans",
+          "deathwatch:decimus-kill-team",
+          "deathwatch:fortis-kill-team",
+          "deathwatch:indomitor-kill-team",
+          "deathwatch:spectrus-kill-team",
+          "deathwatch:talonstrike-kill-team",
+          "deathwatch:watch-captain-artemis",
+          "deathwatch:watch-master"
+        ],
+        "key": "deathwatch",
+        "name": "Deathwatch",
+        "pts": {
+          "incursion": 500,
+          "onslaught": 500,
+          "strike-force": 500
+        }
+      },
+      {
+        "ids": [
+          "imperial-knights:acastus-knight-asterius",
+          "imperial-knights:acastus-knight-porphyrion",
+          "imperial-knights:armiger-helverin",
+          "imperial-knights:armiger-moirax",
+          "imperial-knights:armiger-warglaive",
+          "imperial-knights:canis-rex",
+          "imperial-knights:cerastus-knight-acheron",
+          "imperial-knights:cerastus-knight-atrapos",
+          "imperial-knights:cerastus-knight-castigator",
+          "imperial-knights:cerastus-knight-lancer",
+          "imperial-knights:knight-castellan",
+          "imperial-knights:knight-crusader",
+          "imperial-knights:knight-defender",
+          "imperial-knights:knight-destrier",
+          "imperial-knights:knight-errant",
+          "imperial-knights:knight-gallant",
+          "imperial-knights:knight-paladin",
+          "imperial-knights:knight-preceptor",
+          "imperial-knights:knight-valiant",
+          "imperial-knights:knight-warden",
+          "imperial-knights:questoris-knight-magaera",
+          "imperial-knights:questoris-knight-styrix"
+        ],
+        "key": "imperial-knights",
+        "lim": {
+          "Armiger": {
+            "incursion": 3,
+            "onslaught": 3,
+            "strike-force": 3
+          },
+          "Titanic": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          }
+        },
+        "mutex": 1,
+        "name": "Imperial Knights"
+      }
+    ],
+    "detachments": [
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Oathbound Exemplar",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Astartes"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "limit": 3,
+            "name": "Righteous Fervour (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Crusader Squad"
+                ]
+              },
+              {
+                "ds": "Crusader Squad"
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Fist of the God-Emperor",
+        "sid": "c7cef828-bc60-4501-9309-dd7a1bb6d0b9"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "limit": 3,
+            "name": "Fervent Exemplars (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "Sword Brethren Squad"
+                ]
+              },
+              {
+                "ds": "Sword Brethren Squad"
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "limit": 3,
+            "name": "Inheritors of Sigismund (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Sword Brethren Squad"
+                ]
+              },
+              {
+                "ds": "Sword Brethren Squad"
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Marshal's Household",
+        "sid": "58c695ca-ad6f-45ea-b7d9-722053b6482c"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Incendiary Animus",
+            "pts": 25,
+            "req": [
+              {
+                "kw": [
+                  "Chaplain"
+                ]
+              },
+              {
+                "ds": "Chaplain"
+              },
+              {
+                "ds": "Judiciar"
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Consecrating Aura",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Astartes"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Zealous Vanguard",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Astartes"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Augury Servo-host",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Astartes"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Vow-sworn Crusaders",
+        "sid": "ced4cd04-74b5-4341-a7c8-5da07b5b5620"
+      }
+    ],
+    "name": "Black Templars",
+    "sharedDetachmentFrom": {
+      "Deathwatch Support": "deathwatch"
+    },
+    "sharedDetachments": [
+      "Assault Brethren",
+      "Deathwatch Support",
+      "Devastator Brethren",
+      "Gauntlet Task Force",
+      "Gravis Linebreaker Force",
+      "Gravis Siege Force",
+      "Ironclad Champions",
+      "Ironstorm Spearhead",
+      "Phobos Shadow Force",
+      "Phobos Shock Force",
+      "Stormlance Task Force",
+      "Tactical Brethren",
+      "Tacticus Attack Force",
+      "Tacticus Firestorm Force",
+      "Terminator Storm Force"
+    ],
+    "sharedUnitIds": [
+      "aggressor-squad",
+      "ancient",
+      "ancient-in-terminator-armour",
+      "apothecary",
+      "apothecary-biologis",
+      "assault-intercessor-squad",
+      "assault-intercessors-with-jump-packs",
+      "astraeus",
+      "ballistus-dreadnought",
+      "bladeguard-ancient",
+      "bladeguard-veteran-squad",
+      "brutalis-dreadnought",
+      "captain",
+      "captain-in-gravis-armour",
+      "captain-in-phobos-armour",
+      "captain-in-terminator-armour",
+      "captain-on-bike",
+      "captain-with-jump-pack",
+      "centurion-assault-squad",
+      "centurion-devastator-squad",
+      "cerberus",
+      "chaplain",
+      "chaplain-in-terminator-armour",
+      "chaplain-on-bike",
+      "chaplain-with-jump-pack",
+      "company-heroes",
+      "desolation-squad",
+      "dreadnought",
+      "drop-pod",
+      "eliminator-squad",
+      "eradicator-squad-with-heavy-bolters",
+      "eradicator-squad-with-melta-rifles",
+      "falchion",
+      "firestrike-servo-turrets",
+      "hammerfall-bunker",
+      "heavy-intercessor-squad",
+      "hellblaster-squad",
+      "inceptor-squad",
+      "incursor-squad",
+      "infernus-squad",
+      "infiltrator-squad",
+      "intercessor-squad",
+      "invader-atvs",
+      "invictor-tactical-warsuit",
+      "judiciar",
+      "kratos",
+      "land-raider",
+      "land-raider-crusader",
+      "land-raider-excelsior",
+      "land-raider-redeemer",
+      "land-speeder",
+      "lieutenant",
+      "lieutenant-in-phobos-armour",
+      "lieutenant-with-combi-weapon",
+      "mastodon",
+      "outrider-squad",
+      "predator-annihilator",
+      "predator-destructor",
+      "rapier-carrier",
+      "razorback",
+      "redemptor-dreadnought",
+      "reiver-squad",
+      "relic-razorback",
+      "rhino",
+      "rhino-primaris",
+      "scout-bike-squad",
+      "scout-squad",
+      "sicaran",
+      "sternguard-veteran-squad",
+      "storm-speeder-hailstrike",
+      "storm-speeder-hammerstrike",
+      "storm-speeder-thunderstrike",
+      "stormhawk-interceptor",
+      "stormraven-gunship",
+      "stormtalon-gunship",
+      "tarantula-air-defence-battery",
+      "tarantula-sentry-battery",
+      "techmarine",
+      "terminator-assault-squad",
+      "terminator-squad",
+      "terrax-pattern-termite",
+      "thunderhawk-gunship",
+      "typhon",
+      "vanguard-veteran-squad",
+      "vanguard-veteran-squad-with-jump-packs",
+      "venerable-dreadnought",
+      "vindicator",
+      "whirlwind"
+    ],
+    "slug": "black-templars",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                715,
+                1
+              ],
+              [
+                716,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Black Templars"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                717
+              ]
+            ],
+            "rep": [
+              715
+            ],
+            "t": 289
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                718
+              ]
+            ],
+            "rep": [
+              716
+            ],
+            "t": 290
+          }
+        ],
+        "id": "castellan",
+        "kws": [
+          "Character",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Lieutenant",
+          "Tacticus"
+        ],
+        "leads": [
+          {
+            "to": "company-heroes",
+            "type": "support"
+          },
+          {
+            "to": "bladeguard-veteran-squad",
+            "type": "support"
+          },
+          {
+            "to": "crusader-squad",
+            "type": "support"
+          },
+          {
+            "to": "sword-brethren-squad",
+            "type": "support"
+          },
+          {
+            "to": "assault-intercessor-squad",
+            "type": "support"
+          },
+          {
+            "to": "infernus-squad",
+            "type": "support"
+          },
+          {
+            "to": "intercessor-squad",
+            "type": "support"
+          },
+          {
+            "to": "sternguard-veteran-squad",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Castellan",
+        "sid": "6206701e-6a5e-4239-ae79-077a211bd78b",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 75
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                719,
+                1
+              ],
+              [
+                720,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                6,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Black Templars"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "chaplain-grimaldus",
+        "kws": [
+          "Chaplain",
+          "Character",
+          "Epic Hero",
+          "Imperium",
+          "Infantry",
+          "Tacticus"
+        ],
+        "leads": [
+          {
+            "to": "assault-intercessor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "sword-brethren-squad",
+            "type": "leader"
+          },
+          {
+            "to": "crusader-squad",
+            "type": "leader"
+          },
+          {
+            "to": "infernus-squad",
+            "type": "leader"
+          },
+          {
+            "to": "intercessor-squad",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Cenobyte Servitor"
+          },
+          {
+            "n": "Chaplain Grimaldus"
+          }
+        ],
+        "name": "Chaplain Grimaldus",
+        "sid": "7a14ad01-a45b-4272-be2a-bea1228bc129",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              4,
+              4
+            ],
+            "pts": 120
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                721,
+                1
+              ],
+              [
+                722,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Black Templars"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "crusade-ancient",
+        "kws": [
+          "Character",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Tacticus"
+        ],
+        "leads": [
+          {
+            "to": "crusader-squad",
+            "type": "support"
+          },
+          {
+            "to": "sword-brethren-squad",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Crusade Ancient",
+        "sid": "ac4bb457-439b-42be-ae6a-501fa97d7931",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 45
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            2,
+            [
+              [
+                723,
+                1
+              ],
+              [
+                724,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                725,
+                1
+              ],
+              [
+                726,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                723,
+                1
+              ],
+              [
+                727,
+                1
+              ],
+              [
+                728,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Black Templars"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                [
+                  [
+                    725,
+                    1
+                  ],
+                  [
+                    729,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              727
+            ],
+            "t": 291
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                10,
+                2
+              ],
+              [
+                20,
+                4
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                [
+                  [
+                    725,
+                    1
+                  ],
+                  [
+                    730,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    731,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              727
+            ],
+            "t": 292
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                732
+              ]
+            ],
+            "rep": [
+              725
+            ],
+            "t": 293
+          },
+          {
+            "in": "stepper",
+            "m": 2,
+            "o": [
+              [
+                [
+                  [
+                    733,
+                    1
+                  ],
+                  [
+                    734,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              723,
+              724
+            ],
+            "t": 294
+          }
+        ],
+        "id": "crusader-squad",
+        "kws": [
+          "Battleline",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Tacticus"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Sword Brother"
+          },
+          {
+            "n": "Initiate"
+          },
+          {
+            "n": "Neophyte"
+          }
+        ],
+        "name": "Crusader Squad",
+        "sid": "79d4ae8a-6fbd-4787-a8f3-2692cbc71212",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 160
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                11
+              ],
+              [
+                2,
+                8
+              ]
+            ],
+            "per": [
+              20,
+              20
+            ],
+            "pts": 305
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                735,
+                1
+              ],
+              [
+                736,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Black Templars"
+        ],
+        "flags": {
+          "char": 1,
+          "one": 1
+        },
+        "id": "emperors-champion",
+        "kws": [
+          "Character",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Tacticus"
+        ],
+        "leads": [
+          {
+            "to": "sternguard-veteran-squad",
+            "type": "leader"
+          },
+          {
+            "to": "sword-brethren-squad",
+            "type": "leader"
+          },
+          {
+            "to": "crusader-squad",
+            "type": "leader"
+          },
+          {
+            "to": "assault-intercessor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "intercessor-squad",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Emperor's Champion",
+        "sid": "851856d8-4852-4a31-8bb5-c069f6d8b084",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                737,
+                1
+              ],
+              [
+                738,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Black Templars"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                739
+              ]
+            ],
+            "rep": [
+              737
+            ],
+            "t": 295
+          },
+          {
+            "cond": [
+              0,
+              0
+            ],
+            "in": "checkbox",
+            "keep": [
+              737
+            ],
+            "m": 0,
+            "o": [
+              [
+                740
+              ]
+            ],
+            "t": 296
+          }
+        ],
+        "id": "execrator",
+        "kws": [
+          "Chaplain",
+          "Character",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Tacticus"
+        ],
+        "leads": [
+          {
+            "to": "crusader-squad",
+            "type": "leader"
+          },
+          {
+            "to": "sword-brethren-squad",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Execrator",
+        "sid": "357623fb-321e-4365-8935-cd104423f6db",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 65
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                741,
+                1
+              ],
+              [
+                742,
+                1
+              ],
+              [
+                743,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Black Templars"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                744,
+                10
+              ]
+            ],
+            "t": 297
+          }
+        ],
+        "id": "gladiator-lancer",
+        "kws": [
+          "Frame",
+          "Imperium",
+          "Smoke",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Gladiator Lancer",
+        "sid": "28efe884-f718-4745-8b0c-6ed221f65504",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 165
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                745,
+                1
+              ],
+              [
+                746,
+                1
+              ],
+              [
+                747,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Black Templars"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                748,
+                10
+              ]
+            ],
+            "t": 297
+          }
+        ],
+        "id": "gladiator-reaper",
+        "kws": [
+          "Frame",
+          "Imperium",
+          "Smoke",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Gladiator Reaper",
+        "sid": "55fb581c-0805-4e4a-a6f4-9aea8aadf019",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 165
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                749,
+                1
+              ],
+              [
+                750,
+                1
+              ],
+              [
+                751,
+                2
+              ],
+              [
+                752,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Black Templars"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                751,
+                10
+              ]
+            ],
+            "t": 297
+          }
+        ],
+        "id": "gladiator-valiant",
+        "kws": [
+          "Frame",
+          "Imperium",
+          "Smoke",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Gladiator Valiant",
+        "sid": "85b09425-65d4-4ecf-8974-689ff36853aa",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 145
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                753,
+                1
+              ],
+              [
+                754,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Black Templars"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "high-marshal-helbrecht",
+        "kws": [
+          "Chapter Master",
+          "Character",
+          "Epic Hero",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Tacticus"
+        ],
+        "leads": [
+          {
+            "to": "assault-intercessor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "crusader-squad",
+            "type": "leader"
+          },
+          {
+            "to": "sword-brethren-squad",
+            "type": "leader"
+          },
+          {
+            "to": "intercessor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "company-heroes",
+            "type": "leader"
+          },
+          {
+            "to": "bladeguard-veteran-squad",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "High Marshal Helbrecht",
+        "sid": "ee33a5d3-436a-4cb8-9f88-af023d82eb77",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 125
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                755,
+                1
+              ],
+              [
+                756,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Black Templars"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                757
+              ]
+            ],
+            "rep": [
+              756
+            ],
+            "t": 298
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                758
+              ],
+              [
+                759,
+                10
+              ]
+            ],
+            "t": 299
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                760
+              ],
+              [
+                761,
+                10
+              ],
+              [
+                762
+              ]
+            ],
+            "t": 300
+          }
+        ],
+        "id": "impulsor",
+        "kws": [
+          "Dedicated Transport",
+          "Frame",
+          "Imperium",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Impulsor",
+        "sid": "9aeb551d-6c87-42ca-b13c-97c31e62de93",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 70
+          }
+        ],
+        "step": {
+          "at": 4,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                763,
+                1
+              ],
+              [
+                764,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Black Templars"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                765
+              ]
+            ],
+            "rep": [
+              763
+            ],
+            "t": 301
+          }
+        ],
+        "id": "marshal",
+        "kws": [
+          "Captain",
+          "Character",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Tacticus"
+        ],
+        "leads": [
+          {
+            "to": "assault-intercessor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "sternguard-veteran-squad",
+            "type": "leader"
+          },
+          {
+            "to": "crusader-squad",
+            "type": "leader"
+          },
+          {
+            "to": "sword-brethren-squad",
+            "type": "leader"
+          },
+          {
+            "to": "infernus-squad",
+            "type": "leader"
+          },
+          {
+            "to": "intercessor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "bladeguard-veteran-squad",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Marshal",
+        "sid": "73c68929-2c2a-4ebc-8cb9-4b23407c02c5",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                766,
+                1
+              ],
+              [
+                767,
+                1
+              ],
+              [
+                768,
+                1
+              ],
+              [
+                769,
+                1
+              ],
+              [
+                770,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Black Templars"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                771
+              ]
+            ],
+            "rep": [
+              770
+            ],
+            "t": 302
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                772,
+                10
+              ]
+            ],
+            "t": 297
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                773
+              ]
+            ],
+            "rep": [
+              768
+            ],
+            "t": 303
+          }
+        ],
+        "id": "repulsor",
+        "kws": [
+          "Frame",
+          "Imperium",
+          "Smoke",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Repulsor",
+        "sid": "46a89128-fa0a-4013-847a-ee4b5b490b53",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 190
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                774,
+                1
+              ],
+              [
+                775,
+                1
+              ],
+              [
+                776,
+                1
+              ],
+              [
+                777,
+                1
+              ],
+              [
+                778,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Black Templars"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                779
+              ]
+            ],
+            "rep": [
+              776
+            ],
+            "repall": 1,
+            "t": 304
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                780,
+                10
+              ]
+            ],
+            "t": 297
+          }
+        ],
+        "id": "repulsor-executioner",
+        "kws": [
+          "Frame",
+          "Imperium",
+          "Smoke",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Repulsor Executioner",
+        "sid": "33573b80-b342-4624-a282-ba3ed7c04068",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 265
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                781,
+                1
+              ],
+              [
+                782,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Black Templars"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                4,
+                2
+              ],
+              [
+                8,
+                4
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                783
+              ]
+            ],
+            "rep": [
+              781
+            ],
+            "t": 305
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                784
+              ]
+            ],
+            "rep": [
+              782
+            ],
+            "t": 306
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                4,
+                1
+              ],
+              [
+                8,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                785
+              ]
+            ],
+            "rep": [
+              782
+            ],
+            "t": 307
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                4,
+                1
+              ],
+              [
+                8,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                786
+              ]
+            ],
+            "rep": [
+              781
+            ],
+            "t": 308
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                4,
+                1
+              ],
+              [
+                8,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                787
+              ]
+            ],
+            "rep": [
+              781,
+              782
+            ],
+            "t": 309
+          }
+        ],
+        "id": "sword-brethren-squad",
+        "kws": [
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Tacticus"
+        ],
+        "linked": 1,
+        "name": "Sword Brethren Squad",
+        "sid": "0c901841-b89d-4e0c-be08-ad06860f1e8b",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              4,
+              4
+            ],
+            "pts": 115
+          },
+          {
+            "per": [
+              5,
+              5
+            ],
+            "pts": 140
+          },
+          {
+            "per": [
+              9,
+              9
+            ],
+            "pts": 250
+          },
+          {
+            "per": [
+              10,
+              10
+            ],
+            "pts": 275
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      }
+    ]
+  }
+}

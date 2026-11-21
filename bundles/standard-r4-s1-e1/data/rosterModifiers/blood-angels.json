@@ -1,0 +1,1314 @@
+{
+  "default": {
+    "entries": [
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS: non-MONSTER/VEHICLE",
+            "when": {
+              "en": "if this unit made a charge move this turn",
+              "ru": "если отряд совершил charge в этом ходу"
+            }
+          },
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "DEVASTATING WOUNDS: non-MONSTER/VEHICLE",
+            "when": {
+              "en": "if this unit made a charge move this turn",
+              "ru": "если отряд совершил charge в этом ходу"
+            }
+          }
+        ],
+        "hash": "6bf7138a",
+        "kind": "ability",
+        "name": "Astorath: Mass of Doom",
+        "ref": {
+          "kind": "ability",
+          "unit": "astorath"
+        },
+        "reviewed": true,
+        "sid": "c73ecb8e-8bd6-4aba-937e-1ddb186052bf:astorath",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 3,
+            "when": {
+              "en": "once per battle, in the Fight phase in which this ability is used",
+              "ru": "раз за битву, в фазе боя, в которой применена способность"
+            }
+          },
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "once per battle, in the Fight phase in which this ability is used",
+              "ru": "раз за битву, в фазе боя, в которой применена способность"
+            }
+          }
+        ],
+        "hash": "aeb5584d",
+        "kind": "ability",
+        "name": "Blood Angels Captain: Finest Hour (Once per battle, per unit)",
+        "ref": {
+          "kind": "ability",
+          "unit": "blood-angels-captain"
+        },
+        "reviewed": true,
+        "sid": "e5c15257-2a26-44db-9557-e1dfbce03718:blood-angels-captain",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Feel No Pain 5+",
+            "when": null
+          }
+        ],
+        "hash": "ccc78431",
+        "kind": "ability",
+        "name": "Brother Corbulo: Sanguinary Priest",
+        "note": "Read as Hospitaller: Medicus Ministorum (adepta-sororitas), the same text.",
+        "ref": {
+          "kind": "ability",
+          "unit": "brother-corbulo"
+        },
+        "reviewed": true,
+        "sid": "pack:brother-corbulo:sanguinary-priest",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "4852bd6e",
+        "kind": "ability",
+        "name": "Brother Corbulo: The Red Grail",
+        "ref": {
+          "kind": "ability",
+          "unit": "brother-corbulo"
+        },
+        "reviewed": true,
+        "sid": "pack:brother-corbulo:the-red-grail",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "only": {
+              "name": "Dead Man’s Hand"
+            },
+            "op": "set",
+            "stat": "a",
+            "value": "12",
+            "when": {
+              "en": "after the first attack is allocated to this model",
+              "ru": "после того как этой модели впервые распределена атака"
+            }
+          }
+        ],
+        "hash": "6d2c086a",
+        "kind": "ability",
+        "name": "Captain Tycho: Embittered",
+        "ref": {
+          "kind": "ability",
+          "unit": "captain-tycho"
+        },
+        "reviewed": true,
+        "sid": "pack:captain-tycho:embittered",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "tycho-assault"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "ASSAULT",
+            "when": {
+              "en": "if selected when the unit shoots (one of three)",
+              "ru": "если выбрано при стрельбе (одно из трёх)"
+            }
+          },
+          {
+            "cond": [
+              "tycho-heavy"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "HEAVY",
+            "when": {
+              "en": "if selected when the unit shoots (one of three)",
+              "ru": "если выбрано при стрельбе (одно из трёх)"
+            }
+          },
+          {
+            "cond": [
+              "tycho-rapid-fire"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "RAPID FIRE 1",
+            "when": {
+              "en": "if selected when the unit shoots (one of three)",
+              "ru": "если выбрано при стрельбе (одно из трёх)"
+            }
+          }
+        ],
+        "hash": "d0be5338",
+        "kind": "ability",
+        "name": "Captain Tycho: Gifted Commander",
+        "ref": {
+          "kind": "ability",
+          "unit": "captain-tycho"
+        },
+        "reviewed": true,
+        "sid": "pack:captain-tycho:gifted-commander",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "a12a4dd9",
+        "kind": "ability",
+        "name": "Chief Librarian Mephiston: Quickening (psychic level 1)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "Chief Librarian (psyker level 3)",
+          "unit": "chief-librarian-mephiston"
+        },
+        "reviewed": true,
+        "sid": "9b5008a3-0500-4e93-acc1-e690145a1d6e:chief-librarian-mephiston",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "6f022183",
+        "kind": "ability",
+        "name": "Chief Librarian Mephiston: Transfixing Gaze (psychic level 2)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "Chief Librarian (psyker level 3)",
+          "unit": "chief-librarian-mephiston"
+        },
+        "reviewed": true,
+        "sid": "40df6727-496b-4973-850f-37709ada6eff:chief-librarian-mephiston",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "9c60d886",
+        "kind": "ability",
+        "name": "Death Company Captain with Jump Pack: Lost to Fury",
+        "ref": {
+          "kind": "ability",
+          "unit": "death-company-captain-with-jump-pack"
+        },
+        "reviewed": true,
+        "sid": "3531651c-2a7b-49fc-9f7b-2ece398afe73:death-company-captain-with-jump-pack",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Scouts 6\"",
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Scouts 6\"",
+            "when": null
+          }
+        ],
+        "hash": "a8a48d45",
+        "kind": "ability",
+        "name": "Death Company Captain: Forlorn Hero",
+        "ref": {
+          "kind": "ability",
+          "unit": "death-company-captain"
+        },
+        "reviewed": true,
+        "sid": "af61cdb2-6e02-4d43-acc7-0322d1964051:death-company-captain",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "oc",
+            "value": "0",
+            "when": {
+              "en": "while not within 12\" of a friendly CHAPLAIN model",
+              "ru": "пока не в пределах 12\" от дружественной модели CHAPLAIN"
+            }
+          }
+        ],
+        "hash": "b0159a4a",
+        "kind": "ability",
+        "name": "Death Company Dreadnought with Magna-grapple: Black Rage",
+        "ref": {
+          "kind": "ability",
+          "unit": "death-company-dreadnought-with-magna-grapple"
+        },
+        "reviewed": true,
+        "sid": "pack:death-company-dreadnought-with-magna-grapple:black-rage",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "d07334b2",
+        "kind": "ability",
+        "name": "Death Company Dreadnought with Magna-grapple: Magna-grapple",
+        "ref": {
+          "kind": "ability",
+          "unit": "death-company-dreadnought-with-magna-grapple"
+        },
+        "reviewed": true,
+        "sid": "pack:death-company-dreadnought-with-magna-grapple:magna-grapple",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "oc",
+            "value": "0",
+            "when": {
+              "en": "while not within 12\" of a friendly CHAPLAIN model",
+              "ru": "пока не в пределах 12\" от дружественной модели CHAPLAIN"
+            }
+          }
+        ],
+        "hash": "c967aef4",
+        "kind": "ability",
+        "name": "Death Company Marines with Boltguns and Jump Packs: Black Rage",
+        "ref": {
+          "kind": "ability",
+          "unit": "death-company-marines-with-boltguns-and-jump-packs"
+        },
+        "reviewed": true,
+        "sid": "pack:death-company-marines-with-boltguns-and-jump-packs:black-rage",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-below-starting-strength"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while this unit is below its Starting Strength",
+              "ru": "пока отряд ниже Starting Strength"
+            }
+          },
+          {
+            "alt": 0,
+            "cond": [
+              "unit-below-half-strength"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 2",
+            "when": {
+              "en": "instead, while this unit is Below Half-strength",
+              "ru": "вместо этого, пока отряд Below Half-strength"
+            }
+          }
+        ],
+        "hash": "a9e0e315",
+        "kind": "ability",
+        "name": "Death Company Marines with Boltguns: An Honourable Death in Combat",
+        "ref": {
+          "kind": "ability",
+          "unit": "death-company-marines-with-boltguns"
+        },
+        "reviewed": true,
+        "sid": "pack:death-company-marines-with-boltguns:an-honourable-death-in-combat",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "oc",
+            "value": "0",
+            "when": {
+              "en": "while not within 12\" of a friendly CHAPLAIN model",
+              "ru": "пока не в пределах 12\" от дружественной модели CHAPLAIN"
+            }
+          }
+        ],
+        "hash": "c967aef4",
+        "kind": "ability",
+        "name": "Death Company Marines with Boltguns: Black Rage",
+        "ref": {
+          "kind": "ability",
+          "unit": "death-company-marines-with-boltguns"
+        },
+        "reviewed": true,
+        "sid": "pack:death-company-marines-with-boltguns:black-rage",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-below-starting-strength"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while this unit is below its Starting Strength",
+              "ru": "пока отряд ниже Starting Strength"
+            }
+          },
+          {
+            "alt": 0,
+            "cond": [
+              "unit-below-half-strength"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 2",
+            "when": {
+              "en": "instead, while this unit is Below Half-strength",
+              "ru": "вместо этого, пока отряд Below Half-strength"
+            }
+          }
+        ],
+        "hash": "26507791",
+        "kind": "ability",
+        "name": "Death Company Marines: An Honourable Death in Combat",
+        "ref": {
+          "kind": "ability",
+          "unit": "death-company-marines"
+        },
+        "reviewed": true,
+        "sid": "4708f68e-155f-4d54-83d8-6e2eb9ab114a:death-company-marines",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "only": {
+              "name": "Blood Reaver"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "for every 5 enemy models within 6\" of this model",
+              "ru": "за каждые 5 вражеских моделей в пределах 6\" от этой модели"
+            }
+          }
+        ],
+        "hash": "9cc36577",
+        "kind": "ability",
+        "name": "Gabriel Seth: Whirlwind of Gore",
+        "ref": {
+          "kind": "ability",
+          "unit": "gabriel-seth"
+        },
+        "reviewed": true,
+        "sid": "pack:gabriel-seth:whirlwind-of-gore",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "LETHAL HITS",
+            "when": null
+          }
+        ],
+        "hash": "5691ba90",
+        "kind": "ability",
+        "name": "Lemartes: Fury Unbound",
+        "ref": {
+          "kind": "ability",
+          "unit": "lemartes"
+        },
+        "reviewed": true,
+        "sid": "1f8252ef-df73-466a-892b-d0fb0c055f23:lemartes",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          },
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "target": "led",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "9bdc06bf",
+        "kind": "ability",
+        "name": "Lemartes: Guardian of the Lost",
+        "ref": {
+          "kind": "ability",
+          "unit": "lemartes"
+        },
+        "reviewed": true,
+        "sid": "cecd7c03-0c6a-47d3-a35a-aa7369d6f60e:lemartes",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "aura",
+            "value": "Feel No Pain 5+ (vs mortal wounds and Psychic Attacks)",
+            "when": null
+          }
+        ],
+        "hash": "f0481f4f",
+        "kind": "ability",
+        "name": "Librarian Dreadnought: Shield of Sanguinius (Aura, Psychic)",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "ADEPTUS ASTARTES"
+              ]
+            }
+          ],
+          "unit": "librarian-dreadnought"
+        },
+        "reviewed": true,
+        "sid": "pack:librarian-dreadnought:shield-of-sanguinius-aura-psychic",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "vs": "melee",
+            "when": null
+          }
+        ],
+        "hash": "07125726",
+        "kind": "ability",
+        "name": "Sanguinary Guard: Angelic Visage",
+        "ref": {
+          "kind": "ability",
+          "unit": "sanguinary-guard"
+        },
+        "reviewed": true,
+        "sid": "70bde792-bb64-4ae8-9dc5-e34ed4d67475:sanguinary-guard",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "3e6fde4b",
+        "kind": "ability",
+        "name": "Sanguinary Guard: Heirs of Azkaellon",
+        "ref": {
+          "kind": "ability",
+          "unit": "sanguinary-guard"
+        },
+        "reviewed": true,
+        "sid": "3424cb21-6416-4162-adfc-e6a48ba370ca:sanguinary-guard",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "target": "unit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "b74af02a",
+        "kind": "ability",
+        "name": "Sanguinary Priest with Jump Pack: Blood Chalice",
+        "ref": {
+          "kind": "ability",
+          "unit": "sanguinary-priest-with-jump-pack"
+        },
+        "reviewed": true,
+        "sid": "pack:sanguinary-priest-with-jump-pack:blood-chalice",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Feel No Pain 5+",
+            "when": null
+          }
+        ],
+        "hash": "ccc78431",
+        "kind": "ability",
+        "name": "Sanguinary Priest with Jump Pack: Sanguinary Priest",
+        "note": "Read as Hospitaller: Medicus Ministorum (adepta-sororitas), the same text.",
+        "ref": {
+          "kind": "ability",
+          "unit": "sanguinary-priest-with-jump-pack"
+        },
+        "reviewed": true,
+        "sid": "pack:sanguinary-priest-with-jump-pack:sanguinary-priest",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "target": "led",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "4b39a6c7",
+        "kind": "ability",
+        "name": "Sanguinary Priest: Blood Chalice",
+        "ref": {
+          "kind": "ability",
+          "unit": "sanguinary-priest"
+        },
+        "reviewed": true,
+        "sid": "129df28d-4368-4c90-90c2-1785b61ebdb6:sanguinary-priest",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-engaged"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 2,
+            "when": {
+              "en": "while this unit is engaged",
+              "ru": "пока отряд в ближнем бою"
+            }
+          }
+        ],
+        "hash": "f8299992",
+        "kind": "ability",
+        "name": "Sanguinary Spearhead Sanguinary Guard: Born To Fight",
+        "ref": {
+          "kind": "ability",
+          "unit": "sanguinary-spearhead-sanguinary-guard"
+        },
+        "reviewed": true,
+        "sid": "14322c4c-df67-43e5-be95-af40f78f620d:sanguinary-spearhead-sanguinary-guard",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-engaged"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 2,
+            "when": {
+              "en": "while this unit is engaged",
+              "ru": "пока отряд в ближнем бою"
+            }
+          }
+        ],
+        "hash": "f8299992",
+        "kind": "ability",
+        "name": "Sanguinary Spearhead Sanguinary Guard: Born To Fight",
+        "ref": null,
+        "reviewed": true,
+        "sid": "47daf7fe-c1de-4223-878c-0753368aae9c:sanguinary-spearhead-sanguinary-guard",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "oc",
+            "value": "0",
+            "when": {
+              "en": "while not within 12\" of a friendly CHAPLAIN model",
+              "ru": "пока не в пределах 12\" от дружественной модели CHAPLAIN"
+            }
+          }
+        ],
+        "hash": "b0159a4a",
+        "kind": "ability",
+        "name": "Tycho the Lost: Black Rage",
+        "ref": {
+          "kind": "ability",
+          "unit": "tycho-the-lost"
+        },
+        "reviewed": true,
+        "sid": "pack:tycho-the-lost:black-rage",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "doctrine-devastator"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": {
+              "en": "while the Devastator Doctrine is active for this unit",
+              "ru": "пока для отряда активна Devastator Doctrine"
+            }
+          }
+        ],
+        "hash": "4b1af9f6",
+        "kind": "armyRule",
+        "name": "Combat Doctrines",
+        "ref": {
+          "kind": "armyRule"
+        },
+        "reviewed": true,
+        "sid": "478d1fb6-e105-48d6-832e-05e63103b1b5",
+        "ver": 963
+      },
+      {
+        "det": "Angelic Inheritors",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Scouts 6\"",
+            "when": null
+          }
+        ],
+        "hash": "8955e230",
+        "kind": "enhancement",
+        "name": "Prescient Flash",
+        "ref": {
+          "det": "angelic-inheritors",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "037bc931-f00a-4906-812c-b1832ffe0155",
+        "ver": 963
+      },
+      {
+        "det": "Encarmine Speartip",
+        "effects": [
+          {
+            "cond": [
+              "executioner-lethal"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "the one picked when the bearer’s unit is selected to fight",
+              "ru": "выбранная, когда отряд носителя выбран для боя"
+            }
+          },
+          {
+            "cond": [
+              "executioner-sustained"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "the one picked when the bearer’s unit is selected to fight",
+              "ru": "выбранная, когда отряд носителя выбран для боя"
+            }
+          },
+          {
+            "cond": [
+              "executioner-lethal"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "the one picked when the bearer’s unit is selected to fight",
+              "ru": "выбранная, когда отряд носителя выбран для боя"
+            }
+          },
+          {
+            "cond": [
+              "executioner-sustained"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "the one picked when the bearer’s unit is selected to fight",
+              "ru": "выбранная, когда отряд носителя выбран для боя"
+            }
+          }
+        ],
+        "hash": "3dc7778f",
+        "kind": "enhancement",
+        "name": "Angelic Executioner",
+        "ref": {
+          "det": "encarmine-speartip",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "56b4ffc0-1976-4b75-8160-a63e7ea958f5",
+        "ver": 995
+      },
+      {
+        "det": "Encarmine Speartip",
+        "effects": [
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "army"
+            },
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": {
+              "en": "once per battle, per army, when this unit is selected to fight",
+              "ru": "раз за битву на армию, когда отряд выбран для боя"
+            }
+          }
+        ],
+        "hash": "93ae32eb",
+        "kind": "enhancement",
+        "name": "Shadow of Abomination",
+        "ref": {
+          "det": "encarmine-speartip",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "3e1533b5-dd19-4d7b-9a07-b893c2b6597d",
+        "ver": 963
+      },
+      {
+        "det": "Sanguinary Spearhead",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 2,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "6edde99c",
+        "kind": "enhancement",
+        "name": "Masterful Fighter",
+        "ref": {
+          "det": "cp:blood-angels",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "51ee8286-2787-4427-8df3-d5ccea9bab9f",
+        "ver": 925
+      },
+      {
+        "det": "Wrath of the Doomed",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 2,
+            "when": null
+          }
+        ],
+        "hash": "80d7e659",
+        "kind": "enhancement",
+        "name": "On the Archtraitor's Bridge",
+        "ref": {
+          "det": "wrath-of-the-doomed",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "61e24748-9513-4fb7-8812-9515e8b3f403",
+        "ver": 963
+      },
+      {
+        "det": "Angelic Inheritors",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LANCE",
+            "when": {
+              "en": "also, for a CHARACTER unit",
+              "ru": "и ещё, для отряда CHARACTER"
+            }
+          }
+        ],
+        "hash": "874cb8f1",
+        "kind": "stratagem",
+        "name": "Focused Fury",
+        "ref": {
+          "det": "angelic-inheritors",
+          "kind": "stratagem",
+          "name": "Focused Fury"
+        },
+        "reviewed": true,
+        "sid": "e3e75d97-9c02-4366-8da7-0581e61e9178",
+        "ver": 963
+      },
+      {
+        "det": "Angelic Inheritors",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "577333b0",
+        "kind": "stratagem",
+        "name": "In the Shadow of Great Wings",
+        "ref": {
+          "det": "angelic-inheritors",
+          "kind": "stratagem",
+          "name": "In the Shadow of Great Wings"
+        },
+        "reviewed": true,
+        "sid": "09e0df1e-bf74-489a-96a9-01aedc292914",
+        "ver": 995
+      },
+      {
+        "det": "Angelic Inheritors",
+        "dur": "round",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Character",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "5c6aca44",
+        "kind": "stratagem",
+        "name": "Instant of Grace",
+        "ref": {
+          "det": "angelic-inheritors",
+          "kind": "stratagem",
+          "name": "Instant of Grace"
+        },
+        "reviewed": true,
+        "sid": "7df3533d-f8de-42ec-98a7-3fcb619a3a3c",
+        "ver": 995
+      },
+      {
+        "det": "Angelic Inheritors",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "a68ae285",
+        "kind": "stratagem",
+        "name": "Strike Now for Glory",
+        "ref": {
+          "det": "angelic-inheritors",
+          "kind": "stratagem",
+          "name": "Strike Now for Glory"
+        },
+        "reviewed": true,
+        "sid": "4fbae4b4-42f9-48ca-903e-a362c1fe883e",
+        "ver": 963
+      },
+      {
+        "det": "Encarmine Speartip",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "577333b0",
+        "kind": "stratagem",
+        "name": "Blinding Blurs of Vengeance",
+        "ref": {
+          "det": "encarmine-speartip",
+          "kind": "stratagem",
+          "name": "Blinding Blurs of Vengeance"
+        },
+        "reviewed": true,
+        "sid": "9cbb9fe9-17f0-4dcf-9f72-779fa947ebb8",
+        "ver": 995
+      },
+      {
+        "det": "Sanguinary Spearhead",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "ed2665e0",
+        "kind": "stratagem",
+        "name": "Dauntless Bravery",
+        "ref": {
+          "det": "cp:blood-angels",
+          "kind": "stratagem",
+          "name": "Dauntless Bravery"
+        },
+        "reviewed": true,
+        "sid": "90cbb284-cd76-4dc6-a001-1ce0bed18370",
+        "ver": 995
+      },
+      {
+        "det": "Wrath of the Doomed",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "DEATH COMPANY attacks against the hated unit",
+              "ru": "атаки DEATH COMPANY против отряда hated"
+            }
+          }
+        ],
+        "hash": "e59da364",
+        "kind": "stratagem",
+        "name": "Death Begets Vengeance",
+        "ref": {
+          "det": "wrath-of-the-doomed",
+          "kind": "stratagem",
+          "name": "Death Begets Vengeance"
+        },
+        "reviewed": true,
+        "sid": "2bf5458d-94f8-405f-9490-2c449ddecc98",
+        "ver": 995
+      },
+      {
+        "det": "Wrath of the Doomed",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Mobile",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "6ab50acf",
+        "kind": "stratagem",
+        "name": "No Barrier to Retribution",
+        "ref": {
+          "det": "wrath-of-the-doomed",
+          "kind": "stratagem",
+          "name": "No Barrier to Retribution"
+        },
+        "reviewed": true,
+        "sid": "2328e95a-96ba-4312-844e-709de76d7cfb",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "24c8e47f",
+        "kind": "wargear",
+        "name": "Death Company Captain with Jump Pack: Relic Shield",
+        "ref": {
+          "item": "relic shield",
+          "kind": "wargear",
+          "unit": "death-company-captain-with-jump-pack"
+        },
+        "reviewed": true,
+        "sid": "9cb2e570-6af8-4c6f-b89a-4951b094cc3c:death-company-captain-with-jump-pack",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Smoke",
+            "when": null
+          }
+        ],
+        "hash": "2317e82e",
+        "kind": "wargear",
+        "name": "Death Company Dreadnought with Magna-grapple: Smoke Launchers",
+        "ref": {
+          "item": "smoke launchers",
+          "kind": "wargear",
+          "unit": "death-company-dreadnought-with-magna-grapple"
+        },
+        "reviewed": true,
+        "sid": "pack:death-company-dreadnought-with-magna-grapple:smoke-launchers",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "2687f8bb",
+        "kind": "wargear",
+        "name": "Furioso Dreadnought: Magna-grapple",
+        "ref": {
+          "item": "magna-grapple",
+          "kind": "wargear",
+          "unit": "furioso-dreadnought"
+        },
+        "reviewed": true,
+        "sid": "pack:furioso-dreadnought:magna-grapple",
+        "ver": 972
+      }
+    ],
+    "formatVersion": 1,
+    "slug": "blood-angels"
+  }
+}

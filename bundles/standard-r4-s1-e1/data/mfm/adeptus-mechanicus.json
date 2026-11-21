@@ -1,0 +1,776 @@
+{
+  "default": {
+    "detachments": [
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Explorator Dispensation",
+            "points": 20
+          },
+          {
+            "name": "Stealth-screened Cybercanids (Upgrade)",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Cohort Acquisitus"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Arch-negator",
+            "points": 5
+          },
+          {
+            "name": "Emotionless Clarity",
+            "points": 10
+          },
+          {
+            "name": "Lord of Machines",
+            "points": 15
+          },
+          {
+            "name": "Necromechanic",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Cohort Cybernetica"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Data-blessed Autosermon",
+            "points": 15
+          },
+          {
+            "name": "Mantle of the Gnosticarch",
+            "points": 10
+          },
+          {
+            "name": "Mechanicus Locum",
+            "points": 5
+          },
+          {
+            "name": "Temporcopia",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Data-Psalm Conclave",
+        "unique": "DATA-PSALM"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Belicosa-class Capacitor Vanes",
+            "points": 25
+          },
+          {
+            "name": "Martial Signatum Amplificator",
+            "points": 15
+          },
+          {
+            "name": "Omnicogitator",
+            "points": 25
+          },
+          {
+            "name": "Omnissiah’s Fury",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Eradication Cohort"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Artisan",
+            "points": 10
+          },
+          {
+            "name": "Genetor",
+            "points": 20
+          },
+          {
+            "name": "Logis",
+            "points": 15
+          },
+          {
+            "name": "Magos",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Explorator Maniple"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Cognitive Reinforcement",
+            "points": 30
+          },
+          {
+            "name": "Inloaded Lethality",
+            "points": 15
+          },
+          {
+            "name": "Sanctified Ordnance",
+            "points": 10
+          },
+          {
+            "name": "Transoracular Dyad Wafers",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets",
+          "Purge the Foe"
+        ],
+        "name": "Haloscreed Battle Clade"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "TL-4ø9",
+            "points": 30
+          },
+          {
+            "name": "Vingh’s Wafers of Dynamism",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Lords of the Forge"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Electromiasmic Brazier",
+            "points": 10
+          },
+          {
+            "name": "Voltagheist Reliquary",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Luminen Auto-Choir",
+        "unique": "DATA-PSALM"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Autoclavic Denunciation",
+            "points": 15
+          },
+          {
+            "name": "Malphonic Susurrus",
+            "points": 20
+          },
+          {
+            "name": "Peerless Eradicator",
+            "points": 20
+          },
+          {
+            "name": "Radial Suffusion",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Rad-Zone Corps"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Battle-sphere Uplink",
+            "points": 25
+          },
+          {
+            "name": "Cantic Thrallnet",
+            "points": 25
+          },
+          {
+            "name": "Clandestine Infiltrator",
+            "points": 15
+          },
+          {
+            "name": "Veiled Hunter",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Skitarii Hunter Cohort"
+      }
+    ],
+    "id": "adeptus-mechanicus",
+    "legends": [
+      {
+        "name": "Secutarii Hoplites",
+        "options": [
+          {
+            "models": 5,
+            "points": 65
+          },
+          {
+            "models": 10,
+            "points": 130
+          }
+        ]
+      },
+      {
+        "name": "Secutarii Peltasts",
+        "options": [
+          {
+            "models": 5,
+            "points": 50
+          },
+          {
+            "models": 10,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Terrax-Pattern Termite",
+        "options": [
+          {
+            "models": 1,
+            "points": 200
+          }
+        ]
+      },
+      {
+        "name": "X-101",
+        "options": [
+          {
+            "models": 1,
+            "points": 40
+          }
+        ]
+      }
+    ],
+    "name": "Adeptus Mechanicus",
+    "slug": "adeptus-mechanicus",
+    "sourceUrl": "https://mfm.warhammer-community.com/en/adeptus-mechanicus",
+    "subfactions": [],
+    "units": [
+      {
+        "name": "Archaeopter Fusilave",
+        "options": [
+          {
+            "models": 1,
+            "points": 160
+          }
+        ]
+      },
+      {
+        "name": "Archaeopter Stratoraptor",
+        "options": [
+          {
+            "models": 1,
+            "points": 185
+          }
+        ]
+      },
+      {
+        "name": "Archaeopter Transvector",
+        "options": [
+          {
+            "models": 1,
+            "points": 145
+          }
+        ]
+      },
+      {
+        "name": "Belisarius Cawl",
+        "options": [
+          {
+            "models": 1,
+            "points": 220
+          }
+        ]
+      },
+      {
+        "name": "Corpuscarii Electro-Priests",
+        "options": [
+          {
+            "models": 5,
+            "points": 60
+          },
+          {
+            "models": 10,
+            "points": 120
+          }
+        ]
+      },
+      {
+        "name": "Cybernetica Datasmith",
+        "options": [
+          {
+            "models": 1,
+            "points": 20
+          }
+        ]
+      },
+      {
+        "name": "Fulgurite Electro-Priests",
+        "options": [
+          {
+            "models": 5,
+            "points": 65
+          },
+          {
+            "models": 10,
+            "points": 130
+          }
+        ]
+      },
+      {
+        "name": "Hastarii Exterminators",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 100
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 115
+          }
+        ]
+      },
+      {
+        "name": "Hastarii Fusiliers",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 105
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 120
+          }
+        ]
+      },
+      {
+        "name": "Ironstrider Ballistarii",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 80
+          },
+          {
+            "models": 2,
+            "note": "1st-2nd",
+            "points": 160
+          },
+          {
+            "models": 3,
+            "note": "1st-2nd",
+            "points": 250
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 95
+          },
+          {
+            "models": 2,
+            "note": "3rd+",
+            "points": 175
+          },
+          {
+            "models": 3,
+            "note": "3rd+",
+            "points": 265
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Twin Cognis Lascannon",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Kastelan Robots",
+        "options": [
+          {
+            "models": 2,
+            "note": "1st-2nd",
+            "points": 150
+          },
+          {
+            "models": 4,
+            "note": "1st-2nd",
+            "points": 300
+          },
+          {
+            "models": 2,
+            "note": "3rd+",
+            "points": 180
+          },
+          {
+            "models": 4,
+            "note": "3rd+",
+            "points": 330
+          }
+        ]
+      },
+      {
+        "name": "Kataphron Breachers",
+        "options": [
+          {
+            "models": 3,
+            "points": 140
+          },
+          {
+            "models": 6,
+            "points": 290
+          }
+        ]
+      },
+      {
+        "name": "Kataphron Destroyers",
+        "options": [
+          {
+            "models": 3,
+            "points": 100
+          },
+          {
+            "models": 6,
+            "points": 200
+          }
+        ]
+      },
+      {
+        "name": "Onager Dunecrawler",
+        "options": [
+          {
+            "models": 1,
+            "points": 150
+          }
+        ]
+      },
+      {
+        "name": "Pteraxii Skystalkers",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 75
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 150
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 85
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 160
+          }
+        ]
+      },
+      {
+        "name": "Pteraxii Sterylizors",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 75
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 150
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 85
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 160
+          }
+        ]
+      },
+      {
+        "name": "Serberys Raiders",
+        "options": [
+          {
+            "models": 3,
+            "points": 60
+          },
+          {
+            "models": 6,
+            "points": 105
+          }
+        ]
+      },
+      {
+        "name": "Serberys Sulphurhounds",
+        "options": [
+          {
+            "models": 3,
+            "points": 55
+          },
+          {
+            "models": 6,
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Servitor Battleclade",
+        "options": [
+          {
+            "models": 9,
+            "note": "1st-2nd",
+            "points": 75
+          },
+          {
+            "models": 9,
+            "note": "3rd+",
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Sicarian Infiltrators",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 75
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 155
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 85
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 165
+          }
+        ]
+      },
+      {
+        "name": "Sicarian Ruststalkers",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 75
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 160
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 85
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 170
+          }
+        ]
+      },
+      {
+        "name": "Skitarii Marshal",
+        "options": [
+          {
+            "models": 1,
+            "points": 35
+          }
+        ]
+      },
+      {
+        "name": "Skitarii Rangers",
+        "options": [
+          {
+            "models": 10,
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Skitarii Vanguard",
+        "options": [
+          {
+            "models": 10,
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Skorpius Disintegrator",
+        "options": [
+          {
+            "models": 1,
+            "points": 160
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Ferrumite cannon",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Skorpius Dunerider",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-3rd",
+            "points": 75
+          },
+          {
+            "models": 1,
+            "note": "4th+",
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Sydonian Dragoons with Radium Jezzails",
+        "options": [
+          {
+            "models": 1,
+            "points": 55
+          },
+          {
+            "models": 2,
+            "points": 95
+          },
+          {
+            "models": 3,
+            "points": 140
+          }
+        ]
+      },
+      {
+        "name": "Sydonian Dragoons with Taser Lances",
+        "options": [
+          {
+            "models": 1,
+            "points": 60
+          },
+          {
+            "models": 2,
+            "points": 120
+          },
+          {
+            "models": 3,
+            "points": 170
+          }
+        ]
+      },
+      {
+        "name": "Sydonian Skatros",
+        "options": [
+          {
+            "models": 1,
+            "points": 45
+          }
+        ]
+      },
+      {
+        "name": "Technoarcheologist",
+        "options": [
+          {
+            "models": 1,
+            "points": 45
+          }
+        ]
+      },
+      {
+        "name": "Tech-Priest Dominus",
+        "options": [
+          {
+            "models": 1,
+            "points": 60
+          }
+        ]
+      },
+      {
+        "name": "Tech-Priest Enginseer",
+        "options": [
+          {
+            "models": 1,
+            "points": 55
+          }
+        ]
+      },
+      {
+        "name": "Tech-Priest Manipulus",
+        "options": [
+          {
+            "models": 1,
+            "points": 60
+          }
+        ]
+      },
+      {
+        "name": "Thulia Ghuld",
+        "options": [
+          {
+            "models": 1,
+            "points": 180
+          }
+        ]
+      }
+    ]
+  }
+}

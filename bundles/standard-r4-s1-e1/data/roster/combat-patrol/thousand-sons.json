@@ -1,0 +1,320 @@
+{
+  "default": {
+    "box": "thousand-sons",
+    "detachment": {
+      "dp": 0,
+      "enhancements": [
+        {
+          "name": "Foresight of the Changer",
+          "pts": null,
+          "req": [
+            {
+              "kw": [
+                "Tzaangor Shaman",
+                "Prism of Zadophon"
+              ]
+            }
+          ],
+          "type": "miniature"
+        },
+        {
+          "name": "Warp-tainted Shells",
+          "pts": null,
+          "req": [
+            {
+              "kw": [
+                "Daemon Prince",
+                "Prism of Zadophon"
+              ]
+            }
+          ],
+          "type": "miniature"
+        }
+      ],
+      "linkedUnits": [
+        {
+          "count": 1,
+          "unit": "zadophon-the-soul-eater",
+          "warlord": 1
+        },
+        {
+          "count": 1,
+          "unit": "prism-of-zadophon-tzaangor-enlightened"
+        },
+        {
+          "count": 1,
+          "unit": "kaaskrek"
+        },
+        {
+          "count": 1,
+          "unit": "prism-of-zadophon-rubric-marines"
+        }
+      ],
+      "name": "Prism of Zadophon",
+      "sid": "7f2a8706-db85-4fe3-837b-f8e95980f4a7"
+    },
+    "slug": "thousand-sons",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3765,
+                1
+              ],
+              [
+                3766,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Thousand Sons"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "kaaskrek",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Fly",
+          "Infantry",
+          "Mounted",
+          "Mutant",
+          "Prism of Zadophon",
+          "Psyker",
+          "Tzaangor Shaman",
+          "Tzeentch"
+        ],
+        "leads": [
+          {
+            "to": "prism-of-zadophon-tzaangor-enlightened",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Kaa'skrek",
+        "sid": "b47da58a-6720-499d-921f-53e0013c280c",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            3,
+            [
+              [
+                3767,
+                1
+              ],
+              [
+                3768,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3769,
+                1
+              ],
+              [
+                3770,
+                1
+              ],
+              [
+                3771,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3768,
+                1
+              ],
+              [
+                3772,
+                1
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                3773,
+                1
+              ],
+              [
+                3768,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Thousand Sons"
+        ],
+        "flags": {},
+        "id": "prism-of-zadophon-rubric-marines",
+        "kws": [
+          "Battleline",
+          "Chaos",
+          "Infantry",
+          "Prism of Zadophon",
+          "Psyker",
+          "Rubricae",
+          "Tzeentch"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Aspiring Sorcerer"
+          },
+          {
+            "n": "Rubric Marine with Warpflamer and Stocks and Fists"
+          },
+          {
+            "n": "Rubric Marine with Soulreaper Cannon and Stocks and Fists"
+          },
+          {
+            "n": "Rubric Marine with Inferno Boltgun and Stocks and Fists"
+          }
+        ],
+        "name": "Prism of Zadophon Rubric Marines",
+        "sid": "cdf853bc-0efd-4385-8d6a-74a975eb1e0d",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3764,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Thousand Sons"
+        ],
+        "flags": {},
+        "id": "prism-of-zadophon-tzaangor-enlightened",
+        "kws": [
+          "Chaos",
+          "Fly",
+          "Mounted",
+          "Mutant",
+          "Prism of Zadophon",
+          "Tzeentch"
+        ],
+        "linked": 1,
+        "name": "Prism of Zadophon Tzaangor Enlightened",
+        "sid": "25946f4d-d31c-45e8-b832-4f2437363dd2",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3762,
+                1
+              ],
+              [
+                3763,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Thousand Sons"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "zadophon-the-soul-eater",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Daemon Prince",
+          "Monster",
+          "Prism of Zadophon",
+          "Psyker",
+          "Tzeentch"
+        ],
+        "linked": 1,
+        "name": "Zadophon the Soul Eater",
+        "sid": "20616a2c-f945-4068-9f3b-314b8a98ab15",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      }
+    ]
+  }
+}

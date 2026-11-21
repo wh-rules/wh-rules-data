@@ -1,0 +1,381 @@
+{
+  "default": {
+    "box": "leagues-of-votann",
+    "detachment": {
+      "dp": 0,
+      "enhancements": [
+        {
+          "name": "Indomitable Exemplar",
+          "pts": null,
+          "req": [
+            {
+              "kw": [
+                "Einhyr Champion",
+                "Bane-Slayer's Bulwark"
+              ]
+            }
+          ],
+          "type": "miniature"
+        },
+        {
+          "name": "Brôkhyr Barrage",
+          "nonCharOk": 1,
+          "pts": null,
+          "req": [
+            {
+              "ds": "Bane Slayer's Bulwark Brokhyr Thunderkyn"
+            }
+          ],
+          "type": "upgrade"
+        }
+      ],
+      "linkedUnits": [
+        {
+          "count": 1,
+          "unit": "bane-slayers-bulwark-einhyr-hearthguard"
+        },
+        {
+          "count": 1,
+          "unit": "bane-slayers-bulwark-brokhyr-thunderkyn"
+        },
+        {
+          "count": 1,
+          "unit": "vynn-bane-slayer",
+          "warlord": 1
+        },
+        {
+          "count": 1,
+          "unit": "bane-slayers-bulwark-hearthkyn-warriors"
+        }
+      ],
+      "name": "Bane-slayer’s Bulwark",
+      "sid": "f76d8bcd-47a6-4d62-98c5-8afb522864e2"
+    },
+    "slug": "leagues-of-votann",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3738,
+                1
+              ],
+              [
+                3739,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Leagues of Votann"
+        ],
+        "flags": {},
+        "id": "bane-slayers-bulwark-brokhyr-thunderkyn",
+        "kws": [
+          "Bane-Slayer's Bulwark",
+          "Brokhyr",
+          "Exoframe",
+          "Infantry"
+        ],
+        "linked": 1,
+        "name": "Bane Slayer's Bulwark Brokhyr Thunderkyn",
+        "sid": "a9dcd736-3282-4f25-9299-9c58600bccb7",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                3734,
+                1
+              ],
+              [
+                3735,
+                1
+              ],
+              [
+                3736,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3734,
+                1
+              ],
+              [
+                3737,
+                1
+              ],
+              [
+                3736,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Leagues of Votann"
+        ],
+        "flags": {},
+        "id": "bane-slayers-bulwark-einhyr-hearthguard",
+        "kws": [
+          "Bane-Slayer's Bulwark",
+          "Einhyr",
+          "Exoarmour",
+          "Infantry"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Hesyr"
+          },
+          {
+            "n": "Einhyr Hearthguard"
+          }
+        ],
+        "name": "Bane-Slayer's Bulwark Einhyr Hearthguard",
+        "sid": "4e967b0b-0156-4269-8bd0-6f2024d84258",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            4,
+            [
+              [
+                3742,
+                1
+              ],
+              [
+                3743,
+                1
+              ],
+              [
+                3744,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3743,
+                1
+              ],
+              [
+                3745,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3743,
+                1
+              ],
+              [
+                3746,
+                1
+              ],
+              [
+                3742,
+                1
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                3743,
+                1
+              ],
+              [
+                3747,
+                1
+              ],
+              [
+                3748,
+                1
+              ]
+            ]
+          ],
+          [
+            3,
+            [
+              [
+                3743,
+                1
+              ],
+              [
+                3749,
+                1
+              ],
+              [
+                3742,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Leagues of Votann"
+        ],
+        "flags": {},
+        "id": "bane-slayers-bulwark-hearthkyn-warriors",
+        "kws": [
+          "Bane-Slayer's Bulwark",
+          "Explosives",
+          "Hearthkyn",
+          "Infantry"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Hearthkyn Warrior with Autoch-pattern Bolt Pistol and Plasma Knife"
+          },
+          {
+            "n": "Hearthkyn Warrior with Autoch-pattern Bolt Pistol, Magna-Rail Rifle and Armoured Fists"
+          },
+          {
+            "n": "Theyn"
+          },
+          {
+            "n": "Hearthkyn Warrior with Autoch-pattern Bolt Pistol, Ion Blaster and Armoured Fists"
+          },
+          {
+            "n": "Hearthkyn Warrior with Autoch-pattern Bolt Pistol, HYLas Auto Rifle and Armoured Fists"
+          }
+        ],
+        "name": "Bane-Slayer's Bulwark Hearthkyn Warriors",
+        "sid": "e26a8c6d-75cb-4568-962e-5058ba334c85",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3740,
+                1
+              ],
+              [
+                3741,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Leagues of Votann"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "has": [
+          "Autoch-pattern combi-bolter"
+        ],
+        "id": "vynn-bane-slayer",
+        "kws": [
+          "Bane-Slayer's Bulwark",
+          "Character",
+          "Einhyr",
+          "Einhyr Champion",
+          "Exoarmour",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "bane-slayers-bulwark-einhyr-hearthguard",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Vynn Bane-Slayer",
+        "sid": "d7c4b259-becd-4834-9f13-f185f8e186e6",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      }
+    ]
+  }
+}

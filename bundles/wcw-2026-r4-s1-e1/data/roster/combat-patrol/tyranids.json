@@ -1,0 +1,265 @@
+{
+  "default": {
+    "box": "tyranids",
+    "detachment": {
+      "dp": 0,
+      "enhancements": [
+        {
+          "name": "Psychoclastic Overload",
+          "nonCharOk": 1,
+          "pts": null,
+          "req": [
+            {
+              "ds": "Vardenghast Swarm Psychophage"
+            }
+          ],
+          "type": "upgrade"
+        },
+        {
+          "name": "Adapted Organism",
+          "pts": null,
+          "req": [
+            {
+              "kw": [
+                "Winged Tyranid Prime",
+                "Vardenghast Swarm"
+              ]
+            }
+          ],
+          "type": "miniature"
+        }
+      ],
+      "linkedUnits": [
+        {
+          "count": 1,
+          "unit": "vardenghast-swarm-psychophage"
+        },
+        {
+          "count": 1,
+          "unit": "vardenghast-swarm-barbgaunts"
+        },
+        {
+          "count": 1,
+          "unit": "vardenghast-swarm-termagants"
+        },
+        {
+          "count": 1,
+          "unit": "vardenghast-swarm-termagants"
+        },
+        {
+          "count": 1,
+          "unit": "terror-of-vardenghast",
+          "warlord": 1
+        },
+        {
+          "count": 1,
+          "unit": "vardenghast-swarm-von-ryans-leapers"
+        }
+      ],
+      "name": "The Vardenghast Swarm",
+      "sid": "f8ac8c58-dd54-4a01-93a2-afee8fd1b55a"
+    },
+    "slug": "tyranids",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3780,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Tyranids"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "terror-of-vardenghast",
+        "kws": [
+          "Character",
+          "Fly",
+          "Infantry",
+          "Synapse",
+          "Vanguard Invader",
+          "Vardenghast Swarm",
+          "Winged Tyranid Prime"
+        ],
+        "linked": 1,
+        "name": "Terror of Vardenghast",
+        "sid": "c56659e2-3b41-4d80-90d2-1ef97f8c542d",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3776,
+                1
+              ],
+              [
+                3777,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Tyranids"
+        ],
+        "flags": {},
+        "id": "vardenghast-swarm-barbgaunts",
+        "kws": [
+          "Infantry",
+          "Vardenghast Swarm"
+        ],
+        "linked": 1,
+        "name": "Vardenghast Swarm Barbgaunts",
+        "sid": "555f4831-2107-4b02-a1ac-d3dd4c8df91b",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3774,
+                1
+              ],
+              [
+                3775,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Tyranids"
+        ],
+        "flags": {},
+        "id": "vardenghast-swarm-psychophage",
+        "kws": [
+          "Harvester",
+          "Monster",
+          "Smoke",
+          "Vardenghast Swarm"
+        ],
+        "linked": 1,
+        "name": "Vardenghast Swarm Psychophage",
+        "sid": "48d27695-b9fb-4087-a8e5-8881946b6ede",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3778,
+                1
+              ],
+              [
+                3779,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Tyranids"
+        ],
+        "flags": {},
+        "id": "vardenghast-swarm-termagants",
+        "kws": [
+          "Battleline",
+          "Endless Multitude",
+          "Infantry",
+          "Vardenghast Swarm"
+        ],
+        "linked": 1,
+        "name": "Vardenghast Swarm Termagants",
+        "sid": "9a2b0ce6-8d85-46f0-a5de-fb5e494ae6d4",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3781,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Tyranids"
+        ],
+        "flags": {},
+        "id": "vardenghast-swarm-von-ryans-leapers",
+        "kws": [
+          "Infantry",
+          "Vanguard Invader",
+          "Vardenghast Swarm"
+        ],
+        "linked": 1,
+        "name": "Vardenghast Swarm Von Ryan's Leapers",
+        "sid": "e270dd10-0a39-4141-87c1-6e8cb4c20bdc",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 0
+          }
+        ]
+      }
+    ]
+  }
+}

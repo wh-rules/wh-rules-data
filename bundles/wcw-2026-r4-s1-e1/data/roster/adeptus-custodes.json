@@ -1,0 +1,3153 @@
+{
+  "default": {
+    "allies": [
+      {
+        "ids": [
+          "titan-legions:reaver-titan",
+          "titan-legions:warbringer-nemesis-titan",
+          "titan-legions:warhound-titan",
+          "titan-legions:warlord-titan"
+        ],
+        "key": "adeptus-titanicus",
+        "lim": {
+          "Reaver Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warbringer Nemesis Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warhound Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warlord Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          }
+        },
+        "mutex": 1,
+        "name": "Adeptus Titanicus"
+      },
+      {
+        "free": [
+          {
+            "donor": [
+              "Inquisitor"
+            ],
+            "kw": "Retinue",
+            "recv": [
+              "Inquisitorial Agents"
+            ]
+          },
+          {
+            "donor": [
+              "Character",
+              "Voidfarers"
+            ],
+            "kw": "Retinue",
+            "recv": [
+              "Voidsmen-At-Arms"
+            ]
+          }
+        ],
+        "ids": [
+          "imperial-agents:aquila-kill-team",
+          "imperial-agents:callidus-assassin",
+          "imperial-agents:corvus-blackstar",
+          "imperial-agents:culexus-assassin",
+          "imperial-agents:deathwatch-kill-team",
+          "imperial-agents:eversor-assassin",
+          "imperial-agents:exaction-squad",
+          "imperial-agents:grey-knights-terminator-squad",
+          "imperial-agents:imperial-navy-breachers",
+          "imperial-agents:imperial-rhino",
+          "imperial-agents:inquisitor",
+          "imperial-agents:inquisitor-coteaz",
+          "imperial-agents:inquisitor-draxus",
+          "imperial-agents:inquisitor-greyfax",
+          "imperial-agents:inquisitor-kroyle",
+          "imperial-agents:inquisitorial-agents",
+          "imperial-agents:inquisitorial-chimera",
+          "imperial-agents:ministorum-priest",
+          "imperial-agents:navigator",
+          "imperial-agents:rogue-trader-entourage",
+          "imperial-agents:sanctifiers",
+          "imperial-agents:sisters-of-battle-immolator",
+          "imperial-agents:sisters-of-battle-squad",
+          "imperial-agents:subductor-squad",
+          "imperial-agents:vigilant-squad",
+          "imperial-agents:vindicare-assassin",
+          "imperial-agents:voidsmen-at-arms",
+          "imperial-agents:watch-captain-artemis",
+          "imperial-agents:watch-master"
+        ],
+        "key": "agents-of-the-imperium",
+        "lim": {
+          "Character": {
+            "incursion": 1,
+            "onslaught": 3,
+            "strike-force": 2
+          },
+          "Requisitioned": {
+            "incursion": 1,
+            "onslaught": 2,
+            "strike-force": 1
+          },
+          "Retinue": {
+            "incursion": 1,
+            "onslaught": 3,
+            "strike-force": 2
+          }
+        },
+        "name": "Agents of the Imperium",
+        "up": {
+          "imperial-agents:eversor-assassin": {
+            "1": 110
+          },
+          "imperial-agents:exaction-squad": {
+            "11": 85
+          },
+          "imperial-agents:grey-knights-terminator-squad": {
+            "5": 190
+          },
+          "imperial-agents:inquisitor": {
+            "1": 65
+          },
+          "imperial-agents:inquisitor-coteaz": {
+            "1": 95
+          },
+          "imperial-agents:inquisitor-draxus": {
+            "1": 110
+          },
+          "imperial-agents:inquisitorial-agents": {
+            "6": 60,
+            "11": 120,
+            "12": 120
+          },
+          "imperial-agents:navigator": {
+            "1": 75
+          },
+          "imperial-agents:rogue-trader-entourage": {
+            "4": 105
+          },
+          "imperial-agents:sisters-of-battle-immolator": {
+            "1": 105
+          },
+          "imperial-agents:sisters-of-battle-squad": {
+            "10": 110
+          },
+          "imperial-agents:subductor-squad": {
+            "11": 100
+          },
+          "imperial-agents:vindicare-assassin": {
+            "1": 125
+          },
+          "imperial-agents:voidsmen-at-arms": {
+            "6": 70
+          }
+        }
+      },
+      {
+        "ids": [
+          "anathema-psykana-rhino",
+          "knight-centura",
+          "prosecutor-squad",
+          "vigilator-squad",
+          "witchseeker-squad"
+        ],
+        "key": "anathema-psykana",
+        "name": "Anathema Psykana"
+      },
+      {
+        "ids": [
+          "imperial-knights:acastus-knight-asterius",
+          "imperial-knights:acastus-knight-porphyrion",
+          "imperial-knights:armiger-helverin",
+          "imperial-knights:armiger-moirax",
+          "imperial-knights:armiger-warglaive",
+          "imperial-knights:canis-rex",
+          "imperial-knights:cerastus-knight-acheron",
+          "imperial-knights:cerastus-knight-atrapos",
+          "imperial-knights:cerastus-knight-castigator",
+          "imperial-knights:cerastus-knight-lancer",
+          "imperial-knights:knight-castellan",
+          "imperial-knights:knight-crusader",
+          "imperial-knights:knight-defender",
+          "imperial-knights:knight-destrier",
+          "imperial-knights:knight-errant",
+          "imperial-knights:knight-gallant",
+          "imperial-knights:knight-paladin",
+          "imperial-knights:knight-preceptor",
+          "imperial-knights:knight-valiant",
+          "imperial-knights:knight-warden",
+          "imperial-knights:questoris-knight-magaera",
+          "imperial-knights:questoris-knight-styrix"
+        ],
+        "key": "imperial-knights",
+        "lim": {
+          "Armiger": {
+            "incursion": 3,
+            "onslaught": 3,
+            "strike-force": 3
+          },
+          "Titanic": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          }
+        },
+        "mutex": 1,
+        "name": "Imperial Knights"
+      }
+    ],
+    "detachments": [
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Not a Shell Wasted",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Custodes"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Pareldor’s Caducatrix",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Custodes"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Aquilan Shield",
+        "sid": "e3458c3f-13e3-4d66-81a9-287e06320b93",
+        "unique": "SHIELD HOST"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Shroud of the Hidden Blade",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Custodes"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Superior Creation",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Custodes"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Inspirational Exemplar",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Custodes"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Auric Champions",
+        "sid": "7a1892ae-2d7b-4d1e-8f14-d64c3461be66"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Flawless Bladework",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Custodes"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Auric Exemplar",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Custodes"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Dread Host",
+        "sid": "70fd52da-7f4b-4979-9b52-6dfa8e5b37b0",
+        "unique": "SHIELD HOST"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Edge of the Blade",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Custodes"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Auriferous Orb",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Custodes"
+                ]
+              }
+            ],
+            "type": "miniature",
+            "weapons": {
+              "melee": [],
+              "ranged": [
+                {
+                  "a": "3",
+                  "ap": "0",
+                  "bs": "2+",
+                  "d": "1",
+                  "name": "Auriferous Orb",
+                  "range": "12\"",
+                  "s": "1",
+                  "tags": [
+                    "ANTI-non-MONSTER/VEHICLE 2+",
+                    "BLINDING LIGHT",
+                    "DEVASTATING WOUNDS"
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Emissaries Imperatus",
+        "sid": "9324ed01-8acf-4aa4-95a9-8c40084daafc",
+        "unique": "SHIELD HOST"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "From the Hall of Armouries",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Custodes"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Radiant Mantle",
+            "pts": 40,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Custodes"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Emperor’s Chosen",
+        "sid": "3bbf927d-73fb-4a49-bc0c-3ab6dff01a9a",
+        "unique": "SHIELD HOST"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "limit": 3,
+            "name": "Anti-gravitic Mobility (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Grav-assault"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "limit": 3,
+            "name": "Combat Deployment (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Grav-assault",
+                  "Transport"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Grav‑Assault Force",
+        "sid": "38fa6bc0-d9f0-49e6-b4a9-12d3c8ec93ac"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Bane of Abominations",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Custodes"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Emperor’s Light",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Custodes"
+                ]
+              }
+            ],
+            "type": "miniature",
+            "weapons": {
+              "melee": [
+                {
+                  "a": "3",
+                  "ap": "-2",
+                  "d": "2",
+                  "name": "Emperor’s Light",
+                  "s": "5",
+                  "tags": [
+                    "EXTRA ATTACKS"
+                  ],
+                  "ws": "2+"
+                }
+              ],
+              "ranged": []
+            }
+          },
+          {
+            "name": "Castellan’s Mark",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Custodes"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Eagle’s Eye",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Custodes"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets",
+          "Purge the Foe"
+        ],
+        "name": "Guardians of the Throne",
+        "sid": "dd1d4660-c602-467b-b306-f9e5e815d02d"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Arae-Shrike",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Custodes"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "limit": 3,
+            "name": "Celeritous Sentries (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Trusted Sentinel"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Honoured Companions",
+        "sid": "1b487980-1f44-497e-a39d-6479ebca992d"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Lightning Descent",
+            "pts": 20,
+            "req": [
+              {
+                "ds": "Shield‑Captain in Allarus Terminator Armour"
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Leonine Ferocity",
+            "pts": 20,
+            "req": [
+              {
+                "ds": "Shield‑Captain in Allarus Terminator Armour"
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Disruption"
+        ],
+        "name": "Lions of the Emperor",
+        "sid": "64ce831b-8894-4e0d-bc69-2ccb92ff37d9"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Memento Moritoi (one per army) (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Custodes"
+                ],
+                "kw": [
+                  "Dreadnought"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "name": "Augury Uplink (one per army) (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Custodes"
+                ],
+                "kw": [
+                  "Dreadnought"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Might of the Moritoi",
+        "sid": "628c8037-f95d-4627-9255-2088b3eb9349"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Oblivion Knight",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Anathema Psykana"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Huntress’ Eye",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Anathema Psykana"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Disruption"
+        ],
+        "grantedWarlord": [
+          "knight-centura"
+        ],
+        "name": "Null Maiden Vigil",
+        "sid": "e4176ff6-33ba-4413-8df6-f80f1f9e418b"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Unstoppable Destroyer",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Custodes"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Genalchemic Warding",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Custodes"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Shadowkeepers",
+        "sid": "03357e89-c78a-4cbe-b0ea-ecb85696246a",
+        "unique": "SHIELD HOST"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Sally Forth",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Custodes"
+                ],
+                "kw": [
+                  "Shield-Captain"
+                ]
+              },
+              {
+                "ds": "Shield‑Captain"
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "exclKw": [
+              "Terminator"
+            ],
+            "limit": 3,
+            "name": "Auric Eagle (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Custodes"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              },
+              {
+                "fac": [
+                  "Adeptus Custodes"
+                ],
+                "kw": [
+                  "Mounted"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Solar Watch",
+        "sid": "712e2b4d-b39e-43e1-9cc9-29c2aed8aee8",
+        "unique": "SHIELD HOST"
+      }
+    ],
+    "name": "Adeptus Custodes",
+    "slug": "adeptus-custodes",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                114,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "id": "aleya",
+        "kws": [
+          "Anathema Psykana",
+          "Character",
+          "Epic Hero",
+          "Imperium",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "prosecutor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "vigilator-squad",
+            "type": "leader"
+          },
+          {
+            "to": "witchseeker-squad",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Aleya",
+        "sid": "bf3e8f52-2e65-4ad8-9131-72184cf9548b",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 55
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                110,
+                1
+              ],
+              [
+                111,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                112
+              ]
+            ],
+            "t": 53
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                113
+              ]
+            ],
+            "rep": [
+              111
+            ],
+            "t": 54
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "allarus-custodians",
+        "kws": [
+          "Imperium",
+          "Infantry",
+          "Terminator"
+        ],
+        "linked": 1,
+        "name": "Allarus Custodians",
+        "sid": "3a9e87a1-8a5f-4042-bbc5-191daf658762",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              2,
+              2
+            ],
+            "pts": 180
+          },
+          {
+            "per": [
+              3,
+              3
+            ],
+            "pts": 270
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                115,
+                1
+              ],
+              [
+                116,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Anathema Psykana"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                117
+              ]
+            ],
+            "t": 55
+          }
+        ],
+        "id": "anathema-psykana-rhino",
+        "kws": [
+          "Anathema Psykana",
+          "Dedicated Transport",
+          "Frame",
+          "Imperium",
+          "Smoke",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Anathema Psykana Rhino",
+        "sid": "6b53c94b-7a62-4b9e-8ff8-5b8b6deb12a3",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 70
+          }
+        ],
+        "step": {
+          "at": 4,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                121,
+                1
+              ],
+              [
+                122,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "aquilon-terminators-with-solarite-power-gauntlets",
+        "kws": [
+          "Imperium",
+          "Infantry",
+          "Terminator"
+        ],
+        "linked": 1,
+        "name": "Aquilon Terminators with Solarite Power Gauntlets",
+        "sid": "9d794b20-4afb-4e62-a229-1cd248101930",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 285
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                124,
+                1
+              ],
+              [
+                125,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                126
+              ]
+            ],
+            "rep": [
+              124
+            ],
+            "t": 56
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "aquilon-terminators-with-solarite-power-talons",
+        "kws": [
+          "Imperium",
+          "Infantry",
+          "Terminator"
+        ],
+        "linked": 1,
+        "name": "Aquilon Terminators with Solarite Power Talons",
+        "sid": "4e845261-134c-48ad-b586-8e149f02bf51",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 275
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                118,
+                2
+              ],
+              [
+                119,
+                1
+              ],
+              [
+                120,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {},
+        "id": "ares-gunship",
+        "kws": [
+          "Aircraft",
+          "Fly",
+          "Imperium",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Ares Gunship",
+        "sid": "7320d30a-1c65-46df-86bf-ba946d99c370",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 580
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                128,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "blade-champion",
+        "kws": [
+          "Character",
+          "Imperium",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "custodian-guard-sodality",
+            "type": "leader"
+          },
+          {
+            "to": "sentinel-guard-sodality",
+            "type": "leader"
+          },
+          {
+            "to": "custodian-wardens",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Blade Champion",
+        "sid": "4b224ff9-7cb1-40c7-a759-d586c85b7595",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 175
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                133,
+                1
+              ],
+              [
+                134,
+                1
+              ],
+              [
+                135,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                136
+              ]
+            ],
+            "rep": [
+              135
+            ],
+            "t": 57
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "caladius-annihilator-grav-tank",
+        "kws": [
+          "Caladius",
+          "Fly",
+          "Frame",
+          "Grav-assault",
+          "Imperium",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Caladius Annihilator Grav‑Tank",
+        "sid": "686b8a4a-86d7-4c6e-9c69-d8feb96ee762",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 250
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                139,
+                1
+              ],
+              [
+                140,
+                1
+              ],
+              [
+                141,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                142
+              ]
+            ],
+            "rep": [
+              140
+            ],
+            "t": 57
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "caladius-grav-tank",
+        "kws": [
+          "Caladius",
+          "Fly",
+          "Frame",
+          "Grav-assault",
+          "Imperium",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Caladius Grav‑Tank",
+        "sid": "48964ec8-ee6d-4489-a687-704e4afe0a8a",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 230
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                144,
+                1
+              ],
+              [
+                145,
+                2
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    146,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    147,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              145
+            ],
+            "t": 58
+          }
+        ],
+        "id": "contemptor-achillus-dreadnought",
+        "kws": [
+          "Dreadnought",
+          "Imperium",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Contemptor‑Achillus Dreadnought",
+        "sid": "4031c312-82d0-4f15-b41b-addf144d3035",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 230
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                152,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {},
+        "id": "contemptor-galatus-dreadnought",
+        "kws": [
+          "Dreadnought",
+          "Imperium",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Contemptor‑Galatus Dreadnought",
+        "sid": "cb56eefe-2137-4e94-9f5b-5285b522d8dd",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 220
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                158,
+                1
+              ],
+              [
+                159,
+                1
+              ],
+              [
+                160,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                161
+              ]
+            ],
+            "rep": [
+              160
+            ],
+            "t": 57
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "coronus-grav-carrier",
+        "kws": [
+          "Fly",
+          "Frame",
+          "Grav-assault",
+          "Imperium",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Coronus Grav‑Carrier",
+        "sid": "93ef1198-87f0-452f-b0ed-55cfb91d6fce",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 225
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                162,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                112
+              ]
+            ],
+            "t": 53
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "custodian-guard-sodality",
+        "kws": [
+          "Battleline",
+          "Imperium",
+          "Infantry",
+          "Trusted Sentinel"
+        ],
+        "linked": 1,
+        "name": "Custodian Guard Sodality",
+        "sid": "76d3028d-0e37-4349-828b-2f1394158c9b",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 240
+          }
+        ],
+        "step": {
+          "at": 4,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                123,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "custodian-guard-sodality-with-adrasite-spears",
+        "kws": [
+          "Imperium",
+          "Infantry",
+          "Trusted Sentinel"
+        ],
+        "linked": 1,
+        "name": "Custodian Guard Sodality with Adrasite Spears",
+        "sid": "6e20e60e-55d3-479f-98b0-196957b8291e",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 200
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                127,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "custodian-guard-sodality-with-pyrithite-spears",
+        "kws": [
+          "Imperium",
+          "Infantry",
+          "Trusted Sentinel"
+        ],
+        "linked": 1,
+        "name": "Custodian Guard Sodality with Pyrithite Spears",
+        "sid": "d50f02e3-d016-40aa-ab71-639736eaac6a",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 215
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                163,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                164
+              ]
+            ],
+            "rep": [
+              163
+            ],
+            "t": 54
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                112
+              ]
+            ],
+            "t": 53
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "custodian-wardens",
+        "kws": [
+          "Imperium",
+          "Infantry",
+          "Trusted Sentinel"
+        ],
+        "linked": 1,
+        "name": "Custodian Wardens",
+        "sid": "7f7c2b49-b51c-48ce-aef9-26b1aed37b13",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              2,
+              2
+            ],
+            "pts": 200
+          },
+          {
+            "per": [
+              3,
+              3
+            ],
+            "pts": 295
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                165,
+                1
+              ],
+              [
+                166,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                167
+              ],
+              [
+                168
+              ],
+              [
+                169
+              ]
+            ],
+            "rep": [
+              165
+            ],
+            "t": 62
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "gyrfalcon-jetbike-sodality",
+        "kws": [
+          "Fly",
+          "Imperium",
+          "Mounted"
+        ],
+        "linked": 1,
+        "name": "Gyrfalcon Jetbike Sodality",
+        "sid": "5ba22e74-9fdb-485a-9a6f-a0b4be8c83b6",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              2,
+              2
+            ],
+            "pts": 260
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                170,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Anathema Psykana"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    171,
+                    1
+                  ],
+                  [
+                    172,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    173,
+                    1
+                  ],
+                  [
+                    172,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              170
+            ],
+            "t": 63
+          }
+        ],
+        "id": "knight-centura",
+        "kws": [
+          "Anathema Psykana",
+          "Character",
+          "Imperium",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "vigilator-squad",
+            "type": "support"
+          },
+          {
+            "to": "prosecutor-squad",
+            "type": "support"
+          },
+          {
+            "to": "witchseeker-squad",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Knight‑Centura",
+        "sid": "36049330-7004-46c8-8eed-8c800b2cdf95",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 55
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                129,
+                2
+              ],
+              [
+                130,
+                1
+              ],
+              [
+                131,
+                2
+              ],
+              [
+                132,
+                2
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {},
+        "id": "orion-assault-dropship",
+        "kws": [
+          "Fly",
+          "Imperium",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Orion Assault Dropship",
+        "sid": "63d685f3-93f9-48a3-abeb-790758eef16c",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 690
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 50
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                174,
+                1
+              ],
+              [
+                175,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                176
+              ]
+            ],
+            "rep": [
+              175
+            ],
+            "t": 64
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "pallas-grav-attack",
+        "kws": [
+          "Fly",
+          "Frame",
+          "Grav-assault",
+          "Imperium",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Pallas Grav‑Attack",
+        "sid": "b2ed74f8-9a09-4a8b-bff0-8626279f255d",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 135
+          }
+        ]
+      },
+      {
+        "condBattleline": 1,
+        "defaults": [
+          [
+            0,
+            [
+              [
+                177,
+                1
+              ],
+              [
+                178,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Anathema Psykana"
+        ],
+        "flags": {},
+        "grants": [
+          {
+            "det": "null-maiden-vigil",
+            "kw": "Battleline"
+          }
+        ],
+        "id": "prosecutor-squad",
+        "kws": [
+          "Anathema Psykana",
+          "Imperium",
+          "Infantry"
+        ],
+        "linked": 1,
+        "name": "Prosecutor Squad",
+        "sid": "48c832ac-9b76-465e-b845-f9ea1e58159a",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              4,
+              4
+            ],
+            "pts": 45
+          },
+          {
+            "per": [
+              5,
+              5
+            ],
+            "pts": 50
+          },
+          {
+            "per": [
+              9,
+              9
+            ],
+            "pts": 80
+          },
+          {
+            "per": [
+              10,
+              10
+            ],
+            "pts": 90
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                137,
+                1
+              ],
+              [
+                138,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "sagittarum-custodians-sodality",
+        "kws": [
+          "Imperium",
+          "Infantry",
+          "Trusted Sentinel"
+        ],
+        "linked": 1,
+        "name": "Sagittarum Custodians Sodality",
+        "sid": "e2076df2-2db5-4a75-b6fe-62bdcba57587",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 185
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                179,
+                1
+              ],
+              [
+                180,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                112
+              ]
+            ],
+            "t": 53
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "sentinel-guard-sodality",
+        "kws": [
+          "Battleline",
+          "Imperium",
+          "Infantry",
+          "Trusted Sentinel"
+        ],
+        "linked": 1,
+        "name": "Sentinel Guard Sodality",
+        "sid": "ff63c25a-979c-4b79-961c-912c2347b4c1",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 240
+          }
+        ],
+        "step": {
+          "at": 4,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                181,
+                1
+              ],
+              [
+                182,
+                1
+              ]
+            ]
+          ]
+        ],
+        "dw": [
+          [
+            0,
+            25
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                183
+              ]
+            ],
+            "rep": [
+              182
+            ],
+            "t": 65
+          },
+          {
+            "dr": 25,
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                184
+              ],
+              [
+                185
+              ]
+            ],
+            "rep": [
+              182,
+              181
+            ],
+            "t": 66
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "shield-captain",
+        "kws": [
+          "Character",
+          "Imperium",
+          "Infantry",
+          "Shield-Captain"
+        ],
+        "leads": [
+          {
+            "to": "custodian-guard-sodality",
+            "type": "leader"
+          },
+          {
+            "to": "sentinel-guard-sodality",
+            "type": "leader"
+          },
+          {
+            "to": "custodian-wardens",
+            "type": "leader"
+          },
+          {
+            "to": "sagittarum-custodians-sodality",
+            "type": "leader"
+          },
+          {
+            "to": "custodian-guard-sodality-with-adrasite-spears",
+            "type": "leader"
+          },
+          {
+            "to": "custodian-guard-sodality-with-pyrithite-spears",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Shield‑Captain",
+        "sid": "ee075c03-bc58-414d-8124-32feba88554b",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 180
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                186,
+                1
+              ],
+              [
+                187,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                188
+              ]
+            ],
+            "rep": [
+              187
+            ],
+            "t": 67
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "shield-captain-in-allarus-terminator-armour",
+        "kws": [
+          "Character",
+          "Imperium",
+          "Infantry",
+          "Shield-Captain",
+          "Terminator"
+        ],
+        "leads": [
+          {
+            "to": "allarus-custodians",
+            "type": "leader"
+          },
+          {
+            "to": "aquilon-terminators-with-solarite-power-talons",
+            "type": "leader"
+          },
+          {
+            "to": "aquilon-terminators-with-solarite-power-gauntlets",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Shield‑Captain in Allarus Terminator Armour",
+        "sid": "d57478e4-2c7b-42ad-9b58-20c9bd32de4f",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 185
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                189,
+                1
+              ],
+              [
+                190,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                191
+              ]
+            ],
+            "rep": [
+              190
+            ],
+            "t": 68
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "shield-captain-on-dawneagle-jetbike",
+        "kws": [
+          "Character",
+          "Fly",
+          "Imperium",
+          "Mounted",
+          "Shield-Captain"
+        ],
+        "leads": [
+          {
+            "to": "vertus-praetors",
+            "type": "leader"
+          },
+          {
+            "to": "gyrfalcon-jetbike-sodality",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Shield‑Captain on Dawneagle Jetbike",
+        "sid": "e6b0ca7e-f600-4910-a873-d1f087cc89ad",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 205
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                192,
+                1
+              ],
+              [
+                193,
+                1
+              ],
+              [
+                194,
+                2
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    195,
+                    1
+                  ],
+                  [
+                    196,
+                    1
+                  ],
+                  [
+                    194,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    197,
+                    1
+                  ],
+                  [
+                    196,
+                    1
+                  ],
+                  [
+                    194,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    196,
+                    1
+                  ],
+                  [
+                    198,
+                    1
+                  ],
+                  [
+                    194,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              192,
+              194
+            ],
+            "t": 69
+          }
+        ],
+        "id": "telemon-heavy-dreadnought",
+        "kws": [
+          "Dreadnought",
+          "Imperium",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Telemon Heavy Dreadnought",
+        "sid": "9648d234-c523-4d9d-baa4-84b921ca2add",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 280
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                199,
+                1
+              ],
+              [
+                200,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "supreme": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "trajann-valoris",
+        "kws": [
+          "Character",
+          "Epic Hero",
+          "Imperium",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "sentinel-guard-sodality",
+            "type": "leader"
+          },
+          {
+            "to": "allarus-custodians",
+            "type": "leader"
+          },
+          {
+            "to": "custodian-guard-sodality",
+            "type": "leader"
+          },
+          {
+            "to": "custodian-wardens",
+            "type": "leader"
+          },
+          {
+            "to": "aquilon-terminators-with-solarite-power-gauntlets",
+            "type": "leader"
+          },
+          {
+            "to": "aquilon-terminators-with-solarite-power-talons",
+            "type": "leader"
+          },
+          {
+            "to": "custodian-guard-sodality-with-adrasite-spears",
+            "type": "leader"
+          },
+          {
+            "to": "custodian-guard-sodality-with-pyrithite-spears",
+            "type": "leader"
+          },
+          {
+            "to": "sagittarum-custodians-sodality",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Trajann Valoris",
+        "sid": "3eede144-e2a5-4806-8f4c-0716c5803a55",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 265
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                143,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "valerian",
+        "kws": [
+          "Character",
+          "Epic Hero",
+          "Imperium",
+          "Infantry",
+          "Shield-Captain"
+        ],
+        "leads": [
+          {
+            "to": "sentinel-guard-sodality",
+            "type": "leader"
+          },
+          {
+            "to": "custodian-guard-sodality",
+            "type": "leader"
+          },
+          {
+            "to": "custodian-guard-sodality-with-adrasite-spears",
+            "type": "leader"
+          },
+          {
+            "to": "custodian-guard-sodality-with-pyrithite-spears",
+            "type": "leader"
+          },
+          {
+            "to": "custodian-wardens",
+            "type": "leader"
+          },
+          {
+            "to": "sagittarum-custodians-sodality",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Valerian",
+        "sid": "bac43b52-54eb-41b0-bff0-3b4c6bab9cfc",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 130
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                201,
+                1
+              ],
+              [
+                202,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "venatari-with-kinetic-destroyers",
+        "kws": [
+          "Explosives",
+          "Fly",
+          "Imperium",
+          "Infantry",
+          "Jump Pack"
+        ],
+        "linked": 1,
+        "name": "Venatari with Kinetic Destroyers",
+        "sid": "2a1c5d96-3107-413a-a9a5-70b26250450e",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 255
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 25
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                203,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "venatari-with-verutum-lances",
+        "kws": [
+          "Explosives",
+          "Fly",
+          "Imperium",
+          "Infantry",
+          "Jump Pack"
+        ],
+        "linked": 1,
+        "name": "Venatari with Verutum Lances",
+        "sid": "f648099f-c41d-4a3c-87c5-3254694e69cc",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 270
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                148,
+                1
+              ],
+              [
+                149,
+                1
+              ],
+              [
+                150,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                151
+              ]
+            ],
+            "rep": [
+              150
+            ],
+            "t": 59
+          }
+        ],
+        "id": "venerable-contemptor-dreadnought",
+        "kws": [
+          "Imperium",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Venerable Contemptor Dreadnought",
+        "sid": "69d0337d-97aa-427f-843f-f39dc8aa2954",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 220
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                153,
+                1
+              ],
+              [
+                154,
+                2
+              ],
+              [
+                155,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                156
+              ]
+            ],
+            "t": 60
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                157
+              ]
+            ],
+            "t": 61
+          }
+        ],
+        "id": "venerable-land-raider",
+        "kws": [
+          "Frame",
+          "Imperium",
+          "Smoke",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Venerable Land Raider",
+        "sid": "9ad38e41-8435-45c5-8bca-4baaa19fa084",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 230
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                204,
+                1
+              ],
+              [
+                205,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                206
+              ]
+            ],
+            "rep": [
+              205
+            ],
+            "t": 70
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "vertus-praetors",
+        "kws": [
+          "Fly",
+          "Imperium",
+          "Mounted"
+        ],
+        "linked": 1,
+        "name": "Vertus Praetors",
+        "sid": "a4b9670e-d176-4df7-a9c5-53c2ea3a31ab",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              2,
+              2
+            ],
+            "pts": 220
+          },
+          {
+            "per": [
+              3,
+              3
+            ],
+            "pts": 330
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                207,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Anathema Psykana"
+        ],
+        "flags": {},
+        "id": "vigilator-squad",
+        "kws": [
+          "Anathema Psykana",
+          "Imperium",
+          "Infantry"
+        ],
+        "linked": 1,
+        "name": "Vigilator Squad",
+        "sid": "c290fd99-6b93-4c94-a9a7-5f28aec0c8d2",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              4,
+              4
+            ],
+            "pts": 50
+          },
+          {
+            "per": [
+              5,
+              5
+            ],
+            "pts": 55
+          },
+          {
+            "per": [
+              9,
+              9
+            ],
+            "pts": 90
+          },
+          {
+            "per": [
+              10,
+              10
+            ],
+            "pts": 100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                208,
+                1
+              ],
+              [
+                209,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Anathema Psykana"
+        ],
+        "flags": {},
+        "id": "witchseeker-squad",
+        "kws": [
+          "Anathema Psykana",
+          "Imperium",
+          "Infantry"
+        ],
+        "linked": 1,
+        "name": "Witchseeker Squad",
+        "sid": "dbfc8b44-9b6f-4244-a206-a8d0d54effce",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              4,
+              4
+            ],
+            "pts": 55
+          },
+          {
+            "per": [
+              5,
+              5
+            ],
+            "pts": 60
+          },
+          {
+            "per": [
+              9,
+              9
+            ],
+            "pts": 100
+          },
+          {
+            "per": [
+              10,
+              10
+            ],
+            "pts": 110
+          }
+        ]
+      }
+    ]
+  }
+}

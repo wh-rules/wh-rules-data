@@ -1,0 +1,331 @@
+{
+  "FACTION_GROUP_LABEL_KEYS": {
+    "astartes": "factionGroupAstartes",
+    "chaos": "factionGroupChaos",
+    "imperium": "factionGroupImperium",
+    "other": "factionGroupOther",
+    "xenos": "factionGroupXenos"
+  },
+  "factionGroups": [
+    {
+      "factions": [
+        {
+          "abbr": "BT",
+          "color": {
+            "dark": "#9aa3ad",
+            "light": "#3d4248"
+          },
+          "name": "Black Templars",
+          "ready": true,
+          "slug": "black-templars"
+        },
+        {
+          "abbr": "BA",
+          "color": {
+            "dark": "#e06666",
+            "light": "#9b1c1c"
+          },
+          "name": "Blood Angels",
+          "ready": true,
+          "slug": "blood-angels"
+        },
+        {
+          "abbr": "DA",
+          "color": {
+            "dark": "#4fae74",
+            "light": "#1d5e34"
+          },
+          "name": "Dark Angels",
+          "ready": true,
+          "slug": "dark-angels"
+        },
+        {
+          "abbr": "DW",
+          "color": {
+            "dark": "#98a6b4",
+            "light": "#4a5560"
+          },
+          "name": "Deathwatch",
+          "ready": true,
+          "slug": "deathwatch"
+        },
+        {
+          "abbr": "SM",
+          "color": {
+            "dark": "#6b9fd8",
+            "light": "#1f4e8c"
+          },
+          "name": "Space Marines",
+          "ready": true,
+          "slug": "space-marines"
+        },
+        {
+          "abbr": "SW",
+          "color": {
+            "dark": "#9cc0d1",
+            "light": "#56707f"
+          },
+          "name": "Space Wolves",
+          "ready": true,
+          "slug": "space-wolves"
+        }
+      ],
+      "id": "astartes"
+    },
+    {
+      "factions": [
+        {
+          "abbr": "AS",
+          "color": {
+            "dark": "#d16781",
+            "light": "#7a1230"
+          },
+          "name": "Adepta Sororitas",
+          "ready": true,
+          "slug": "adepta-sororitas"
+        },
+        {
+          "abbr": "AC",
+          "color": {
+            "dark": "#d4af37",
+            "light": "#8a6d1a"
+          },
+          "name": "Adeptus Custodes",
+          "ready": true,
+          "slug": "adeptus-custodes"
+        },
+        {
+          "abbr": "AdM",
+          "color": {
+            "dark": "#e07a52",
+            "light": "#9c3b1a"
+          },
+          "name": "Adeptus Mechanicus",
+          "ready": true,
+          "slug": "adeptus-mechanicus"
+        },
+        {
+          "abbr": "AM",
+          "color": {
+            "dark": "#a3b36b",
+            "light": "#4e5d2e"
+          },
+          "name": "Astra Militarum",
+          "ready": true,
+          "slug": "astra-militarum"
+        },
+        {
+          "abbr": "GK",
+          "color": {
+            "dark": "#8fb3c2",
+            "light": "#4f6d7a"
+          },
+          "name": "Grey Knights",
+          "ready": true,
+          "slug": "grey-knights"
+        },
+        {
+          "abbr": "IA",
+          "color": {
+            "dark": "#6fb3a8",
+            "light": "#33635c"
+          },
+          "name": "Imperial Agents",
+          "ready": true,
+          "slug": "imperial-agents"
+        },
+        {
+          "abbr": "IK",
+          "color": {
+            "dark": "#7fb0da",
+            "light": "#2e5f8a"
+          },
+          "name": "Imperial Knights",
+          "ready": true,
+          "slug": "imperial-knights"
+        },
+        {
+          "abbr": "TL",
+          "color": {
+            "dark": "#b98a63",
+            "light": "#6b3f24"
+          },
+          "name": "Titan Legions",
+          "ready": true,
+          "slug": "titan-legions"
+        }
+      ],
+      "id": "imperium"
+    },
+    {
+      "factions": [
+        {
+          "abbr": "CD",
+          "color": {
+            "dark": "#de7256",
+            "light": "#8a2c1e"
+          },
+          "name": "Chaos Daemons",
+          "ready": true,
+          "slug": "chaos-daemons"
+        },
+        {
+          "abbr": "CK",
+          "color": {
+            "dark": "#b07cc0",
+            "light": "#5b2b66"
+          },
+          "name": "Chaos Knights",
+          "ready": true,
+          "slug": "chaos-knights"
+        },
+        {
+          "abbr": "CSM",
+          "color": {
+            "dark": "#d06080",
+            "light": "#7c1f3a"
+          },
+          "name": "Chaos Space Marines",
+          "ready": true,
+          "slug": "chaos-space-marines"
+        },
+        {
+          "abbr": "CTL",
+          "color": {
+            "dark": "#b08464",
+            "light": "#5d3a28"
+          },
+          "name": "Chaos Titan Legions",
+          "ready": true,
+          "slug": "chaos-titan-legions"
+        },
+        {
+          "abbr": "DG",
+          "color": {
+            "dark": "#a9c04e",
+            "light": "#5c6e1f"
+          },
+          "name": "Death Guard",
+          "ready": true,
+          "slug": "death-guard"
+        },
+        {
+          "abbr": "EC",
+          "color": {
+            "dark": "#e07fc4",
+            "light": "#99377c"
+          },
+          "name": "Emperor’s Children",
+          "ready": true,
+          "slug": "emperors-children"
+        },
+        {
+          "abbr": "TS",
+          "color": {
+            "dark": "#5fb6d8",
+            "light": "#1f6e8c"
+          },
+          "name": "Thousand Sons",
+          "ready": true,
+          "slug": "thousand-sons"
+        },
+        {
+          "abbr": "WE",
+          "color": {
+            "dark": "#e8695f",
+            "light": "#a01a12"
+          },
+          "name": "World Eaters",
+          "ready": true,
+          "slug": "world-eaters"
+        }
+      ],
+      "id": "chaos"
+    },
+    {
+      "factions": [
+        {
+          "abbr": "AE",
+          "color": {
+            "dark": "#5cc4cc",
+            "light": "#1f7e86"
+          },
+          "name": "Aeldari",
+          "ready": true,
+          "slug": "aeldari"
+        },
+        {
+          "abbr": "DR",
+          "color": {
+            "dark": "#55b3a0",
+            "light": "#1c5f52"
+          },
+          "name": "Drukhari",
+          "ready": true,
+          "slug": "drukhari"
+        },
+        {
+          "abbr": "GSC",
+          "color": {
+            "dark": "#a785d9",
+            "light": "#5d3a8c"
+          },
+          "name": "Genestealer Cults",
+          "ready": true,
+          "slug": "genestealer-cults"
+        },
+        {
+          "abbr": "LoV",
+          "color": {
+            "dark": "#d99a4e",
+            "light": "#a3641c"
+          },
+          "name": "Leagues of Votann",
+          "ready": true,
+          "slug": "leagues-of-votann"
+        },
+        {
+          "abbr": "NE",
+          "color": {
+            "dark": "#45c98a",
+            "light": "#1d7a4c"
+          },
+          "name": "Necrons",
+          "ready": true,
+          "slug": "necrons"
+        },
+        {
+          "abbr": "OR",
+          "color": {
+            "dark": "#8cc25a",
+            "light": "#467a1e"
+          },
+          "name": "Orks",
+          "ready": true,
+          "slug": "orks"
+        },
+        {
+          "abbr": "TE",
+          "color": {
+            "dark": "#d69a55",
+            "light": "#99551a"
+          },
+          "name": "T’au Empire",
+          "ready": true,
+          "slug": "tau-empire"
+        },
+        {
+          "abbr": "TY",
+          "color": {
+            "dark": "#cc82ba",
+            "light": "#7a3b6b"
+          },
+          "name": "Tyranids",
+          "ready": true,
+          "slug": "tyranids"
+        }
+      ],
+      "id": "xenos"
+    }
+  ]
+}

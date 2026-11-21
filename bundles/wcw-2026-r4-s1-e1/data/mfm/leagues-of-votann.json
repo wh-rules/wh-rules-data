@@ -1,0 +1,559 @@
+{
+  "default": {
+    "detachments": [
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Optimised Attack Lines (Upgrade)",
+            "points": 15
+          },
+          {
+            "name": "Saturation Rounds (Upgrade)",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Armoured Trailblazers"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Precursive Judgement",
+            "points": 15
+          },
+          {
+            "name": "Signature Restoration",
+            "points": 5
+          },
+          {
+            "name": "Tactical Alchemy",
+            "points": 10
+          },
+          {
+            "name": "Trivärg Cyber Implant",
+            "points": 40
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Brandfast Oathband"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Dêlvewerke Navigator",
+            "points": 25
+          },
+          {
+            "name": "Multiwave System Jammer",
+            "points": 10
+          },
+          {
+            "name": "Piledriver",
+            "points": 15
+          },
+          {
+            "name": "Quake Supervisor",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Dêlve Assault Shift"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Pan-spectral Lockons (Upgrade)",
+            "points": 10
+          },
+          {
+            "name": "Shroudwërke Talismans (Upgrade)",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Farseekers"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Bastion Shield",
+            "points": 25
+          },
+          {
+            "name": "High Kâhl",
+            "points": 30
+          },
+          {
+            "name": "Ironskein",
+            "points": 10
+          },
+          {
+            "name": "Quake Multigenerator",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets",
+          "Reconnaissance"
+        ],
+        "name": "Hearthband",
+        "unique": "HEARTHBAND"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Calculated Tenacity",
+            "points": 15
+          },
+          {
+            "name": "Fârstrydr Node",
+            "points": 20
+          },
+          {
+            "name": "Graviton Vault",
+            "points": 5
+          },
+          {
+            "name": "Mantle of Elders",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Hearthfyre Arsenal"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "High Kâhl",
+            "points": 30
+          },
+          {
+            "name": "Ironskein",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Hearthguard Covenant",
+        "unique": "HEARTHBAND"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Asset Manipulator",
+            "points": 25
+          },
+          {
+            "name": "Etacarn SB9 Targeting Implant",
+            "points": 15
+          },
+          {
+            "name": "Mercenary Prospector",
+            "points": 20
+          },
+          {
+            "name": "Metaphysical Brokerage",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Mercenary Oathband"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Ancestral Crest",
+            "points": 15
+          },
+          {
+            "name": "Dead Reckoning",
+            "points": 10
+          },
+          {
+            "name": "Iron Ambassador",
+            "points": 5
+          },
+          {
+            "name": "Oathbound Speculator",
+            "points": 30
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Needgaârd Oathband"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Eye for Weakness",
+            "points": 25
+          },
+          {
+            "name": "Nomad Strategist",
+            "points": 20
+          },
+          {
+            "name": "Surgical Saboteur",
+            "points": 10
+          },
+          {
+            "name": "Writ of Acquisition",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Persecution Prospect"
+      }
+    ],
+    "id": "leagues-of-votann",
+    "legends": [],
+    "name": "Leagues of Votann",
+    "slug": "leagues-of-votann",
+    "sourceUrl": "https://mfm.warhammer-community.com/en/leagues-of-votann",
+    "subfactions": [],
+    "units": [
+      {
+        "name": "Arkanyst Evaluator",
+        "options": [
+          {
+            "models": 1,
+            "points": 70
+          }
+        ]
+      },
+      {
+        "name": "Berehk Stornbröw",
+        "options": [
+          {
+            "models": 1,
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Brôkhyr Iron-Master",
+        "options": [
+          {
+            "models": 5,
+            "points": 70
+          }
+        ]
+      },
+      {
+        "name": "Brôkhyr Thunderkyn",
+        "options": [
+          {
+            "models": 3,
+            "note": "1st-2nd",
+            "points": 80
+          },
+          {
+            "models": 6,
+            "note": "1st-2nd",
+            "points": 170
+          },
+          {
+            "models": 3,
+            "note": "3rd+",
+            "points": 90
+          },
+          {
+            "models": 6,
+            "note": "3rd+",
+            "points": 180
+          }
+        ]
+      },
+      {
+        "name": "Buri Aegnirssen",
+        "options": [
+          {
+            "models": 1,
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Cthonian Beserks",
+        "options": [
+          {
+            "models": 5,
+            "points": 90
+          },
+          {
+            "models": 10,
+            "points": 180
+          }
+        ]
+      },
+      {
+        "name": "Cthonian Earthshakers",
+        "options": [
+          {
+            "models": 2,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Einhyr Champion",
+        "options": [
+          {
+            "models": 1,
+            "points": 65
+          }
+        ]
+      },
+      {
+        "name": "Einhyr Hearthguard",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 130
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 270
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 140
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 280
+          }
+        ]
+      },
+      {
+        "name": "Grimnyr",
+        "options": [
+          {
+            "models": 3,
+            "points": 65
+          }
+        ]
+      },
+      {
+        "name": "Hearthkyn Warriors",
+        "options": [
+          {
+            "models": 10,
+            "points": 90
+          }
+        ]
+      },
+      {
+        "name": "Hekaton Land Fortress",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 250
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 270
+          }
+        ]
+      },
+      {
+        "name": "Hernkyn Pioneers",
+        "options": [
+          {
+            "models": 3,
+            "note": "1st-2nd",
+            "points": 85
+          },
+          {
+            "models": 6,
+            "note": "1st-2nd",
+            "points": 170
+          },
+          {
+            "models": 3,
+            "note": "3rd+",
+            "points": 95
+          },
+          {
+            "models": 6,
+            "note": "3rd+",
+            "points": 180
+          }
+        ]
+      },
+      {
+        "name": "Hernkyn Yaegirs",
+        "options": [
+          {
+            "models": 10,
+            "points": 90
+          }
+        ]
+      },
+      {
+        "name": "Ironkin Steeljacks with Heavy Volkanite Disintegrators",
+        "options": [
+          {
+            "models": 3,
+            "note": "1st-2nd",
+            "points": 80
+          },
+          {
+            "models": 6,
+            "note": "1st-2nd",
+            "points": 170
+          },
+          {
+            "models": 3,
+            "note": "3rd+",
+            "points": 90
+          },
+          {
+            "models": 6,
+            "note": "3rd+",
+            "points": 180
+          }
+        ]
+      },
+      {
+        "name": "Ironkin Steeljacks with Melee Weapons",
+        "options": [
+          {
+            "models": 3,
+            "note": "1st-2nd",
+            "points": 75
+          },
+          {
+            "models": 6,
+            "note": "1st-2nd",
+            "points": 150
+          },
+          {
+            "models": 3,
+            "note": "3rd+",
+            "points": 85
+          },
+          {
+            "models": 6,
+            "note": "3rd+",
+            "points": 160
+          }
+        ]
+      },
+      {
+        "name": "Kâhl",
+        "options": [
+          {
+            "models": 1,
+            "points": 65
+          }
+        ]
+      },
+      {
+        "name": "Kapricus Carrier",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-3rd",
+            "points": 70
+          },
+          {
+            "models": 1,
+            "note": "4th+",
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Kapricus Defenders",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 75
+          },
+          {
+            "models": 2,
+            "note": "1st-2nd",
+            "points": 150
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 95
+          },
+          {
+            "models": 2,
+            "note": "3rd+",
+            "points": 170
+          }
+        ]
+      },
+      {
+        "name": "Memnyr Strategist",
+        "options": [
+          {
+            "models": 1,
+            "points": 45
+          }
+        ]
+      },
+      {
+        "name": "Sagitaur",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-3rd",
+            "points": 85
+          },
+          {
+            "models": 1,
+            "note": "4th+",
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Ûthar the Destined",
+        "options": [
+          {
+            "models": 1,
+            "points": 100
+          }
+        ]
+      }
+    ]
+  }
+}

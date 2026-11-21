@@ -1,0 +1,3028 @@
+{
+  "default": {
+    "entries": [
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "magicks-ignores-cover"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "while this is the ability selected for this phase",
+              "ru": "пока на эту фазу выбрана эта способность"
+            }
+          },
+          {
+            "cond": [
+              "magicks-lethal"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while this is the ability selected for this phase",
+              "ru": "пока на эту фазу выбрана эта способность"
+            }
+          },
+          {
+            "cond": [
+              "magicks-sustained"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS D3",
+            "when": {
+              "en": "while this is the ability selected for this phase",
+              "ru": "пока на эту фазу выбрана эта способность"
+            }
+          }
+        ],
+        "hash": "c5f52efb",
+        "kind": "ability",
+        "name": "Aetaos’rau’keres: Master of Magicks (Psychic)",
+        "ref": {
+          "kind": "ability",
+          "unit": "aetaos-rau-keres"
+        },
+        "reviewed": true,
+        "sid": "pack:aetaos-rau-keres:master-of-magicks-psychic",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "34873127",
+        "kind": "ability",
+        "name": "Be’lakor: Pall of Despair (Aura, Psychic)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "Shadow Form Abilities",
+          "unit": "belakor"
+        },
+        "reviewed": true,
+        "sid": "1142f775-5766-44be-b032-fd2edd0ac4ee:belakor",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "fa25cb6f",
+        "kind": "ability",
+        "name": "Be’lakor: Shadow Lord (Aura, Psychic)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "LEGIONES DAEMONICA",
+                "SHADOW LEGION"
+              ]
+            }
+          ],
+          "set": "Shadow Form Abilities",
+          "unit": "belakor"
+        },
+        "reviewed": true,
+        "sid": "35f3d3f8-f9b9-45cd-adcf-5f6f1c9a7c2d:belakor",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "86d85f6a",
+        "kind": "ability",
+        "name": "Be’lakor: Wreathed in Shadows (Aura, Psychic)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "LEGIONES DAEMONICA"
+              ]
+            }
+          ],
+          "set": "Shadow Form Abilities",
+          "unit": "belakor"
+        },
+        "reviewed": true,
+        "sid": "9e1aae3f-0753-4856-ad14-0cc44786e7be:belakor",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "aa7eb7dd",
+        "kind": "ability",
+        "name": "Bloodmaster: Bloodmaster",
+        "ref": {
+          "kind": "ability",
+          "unit": "bloodmaster"
+        },
+        "reviewed": true,
+        "sid": "20b0285d-05d1-4b48-bb21-419e1e1feae6:bloodmaster",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "hit",
+            "target": "aura",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "99d56dec",
+        "kind": "ability",
+        "name": "Bloodthirster: Daemon Lord of Khorne",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "KHORNE LEGIONES DAEMONICA"
+              ]
+            }
+          ],
+          "unit": "bloodthirster"
+        },
+        "reviewed": true,
+        "sid": "ee4d1638-9a02-4280-b02a-153c84034d21:bloodthirster",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "f20a7aa6",
+        "kind": "ability",
+        "name": "Blue Horrors: Sullen Malevolence",
+        "ref": {
+          "kind": "ability",
+          "unit": "blue-horrors"
+        },
+        "reviewed": true,
+        "sid": "ad0bab17-6be0-4962-8503-f1769cb70f6f:blue-horrors",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "76c79108",
+        "kind": "ability",
+        "name": "Changecaster: Changecaster",
+        "ref": {
+          "kind": "ability",
+          "unit": "changecaster"
+        },
+        "reviewed": true,
+        "sid": "751369ac-fb53-4fda-89d9-b8e8cbe532fa:changecaster",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "57174c59",
+        "kind": "ability",
+        "name": "Contorted Epitome: Horrible Fascination",
+        "ref": {
+          "kind": "ability",
+          "unit": "contorted-epitome"
+        },
+        "reviewed": true,
+        "sid": "2d5e75b9-16b6-49e1-9140-7800035c86c7:contorted-epitome",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Feel No Pain 4+ (vs mortal wounds and Psychic Attacks)",
+            "when": null
+          }
+        ],
+        "hash": "b1a8245a",
+        "kind": "ability",
+        "name": "Contorted Epitome: Swallow Energy",
+        "ref": {
+          "kind": "ability",
+          "unit": "contorted-epitome"
+        },
+        "reviewed": true,
+        "sid": "af46eb11-f58f-4447-8cb4-ddb0ce9d839e:contorted-epitome",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "harbinger-lethal"
+            ],
+            "on": "melee",
+            "only": {
+              "name": "Hellforged weapons"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while this is the ability selected for this phase",
+              "ru": "пока на эту фазу выбрана эта способность"
+            }
+          },
+          {
+            "cond": [
+              "harbinger-precision"
+            ],
+            "on": "melee",
+            "only": {
+              "name": "Hellforged weapons"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "while this is the ability selected for this phase",
+              "ru": "пока на эту фазу выбрана эта способность"
+            }
+          },
+          {
+            "cond": [
+              "harbinger-sustained"
+            ],
+            "on": "melee",
+            "only": {
+              "name": "Hellforged weapons"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while this is the ability selected for this phase",
+              "ru": "пока на эту фазу выбрана эта способность"
+            }
+          }
+        ],
+        "hash": "bbbc232b",
+        "kind": "ability",
+        "name": "Daemon Prince of Chaos with Wings: Harbinger of Death",
+        "ref": {
+          "kind": "ability",
+          "unit": "daemon-prince-of-chaos-with-wings"
+        },
+        "reviewed": true,
+        "sid": "9abb08e6-5ea7-4b69-a350-20ae551ce99e:daemon-prince-of-chaos-with-wings",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "only": {
+              "name": "Hellforged"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 3,
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "3bbbdb1a",
+        "kind": "ability",
+        "name": "Daemon Prince of Chaos with Wings: Malefic Destruction",
+        "ref": {
+          "kind": "ability",
+          "unit": "daemon-prince-of-chaos-with-wings"
+        },
+        "reviewed": true,
+        "sid": "0dd11ed9-198b-463b-bfb4-3a78c281c76d:daemon-prince-of-chaos-with-wings",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of a friendly LEGIONES DAEMONICA INFANTRY unit",
+              "ru": "пока в пределах 3\" от дружественного отряда LEGIONES DAEMONICA INFANTRY"
+            }
+          }
+        ],
+        "hash": "792980f7",
+        "kind": "ability",
+        "name": "Daemon Prince of Chaos: Daemonic Lord",
+        "ref": {
+          "kind": "ability",
+          "unit": "daemon-prince-of-chaos"
+        },
+        "reviewed": true,
+        "sid": "c2040afa-b23e-443f-a3c8-2f45383bc96f:daemon-prince-of-chaos",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "aura",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "f46b8c03",
+        "kind": "ability",
+        "name": "Daemon Prince of Chaos: Prince of Darkness",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "LEGIONES DAEMONICA"
+              ]
+            }
+          ],
+          "unit": "daemon-prince-of-chaos"
+        },
+        "reviewed": true,
+        "sid": "132a3018-8899-4d29-9efb-ed1d7735badf:daemon-prince-of-chaos",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "set",
+            "stat": "inv",
+            "value": "3+",
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "c7e8505e",
+        "kind": "ability",
+        "name": "Daemon Prince of Chaos: Unholy Vigour",
+        "ref": {
+          "kind": "ability",
+          "unit": "daemon-prince-of-chaos"
+        },
+        "reviewed": true,
+        "sid": "befa7c2a-9616-4369-8a05-58815d6b121e:daemon-prince-of-chaos",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "unit",
+            "value": "4+",
+            "when": null
+          }
+        ],
+        "hash": "58585162",
+        "kind": "ability",
+        "name": "Epidemius: Blessed by the Plague God",
+        "ref": {
+          "kind": "ability",
+          "unit": "epidemius"
+        },
+        "reviewed": true,
+        "sid": "7fbe6305-a2cd-4319-991f-aaf3bd97acbd:epidemius",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "ASSAULT",
+            "when": null
+          }
+        ],
+        "hash": "d7afb870",
+        "kind": "ability",
+        "name": "Exalted Flamer: Blazing Warpfire",
+        "ref": {
+          "kind": "ability",
+          "unit": "exalted-flamer"
+        },
+        "reviewed": true,
+        "sid": "aadf02b1-b604-4d2b-bb39-aad16d42e58e:exalted-flamer",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "LETHAL HITS",
+            "when": null
+          }
+        ],
+        "hash": "d2a9d0ad",
+        "kind": "ability",
+        "name": "Fateskimmer: Fateskimmer",
+        "ref": {
+          "kind": "ability",
+          "unit": "fateskimmer"
+        },
+        "reviewed": true,
+        "sid": "015e74d5-054a-49fa-b002-9c17b277069f:fateskimmer",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "ee7e3001",
+        "kind": "ability",
+        "name": "Feculent Gnarlmaw: Fortification",
+        "ref": {
+          "kind": "ability",
+          "unit": "feculent-gnarlmaw"
+        },
+        "reviewed": true,
+        "sid": "26b11011-e99c-4bcd-8f2d-fe34af25bfa4:feculent-gnarlmaw",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "aura",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "f3b8776a",
+        "kind": "ability",
+        "name": "Feculent Gnarlmaw: Shroud of Flies",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "NURGLE LEGIONES DAEMONICA"
+              ]
+            }
+          ],
+          "unit": "feculent-gnarlmaw"
+        },
+        "reviewed": true,
+        "sid": "a438e44e-b000-41b0-94ed-61a085221fee:feculent-gnarlmaw",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Stealth",
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Stealth",
+            "when": null
+          },
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "vs": "melee",
+            "when": null
+          },
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": -1,
+            "vs": "melee",
+            "when": null
+          }
+        ],
+        "hash": "87a55d7c",
+        "kind": "ability",
+        "name": "Fluxmaster: Fluxmaster",
+        "ref": {
+          "kind": "ability",
+          "unit": "fluxmaster"
+        },
+        "reviewed": true,
+        "sid": "4ee62487-e96f-4363-a5bc-6ca110ce1730:fluxmaster",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against a Battle-shocked enemy unit",
+              "ru": "по вражескому отряду в Battle-shock"
+            }
+          }
+        ],
+        "hash": "4e22b159",
+        "kind": "ability",
+        "name": "Furies: Prey on the Weak",
+        "ref": {
+          "kind": "ability",
+          "unit": "furies"
+        },
+        "reviewed": true,
+        "sid": "pack:furies:prey-on-the-weak",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "alleg-khorne"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 2,
+            "when": {
+              "en": "if this model has the KHORNE keyword",
+              "ru": "если у модели есть ключевое слово KHORNE"
+            }
+          }
+        ],
+        "hash": "2e977bd3",
+        "kind": "ability",
+        "name": "Giant Chaos Spawn: Creature of Khorne",
+        "ref": {
+          "kind": "ability",
+          "unit": "giant-chaos-spawn"
+        },
+        "reviewed": true,
+        "sid": "pack:giant-chaos-spawn:creature-of-khorne",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "alleg-nurgle"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "value": 1,
+            "when": {
+              "en": "if this model has the NURGLE keyword",
+              "ru": "если у модели есть ключевое слово NURGLE"
+            }
+          }
+        ],
+        "hash": "97752c54",
+        "kind": "ability",
+        "name": "Giant Chaos Spawn: Creature of Nurgle",
+        "ref": {
+          "kind": "ability",
+          "unit": "giant-chaos-spawn"
+        },
+        "reviewed": true,
+        "sid": "pack:giant-chaos-spawn:creature-of-nurgle",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "alleg-slaanesh"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 2,
+            "when": {
+              "en": "if this model has the SLAANESH keyword",
+              "ru": "если у модели есть ключевое слово SLAANESH"
+            }
+          }
+        ],
+        "hash": "2d2b08f1",
+        "kind": "ability",
+        "name": "Giant Chaos Spawn: Creature of Slaanesh",
+        "ref": {
+          "kind": "ability",
+          "unit": "giant-chaos-spawn"
+        },
+        "reviewed": true,
+        "sid": "pack:giant-chaos-spawn:creature-of-slaanesh",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "alleg-tzeentch"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "if this model has the TZEENTCH keyword",
+              "ru": "если у модели есть ключевое слово TZEENTCH"
+            }
+          }
+        ],
+        "hash": "f5fbbde0",
+        "kind": "ability",
+        "name": "Giant Chaos Spawn: Creature of Tzeentch",
+        "ref": {
+          "kind": "ability",
+          "unit": "giant-chaos-spawn"
+        },
+        "reviewed": true,
+        "sid": "pack:giant-chaos-spawn:creature-of-tzeentch",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "target": "aura",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "24462df7",
+        "kind": "ability",
+        "name": "Great Unclean One: Daemon Lord of Nurgle",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "NURGLE LEGIONES DAEMONICA"
+              ]
+            }
+          ],
+          "unit": "great-unclean-one"
+        },
+        "reviewed": true,
+        "sid": "2b28facf-6d9e-477a-9612-5fb56296aef1:great-unclean-one",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "2250767e",
+        "kind": "ability",
+        "name": "Great Unclean One: Nurgle’s Rot",
+        "ref": {
+          "kind": "ability",
+          "unit": "great-unclean-one"
+        },
+        "reviewed": true,
+        "sid": "6e5dd267-7e5a-4213-9116-daef9389e80c:great-unclean-one",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "if this unit made a Charge move this turn",
+              "ru": "если отряд совершил Charge в этом ходу"
+            }
+          },
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": {
+              "en": "if this unit made a Charge move this turn",
+              "ru": "если отряд совершил Charge в этом ходу"
+            }
+          }
+        ],
+        "hash": "127dac77",
+        "kind": "ability",
+        "name": "Hellflayers: Cutting Down the Foe",
+        "ref": {
+          "kind": "ability",
+          "unit": "hellflayers"
+        },
+        "reviewed": true,
+        "sid": "41d2323f-4a2b-4fa3-9f13-7156d301f55e:hellflayers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "target": "unit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "b74af02a",
+        "kind": "ability",
+        "name": "Herald of Slaanesh on Steed of Slaanesh: Lethal Caress",
+        "ref": {
+          "kind": "ability",
+          "unit": "herald-of-slaanesh-on-steed-of-slaanesh"
+        },
+        "reviewed": true,
+        "sid": "pack:herald-of-slaanesh-on-steed-of-slaanesh:lethal-caress",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "7d1703a0",
+        "kind": "ability",
+        "name": "Infernal Enrapturess: Discordant Disruption",
+        "ref": {
+          "kind": "ability",
+          "unit": "infernal-enrapturess"
+        },
+        "reviewed": true,
+        "sid": "8732df0b-f46f-46a7-a14e-8c306abaafbe:infernal-enrapturess",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "target": "aura",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "4ebf44c4",
+        "kind": "ability",
+        "name": "Keeper of Secrets: Daemon Lord of Slaanesh",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "SLAANESH LEGIONES DAEMONICA"
+              ]
+            }
+          ],
+          "unit": "keeper-of-secrets"
+        },
+        "reviewed": true,
+        "sid": "961e1f8f-1e16-470c-b069-d6a9f88b3cc3:keeper-of-secrets",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "663cf92e",
+        "kind": "ability",
+        "name": "Keeper of Secrets: Mesmerising Form",
+        "ref": {
+          "kind": "ability",
+          "unit": "keeper-of-secrets"
+        },
+        "reviewed": true,
+        "sid": "94051d05-dee1-4839-9caf-8db7a2ffcc96:keeper-of-secrets",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "s",
+            "target": "aura",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "1934ffb4",
+        "kind": "ability",
+        "name": "Lord of Change: Daemon Lord of Tzeentch",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "TZEENTCH LEGIONES DAEMONICA"
+              ]
+            }
+          ],
+          "unit": "lord-of-change"
+        },
+        "reviewed": true,
+        "sid": "f0d51829-0fa5-44ab-b142-b5eea8246496:lord-of-change",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "magicks-ignores-cover"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Bolt of Change"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "while this is the ability selected for this phase",
+              "ru": "пока на эту фазу выбрана эта способность"
+            }
+          },
+          {
+            "cond": [
+              "magicks-lethal"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Bolt of Change"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while this is the ability selected for this phase",
+              "ru": "пока на эту фазу выбрана эта способность"
+            }
+          },
+          {
+            "cond": [
+              "magicks-sustained"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Bolt of Change"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS D3",
+            "when": {
+              "en": "while this is the ability selected for this phase",
+              "ru": "пока на эту фазу выбрана эта способность"
+            }
+          }
+        ],
+        "hash": "4682d5b5",
+        "kind": "ability",
+        "name": "Lord of Change: Master of Magicks",
+        "ref": {
+          "kind": "ability",
+          "unit": "lord-of-change"
+        },
+        "reviewed": true,
+        "sid": "0effb863-11f6-4097-9d2f-780cbb275a00:lord-of-change",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "55ce4f47",
+        "kind": "ability",
+        "name": "Nurglings: Mischief Makers",
+        "ref": {
+          "kind": "ability",
+          "unit": "nurglings"
+        },
+        "reviewed": true,
+        "sid": "12f4452d-0d08-48c9-9ac1-64f0e3affbf2:nurglings",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "only": {
+              "name": "Pox Rider plaguesword"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "LANCE",
+            "when": {
+              "en": "until the end of a turn it made a Charge move",
+              "ru": "до конца хода, в котором совершил Charge"
+            }
+          }
+        ],
+        "hash": "8dbc765e",
+        "kind": "ability",
+        "name": "Pox Riders: Bounding Assault",
+        "ref": {
+          "kind": "ability",
+          "unit": "pox-riders"
+        },
+        "reviewed": true,
+        "sid": "pack:pox-riders:bounding-assault",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "3975c405",
+        "kind": "ability",
+        "name": "Rendmaster on Blood Throne: Blood Throne",
+        "ref": {
+          "kind": "ability",
+          "unit": "rendmaster-on-blood-throne"
+        },
+        "reviewed": true,
+        "sid": "b056eee6-6e63-4855-af76-8794c8659a37:rendmaster-on-blood-throne",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "a894725f",
+        "kind": "ability",
+        "name": "Rotigus: Deluge of Nurgle",
+        "ref": {
+          "kind": "ability",
+          "unit": "rotigus"
+        },
+        "reviewed": true,
+        "sid": "7e8193c1-c4a6-428c-ab02-1505c56ea17f:rotigus",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "80353929",
+        "kind": "ability",
+        "name": "Rotigus: Virulent Blessing",
+        "ref": {
+          "kind": "ability",
+          "unit": "rotigus"
+        },
+        "reviewed": true,
+        "sid": "1a8915cb-676b-4dd0-a1c4-b01b2d24095e:rotigus",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "2250767e",
+        "kind": "ability",
+        "name": "Scabeiathrax the Bloated: Nurgle’s Rot (Psychic)",
+        "note": "Read as Great Unclean One: Nurgle’s Rot (chaos-daemons), the same text.",
+        "ref": {
+          "kind": "ability",
+          "unit": "scabeiathrax-the-bloated"
+        },
+        "reviewed": true,
+        "sid": "pack:scabeiathrax-the-bloated:nurgle-s-rot-psychic",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "target": "aura",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "6444af89",
+        "kind": "ability",
+        "name": "Skarbrand: Rage Embodied",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "KHORNE LEGIONES DAEMONICA"
+              ]
+            }
+          ],
+          "unit": "skarbrand"
+        },
+        "reviewed": true,
+        "sid": "cec3a53a-130a-4a69-af12-4c54cc70b899:skarbrand",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "ee7e3001",
+        "kind": "ability",
+        "name": "Skull Altar: Fortification",
+        "ref": {
+          "kind": "ability",
+          "unit": "skull-altar"
+        },
+        "reviewed": true,
+        "sid": "26b11011-e99c-4bcd-8f2d-fe34af25bfa4:skull-altar",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "only": {
+              "name": "Juggernaut’s bladed horn"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "for the turn, after that unit ends a Charge move",
+              "ru": "на ход, после того как отряд закончил Charge"
+            }
+          }
+        ],
+        "hash": "1e93ac48",
+        "kind": "ability",
+        "name": "Skullmaster: Skullmaster’s Fury",
+        "ref": {
+          "kind": "ability",
+          "unit": "skullmaster"
+        },
+        "reviewed": true,
+        "sid": "65416b74-1478-4169-856a-ed5522ef4309:skullmaster",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "DEVASTATING WOUNDS",
+            "when": null
+          }
+        ],
+        "hash": "a184123b",
+        "kind": "ability",
+        "name": "Skulltaker: Lord of Decapitations",
+        "ref": {
+          "kind": "ability",
+          "unit": "skulltaker"
+        },
+        "reviewed": true,
+        "sid": "d89f5170-ed5a-4d4d-a198-cf96271a10b6:skulltaker",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "fc9e329c",
+        "kind": "ability",
+        "name": "Sloppity Bilepiper: Jolly Gutpipes",
+        "ref": {
+          "kind": "ability",
+          "unit": "sloppity-bilepiper"
+        },
+        "reviewed": true,
+        "sid": "589cd6bb-b4ff-46cd-be72-b0406197b9d5:sloppity-bilepiper",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "alleg-khorne"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 2,
+            "when": {
+              "en": "if this model has the KHORNE keyword",
+              "ru": "если у модели есть ключевое слово KHORNE"
+            }
+          }
+        ],
+        "hash": "2e977bd3",
+        "kind": "ability",
+        "name": "Spined Chaos Beast: Creature of Khorne",
+        "ref": {
+          "kind": "ability",
+          "unit": "spined-chaos-beast"
+        },
+        "reviewed": true,
+        "sid": "pack:spined-chaos-beast:creature-of-khorne",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "alleg-nurgle"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "value": 1,
+            "when": {
+              "en": "if this model has the NURGLE keyword",
+              "ru": "если у модели есть ключевое слово NURGLE"
+            }
+          }
+        ],
+        "hash": "97752c54",
+        "kind": "ability",
+        "name": "Spined Chaos Beast: Creature of Nurgle",
+        "ref": {
+          "kind": "ability",
+          "unit": "spined-chaos-beast"
+        },
+        "reviewed": true,
+        "sid": "pack:spined-chaos-beast:creature-of-nurgle",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "alleg-slaanesh"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 2,
+            "when": {
+              "en": "if this model has the SLAANESH keyword",
+              "ru": "если у модели есть ключевое слово SLAANESH"
+            }
+          }
+        ],
+        "hash": "2d2b08f1",
+        "kind": "ability",
+        "name": "Spined Chaos Beast: Creature of Slaanesh",
+        "ref": {
+          "kind": "ability",
+          "unit": "spined-chaos-beast"
+        },
+        "reviewed": true,
+        "sid": "pack:spined-chaos-beast:creature-of-slaanesh",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "alleg-tzeentch"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "if this model has the TZEENTCH keyword",
+              "ru": "если у модели есть ключевое слово TZEENTCH"
+            }
+          }
+        ],
+        "hash": "f5fbbde0",
+        "kind": "ability",
+        "name": "Spined Chaos Beast: Creature of Tzeentch",
+        "ref": {
+          "kind": "ability",
+          "unit": "spined-chaos-beast"
+        },
+        "reviewed": true,
+        "sid": "pack:spined-chaos-beast:creature-of-tzeentch",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "9d48081a",
+        "kind": "ability",
+        "name": "Spoilpox Scrivener: Keep Counting!",
+        "ref": {
+          "kind": "ability",
+          "unit": "spoilpox-scrivener"
+        },
+        "reviewed": true,
+        "sid": "de75e5f2-6284-4fd0-93e4-e6a7ca260f18:spoilpox-scrivener",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "be69986d",
+        "kind": "ability",
+        "name": "Spoilpox Scrivener: Meet Your Quota!",
+        "ref": {
+          "kind": "ability",
+          "unit": "spoilpox-scrivener"
+        },
+        "reviewed": true,
+        "sid": "dc64cc17-20f8-44bd-8821-ef52027abe92:spoilpox-scrivener",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "f3a69766",
+        "kind": "ability",
+        "name": "The Blue Scribes: P’tarix’s Sorcerous Syphon",
+        "ref": {
+          "kind": "ability",
+          "unit": "the-blue-scribes"
+        },
+        "reviewed": true,
+        "sid": "4791289c-159a-40b6-b2ff-9bdabb4e842c:the-blue-scribes",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "6107fac6",
+        "kind": "ability",
+        "name": "The Changeling: Mischief and Confusion",
+        "ref": {
+          "kind": "ability",
+          "unit": "the-changeling"
+        },
+        "reviewed": true,
+        "sid": "39a6df80-3f36-45eb-bd24-e4183c79c2cc:the-changeling",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "1ae444c8",
+        "kind": "ability",
+        "name": "The Masque of Slaanesh: The Eternal Dance",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [
+                "SLAANESH LEGIONES DAEMONICA"
+              ],
+              "targets": [
+                "SLAANESH LEGIONES DAEMONICA"
+              ]
+            }
+          ],
+          "unit": "the-masque-of-slaanesh"
+        },
+        "reviewed": true,
+        "sid": "efdf042e-67d5-40ec-af94-64f19995a199:the-masque-of-slaanesh",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "aura",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "9547dbf1",
+        "kind": "ability",
+        "name": "Tormentbringer: Tormentbringer",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "SLAANESH LEGIONES DAEMONICA"
+              ]
+            }
+          ],
+          "unit": "tormentbringer"
+        },
+        "reviewed": true,
+        "sid": "4c51c601-04ca-43a7-9498-073ff4aabfbb:tormentbringer",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "663cf92e",
+        "kind": "ability",
+        "name": "Zarakynel: Mesmerising Form",
+        "ref": {
+          "kind": "ability",
+          "unit": "zarakynel"
+        },
+        "reviewed": true,
+        "sid": "pack:zarakynel:mesmerising-form",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 2,
+            "when": null
+          }
+        ],
+        "hash": "ae040202",
+        "kind": "allegiance",
+        "name": "Daemonic Allegiance: Khorne",
+        "note": "every melee row on these datasheets IS the hellforged weapons (strike and sweep), so the +2 S applies to the whole table",
+        "ref": {
+          "g": "daemonic-allegiance",
+          "gid": "dbd9b3b1",
+          "kind": "allegiance",
+          "opt": "Khorne"
+        },
+        "reviewed": true,
+        "sid": "cdb2d463-155c-42e4-a175-a067c162c0eb",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "18bd6cac",
+        "kind": "allegiance",
+        "name": "Daemonic Allegiance: Nurgle",
+        "ref": {
+          "g": "daemonic-allegiance",
+          "gid": "dbd9b3b1",
+          "kind": "allegiance",
+          "opt": "Nurgle"
+        },
+        "reviewed": true,
+        "sid": "7eb23e8f-7e4d-4514-b126-ece1d6afc4f8",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 2,
+            "when": null
+          }
+        ],
+        "hash": "40f35f84",
+        "kind": "allegiance",
+        "name": "Daemonic Allegiance: Slaanesh",
+        "ref": {
+          "g": "daemonic-allegiance",
+          "gid": "dbd9b3b1",
+          "kind": "allegiance",
+          "opt": "Slaanesh"
+        },
+        "reviewed": true,
+        "sid": "5c3a9d42-de95-4760-a2dd-fbd631f07f9d",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "a",
+            "value": 3,
+            "when": null
+          }
+        ],
+        "hash": "213a227a",
+        "kind": "allegiance",
+        "name": "Daemonic Allegiance: Tzeentch",
+        "note": "the infernal cannon is the only ranged row on these datasheets",
+        "ref": {
+          "g": "daemonic-allegiance",
+          "gid": "dbd9b3b1",
+          "kind": "allegiance",
+          "opt": "Tzeentch"
+        },
+        "reviewed": true,
+        "sid": "da9691ba-f0cc-4647-8c64-d43889b44811",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "9611ddd4",
+        "kind": "armyRule",
+        "name": "Daemonic Pact",
+        "note": "army-composition rule — allied points allowance, no printed number",
+        "ref": {
+          "kind": "armyRule"
+        },
+        "reviewed": true,
+        "sid": "6d20d153-1252-428c-a141-b0863232aeda",
+        "ver": 925
+      },
+      {
+        "det": "Legion of Excess",
+        "effects": [],
+        "hash": "bf28d71f",
+        "kind": "detachmentRule",
+        "name": "Seductive Gambit",
+        "ref": {
+          "det": "legion-of-excess",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "bcf36274-b2f2-4e89-9ec8-4b15779043cc",
+        "ver": 925
+      },
+      {
+        "det": "Lords of the Warp",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "improve",
+            "stat": "ld",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "5baf0248",
+        "kind": "detachmentRule",
+        "name": "Loci of Power",
+        "ref": {
+          "det": "lords-of-the-warp",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "676a146d-1018-40c5-82d4-e2c816e4bf80",
+        "ver": 925
+      },
+      {
+        "det": "Shadow Legion",
+        "effects": [],
+        "hash": "04c2b126",
+        "kind": "detachmentRule",
+        "name": "First Prince of Chaos",
+        "ref": {
+          "det": "shadow-legion",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "b11810ea-a5f1-4a5f-ae70-54c95415b57d",
+        "ver": 925
+      },
+      {
+        "det": "Warptide",
+        "effects": [
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "scope": 0,
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": {
+              "en": "when that unit is selected to make an Advance move, until the end of the turn",
+              "ru": "когда юнит выбран для Advance-перемещения, до конца хода"
+            }
+          }
+        ],
+        "hash": "1efb3dd1",
+        "kind": "detachmentRule",
+        "name": "shudderblink",
+        "ref": {
+          "det": "warptide",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "7f775c80-d3ce-4aa7-a586-348ac9502b2a",
+        "ver": 925
+      },
+      {
+        "det": "Blood Legion",
+        "effects": [],
+        "hash": "8e83ef45",
+        "kind": "enhancement",
+        "name": "Brazenmaw",
+        "ref": {
+          "det": "blood-legion",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "281cf9a5-5126-42dc-a47c-fc5c897821df",
+        "ver": 925
+      },
+      {
+        "det": "Blood Legion",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Deadly Demise D3+3",
+            "when": {
+              "en": "while the bearer has destroyed one or more enemy units this battle, instead of any other Deadly Demise on its datasheet",
+              "ru": "пока носитель уничтожил хотя бы один вражеский отряд в этой битве, вместо любого другого Deadly Demise в датащите"
+            }
+          }
+        ],
+        "hash": "80378352",
+        "kind": "enhancement",
+        "name": "Gateway Unto Damnation",
+        "ref": {
+          "det": "blood-legion",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "02d5ce17-8c89-4918-aebc-440d43cb0ed7",
+        "ver": 925
+      },
+      {
+        "det": "Blood Legion",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LANCE",
+            "when": {
+              "en": "while that unit is within 6\" of the bearer",
+              "ru": "пока отряд в пределах 6\" от носителя"
+            }
+          }
+        ],
+        "hash": "66c3a4e1",
+        "kind": "enhancement",
+        "name": "Slaughterthirst (Aura)",
+        "ref": {
+          "det": "blood-legion",
+          "kind": "enhancement",
+          "scopes": [
+            {
+              "excludes": [
+                "MONSTERS",
+                "MONSTER"
+              ],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "LEGIONES DAEMONICA KHORNE"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "f8020def-f6bf-421b-ab9d-9b2fd1dfadc3",
+        "ver": 925
+      },
+      {
+        "det": "Cavalcade of Chaos",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "ac0e965b",
+        "kind": "enhancement",
+        "name": "Apocalyptic Steeds (Upgrade)",
+        "ref": {
+          "det": "cavalcade-of-chaos",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "911e7488-e48a-45e0-9925-4e7c58fbe13f",
+        "ver": 925
+      },
+      {
+        "det": "Daemonic Incursion",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": null
+          },
+          {
+            "alt": 0,
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 2,
+            "when": {
+              "en": "Attacks and Strength +2 instead, while the bearer is within your army's Shadow of Chaos",
+              "ru": "атаки и сила +2 вместо +1, пока носитель в Тени Хаоса вашей армии"
+            }
+          }
+        ],
+        "hash": "4c95d62c",
+        "kind": "enhancement",
+        "name": "A’rgath, The King of Blades",
+        "ref": {
+          "det": "daemonic-incursion",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "ebead938-7836-4e08-a1bf-e0c5ab3801a5",
+        "ver": 925
+      },
+      {
+        "det": "Daemonic Incursion",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+",
+            "when": null
+          }
+        ],
+        "hash": "46f895f9",
+        "kind": "enhancement",
+        "name": "The Endless Gift",
+        "ref": {
+          "det": "daemonic-incursion",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "e8f57682-ba60-4f3f-a276-523d9c6539d3",
+        "ver": 925
+      },
+      {
+        "det": "Daemonic Incursion",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "range",
+            "value": 3,
+            "when": null
+          },
+          {
+            "alt": 0,
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "s",
+            "value": 2,
+            "when": {
+              "en": "Strength +2 and Range +6\" instead, while the bearer is within your army's Shadow of Chaos",
+              "ru": "сила +2 и дальность +6\" вместо этого, пока носитель в Тени Хаоса вашей армии"
+            }
+          }
+        ],
+        "hash": "90d119a2",
+        "kind": "enhancement",
+        "name": "The Everstave",
+        "ref": {
+          "det": "daemonic-incursion",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "21549ce2-0e59-434f-b5e0-360ea30d53a6",
+        "ver": 925
+      },
+      {
+        "det": "Legion of Excess",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "hit",
+            "target": "aura",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "cb5eae27",
+        "kind": "enhancement",
+        "name": "Dreaming Crown (Aura)",
+        "ref": {
+          "det": "legion-of-excess",
+          "kind": "enhancement",
+          "scopes": [
+            {
+              "excludes": [
+                "MONSTERS",
+                "MONSTER"
+              ],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "LEGIONES DAEMONICA SLAANESH"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "b9c84001-f845-4ed2-891d-ff7ea71daf51",
+        "ver": 925
+      },
+      {
+        "det": "Legion of Excess",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "wound",
+            "target": "aura",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "e47184fd",
+        "kind": "enhancement",
+        "name": "False Majesty (Aura)",
+        "ref": {
+          "det": "legion-of-excess",
+          "kind": "enhancement",
+          "scopes": [
+            {
+              "excludes": [
+                "MONSTERS",
+                "MONSTER"
+              ],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "LEGIONES DAEMONICA SLAANESH"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "d3ec0f1f-8345-49e1-bad6-0cd9fd4b13e2",
+        "ver": 925
+      },
+      {
+        "det": "Lords of the Warp",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 2,
+            "when": null
+          }
+        ],
+        "hash": "06e094b5",
+        "kind": "enhancement",
+        "name": "Swollen with Power (Upgrade)",
+        "ref": {
+          "det": "lords-of-the-warp",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "533bc4ea-3d36-4fb0-95c2-8169ccd52859",
+        "ver": 925
+      },
+      {
+        "det": "Plague Legion",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "target": "aura",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "e5278c50",
+        "kind": "enhancement",
+        "name": "Font of Spores (Aura)",
+        "ref": {
+          "det": "plague-legion",
+          "kind": "enhancement",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "LEGIONES DAEMONICA NURGLE"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "c6c3e944-461f-4651-a57c-d4d0a8a03ca4",
+        "ver": 925
+      },
+      {
+        "det": "Scintillating Legion",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "aura",
+            "value": "Feel No Pain 4+ (vs Psychic Attacks and mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "692e2a7a",
+        "kind": "enhancement",
+        "name": "Improbable Shield (Aura)",
+        "ref": {
+          "det": "scintillating-legion",
+          "kind": "enhancement",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "LEGIONES DAEMONICA TZEENTCH"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "164bc0b9-47cc-4e31-a655-174ec86d611e",
+        "ver": 925
+      },
+      {
+        "det": "Scintillating Legion",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 2,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "bb91fd81",
+        "kind": "enhancement",
+        "name": "Neverblade",
+        "ref": {
+          "det": "scintillating-legion",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "bb19b8b3-0999-446a-80b9-da84024bcc61",
+        "ver": 925
+      },
+      {
+        "det": "Shadow Legion",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Scouts 9\"",
+            "when": null
+          }
+        ],
+        "hash": "c88d3f5f",
+        "kind": "enhancement",
+        "name": "Leaping Shadows",
+        "ref": {
+          "det": "shadow-legion",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "3ac71f81-4676-44b1-8461-7471c474dc49",
+        "ver": 925
+      },
+      {
+        "det": "Shadow Legion",
+        "effects": [],
+        "hash": "85b6b4a2",
+        "kind": "enhancement",
+        "name": "Mantle of Gloom (Aura)",
+        "ref": {
+          "det": "shadow-legion",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "63613eac-5d6e-466b-bca6-863553d5a93e",
+        "ver": 925
+      },
+      {
+        "det": "Warptide",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "s",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "8abc82de",
+        "kind": "enhancement",
+        "name": "Bane-forged Weapons (Upgrade)",
+        "ref": {
+          "det": "warptide",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "202cf6aa-5832-4f39-8d1f-555088d46b27",
+        "ver": 925
+      },
+      {
+        "det": "Blood Legion",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "sv",
+            "value": "3+",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "2a7d1eee",
+        "kind": "stratagem",
+        "name": "Sheathed In Brass",
+        "ref": {
+          "det": "blood-legion",
+          "kind": "stratagem",
+          "name": "Sheathed In Brass"
+        },
+        "reviewed": true,
+        "sid": "8ffa14f4-ea5f-4972-ab86-695a093a56e9",
+        "ver": 925
+      },
+      {
+        "det": "Cavalcade of Chaos",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Mobile",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "6ab50acf",
+        "kind": "stratagem",
+        "name": "Warp-riders",
+        "ref": {
+          "det": "cavalcade-of-chaos",
+          "kind": "stratagem",
+          "name": "Warp-riders"
+        },
+        "reviewed": true,
+        "sid": "b63bb154-f543-4745-a5a6-ffab323cd921",
+        "ver": 995
+      },
+      {
+        "det": "Daemonic Incursion",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "01c62e3b",
+        "kind": "stratagem",
+        "name": "Draught of Terror",
+        "ref": {
+          "det": "daemonic-incursion",
+          "kind": "stratagem",
+          "name": "Draught of Terror"
+        },
+        "reviewed": true,
+        "sid": "73f0cc79-068f-4e96-91ab-05c3914bacce",
+        "ver": 925
+      },
+      {
+        "det": "Legion of Excess",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "994267d5",
+        "kind": "stratagem",
+        "name": "Archagonists",
+        "ref": {
+          "det": "legion-of-excess",
+          "kind": "stratagem",
+          "name": "Archagonists"
+        },
+        "reviewed": true,
+        "sid": "338e8c8f-7330-4a2e-bfe1-935e2556cbec",
+        "ver": 925
+      },
+      {
+        "det": "Legion of Excess",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "214dc667",
+        "kind": "stratagem",
+        "name": "Overwhelming Excess",
+        "ref": {
+          "det": "legion-of-excess",
+          "kind": "stratagem",
+          "name": "Overwhelming Excess"
+        },
+        "reviewed": true,
+        "sid": "3a3f0ec5-970a-4ef8-89a8-d48f3247b34d",
+        "ver": 995
+      },
+      {
+        "det": "Legion of Excess",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "7de35e49",
+        "kind": "stratagem",
+        "name": "Rapturous Agony",
+        "ref": {
+          "det": "legion-of-excess",
+          "kind": "stratagem",
+          "name": "Rapturous Agony"
+        },
+        "reviewed": true,
+        "sid": "aed28125-92c9-4922-99a2-fee31e24a7fa",
+        "ver": 995
+      },
+      {
+        "det": "Lords of the Warp",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "83e4f304",
+        "kind": "stratagem",
+        "name": "Call to Murder",
+        "ref": {
+          "det": "lords-of-the-warp",
+          "kind": "stratagem",
+          "name": "Call to Murder"
+        },
+        "reviewed": true,
+        "sid": "f2338ba8-00d6-45fc-8d14-fb29b2c437fe",
+        "ver": 925
+      },
+      {
+        "det": "Lords of the Warp",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Fights First",
+            "when": null
+          }
+        ],
+        "hash": "347c0fce",
+        "kind": "stratagem",
+        "name": "Carnival of Excess",
+        "ref": {
+          "det": "lords-of-the-warp",
+          "kind": "stratagem",
+          "name": "Carnival of Excess"
+        },
+        "reviewed": true,
+        "sid": "af8aef17-a033-44a4-b8a9-d27ebff42e0c",
+        "ver": 925
+      },
+      {
+        "det": "Lords of the Warp",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "b50f6f98",
+        "kind": "stratagem",
+        "name": "Skirling Magicks",
+        "ref": {
+          "det": "lords-of-the-warp",
+          "kind": "stratagem",
+          "name": "Skirling Magicks"
+        },
+        "reviewed": true,
+        "sid": "f88709cb-ae58-4672-8582-698049889c24",
+        "ver": 925
+      },
+      {
+        "det": "Plague Legion",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "5dc5e5dd",
+        "kind": "stratagem",
+        "name": "Fever Visions",
+        "ref": {
+          "det": "plague-legion",
+          "kind": "stratagem",
+          "name": "Fever Visions"
+        },
+        "reviewed": true,
+        "sid": "9c8980e1-16a2-4d68-8fec-9837729498ff",
+        "ver": 925
+      },
+      {
+        "det": "Plague Legion",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 5,
+            "when": {
+              "en": "for a Normal move, while this stratagem is in force",
+              "ru": "для Normal move, пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "e69d6033",
+        "kind": "stratagem",
+        "name": "Murkshadows",
+        "ref": {
+          "det": "plague-legion",
+          "kind": "stratagem",
+          "name": "Murkshadows"
+        },
+        "reviewed": true,
+        "sid": "b3c2324d-a2fd-4bc4-aa88-48b0aedad96e",
+        "ver": 925
+      },
+      {
+        "det": "Scintillating Legion",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "s",
+            "value": 2,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "alt": 0,
+            "cond": [
+              "spent-flux-pyrogenesis"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "s",
+            "value": 3,
+            "when": {
+              "en": "instead, if a Flux token was spent",
+              "ru": "вместо этого, если потрачен Flux token"
+            }
+          },
+          {
+            "cond": [
+              "spent-flux-pyrogenesis"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "if a Flux token was spent",
+              "ru": "если потрачен Flux token"
+            }
+          }
+        ],
+        "hash": "238794d3",
+        "kind": "stratagem",
+        "name": "Pyrogenesis",
+        "ref": {
+          "det": "scintillating-legion",
+          "kind": "stratagem",
+          "name": "Pyrogenesis"
+        },
+        "reviewed": true,
+        "sid": "c404658f-f17a-4424-a4ae-14611998fe04",
+        "ver": 925
+      },
+      {
+        "det": "Shadow Legion",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LANCE",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "also, for a KHORNE unit",
+              "ru": "и ещё, для отряда KHORNE"
+            }
+          }
+        ],
+        "hash": "6b8351bc",
+        "kind": "stratagem",
+        "name": "Channelled Wrath",
+        "ref": {
+          "det": "shadow-legion",
+          "kind": "stratagem",
+          "name": "Channelled Wrath"
+        },
+        "reviewed": true,
+        "sid": "bd3b15c2-7884-42d4-8f6e-4b26b8956956",
+        "ver": 925
+      },
+      {
+        "det": "Shadow Legion",
+        "effects": [],
+        "hash": "b5780266",
+        "kind": "stratagem",
+        "name": "Death Denied",
+        "ref": {
+          "det": "shadow-legion",
+          "kind": "stratagem",
+          "name": "Death Denied"
+        },
+        "reviewed": true,
+        "sid": "2530f74b-95bf-4d53-99c7-7505a887c1cd",
+        "ver": 925
+      },
+      {
+        "det": "Shadow Legion",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "41952609",
+        "kind": "stratagem",
+        "name": "Encroaching Darkness",
+        "ref": {
+          "det": "shadow-legion",
+          "kind": "stratagem",
+          "name": "Encroaching Darkness"
+        },
+        "reviewed": true,
+        "sid": "391a8bbe-346e-47d2-8886-4e648889c1c0",
+        "ver": 925
+      },
+      {
+        "det": "Shadow Legion",
+        "effects": [],
+        "hash": "48189719",
+        "kind": "stratagem",
+        "name": "Spiteful Demise",
+        "ref": {
+          "det": "shadow-legion",
+          "kind": "stratagem",
+          "name": "Spiteful Demise"
+        },
+        "reviewed": true,
+        "sid": "f6dd7e2a-b033-4558-89a0-51739c18dcff",
+        "ver": 925
+      },
+      {
+        "det": "Warptide",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "ranged-s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "edf16e51",
+        "kind": "stratagem",
+        "name": "Incorporeal Entities",
+        "ref": {
+          "det": "warptide",
+          "kind": "stratagem",
+          "name": "Incorporeal Entities"
+        },
+        "reviewed": true,
+        "sid": "b3854eac-89e9-415b-8b2f-e9076d220d3a",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "ld",
+            "value": "6+",
+            "when": null
+          }
+        ],
+        "hash": "5db4589c",
+        "kind": "wargear",
+        "name": "Bloodcrushers: Daemonic Icon",
+        "ref": {
+          "item": "daemonic icon",
+          "kind": "wargear",
+          "unit": "bloodcrushers"
+        },
+        "reviewed": true,
+        "sid": "79b389ec-f1c4-42b1-833d-4e1b86817377:bloodcrushers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "9fccd872",
+        "kind": "wargear",
+        "name": "Bloodcrushers: Instrument of Chaos",
+        "ref": {
+          "item": "instrument of chaos",
+          "kind": "wargear",
+          "unit": "bloodcrushers"
+        },
+        "reviewed": true,
+        "sid": "e77cb7d8-d6cd-472a-a771-91fee3e48bcd:bloodcrushers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "ld",
+            "value": "6+",
+            "when": null
+          }
+        ],
+        "hash": "5db4589c",
+        "kind": "wargear",
+        "name": "Bloodletters: Daemonic Icon",
+        "ref": {
+          "item": "daemonic icon",
+          "kind": "wargear",
+          "unit": "bloodletters"
+        },
+        "reviewed": true,
+        "sid": "79b389ec-f1c4-42b1-833d-4e1b86817377:bloodletters",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "9fccd872",
+        "kind": "wargear",
+        "name": "Bloodletters: Instrument of Chaos",
+        "ref": {
+          "item": "instrument of chaos",
+          "kind": "wargear",
+          "unit": "bloodletters"
+        },
+        "reviewed": true,
+        "sid": "e77cb7d8-d6cd-472a-a771-91fee3e48bcd:bloodletters",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "ld",
+            "value": "6+",
+            "when": null
+          }
+        ],
+        "hash": "5db4589c",
+        "kind": "wargear",
+        "name": "Daemonettes: Daemonic Icon",
+        "ref": {
+          "item": "daemonic icon",
+          "kind": "wargear",
+          "unit": "daemonettes"
+        },
+        "reviewed": true,
+        "sid": "79b389ec-f1c4-42b1-833d-4e1b86817377:daemonettes",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "9fccd872",
+        "kind": "wargear",
+        "name": "Daemonettes: Instrument of Chaos",
+        "ref": {
+          "item": "instrument of chaos",
+          "kind": "wargear",
+          "unit": "daemonettes"
+        },
+        "reviewed": true,
+        "sid": "e77cb7d8-d6cd-472a-a771-91fee3e48bcd:daemonettes",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 3+ (vs Psychic Attacks)",
+            "when": null
+          }
+        ],
+        "hash": "7b24f7e2",
+        "kind": "wargear",
+        "name": "Flesh Hounds: Collar of Khorne",
+        "ref": {
+          "item": "collar of khorne",
+          "kind": "wargear",
+          "unit": "flesh-hounds"
+        },
+        "reviewed": true,
+        "sid": "80a80408-8489-4694-a5f4-72cf40036349:flesh-hounds",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 3+ (vs Psychic Attacks and mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "d5b6dfdf",
+        "kind": "wargear",
+        "name": "Karanak: Brass Collar of Bloody Vengeance",
+        "ref": {
+          "item": "brass collar of bloody vengeance",
+          "kind": "wargear",
+          "unit": "karanak"
+        },
+        "reviewed": true,
+        "sid": "e6a45e83-838d-4449-8bde-44b7e2c3e4ec:karanak",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "sv",
+            "value": "3+",
+            "when": null
+          }
+        ],
+        "hash": "2aa5c1c5",
+        "kind": "wargear",
+        "name": "Keeper of Secrets: Shining Aegis",
+        "ref": {
+          "item": "shining aegis",
+          "kind": "wargear",
+          "unit": "keeper-of-secrets"
+        },
+        "reviewed": true,
+        "sid": "5579aa57-632e-42a7-a12a-7ebc8c69e24d:keeper-of-secrets",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "ld",
+            "value": "6+",
+            "when": null
+          }
+        ],
+        "hash": "5db4589c",
+        "kind": "wargear",
+        "name": "Pink Horrors: Daemonic Icon",
+        "ref": {
+          "item": "daemonic icon",
+          "kind": "wargear",
+          "unit": "pink-horrors"
+        },
+        "reviewed": true,
+        "sid": "79b389ec-f1c4-42b1-833d-4e1b86817377:pink-horrors",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "9fccd872",
+        "kind": "wargear",
+        "name": "Pink Horrors: Instrument of Chaos",
+        "ref": {
+          "item": "instrument of chaos",
+          "kind": "wargear",
+          "unit": "pink-horrors"
+        },
+        "reviewed": true,
+        "sid": "e77cb7d8-d6cd-472a-a771-91fee3e48bcd:pink-horrors",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "ld",
+            "value": "6+",
+            "when": null
+          }
+        ],
+        "hash": "5db4589c",
+        "kind": "wargear",
+        "name": "Plague Drones: Daemonic Icon",
+        "ref": {
+          "item": "daemonic icon",
+          "kind": "wargear",
+          "unit": "plague-drones"
+        },
+        "reviewed": true,
+        "sid": "79b389ec-f1c4-42b1-833d-4e1b86817377:plague-drones",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "9fccd872",
+        "kind": "wargear",
+        "name": "Plague Drones: Instrument of Chaos",
+        "ref": {
+          "item": "instrument of chaos",
+          "kind": "wargear",
+          "unit": "plague-drones"
+        },
+        "reviewed": true,
+        "sid": "e77cb7d8-d6cd-472a-a771-91fee3e48bcd:plague-drones",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "ld",
+            "value": "6+",
+            "when": null
+          }
+        ],
+        "hash": "5db4589c",
+        "kind": "wargear",
+        "name": "Plaguebearers: Daemonic Icon",
+        "ref": {
+          "item": "daemonic icon",
+          "kind": "wargear",
+          "unit": "plaguebearers"
+        },
+        "reviewed": true,
+        "sid": "79b389ec-f1c4-42b1-833d-4e1b86817377:plaguebearers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "9fccd872",
+        "kind": "wargear",
+        "name": "Plaguebearers: Instrument of Chaos",
+        "ref": {
+          "item": "instrument of chaos",
+          "kind": "wargear",
+          "unit": "plaguebearers"
+        },
+        "reviewed": true,
+        "sid": "e77cb7d8-d6cd-472a-a771-91fee3e48bcd:plaguebearers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "ld",
+            "value": "6+",
+            "when": null
+          }
+        ],
+        "hash": "5db4589c",
+        "kind": "wargear",
+        "name": "Pox Riders: Daemonic Icon",
+        "note": "Read as Bloodcrushers: Daemonic Icon (chaos-daemons), the same text.",
+        "ref": {
+          "item": "daemonic icon",
+          "kind": "wargear",
+          "unit": "pox-riders"
+        },
+        "reviewed": true,
+        "sid": "pack:pox-riders:daemonic-icon",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "9fccd872",
+        "kind": "wargear",
+        "name": "Pox Riders: Instrument of Chaos",
+        "note": "Read as Bloodcrushers: Instrument of Chaos (chaos-daemons), the same text.",
+        "ref": {
+          "item": "instrument of chaos",
+          "kind": "wargear",
+          "unit": "pox-riders"
+        },
+        "reviewed": true,
+        "sid": "pack:pox-riders:instrument-of-chaos",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "ld",
+            "value": "6+",
+            "when": null
+          }
+        ],
+        "hash": "5db4589c",
+        "kind": "wargear",
+        "name": "Seekers: Daemonic Icon",
+        "ref": {
+          "item": "daemonic icon",
+          "kind": "wargear",
+          "unit": "seekers"
+        },
+        "reviewed": true,
+        "sid": "79b389ec-f1c4-42b1-833d-4e1b86817377:seekers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "9fccd872",
+        "kind": "wargear",
+        "name": "Seekers: Instrument of Chaos",
+        "ref": {
+          "item": "instrument of chaos",
+          "kind": "wargear",
+          "unit": "seekers"
+        },
+        "reviewed": true,
+        "sid": "e77cb7d8-d6cd-472a-a771-91fee3e48bcd:seekers",
+        "ver": 925
+      }
+    ],
+    "formatVersion": 1,
+    "slug": "chaos-daemons"
+  }
+}

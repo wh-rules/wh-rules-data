@@ -1,0 +1,780 @@
+{
+  "default": {
+    "entries": [
+      {
+        "det": null,
+        "effects": [],
+        "hash": "290c3fa6",
+        "kind": "ability",
+        "name": "Deathwatch Veterans: Death to the Alien",
+        "ref": {
+          "kind": "ability",
+          "unit": "deathwatch-veterans"
+        },
+        "reviewed": true,
+        "sid": "4529122e-5417-4976-b683-ebad029258e0:deathwatch-veterans",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "290c3fa6",
+        "kind": "ability",
+        "name": "Decimus Kill Team: Death to the Alien",
+        "ref": {
+          "kind": "ability",
+          "unit": "decimus-kill-team"
+        },
+        "reviewed": true,
+        "sid": "f3737a33-aed7-426f-9e1c-7aefb0339ff1:decimus-kill-team",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a unit below starting strength",
+              "ru": "против отряда ниже стартовой численности"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "also, against a unit at or below half-strength",
+              "ru": "также против отряда на половине численности или ниже"
+            }
+          }
+        ],
+        "hash": "3e004e02",
+        "kind": "ability",
+        "name": "Fortis Kill Team: Fortis Doctrines",
+        "ref": {
+          "kind": "ability",
+          "unit": "fortis-kill-team"
+        },
+        "reviewed": true,
+        "sid": "a1a36cfc-2330-4ad1-b738-384bd8f9033f:fortis-kill-team",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "against the closest eligible target",
+              "ru": "против ближайшей допустимой цели"
+            }
+          },
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "if this unit made a charge move this turn",
+              "ru": "если отряд совершил charge в этом ходу"
+            }
+          }
+        ],
+        "hash": "ffc97976",
+        "kind": "ability",
+        "name": "Indomitor Kill Team: Indomitor Doctrines",
+        "ref": {
+          "kind": "ability",
+          "unit": "indomitor-kill-team"
+        },
+        "reviewed": true,
+        "sid": "1a965117-329d-4465-b439-e41eeb5f533c:indomitor-kill-team",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-set-up-this-turn"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "in a turn this unit was set up on the battlefield",
+              "ru": "в ходу, в котором отряд был выставлен на поле боя"
+            }
+          },
+          {
+            "cond": [
+              "unit-set-up-this-turn"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LANCE",
+            "when": {
+              "en": "in a turn this unit was set up on the battlefield",
+              "ru": "в ходу, в котором отряд был выставлен на поле боя"
+            }
+          }
+        ],
+        "hash": "525aa0f8",
+        "kind": "ability",
+        "name": "Talonstrike Kill Team: Talonstrike Doctrines",
+        "ref": {
+          "kind": "ability",
+          "unit": "talonstrike-kill-team"
+        },
+        "reviewed": true,
+        "sid": "043c08da-5ba7-4ed9-9ca5-6a0fc1f3aec9:talonstrike-kill-team",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          },
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "38355f6d",
+        "kind": "ability",
+        "name": "Watch Captain Artemis: Tactical Instinct",
+        "ref": {
+          "kind": "ability",
+          "unit": "watch-captain-artemis"
+        },
+        "reviewed": true,
+        "sid": "c983ef72-fd33-4ba2-8824-3ed2aaf0cddc:watch-captain-artemis",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": null
+          },
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "ASSAULT",
+            "when": null
+          }
+        ],
+        "hash": "7ce42759",
+        "kind": "ability",
+        "name": "Watch Master: Strategic Knowledge",
+        "ref": {
+          "kind": "ability",
+          "unit": "watch-master"
+        },
+        "reviewed": true,
+        "sid": "2dfe171f-2a81-413a-8c5e-50b8be7e4553:watch-master",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "doctrine-devastator"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": {
+              "en": "while the Devastator Doctrine is active for this unit",
+              "ru": "пока для отряда активна Devastator Doctrine"
+            }
+          }
+        ],
+        "hash": "4b1af9f6",
+        "kind": "armyRule",
+        "name": "Combat Doctrines",
+        "ref": {
+          "kind": "armyRule"
+        },
+        "reviewed": true,
+        "sid": "db9ab7c9-e1c1-4e60-acde-fb9505fbd81d",
+        "ver": 963
+      },
+      {
+        "det": "Black Spear Task Force",
+        "effects": [
+          {
+            "cond": [
+              "doctrine-devastator"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "Furor Tactics: while the Devastator Doctrine is active for this unit",
+              "ru": "Furor Tactics: пока для отряда активна Devastator Doctrine"
+            }
+          },
+          {
+            "cond": [
+              "doctrine-tactical"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "Malleus Tactics: while the Tactical Doctrine is active for this unit",
+              "ru": "Malleus Tactics: пока для отряда активна Tactical Doctrine"
+            }
+          },
+          {
+            "cond": [
+              "doctrine-assault",
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "Purgatus Tactics: while the Assault Doctrine is active for this unit, against targets within 9\"",
+              "ru": "Purgatus Tactics: пока для отряда активна Assault Doctrine, по целям в пределах 9\""
+            }
+          }
+        ],
+        "hash": "de2bcfe8",
+        "kind": "detachmentRule",
+        "name": "Mission Tactics",
+        "ref": {
+          "det": "black-spear-task-force",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "89b1a46b-b282-4347-96f2-193f406ccd56",
+        "ver": 963
+      },
+      {
+        "det": "Deathwatch Support",
+        "effects": [
+          {
+            "cond": [
+              "doctrine-devastator"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "Furor Tactics: while the Devastator Doctrine is active for this unit",
+              "ru": "Furor Tactics: пока для отряда активна Devastator Doctrine"
+            }
+          },
+          {
+            "cond": [
+              "doctrine-tactical"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "Malleus Tactics: while the Tactical Doctrine is active for this unit",
+              "ru": "Malleus Tactics: пока для отряда активна Tactical Doctrine"
+            }
+          },
+          {
+            "cond": [
+              "doctrine-assault",
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "Purgatus Tactics: while the Assault Doctrine is active for this unit, against targets within 9\"",
+              "ru": "Purgatus Tactics: пока для отряда активна Assault Doctrine, по целям в пределах 9\""
+            }
+          }
+        ],
+        "hash": "32dae29c",
+        "kind": "detachmentRule",
+        "name": "Mission Tactics",
+        "ref": {
+          "det": "deathwatch-support",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "7007a7ca-a403-49d5-a776-bdd875d3ca45",
+        "ver": 963
+      },
+      {
+        "det": "Black Spear Task Force",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Deep Strike",
+            "when": {
+              "en": "if the bearer's unit is a KILL TEAM unit",
+              "ru": "если отряд носителя — KILL TEAM"
+            }
+          }
+        ],
+        "hash": "7c1d2e1e",
+        "kind": "enhancement",
+        "name": "Beacon Angelis",
+        "ref": {
+          "det": "black-spear-task-force",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "a6f79bdf-9255-45b3-9013-434bfee355a5",
+        "ver": 995
+      },
+      {
+        "det": "Black Spear Task Force",
+        "effects": [],
+        "hash": "41fdc52b",
+        "kind": "enhancement",
+        "name": "Osseus Key (Aura)",
+        "ref": {
+          "det": "black-spear-task-force",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "d6434703-aa58-4aa2-ba89-1d5b7404f16a",
+        "ver": 963
+      },
+      {
+        "det": "Deathwatch Support",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Deep Strike",
+            "when": {
+              "en": "if the bearer's unit is a KILL TEAM unit",
+              "ru": "если отряд носителя — KILL TEAM"
+            }
+          }
+        ],
+        "hash": "7c1d2e1e",
+        "kind": "enhancement",
+        "name": "Beacon Angelis",
+        "ref": {
+          "det": "deathwatch-support",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "ddb6a0cd-2abb-4566-b783-80246c7f9b5b",
+        "ver": 995
+      },
+      {
+        "det": "Black Spear Task Force",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "ap",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "9e50d86d",
+        "kind": "stratagem",
+        "name": "Armour of Contempt",
+        "ref": {
+          "det": "black-spear-task-force",
+          "kind": "stratagem",
+          "name": "Armour of Contempt"
+        },
+        "reviewed": true,
+        "sid": "f7a3bbc4-2349-42f8-98c7-0084d9b68e5f",
+        "ver": 963
+      },
+      {
+        "det": "Black Spear Task Force",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "7c882a94",
+        "kind": "stratagem",
+        "name": "Dragonfire Rounds",
+        "ref": {
+          "det": "black-spear-task-force",
+          "kind": "stratagem",
+          "name": "Dragonfire Rounds"
+        },
+        "reviewed": true,
+        "sid": "581dadee-5a9e-48fb-8613-2691b9ba8c0d",
+        "ver": 963
+      },
+      {
+        "det": "Black Spear Task Force",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "notTag": "DEVASTATING WOUNDS"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-NON-VEHICLE 4+",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "c574e5b3",
+        "kind": "stratagem",
+        "name": "Hellfire Rounds",
+        "ref": {
+          "det": "black-spear-task-force",
+          "kind": "stratagem",
+          "name": "Hellfire Rounds"
+        },
+        "reviewed": true,
+        "sid": "4edff0f6-7aa7-49ac-a2db-8314ab7374cb",
+        "ver": 963
+      },
+      {
+        "det": "Black Spear Task Force",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "range",
+            "value": 6,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "72b2fa33",
+        "kind": "stratagem",
+        "name": "Kraken Rounds",
+        "ref": {
+          "det": "black-spear-task-force",
+          "kind": "stratagem",
+          "name": "Kraken Rounds"
+        },
+        "reviewed": true,
+        "sid": "262a62fc-f671-4cee-ac0a-7f2064ed330b",
+        "ver": 963
+      },
+      {
+        "det": "Black Spear Task Force",
+        "dur": "round",
+        "effects": [
+          {
+            "cond": [
+              "unit-kill-team"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Deep Strike",
+            "when": {
+              "en": "if your unit has KILL TEAM, until the end of your next Movement phase",
+              "ru": "если у отряда есть KILL TEAM, до конца вашей следующей фазы движения"
+            }
+          }
+        ],
+        "hash": "00ed1997",
+        "kind": "stratagem",
+        "name": "Site-To-Site Teleportation",
+        "ref": {
+          "det": "black-spear-task-force",
+          "kind": "stratagem",
+          "name": "Site-To-Site Teleportation"
+        },
+        "reviewed": true,
+        "sid": "d98cf607-5f08-40cb-9674-2b5136ce38c6",
+        "ver": 963
+      },
+      {
+        "det": "Deathwatch Support",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "7c882a94",
+        "kind": "stratagem",
+        "name": "Dragonfire Rounds",
+        "ref": {
+          "det": "deathwatch-support",
+          "kind": "stratagem",
+          "name": "Dragonfire Rounds"
+        },
+        "reviewed": true,
+        "sid": "86ab446f-83b5-4c9f-98ce-ecda28c05eb3",
+        "ver": 963
+      },
+      {
+        "det": "Deathwatch Support",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "notTag": "DEVASTATING WOUNDS"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-NON-VEHICLE 4+",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "c574e5b3",
+        "kind": "stratagem",
+        "name": "Hellfire Rounds",
+        "ref": {
+          "det": "deathwatch-support",
+          "kind": "stratagem",
+          "name": "Hellfire Rounds"
+        },
+        "reviewed": true,
+        "sid": "e46e8583-dbd5-424d-9b58-30bcbcc131b9",
+        "ver": 963
+      },
+      {
+        "det": "Deathwatch Support",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "range",
+            "value": 6,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "5412d0ed",
+        "kind": "stratagem",
+        "name": "Kraken Rounds",
+        "ref": {
+          "det": "deathwatch-support",
+          "kind": "stratagem",
+          "name": "Kraken Rounds"
+        },
+        "reviewed": true,
+        "sid": "2fc23ad2-c2d9-4cf0-8fb6-7ad4368e382b",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": null
+          }
+        ],
+        "hash": "a8073fac",
+        "kind": "wargear",
+        "name": "Corvus Blackstar: Auspex Array",
+        "ref": {
+          "item": "auspex array",
+          "kind": "wargear",
+          "unit": "corvus-blackstar"
+        },
+        "reviewed": true,
+        "sid": "f7579dbf-b927-430a-8da6-c82b100cc0ba:corvus-blackstar",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 1,
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "24c8e47f",
+        "kind": "wargear",
+        "name": "Deathwatch Terminator Squad: Storm Shield",
+        "ref": {
+          "item": "storm shield",
+          "kind": "wargear",
+          "unit": "deathwatch-terminator-squad"
+        },
+        "reviewed": true,
+        "sid": "33ffd159-0227-4b14-a504-7452ad364393:deathwatch-terminator-squad",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "fb8f103d",
+        "kind": "wargear",
+        "name": "Deathwatch Veterans: Storm Shield",
+        "ref": {
+          "item": "storm shield",
+          "kind": "wargear",
+          "unit": "deathwatch-veterans"
+        },
+        "reviewed": true,
+        "sid": "7a8d5f30-60bd-457c-889a-dc6c3dbc200b:deathwatch-veterans",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "fb8f103d",
+        "kind": "wargear",
+        "name": "Decimus Kill Team: Storm Shield",
+        "ref": {
+          "item": "storm shield",
+          "kind": "wargear",
+          "unit": "decimus-kill-team"
+        },
+        "reviewed": true,
+        "sid": "7a8d5f30-60bd-457c-889a-dc6c3dbc200b:decimus-kill-team",
+        "ver": 995
+      }
+    ],
+    "formatVersion": 1,
+    "slug": "deathwatch"
+  }
+}

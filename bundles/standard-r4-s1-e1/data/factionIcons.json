@@ -1,0 +1,154 @@
+{
+  "factionIcons": {
+    "adepta-sororitas": {
+      "ink": 0.25,
+      "ratio": 0.63,
+      "src": "/images/faction-icons/adepta-sororitas.svg"
+    },
+    "adeptus-custodes": {
+      "ink": 0.32,
+      "ratio": 0.82,
+      "src": "/images/faction-icons/adeptus-custodes.svg"
+    },
+    "adeptus-mechanicus": {
+      "ink": 0.48,
+      "ratio": 1,
+      "src": "/images/faction-icons/adeptus-mechanicus.svg"
+    },
+    "aeldari": {
+      "ink": 0.28,
+      "ratio": 0.81,
+      "src": "/images/faction-icons/aeldari.svg"
+    },
+    "astra-militarum": {
+      "ink": 1.54,
+      "ratio": 3.28,
+      "src": "/images/faction-icons/astra-militarum.svg"
+    },
+    "black-templars": {
+      "ink": 0.45,
+      "ratio": 1,
+      "src": "/images/faction-icons/black-templars.svg"
+    },
+    "blood-angels": {
+      "ink": 0.53,
+      "ratio": 1.4,
+      "src": "/images/faction-icons/blood-angels.svg"
+    },
+    "chaos-daemons": {
+      "ink": 0.14,
+      "ratio": 1,
+      "src": "/images/faction-icons/chaos-daemons.svg"
+    },
+    "chaos-knights": {
+      "ink": 0.26,
+      "ratio": 0.99,
+      "src": "/images/faction-icons/chaos-knights.svg"
+    },
+    "chaos-space-marines": {
+      "ink": 0.29,
+      "ratio": 1,
+      "src": "/images/faction-icons/chaos-space-marines.svg"
+    },
+    "chaos-titan-legions": {
+      "ink": 0.25,
+      "ratio": 1.04,
+      "src": "/images/faction-icons/chaos-titan-legions.svg"
+    },
+    "dark-angels": {
+      "ink": 0.31,
+      "ratio": 1.1,
+      "src": "/images/faction-icons/dark-angels.svg"
+    },
+    "death-guard": {
+      "ink": 0.39,
+      "ratio": 0.94,
+      "src": "/images/faction-icons/death-guard.svg"
+    },
+    "deathwatch": {
+      "ink": 0.29,
+      "ratio": 0.6,
+      "src": "/images/faction-icons/deathwatch.svg"
+    },
+    "drukhari": {
+      "ink": 0.33,
+      "ratio": 1.05,
+      "src": "/images/faction-icons/drukhari.svg"
+    },
+    "emperors-children": {
+      "ink": 0.24,
+      "ratio": 0.93,
+      "src": "/images/faction-icons/emperors-children.svg"
+    },
+    "genestealer-cults": {
+      "ink": 0.49,
+      "ratio": 1,
+      "src": "/images/faction-icons/genestealer-cults.svg"
+    },
+    "grey-knights": {
+      "ink": 0.29,
+      "ratio": 0.68,
+      "src": "/images/faction-icons/grey-knights.svg"
+    },
+    "imperial-agents": {
+      "ink": 1.04,
+      "ratio": 2.6,
+      "src": "/images/faction-icons/imperial-agents.svg"
+    },
+    "imperial-knights": {
+      "ink": 0.26,
+      "ratio": 0.78,
+      "src": "/images/faction-icons/imperial-knights.svg"
+    },
+    "leagues-of-votann": {
+      "ink": 0.26,
+      "ratio": 0.55,
+      "src": "/images/faction-icons/leagues-of-votann.svg"
+    },
+    "necrons": {
+      "ink": 0.37,
+      "ratio": 0.64,
+      "src": "/images/faction-icons/necrons.svg"
+    },
+    "orks": {
+      "ink": 0.38,
+      "ratio": 1.22,
+      "src": "/images/faction-icons/orks.svg"
+    },
+    "space-marines": {
+      "ink": 0.42,
+      "ratio": 1.64,
+      "src": "/images/faction-icons/space-marines.svg"
+    },
+    "space-wolves": {
+      "ink": 0.52,
+      "ratio": 1.26,
+      "src": "/images/faction-icons/space-wolves.svg"
+    },
+    "tau-empire": {
+      "ink": 0.57,
+      "ratio": 0.99,
+      "src": "/images/faction-icons/tau-empire.svg"
+    },
+    "thousand-sons": {
+      "ink": 0.24,
+      "ratio": 0.94,
+      "src": "/images/faction-icons/thousand-sons.svg"
+    },
+    "titan-legions": {
+      "ink": 0.22,
+      "ratio": 0.82,
+      "src": "/images/faction-icons/titan-legions.svg"
+    },
+    "tyranids": {
+      "ink": 0.83,
+      "ratio": 1.62,
+      "src": "/images/faction-icons/tyranids.svg"
+    },
+    "world-eaters": {
+      "ink": 0.32,
+      "ratio": 1,
+      "src": "/images/faction-icons/world-eaters.svg"
+    }
+  }
+}

@@ -1,0 +1,2938 @@
+{
+  "default": {
+    "entries": [
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "leader",
+            "value": "Feel No Pain 4+",
+            "when": null
+          }
+        ],
+        "hash": "8a45c235",
+        "kind": "ability",
+        "name": "Court of the Archon: Court of the Archon",
+        "ref": {
+          "kind": "ability",
+          "unit": "court-of-the-archon"
+        },
+        "reviewed": true,
+        "sid": "pack:court-of-the-archon:court-of-the-archon",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-empowered"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while Empowered, with a Lhamaean in the unit",
+              "ru": "пока отряд Empowered и в нём есть Lhamaean"
+            }
+          },
+          {
+            "cond": [
+              "unit-empowered"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "while Empowered, with a Medusae in the unit",
+              "ru": "пока отряд Empowered и в нём есть Medusae"
+            }
+          },
+          {
+            "cond": [
+              "unit-empowered"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Fights First",
+            "when": {
+              "en": "while Empowered, with an Ur-ghul in the unit",
+              "ru": "пока отряд Empowered и в нём есть Ur-ghul"
+            }
+          },
+          {
+            "cond": [
+              "unit-empowered"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "melee",
+            "when": {
+              "en": "while Empowered, with a Sslyth in the unit",
+              "ru": "пока отряд Empowered и в нём есть Sslyth"
+            }
+          }
+        ],
+        "hash": "fd37eff9",
+        "kind": "ability",
+        "name": "Court of the Archon: Deadly Retinue (Pain)",
+        "ref": {
+          "kind": "ability",
+          "unit": "court-of-the-archon"
+        },
+        "reviewed": true,
+        "sid": "pack:court-of-the-archon:deadly-retinue-pain",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-empowered"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 2,
+            "when": {
+              "en": "while Empowered with a Pain token",
+              "ru": "пока Empowered за Pain token"
+            }
+          }
+        ],
+        "hash": "5667e483",
+        "kind": "ability",
+        "name": "Coven of Agonies Cronos: Empowered Engines (Pain)",
+        "ref": {
+          "kind": "ability",
+          "unit": "coven-of-agonies-cronos"
+        },
+        "reviewed": true,
+        "sid": "214982bf-5eac-4189-ac0a-1c0945f404c2:coven-of-agonies-cronos",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "set",
+            "stat": "a",
+            "value": "3",
+            "when": {
+              "en": "when empowered with a Pain token, excluding CHARACTER models' attacks — 3 A, or 4 A with [HAZARDOUS]",
+              "ru": "при усилении жетоном Pain, кроме атак моделей CHARACTER — 3 A или 4 A с [HAZARDOUS]"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "set",
+            "stat": "a",
+            "value": "4",
+            "when": {
+              "en": "when empowered with a Pain token, excluding CHARACTER models' attacks — 3 A, or 4 A with [HAZARDOUS]",
+              "ru": "при усилении жетоном Pain, кроме атак моделей CHARACTER — 3 A или 4 A с [HAZARDOUS]"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "HAZARDOUS",
+            "when": {
+              "en": "when empowered with a Pain token, excluding CHARACTER models' attacks — 3 A, or 4 A with [HAZARDOUS]",
+              "ru": "при усилении жетоном Pain, кроме атак моделей CHARACTER — 3 A или 4 A с [HAZARDOUS]"
+            }
+          }
+        ],
+        "hash": "49a22d57",
+        "kind": "ability",
+        "name": "Coven of Agonies Wracks: Experimental Enhancements (Pain)",
+        "ref": {
+          "kind": "ability",
+          "unit": "coven-of-agonies-wracks"
+        },
+        "reviewed": true,
+        "sid": "1937d754-6aa5-49a9-b68f-2bf2ce8ae7d9:coven-of-agonies-wracks",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "set",
+            "stat": "a",
+            "value": "3",
+            "when": {
+              "en": "when empowered with a Pain token, excluding CHARACTER models' attacks — 3 A, or 4 A with [HAZARDOUS]",
+              "ru": "при усилении жетоном Pain, кроме атак моделей CHARACTER — 3 A или 4 A с [HAZARDOUS]"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "set",
+            "stat": "a",
+            "value": "4",
+            "when": {
+              "en": "when empowered with a Pain token, excluding CHARACTER models' attacks — 3 A, or 4 A with [HAZARDOUS]",
+              "ru": "при усилении жетоном Pain, кроме атак моделей CHARACTER — 3 A или 4 A с [HAZARDOUS]"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "HAZARDOUS",
+            "when": {
+              "en": "when empowered with a Pain token, excluding CHARACTER models' attacks — 3 A, or 4 A with [HAZARDOUS]",
+              "ru": "при усилении жетоном Pain, кроме атак моделей CHARACTER — 3 A или 4 A с [HAZARDOUS]"
+            }
+          }
+        ],
+        "hash": "49a22d57",
+        "kind": "ability",
+        "name": "Coven of Agonies Wracks: Experimental Enhancements (Pain)",
+        "ref": null,
+        "reviewed": true,
+        "sid": "3aef584a-85c5-47da-8e79-86a65f0065fd:coven-of-agonies-wracks",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-empowered"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "while the unit is Empowered",
+              "ru": "пока отряд Empowered"
+            }
+          }
+        ],
+        "hash": "4e523734",
+        "kind": "ability",
+        "name": "Drazhar: Master of Blades",
+        "ref": {
+          "kind": "ability",
+          "unit": "drazhar"
+        },
+        "reviewed": true,
+        "sid": "cb751d0c-daad-47e4-b514-267eccb6f68e:drazhar",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-empowered"
+            ],
+            "on": "melee",
+            "op": "set",
+            "stat": "s",
+            "value": "8",
+            "when": {
+              "en": "while Empowered",
+              "ru": "пока отряд Empowered"
+            }
+          },
+          {
+            "cond": [
+              "unit-empowered"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while Empowered",
+              "ru": "пока отряд Empowered"
+            }
+          }
+        ],
+        "hash": "e38d4805",
+        "kind": "ability",
+        "name": "Grotesques: Macro-steroids (Pain)",
+        "ref": {
+          "kind": "ability",
+          "unit": "grotesques"
+        },
+        "reviewed": true,
+        "sid": "pack:grotesques:macro-steroids-pain",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "c85d06cd",
+        "kind": "ability",
+        "name": "Haemonculus: Fear Incarnate",
+        "ref": {
+          "kind": "ability",
+          "unit": "haemonculus"
+        },
+        "reviewed": true,
+        "sid": "6ebe6990-ffa4-4fa2-a063-0fff0fd61e60:haemonculus",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "5+",
+            "when": {
+              "en": "within range of the objective chosen at the start of the battle, unless Battle-shocked",
+              "ru": "в зоне выбранного в начале битвы objective, если не Battle-shocked"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "oc",
+            "value": "3",
+            "when": {
+              "en": "within range of the objective chosen at the start of the battle, unless Battle-shocked",
+              "ru": "в зоне выбранного в начале битвы objective, если не Battle-shocked"
+            }
+          }
+        ],
+        "hash": "a3097079",
+        "kind": "ability",
+        "name": "Hand of the Archon: Archon’s Will",
+        "ref": {
+          "kind": "ability",
+          "unit": "hand-of-the-archon"
+        },
+        "reviewed": true,
+        "sid": "96b72b45-8ef5-40de-9985-2eed4a744631:hand-of-the-archon",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-empowered"
+            ],
+            "on": "weapon",
+            "only": {
+              "notName": [
+                "blast pistol",
+                "blaster",
+                "dark lance"
+              ]
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while Empowered",
+              "ru": "пока отряд Empowered"
+            }
+          },
+          {
+            "cond": [
+              "unit-empowered"
+            ],
+            "on": "weapon",
+            "only": {
+              "notName": [
+                "blast pistol",
+                "blaster",
+                "dark lance"
+              ]
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "while Empowered",
+              "ru": "пока отряд Empowered"
+            }
+          }
+        ],
+        "hash": "fda945a2",
+        "kind": "ability",
+        "name": "Hand of the Archon: Assassins’ Poisons",
+        "ref": {
+          "kind": "ability",
+          "unit": "hand-of-the-archon"
+        },
+        "reviewed": true,
+        "sid": "1f5e1659-5d95-48d9-8eff-25fc9e5f663f:hand-of-the-archon",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-empowered"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "while Empowered with a Pain token",
+              "ru": "пока Empowered за Pain token"
+            }
+          },
+          {
+            "cond": [
+              "unit-empowered"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "while Empowered with a Pain token",
+              "ru": "пока Empowered за Pain token"
+            }
+          }
+        ],
+        "hash": "da5751c2",
+        "kind": "ability",
+        "name": "Hellions: Battlefield Butchery",
+        "ref": {
+          "kind": "ability",
+          "unit": "hellions"
+        },
+        "reviewed": true,
+        "sid": "3b2d13d0-27bc-49b1-8b7c-9be34589ed82:hellions",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-empowered"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "while Empowered",
+              "ru": "пока отряд Empowered"
+            }
+          }
+        ],
+        "hash": "6ad5e7df",
+        "kind": "ability",
+        "name": "Incubi: Decapitating Strikes",
+        "ref": {
+          "kind": "ability",
+          "unit": "incubi"
+        },
+        "reviewed": true,
+        "sid": "026ef43a-b285-45d9-a071-f7a939bddfa0:incubi",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a Battle-shocked unit",
+              "ru": "по Battle-shocked отряду"
+            }
+          }
+        ],
+        "hash": "4e631f35",
+        "kind": "ability",
+        "name": "Incubi: Tormentors",
+        "ref": {
+          "kind": "ability",
+          "unit": "incubi"
+        },
+        "reviewed": true,
+        "sid": "814fcea3-09ca-46f1-be0b-9ffc56cf2074:incubi",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-empowered",
+              "malys-sustained"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while Empowered, if this ability was the one selected",
+              "ru": "пока Empowered, если выбрана эта способность"
+            }
+          },
+          {
+            "cond": [
+              "unit-empowered",
+              "malys-lethal"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while Empowered, if this ability was the one selected",
+              "ru": "пока Empowered, если выбрана эта способность"
+            }
+          },
+          {
+            "cond": [
+              "unit-empowered",
+              "malys-sustained"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while Empowered, if this ability was the one selected",
+              "ru": "пока Empowered, если выбрана эта способность"
+            }
+          },
+          {
+            "cond": [
+              "unit-empowered",
+              "malys-lethal"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while Empowered, if this ability was the one selected",
+              "ru": "пока Empowered, если выбрана эта способность"
+            }
+          }
+        ],
+        "hash": "0714182d",
+        "kind": "ability",
+        "name": "Lady Malys: Archon of the Poisoned Tongue",
+        "ref": {
+          "kind": "ability",
+          "unit": "lady-malys"
+        },
+        "reviewed": true,
+        "sid": "79f38f0b-a72b-4c58-846c-cbc390ffedb2:lady-malys",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Fights First",
+            "when": null
+          }
+        ],
+        "hash": "f54f8f52",
+        "kind": "ability",
+        "name": "Lelith Hesperax: Blur of Blades",
+        "ref": {
+          "kind": "ability",
+          "unit": "lelith-hesperax"
+        },
+        "reviewed": true,
+        "sid": "3efecd52-2d60-42d1-928d-6c868233d11d:lelith-hesperax",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-empowered"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "while its unit is Empowered with a Pain token",
+              "ru": "пока отряд Empowered за Pain token"
+            }
+          },
+          {
+            "cond": [
+              "unit-empowered"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "while its unit is Empowered with a Pain token",
+              "ru": "пока отряд Empowered за Pain token"
+            }
+          },
+          {
+            "cond": [
+              "unit-empowered"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "while its unit is Empowered with a Pain token",
+              "ru": "пока отряд Empowered за Pain token"
+            }
+          },
+          {
+            "cond": [
+              "unit-empowered"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "target": "led",
+            "value": -1,
+            "when": {
+              "en": "while its unit is Empowered with a Pain token",
+              "ru": "пока отряд Empowered за Pain token"
+            }
+          }
+        ],
+        "hash": "c4353cb2",
+        "kind": "ability",
+        "name": "Lelith Hesperax: Brides of Death",
+        "ref": {
+          "kind": "ability",
+          "unit": "lelith-hesperax"
+        },
+        "reviewed": true,
+        "sid": "0b6bcdaf-7f79-4095-b229-eaec93e19b04:lelith-hesperax",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "set",
+            "stat": "inv",
+            "value": "3+",
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          },
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "set",
+            "stat": "a",
+            "value": "12",
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "64aee29a",
+        "kind": "ability",
+        "name": "Lelith Hesperax: Thrilling Spectacle",
+        "ref": {
+          "kind": "ability",
+          "unit": "lelith-hesperax"
+        },
+        "reviewed": true,
+        "sid": "a4fe8cb4-4bc5-4bfb-a3af-f2cd1dfa9070:lelith-hesperax",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "9e2db4e6",
+        "kind": "ability",
+        "name": "Raider: Aethersails",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "Vanguard of the Dark City",
+          "unit": "raider"
+        },
+        "reviewed": true,
+        "sid": "1d74d334-af88-4582-aca0-f818ef8bd439:raider",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "2b3380b3",
+        "kind": "ability",
+        "name": "Raider: Masters of the Shadowed Sky",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "Vanguard of the Dark City",
+          "unit": "raider"
+        },
+        "reviewed": true,
+        "sid": "20936b9a-96d7-4934-9402-eed98ae38c99:raider",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "7fbd9c95",
+        "kind": "ability",
+        "name": "Raider: Speed of the Kill",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "Vanguard of the Dark City",
+          "unit": "raider"
+        },
+        "reviewed": true,
+        "sid": "95651527-f545-4399-b4c4-06d7461558c4:raider",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "ba40073d",
+        "kind": "ability",
+        "name": "Raider: Splinter Racks",
+        "ref": {
+          "kind": "ability",
+          "unit": "raider"
+        },
+        "reviewed": true,
+        "sid": "d962b22a-8d58-4ee1-aeea-a59a87037426:raider",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "2ba45689",
+        "kind": "ability",
+        "name": "Raider: Visions of Butchery",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "Vanguard of the Dark City",
+          "unit": "raider"
+        },
+        "reviewed": true,
+        "sid": "845cca83-fe79-455f-8ee6-761b1d478a97:raider",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "17c69053",
+        "kind": "ability",
+        "name": "Ravager: Agonising Suppression",
+        "ref": {
+          "kind": "ability",
+          "unit": "ravager"
+        },
+        "reviewed": true,
+        "sid": "0c2bef65-331b-4258-b62b-355f981c1618:ravager",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a unit that cannot FLY",
+              "ru": "по отряду без FLY"
+            }
+          }
+        ],
+        "hash": "88c51acf",
+        "kind": "ability",
+        "name": "Raven Strike Fighter: Ground-attack Craft",
+        "ref": {
+          "kind": "ability",
+          "unit": "raven-strike-fighter"
+        },
+        "reviewed": true,
+        "sid": "pack:raven-strike-fighter:ground-attack-craft",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a unit that cannot FLY",
+              "ru": "по отряду без FLY"
+            }
+          }
+        ],
+        "hash": "95aac45c",
+        "kind": "ability",
+        "name": "Razorwing Jetfighter: Ground-attack Craft",
+        "ref": {
+          "kind": "ability",
+          "unit": "razorwing-jetfighter"
+        },
+        "reviewed": true,
+        "sid": "01b389b5-c381-4610-83e1-ea05cd85b20a:razorwing-jetfighter",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "503b3fd4",
+        "kind": "ability",
+        "name": "Razorwing Jetfighter: Nowhere to Run",
+        "ref": {
+          "kind": "ability",
+          "unit": "razorwing-jetfighter"
+        },
+        "reviewed": true,
+        "sid": "7a4be46a-3e2f-4421-ad8e-6551106c770f:razorwing-jetfighter",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 2",
+            "when": {
+              "en": "while Empowered, against a VEHICLE unit",
+              "ru": "пока Empowered, по отряду VEHICLE"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while Empowered, against a non-VEHICLE unit",
+              "ru": "пока Empowered, по отряду без VEHICLE"
+            }
+          }
+        ],
+        "hash": "f0e44a96",
+        "kind": "ability",
+        "name": "Reaper: Electromagentic Cascade (Pain)",
+        "ref": {
+          "kind": "ability",
+          "unit": "reaper"
+        },
+        "reviewed": true,
+        "sid": "pack:reaper:electromagentic-cascade-pain",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-empowered",
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 8,
+            "when": {
+              "en": "while Empowered, in a phase it Advanced (no Advance roll is made)",
+              "ru": "пока Empowered, в фазе с Advance (бросок не делается)"
+            }
+          }
+        ],
+        "hash": "4b733d31",
+        "kind": "ability",
+        "name": "Reavers: Matchless Swiftness",
+        "ref": {
+          "kind": "ability",
+          "unit": "reavers"
+        },
+        "reviewed": true,
+        "sid": "24a65646-e270-4708-a07e-4fd26d1bb189:reavers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "1de432a2",
+        "kind": "ability",
+        "name": "Scourges with Shardcarbines: Murderous Crossfire",
+        "ref": {
+          "kind": "ability",
+          "unit": "scourges-with-shardcarbines"
+        },
+        "reviewed": true,
+        "sid": "1c0f156d-a5ea-42c8-8b88-012369237186:scourges-with-shardcarbines",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "9d48081a",
+        "kind": "ability",
+        "name": "Succubus: Storm of Blades",
+        "ref": {
+          "kind": "ability",
+          "unit": "succubus"
+        },
+        "reviewed": true,
+        "sid": "d3d0bb1a-87c9-4e46-9237-2d6c05ccee4a:succubus",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-two-macro-scalpels"
+            ],
+            "on": "melee",
+            "only": {
+              "name": "Macro-scalpel"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "TWIN-LINKED",
+            "when": {
+              "en": "if that model took two macro-scalpels",
+              "ru": "если модель взяла два macro-scalpel"
+            }
+          }
+        ],
+        "hash": "23b9180a",
+        "kind": "ability",
+        "name": "Talos: Devoted to Pain",
+        "ref": {
+          "kind": "ability",
+          "unit": "talos"
+        },
+        "reviewed": true,
+        "sid": "ba6e7827-a22b-4fdb-b38f-90475a84e9e2:talos",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-empowered"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Pulse disintegrators"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "RAPID FIRE 8",
+            "when": {
+              "en": "while Empowered",
+              "ru": "пока Empowered"
+            }
+          }
+        ],
+        "hash": "5cd56744",
+        "kind": "ability",
+        "name": "Tantalus: Engine of Destruction (Pain)",
+        "ref": {
+          "kind": "ability",
+          "unit": "tantalus"
+        },
+        "reviewed": true,
+        "sid": "pack:tantalus:engine-of-destruction-pain",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Feel No Pain 4+ (vs attacks with a Damage characteristic of 1)",
+            "when": null
+          }
+        ],
+        "hash": "bd499842",
+        "kind": "ability",
+        "name": "Urien Rakarth: Father of Pain",
+        "ref": {
+          "kind": "ability",
+          "unit": "urien-rakarth"
+        },
+        "reviewed": true,
+        "sid": "pack:urien-rakarth:father-of-pain",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-empowered"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "while Empowered",
+              "ru": "пока отряд Empowered"
+            }
+          },
+          {
+            "cond": [
+              "unit-empowered"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "wound",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "while Empowered",
+              "ru": "пока отряд Empowered"
+            }
+          }
+        ],
+        "hash": "52262587",
+        "kind": "ability",
+        "name": "Urien Rakarth: Sculptor of Torments (Pain)",
+        "ref": {
+          "kind": "ability",
+          "unit": "urien-rakarth"
+        },
+        "reviewed": true,
+        "sid": "pack:urien-rakarth:sculptor-of-torments-pain",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-empowered",
+              "wrack-attacks-3"
+            ],
+            "on": "melee",
+            "op": "set",
+            "stat": "a",
+            "value": "3",
+            "when": {
+              "en": "while Empowered, if Attacks 3 was chosen",
+              "ru": "пока Empowered, если выбран вариант Attacks 3"
+            }
+          },
+          {
+            "cond": [
+              "unit-empowered",
+              "wrack-attacks-4"
+            ],
+            "on": "melee",
+            "op": "set",
+            "stat": "a",
+            "value": "4",
+            "when": {
+              "en": "while Empowered, if Attacks 4 was chosen",
+              "ru": "пока Empowered, если выбран вариант Attacks 4"
+            }
+          },
+          {
+            "cond": [
+              "unit-empowered",
+              "wrack-attacks-4"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "HAZARDOUS",
+            "when": {
+              "en": "while Empowered, if Attacks 4 was chosen",
+              "ru": "пока Empowered, если выбран вариант Attacks 4"
+            }
+          }
+        ],
+        "hash": "10523e54",
+        "kind": "ability",
+        "name": "Wracks: Experimental Enhancements",
+        "ref": {
+          "kind": "ability",
+          "unit": "wracks"
+        },
+        "reviewed": true,
+        "sid": "fa0d2462-a7dd-4f57-abcb-e001e8682912:wracks",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "fd4e2b25",
+        "kind": "ability",
+        "name": "Xatrophos Nuul: Fear Incarnate (Aura)",
+        "ref": {
+          "kind": "ability",
+          "unit": "xatrophos-nuul"
+        },
+        "reviewed": true,
+        "sid": "531b472d-8206-448f-971c-69e882c246bd:xatrophos-nuul",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-empowered"
+            ],
+            "on": "melee",
+            "op": "set",
+            "stat": "d",
+            "value": 3,
+            "when": {
+              "en": "in the Fight phase, while Empowered with a Pain token",
+              "ru": "в фазе Fight, пока Empowered за Pain token"
+            }
+          }
+        ],
+        "hash": "43bfb34c",
+        "kind": "ability",
+        "name": "Xatrophos Nuul: Vile Weaponry (Pain)",
+        "ref": {
+          "kind": "ability",
+          "unit": "xatrophos-nuul"
+        },
+        "reviewed": true,
+        "sid": "9d8de3d2-f08a-4eb0-aefc-99d9a9aee37c:xatrophos-nuul",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "e1eea53b",
+        "kind": "armyRule",
+        "name": "Corsairs and Travelling Players",
+        "note": "army-composition rule — allied points allowance",
+        "ref": {
+          "kind": "armyRule"
+        },
+        "reviewed": true,
+        "sid": "4e3676ea-791d-4b86-844d-c87af3eccd15",
+        "ver": 925
+      },
+      {
+        "det": "Covenite Coterie",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "9862711f",
+        "kind": "detachmentRule",
+        "name": "Stitchflesh Abominations",
+        "ref": {
+          "det": "covenite-coterie",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "29a8de5a-c329-4c78-9897-584e16e701e6",
+        "ver": 995
+      },
+      {
+        "det": "Exhibition of Slaughter",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "scope": 0,
+            "stat": "ability",
+            "value": "LETHAL HITS: non-MONSTER/VEHICLE",
+            "when": null
+          }
+        ],
+        "hash": "c82b992c",
+        "kind": "detachmentRule",
+        "name": "Exacting Cruelty",
+        "ref": {
+          "det": "exhibition-of-slaughter",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "60c93592-228e-4a81-a0c7-46967aacfc1d",
+        "ver": 925
+      },
+      {
+        "det": "Kabalite Agonysts",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "scope": 0,
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1: non-MONSTER/VEHICLE",
+            "when": null
+          }
+        ],
+        "hash": "ec6c46f7",
+        "kind": "detachmentRule",
+        "name": "Contracted Harvest",
+        "ref": {
+          "det": "kabalite-agonysts",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "25d48d63-072e-4bce-98fc-d168ab5a9333",
+        "ver": 925
+      },
+      {
+        "det": "Kabalite Cartel",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "under the Trophy Hunters Contract, against your Contract unit",
+              "ru": "при контракте «Trophy Hunters», по отряду-цели контракта"
+            }
+          },
+          {
+            "cond": [
+              "contract-trophy-hunters"
+            ],
+            "op": "state",
+            "text": {
+              "en": "Its attacks that target the Contract unit have [PRECISION]",
+              "ru": "Его атаки по юниту Contract имеют [PRECISION]"
+            },
+            "when": {
+              "en": "the Contract selected at the start of the battle",
+              "ru": "контракт, выбранный в начале битвы"
+            }
+          },
+          {
+            "cond": [
+              "contract-sow-fear-and-terror"
+            ],
+            "op": "state",
+            "text": {
+              "en": "Its attacks that target an INFANTRY or MOUNTED unit have [SUSTAINED HITS 1]",
+              "ru": "Его атаки по юниту INFANTRY или MOUNTED имеют [SUSTAINED HITS 1]"
+            },
+            "when": {
+              "en": "the Contract selected at the start of the battle",
+              "ru": "контракт, выбранный в начале битвы"
+            }
+          },
+          {
+            "cond": [
+              "contract-show-of-strength"
+            ],
+            "op": "state",
+            "text": {
+              "en": "Its attacks that target a MONSTER or VEHICLE unit have [LETHAL HITS]",
+              "ru": "Его атаки по юниту MONSTER или VEHICLE имеют [LETHAL HITS]"
+            },
+            "when": {
+              "en": "the Contract selected at the start of the battle",
+              "ru": "контракт, выбранный в начале битвы"
+            }
+          }
+        ],
+        "hash": "ceb65564",
+        "kind": "detachmentRule",
+        "name": "Murderous Agenda",
+        "ref": {
+          "det": "kabalite-cartel",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "83ef4dc5-1730-4b4b-9476-69bc14fe1e35",
+        "ver": 925
+      },
+      {
+        "det": "Skysplinter Assault",
+        "effects": [
+          {
+            "cond": [
+              "unit-disembarked"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "until the end of the turn in which that unit disembarked from a Transport",
+              "ru": "до конца хода, в котором отряд высадился из Transport"
+            }
+          },
+          {
+            "cond": [
+              "unit-disembarked"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LANCE",
+            "when": {
+              "en": "until the end of the turn in which that unit disembarked from a Transport",
+              "ru": "до конца хода, в котором отряд высадился из Transport"
+            }
+          }
+        ],
+        "hash": "fae4a325",
+        "kind": "detachmentRule",
+        "name": "Rain of Cruelty",
+        "ref": {
+          "det": "skysplinter-assault",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "c1059c41-1e84-4da8-bfaa-0dcdc721df56",
+        "ver": 925
+      },
+      {
+        "det": "Spectacle of Spite",
+        "effects": [
+          {
+            "cond": [
+              "drug-adrenalight"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "while Adrenalight is the active Combat Drug",
+              "ru": "пока активен боевой наркотик Adrenalight"
+            }
+          },
+          {
+            "cond": [
+              "drug-hypex"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 2,
+            "when": {
+              "en": "while Hypex is the active Combat Drug",
+              "ru": "пока активен боевой наркотик Hypex"
+            }
+          },
+          {
+            "cond": [
+              "drug-serpentin"
+            ],
+            "on": "melee",
+            "op": "improve",
+            "stat": "ws",
+            "value": 1,
+            "when": {
+              "en": "while Serpentin is the active Combat Drug",
+              "ru": "пока активен боевой наркотик Serpentin"
+            }
+          },
+          {
+            "cond": [
+              "drug-painbringer"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "value": 1,
+            "when": {
+              "en": "while Painbringer is the active Combat Drug",
+              "ru": "пока активен боевой наркотик Painbringer"
+            }
+          },
+          {
+            "cond": [
+              "drug-grave-lotus"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "while Grave Lotus is the active Combat Drug",
+              "ru": "пока активен боевой наркотик Grave Lotus"
+            }
+          },
+          {
+            "cond": [
+              "drug-splintermind"
+            ],
+            "on": "profile",
+            "op": "improve",
+            "stat": "ld",
+            "value": 1,
+            "when": {
+              "en": "while Splintermind is the active Combat Drug",
+              "ru": "пока активен боевой наркотик Splintermind"
+            }
+          },
+          {
+            "cond": [
+              "drug-splintermind"
+            ],
+            "on": "ranged",
+            "op": "improve",
+            "stat": "bs",
+            "value": 1,
+            "when": {
+              "en": "while Splintermind is the active Combat Drug",
+              "ru": "пока активен боевой наркотик Splintermind"
+            }
+          }
+        ],
+        "hash": "a309181b",
+        "kind": "detachmentRule",
+        "name": "Combat Drugs",
+        "ref": {
+          "det": "spectacle-of-spite",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "b46b3339-173c-4bce-b474-33cb0239e5d2",
+        "ver": 925
+      },
+      {
+        "det": "Tools of Torment",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "998ac032",
+        "kind": "detachmentRule",
+        "name": "Darkest Artifice",
+        "ref": {
+          "det": "tools-of-torment",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "c9175da5-73ef-4a67-96fd-f878492d87cd",
+        "ver": 995
+      },
+      {
+        "det": "Coven of Agonies",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "target": "led",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "4db99bb8",
+        "kind": "enhancement",
+        "name": "Toxin-laced Blades",
+        "ref": {
+          "det": "cp:drukhari",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "69f4dbe4-bfd4-4638-b606-a1cc08c2ac0c",
+        "ver": 925
+      },
+      {
+        "det": "Covenite Coterie",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "target": "led",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "898f00ec",
+        "kind": "enhancement",
+        "name": "Master Artisan",
+        "ref": {
+          "det": "covenite-coterie",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "48d18d70-1dcd-455e-9894-a193bea14106",
+        "ver": 925
+      },
+      {
+        "det": "Covenite Coterie",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-BEAST 2+",
+            "when": null
+          },
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-MONSTER 4+",
+            "when": null
+          }
+        ],
+        "hash": "83540331",
+        "kind": "enhancement",
+        "name": "Master Nemesine",
+        "ref": {
+          "det": "covenite-coterie",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "443165dc-6701-498b-b43c-ebeeb405d304",
+        "ver": 925
+      },
+      {
+        "det": "Covenite Coterie",
+        "effects": [],
+        "hash": "3149a83e",
+        "kind": "enhancement",
+        "name": "Master Repugnomancer (Aura)",
+        "note": "extends the range of an Aura ability, not of a weapon",
+        "ref": {
+          "det": "covenite-coterie",
+          "kind": "enhancement",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "DRUKHARI"
+              ]
+            }
+          ]
+        },
+        "reviewed": true,
+        "sid": "f6e6b1bd-e328-479b-bdaa-9e359bc5af3d",
+        "ver": 925
+      },
+      {
+        "det": "Exhibition of Slaughter",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "target": "led",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "c761fdde",
+        "kind": "enhancement",
+        "name": "Hyperstimm Trafficker",
+        "ref": {
+          "det": "exhibition-of-slaughter",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "910abb59-9838-4b50-8180-fab4fedf9770",
+        "ver": 925
+      },
+      {
+        "det": "Kabalite Agonysts",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "PRECISION",
+            "when": null
+          }
+        ],
+        "hash": "7fb5eb42",
+        "kind": "enhancement",
+        "name": "Contempt for Rivals",
+        "ref": {
+          "det": "kabalite-agonysts",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "5600dcd0-652a-4078-9d65-266dfff20443",
+        "ver": 925
+      },
+      {
+        "det": "Kabalite Agonysts",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "improve",
+            "stat": "ld",
+            "target": "led",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "target": "led",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "524037ab",
+        "kind": "enhancement",
+        "name": "Towering Arrogance",
+        "ref": {
+          "det": "kabalite-agonysts",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "0904f021-9996-49f4-a13f-7e3c367a058e",
+        "ver": 925
+      },
+      {
+        "det": "Kabalite Cartel",
+        "effects": [],
+        "hash": "d23b281a",
+        "kind": "enhancement",
+        "name": "Informant Network",
+        "ref": {
+          "det": "kabalite-cartel",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "152e049f-2e43-4e81-979e-29d3149737e0",
+        "ver": 925
+      },
+      {
+        "det": "Kabalite Cartel",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "sv",
+            "value": "3+",
+            "when": null
+          }
+        ],
+        "hash": "2b6bd246",
+        "kind": "enhancement",
+        "name": "Leechbite Plate",
+        "ref": {
+          "det": "kabalite-cartel",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "96ad45b7-7bcb-4584-9692-596c23687f56",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading"
+        ],
+        "det": "Kabalite Cartel",
+        "effects": [
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "profile",
+            "op": "improve",
+            "stat": "ld",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "while the bearer is leading a unit",
+              "ru": "пока носитель ведёт отряд"
+            }
+          },
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "while the bearer is leading a unit",
+              "ru": "пока носитель ведёт отряд"
+            }
+          }
+        ],
+        "hash": "1b9e848e",
+        "kind": "enhancement",
+        "name": "Towering Arrogance",
+        "ref": {
+          "det": "kabalite-cartel",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "1b8a36e1-aaf0-4dc9-8d5e-7dc93f9961b4",
+        "ver": 925
+      },
+      {
+        "det": "Kabalite Cartel",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Deep Strike",
+            "when": null
+          }
+        ],
+        "hash": "bc7df3f6",
+        "kind": "enhancement",
+        "name": "Webway Awl",
+        "ref": {
+          "det": "kabalite-cartel",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "8b210e33-0efe-4538-89e1-edd6a1e3eef4",
+        "ver": 925
+      },
+      {
+        "det": "Realspace Raiders",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": null
+          },
+          {
+            "alt": 0,
+            "cond": [
+              "spent-pain-eye-of-spite"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 2,
+            "when": {
+              "en": "instead, by spending 1 Pain token when the unit fights, for the phase",
+              "ru": "вместо этого, если потрачен 1 Pain token, когда отряд сражается, до конца фазы"
+            }
+          },
+          {
+            "alt": 1,
+            "cond": [
+              "spent-pain-eye-of-spite"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -2,
+            "when": {
+              "en": "instead, by spending 1 Pain token when the unit fights, for the phase",
+              "ru": "вместо этого, если потрачен 1 Pain token, когда отряд сражается, до конца фазы"
+            }
+          }
+        ],
+        "hash": "388bc65b",
+        "kind": "enhancement",
+        "name": "Eye of Spite",
+        "ref": {
+          "det": "realspace-raiders",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "a8e27f43-6f0f-487e-9969-c65087ccdefe",
+        "ver": 925
+      },
+      {
+        "det": "Reaper’s Wager",
+        "effects": [],
+        "hash": "d4c312fe",
+        "kind": "enhancement",
+        "name": "Archraider",
+        "ref": {
+          "det": "reapers-wager",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "c08c0431-a879-4802-83e1-63248c280552",
+        "ver": 925
+      },
+      {
+        "det": "Reaper’s Wager",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Stealth",
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Infiltrators",
+            "when": null
+          }
+        ],
+        "hash": "fa8a9425",
+        "kind": "enhancement",
+        "name": "Reaper’s Cowl",
+        "ref": {
+          "det": "reapers-wager",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "0141231c-7ff0-4807-8ea4-4cf6b1078bad",
+        "ver": 925
+      },
+      {
+        "det": "Reaper’s Wager",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Deep Strike",
+            "when": null
+          }
+        ],
+        "hash": "5b75f6e7",
+        "kind": "enhancement",
+        "name": "Webway Walker",
+        "ref": {
+          "det": "reapers-wager",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "8f4da3ed-14af-43a6-8708-64f2bca26258",
+        "ver": 925
+      },
+      {
+        "det": "Skysplinter Assault",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "3f686459",
+        "kind": "enhancement",
+        "name": "Phantasmal Smoke",
+        "ref": {
+          "det": "skysplinter-assault",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "64571ab3-200a-432c-bab6-ac107cf7598c",
+        "ver": 925
+      },
+      {
+        "det": "Spectacle of Spite",
+        "effects": [
+          {
+            "on": "unit",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Fights First",
+            "when": {
+              "en": "until the end of a Fight phase the bearer used this Enhancement in (once per battle)",
+              "ru": "до конца Fight phase, в которой носитель применил улучшение (раз за битву)"
+            }
+          }
+        ],
+        "hash": "052f254b",
+        "kind": "enhancement",
+        "name": "Chronoshard",
+        "ref": {
+          "det": "spectacle-of-spite",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "a04e80bd-7407-42b2-84f2-c47df330e77c",
+        "ver": 925
+      },
+      {
+        "det": "Spectacle of Spite",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "6aa214f2",
+        "kind": "enhancement",
+        "name": "Morghenna’s Curse",
+        "ref": {
+          "det": "spectacle-of-spite",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "21a18c7b-916b-47d4-a50b-8af59f3c03dc",
+        "ver": 925
+      },
+      {
+        "det": "Tools of Torment",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "unit",
+            "value": "5+",
+            "when": null
+          }
+        ],
+        "hash": "bbc5f9dd",
+        "kind": "enhancement",
+        "name": "Elixir of the Corpse Courts (Upgrade)",
+        "ref": {
+          "det": "tools-of-torment",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "bb413bfb-9992-48af-8684-70e080379f3a",
+        "ver": 995
+      },
+      {
+        "det": "Tools of Torment",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": null
+          },
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "target": "led",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "a9a76acc",
+        "kind": "enhancement",
+        "name": "Gnarlskin Experimentor",
+        "ref": {
+          "det": "tools-of-torment",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "03586339-4af2-4cd9-bb94-9bddc81d9144",
+        "ver": 995
+      },
+      {
+        "det": "Coven of Agonies",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "c3a9bf63",
+        "kind": "stratagem",
+        "name": "Hardened Physiology",
+        "ref": {
+          "det": "cp:drukhari",
+          "kind": "stratagem",
+          "name": "Hardened Physiology"
+        },
+        "reviewed": true,
+        "sid": "8109853a-f449-4a5c-825f-aec1a917eeb5",
+        "ver": 995
+      },
+      {
+        "det": "Coven of Agonies",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "against MONSTER or VEHICLE targets",
+              "ru": "против целей MONSTER или VEHICLE"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against a MONSTER or VEHICLE unit",
+              "ru": "против отряда MONSTER или VEHICLE"
+            }
+          }
+        ],
+        "hash": "ef45f036",
+        "kind": "stratagem",
+        "name": "Powerful Creations",
+        "ref": {
+          "det": "cp:drukhari",
+          "kind": "stratagem",
+          "name": "Powerful Creations"
+        },
+        "reviewed": true,
+        "sid": "bd66d7c1-a2c3-4a8d-962a-7ffb17d0998e",
+        "ver": 925
+      },
+      {
+        "det": "Covenite Coterie",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "ap",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "a1ddf25f",
+        "kind": "stratagem",
+        "name": "Connoisseurs of Pain",
+        "ref": {
+          "det": "covenite-coterie",
+          "kind": "stratagem",
+          "name": "Connoisseurs of Pain"
+        },
+        "reviewed": true,
+        "sid": "3504f5ae-6fc0-48a9-97df-9c903b1beacd",
+        "ver": 925
+      },
+      {
+        "det": "Covenite Coterie",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "against a Battle-shocked unit",
+              "ru": "по Battle-shocked отряду"
+            }
+          }
+        ],
+        "hash": "1dfc1073",
+        "kind": "stratagem",
+        "name": "Distillers of Fear",
+        "ref": {
+          "det": "covenite-coterie",
+          "kind": "stratagem",
+          "name": "Distillers of Fear"
+        },
+        "reviewed": true,
+        "sid": "ff486372-93ee-477a-8727-f32623594fdc",
+        "ver": 925
+      },
+      {
+        "det": "Exhibition of Slaughter",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "5+",
+            "when": null
+          }
+        ],
+        "hash": "f506ad10",
+        "kind": "stratagem",
+        "name": "Acrobatic Display",
+        "ref": {
+          "det": "exhibition-of-slaughter",
+          "kind": "stratagem",
+          "name": "Acrobatic Display"
+        },
+        "reviewed": true,
+        "sid": "36b5c066-0058-4d89-a442-425c63ddf25b",
+        "ver": 995
+      },
+      {
+        "det": "Exhibition of Slaughter",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "3a1eb869",
+        "kind": "stratagem",
+        "name": "Planned Strikes",
+        "ref": {
+          "det": "exhibition-of-slaughter",
+          "kind": "stratagem",
+          "name": "Planned Strikes"
+        },
+        "reviewed": true,
+        "sid": "09da496d-57c0-4c17-a816-de5038fee95a",
+        "ver": 925
+      },
+      {
+        "det": "Kabalite Agonysts",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "IGNORES COVER",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "5938c3ef",
+        "kind": "stratagem",
+        "name": "Killers from the Dark Spires",
+        "ref": {
+          "det": "kabalite-agonysts",
+          "kind": "stratagem",
+          "name": "Killers from the Dark Spires"
+        },
+        "reviewed": true,
+        "sid": "981e3b0f-a2dc-4fd7-a5d3-53fa19b18366",
+        "ver": 925
+      },
+      {
+        "det": "Kabalite Cartel",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "improve",
+            "stat": "bs",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "6990f799",
+        "kind": "stratagem",
+        "name": "Making A Point",
+        "ref": {
+          "det": "kabalite-cartel",
+          "kind": "stratagem",
+          "name": "Making A Point"
+        },
+        "reviewed": true,
+        "sid": "6fac0d93-29d2-4f77-b942-070db913cc3e",
+        "ver": 925
+      },
+      {
+        "det": "Kabalite Cartel",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "058e6483",
+        "kind": "stratagem",
+        "name": "Taken Alive",
+        "ref": {
+          "det": "kabalite-cartel",
+          "kind": "stratagem",
+          "name": "Taken Alive"
+        },
+        "reviewed": true,
+        "sid": "3b2945d6-d957-4689-a86d-4fc11e05803e",
+        "ver": 925
+      },
+      {
+        "det": "Realspace Raiders",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "fe2f913a",
+        "kind": "stratagem",
+        "name": "Dark Harvest",
+        "ref": {
+          "det": "realspace-raiders",
+          "kind": "stratagem",
+          "name": "Dark Harvest"
+        },
+        "reviewed": true,
+        "sid": "42e7b548-fb86-4ce0-a13f-90dbe4291cdf",
+        "ver": 925
+      },
+      {
+        "det": "Realspace Raiders",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 6,
+            "when": {
+              "en": "in a phase it Advanced (no Advance roll)",
+              "ru": "в фазе с Advance (без броска)"
+            }
+          }
+        ],
+        "hash": "a4c8daac",
+        "kind": "stratagem",
+        "name": "Eager for the Kill",
+        "ref": {
+          "det": "realspace-raiders",
+          "kind": "stratagem",
+          "name": "Eager for the Kill"
+        },
+        "reviewed": true,
+        "sid": "8578de98-1229-478f-900d-c9196140c447",
+        "ver": 925
+      },
+      {
+        "det": "Realspace Raiders",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "214dc667",
+        "kind": "stratagem",
+        "name": "Fighting Shadows",
+        "ref": {
+          "det": "realspace-raiders",
+          "kind": "stratagem",
+          "name": "Fighting Shadows"
+        },
+        "reviewed": true,
+        "sid": "63c6595b-9fe1-4676-bfc9-1035b3b5cd00",
+        "ver": 995
+      },
+      {
+        "det": "Realspace Raiders",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "6d37add7",
+        "kind": "stratagem",
+        "name": "Insensible to Pain",
+        "ref": {
+          "det": "realspace-raiders",
+          "kind": "stratagem",
+          "name": "Insensible to Pain"
+        },
+        "reviewed": true,
+        "sid": "c9ce7694-250a-49ab-a7be-eca6db661e1c",
+        "ver": 925
+      },
+      {
+        "det": "Realspace Raiders",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against an enemy unit that is Below Half-strength",
+              "ru": "по вражескому отряду Below Half-strength"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "as above, if you spent 1 Pain token",
+              "ru": "то же, если потрачен 1 Pain token"
+            }
+          }
+        ],
+        "hash": "93799d3e",
+        "kind": "stratagem",
+        "name": "Instinctive Spite",
+        "ref": {
+          "det": "realspace-raiders",
+          "kind": "stratagem",
+          "name": "Instinctive Spite"
+        },
+        "reviewed": true,
+        "sid": "dd2be183-cb28-48a6-85b4-e6443f2e2bdb",
+        "ver": 925
+      },
+      {
+        "det": "Reaper’s Wager",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "214dc667",
+        "kind": "stratagem",
+        "name": "Murderer’s Circus",
+        "ref": {
+          "det": "reapers-wager",
+          "kind": "stratagem",
+          "name": "Murderer’s Circus"
+        },
+        "reviewed": true,
+        "sid": "0725d812-9181-49d7-a99d-e92874eed991",
+        "ver": 995
+      },
+      {
+        "det": "Skysplinter Assault",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "987d6ae0",
+        "kind": "stratagem",
+        "name": "Night Shield",
+        "ref": {
+          "det": "skysplinter-assault",
+          "kind": "stratagem",
+          "name": "Night Shield"
+        },
+        "reviewed": true,
+        "sid": "6496bede-f056-48dc-b698-04caeaa6ae7e",
+        "ver": 925
+      },
+      {
+        "det": "Skysplinter Assault",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "alt": 0,
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 2",
+            "when": {
+              "en": "for KABALITE WARRIORS or HAND OF THE ARCHON, instead",
+              "ru": "для KABALITE WARRIORS или HAND OF THE ARCHON, вместо этого"
+            }
+          }
+        ],
+        "hash": "f65412c8",
+        "kind": "stratagem",
+        "name": "Skyborne Annihilation",
+        "ref": {
+          "det": "skysplinter-assault",
+          "kind": "stratagem",
+          "name": "Skyborne Annihilation"
+        },
+        "reviewed": true,
+        "sid": "7852622e-29ff-49c5-ada8-ed7a075d2541",
+        "ver": 925
+      },
+      {
+        "det": "Spectacle of Spite",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "5+",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "2c7e9e6a",
+        "kind": "stratagem",
+        "name": "Acrobatic Display",
+        "ref": {
+          "det": "spectacle-of-spite",
+          "kind": "stratagem",
+          "name": "Acrobatic Display"
+        },
+        "reviewed": true,
+        "sid": "8fabef51-65b1-44a4-854c-9739a2f7451a",
+        "ver": 925
+      },
+      {
+        "det": "Spectacle of Spite",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "also, for a WYCHES unit",
+              "ru": "и ещё, для отряда WYCHES"
+            }
+          }
+        ],
+        "hash": "eee65040",
+        "kind": "stratagem",
+        "name": "Deadly Debut",
+        "ref": {
+          "det": "spectacle-of-spite",
+          "kind": "stratagem",
+          "name": "Deadly Debut"
+        },
+        "reviewed": true,
+        "sid": "317227b3-8880-4b94-a663-ce9a00d9f190",
+        "ver": 925
+      },
+      {
+        "det": "Tools of Torment",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "against Battle-shocked targets",
+              "ru": "против Battle-shocked целей"
+            }
+          }
+        ],
+        "hash": "4989c58d",
+        "kind": "stratagem",
+        "name": "Salting the Wound",
+        "ref": {
+          "det": "tools-of-torment",
+          "kind": "stratagem",
+          "name": "Salting the Wound"
+        },
+        "reviewed": true,
+        "sid": "b76d9c2e-6411-4c8b-ab57-7cdc440cea60",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": null
+          },
+          {
+            "alt": 0,
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 2,
+            "when": {
+              "en": "for the rest of the battle, once its attacks destroyed a model, instead",
+              "ru": "до конца битвы, если атака уничтожила модель, вместо этого"
+            }
+          },
+          {
+            "alt": 1,
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 2,
+            "when": {
+              "en": "for the rest of the battle, once its attacks destroyed a model, instead",
+              "ru": "до конца битвы, если атака уничтожила модель, вместо этого"
+            }
+          }
+        ],
+        "hash": "78e9f6ec",
+        "kind": "wargear",
+        "name": "Archon: Soul Trap",
+        "ref": {
+          "item": "soul trap",
+          "kind": "wargear",
+          "unit": "archon"
+        },
+        "reviewed": true,
+        "sid": "13df0ce0-d27d-4004-a370-1611de3526db:archon",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "the bearer only, while its unit is not Battle-shocked",
+              "ru": "только носитель, пока отряд не Battle-shocked"
+            }
+          }
+        ],
+        "hash": "5fc81170",
+        "kind": "wargear",
+        "name": "Hand of the Archon: Kabalite Icon",
+        "ref": {
+          "item": "kabalite icon",
+          "kind": "wargear",
+          "unit": "hand-of-the-archon"
+        },
+        "reviewed": true,
+        "sid": "49a47f0e-f2f3-49f4-9089-b4c164174287:hand-of-the-archon",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Smoke",
+            "when": null
+          }
+        ],
+        "hash": "6f6b78f3",
+        "kind": "wargear",
+        "name": "Hand of the Archon: Phantasm Grenade Launcher",
+        "ref": {
+          "item": "phantasm grenade launcher",
+          "kind": "wargear",
+          "unit": "hand-of-the-archon"
+        },
+        "reviewed": true,
+        "sid": "69fe633d-fa89-4a70-9de3-9bfccbf68a09:hand-of-the-archon",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "a28c5c6f",
+        "kind": "wargear",
+        "name": "Hand of the Archon: Stimm-needler",
+        "ref": {
+          "item": "stimm-needler",
+          "kind": "wargear",
+          "unit": "hand-of-the-archon"
+        },
+        "reviewed": true,
+        "sid": "c867b290-f746-47f5-998b-788c25e7406e:hand-of-the-archon",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Smoke",
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Grenades",
+            "when": null
+          }
+        ],
+        "hash": "9f2814e8",
+        "kind": "wargear",
+        "name": "Hellions: Phantasm Grenade Launcher",
+        "ref": {
+          "item": "phantasm grenade launcher",
+          "kind": "wargear",
+          "unit": "hellions"
+        },
+        "reviewed": true,
+        "sid": "79bfd4a0-3952-454b-95db-bee1f1f23580:hellions",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "the bearer only, while its unit is not Battle-shocked",
+              "ru": "только носитель, пока отряд не Battle-shocked"
+            }
+          }
+        ],
+        "hash": "5fc81170",
+        "kind": "wargear",
+        "name": "Kabalite Warriors: Kabalite Icon",
+        "ref": {
+          "item": "kabalite icon",
+          "kind": "wargear",
+          "unit": "kabalite-warriors"
+        },
+        "reviewed": true,
+        "sid": "49a47f0e-f2f3-49f4-9089-b4c164174287:kabalite-warriors",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Smoke",
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Grenades",
+            "when": null
+          }
+        ],
+        "hash": "9f2814e8",
+        "kind": "wargear",
+        "name": "Kabalite Warriors: Phantasm Grenade Launcher",
+        "ref": {
+          "item": "phantasm grenade launcher",
+          "kind": "wargear",
+          "unit": "kabalite-warriors"
+        },
+        "reviewed": true,
+        "sid": "79bfd4a0-3952-454b-95db-bee1f1f23580:kabalite-warriors",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "melee",
+            "op": "set",
+            "stat": "ap",
+            "value": "-2",
+            "when": {
+              "en": "the bearer's weapons only",
+              "ru": "только оружие носителя"
+            }
+          },
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "the bearer's weapons only",
+              "ru": "только оружие носителя"
+            }
+          }
+        ],
+        "hash": "259ba69a",
+        "kind": "wargear",
+        "name": "Reavers: Grav-talon",
+        "ref": {
+          "item": "grav-talon",
+          "kind": "wargear",
+          "unit": "reavers"
+        },
+        "reviewed": true,
+        "sid": "6d7b527c-2b1a-44b6-b72a-e035011627a4:reavers",
+        "ver": 925
+      }
+    ],
+    "formatVersion": 1,
+    "slug": "drukhari"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "default": {
+    "detachments": [],
+    "id": "chaos-titan-legions",
+    "legends": [],
+    "name": "Chaos Titan Legions",
+    "slug": "chaos-titan-legions",
+    "sourceUrl": "https://mfm.warhammer-community.com/en/chaos-titan-legions",
+    "subfactions": [],
+    "units": [
+      {
+        "name": "Chaos Reaver Titan",
+        "options": [
+          {
+            "models": 1,
+            "points": 2200
+          }
+        ]
+      },
+      {
+        "name": "Chaos Warbringer Nemesis Titan",
+        "options": [
+          {
+            "models": 1,
+            "points": 2600
+          }
+        ]
+      },
+      {
+        "name": "Chaos Warhound Titan",
+        "options": [
+          {
+            "models": 1,
+            "points": 1100
+          }
+        ]
+      },
+      {
+        "name": "Chaos Warlord Titan",
+        "options": [
+          {
+            "models": 1,
+            "points": 3500
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "default": {
+    "detachmentOverrides": {},
+    "gains": [
+      {
+        "en": "+1 at the start of your Command phase",
+        "ru": "+1 в начале твоей Command phase"
+      },
+      {
+        "en": "+1 each time an enemy unit is destroyed",
+        "ru": "+1 за каждый уничтоженный вражеский юнит"
+      },
+      {
+        "en": "+1 each time an enemy unit fails a Battle-shock test",
+        "ru": "+1 каждый раз, когда вражеский юнит проваливает Battle-shock тест"
+      }
+    ],
+    "kind": "counter",
+    "label": "Pain tokens",
+    "min": 0,
+    "note": {
+      "en": "Spend tokens to Empower units and activate their Pain abilities. Start of battle: +2 per listed keyword combination your army contains (max 6).",
+      "ru": "Трать токены, чтобы Empower юниты и активировать их Pain-способности. В начале битвы: +2 за каждую указанную в правиле комбинацию ключевых слов в армии (максимум 6)."
+    },
+    "ruleName": "Power From Pain",
+    "slug": "drukhari"
+  }
+}

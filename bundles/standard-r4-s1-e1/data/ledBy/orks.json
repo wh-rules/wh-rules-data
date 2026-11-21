@@ -1,0 +1,263 @@
+{
+  "default": {
+    "beast-snagga-boyz": [
+      [
+        "Beastboss",
+        "leader"
+      ],
+      [
+        "Painboss",
+        "support"
+      ],
+      [
+        "Weirdboy",
+        "support"
+      ]
+    ],
+    "boyz": [
+      [
+        "Big Mek",
+        "leader"
+      ],
+      [
+        "Big Mek with Shokk Attack Gun",
+        "leader"
+      ],
+      [
+        "Mad Dok Grotsnik",
+        "leader"
+      ],
+      [
+        "Warboss",
+        "leader"
+      ],
+      [
+        "Bannernob",
+        "support"
+      ],
+      [
+        "Bigboss",
+        "support"
+      ],
+      [
+        "Mek",
+        "support"
+      ],
+      [
+        "Painboy",
+        "support"
+      ],
+      [
+        "Weirdboy",
+        "support"
+      ]
+    ],
+    "breaka-boyz": [
+      [
+        "Big Mek",
+        "leader"
+      ],
+      [
+        "Warboss",
+        "leader"
+      ],
+      [
+        "Bigboss",
+        "support"
+      ],
+      [
+        "Painboy",
+        "support"
+      ]
+    ],
+    "burna-boyz": [
+      [
+        "Mad Dok Grotsnik",
+        "leader"
+      ]
+    ],
+    "flash-gitz": [
+      [
+        "Big Mek",
+        "leader"
+      ],
+      [
+        "Kaptin Badrukk",
+        "leader"
+      ],
+      [
+        "Kaptin's Hat",
+        "leader",
+        {
+          "by": [
+            "Beastboss",
+            "Big Mek",
+            "Big Mek in Mega Armour",
+            "Big Mek with Shokk Attack Gun",
+            "Warboss",
+            "Warboss in Mega Armour"
+          ],
+          "det": "Wreckas",
+          "enh": 1
+        }
+      ],
+      [
+        "Mek",
+        "support"
+      ],
+      [
+        "Painboy",
+        "support"
+      ]
+    ],
+    "gretchin": [
+      [
+        "Zodgrod Wortsnagga",
+        "leader"
+      ],
+      [
+        "Runtherd",
+        "support"
+      ]
+    ],
+    "kommandos": [
+      [
+        "Boss Snikrot",
+        "leader"
+      ],
+      [
+        "Kill Kommanda",
+        "leader",
+        {
+          "by": [
+            "Beastboss",
+            "Big Mek",
+            "Big Mek Dakkarig",
+            "Big Mek in Mega Armour",
+            "Big Mek with Shokk Attack Gun",
+            "Warboss",
+            "Warboss in Mega Armour"
+          ],
+          "det": "Taktikal Brigade",
+          "enh": 1
+        }
+      ]
+    ],
+    "lootas": [
+      [
+        "Mad Dok Grotsnik",
+        "leader"
+      ]
+    ],
+    "meganobz": [
+      [
+        "Big Mek in Mega Armour",
+        "leader"
+      ],
+      [
+        "Nazdreg",
+        "leader"
+      ],
+      [
+        "Warboss in Mega Armour",
+        "leader"
+      ]
+    ],
+    "mek-gunz": [
+      [
+        "Big Mek",
+        "leader"
+      ],
+      [
+        "Big Mek in Mega Armour",
+        "leader"
+      ],
+      [
+        "Big Mek with Shokk Attack Gun",
+        "leader"
+      ],
+      [
+        "Mek",
+        "support"
+      ]
+    ],
+    "nobz": [
+      [
+        "Big Mek",
+        "leader"
+      ],
+      [
+        "Big Mek with Shokk Attack Gun",
+        "leader"
+      ],
+      [
+        "Mad Dok Grotsnik",
+        "leader"
+      ],
+      [
+        "Warboss",
+        "leader"
+      ],
+      [
+        "Bannernob",
+        "support"
+      ],
+      [
+        "Bigboss",
+        "support"
+      ],
+      [
+        "Mek",
+        "support"
+      ],
+      [
+        "Painboy",
+        "support"
+      ]
+    ],
+    "squighog-boyz": [
+      [
+        "Painboss",
+        "support"
+      ]
+    ],
+    "stormboyz": [
+      [
+        "Boss Zagstruk",
+        "leader"
+      ]
+    ],
+    "tankbustas": [
+      [
+        "Big Mek",
+        "leader"
+      ],
+      [
+        "Big Mek with Shokk Attack Gun",
+        "leader"
+      ],
+      [
+        "Mad Dok Grotsnik",
+        "leader"
+      ],
+      [
+        "Mek",
+        "support"
+      ],
+      [
+        "Painboy",
+        "support"
+      ]
+    ],
+    "warbikers": [
+      [
+        "Deffkilla Wartrike",
+        "leader"
+      ],
+      [
+        "Warboss on Warbike",
+        "leader"
+      ]
+    ]
+  }
+}

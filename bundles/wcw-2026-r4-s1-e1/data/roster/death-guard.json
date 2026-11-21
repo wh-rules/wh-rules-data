@@ -1,0 +1,4152 @@
+{
+  "default": {
+    "allies": [
+      {
+        "ids": [
+          "chaos-knights:chaos-acastus-knight-asterius",
+          "chaos-knights:chaos-acastus-knight-porphyrion",
+          "chaos-knights:chaos-cerastus-knight-acheron",
+          "chaos-knights:chaos-cerastus-knight-atrapos",
+          "chaos-knights:chaos-cerastus-knight-castigator",
+          "chaos-knights:chaos-cerastus-knight-lancer",
+          "chaos-knights:chaos-questoris-knight-magaera",
+          "chaos-knights:chaos-questoris-knight-styrix",
+          "chaos-knights:knight-abominant",
+          "chaos-knights:knight-desecrator",
+          "chaos-knights:knight-despoiler",
+          "chaos-knights:knight-rampager",
+          "chaos-knights:knight-ruinator",
+          "chaos-knights:knight-tyrant",
+          "chaos-knights:war-dog-brigand",
+          "chaos-knights:war-dog-executioner",
+          "chaos-knights:war-dog-huntsman",
+          "chaos-knights:war-dog-karnivore",
+          "chaos-knights:war-dog-moirax",
+          "chaos-knights:war-dog-stalker"
+        ],
+        "key": "chaos-knights",
+        "lim": {
+          "Titanic": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "War Dog": {
+            "incursion": 3,
+            "onslaught": 3,
+            "strike-force": 3
+          }
+        },
+        "mutex": 1,
+        "name": "Chaos Knights"
+      },
+      {
+        "dets": [
+          "Tallyband Summoners"
+        ],
+        "ids": [
+          "beasts-of-nurgle",
+          "great-unclean-one",
+          "nurglings",
+          "plague-drones",
+          "plaguebearers",
+          "rotigus"
+        ],
+        "key": "plague-legions",
+        "name": "Plague Legions",
+        "pts": {
+          "incursion": 500,
+          "onslaught": 1500,
+          "strike-force": 1000
+        }
+      },
+      {
+        "ids": [
+          "chaos-titan-legions:chaos-reaver-titan",
+          "chaos-titan-legions:chaos-warbringer-nemesis-titan",
+          "chaos-titan-legions:chaos-warhound-titan",
+          "chaos-titan-legions:chaos-warlord-titan"
+        ],
+        "key": "titanicus-traitoris",
+        "lim": {
+          "Reaver Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warbringer Nemesis Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warhound Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warlord Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          }
+        },
+        "mutex": 1,
+        "name": "Titanicus Traitoris"
+      }
+    ],
+    "detachments": [
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Final Ingredient",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Biologus Putrifier"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Visions of Virulence",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Malignant Plaguecaster"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Needle of Nurgle",
+            "pts": 25,
+            "req": [
+              {
+                "kw": [
+                  "Plague Surgeon"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Cornucophagus",
+            "pts": 35,
+            "req": [
+              {
+                "kw": [
+                  "Lord of Poxes"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Champions of Contagion",
+        "sid": "ac958d83-3ee2-4279-8115-2b164658da08"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "limit": 3,
+            "name": "Parasitic Woe‑reaper (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Contagion Engines"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "limit": 3,
+            "name": "Lancet of the Worldsore (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "ds": "Helbrute",
+                "fac": [
+                  "Death Guard"
+                ]
+              },
+              {
+                "ds": "Myphitic Blight-haulers",
+                "fac": [
+                  "Death Guard"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Contagion Engines",
+        "sid": "80f1f5cf-8331-4b71-87fa-fe4caaa92633"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Face of Death",
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "Terminator"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Vile Vigour",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Terminator"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Warprot Talisman",
+            "pts": 30,
+            "req": [
+              {
+                "kw": [
+                  "Terminator"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Helm of The Fly King",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Terminator"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Death Lord’s Chosen",
+        "sid": "db1b2621-c7fc-4c1f-91ba-3f75779123b8"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "limit": 3,
+            "name": "Insectile Murmuration (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "ds": "Plague Marines",
+                "fac": [
+                  "Death Guard"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "limit": 3,
+            "name": "Plagueveil (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "ds": "Plague Marines",
+                "fac": [
+                  "Death Guard"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Flyblown Host",
+        "sid": "9a41d668-c9ee-41c8-81e7-58585d6d8efb"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Eye of Affliction",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Death Guard"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Bilemaw Blight",
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "Malignant Plaguecaster"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Shriekworm Familiar",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Death Guard"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Tendrilous Emissions",
+            "pts": 30,
+            "req": [
+              {
+                "kw": [
+                  "Lord of Virulence"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Mortarion’s Hammer",
+        "sid": "b3a2a4b5-40a0-4875-8017-bc455d657040"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "exclKw": [
+              "Terminator"
+            ],
+            "name": "Rejuvenating Swarm",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Death Guard"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Host of the Hybridised Pox",
+            "pts": 40,
+            "req": [
+              {
+                "fac": [
+                  "Death Guard"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Paragons of Putrescence",
+        "sid": "39484a39-656d-4552-9eff-acbd524e4f5e"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Witherbone Pipes",
+            "pts": 25,
+            "req": [
+              {
+                "kw": [
+                  "Noxious Blightbringer"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Lord of the Walking Pox",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Death Guard"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Sorrowsyphon",
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "Malignant Plaguecaster"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Talisman of Burgeoning",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Death Guard"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Disruption"
+        ],
+        "name": "Shamblerot Vectorium",
+        "sid": "bd9bf924-b054-47bf-9df6-a301a62b41c5"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Beckoning Blight",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Death Guard"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Fell Harvester",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Death Guard"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Entropic Knell",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Great Unclean One"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Tome of Bounteous Blessings",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Malignant Plaguecaster"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Disruption"
+        ],
+        "name": "Tallyband Summoners",
+        "sid": "73927182-408b-4119-a045-e3b21d35cc36"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Daemon Weapon of Nurgle",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Death Guard"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Furnace of Plagues",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Death Guard"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Arch Contaminator",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Death Guard"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Revolting Regeneration",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Death Guard"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold",
+          "Purge the Foe"
+        ],
+        "name": "Virulent Vectorium",
+        "sid": "51470653-e741-468c-a4c5-efc6110e46d0"
+      }
+    ],
+    "name": "Death Guard",
+    "slug": "death-guard",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                853,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Plague Legions"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "beasts-of-nurgle",
+        "kws": [
+          "Beast",
+          "Beasts of Nurgle",
+          "Chaos",
+          "Daemon",
+          "Nurgle",
+          "Summoned"
+        ],
+        "linked": 1,
+        "name": "Beasts of Nurgle",
+        "sid": "3c21511d-aa1d-45fd-aa09-4c0b7fc1f052",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 70
+          },
+          {
+            "per": [
+              2,
+              2
+            ],
+            "pts": 140
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1249,
+                1
+              ],
+              [
+                1250,
+                1
+              ],
+              [
+                1251,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {
+          "alongside": 1,
+          "char": 1
+        },
+        "id": "biologus-putrifier",
+        "kws": [
+          "Biologus Putrifier",
+          "Chaos",
+          "Character",
+          "Grenades",
+          "Infantry",
+          "Nurgle"
+        ],
+        "leads": [
+          {
+            "to": "plague-marines",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Biologus Putrifier",
+        "sid": "e810771e-fed9-4dd5-a3d7-8759e798e9ae",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                1252,
+                1
+              ],
+              [
+                1253,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                1253,
+                1
+              ],
+              [
+                1252,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1034
+              ]
+            ],
+            "rep": [
+              1253
+            ],
+            "t": 457
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                5,
+                1
+              ],
+              [
+                10,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1254
+              ]
+            ],
+            "rep": [
+              1253,
+              1252
+            ],
+            "t": 458
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                5,
+                1
+              ],
+              [
+                10,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1255
+              ]
+            ],
+            "rep": [
+              1253
+            ],
+            "t": 459
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                5,
+                1
+              ],
+              [
+                10,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1051
+              ]
+            ],
+            "rep": [
+              1253
+            ],
+            "t": 460
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                5,
+                1
+              ],
+              [
+                10,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1256
+              ]
+            ],
+            "rep": [
+              1253
+            ],
+            "t": 461
+          },
+          {
+            "in": "checkbox",
+            "m": 1,
+            "o": [
+              [
+                [
+                  [
+                    1256,
+                    1
+                  ],
+                  [
+                    1028,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1253,
+              1252
+            ],
+            "t": 462
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                1034
+              ]
+            ],
+            "rep": [
+              1253
+            ],
+            "t": 457
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "blightlord-terminators",
+        "kws": [
+          "Blightlord Terminators",
+          "Chaos",
+          "Infantry",
+          "Nurgle",
+          "Terminator"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Blightlord Champion"
+          },
+          {
+            "n": "Blightlord Terminator"
+          }
+        ],
+        "name": "Blightlord Terminators",
+        "pools": [
+          {
+            "g": [
+              0,
+              6
+            ],
+            "lim": [
+              [
+                5,
+                3
+              ],
+              [
+                10,
+                6
+              ]
+            ]
+          }
+        ],
+        "sid": "9dbca5b4-4910-4f02-ac5e-f6a70cf8cfaa",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 115
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                3,
+                4
+              ]
+            ],
+            "per": [
+              4,
+              5
+            ],
+            "pts": 185
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 370
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                553,
+                1
+              ],
+              [
+                1033,
+                2
+              ],
+              [
+                1257,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1253
+              ],
+              [
+                1034
+              ]
+            ],
+            "t": 186
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1035
+              ]
+            ],
+            "t": 369
+          }
+        ],
+        "id": "chaos-land-raider",
+        "kws": [
+          "Chaos",
+          "Frame",
+          "Land Raider",
+          "Nurgle",
+          "Smoke",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Chaos Land Raider",
+        "sid": "243030cc-0b9f-4ee0-8f24-6b17bf390bcd",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 220
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                34,
+                1
+              ],
+              [
+                1049,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    966,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1258,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "t": 463
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1034
+              ],
+              [
+                1253
+              ]
+            ],
+            "t": 186
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1035
+              ]
+            ],
+            "t": 369
+          }
+        ],
+        "id": "chaos-predator-annihilator",
+        "kws": [
+          "Chaos",
+          "Frame",
+          "Nurgle",
+          "Predator Annihilator",
+          "Smoke",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Chaos Predator Annihilator",
+        "sid": "2f3b67cf-0d0c-43e9-9d5e-9ceef3a72300",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 130
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1259,
+                1
+              ],
+              [
+                34,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    966,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1258,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "t": 463
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1253
+              ],
+              [
+                1034
+              ]
+            ],
+            "t": 186
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1035
+              ]
+            ],
+            "t": 369
+          }
+        ],
+        "id": "chaos-predator-destructor",
+        "kws": [
+          "Chaos",
+          "Frame",
+          "Nurgle",
+          "Predator Destructor",
+          "Smoke",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Chaos Predator Destructor",
+        "sid": "4376de7d-424a-4426-817a-df295f6eb083",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 140
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1253,
+                1
+              ],
+              [
+                34,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1253
+              ],
+              [
+                1034
+              ]
+            ],
+            "t": 464
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1035
+              ]
+            ],
+            "t": 379
+          }
+        ],
+        "id": "chaos-rhino",
+        "kws": [
+          "Chaos",
+          "Dedicated Transport",
+          "Frame",
+          "Nurgle",
+          "Rhino",
+          "Smoke",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Chaos Rhino",
+        "sid": "e796b42f-64bb-472a-86bb-1e1d695e3f1b",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 75
+          }
+        ],
+        "step": {
+          "at": 4,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1025,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {},
+        "id": "chaos-spawn",
+        "kws": [
+          "Beast",
+          "Chaos",
+          "Nurgle",
+          "Spawn"
+        ],
+        "linked": 1,
+        "name": "Chaos Spawn",
+        "sid": "b7686d41-813b-41c4-9a74-3e8dc6d7530b",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              2,
+              2
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1260,
+                1
+              ],
+              [
+                1261,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "daemon-prince-of-nurgle",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Daemon Prince",
+          "Monster",
+          "Nurgle"
+        ],
+        "linked": 1,
+        "name": "Daemon Prince of Nurgle",
+        "sid": "8ef06222-d40a-43bc-86bc-2be236788185",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 185
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1262,
+                1
+              ],
+              [
+                1260,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "daemon-prince-of-nurgle-with-wings",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Daemon Prince with Wings",
+          "Fly",
+          "Monster",
+          "Nurgle"
+        ],
+        "linked": 1,
+        "name": "Daemon Prince of Nurgle with Wings",
+        "sid": "28b9e7b9-6f46-47e2-bf98-a8f90e8fef07",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 160
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3365,
+                1
+              ],
+              [
+                1039,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {
+          "char": 1,
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1043
+              ],
+              [
+                3366
+              ],
+              [
+                3367
+              ],
+              [
+                3368
+              ],
+              [
+                571
+              ]
+            ],
+            "rep": [
+              3365
+            ],
+            "t": 1111
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3367
+              ],
+              [
+                3368
+              ]
+            ],
+            "rep": [
+              1039
+            ],
+            "t": 1112
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1048
+              ]
+            ],
+            "rep": [
+              3365,
+              1039
+            ],
+            "t": 1113
+          }
+        ],
+        "id": "death-guard-chaos-lord",
+        "kws": [
+          "Infantry",
+          "Character",
+          "Chaos",
+          "Nurgle",
+          "Grenades",
+          "Chaos Lord"
+        ],
+        "leads": [
+          {
+            "to": "plague-marines",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Death Guard Chaos Lord",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 65
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3366,
+                1
+              ],
+              [
+                3368,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {
+          "char": 1,
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1043
+              ],
+              [
+                3368
+              ]
+            ],
+            "rep": [
+              3366
+            ],
+            "t": 1114
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1657
+              ],
+              [
+                3367
+              ]
+            ],
+            "rep": [
+              3368
+            ],
+            "t": 1115
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1048
+              ]
+            ],
+            "rep": [
+              3366,
+              3368
+            ],
+            "t": 1116
+          }
+        ],
+        "id": "death-guard-chaos-lord-in-terminator-armour",
+        "kws": [
+          "Infantry",
+          "Character",
+          "Chaos",
+          "Nurgle",
+          "Terminator",
+          "Chaos Lord"
+        ],
+        "leads": [
+          {
+            "to": "blightlord-terminators",
+            "type": "leader"
+          },
+          {
+            "to": "deathshroud-terminators",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Death Guard Chaos Lord in Terminator Armour",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 85
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3369,
+                1
+              ],
+              [
+                1059,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3369,
+                1
+              ],
+              [
+                1059,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                10,
+                1
+              ],
+              [
+                20,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                334
+              ]
+            ],
+            "rep": [
+              3369
+            ],
+            "t": 1117
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                10,
+                1
+              ],
+              [
+                20,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1522
+              ]
+            ],
+            "rep": [
+              3369
+            ],
+            "t": 1118
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                10,
+                1
+              ],
+              [
+                20,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                641
+              ]
+            ],
+            "rep": [
+              3369
+            ],
+            "t": 1119
+          }
+        ],
+        "id": "death-guard-cultists",
+        "kws": [
+          "Infantry",
+          "Chaos",
+          "Nurgle",
+          "Cultists"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Death Guard Cultist Champion"
+          },
+          {
+            "n": "Death Guard Cultists"
+          }
+        ],
+        "name": "Death Guard Cultists",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 50
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                10,
+                19
+              ]
+            ],
+            "per": [
+              11,
+              20
+            ],
+            "pts": 100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3150,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3150,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3370
+              ]
+            ],
+            "t": 1120
+          },
+          {
+            "in": "checkbox",
+            "m": 1,
+            "o": [
+              [
+                3370
+              ]
+            ],
+            "t": 1120
+          }
+        ],
+        "id": "death-guard-possessed",
+        "kws": [
+          "Infantry",
+          "Chaos",
+          "Daemon",
+          "Possessed"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Possessed Champion"
+          },
+          {
+            "n": "Possessed"
+          }
+        ],
+        "name": "Death Guard Possessed",
+        "pools": [
+          {
+            "g": [
+              0,
+              1
+            ]
+          }
+        ],
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 155
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 310
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3371,
+                1
+              ],
+              [
+                3366,
+                1
+              ],
+              [
+                679,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {
+          "char": 1,
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1043
+              ],
+              [
+                3368
+              ]
+            ],
+            "rep": [
+              3366
+            ],
+            "t": 1114
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1657
+              ],
+              [
+                3367
+              ],
+              [
+                3368
+              ]
+            ],
+            "rep": [
+              679
+            ],
+            "t": 1121
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1048
+              ]
+            ],
+            "rep": [
+              3366,
+              679
+            ],
+            "t": 1122
+          }
+        ],
+        "id": "death-guard-sorcerer-in-terminator-armour",
+        "kws": [
+          "Infantry",
+          "Character",
+          "Psyker",
+          "Chaos",
+          "Nurgle",
+          "Terminator",
+          "Sorcerer"
+        ],
+        "leads": [
+          {
+            "to": "blightlord-terminators",
+            "type": "leader"
+          },
+          {
+            "to": "deathshroud-terminators",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Death Guard Sorcerer in Terminator Armour",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 70
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1263,
+                1
+              ],
+              [
+                1264,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                1263,
+                1
+              ],
+              [
+                1264,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1263
+              ]
+            ],
+            "t": 465
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1265
+              ]
+            ],
+            "t": 466
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "deathshroud-terminators",
+        "kws": [
+          "Chaos",
+          "Deathshroud Terminators",
+          "Infantry",
+          "Nurgle",
+          "Terminator"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Deathshroud Champion"
+          },
+          {
+            "n": "Deathshroud Terminator"
+          }
+        ],
+        "name": "Deathshroud Terminators",
+        "sid": "2f6e1cf5-9c8c-4fc1-aa97-3480a84edb1c",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 150
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                3,
+                5
+              ]
+            ],
+            "per": [
+              4,
+              6
+            ],
+            "pts": 305
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1266,
+                1
+              ],
+              [
+                1267,
+                1
+              ],
+              [
+                1268,
+                2
+              ],
+              [
+                1269,
+                1
+              ],
+              [
+                1067,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1270
+              ]
+            ],
+            "rep": [
+              1267
+            ],
+            "t": 390
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1271,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1268
+            ],
+            "t": 391
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1272,
+                15
+              ],
+              [
+                1273,
+                15
+              ],
+              [
+                1075
+              ]
+            ],
+            "rep": [
+              1067
+            ],
+            "t": 392
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1272,
+                15
+              ],
+              [
+                1273,
+                15
+              ],
+              [
+                1075
+              ]
+            ],
+            "rep": [
+              1266
+            ],
+            "t": 393
+          }
+        ],
+        "id": "defiler",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Defiler",
+          "Nurgle",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Defiler",
+        "sid": "03871b0c-5667-4340-9cc9-16c4194cc949",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 300
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 50
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1274,
+                1
+              ],
+              [
+                1275,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1276,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1274
+            ],
+            "t": 467
+          }
+        ],
+        "grants": [
+          {
+            "det": "contagion-engines",
+            "kw": "Contagion Engines"
+          }
+        ],
+        "id": "foetid-bloat-drone",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Fly",
+          "Foetid Bloat-Drone",
+          "Nurgle",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Foetid Bloat-Drone",
+        "sid": "fca25525-c8dc-4ae0-b1b3-83d44b824eb1",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 100
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1277,
+                1
+              ],
+              [
+                1275,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {},
+        "grants": [
+          {
+            "det": "contagion-engines",
+            "kw": "Contagion Engines"
+          }
+        ],
+        "id": "foetid-bloat-drone-with-heavy-blight-launcher",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Fly",
+          "Foetid Bloat-drone with Heavy Blight Launcher",
+          "Nurgle",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Foetid Bloat-Drone with Heavy Blight Launcher",
+        "sid": "10507096-5876-4b0a-ae71-9548a05e9c8f",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 125
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1278,
+                1
+              ],
+              [
+                1279,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {
+          "alongside": 1,
+          "char": 1
+        },
+        "id": "foul-blightspawn",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Foul Blightspawn",
+          "Grenades",
+          "Infantry",
+          "Nurgle"
+        ],
+        "leads": [
+          {
+            "to": "plague-marines",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Foul Blightspawn",
+        "sid": "c284cf93-28c3-4061-9cc8-c350ba96e2ed",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                890,
+                1
+              ],
+              [
+                888,
+                1
+              ],
+              [
+                1280,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Plague Legions"
+        ],
+        "flags": {
+          "char": 1,
+          "noWarlord": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                891
+              ]
+            ],
+            "rep": [
+              888
+            ],
+            "t": 338
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                892
+              ]
+            ],
+            "rep": [
+              1280
+            ],
+            "t": 339
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "great-unclean-one",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Great Unclean One",
+          "Monster",
+          "Nurgle",
+          "Psyker",
+          "Summoned"
+        ],
+        "linked": 1,
+        "name": "Great Unclean One",
+        "sid": "9515922a-ddf1-4503-b48c-a0cfb72db6ca",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 265
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1281,
+                1
+              ],
+              [
+                1097,
+                1
+              ],
+              [
+                1100,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1282
+              ],
+              [
+                1283
+              ],
+              [
+                1099
+              ],
+              [
+                1257
+              ],
+              [
+                1100
+              ]
+            ],
+            "rep": [
+              1281
+            ],
+            "t": 402
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                1096
+              ]
+            ],
+            "rep": [
+              1100
+            ],
+            "t": 468
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                1284
+              ],
+              [
+                1102
+              ]
+            ],
+            "rep": [
+              1100
+            ],
+            "t": 469
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                1253
+              ],
+              [
+                528
+              ]
+            ],
+            "t": 470
+          }
+        ],
+        "grants": [
+          {
+            "det": "contagion-engines",
+            "kw": "Contagion Engines"
+          }
+        ],
+        "id": "helbrute",
+        "kws": [
+          "Chaos",
+          "Helbrute",
+          "Nurgle",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Helbrute",
+        "sid": "2a02787d-3f2f-4733-a1a9-f2e12455fcd7",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 105
+          }
+        ],
+        "xpm": [
+          {
+            "item": 1100,
+            "s": [
+              [
+                3
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1285,
+                1
+              ],
+              [
+                1286,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {
+          "alongside": 1,
+          "char": 1
+        },
+        "id": "icon-bearer",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Grenades",
+          "Icon Bearer",
+          "Infantry",
+          "Nurgle"
+        ],
+        "leads": [
+          {
+            "to": "plague-marines",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Icon Bearer",
+        "sid": "e58a3ca1-f91f-46c8-b029-69dfc57b5cbe",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 45
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1287,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "lord-of-contagion",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Grenades",
+          "Infantry",
+          "Lord of Contagion",
+          "Nurgle",
+          "Terminator"
+        ],
+        "leads": [
+          {
+            "to": "deathshroud-terminators",
+            "type": "leader"
+          },
+          {
+            "to": "blightlord-terminators",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Lord of Contagion",
+        "sid": "2e1a8594-627e-4437-8b9b-913bbeabe9de",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 110
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                25,
+                1
+              ],
+              [
+                1288,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "lord-of-poxes",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Grenades",
+          "Infantry",
+          "Lord of Poxes",
+          "Nurgle"
+        ],
+        "leads": [
+          {
+            "to": "plague-marines",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Lord of Poxes",
+        "sid": "65658ea8-cbea-4658-836e-9ba1d5da7bfe",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 65
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1289,
+                1
+              ],
+              [
+                1290,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "lord-of-virulence",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Infantry",
+          "Lord of Virulence",
+          "Nurgle",
+          "Terminator"
+        ],
+        "leads": [
+          {
+            "to": "deathshroud-terminators",
+            "type": "leader"
+          },
+          {
+            "to": "blightlord-terminators",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Lord of Virulence",
+        "sid": "d94ce75d-0c47-4860-ad25-3c34d21d679d",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 90
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1291,
+                1
+              ],
+              [
+                1292,
+                1
+              ],
+              [
+                1293,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "malignant-plaguecaster",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Infantry",
+          "Malignant Plaguecaster",
+          "Nurgle",
+          "Psyker"
+        ],
+        "leads": [
+          {
+            "to": "poxwalkers",
+            "type": "leader"
+          },
+          {
+            "to": "plague-marines",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Malignant Plaguecaster",
+        "sid": "d85b03bf-d4a0-4e38-a5eb-280e328859f7",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1294,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {},
+        "id": "miasmic-malignifier",
+        "kws": [
+          "Chaos",
+          "Fortification",
+          "Frame",
+          "Miasmic Malignifier",
+          "Nurgle"
+        ],
+        "linked": 1,
+        "name": "Miasmic Malignifier",
+        "sid": "2c11b110-75f4-42b8-8360-86ddacebd4ca",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 105
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1295,
+                1
+              ],
+              [
+                1296,
+                1
+              ],
+              [
+                1297,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "supreme": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "mortarion",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Epic Hero",
+          "Fly",
+          "Grenades",
+          "Monster",
+          "Mortarion",
+          "Nurgle",
+          "Primarch",
+          "Psyker"
+        ],
+        "linked": 1,
+        "name": "Mortarion",
+        "sid": "5f92201a-435a-4bd5-a446-26b1ac50b094",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 375
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1298,
+                1
+              ],
+              [
+                1299,
+                1
+              ],
+              [
+                1096,
+                1
+              ],
+              [
+                1281,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {},
+        "grants": [
+          {
+            "det": "contagion-engines",
+            "kw": "Contagion Engines"
+          }
+        ],
+        "id": "myphitic-blight-hauler",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Myphitic Blight-Hauler",
+          "Nurgle",
+          "Smoke",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Myphitic Blight-haulers",
+        "sid": "659ccf4f-90e3-4807-a3d8-eefcf1178845",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 95
+          },
+          {
+            "per": [
+              2,
+              2
+            ],
+            "pts": 190
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                11,
+                1
+              ],
+              [
+                1300,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {
+          "alongside": 1,
+          "char": 1
+        },
+        "id": "noxious-blightbringer",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Infantry",
+          "Noxious Blightbringer",
+          "Nurgle"
+        ],
+        "leads": [
+          {
+            "to": "poxwalkers",
+            "type": "leader"
+          },
+          {
+            "to": "plague-marines",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Noxious Blightbringer",
+        "sid": "64036e46-a6bf-4cc0-80c6-daa795cc4922",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 50
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                915,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Plague Legions"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "nurglings",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Nurgle",
+          "Nurglings",
+          "Summoned",
+          "Swarm"
+        ],
+        "linked": 1,
+        "name": "Nurglings",
+        "sid": "2d118322-ade2-48f8-af17-f1b3609f3fb8",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 45
+          },
+          {
+            "per": [
+              4,
+              6
+            ],
+            "pts": 90
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                918,
+                1
+              ],
+              [
+                920,
+                1
+              ],
+              [
+                919,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                918,
+                1
+              ],
+              [
+                919,
+                1
+              ],
+              [
+                920,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Plague Legions"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "cond": [
+              1,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                858
+              ]
+            ],
+            "t": 344
+          },
+          {
+            "cond": [
+              0,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                859
+              ]
+            ],
+            "t": 345
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "plague-drones",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Fly",
+          "Mounted",
+          "Nurgle",
+          "Plague Drones",
+          "Summoned"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Plaguebringer"
+          },
+          {
+            "n": "Plague Drone"
+          }
+        ],
+        "name": "Plague Drones",
+        "sid": "15580b19-8d83-4398-87c2-c163d37e3a28",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 110
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                3,
+                5
+              ]
+            ],
+            "per": [
+              4,
+              6
+            ],
+            "pts": 220
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                1305,
+                1
+              ],
+              [
+                1286,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                1305,
+                1
+              ],
+              [
+                1286,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1306
+              ],
+              [
+                643
+              ],
+              [
+                11
+              ]
+            ],
+            "rep": [
+              1286
+            ],
+            "t": 473
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1307
+              ],
+              [
+                1308
+              ]
+            ],
+            "rep": [
+              1305
+            ],
+            "t": 474
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                5,
+                1
+              ],
+              [
+                10,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1255
+              ]
+            ],
+            "rep": [
+              1286
+            ],
+            "t": 475
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                5,
+                1
+              ],
+              [
+                10,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1256
+              ]
+            ],
+            "rep": [
+              1286
+            ],
+            "t": 476
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                5,
+                1
+              ],
+              [
+                10,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                15
+              ],
+              [
+                1309
+              ],
+              [
+                643
+              ]
+            ],
+            "rep": [
+              1286
+            ],
+            "t": 477
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                5,
+                2
+              ],
+              [
+                10,
+                4
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1307
+              ]
+            ],
+            "rep": [
+              1286
+            ],
+            "t": 478
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                5,
+                2
+              ],
+              [
+                10,
+                4
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1310
+              ]
+            ],
+            "rep": [
+              1286
+            ],
+            "t": 479
+          },
+          {
+            "cond": [
+              2,
+              0,
+              null,
+              [
+                3,
+                4,
+                5,
+                6
+              ]
+            ],
+            "in": "checkbox",
+            "keep": [
+              1286
+            ],
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1265
+              ]
+            ],
+            "t": 480
+          }
+        ],
+        "id": "plague-marines",
+        "kws": [
+          "Battleline",
+          "Chaos",
+          "Grenades",
+          "Infantry",
+          "Nurgle",
+          "Plague Marines"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Plague Champion"
+          },
+          {
+            "n": "Plague Marine"
+          }
+        ],
+        "name": "Plague Marines",
+        "sid": "7deaf954-52cc-4aa0-ac42-a0ef8e80caba",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 90
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                6
+              ]
+            ],
+            "per": [
+              6,
+              7
+            ],
+            "pts": 125
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                7,
+                9
+              ]
+            ],
+            "per": [
+              8,
+              10
+            ],
+            "pts": 175
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1292,
+                1
+              ],
+              [
+                1311,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {
+          "alongside": 1,
+          "char": 1
+        },
+        "id": "plague-surgeon",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Infantry",
+          "Nurgle",
+          "Plague Surgeon"
+        ],
+        "leads": [
+          {
+            "to": "plague-marines",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Plague Surgeon",
+        "sid": "3de61a27-e8e8-430e-81f7-15137de0915e",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 50
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                918,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                918,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Plague Legions"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "cond": [
+              1,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                858
+              ]
+            ],
+            "t": 342
+          },
+          {
+            "cond": [
+              0,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                859
+              ]
+            ],
+            "t": 343
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "plaguebearers",
+        "kws": [
+          "Battleline",
+          "Chaos",
+          "Daemon",
+          "Infantry",
+          "Nurgle",
+          "Plaguebearers",
+          "Summoned"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Plagueridden"
+          },
+          {
+            "n": "Plaguebearer"
+          }
+        ],
+        "name": "Plaguebearers",
+        "sid": "24af7758-52d7-4260-a41c-5a88e685306c",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 115
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                34,
+                1
+              ],
+              [
+                1301,
+                1
+              ],
+              [
+                1302,
+                2
+              ],
+              [
+                1303,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1276,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1302
+            ],
+            "t": 471
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1304
+              ]
+            ],
+            "rep": [
+              1303
+            ],
+            "t": 472
+          }
+        ],
+        "id": "plagueburst-crawler",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Frame",
+          "Nurgle",
+          "Plagueburst Crawler",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Plagueburst Crawler",
+        "sid": "cc8d6d3d-26c8-4584-bf8f-fc98aa8929dd",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 170
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 30
+        }
+      },
+      {
+        "condBattleline": 1,
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1312,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {},
+        "grants": [
+          {
+            "det": "shamblerot-vectorium",
+            "kw": "Battleline"
+          }
+        ],
+        "id": "poxwalkers",
+        "kws": [
+          "Chaos",
+          "Infantry",
+          "Nurgle",
+          "Poxwalkers"
+        ],
+        "linked": 1,
+        "name": "Poxwalkers",
+        "sid": "e23978ef-8174-45cc-8fb1-16808d72e642",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 65
+          },
+          {
+            "per": [
+              11,
+              20
+            ],
+            "pts": 130
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                923,
+                1
+              ],
+              [
+                924,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Plague Legions"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "noWarlord": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "rotigus",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Epic Hero",
+          "Monster",
+          "Nurgle",
+          "Psyker",
+          "Rotigus",
+          "Summoned"
+        ],
+        "linked": 1,
+        "name": "Rotigus",
+        "sid": "71f1dac7-11cc-4f1e-a47c-5a100781e7cd",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 280
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                11,
+                1
+              ],
+              [
+                1279,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {
+          "alongside": 1,
+          "char": 1
+        },
+        "id": "tallyman",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Infantry",
+          "Nurgle",
+          "Tallyman"
+        ],
+        "leads": [
+          {
+            "to": "plague-marines",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Tallyman",
+        "sid": "6a538e94-abd0-45cd-b5c0-7ecda81ac921",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1313,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "typhus",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Epic Hero",
+          "Infantry",
+          "Nurgle",
+          "Psyker",
+          "Terminator",
+          "Typhus"
+        ],
+        "leads": [
+          {
+            "to": "blightlord-terminators",
+            "type": "leader"
+          },
+          {
+            "to": "poxwalkers",
+            "type": "leader"
+          },
+          {
+            "to": "deathshroud-terminators",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Typhus",
+        "sid": "9d90f004-df9f-43e1-877e-433bfecd9ce7",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 90
+          }
+        ]
+      }
+    ]
+  }
+}

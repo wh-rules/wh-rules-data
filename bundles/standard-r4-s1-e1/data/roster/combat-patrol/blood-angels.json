@@ -1,0 +1,262 @@
+{
+  "default": {
+    "box": "blood-angels",
+    "detachment": {
+      "dp": 0,
+      "enhancements": [
+        {
+          "name": "Masterful Fighter",
+          "pts": null,
+          "req": [
+            {
+              "kw": [
+                "Captain",
+                "Sanguinary Spearhead"
+              ]
+            }
+          ],
+          "type": "miniature"
+        },
+        {
+          "name": "Overwhelming Charge",
+          "nonCharOk": 1,
+          "pts": null,
+          "req": [
+            {
+              "ds": "Sanguinary Spearhead Assault Intercessor Squad"
+            }
+          ],
+          "type": "upgrade"
+        }
+      ],
+      "linkedUnits": [
+        {
+          "count": 1,
+          "unit": "sanguinary-spearhead-sanguinary-guard"
+        },
+        {
+          "count": 1,
+          "unit": "sanguinary-spearhead-assault-intercessor-squad"
+        },
+        {
+          "count": 1,
+          "unit": "captain-raldeo",
+          "warlord": 1
+        },
+        {
+          "count": 1,
+          "unit": "sanguinary-spearhead-sanguinary-guard"
+        }
+      ],
+      "name": "Sanguinary Spearhead",
+      "sid": "3aa71320-ed3a-4168-ad83-22f520718198"
+    },
+    "slug": "blood-angels",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3647,
+                1
+              ],
+              [
+                3648,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Blood Angels"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "captain-raldeo",
+        "kws": [
+          "Captain",
+          "Character",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Sanguinary Spearhead",
+          "Tacticus"
+        ],
+        "leads": [
+          {
+            "to": "sanguinary-spearhead-assault-intercessor-squad",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Captain Raldeo",
+        "sid": "553fb477-1c74-4f86-a96f-f630a56fcdad",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                3644,
+                1
+              ],
+              [
+                3645,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3644,
+                1
+              ],
+              [
+                3646,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Blood Angels"
+        ],
+        "flags": {},
+        "id": "sanguinary-spearhead-assault-intercessor-squad",
+        "kws": [
+          "Battleline",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Sanguinary Spearhead",
+          "Tacticus"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Assault Intercessor Sergeant"
+          },
+          {
+            "n": "Assault Intercessor"
+          }
+        ],
+        "name": "Sanguinary Spearhead Assault Intercessor Squad",
+        "sid": "27968cc7-61ae-4baa-a05a-f9f77088e9c4",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3641,
+                1
+              ],
+              [
+                3642,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3641,
+                1
+              ],
+              [
+                3643,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Blood Angels"
+        ],
+        "flags": {},
+        "id": "sanguinary-spearhead-sanguinary-guard",
+        "kws": [
+          "Explosives",
+          "Fly",
+          "Imperium",
+          "Infantry",
+          "Jump Pack",
+          "Sanguinary Spearhead",
+          "Tacticus"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Sanguinary Guard with Encarmine Blade"
+          },
+          {
+            "n": "Sanguinary Guard with Encarmine Spear"
+          }
+        ],
+        "name": "Sanguinary Spearhead Sanguinary Guard",
+        "sid": "0d3ae940-93a0-488d-aed4-4b94e1cf8a19",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 0
+          }
+        ]
+      }
+    ]
+  }
+}

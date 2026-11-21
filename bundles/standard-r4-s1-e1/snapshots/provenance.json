@@ -1,0 +1,18 @@
+{
+  "app": {
+    "dataVersion": 995,
+    "representation": "Normalized application data with documented project exceptions and translations"
+  },
+  "points": {
+    "mfmVersion": "1.6",
+    "rawArchiveComplete": false,
+    "representation": "Normalized MFM data, including Legends and wargear prices",
+    "sourceUrl": "https://mfm.warhammer-community.com/en"
+  },
+  "schemaVersion": 1,
+  "sourceGaps": [
+    "Exact GW effective dates have not been independently established; site publication dates are not substituted.",
+    "The original complete HTML capture for this MFM revision is not available in the repository.",
+    "Earlier normalized MFM revisions omitted wargear prices before the parser correction on 14 October 2026; they must not be advertised as complete historical snapshots."
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "default": {
+    "aberrants": [
+      [
+        "Abominant",
+        "leader"
+      ],
+      [
+        "Biophagus",
+        "support"
+      ]
+    ],
+    "acolyte-hybrids-with-autopistols": [
+      [
+        "Acolyte Iconward",
+        "leader"
+      ],
+      [
+        "Benefictus",
+        "leader"
+      ],
+      [
+        "Magus",
+        "leader"
+      ],
+      [
+        "Primus",
+        "leader"
+      ],
+      [
+        "Biophagus",
+        "support"
+      ],
+      [
+        "Clamavus",
+        "support"
+      ],
+      [
+        "Locus",
+        "support"
+      ],
+      [
+        "Nexos",
+        "support"
+      ]
+    ],
+    "acolyte-hybrids-with-hand-flamers": [
+      [
+        "Acolyte Iconward",
+        "leader"
+      ],
+      [
+        "Benefictus",
+        "leader"
+      ],
+      [
+        "Magus",
+        "leader"
+      ],
+      [
+        "Primus",
+        "leader"
+      ],
+      [
+        "Biophagus",
+        "support"
+      ],
+      [
+        "Clamavus",
+        "support"
+      ],
+      [
+        "Locus",
+        "support"
+      ],
+      [
+        "Nexos",
+        "support"
+      ]
+    ],
+    "atalan-jackals": [
+      [
+        "Jackal Alphus",
+        "leader"
+      ]
+    ],
+    "hybrid-metamorphs": [
+      [
+        "Acolyte Iconward",
+        "leader"
+      ],
+      [
+        "Benefictus",
+        "leader"
+      ],
+      [
+        "Magus",
+        "leader"
+      ],
+      [
+        "Primus",
+        "leader"
+      ],
+      [
+        "Biophagus",
+        "support"
+      ],
+      [
+        "Clamavus",
+        "support"
+      ],
+      [
+        "Locus",
+        "support"
+      ],
+      [
+        "Nexos",
+        "support"
+      ]
+    ],
+    "neophyte-hybrids": [
+      [
+        "Acolyte Iconward",
+        "leader"
+      ],
+      [
+        "Benefictus",
+        "leader"
+      ],
+      [
+        "Magus",
+        "leader"
+      ],
+      [
+        "Primus",
+        "leader"
+      ],
+      [
+        "Biophagus",
+        "support"
+      ],
+      [
+        "Clamavus",
+        "support"
+      ],
+      [
+        "Locus",
+        "support"
+      ],
+      [
+        "Nexos",
+        "support"
+      ]
+    ],
+    "purestrain-genestealers": [
+      [
+        "Patriarch",
+        "leader"
+      ]
+    ]
+  }
+}

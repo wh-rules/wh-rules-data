@@ -1,0 +1,425 @@
+{
+  "default": {
+    "box": "imperial-agents",
+    "detachment": {
+      "dp": 0,
+      "enhancements": [
+        {
+          "epicOk": 1,
+          "name": "Killer Reflexes",
+          "pts": null,
+          "req": [
+            {
+              "ds": "Inquisitor's Hand Eversor Assassin"
+            }
+          ],
+          "type": "miniature"
+        },
+        {
+          "name": "Sanctic Slayers",
+          "pts": null,
+          "req": [
+            {
+              "kw": [
+                "Inquisitor's Hand",
+                "Ministorum Priest"
+              ]
+            }
+          ],
+          "type": "miniature"
+        }
+      ],
+      "linkedUnits": [
+        {
+          "count": 1,
+          "unit": "inquisitors-hand-eversor-assassin"
+        },
+        {
+          "count": 1,
+          "unit": "preacher-teguen",
+          "warlord": 1
+        },
+        {
+          "count": 1,
+          "unit": "inquisitors-hand-vigilant-squad"
+        },
+        {
+          "count": 1,
+          "unit": "inquisitors-hand-vigilant-squad"
+        },
+        {
+          "count": 1,
+          "unit": "inquisitors-hand-inquisitorial-agents"
+        }
+      ],
+      "name": "Inquisitor’s Hand",
+      "sid": "b43cf4e2-b7be-491a-809a-5c2e9ae36723"
+    },
+    "slug": "imperial-agents",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3597,
+                1
+              ],
+              [
+                3598,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Agents of the Imperium"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "inquisitors-hand-eversor-assassin",
+        "kws": [
+          "Character",
+          "Epic Hero",
+          "Eversor Assassin",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Inquisitor's Hand",
+          "Officio Assassinorum"
+        ],
+        "linked": 1,
+        "name": "Inquisitor's Hand Eversor Assassin",
+        "sid": "032a8316-2dcb-47af-854c-649afa4d76a8",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                3606,
+                1
+              ],
+              [
+                3607,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3606,
+                1
+              ],
+              [
+                3607,
+                1
+              ],
+              [
+                3608,
+                1
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                3607,
+                1
+              ],
+              [
+                3609,
+                1
+              ]
+            ]
+          ],
+          [
+            3,
+            [
+              [
+                3606,
+                1
+              ],
+              [
+                3610,
+                1
+              ],
+              [
+                3607,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Agents of the Imperium"
+        ],
+        "flags": {},
+        "id": "inquisitors-hand-inquisitorial-agents",
+        "kws": [
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Inquisitor's Hand",
+          "Retinue"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Inquisitorial Agent with Agent’s Firearm, Agent’s Implement and Mystic Stave"
+          },
+          {
+            "n": "Inquisitorial Agent with Agent’s Firearm and Agent’s Implement"
+          },
+          {
+            "n": "Gun Servitor"
+          },
+          {
+            "n": "Inquisitorial Agent with Agent’s Firearm, Plasma Pistol and Agent’s Implement"
+          }
+        ],
+        "name": "Inquisitor's Hand Inquisitorial Agents",
+        "sid": "c9f3d0b6-9f8d-4c45-810d-9f77e5c5ca4a",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              6,
+              6
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3600,
+                1
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                3601,
+                1
+              ],
+              [
+                3602,
+                1
+              ],
+              [
+                3603,
+                1
+              ]
+            ]
+          ],
+          [
+            4,
+            [
+              [
+                3604,
+                1
+              ],
+              [
+                3603,
+                1
+              ],
+              [
+                3602,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3604,
+                1
+              ],
+              [
+                3602,
+                1
+              ],
+              [
+                3603,
+                1
+              ]
+            ]
+          ],
+          [
+            3,
+            [
+              [
+                3602,
+                1
+              ],
+              [
+                3605,
+                1
+              ],
+              [
+                3603,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Agents of the Imperium"
+        ],
+        "flags": {},
+        "id": "inquisitors-hand-vigilant-squad",
+        "kws": [
+          "Adeptus Arbites",
+          "Battleline",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Inquisitor's Hand",
+          "Retinue"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Cyber-Mastiff"
+          },
+          {
+            "n": "Vigilant with Combat Shotgun, Shotpistol and Gun Stocks"
+          },
+          {
+            "n": "Vigilant with Grenade Launcher, Shotpistol and Gun Stocks"
+          },
+          {
+            "n": "Vigilant with Shotpistol, Webber and Gun Stocks"
+          },
+          {
+            "n": "Proctor-Vigilant"
+          }
+        ],
+        "name": "Inquisitor's Hand Vigilant Squad",
+        "sid": "65761b9a-08e1-4e58-a929-8cff479a9c5c",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3599,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Agents of the Imperium"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "preacher-teguen",
+        "kws": [
+          "Character",
+          "Imperium",
+          "Infantry",
+          "Inquisitor's Hand",
+          "Ministorum Priest",
+          "Ordo Hereticus"
+        ],
+        "leads": [
+          {
+            "to": "inquisitors-hand-inquisitorial-agents",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Preacher Teguen",
+        "sid": "3908e951-d4dd-416b-bf20-5cbe13b3bfee",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      }
+    ]
+  }
+}
