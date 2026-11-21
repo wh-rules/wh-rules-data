@@ -18,6 +18,20 @@ A new accepted rules snapshot increments the family's rules revision. A packagin
 correction increments its export revision. An incompatible JSON contract increments the
 schema version. The catalog revision tracks changes to the catalog and its pointers.
 
+## Following updates
+
+Read [GitHub Releases](https://github.com/wh-rules/wh-rules-data/releases) for
+the update summary. Each new release identifies its family and tag. Its notes
+compare the distributed files with the previous release in the same family.
+Standard and tournament packages have separate histories.
+
+For automated updates, read `catalog.json` on `main`, select your family's
+`currentBySchema` pointer for the schema you support, and compare the tag with
+your last successful import. Fetch the manifest and files at that tag, verify
+the checksums, then switch to the new data after the import succeeds.
+The catalog pointer advances after the archive has been published and verified.
+To reproduce an existing roster, keep using its saved tag.
+
 ## Files
 
 The [manifest schema](schemas/manifest.json) describes each snapshot's file inventory.
@@ -52,6 +66,34 @@ images omitted from the export. The bundle includes all declarative snapshot dat
 Consumers implement their own rules processing, including any behaviors represented
 by code in the WH Rules engine. Raw GW downloads and the application are outside the
 data contract.
+
+## Datasheet history and Legendary Proxies
+
+Read `data/datasheetRenames.json` under the faction slug. A string moves the old
+WH Rules datasheet ID to the named ID. A null means the old ID was retired with
+no automatic replacement recorded. An absent key means this table records no move.
+For current membership, check the faction's `data/datasheetIds.json` entry.
+Names and IDs from other catalogs can require separate aliases.
+
+In Standard r3, Space Marines have one Legends datasheet, `sicaran`. To convert
+an older roster, select its main weapon according to the original datasheet:
+
+| Former ID | Main weapon on `sicaran` |
+| --- | --- |
+| `sicaran-battle-tank` | Herakles-pattern Autocannon (default) |
+| `sicaran-arcus` | Arcus Multi-launcher |
+| `sicaran-omega` | Omega Plasma Array |
+| `sicaran-punisher` | Punisher Rotary Cannon |
+| `sicaran-venator` | Venator Neutron Laser |
+
+In `data/factionLegends.json`, each proxy row lists retired model names in
+`legacy`. Its `id` identifies the target datasheet in that faction, and `use`
+can also specify equipment. Some bundles include optional `legacyRefs` entries
+with `name`, `faction` and `id` for verified historical WH Rules datasheets.
+Match by name within the row. A missing reference means the historical ID has
+not been verified. For inherited chapter proxies, the reference identifies the
+historical datasheet in the source faction. For example, the Space Marines
+`lieutenant-in-reiver-armour` maps to `lieutenant-in-phobos-armour`.
 
 ## Reading the current or a pinned bundle
 
