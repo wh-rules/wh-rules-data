@@ -96,6 +96,14 @@ not been verified. For inherited chapter proxies, the reference identifies the
 historical datasheet in the source faction. For example, the Space Marines
 `lieutenant-in-reiver-armour` maps to `lieutenant-in-phobos-armour`.
 
+A verified historical ID can be absent from both `datasheetIds.json` and
+`datasheetRenames.json` if its datasheet was retired before migration tracking
+began. For example, in Standard and WCW 2026 r4, five Orks IDs fall into this
+category. The proxy rows point `boomdakka-snazzwagon`, `kustom-boosta-blasta`,
+`megatrakk-scrapjet` and `shokkjump-dragsta` to `warbuggies`, and `wurrboy` to
+`weirdboy`. For proxy imports, use the matching row's `id` and `use` even
+when its historical ID has no entry in the migration table.
+
 ## Reading the current or a pinned bundle
 
 ```python
