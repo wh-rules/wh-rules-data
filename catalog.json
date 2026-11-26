@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "catalogRevision": 5,
+  "catalogRevision": 6,
   "defaultFamily": "standard",
   "families": {
     "standard": {
       "currentBySchema": {
-        "1": "standard-r4-s1-e1"
+        "1": "standard-r5-s1-e1"
       },
       "releases": [
         {
@@ -143,12 +143,46 @@
             "url": "https://github.com/wh-rules/wh-rules-data/releases/download/standard-r4-s1-e1/standard-r4-s1-e1.zip"
           },
           "publishedAt": "2026-11-21T21:19:06Z"
+        },
+        {
+          "family": "standard",
+          "revision": 5,
+          "exportRevision": 1,
+          "tag": "standard-r5-s1-e1",
+          "rulesetRef": {
+            "id": "rs-59360b51cd6787ec7c1deedfed94cebe6bac46b16e94baa90b22abdba3cda889",
+            "contentHash": "59360b51cd6787ec7c1deedfed94cebe6bac46b16e94baa90b22abdba3cda889"
+          },
+          "baseRulesetRef": null,
+          "names": {
+            "en": "GW app 2.8.1 · MFM 1.6",
+            "ru": "Приложение GW 2.8.1 · MFM 1.6"
+          },
+          "scope": null,
+          "highlights": null,
+          "changeRefs": [
+            "995"
+          ],
+          "effectiveFrom": "2026-10-16",
+          "effectiveTo": null,
+          "appDataVersion": 995,
+          "mfmVersion": "1.6",
+          "manifest": {
+            "path": "bundles/standard-r5-s1-e1/manifest.json",
+            "sha256": "5404659ac5039f5ddd7012781d0f51e6f3ccb7cb7598785559034426f098dcd6"
+          },
+          "archive": {
+            "path": "archives/standard-r5-s1-e1.zip",
+            "sha256": "3bb98ff4760a85515334b56833c2a92888fc11cb60086d7b57ece467ddb75c70",
+            "url": "https://github.com/wh-rules/wh-rules-data/releases/download/standard-r5-s1-e1/standard-r5-s1-e1.zip"
+          },
+          "publishedAt": "2026-11-26T21:21:27Z"
         }
       ]
     },
     "wcw-2026": {
       "currentBySchema": {
-        "1": "wcw-2026-r4-s1-e1"
+        "1": "wcw-2026-r5-s1-e1"
       },
       "releases": [
         {
@@ -362,6 +396,59 @@
             "url": "https://github.com/wh-rules/wh-rules-data/releases/download/wcw-2026-r4-s1-e1/wcw-2026-r4-s1-e1.zip"
           },
           "publishedAt": "2026-11-21T21:19:25Z"
+        },
+        {
+          "family": "wcw-2026",
+          "revision": 5,
+          "exportRevision": 1,
+          "tag": "wcw-2026-r5-s1-e1",
+          "rulesetRef": {
+            "id": "rs-49124e9369a925b397091de776ea75b9e240fe4b5d88d25a84ae5bf81c793ee1",
+            "contentHash": "49124e9369a925b397091de776ea75b9e240fe4b5d88d25a84ae5bf81c793ee1"
+          },
+          "baseRulesetRef": {
+            "contentHash": "59360b51cd6787ec7c1deedfed94cebe6bac46b16e94baa90b22abdba3cda889",
+            "id": "rs-59360b51cd6787ec7c1deedfed94cebe6bac46b16e94baa90b22abdba3cda889"
+          },
+          "names": {
+            "en": "WCW 2026",
+            "ru": "WCW 2026"
+          },
+          "scope": {
+            "en": "Official GW rules for WCW 2026. Elsewhere, use by agreement. Some rulings may become general rules. GW’s next update is planned for the week of 7 December.",
+            "ru": "Официальные правила GW для WCW 2026. Вне турнира применяются по договорённости. Часть решений может войти в общие правила. Ближайшее обновление GW запланировано на неделю с 7 декабря."
+          },
+          "highlights": {
+            "en": [
+              "Answers from the Warhammer studio for the event: 40 questions on the Core Rules, the Mission Deck and 12 factions.",
+              "Rules changed: Shambling Wall, Double-cross, Grot Shields, Unholy Resilience, Umbralefic Crystal, the Deathwing and more.",
+              "Weapons changed: Blood Angels, Chaos Space Marines, Deathwatch, Aggressor Squad.",
+              "Five Chapter detachments may not include units drawn from another Chapter."
+            ],
+            "ru": [
+              "Ответы студии Warhammer для турнира: 40 вопросов по базовым правилам, колоде миссий и 12 фракциям.",
+              "Изменены правила: Shambling Wall, Double-cross, Grot Shields, Unholy Resilience, Umbralefic Crystal, Deathwing и другие.",
+              "Изменено оружие: Blood Angels, Chaos Space Marines, Deathwatch, Aggressor Squad.",
+              "Пять детачментов орденов не могут включать юниты других орденов."
+            ]
+          },
+          "changeRefs": [
+            "wcw-2026"
+          ],
+          "effectiveFrom": null,
+          "effectiveTo": null,
+          "appDataVersion": 995,
+          "mfmVersion": "1.6",
+          "manifest": {
+            "path": "bundles/wcw-2026-r5-s1-e1/manifest.json",
+            "sha256": "0881a57e9b8b1b02b8d109a5999757be72e12035038246b50c8ac45b0ee8062f"
+          },
+          "archive": {
+            "path": "archives/wcw-2026-r5-s1-e1.zip",
+            "sha256": "6264b1ff1e9ccca6f0ae3d39f9fcd3997bc49ef0ef84d97a1829261babc677b8",
+            "url": "https://github.com/wh-rules/wh-rules-data/releases/download/wcw-2026-r5-s1-e1/wcw-2026-r5-s1-e1.zip"
+          },
+          "publishedAt": "2026-11-26T21:21:44Z"
         }
       ]
     }
