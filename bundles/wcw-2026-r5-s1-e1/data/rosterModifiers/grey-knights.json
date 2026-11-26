@@ -1,0 +1,1677 @@
+{
+  "default": {
+    "entries": [
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "LETHAL HITS",
+            "when": null
+          }
+        ],
+        "hash": "d2a9d0ad",
+        "kind": "ability",
+        "name": "Brother-Captain: Hammerhand",
+        "ref": {
+          "kind": "ability",
+          "unit": "brother-captain"
+        },
+        "reviewed": true,
+        "sid": "cce072e6-efe4-4f0c-b0cb-3d04a077fe93:brother-captain",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "only": {
+              "name": "Nemesis"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "for the rest of the battle, once it destroyed an enemy CHARACTER in melee",
+              "ru": "до конца битвы, если уничтожил вражеского CHARACTER в ближнем бою"
+            }
+          }
+        ],
+        "hash": "8e136fee",
+        "kind": "ability",
+        "name": "Brotherhood Champion: Inspiring Exemplar",
+        "ref": {
+          "kind": "ability",
+          "unit": "brotherhood-champion"
+        },
+        "reviewed": true,
+        "sid": "20de685a-c2fc-4a03-b53e-81e1b1596f3b:brotherhood-champion",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Feel No Pain 4+ (vs Psychic Attacks)",
+            "when": null
+          }
+        ],
+        "hash": "d4f151a2",
+        "kind": "ability",
+        "name": "Brotherhood Librarian: Sanctic Hood",
+        "ref": {
+          "kind": "ability",
+          "unit": "brotherhood-librarian"
+        },
+        "reviewed": true,
+        "sid": "24ce0967-91f2-452b-864d-46e238ba9e58:brotherhood-librarian",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "selected": true,
+            "stat": "hit",
+            "target": "aura",
+            "value": 1,
+            "when": {
+              "en": "the VEHICLE model selected in your Command phase, until your next one",
+              "ru": "модель VEHICLE, выбранная в вашу Command phase, до следующей"
+            }
+          }
+        ],
+        "hash": "f41f3275",
+        "kind": "ability",
+        "name": "Brotherhood Techmarine: Blessing of the Omnissiah",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [
+                "GREY KNIGHTS VEHICLE"
+              ],
+              "targets": [
+                "GREY KNIGHTS VEHICLE"
+              ]
+            }
+          ],
+          "unit": "brotherhood-techmarine"
+        },
+        "reviewed": true,
+        "sid": "a9366824-0d9e-4b29-9548-67bbe87ea381:brotherhood-techmarine",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of a friendly GREY KNIGHTS VEHICLE unit",
+              "ru": "пока в пределах 3\" от дружественного отряда GREY KNIGHTS VEHICLE"
+            }
+          }
+        ],
+        "hash": "cb1dcef3",
+        "kind": "ability",
+        "name": "Brotherhood Techmarine: Techmarine",
+        "ref": {
+          "kind": "ability",
+          "unit": "brotherhood-techmarine"
+        },
+        "reviewed": true,
+        "sid": "30b2f72e-938f-48de-b689-450af79897b3:brotherhood-techmarine",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "against targets other than MONSTERS and VEHICLES",
+              "ru": "против целей, кроме MONSTER и VEHICLE"
+            }
+          }
+        ],
+        "hash": "921d6aa1",
+        "kind": "ability",
+        "name": "Brotherhood Terminator Squad: Force Edge",
+        "ref": {
+          "kind": "ability",
+          "unit": "brotherhood-terminator-squad"
+        },
+        "reviewed": true,
+        "sid": "68c418e0-4997-43dc-816c-6502ae9e6795:brotherhood-terminator-squad",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "name": "Purifying flame"
+            },
+            "op": "add",
+            "stat": "a",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "1ccd750e",
+        "kind": "ability",
+        "name": "Castellan Crowe: Champion of the Order of Purifiers",
+        "ref": {
+          "kind": "ability",
+          "unit": "castellan-crowe"
+        },
+        "reviewed": true,
+        "sid": "69144dc5-90d8-489f-b9f8-84ac2b11f999:castellan-crowe",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "against targets other than MONSTERS and VEHICLES",
+              "ru": "против целей, кроме MONSTER и VEHICLE"
+            }
+          }
+        ],
+        "hash": "eaa073e4",
+        "kind": "ability",
+        "name": "Crowe's Sanctifiers Brotherhood Terminator Squad: Force Edge (Psychic)",
+        "ref": {
+          "kind": "ability",
+          "unit": "crowes-sanctifiers-brotherhood-terminator-squad"
+        },
+        "reviewed": true,
+        "sid": "02a7dc81-4dee-4440-95ad-4ee97161347a:crowes-sanctifiers-brotherhood-terminator-squad",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against the enemy unit selected",
+              "ru": "против выбранного вражеского отряда"
+            }
+          }
+        ],
+        "hash": "f5064a57",
+        "kind": "ability",
+        "name": "Crowe's Sanctifiers Venerable Dreadnought: Guidance of the Ancients (Psychic)",
+        "ref": {
+          "kind": "ability",
+          "unit": "crowes-sanctifiers-venerable-dreadnought"
+        },
+        "reviewed": true,
+        "sid": "41323e9d-757a-424c-8048-fd10a69f31ff:crowes-sanctifiers-venerable-dreadnought",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Stealth",
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Stealth",
+            "when": null
+          },
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "vs": "melee",
+            "when": null
+          },
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": -1,
+            "vs": "melee",
+            "when": null
+          }
+        ],
+        "hash": "0e6a810e",
+        "kind": "ability",
+        "name": "Grand Master Voldus: Sanctuary",
+        "ref": {
+          "kind": "ability",
+          "unit": "grand-master-voldus"
+        },
+        "reviewed": true,
+        "sid": "7911d9a1-f1a1-4cbb-9904-d357e491ba53:grand-master-voldus",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 3,
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          },
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "s",
+            "value": 3,
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "bf1dc5bf",
+        "kind": "ability",
+        "name": "Grand Master: Might of Titan",
+        "ref": {
+          "kind": "ability",
+          "unit": "grand-master"
+        },
+        "reviewed": true,
+        "sid": "3c102e09-c8b3-4335-a6d9-7a3bffa591ec:grand-master",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "61237916",
+        "kind": "ability",
+        "name": "Kaldor Draigo: One With the Warp (Psychic)",
+        "ref": {
+          "kind": "ability",
+          "unit": "kaldor-draigo"
+        },
+        "reviewed": true,
+        "sid": "pack:kaldor-draigo:one-with-the-warp-psychic",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Feel No Pain 4+ (vs mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "3164196a",
+        "kind": "ability",
+        "name": "Kaldor Draigo: Untouchable Purity",
+        "ref": {
+          "kind": "ability",
+          "unit": "kaldor-draigo"
+        },
+        "reviewed": true,
+        "sid": "pack:kaldor-draigo:untouchable-purity",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": {
+              "en": "until the end of a turn it made a Charge move",
+              "ru": "до конца хода, в котором совершил Charge"
+            }
+          }
+        ],
+        "hash": "71577b8b",
+        "kind": "ability",
+        "name": "Paladin Squad: Attuned Onslaught",
+        "ref": {
+          "kind": "ability",
+          "unit": "paladin-squad"
+        },
+        "reviewed": true,
+        "sid": "2e6f2691-8a5a-4ab6-baf6-c9d6b1b6f0fd:paladin-squad",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "23dc7f8e",
+        "kind": "ability",
+        "name": "Purgation Squad: Righteous Persecution",
+        "ref": {
+          "kind": "ability",
+          "unit": "purgation-squad"
+        },
+        "reviewed": true,
+        "sid": "04c17a07-f99e-4e0d-93b5-640fd2fca087:purgation-squad",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "2c06b555",
+        "kind": "ability",
+        "name": "Razorback: Fire Focus",
+        "ref": {
+          "kind": "ability",
+          "unit": "razorback"
+        },
+        "reviewed": true,
+        "sid": "c34906ca-50ad-45af-a033-0813825c377d:razorback",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "aura",
+            "value": "Feel No Pain 6+ (vs mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "5ed21942",
+        "kind": "ability",
+        "name": "Rhino: Truesilver Aegis",
+        "ref": {
+          "kind": "ability",
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "GREY KNIGHTS"
+              ]
+            }
+          ],
+          "unit": "rhino"
+        },
+        "reviewed": true,
+        "sid": "cd629045-b8c3-4962-b72f-14996e74b8c4:rhino",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-led"
+            ],
+            "on": "ranged",
+            "op": "improve",
+            "stat": "bs",
+            "value": 1,
+            "when": {
+              "en": "while a BROTHERHOOD TECHMARINE is leading this unit",
+              "ru": "пока отряд ведёт BROTHERHOOD TECHMARINE"
+            }
+          },
+          {
+            "cond": [
+              "unit-led"
+            ],
+            "on": "melee",
+            "op": "improve",
+            "stat": "ws",
+            "value": 1,
+            "when": {
+              "en": "while a BROTHERHOOD TECHMARINE is leading this unit",
+              "ru": "пока отряд ведёт BROTHERHOOD TECHMARINE"
+            }
+          }
+        ],
+        "hash": "89b60d58",
+        "kind": "ability",
+        "name": "Servitors: Mindlock",
+        "ref": {
+          "kind": "ability",
+          "unit": "servitors"
+        },
+        "reviewed": true,
+        "sid": "pack:servitors:mindlock",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-led"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Deep Strike",
+            "when": {
+              "en": "while a BROTHERHOOD TECHMARINE is leading this unit",
+              "ru": "пока отряд ведёт BROTHERHOOD TECHMARINE"
+            }
+          }
+        ],
+        "hash": "2046c9ce",
+        "kind": "ability",
+        "name": "Servitors: Retinue",
+        "ref": {
+          "kind": "ability",
+          "unit": "servitors"
+        },
+        "reviewed": true,
+        "sid": "pack:servitors:retinue",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a unit that can FLY",
+              "ru": "по отряду с FLY"
+            }
+          }
+        ],
+        "hash": "205860ae",
+        "kind": "ability",
+        "name": "Stormhawk Interceptor: Interceptor",
+        "ref": {
+          "kind": "ability",
+          "unit": "stormhawk-interceptor"
+        },
+        "reviewed": true,
+        "sid": "349ad1d7-8340-47bd-bd2f-8ed6262b4ddb:stormhawk-interceptor",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "e577ede9",
+        "kind": "ability",
+        "name": "Stormraven Gunship: Armoured Resilience",
+        "ref": {
+          "kind": "ability",
+          "unit": "stormraven-gunship"
+        },
+        "reviewed": true,
+        "sid": "9c3665db-de45-42c3-acb0-b46b5bb04467:stormraven-gunship",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a unit that cannot FLY",
+              "ru": "по отряду без FLY"
+            }
+          }
+        ],
+        "hash": "1c8c1f3a",
+        "kind": "ability",
+        "name": "Stormtalon Gunship: Strafing Run",
+        "ref": {
+          "kind": "ability",
+          "unit": "stormtalon-gunship"
+        },
+        "reviewed": true,
+        "sid": "06c4375b-ee7a-4552-a5d0-2a55dcd6acdb:stormtalon-gunship",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "02b2e345",
+        "kind": "ability",
+        "name": "Venerable Dreadnought: Guidance of the Ancients",
+        "ref": {
+          "kind": "ability",
+          "unit": "venerable-dreadnought"
+        },
+        "reviewed": true,
+        "sid": "b45355c5-7cfa-4792-b7ee-826e06fe07f4:venerable-dreadnought",
+        "ver": 925
+      },
+      {
+        "det": "Argent Assault",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "when the attack’s S is lower than the target’s T",
+              "ru": "когда S атаки ниже T цели"
+            }
+          }
+        ],
+        "hash": "1494fb50",
+        "kind": "detachmentRule",
+        "name": "Dauntless Champions",
+        "ref": {
+          "det": "argent-assault",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "1c8db7d2-8995-4be6-a4ba-a8f9c1c56af3",
+        "ver": 995
+      },
+      {
+        "det": "Banishers",
+        "effects": [
+          {
+            "cond": [
+              "channelled-sustained"
+            ],
+            "on": "melee",
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while that Leadership test was passed and this rule was the one selected",
+              "ru": "пока пройден тест Leadership и выбрано именно это правило"
+            }
+          },
+          {
+            "cond": [
+              "channelled-lethal"
+            ],
+            "on": "melee",
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while that Leadership test was passed and this rule was the one selected",
+              "ru": "пока пройден тест Leadership и выбрано именно это правило"
+            }
+          }
+        ],
+        "hash": "5abc516f",
+        "kind": "detachmentRule",
+        "name": "Channelled Force",
+        "ref": {
+          "det": "banishers",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "ed4a222f-7ed6-4e9d-b310-0cb08a3c4906",
+        "ver": 925
+      },
+      {
+        "det": "Sanctic Spearhead",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 6,
+            "when": {
+              "en": "each time that unit Advances, until the end of the phase (replacing the Advance roll)",
+              "ru": "каждый раз, когда юнит совершает Advance, до конца фазы (вместо броска Advance)"
+            }
+          },
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": {
+              "en": "until the end of the turn in which that unit Advanced",
+              "ru": "до конца хода, в котором юнит совершил Advance"
+            }
+          }
+        ],
+        "hash": "102c3a47",
+        "kind": "detachmentRule",
+        "name": "Mailed Fist",
+        "ref": {
+          "det": "sanctic-spearhead",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "a2c33cb8-a90f-427a-b1b2-7f15b0207e36",
+        "ver": 925
+      },
+      {
+        "det": "Augurium Task Force",
+        "effects": [
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "s",
+            "value": 4,
+            "when": {
+              "en": "once per battle, for the Fight phase the bearer uses this Enhancement in",
+              "ru": "один раз за битву, на фазу боя, в которой носитель применил улучшение"
+            }
+          }
+        ],
+        "hash": "0fb47ae2",
+        "kind": "enhancement",
+        "name": "Grimoire of Conjunctions",
+        "ref": {
+          "det": "augurium-task-force",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "5ab1864a-e524-4b61-977f-1a0c81e33caa",
+        "ver": 925
+      },
+      {
+        "det": "Augurium Task Force",
+        "effects": [
+          {
+            "on": "profile",
+            "once": {
+              "dur": "round",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "t",
+            "target": "led",
+            "value": 2,
+            "when": {
+              "en": "once per battle, for the battle round the bearer uses this Enhancement in",
+              "ru": "один раз за битву, на раунд, в котором носитель применил улучшение"
+            }
+          }
+        ],
+        "hash": "b0275bc1",
+        "kind": "enhancement",
+        "name": "Shield of Prophecy",
+        "ref": {
+          "det": "augurium-task-force",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "f5d9692e-4936-4beb-8936-4c26089d74d5",
+        "ver": 925
+      },
+      {
+        "det": "Banishers",
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "in your Shooting phase, for models in the bearer's unit",
+              "ru": "в вашей фазе стрельбы, для моделей в отряде носителя"
+            }
+          }
+        ],
+        "hash": "898eb4bf",
+        "kind": "enhancement",
+        "name": "Sixty-sixth Seal",
+        "ref": {
+          "det": "banishers",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "a4dda913-e9d9-496e-8c10-fcb30949276e",
+        "ver": 925
+      },
+      {
+        "det": "Brotherhood Strike",
+        "effects": [],
+        "hash": "5e8b3871",
+        "kind": "enhancement",
+        "name": "Tome of Forbidden Ways",
+        "ref": {
+          "det": "brotherhood-strike",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "3c84e9b3-44f8-4af4-bb0f-34a1a34f5944",
+        "ver": 925
+      },
+      {
+        "det": "Crowe’s Sanctifiers",
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "army"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "once per battle, when this unit is selected to fight after making a charge move",
+              "ru": "раз за битву, когда юнит выбран для боя после charge-перемещения"
+            }
+          }
+        ],
+        "hash": "e9618825",
+        "kind": "enhancement",
+        "name": "Purifying Force",
+        "ref": {
+          "det": "cp:grey-knights",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "057f85bb-3dff-4710-9cad-85ebb9cd2e9a",
+        "ver": 925
+      },
+      {
+        "det": "Fires of Purgation",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "add",
+            "stat": "s",
+            "target": "unit",
+            "value": 2,
+            "when": null
+          }
+        ],
+        "hash": "05162876",
+        "kind": "enhancement",
+        "name": "Boons of Deimos (Upgrade)",
+        "ref": {
+          "det": "fires-of-purgation",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "880712dd-e7d0-4140-8b54-c7d395724841",
+        "ver": 925
+      },
+      {
+        "det": "Hallowed Conclave",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 3,
+            "when": null
+          }
+        ],
+        "hash": "4c478233",
+        "kind": "enhancement",
+        "name": "Sanctic Reaper",
+        "ref": {
+          "det": "hallowed-conclave",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "de7be923-5642-4bf5-b8da-1ad373303f47",
+        "ver": 925
+      },
+      {
+        "det": "Immaterial Interdiction",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "8641a349",
+        "kind": "enhancement",
+        "name": "Astral Overlap (Upgrade)",
+        "ref": {
+          "det": "immaterial-interdiction",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "8f60b2f9-89ee-44cc-8294-35da72e5e06d",
+        "ver": 925
+      },
+      {
+        "det": "Warpbane Task Force",
+        "effects": [
+          {
+            "cond": [
+              "unit-not-battle-shocked"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 3,
+            "when": {
+              "en": "while the bearer's unit is not Battle-shocked",
+              "ru": "пока отряд носителя не Battle-shocked"
+            }
+          }
+        ],
+        "hash": "88c734a9",
+        "kind": "enhancement",
+        "name": "Mandulian Reliquary",
+        "ref": {
+          "det": "warpbane-task-force",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "be02d133-6751-4ea3-b302-4630469a0d4d",
+        "ver": 925
+      },
+      {
+        "det": "Warpbane Task Force",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "8c9f4350",
+        "kind": "enhancement",
+        "name": "Phial of the Abyss",
+        "ref": {
+          "det": "warpbane-task-force",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "ceb1ad8f-9980-4f08-b06a-9b8da67a5b65",
+        "ver": 925
+      },
+      {
+        "det": "Warpbane Task Force",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": null
+          }
+        ],
+        "hash": "be39ba82",
+        "kind": "enhancement",
+        "name": "Radiant Champion",
+        "ref": {
+          "det": "warpbane-task-force",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "e3ead97e-e27b-44e0-b925-95a9551416f9",
+        "ver": 925
+      },
+      {
+        "det": "Argent Assault",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "bf79a709",
+        "kind": "stratagem",
+        "name": "A Threat Ended",
+        "ref": {
+          "det": "argent-assault",
+          "kind": "stratagem",
+          "name": "A Threat Ended"
+        },
+        "reviewed": true,
+        "sid": "8b08bfd2-6a32-44ab-a2c4-901589090107",
+        "ver": 925
+      },
+      {
+        "det": "Argent Assault",
+        "effects": [],
+        "hash": "137c1e4f",
+        "kind": "stratagem",
+        "name": "Aura of Vengeance",
+        "ref": {
+          "det": "argent-assault",
+          "kind": "stratagem",
+          "name": "Aura of Vengeance"
+        },
+        "reviewed": true,
+        "sid": "ecc6a3a8-9b28-4bc6-a7aa-16c9a54cde85",
+        "ver": 925
+      },
+      {
+        "det": "Argent Assault",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+ (vs mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "84dbd5f5",
+        "kind": "stratagem",
+        "name": "Truesilver Aegis",
+        "ref": {
+          "det": "argent-assault",
+          "kind": "stratagem",
+          "name": "Truesilver Aegis"
+        },
+        "reviewed": true,
+        "sid": "6ea42dae-8e52-4643-b989-169bcb5ff983",
+        "ver": 925
+      },
+      {
+        "det": "Augurium Task Force",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "214dc667",
+        "kind": "stratagem",
+        "name": "Forewarned Evasion",
+        "ref": {
+          "det": "augurium-task-force",
+          "kind": "stratagem",
+          "name": "Forewarned Evasion"
+        },
+        "reviewed": true,
+        "sid": "c11cfbb8-bc11-4d44-bb9e-70ac3cca22cb",
+        "ver": 995
+      },
+      {
+        "det": "Augurium Task Force",
+        "effects": [],
+        "hash": "5693e5bd",
+        "kind": "stratagem",
+        "name": "Mirage of Echoes",
+        "ref": {
+          "det": "augurium-task-force",
+          "kind": "stratagem",
+          "name": "Mirage of Echoes"
+        },
+        "reviewed": true,
+        "sid": "1d199aa0-6532-4d07-92b0-bb05550242b5",
+        "ver": 925
+      },
+      {
+        "det": "Augurium Task Force",
+        "effects": [],
+        "hash": "e84d3193",
+        "kind": "stratagem",
+        "name": "Redirected Strike",
+        "ref": {
+          "det": "augurium-task-force",
+          "kind": "stratagem",
+          "name": "Redirected Strike"
+        },
+        "reviewed": true,
+        "sid": "979b7a00-af6b-410d-b702-43ea02eb6148",
+        "ver": 925
+      },
+      {
+        "det": "Banishers",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-CHAOS 4+",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "bb122aa6",
+        "kind": "stratagem",
+        "name": "Chaos Bane",
+        "ref": {
+          "det": "banishers",
+          "kind": "stratagem",
+          "name": "Chaos Bane"
+        },
+        "reviewed": true,
+        "sid": "b325fd46-a00d-4ea6-87f6-f003609e2c7a",
+        "ver": 925
+      },
+      {
+        "det": "Banishers",
+        "effects": [],
+        "hash": "d16b881f",
+        "kind": "stratagem",
+        "name": "Shadow of Anarch",
+        "ref": {
+          "det": "banishers",
+          "kind": "stratagem",
+          "name": "Shadow of Anarch"
+        },
+        "reviewed": true,
+        "sid": "47e924b5-01af-47a4-8ca8-509808d47818",
+        "ver": 925
+      },
+      {
+        "det": "Banishers",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+ (vs attacks with an unmodified Damage characteristic of 1)",
+            "when": null
+          }
+        ],
+        "hash": "6625f677",
+        "kind": "stratagem",
+        "name": "Warding Chant",
+        "ref": {
+          "det": "banishers",
+          "kind": "stratagem",
+          "name": "Warding Chant"
+        },
+        "reviewed": true,
+        "sid": "5b8c5b24-068e-42ca-a55c-85efa99df5bf",
+        "ver": 925
+      },
+      {
+        "det": "Brotherhood Strike",
+        "effects": [],
+        "hash": "5693e5bd",
+        "kind": "stratagem",
+        "name": "Duty Unending",
+        "ref": {
+          "det": "brotherhood-strike",
+          "kind": "stratagem",
+          "name": "Duty Unending"
+        },
+        "reviewed": true,
+        "sid": "f4ee723f-87ba-49df-a34a-a31358b591ae",
+        "ver": 925
+      },
+      {
+        "det": "Brotherhood Strike",
+        "effects": [],
+        "hash": "daec86ef",
+        "kind": "stratagem",
+        "name": "Expeditious Exit",
+        "ref": {
+          "det": "brotherhood-strike",
+          "kind": "stratagem",
+          "name": "Expeditious Exit"
+        },
+        "reviewed": true,
+        "sid": "faec38a4-dc35-4f94-a2bc-7529c196ad9b",
+        "ver": 925
+      },
+      {
+        "det": "Brotherhood Strike",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "fd0d603c",
+        "kind": "stratagem",
+        "name": "Purgation Pattern",
+        "ref": {
+          "det": "brotherhood-strike",
+          "kind": "stratagem",
+          "name": "Purgation Pattern"
+        },
+        "reviewed": true,
+        "sid": "70353176-4c50-48d7-80a5-8f84c5bdeac8",
+        "ver": 925
+      },
+      {
+        "det": "Brotherhood Strike",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Stealth",
+            "when": null
+          }
+        ],
+        "hash": "f489250a",
+        "kind": "stratagem",
+        "name": "Shining Veil",
+        "ref": {
+          "det": "brotherhood-strike",
+          "kind": "stratagem",
+          "name": "Shining Veil"
+        },
+        "reviewed": true,
+        "sid": "fe2f9054-f743-412b-a33d-f6de5dec93dc",
+        "ver": 925
+      },
+      {
+        "det": "Brotherhood Strike",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "only": {
+              "tag": "PSYCHIC"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "425bf3c4",
+        "kind": "stratagem",
+        "name": "Truesilver Channelling",
+        "ref": {
+          "det": "brotherhood-strike",
+          "kind": "stratagem",
+          "name": "Truesilver Channelling"
+        },
+        "reviewed": true,
+        "sid": "c27c1fef-b27d-4d79-a325-8081ab9992c9",
+        "ver": 925
+      },
+      {
+        "det": "Crowe’s Sanctifiers",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "name": "Storm bolter"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "PSYCHIC",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "f7bbc5ac",
+        "kind": "stratagem",
+        "name": "Psi-reactive Ammunition",
+        "ref": {
+          "det": "cp:grey-knights",
+          "kind": "stratagem",
+          "name": "Psi-reactive Ammunition"
+        },
+        "reviewed": true,
+        "sid": "ec8379f3-0e51-4799-9b31-72811587a410",
+        "ver": 925
+      },
+      {
+        "det": "Crowe’s Sanctifiers",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "ranged-s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "f5133a4b",
+        "kind": "stratagem",
+        "name": "Refusal to Yield",
+        "ref": {
+          "det": "cp:grey-knights",
+          "kind": "stratagem",
+          "name": "Refusal to Yield"
+        },
+        "reviewed": true,
+        "sid": "48228ed3-39eb-46b6-ba1c-34ad3e8a0613",
+        "ver": 995
+      },
+      {
+        "det": "Fires of Purgation",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "against the selected enemy unit",
+              "ru": "против выбранного вражеского отряда"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "against the selected enemy unit",
+              "ru": "против выбранного вражеского отряда"
+            }
+          }
+        ],
+        "hash": "e601b175",
+        "kind": "stratagem",
+        "name": "Focused Immolation",
+        "ref": {
+          "det": "fires-of-purgation",
+          "kind": "stratagem",
+          "name": "Focused Immolation"
+        },
+        "reviewed": true,
+        "sid": "f574a3d4-d1ed-4a60-a2de-f3d989784f63",
+        "ver": 995
+      },
+      {
+        "det": "Hallowed Conclave",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "6547cad0",
+        "kind": "stratagem",
+        "name": "Giants of the Battlefield",
+        "ref": {
+          "det": "hallowed-conclave",
+          "kind": "stratagem",
+          "name": "Giants of the Battlefield"
+        },
+        "reviewed": true,
+        "sid": "5d77830b-d1f3-4b68-be52-4897eec1df38",
+        "ver": 925
+      },
+      {
+        "det": "Hallowed Conclave",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "name": "Storm bolter"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "PISTOL",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "on": "ranged",
+            "only": {
+              "name": "Storm bolter"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "TWIN-LINKED",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "4d46a400",
+        "kind": "stratagem",
+        "name": "Point-Blank Purgation",
+        "ref": {
+          "det": "hallowed-conclave",
+          "kind": "stratagem",
+          "name": "Point-Blank Purgation"
+        },
+        "reviewed": true,
+        "sid": "c0addec3-227c-404f-a291-d2cbf4e87772",
+        "ver": 925
+      },
+      {
+        "det": "Hallowed Conclave",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "e353048d",
+        "kind": "stratagem",
+        "name": "Shining Resolve",
+        "ref": {
+          "det": "hallowed-conclave",
+          "kind": "stratagem",
+          "name": "Shining Resolve"
+        },
+        "reviewed": true,
+        "sid": "cc57b05a-4f98-4d78-9e26-f9ae67f6dd79",
+        "ver": 995
+      },
+      {
+        "det": "Immaterial Interdiction",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LANCE",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "127e1a54",
+        "kind": "stratagem",
+        "name": "Blades from the Beyond",
+        "ref": {
+          "det": "immaterial-interdiction",
+          "kind": "stratagem",
+          "name": "Blades from the Beyond"
+        },
+        "reviewed": true,
+        "sid": "d06f1a14-1634-4911-acfb-6eb2caded2d2",
+        "ver": 925
+      },
+      {
+        "det": "Sanctic Spearhead",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against a MONSTER or VEHICLE unit",
+              "ru": "по отряду MONSTER или VEHICLE"
+            }
+          }
+        ],
+        "hash": "9754786c",
+        "kind": "stratagem",
+        "name": "Abominus-Class Targets",
+        "ref": {
+          "det": "sanctic-spearhead",
+          "kind": "stratagem",
+          "name": "Abominus-Class Targets"
+        },
+        "reviewed": true,
+        "sid": "2bb127f0-35c3-4e5c-b9b3-86eb75105241",
+        "ver": 925
+      },
+      {
+        "det": "Sanctic Spearhead",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+ (vs mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "f75e2a98",
+        "kind": "stratagem",
+        "name": "Truesilver Will",
+        "ref": {
+          "det": "sanctic-spearhead",
+          "kind": "stratagem",
+          "name": "Truesilver Will"
+        },
+        "reviewed": true,
+        "sid": "ff093638-de55-4e06-be1c-74f65ba523e7",
+        "ver": 925
+      },
+      {
+        "det": "Warpbane Task Force",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "while wholly within your Hallowed Ground",
+              "ru": "пока полностью в своей Hallowed Ground"
+            }
+          }
+        ],
+        "hash": "19be779c",
+        "kind": "stratagem",
+        "name": "Aegis Eternal",
+        "ref": {
+          "det": "warpbane-task-force",
+          "kind": "stratagem",
+          "name": "Aegis Eternal"
+        },
+        "reviewed": true,
+        "sid": "31a2dff2-e760-462d-b57a-6fe1159bd900",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "ec06b6a4",
+        "kind": "wargear",
+        "name": "Brotherhood Terminator Squad: Ancient’s Banner",
+        "ref": {
+          "item": "ancient's banner",
+          "kind": "wargear",
+          "unit": "brotherhood-terminator-squad"
+        },
+        "reviewed": true,
+        "sid": "314a4643-59ab-4fd8-a1a8-d05172bb2070:brotherhood-terminator-squad",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "ec06b6a4",
+        "kind": "wargear",
+        "name": "Paladin Squad: Ancient’s Banner",
+        "ref": {
+          "item": "ancient's banner",
+          "kind": "wargear",
+          "unit": "paladin-squad"
+        },
+        "reviewed": true,
+        "sid": "314a4643-59ab-4fd8-a1a8-d05172bb2070:paladin-squad",
+        "ver": 925
+      }
+    ],
+    "formatVersion": 1,
+    "slug": "grey-knights"
+  }
+}

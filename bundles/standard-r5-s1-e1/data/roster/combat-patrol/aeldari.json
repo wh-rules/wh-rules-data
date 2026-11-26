@@ -1,0 +1,285 @@
+{
+  "default": {
+    "box": "aeldari",
+    "detachment": {
+      "dp": 0,
+      "enhancements": [
+        {
+          "name": "Seer’s Hand",
+          "pts": null,
+          "req": [
+            {
+              "ds": "Spiritseer Kygharil"
+            }
+          ],
+          "type": "miniature"
+        },
+        {
+          "name": "Guided Jump",
+          "nonCharOk": 1,
+          "pts": null,
+          "req": [
+            {
+              "ds": "Kygharil's Protectors Warp Spiders"
+            }
+          ],
+          "type": "upgrade"
+        }
+      ],
+      "linkedUnits": [
+        {
+          "count": 1,
+          "unit": "kygharils-protectors-warp-spiders"
+        },
+        {
+          "count": 1,
+          "unit": "spiritseer-kygharil",
+          "warlord": 1
+        },
+        {
+          "count": 1,
+          "unit": "kygharils-protectors-wraithblades"
+        },
+        {
+          "count": 1,
+          "unit": "kygharils-protectors-dire-avengers"
+        },
+        {
+          "count": 1,
+          "unit": "kygharils-protectors-dire-avengers"
+        }
+      ],
+      "name": "Kygharil's Protectors",
+      "sid": "e2abadaf-e69a-46af-aa29-a58999f1626e"
+    },
+    "slug": "aeldari",
+    "units": [
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                3618,
+                1
+              ],
+              [
+                3619,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3620,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Asuryani"
+        ],
+        "flags": {},
+        "id": "kygharils-protectors-dire-avengers",
+        "kws": [
+          "Aeldari",
+          "Aspect Warriors",
+          "Infantry",
+          "Kygharil's Protectors"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Dire Avengers Exarch"
+          },
+          {
+            "n": "Dire Avenger"
+          }
+        ],
+        "modelKws": {},
+        "name": "Kygharil's Protectors Dire Avengers",
+        "sid": "a73e601d-1ccf-42b5-bb19-a1435979f5f6",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3611,
+                1
+              ],
+              [
+                3612,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3613,
+                1
+              ],
+              [
+                3614,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Asuryani"
+        ],
+        "flags": {},
+        "id": "kygharils-protectors-warp-spiders",
+        "kws": [
+          "Aeldari",
+          "Aspect Warriors",
+          "Fly",
+          "Infantry",
+          "Jump Pack",
+          "Kygharil's Protectors"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Warp Spider"
+          },
+          {
+            "n": "Warp Spider Exarch"
+          }
+        ],
+        "modelKws": {},
+        "name": "Kygharil's Protectors Warp Spiders",
+        "sid": "0e152f7b-273f-4777-9a91-f2d41df046cc",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3617,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Asuryani"
+        ],
+        "flags": {},
+        "id": "kygharils-protectors-wraithblades",
+        "kws": [
+          "Aeldari",
+          "Infantry",
+          "Kygharil's Protectors",
+          "Wraith Construct"
+        ],
+        "linked": 1,
+        "name": "Kygharil's Protectors Wraithblades",
+        "sid": "889190ed-7749-4faa-aff9-fe9143598d3f",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3615,
+                1
+              ],
+              [
+                3616,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Asuryani"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "spiritseer-kygharil",
+        "kws": [
+          "Aeldari",
+          "Character",
+          "Infantry",
+          "Kygharil's Protectors",
+          "Psyker",
+          "Spiritseer"
+        ],
+        "linked": 1,
+        "name": "Spiritseer Kygharil",
+        "sid": "2fdd95a6-8895-4d9d-b9e6-2552f0444409",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      }
+    ]
+  }
+}

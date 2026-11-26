@@ -1,0 +1,391 @@
+{
+  "default": {
+    "box": "death-guard",
+    "detachment": {
+      "dp": 0,
+      "enhancements": [
+        {
+          "name": "Noisome Veil",
+          "pts": null,
+          "req": [
+            {
+              "kw": [
+                "Tallyman",
+                "Maggot Lords"
+              ]
+            }
+          ],
+          "type": "miniature"
+        },
+        {
+          "name": "Bountiful Regeneration",
+          "pts": null,
+          "req": [
+            {
+              "kw": [
+                "Maggot Lords",
+                "Lord of Virulence"
+              ]
+            }
+          ],
+          "type": "miniature"
+        }
+      ],
+      "linkedUnits": [
+        {
+          "count": 1,
+          "unit": "sholgor-the-putrid",
+          "warlord": 1
+        },
+        {
+          "count": 1,
+          "unit": "maggot-lords-chaos-rhino"
+        },
+        {
+          "count": 1,
+          "unit": "maggot-lords-deathshroud-terminators"
+        },
+        {
+          "count": 1,
+          "unit": "septimol-fulg-maggot-lords-tallyman"
+        },
+        {
+          "count": 1,
+          "unit": "maggot-lords-plague-marines"
+        }
+      ],
+      "name": "Maggot Lords",
+      "sid": "23c14859-d404-4a9e-88cb-ae67386a4551"
+    },
+    "slug": "death-guard",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3661,
+                1
+              ],
+              [
+                3662,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {},
+        "id": "maggot-lords-chaos-rhino",
+        "kws": [
+          "Chaos",
+          "Dedicated Transport",
+          "Maggot Lords",
+          "Nurgle",
+          "Smoke",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Maggot Lords Chaos Rhino",
+        "sid": "039e5e50-ab01-4e20-b8ec-32fc3c30986c",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                3663,
+                1
+              ],
+              [
+                3664,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3663,
+                1
+              ],
+              [
+                3664,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {},
+        "id": "maggot-lords-deathshroud-terminators",
+        "kws": [
+          "Chaos",
+          "Infantry",
+          "Maggot Lords",
+          "Nurgle",
+          "Terminator"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Deathshroud Terminator"
+          },
+          {
+            "n": "Deathshroud Champion"
+          }
+        ],
+        "modelKws": {},
+        "name": "Maggot Lords Deathshroud Terminators",
+        "sid": "2baa84cf-c81a-4340-960e-43a0e27ae66a",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            3,
+            [
+              [
+                3667,
+                1
+              ],
+              [
+                3668,
+                1
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                3669,
+                1
+              ],
+              [
+                3670,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3668,
+                1
+              ],
+              [
+                3671,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3672,
+                1
+              ],
+              [
+                3668,
+                1
+              ]
+            ]
+          ]
+        ],
+        "flags": {},
+        "id": "maggot-lords-plague-marines",
+        "kws": [
+          "Battleline",
+          "Chaos",
+          "Explosives",
+          "Infantry",
+          "Maggot Lords",
+          "Nurgle"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Plague Marine with Plague Spewer"
+          },
+          {
+            "n": "Plague Marine"
+          },
+          {
+            "n": "Plague Champion"
+          },
+          {
+            "n": "Plague Marine with Blight Launcher"
+          }
+        ],
+        "modelKws": {},
+        "name": "Maggot Lords Plague Marines",
+        "sid": "b6b073ee-aff6-4990-9e82-11040c226908",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              7,
+              7
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3665,
+                1
+              ],
+              [
+                3666,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "septimol-fulg-maggot-lords-tallyman",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Infantry",
+          "Maggot Lords",
+          "Nurgle",
+          "Tallyman"
+        ],
+        "linked": 1,
+        "name": "Septimol Fulg, Maggot Lords Tallyman",
+        "sid": "4128b241-1357-4f94-bfce-a32583ce6f53",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3659,
+                1
+              ],
+              [
+                3660,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Death Guard"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "sholgor-the-putrid",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Infantry",
+          "Lord of Virulence",
+          "Maggot Lords",
+          "Nurgle",
+          "Terminator"
+        ],
+        "leads": [
+          {
+            "to": "maggot-lords-deathshroud-terminators",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Sholgor the Putrid",
+        "sid": "0037a838-5993-4cfe-8d14-064f0bb4d9e0",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,4270 @@
+{
+  "default": {
+    "allies": [
+      {
+        "ids": [
+          "titan-legions:reaver-titan",
+          "titan-legions:warbringer-nemesis-titan",
+          "titan-legions:warhound-titan",
+          "titan-legions:warlord-titan"
+        ],
+        "key": "adeptus-titanicus",
+        "lim": {
+          "Reaver Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warbringer Nemesis Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warhound Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warlord Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          }
+        },
+        "mutex": 1,
+        "name": "Adeptus Titanicus"
+      },
+      {
+        "free": [
+          {
+            "donor": [
+              "Inquisitor"
+            ],
+            "kw": "Retinue",
+            "recv": [
+              "Inquisitorial Agents"
+            ]
+          },
+          {
+            "donor": [
+              "Character",
+              "Voidfarers"
+            ],
+            "kw": "Retinue",
+            "recv": [
+              "Voidsmen-At-Arms"
+            ]
+          }
+        ],
+        "ids": [
+          "imperial-agents:aquila-kill-team",
+          "imperial-agents:callidus-assassin",
+          "imperial-agents:corvus-blackstar",
+          "imperial-agents:culexus-assassin",
+          "imperial-agents:deathwatch-kill-team",
+          "imperial-agents:eversor-assassin",
+          "imperial-agents:exaction-squad",
+          "imperial-agents:grey-knights-terminator-squad",
+          "imperial-agents:imperial-navy-breachers",
+          "imperial-agents:imperial-rhino",
+          "imperial-agents:inquisitor",
+          "imperial-agents:inquisitor-coteaz",
+          "imperial-agents:inquisitor-draxus",
+          "imperial-agents:inquisitor-greyfax",
+          "imperial-agents:inquisitor-kroyle",
+          "imperial-agents:inquisitorial-agents",
+          "imperial-agents:inquisitorial-chimera",
+          "imperial-agents:ministorum-priest",
+          "imperial-agents:navigator",
+          "imperial-agents:rogue-trader-entourage",
+          "imperial-agents:sanctifiers",
+          "imperial-agents:sisters-of-battle-immolator",
+          "imperial-agents:sisters-of-battle-squad",
+          "imperial-agents:subductor-squad",
+          "imperial-agents:vigilant-squad",
+          "imperial-agents:vindicare-assassin",
+          "imperial-agents:voidsmen-at-arms",
+          "imperial-agents:watch-captain-artemis",
+          "imperial-agents:watch-master"
+        ],
+        "key": "agents-of-the-imperium",
+        "lim": {
+          "Character": {
+            "incursion": 1,
+            "onslaught": 3,
+            "strike-force": 2
+          },
+          "Requisitioned": {
+            "incursion": 1,
+            "onslaught": 2,
+            "strike-force": 1
+          },
+          "Retinue": {
+            "incursion": 1,
+            "onslaught": 3,
+            "strike-force": 2
+          }
+        },
+        "name": "Agents of the Imperium",
+        "up": {
+          "imperial-agents:eversor-assassin": {
+            "1": 110
+          },
+          "imperial-agents:exaction-squad": {
+            "11": 85
+          },
+          "imperial-agents:grey-knights-terminator-squad": {
+            "5": 190
+          },
+          "imperial-agents:inquisitor": {
+            "1": 65
+          },
+          "imperial-agents:inquisitor-coteaz": {
+            "1": 95
+          },
+          "imperial-agents:inquisitor-draxus": {
+            "1": 110
+          },
+          "imperial-agents:inquisitorial-agents": {
+            "6": 60,
+            "11": 120,
+            "12": 120
+          },
+          "imperial-agents:navigator": {
+            "1": 75
+          },
+          "imperial-agents:rogue-trader-entourage": {
+            "4": 105
+          },
+          "imperial-agents:sisters-of-battle-immolator": {
+            "1": 105
+          },
+          "imperial-agents:sisters-of-battle-squad": {
+            "10": 110
+          },
+          "imperial-agents:subductor-squad": {
+            "11": 100
+          },
+          "imperial-agents:vindicare-assassin": {
+            "1": 125
+          },
+          "imperial-agents:voidsmen-at-arms": {
+            "6": 70
+          }
+        }
+      },
+      {
+        "ids": [
+          "imperial-knights:acastus-knight-asterius",
+          "imperial-knights:acastus-knight-porphyrion",
+          "imperial-knights:armiger-helverin",
+          "imperial-knights:armiger-moirax",
+          "imperial-knights:armiger-warglaive",
+          "imperial-knights:canis-rex",
+          "imperial-knights:cerastus-knight-acheron",
+          "imperial-knights:cerastus-knight-atrapos",
+          "imperial-knights:cerastus-knight-castigator",
+          "imperial-knights:cerastus-knight-lancer",
+          "imperial-knights:knight-castellan",
+          "imperial-knights:knight-crusader",
+          "imperial-knights:knight-defender",
+          "imperial-knights:knight-destrier",
+          "imperial-knights:knight-errant",
+          "imperial-knights:knight-gallant",
+          "imperial-knights:knight-paladin",
+          "imperial-knights:knight-preceptor",
+          "imperial-knights:knight-valiant",
+          "imperial-knights:knight-warden",
+          "imperial-knights:questoris-knight-magaera",
+          "imperial-knights:questoris-knight-styrix"
+        ],
+        "key": "imperial-knights",
+        "lim": {
+          "Armiger": {
+            "incursion": 3,
+            "onslaught": 3,
+            "strike-force": 3
+          },
+          "Titanic": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          }
+        },
+        "mutex": 1,
+        "name": "Imperial Knights"
+      }
+    ],
+    "detachments": [
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Explorator Dispensation",
+            "pts": 20,
+            "req": [
+              {
+                "ds": "Skitarii Marshal",
+                "fac": [
+                  "Adeptus Mechanicus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "limit": 3,
+            "name": "Stealth-screened Cybercanids (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "ds": "Serberys Raiders",
+                "fac": [
+                  "Adeptus Mechanicus"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Cohort Acquisitus",
+        "sid": "b8fe0260-4813-45c4-996b-1622ae022223"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Necromechanic",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Tech-Priest"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Lord of Machines",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Tech-Priest"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Emotionless Clarity",
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "Tech-Priest"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Arch-negator",
+            "pts": 5,
+            "req": [
+              {
+                "kw": [
+                  "Tech-Priest"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Cohort Cybernetica",
+        "sid": "8affc9e3-5c18-407d-9221-78bb107b7bd5"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Mechanicus Locum",
+            "pts": 5,
+            "req": [
+              {
+                "kw": [
+                  "Tech-Priest"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Mantle of the Gnosticarch",
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "Tech-Priest"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Data-blessed Autosermon",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Tech-Priest"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Temporcopia",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Tech-Priest"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Disruption"
+        ],
+        "name": "Data-psalm Conclave",
+        "sid": "a6cedc66-4c91-4957-b8c3-fa1b30fd8f5a",
+        "unique": "DATA-PSALM"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Omnicogitator",
+            "pts": 25,
+            "req": [
+              {
+                "kw": [
+                  "Skitarii",
+                  "Marshal"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Martial Signatum Amplificator",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Tech-Priest"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Belicosa-class Capacitor Vanes",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Mechanicus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Omnissiah’s Fury",
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "Skitarii",
+                  "Marshal"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Eradication Cohort",
+        "sid": "ef26ded5-b525-47c9-8329-deaab91c2c74"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Magos",
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "Tech-Priest"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Genetor",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Tech-Priest"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Logis",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Tech-Priest"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Artisan",
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "Tech-Priest"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Explorator Maniple",
+        "sid": "cdf5ae0a-7913-4ebc-b7c8-949f48e869f8"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Transoracular Dyad Wafers",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Cybernetica Datasmith"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "exclKw": [
+              "Cybernetica Datasmith"
+            ],
+            "name": "Cognitive Reinforcement",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Mechanicus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Sanctified Ordnance",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Mechanicus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Inloaded Lethality",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Manipulus"
+                ]
+              },
+              {
+                "kw": [
+                  "Dominus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets",
+          "Purge the Foe"
+        ],
+        "name": "Haloscreed Battle Clade",
+        "sid": "1f88f9ac-0833-4f98-8c7c-81d0fe96b6c1"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Vingh’s Wafers of Dynamism",
+            "pts": 25,
+            "req": [
+              {
+                "ds": "Cybernetica Datasmith",
+                "fac": [
+                  "Adeptus Mechanicus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "TL-4ø9",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Mechanicus"
+                ],
+                "kw": [
+                  "Tech-Priest"
+                ]
+              }
+            ],
+            "type": "miniature",
+            "weapons": {
+              "melee": [],
+              "ranged": [
+                {
+                  "a": "3",
+                  "ap": "-2",
+                  "bs": "2+",
+                  "d": "D3+2",
+                  "name": "TL-4ø9",
+                  "range": "24\"",
+                  "s": "11",
+                  "tags": [
+                    "DEVASTATING WOUNDS",
+                    "HAZARDOUS"
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Lords of the Forge",
+        "sid": "8a1e297b-d845-493b-9371-1e245b85b98a"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Voltagheist Reliquary",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Mechanicus"
+                ],
+                "kw": [
+                  "Tech-Priest"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Electromiasmic Brazier",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Mechanicus"
+                ],
+                "kw": [
+                  "Tech-Priest"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Disruption"
+        ],
+        "name": "Luminen Auto-Choir",
+        "sid": "40fdf203-095d-45f2-9678-3a0e7c30346d",
+        "unique": "DATA-PSALM"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Radial Suffusion",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Mechanicus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Malphonic Susurrus",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Mechanicus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Peerless Eradicator",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Mechanicus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Autoclavic Denunciation",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Mechanicus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Rad-Zone Corps",
+        "sid": "e00b5962-4b5a-4857-bb5d-d1372e762d2f"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Cantic Thrallnet",
+            "pts": 25,
+            "req": [
+              {
+                "kw": [
+                  "Marshal"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Clandestine Infiltrator",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Skitarii"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Veiled Hunter",
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "Marshal"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Battle-sphere Uplink",
+            "pts": 25,
+            "req": [
+              {
+                "kw": [
+                  "Skitarii"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Skitarii Hunter Cohort",
+        "sid": "a3be11dc-9a25-4d6b-90a2-1828e6d2d10b"
+      }
+    ],
+    "name": "Adeptus Mechanicus",
+    "slug": "adeptus-mechanicus",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                210,
+                1
+              ],
+              [
+                211,
+                1
+              ],
+              [
+                212,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                213
+              ]
+            ],
+            "rep": [
+              211
+            ],
+            "t": 71
+          }
+        ],
+        "id": "archaeopter-fusilave",
+        "kws": [
+          "Aircraft",
+          "Archaeopter Fusilave",
+          "Fly",
+          "Imperium",
+          "Skitarii",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Archaeopter Fusilave",
+        "sid": "6f208b5a-78ff-48d0-9f9e-324cfbc80e9d",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 160
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                211,
+                1
+              ],
+              [
+                214,
+                2
+              ],
+              [
+                215,
+                1
+              ],
+              [
+                210,
+                1
+              ],
+              [
+                216,
+                2
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                213
+              ]
+            ],
+            "rep": [
+              211
+            ],
+            "t": 71
+          }
+        ],
+        "id": "archaeopter-stratoraptor",
+        "kws": [
+          "Aircraft",
+          "Archaeopter Stratoraptor",
+          "Fly",
+          "Imperium",
+          "Skitarii",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Archaeopter Stratoraptor",
+        "sid": "1d50b887-a966-44f7-8fa6-343a34623946",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 185
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                210,
+                1
+              ],
+              [
+                212,
+                1
+              ],
+              [
+                211,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                213
+              ]
+            ],
+            "rep": [
+              211
+            ],
+            "t": 71
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "archaeopter-transvector",
+        "kws": [
+          "Archaeopter Transvector",
+          "Fly",
+          "Imperium",
+          "Skitarii",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Archaeopter Transvector",
+        "sid": "cb273cac-9b1e-4e77-8dac-23e765760dcd",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 145
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                217,
+                1
+              ],
+              [
+                218,
+                1
+              ],
+              [
+                219,
+                1
+              ],
+              [
+                220,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "supreme": 1
+        },
+        "id": "belisarius-cawl",
+        "kws": [
+          "Belisarius Cawl",
+          "Character",
+          "Cult Mechanicus",
+          "Epic Hero",
+          "Imperium",
+          "Mobile",
+          "Monster",
+          "Tech-Priest"
+        ],
+        "linked": 1,
+        "name": "Belisarius Cawl",
+        "sid": "2debf769-e52c-4c00-8445-6685ddcb9c32",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 220
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                221,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "id": "corpuscarii-electro-priests",
+        "kws": [
+          "Corpuscarii",
+          "Cult Mechanicus",
+          "Electro-Priests",
+          "Imperium",
+          "Infantry"
+        ],
+        "linked": 1,
+        "name": "Corpuscarii Electro-Priests",
+        "sid": "736e0b95-dff7-4615-ae92-7d8f6375c564",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 60
+          },
+          {
+            "per": [
+              6,
+              10
+            ],
+            "pts": 120
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                222,
+                1
+              ],
+              [
+                223,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "cybernetica-datasmith",
+        "kws": [
+          "Character",
+          "Cybernetica Datasmith",
+          "Imperium",
+          "Legio Cybernetica",
+          "Tech-Priest",
+          "Vehicle"
+        ],
+        "leads": [
+          {
+            "to": "kastelan-robots",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Cybernetica Datasmith",
+        "sid": "7be71a56-0557-4e9d-ab04-097c9ee62787",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 20
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                224,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "id": "fulgurite-electro-priests",
+        "kws": [
+          "Cult Mechanicus",
+          "Electro-Priests",
+          "Fulgurite",
+          "Imperium",
+          "Infantry"
+        ],
+        "linked": 1,
+        "name": "Fulgurite Electro-Priests",
+        "sid": "ec688ddf-d430-46cd-a4e6-f77dfb512a90",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 65
+          },
+          {
+            "per": [
+              6,
+              10
+            ],
+            "pts": 130
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                225,
+                1
+              ],
+              [
+                226,
+                1
+              ],
+              [
+                227,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                226,
+                1
+              ],
+              [
+                228,
+                1
+              ],
+              [
+                227,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "id": "hastarii-exterminators",
+        "kws": [
+          "Exterminators",
+          "Hastarii",
+          "Imperium",
+          "Infantry",
+          "Skitarii"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Hastarii Exterminator Alpha"
+          },
+          {
+            "n": "Hastarii Exterminator"
+          }
+        ],
+        "modelKws": {},
+        "name": "Hastarii Exterminators",
+        "sid": "ff48d13a-5ef5-4ef4-83b3-d0afd8899290",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 100
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                229,
+                1
+              ],
+              [
+                228,
+                1
+              ],
+              [
+                230,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                229,
+                1
+              ],
+              [
+                230,
+                1
+              ],
+              [
+                225,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "id": "hastarii-fusiliers",
+        "kws": [
+          "Fusiliers",
+          "Hastarii",
+          "Imperium",
+          "Infantry",
+          "Skitarii"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Hastarii Fusilier Alpha"
+          },
+          {
+            "n": "Hastarii Fusilier"
+          }
+        ],
+        "modelKws": {},
+        "name": "Hastarii Fusiliers",
+        "sid": "aacdff0d-7c5b-4dea-b4cb-9e06aed7db4e",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 105
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                231,
+                1
+              ],
+              [
+                232,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                233,
+                10
+              ]
+            ],
+            "rep": [
+              231
+            ],
+            "t": 72
+          }
+        ],
+        "id": "ironstrider-ballistarii",
+        "kws": [
+          "Imperium",
+          "Ironstrider Ballistarii",
+          "Skitarii",
+          "Smoke",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Ironstrider Ballistarii",
+        "sid": "2780cb4a-9e4c-4cbd-95b3-fa491ec7e8cf",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          },
+          {
+            "per": [
+              2,
+              2
+            ],
+            "pts": 160
+          },
+          {
+            "per": [
+              3,
+              3
+            ],
+            "pts": 250
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                234,
+                1
+              ],
+              [
+                235,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    236,
+                    1
+                  ],
+                  [
+                    237,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    238,
+                    1
+                  ],
+                  [
+                    239,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              235
+            ],
+            "t": 73
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                214
+              ]
+            ],
+            "rep": [
+              234
+            ],
+            "t": 74
+          }
+        ],
+        "id": "kastelan-robots",
+        "kws": [
+          "Imperium",
+          "Kastelan Robots",
+          "Legio Cybernetica",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Kastelan Robots",
+        "sid": "68f7581c-3e7e-422b-b478-2e9ff15f24f6",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              2,
+              2
+            ],
+            "pts": 150
+          },
+          {
+            "per": [
+              3,
+              4
+            ],
+            "pts": 300
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                240,
+                1
+              ],
+              [
+                241,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                242
+              ]
+            ],
+            "rep": [
+              241
+            ],
+            "t": 75
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                243
+              ]
+            ],
+            "rep": [
+              240
+            ],
+            "t": 76
+          }
+        ],
+        "id": "kataphron-breachers",
+        "kws": [
+          "Breachers",
+          "Cult Mechanicus",
+          "Imperium",
+          "Infantry",
+          "Kataphron"
+        ],
+        "linked": 1,
+        "name": "Kataphron Breachers",
+        "sid": "001d9c8f-33d4-4bef-97ff-41aa463785a2",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 140
+          },
+          {
+            "per": [
+              4,
+              6
+            ],
+            "pts": 290
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                244,
+                1
+              ],
+              [
+                245,
+                1
+              ],
+              [
+                246,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                247
+              ]
+            ],
+            "rep": [
+              244
+            ],
+            "t": 77
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                248
+              ]
+            ],
+            "rep": [
+              246
+            ],
+            "t": 78
+          }
+        ],
+        "id": "kataphron-destroyers",
+        "kws": [
+          "Cult Mechanicus",
+          "Destroyers",
+          "Imperium",
+          "Infantry",
+          "Kataphron"
+        ],
+        "linked": 1,
+        "name": "Kataphron Destroyers",
+        "sid": "3edc45db-6303-48d4-839a-3729dbd84973",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 100
+          },
+          {
+            "per": [
+              4,
+              6
+            ],
+            "pts": 200
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                249,
+                1
+              ],
+              [
+                250,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    251,
+                    1
+                  ],
+                  [
+                    252,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    253,
+                    1
+                  ],
+                  [
+                    216,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    254,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              249
+            ],
+            "t": 79
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                216
+              ]
+            ],
+            "t": 80
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                255
+              ]
+            ],
+            "t": 81
+          }
+        ],
+        "id": "onager-dunecrawler",
+        "kws": [
+          "Imperium",
+          "Onager Dunecrawler",
+          "Skitarii",
+          "Smoke",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Onager Dunecrawler",
+        "sid": "ce2c65d6-c12d-4b5a-b68d-7c6679b35754",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 150
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                256,
+                1
+              ],
+              [
+                257,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                258,
+                1
+              ],
+              [
+                259,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "grants": [
+          {
+            "det": "cohort-acquisitus",
+            "kw": "Recon Augury"
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "pteraxii-skystalkers",
+        "kws": [
+          "Fly",
+          "Grenades",
+          "Imperium",
+          "Infantry",
+          "Jump Pack",
+          "Pteraxii",
+          "Skitarii",
+          "Skystalkers"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Pteraxii Skystalker Alpha"
+          },
+          {
+            "n": "Pteraxii Skystalker"
+          }
+        ],
+        "modelKws": {},
+        "name": "Pteraxii Skystalkers",
+        "sid": "cee59798-9f17-4f35-b39f-84f4a7d5d595",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 75
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 150
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                260,
+                1
+              ],
+              [
+                261,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                256,
+                1
+              ],
+              [
+                257,
+                1
+              ],
+              [
+                261,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "grants": [
+          {
+            "det": "cohort-acquisitus",
+            "kw": "Recon Augury"
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "pteraxii-sterylizors",
+        "kws": [
+          "Fly",
+          "Imperium",
+          "Infantry",
+          "Jump Pack",
+          "Pteraxii",
+          "Skitarii",
+          "Sterylizors"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Pteraxii Sterylizor Alpha"
+          },
+          {
+            "n": "Pteraxii Sterylizor"
+          }
+        ],
+        "modelKws": {},
+        "name": "Pteraxii Sterylizors",
+        "sid": "3fe70398-33eb-4238-adba-5a81af31bbfd",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 75
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 150
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3207,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3207,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3208
+              ]
+            ],
+            "rep": [
+              3207
+            ],
+            "t": 1018
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3209
+              ]
+            ],
+            "t": 1019
+          },
+          {
+            "in": "checkbox",
+            "m": 1,
+            "o": [
+              [
+                265
+              ],
+              [
+                288
+              ]
+            ],
+            "t": 1020
+          }
+        ],
+        "id": "secutarii-hoplites",
+        "kws": [
+          "Infantry",
+          "Imperium",
+          "Skitarii",
+          "Secutarii Hoplites"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Hoplite Alpha"
+          },
+          {
+            "n": "Secutarii Hoplites"
+          }
+        ],
+        "name": "Secutarii Hoplites",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 65
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 130
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3210,
+                1
+              ],
+              [
+                390,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3210,
+                1
+              ],
+              [
+                390,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3208
+              ]
+            ],
+            "rep": [
+              3210
+            ],
+            "t": 1021
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3209
+              ]
+            ],
+            "t": 1022
+          },
+          {
+            "in": "checkbox",
+            "m": 1,
+            "o": [
+              [
+                265
+              ],
+              [
+                288
+              ]
+            ],
+            "t": 1023
+          }
+        ],
+        "id": "secutarii-peltasts",
+        "kws": [
+          "Infantry",
+          "Imperium",
+          "Skitarii",
+          "Secutarii Peltasts"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Peltast Alpha"
+          },
+          {
+            "n": "Secutarii Peltasts"
+          }
+        ],
+        "name": "Secutarii Peltasts",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 50
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                262,
+                1
+              ],
+              [
+                263,
+                1
+              ],
+              [
+                264,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                264,
+                1
+              ],
+              [
+                262,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                265
+              ]
+            ],
+            "t": 82
+          }
+        ],
+        "grants": [
+          {
+            "det": "cohort-acquisitus",
+            "kw": "Recon Augury"
+          }
+        ],
+        "id": "serberys-raiders",
+        "kws": [
+          "Imperium",
+          "Mounted",
+          "Serberys Raiders",
+          "Skitarii"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Serberys Raider Alpha"
+          },
+          {
+            "n": "Serberys Raider"
+          }
+        ],
+        "modelKws": {},
+        "name": "Serberys Raiders",
+        "sid": "428c2950-a5ef-4c7d-a902-04014972ae54",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 60
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                3,
+                5
+              ]
+            ],
+            "per": [
+              4,
+              6
+            ],
+            "pts": 105
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                266,
+                1
+              ],
+              [
+                267,
+                1
+              ],
+              [
+                268,
+                2
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                269,
+                1
+              ],
+              [
+                267,
+                1
+              ],
+              [
+                266,
+                1
+              ],
+              [
+                263,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                3,
+                1
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                [
+                  [
+                    270,
+                    1
+                  ],
+                  [
+                    268,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              268
+            ],
+            "t": 83
+          }
+        ],
+        "grants": [
+          {
+            "det": "cohort-acquisitus",
+            "kw": "Recon Augury"
+          }
+        ],
+        "id": "serberys-sulphurhounds",
+        "kws": [
+          "Imperium",
+          "Mounted",
+          "Serberys Sulphurhounds",
+          "Skitarii"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Serberys Sulphurhound Alpha"
+          },
+          {
+            "n": "Serberys Sulphurhound"
+          }
+        ],
+        "modelKws": {},
+        "name": "Serberys Sulphurhounds",
+        "sid": "d8899a9f-2767-44ac-a36e-00bb518f83bf",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 55
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                3,
+                5
+              ]
+            ],
+            "per": [
+              4,
+              6
+            ],
+            "pts": 95
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                271,
+                1
+              ],
+              [
+                263,
+                1
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                272,
+                1
+              ],
+              [
+                273,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                272,
+                1
+              ],
+              [
+                274,
+                1,
+                1
+              ],
+              [
+                17,
+                1,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 2,
+            "o": [
+              [
+                102
+              ]
+            ],
+            "rep": [
+              273
+            ],
+            "t": 84
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                3
+              ]
+            ],
+            "m": 2,
+            "o": [
+              [
+                275
+              ]
+            ],
+            "rep": [
+              273
+            ],
+            "t": 85
+          }
+        ],
+        "id": "servitor-battleclade",
+        "kws": [
+          "Cult Mechanicus",
+          "Imperium",
+          "Infantry",
+          "Servitor Battleclade",
+          "Tech-Priest"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Servitor Underseer"
+          },
+          {
+            "n": "Gun Servitor"
+          },
+          {
+            "n": "Combat Servitor"
+          }
+        ],
+        "modelKws": {
+          "Tech-Priest": [
+            0
+          ]
+        },
+        "name": "Servitor Battleclade",
+        "sid": "c558c594-c3c5-478a-9a56-d15c78220092",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                6
+              ]
+            ],
+            "default": 1,
+            "per": [
+              9,
+              9
+            ],
+            "pts": 75
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                276,
+                1
+              ],
+              [
+                277,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                276,
+                1
+              ],
+              [
+                277,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    256,
+                    1
+                  ],
+                  [
+                    278,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              276,
+              277
+            ],
+            "repall": 1,
+            "t": 86
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                [
+                  [
+                    256,
+                    1
+                  ],
+                  [
+                    278,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              276,
+              277
+            ],
+            "t": 86
+          }
+        ],
+        "grants": [
+          {
+            "det": "cohort-acquisitus",
+            "kw": "Recon Augury"
+          }
+        ],
+        "id": "sicarian-infiltrators",
+        "kws": [
+          "Imperium",
+          "Infantry",
+          "Infiltrators",
+          "Sicarian",
+          "Skitarii"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Sicarian Infiltrator Princeps"
+          },
+          {
+            "n": "Sicarian Infiltrator"
+          }
+        ],
+        "modelKws": {},
+        "name": "Sicarian Infiltrators",
+        "pools": [
+          {
+            "g": [
+              0,
+              1
+            ]
+          }
+        ],
+        "sid": "e1e32ad8-da2b-43c2-879e-bdac1e52ed47",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 75
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 155
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                279,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                279,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                280
+              ]
+            ],
+            "rep": [
+              279
+            ],
+            "t": 87
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                281
+              ]
+            ],
+            "rep": [
+              279
+            ],
+            "t": 88
+          }
+        ],
+        "id": "sicarian-ruststalkers",
+        "kws": [
+          "Imperium",
+          "Infantry",
+          "Ruststalkers",
+          "Sicarian",
+          "Skitarii"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Sicarian Ruststalker Princeps"
+          },
+          {
+            "n": "Sicarian Ruststalker"
+          }
+        ],
+        "modelKws": {},
+        "name": "Sicarian Ruststalkers",
+        "sid": "5be940e4-ac29-4591-9069-f0a510f4949c",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 75
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 160
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                282,
+                1
+              ],
+              [
+                223,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "skitarii-marshal",
+        "kws": [
+          "Character",
+          "Imperium",
+          "Infantry",
+          "Marshal",
+          "Skitarii"
+        ],
+        "leads": [
+          {
+            "to": "hastarii-fusiliers",
+            "type": "support"
+          },
+          {
+            "to": "skitarii-rangers",
+            "type": "support"
+          },
+          {
+            "to": "skitarii-vanguard",
+            "type": "support"
+          },
+          {
+            "to": "hastarii-exterminators",
+            "type": "support"
+          },
+          {
+            "to": "secutarii-hoplites",
+            "type": "support"
+          },
+          {
+            "to": "secutarii-peltasts",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Skitarii Marshal",
+        "sid": "95d5d1b4-5de8-4324-80dc-c4acb4889f44",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 35
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                6,
+                1
+              ],
+              [
+                283,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                6,
+                1
+              ],
+              [
+                283,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                284
+              ]
+            ],
+            "t": 89
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                263
+              ]
+            ],
+            "rep": [
+              283
+            ],
+            "t": 90
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                285
+              ]
+            ],
+            "rep": [
+              283
+            ],
+            "t": 91
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                286
+              ]
+            ],
+            "rep": [
+              283
+            ],
+            "t": 92
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                287
+              ]
+            ],
+            "rep": [
+              283
+            ],
+            "t": 93
+          },
+          {
+            "cond": [
+              2,
+              0,
+              null,
+              [
+                3,
+                4
+              ]
+            ],
+            "in": "checkbox",
+            "keep": [
+              283
+            ],
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                265
+              ],
+              [
+                288
+              ]
+            ],
+            "t": 94
+          }
+        ],
+        "grants": [
+          {
+            "det": "cohort-acquisitus",
+            "kw": "Recon Augury"
+          }
+        ],
+        "id": "skitarii-rangers",
+        "kws": [
+          "Battleline",
+          "Imperium",
+          "Infantry",
+          "Rangers",
+          "Skitarii"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Skitarii Ranger Alpha"
+          },
+          {
+            "n": "Skitarii Ranger"
+          }
+        ],
+        "modelKws": {},
+        "name": "Skitarii Rangers",
+        "sid": "fa873856-0bc3-4a7d-940d-21341c5fdde5",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 85
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                289,
+                1
+              ],
+              [
+                6,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                289,
+                1
+              ],
+              [
+                6,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                284
+              ]
+            ],
+            "t": 95
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                263
+              ]
+            ],
+            "rep": [
+              289
+            ],
+            "t": 96
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                285
+              ]
+            ],
+            "rep": [
+              289
+            ],
+            "t": 97
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                286
+              ]
+            ],
+            "rep": [
+              289
+            ],
+            "t": 98
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                287
+              ]
+            ],
+            "rep": [
+              289
+            ],
+            "t": 99
+          },
+          {
+            "cond": [
+              2,
+              0,
+              null,
+              [
+                3,
+                4
+              ]
+            ],
+            "in": "checkbox",
+            "keep": [
+              289
+            ],
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                265
+              ],
+              [
+                288
+              ]
+            ],
+            "t": 100
+          }
+        ],
+        "id": "skitarii-vanguard",
+        "kws": [
+          "Battleline",
+          "Imperium",
+          "Infantry",
+          "Skitarii",
+          "Vanguard"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Skitarii Vanguard Alpha"
+          },
+          {
+            "n": "Skitarii Vanguard"
+          }
+        ],
+        "modelKws": {},
+        "name": "Skitarii Vanguard",
+        "sid": "5053fab3-493e-4cbc-9589-383fbd0039a8",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 85
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                290,
+                1
+              ],
+              [
+                216,
+                3
+              ],
+              [
+                210,
+                1
+              ],
+              [
+                291,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                292,
+                10
+              ]
+            ],
+            "rep": [
+              291
+            ],
+            "t": 101
+          }
+        ],
+        "id": "skorpius-disintegrator",
+        "kws": [
+          "Frame",
+          "Imperium",
+          "Skitarii",
+          "Skorpius Disintegrator",
+          "Smoke",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Skorpius Disintegrator",
+        "sid": "0c78ee28-1756-497c-8df3-2df48502e73c",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 160
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                212,
+                1
+              ],
+              [
+                210,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "id": "skorpius-dunerider",
+        "kws": [
+          "Dedicated Transport",
+          "Frame",
+          "Imperium",
+          "Skitarii",
+          "Skorpius Dunerider",
+          "Smoke",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Skorpius Dunerider",
+        "sid": "843f8c40-d93f-4b22-afa3-81aa97cf6d48",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 75
+          }
+        ],
+        "step": {
+          "at": 4,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                232,
+                1
+              ],
+              [
+                293,
+                1
+              ],
+              [
+                294,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "id": "sydonian-dragoons-with-radium-jezzails",
+        "kws": [
+          "Dragoons with Radium Jezzails",
+          "Imperium",
+          "Skitarii",
+          "Smoke",
+          "Sydonian",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Sydonian Dragoons with Radium Jezzails",
+        "sid": "3ca2d35a-9d7f-4f74-8add-10a265678c51",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 55
+          },
+          {
+            "per": [
+              2,
+              2
+            ],
+            "pts": 95
+          },
+          {
+            "per": [
+              3,
+              3
+            ],
+            "pts": 140
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                295,
+                1
+              ],
+              [
+                294,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {},
+        "id": "sydonian-dragoons-with-taser-lances",
+        "kws": [
+          "Dragoons with Taser Lances",
+          "Imperium",
+          "Skitarii",
+          "Smoke",
+          "Sydonian",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Sydonian Dragoons with Taser Lances",
+        "sid": "595b49e9-d185-48b3-b37b-ed45b90c4a17",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          },
+          {
+            "per": [
+              2,
+              2
+            ],
+            "pts": 120
+          },
+          {
+            "per": [
+              3,
+              3
+            ],
+            "pts": 170
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                296,
+                1
+              ],
+              [
+                223,
+                1
+              ],
+              [
+                297,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {
+          "char": 1,
+          "noWarlord": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                298
+              ]
+            ],
+            "rep": [
+              297
+            ],
+            "t": 102
+          }
+        ],
+        "id": "sydonian-skatros",
+        "kws": [
+          "Character",
+          "Imperium",
+          "Infantry",
+          "Skatros",
+          "Skitarii",
+          "Sydonian"
+        ],
+        "linked": 1,
+        "name": "Sydonian Skatros",
+        "sid": "b7a31553-3069-465c-892f-1ac3130e83e4",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 45
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                300,
+                1
+              ],
+              [
+                301,
+                1
+              ],
+              [
+                302,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                303
+              ]
+            ],
+            "rep": [
+              301
+            ],
+            "t": 103
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                304
+              ]
+            ],
+            "rep": [
+              300
+            ],
+            "t": 104
+          }
+        ],
+        "id": "tech-priest-dominus",
+        "kws": [
+          "Character",
+          "Cult Mechanicus",
+          "Dominus",
+          "Imperium",
+          "Infantry",
+          "Tech-Priest"
+        ],
+        "leads": [
+          {
+            "to": "fulgurite-electro-priests",
+            "type": "leader"
+          },
+          {
+            "to": "kataphron-breachers",
+            "type": "leader"
+          },
+          {
+            "to": "skitarii-vanguard",
+            "type": "leader"
+          },
+          {
+            "to": "kataphron-destroyers",
+            "type": "leader"
+          },
+          {
+            "to": "hastarii-fusiliers",
+            "type": "leader"
+          },
+          {
+            "to": "servitor-battleclade",
+            "type": "leader"
+          },
+          {
+            "to": "skitarii-rangers",
+            "type": "leader"
+          },
+          {
+            "to": "corpuscarii-electro-priests",
+            "type": "leader"
+          },
+          {
+            "to": "hastarii-exterminators",
+            "type": "leader"
+          },
+          {
+            "to": "secutarii-hoplites",
+            "type": "leader"
+          },
+          {
+            "to": "secutarii-peltasts",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Tech-Priest Dominus",
+        "sid": "fe438409-025b-4b70-9c8e-f61549a6a49a",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                223,
+                1
+              ],
+              [
+                305,
+                1
+              ],
+              [
+                306,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "tech-priest-enginseer",
+        "kws": [
+          "Character",
+          "Cult Mechanicus",
+          "Enginseer",
+          "Imperium",
+          "Infantry",
+          "Tech-Priest"
+        ],
+        "leads": [
+          {
+            "to": "skitarii-vanguard",
+            "type": "leader"
+          },
+          {
+            "to": "kataphron-breachers",
+            "type": "leader"
+          },
+          {
+            "to": "skitarii-rangers",
+            "type": "leader"
+          },
+          {
+            "to": "fulgurite-electro-priests",
+            "type": "leader"
+          },
+          {
+            "to": "kataphron-destroyers",
+            "type": "leader"
+          },
+          {
+            "to": "corpuscarii-electro-priests",
+            "type": "leader"
+          },
+          {
+            "to": "hastarii-fusiliers",
+            "type": "leader"
+          },
+          {
+            "to": "hastarii-exterminators",
+            "type": "leader"
+          },
+          {
+            "to": "servitor-battleclade",
+            "type": "leader"
+          },
+          {
+            "to": "secutarii-hoplites",
+            "type": "leader"
+          },
+          {
+            "to": "secutarii-peltasts",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Tech-Priest Enginseer",
+        "sid": "4c2996da-2e1d-45c5-8420-16338a2e08d9",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 55
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                307,
+                1
+              ],
+              [
+                308,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                309
+              ]
+            ],
+            "rep": [
+              307
+            ],
+            "t": 105
+          }
+        ],
+        "id": "tech-priest-manipulus",
+        "kws": [
+          "Character",
+          "Cult Mechanicus",
+          "Imperium",
+          "Infantry",
+          "Manipulus",
+          "Tech-Priest"
+        ],
+        "leads": [
+          {
+            "to": "kataphron-breachers",
+            "type": "leader"
+          },
+          {
+            "to": "fulgurite-electro-priests",
+            "type": "leader"
+          },
+          {
+            "to": "hastarii-fusiliers",
+            "type": "leader"
+          },
+          {
+            "to": "hastarii-exterminators",
+            "type": "leader"
+          },
+          {
+            "to": "skitarii-vanguard",
+            "type": "leader"
+          },
+          {
+            "to": "skitarii-rangers",
+            "type": "leader"
+          },
+          {
+            "to": "corpuscarii-electro-priests",
+            "type": "leader"
+          },
+          {
+            "to": "servitor-battleclade",
+            "type": "leader"
+          },
+          {
+            "to": "kataphron-destroyers",
+            "type": "leader"
+          },
+          {
+            "to": "secutarii-hoplites",
+            "type": "leader"
+          },
+          {
+            "to": "secutarii-peltasts",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Tech-Priest Manipulus",
+        "sid": "61a7fa52-9a8c-46f5-ac02-4b09e72aa08e",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                223,
+                1
+              ],
+              [
+                299,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "technoarcheologist",
+        "kws": [
+          "Character",
+          "Cult Mechanicus",
+          "Imperium",
+          "Infantry",
+          "Tech-Priest",
+          "Technoarcheologist"
+        ],
+        "leads": [
+          {
+            "to": "fulgurite-electro-priests",
+            "type": "support"
+          },
+          {
+            "to": "hastarii-exterminators",
+            "type": "support"
+          },
+          {
+            "to": "hastarii-fusiliers",
+            "type": "support"
+          },
+          {
+            "to": "kataphron-breachers",
+            "type": "support"
+          },
+          {
+            "to": "kataphron-destroyers",
+            "type": "support"
+          },
+          {
+            "to": "servitor-battleclade",
+            "type": "support"
+          },
+          {
+            "to": "corpuscarii-electro-priests",
+            "type": "support"
+          },
+          {
+            "to": "skitarii-rangers",
+            "type": "support"
+          },
+          {
+            "to": "skitarii-vanguard",
+            "type": "support"
+          },
+          {
+            "to": "secutarii-hoplites",
+            "type": "support"
+          },
+          {
+            "to": "secutarii-peltasts",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Technoarcheologist",
+        "sid": "a6a330f1-9cd6-44db-8299-c7feefa9d515",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 45
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                2285,
+                1
+              ],
+              [
+                3144,
+                2
+              ],
+              [
+                2284,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    2993,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    2287,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              3144
+            ],
+            "t": 1024
+          }
+        ],
+        "id": "terrax-pattern-termite",
+        "kws": [
+          "Vehicle",
+          "Imperium",
+          "Transport",
+          "Dedicated Transport",
+          "Terrax-pattern Termite"
+        ],
+        "linked": 1,
+        "name": "Terrax-pattern Termite",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 200
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                310,
+                1
+              ],
+              [
+                311,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "supreme": 1
+        },
+        "id": "thulia-ghuld",
+        "kws": [
+          "Character",
+          "Cult Mechanicus",
+          "Epic Hero",
+          "Imperium",
+          "Mobile",
+          "Monster",
+          "Tech-Priest",
+          "Thulia Ghuld"
+        ],
+        "linked": 1,
+        "name": "Thulia Ghuld",
+        "sid": "681fcb1a-b0aa-4344-8353-ca1050efdcba",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 180
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3211,
+                1
+              ],
+              [
+                243,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Mechanicus"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "id": "x-101",
+        "joins": {
+          "by": [
+            "tech-priest-dominus",
+            "tech-priest-enginseer",
+            "tech-priest-manipulus",
+            "technoarcheologist"
+          ],
+          "one": [
+            "x-101"
+          ]
+        },
+        "kws": [
+          "Infantry",
+          "Imperium",
+          "Character",
+          "Epic Hero",
+          "Cult Mechanicus",
+          "X-101"
+        ],
+        "linked": 1,
+        "name": "X-101",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 40
+          }
+        ]
+      }
+    ]
+  }
+}

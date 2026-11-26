@@ -1,0 +1,41 @@
+{
+  "STATE_TEXT_EXCEPTIONS": {
+    "adepta-sororitas": {
+      "hagio-chorus": "its whole effect is a number the card already shows: −1 to wound rolls of attacks with S greater than its T"
+    },
+    "adeptus-mechanicus": {
+      "benediction-citation-in-savagery": "its whole effect is numbers the card shows once the unit is marked as having charged: +1 S and A in melee",
+      "override-electromotive-energisation": "its whole effect is a number the card already shows: +2\" Move",
+      "override-microactuator-bracing": "its whole effect is a number the card already shows: +1 Toughness",
+      "override-muted-servomotors": "its whole effect is Stealth, which the card already grants",
+      "unit-halo-override": "no effect of its own: the Override abilities read it"
+    },
+    "aeldari": {
+      "troupe-tricksters-grace": "its whole effect is a number the card already shows: −1 to Hit rolls against the unit"
+    },
+    "astra-militarum": {
+      "artillery-creeping-barrage": "acts on enemy units, not on this one: the army chip’s ⓘ says what it does",
+      "artillery-incendiary-bombardment": "acts on enemy units, not on this one: the army chip’s ⓘ says what it does"
+    },
+    "chaos-knights": {
+      "dread-darkness": "its whole effect is Stealth, which the card already grants"
+    },
+    "dark-angels": {
+      "bladeguard-defend": "its whole effect is a number the card already shows: −1 to Hit rolls against the unit"
+    },
+    "imperial-agents": {
+      "tactic-furor": "its whole effect is [SUSTAINED HITS 1], which the card already grants",
+      "tactic-malleus": "its whole effect is [LETHAL HITS], which the card already grants"
+    },
+    "imperial-knights": {
+      "army-honoured": "no effect of its own: other rules (enhancements, stratagems) read it",
+      "oath-quality-legacy": "its whole effect is numbers the card already shows: OC +2, Leadership +1"
+    },
+    "space-marines": {
+      "bladeguard-defend": "its whole effect is a number the card already shows: −1 to Hit rolls against the unit"
+    },
+    "world-eaters": {
+      "tithe-boon-of-blood": "its whole effect is a number the card already shows: a 4+ invulnerable save"
+    }
+  }
+}

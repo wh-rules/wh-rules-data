@@ -1,0 +1,352 @@
+{
+  "default": {
+    "box": "space-wolves",
+    "detachment": {
+      "dp": 0,
+      "enhancements": [
+        {
+          "name": "Aggressive Response",
+          "nonCharOk": 1,
+          "pts": null,
+          "req": [
+            {
+              "kw": [
+                "Terminator",
+                "Wolf Guard",
+                "Askar's Wolfpack"
+              ]
+            }
+          ],
+          "type": "upgrade"
+        },
+        {
+          "name": "Lone Hunter",
+          "pts": null,
+          "req": [
+            {
+              "kw": [
+                "Battle Leader",
+                "Askar's Wolfpack"
+              ]
+            }
+          ],
+          "type": "miniature"
+        }
+      ],
+      "linkedUnits": [
+        {
+          "count": 1,
+          "unit": "askars-wolfpack-wolf-guard-terminators"
+        },
+        {
+          "count": 1,
+          "unit": "fyrri-askar",
+          "warlord": 1
+        },
+        {
+          "count": 1,
+          "unit": "askars-wolfpack-blood-claws"
+        },
+        {
+          "count": 1,
+          "unit": "askars-wolfpack-wulfen"
+        }
+      ],
+      "name": "Askar’s Wolfpack",
+      "sid": "a10b4bf6-495d-4dd1-969c-d3a27709ea27"
+    },
+    "slug": "space-wolves",
+    "units": [
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                3756,
+                1
+              ],
+              [
+                3757,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3758,
+                1
+              ],
+              [
+                3759,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {},
+        "id": "askars-wolfpack-blood-claws",
+        "kws": [
+          "Askar's Wolfpack",
+          "Battleline",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Tacticus"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Blood Claw Pack Leader"
+          },
+          {
+            "n": "Blood Claw"
+          }
+        ],
+        "modelKws": {},
+        "name": "Askar's Wolfpack Blood Claws",
+        "sid": "a3304419-ee30-4968-82f4-a0ab449ec6b7",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                3750,
+                1
+              ],
+              [
+                3751,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3752,
+                1
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                3753,
+                1
+              ],
+              [
+                3754,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {},
+        "id": "askars-wolfpack-wolf-guard-terminators",
+        "kws": [
+          "Askar's Wolfpack",
+          "Imperium",
+          "Infantry",
+          "Terminator",
+          "Wolf Guard"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Wolf Guard Terminator Pack Leader"
+          },
+          {
+            "n": "Wolf Guard Terminator with Assault Cannon and Power Fist"
+          },
+          {
+            "n": "Wolf Guard Terminator with Storm Bolter and Master-crafted Power Weapon"
+          }
+        ],
+        "modelKws": {},
+        "name": "Askar's Wolfpack Wolf Guard Terminators",
+        "sid": "1c53150a-ce0c-4be8-a25e-346350b00385",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3760,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3760,
+                1
+              ],
+              [
+                3761,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {},
+        "id": "askars-wolfpack-wulfen",
+        "kws": [
+          "Askar's Wolfpack",
+          "Imperium",
+          "Infantry"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Wulfen"
+          },
+          {
+            "n": "Wulfen with Stormfrag Auto-launcher"
+          }
+        ],
+        "modelKws": {},
+        "name": "Askar's Wolfpack Wulfen",
+        "sid": "cbb8c197-ed21-44f5-b59e-6a510286ba64",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 0
+          }
+        ],
+        "stands": {
+          "3760": [
+            "Feral Claws"
+          ]
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3755,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Space Wolves"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "fyrri-askar",
+        "kws": [
+          "Askar's Wolfpack",
+          "Battle Leader",
+          "Character",
+          "Imperium",
+          "Infantry",
+          "Tacticus",
+          "Wolf Guard"
+        ],
+        "leads": [
+          {
+            "to": "askars-wolfpack-blood-claws",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Fyrri Askar",
+        "sid": "2f3bb2ac-8cf3-4d85-a94a-60d737284e33",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      }
+    ]
+  }
+}

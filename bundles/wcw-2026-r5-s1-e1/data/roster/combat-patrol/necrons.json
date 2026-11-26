@@ -1,0 +1,322 @@
+{
+  "default": {
+    "box": "necrons",
+    "detachment": {
+      "dp": 0,
+      "enhancements": [
+        {
+          "name": "Metalline Might",
+          "pts": null,
+          "req": [
+            {
+              "ds": "Overlord Amonhotekh"
+            }
+          ],
+          "type": "miniature"
+        },
+        {
+          "name": "Unblemished Legions",
+          "nonCharOk": 1,
+          "pts": null,
+          "req": [
+            {
+              "ds": "Amonhotekh's Guard Necron Warriors"
+            }
+          ],
+          "type": "upgrade"
+        }
+      ],
+      "linkedUnits": [
+        {
+          "count": 1,
+          "unit": "amonhotekhs-guard-canoptek-scarab-swarms"
+        },
+        {
+          "count": 1,
+          "unit": "amonhotekhs-guard-skorpekh-destroyers"
+        },
+        {
+          "count": 1,
+          "unit": "overlord-amonhotekh",
+          "warlord": 1
+        },
+        {
+          "count": 1,
+          "unit": "amonhotekhs-guard-necron-warriors"
+        },
+        {
+          "count": 1,
+          "unit": "amonhotekhs-guard-canoptek-doomstalker"
+        }
+      ],
+      "name": "Amonhotekh’s Guard",
+      "sid": "4077647f-9af3-4900-a123-2b7fabb66454"
+    },
+    "slug": "necrons",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3476,
+                1
+              ],
+              [
+                3477,
+                1
+              ],
+              [
+                3478,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "id": "amonhotekhs-guard-canoptek-doomstalker",
+        "kws": [
+          "Amonhotekh's Guard",
+          "Canoptek",
+          "Canoptek Doomstalker",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Amonhotekh's Guard Canoptek Doomstalker",
+        "sid": "f941e3b8-cc03-4db7-bd99-c83c68cd528f",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3469,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "id": "amonhotekhs-guard-canoptek-scarab-swarms",
+        "kws": [
+          "Amonhotekh's Guard",
+          "Canoptek",
+          "Fly",
+          "Swarm"
+        ],
+        "linked": 1,
+        "name": "Amonhotekh's Guard Canoptek Scarab Swarms",
+        "sid": "0c8beb7a-9714-4547-82ca-0e5f6276a3af",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                3473,
+                1
+              ],
+              [
+                3474,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3475,
+                1
+              ],
+              [
+                3474,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "id": "amonhotekhs-guard-necron-warriors",
+        "kws": [
+          "Amonhotekh's Guard",
+          "Battleline",
+          "Infantry"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Necron Warrior with Gauss Reaper and Combat Attachments"
+          },
+          {
+            "n": "Necron Warrior with Gauss Flayer and Combat Attachments"
+          }
+        ],
+        "modelKws": {},
+        "name": "Amonhotekh's Guard Necron Warriors",
+        "sid": "9cdd0661-882b-4b99-8fc8-72b6889309b1",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                5
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                3470,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3470,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "id": "amonhotekhs-guard-skorpekh-destroyers",
+        "kws": [
+          "Amonhotekh's Guard",
+          "Destroyer Cult",
+          "Infantry"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Skorpekh Destroyer with Plasmacyte"
+          },
+          {
+            "n": "Skorpekh Destroyer"
+          }
+        ],
+        "modelKws": {},
+        "name": "Amonhotekh's Guard Skorpekh Destroyers",
+        "sid": "3b3ef129-8e82-4571-b174-a2efe2c55c8f",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3471,
+                1
+              ],
+              [
+                3472,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "overlord-amonhotekh",
+        "kws": [
+          "Amonhotekh's Guard",
+          "Character",
+          "Infantry",
+          "Noble",
+          "Overlord"
+        ],
+        "linked": 1,
+        "name": "Overlord Amonhotekh",
+        "sid": "7009cc20-b2ac-4b0b-80d5-d78a545086d7",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      }
+    ]
+  }
+}

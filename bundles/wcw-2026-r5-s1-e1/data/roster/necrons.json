@@ -1,0 +1,4520 @@
+{
+  "default": {
+    "detachments": [
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Eternal Madness",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Necrons"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Ingrained Superiority",
+            "pts": 5,
+            "req": [
+              {
+                "fac": [
+                  "Necrons"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Soulless Reaper",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Destroyer Cult"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Eldritch Nightmare",
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "Destroyer Cult"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Annihilation Legion",
+        "sid": "4694ac41-4340-4e85-8824-5c47555f8c12"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Veil of Darkness",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Necrons"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Nether-realm Casket",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Necrons"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Phasal Subjugator (Aura)",
+            "pts": 35,
+            "req": [
+              {
+                "fac": [
+                  "Necrons"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Enaegic Dermal Bond",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Necrons"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold",
+          "Priority Assets"
+        ],
+        "name": "Awakened Dynasty",
+        "sid": "ef55259d-3884-4b3b-b215-08ab337d4a24",
+        "unique": "DYNASTY"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Dimensional Sanctum",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Cryptek"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Hyperphasic Fulcrum",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Cryptek"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Autodivinator",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Cryptek"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Metalodermal Tesla Weave",
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "Cryptek"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Canoptek Court",
+        "sid": "e40617a8-ec95-44e2-bc46-956a6fac4538"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Quantum Abacus",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Necrons"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Atomic Disintegrators",
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "Cryptek"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Gauntlet of Compression",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Necrons"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Gravitic Bolas",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Cryptek"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Cryptek Conclave",
+        "sid": "115f16a7-2641-415c-967c-cb8a370eb229"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Destroyer Ankh",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Catacomb Command Barge"
+                ]
+              },
+              {
+                "kw": [
+                  "Overlord"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "attach": [
+              {
+                "to": "ophydian-destroyers",
+                "type": "support"
+              },
+              {
+                "to": "skorpekh-destroyers",
+                "type": "support"
+              },
+              {
+                "to": "lokhust-destroyers",
+                "type": "support"
+              },
+              {
+                "to": "lokhust-heavy-destroyers",
+                "type": "support"
+              }
+            ],
+            "name": "Murdermind",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Cryptek"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Mark of the Nekrosor",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Destroyer Cult"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Cursed Circlet",
+            "pts": 25,
+            "req": [
+              {
+                "kw": [
+                  "Destroyer Cult"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Cursed Legion",
+        "sid": "412b33ad-7e6f-45a3-8638-ae880be94b9f"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "limit": 3,
+            "name": "Enlivened Sentinels (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 20,
+            "req": [
+              {
+                "ds": "Necron Warriors",
+                "fac": [
+                  "Necrons"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "limit": 3,
+            "name": "Tools of Dominion (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "ds": "Immortals",
+                "fac": [
+                  "Necrons"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Hand of the Dynasty",
+        "sid": "8e281a27-1d5a-415b-8b92-34cd0ed53b63",
+        "unique": "DYNASTY"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Dimensional Overseer",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Necrons"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Arisen Tyrant",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Necrons"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Hyperspatial Transfer Node",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Necrons"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Osteoclave Fulcrum",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Necrons"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Hypercrypt Legion",
+        "sid": "489fc222-d9a1-4220-9ef2-9747c2fea283",
+        "unique": "HYPERCRYPT"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Honourable Combatant",
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "Overlord"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Unflinching Will",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Overlord"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Warrior Noble",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Overlord"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Eternal Conqueror",
+            "pts": 25,
+            "req": [
+              {
+                "kw": [
+                  "Overlord"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Disruption"
+        ],
+        "name": "Obeisance Phalanx",
+        "sid": "df0e5858-2c4a-486b-b693-8971f837388d"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "mandatory": 1,
+            "name": "Singularity Matrix",
+            "pts": 45,
+            "req": [
+              {
+                "kw": [
+                  "C’tan Shard of the Deceiver"
+                ]
+              }
+            ],
+            "type": "miniature",
+            "uncounted": 1
+          },
+          {
+            "mandatory": 1,
+            "name": "Quantum Goad",
+            "pts": 45,
+            "req": [
+              {
+                "kw": [
+                  "C’tan Shard of the Nightbringer"
+                ]
+              }
+            ],
+            "type": "miniature",
+            "uncounted": 1
+          },
+          {
+            "mandatory": 1,
+            "name": "Animus Damper",
+            "pts": 35,
+            "req": [
+              {
+                "kw": [
+                  "C’tan Shard of the Void Dragon"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "mandatory": 1,
+            "name": "Reletavistic Tether",
+            "pts": 40,
+            "req": [
+              {
+                "kw": [
+                  "Transcendent C’tan"
+                ]
+              }
+            ],
+            "type": "miniature",
+            "uncounted": 1
+          }
+        ],
+        "fds": [
+          "Disruption"
+        ],
+        "name": "Pantheon of Woe",
+        "sid": "a7ec286c-a305-435b-b402-91140c67d809"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "limit": 3,
+            "name": "Recursive Reanimation (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 5,
+            "req": [
+              {
+                "ds": "Tomb Blades",
+                "fac": [
+                  "Necrons"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "limit": 3,
+            "name": "Deepening Madness (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Mounted",
+                  "Destroyer Cult"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Skyshroud Spearhead",
+        "sid": "cd5f7a63-6d73-4094-9977-e8b7530d1a8f"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Dread Majesty (Aura)",
+            "pts": 30,
+            "req": [
+              {
+                "kw": [
+                  "Overlord"
+                ]
+              },
+              {
+                "kw": [
+                  "Catacomb Command Barge"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Miniaturised Nebuloscope",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Necrons"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Demanding Leader",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Necrons"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Chrono-impedance Fields",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Necrons"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets",
+          "Purge the Foe"
+        ],
+        "name": "Starshatter Arsenal",
+        "sid": "225b9e9c-7ebe-413f-a079-087bc98f380a"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Prelocational Optimiser",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Necrons"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "limit": 3,
+            "name": "Mortality Shroud (Aura) (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 10,
+            "req": [
+              {
+                "ds": "Obelisk",
+                "fac": [
+                  "Necrons"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "The Phaeron's Armoury",
+        "sid": "3818a5e4-5d1a-410b-a63f-9a850b923635",
+        "unique": "HYPERCRYPT"
+      }
+    ],
+    "name": "Necrons",
+    "slug": "necrons",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1820,
+                1
+              ],
+              [
+                1821,
+                1
+              ],
+              [
+                1822,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1823
+              ]
+            ],
+            "rep": [
+              1821
+            ],
+            "t": 674
+          }
+        ],
+        "id": "annihilation-barge",
+        "kws": [
+          "Annihilation Barge",
+          "Fly",
+          "Frame",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Annihilation Barge",
+        "sid": "bb6d8d45-fb1b-4b3a-96eb-9a61dc886228",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1900,
+                1
+              ],
+              [
+                1882,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "id": "anrakyr-the-traveller",
+        "kws": [
+          "Infantry",
+          "Character",
+          "Epic Hero",
+          "Noble",
+          "Anrakyr the Traveller"
+        ],
+        "leads": [
+          {
+            "to": "immortals",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Anrakyr the Traveller",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 95
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1854,
+                1
+              ],
+              [
+                1855,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "noWarlord": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "ctan-shard-of-the-deceiver",
+        "kws": [
+          "Character",
+          "C’tan Shard of the Deceiver",
+          "Epic Hero",
+          "Fly",
+          "Monster"
+        ],
+        "linked": 1,
+        "name": "C’tan Shard of the Deceiver",
+        "sid": "65f56806-cf8c-47ef-8470-13e3ac1fc66e",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 330
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1856,
+                1
+              ],
+              [
+                1857,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "noWarlord": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "ctan-shard-of-the-nightbringer",
+        "kws": [
+          "Character",
+          "C’tan Shard of the Nightbringer",
+          "Epic Hero",
+          "Fly",
+          "Monster"
+        ],
+        "linked": 1,
+        "name": "C’tan Shard of the Nightbringer",
+        "sid": "e95c1c74-6709-4575-b96c-fb2ad7133faa",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 360
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1858,
+                1
+              ],
+              [
+                1859,
+                1
+              ],
+              [
+                1860,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "noWarlord": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "ctan-shard-of-the-void-dragon",
+        "kws": [
+          "Character",
+          "C’tan Shard of the Void Dragon",
+          "Epic Hero",
+          "Fly",
+          "Monster"
+        ],
+        "linked": 1,
+        "name": "C’tan Shard of the Void Dragon",
+        "sid": "bc0cfdf6-6607-447e-b1eb-94a4e23511ea",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 345
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3419,
+                1
+              ],
+              [
+                1934,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "canoptek-acanthrites",
+        "kws": [
+          "Beasts",
+          "Fly",
+          "Canoptek",
+          "Acanthrites"
+        ],
+        "linked": 1,
+        "name": "Canoptek Acanthrites",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 85
+          },
+          {
+            "per": [
+              4,
+              6
+            ],
+            "pts": 170
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1824,
+                1
+              ],
+              [
+                1825,
+                1
+              ],
+              [
+                1826,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "id": "canoptek-doomstalker",
+        "kws": [
+          "Canoptek",
+          "Doomstalker",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Canoptek Doomstalker",
+        "sid": "d82e8a78-72da-45b5-afee-177c0f2e6b26",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 130
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1827,
+                1
+              ],
+              [
+                1828,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                1829
+              ]
+            ],
+            "rep": [
+              1827
+            ],
+            "t": 675
+          },
+          {
+            "alt": 1,
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1830,
+                    1
+                  ],
+                  [
+                    1831,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1827,
+              1829
+            ],
+            "t": 676
+          },
+          {
+            "alt": 1,
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                1832
+              ]
+            ],
+            "rep": [
+              1827,
+              1829
+            ],
+            "t": 677
+          }
+        ],
+        "id": "canoptek-macrocytes",
+        "kws": [
+          "Beasts",
+          "Canoptek",
+          "Fly",
+          "Macrocytes"
+        ],
+        "linked": 1,
+        "name": "Canoptek Macrocytes",
+        "sid": "630ef031-12ad-4881-b9ef-be9e1e580b16",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 70
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1833,
+                1
+              ],
+              [
+                1834,
+                2
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "id": "canoptek-reanimator",
+        "kws": [
+          "Canoptek",
+          "Reanimator",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Canoptek Reanimator",
+        "sid": "2edc5198-0e71-4fa1-8f11-86b9450fa846",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 75
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1835,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "id": "canoptek-scarab-swarms",
+        "kws": [
+          "Canoptek",
+          "Fly",
+          "Scarab Swarms",
+          "Swarm"
+        ],
+        "linked": 1,
+        "name": "Canoptek Scarab Swarms",
+        "sid": "bf6de9ef-10a6-4f9f-a351-7a04f221476d",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 40
+          },
+          {
+            "per": [
+              4,
+              6
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1836,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1837,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "t": 678
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                1838
+              ]
+            ],
+            "t": 679
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                1839
+              ]
+            ],
+            "t": 680
+          }
+        ],
+        "id": "canoptek-spyders",
+        "kws": [
+          "Canoptek",
+          "Fly",
+          "Spyders",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Canoptek Spyders",
+        "sid": "71d2b1b5-e274-4c8b-aea5-9edfe0ce72e1",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 65
+          },
+          {
+            "per": [
+              2,
+              2
+            ],
+            "pts": 110
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1840,
+                1
+              ],
+              [
+                1841,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                1842
+              ]
+            ],
+            "rep": [
+              1840
+            ],
+            "t": 681
+          }
+        ],
+        "id": "canoptek-tomb-crawlers",
+        "joins": {
+          "by": [
+            "chronomancer",
+            "geomancer",
+            "orikan-the-diviner",
+            "plasmancer",
+            "psychomancer",
+            "technomancer"
+          ],
+          "one": [
+            "canoptek-tomb-crawlers",
+            "cryptothralls"
+          ]
+        },
+        "kws": [
+          "Beasts",
+          "Canoptek",
+          "Tomb Crawlers"
+        ],
+        "linked": 1,
+        "name": "Canoptek Tomb Crawlers",
+        "sid": "a7f13f23-7ca5-402a-b097-8e47126c7c0a",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              2,
+              2
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3420,
+                1
+              ],
+              [
+                3421,
+                1
+              ],
+              [
+                1839,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "canoptek-tomb-sentinel",
+        "kws": [
+          "Monster",
+          "Canoptek",
+          "Tomb Sentinel"
+        ],
+        "linked": 1,
+        "name": "Canoptek Tomb Sentinel",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 115
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3422,
+                1
+              ],
+              [
+                3423,
+                1
+              ],
+              [
+                1839,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "canoptek-tomb-stalker",
+        "kws": [
+          "Monster",
+          "Canoptek",
+          "Tomb Stalker"
+        ],
+        "linked": 1,
+        "name": "Canoptek Tomb Stalker",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 130
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1843,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                1844
+              ],
+              [
+                1845
+              ]
+            ],
+            "t": 682
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                1846
+              ]
+            ],
+            "rep": [
+              1843
+            ],
+            "t": 683
+          }
+        ],
+        "id": "canoptek-wraiths",
+        "kws": [
+          "Beasts",
+          "Canoptek",
+          "Fly",
+          "Wraiths"
+        ],
+        "linked": 1,
+        "name": "Canoptek Wraiths",
+        "sid": "532280db-32c1-46dc-90a6-71e0d194a0a9",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 95
+          },
+          {
+            "per": [
+              4,
+              6
+            ],
+            "pts": 220
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1821,
+                1
+              ],
+              [
+                1847,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1823
+              ]
+            ],
+            "rep": [
+              1821
+            ],
+            "t": 674
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1848
+              ]
+            ],
+            "rep": [
+              1847
+            ],
+            "t": 684
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1849
+              ]
+            ],
+            "t": 685
+          }
+        ],
+        "id": "catacomb-command-barge",
+        "kws": [
+          "Catacomb Command Barge",
+          "Character",
+          "Fly",
+          "Frame",
+          "Noble",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Catacomb Command Barge",
+        "sid": "e512ff36-34a1-4e66-b543-e26dcd9f0a12",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 120
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1850,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "chronomancer",
+        "kws": [
+          "Character",
+          "Chronomancer",
+          "Cryptek",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "necron-warriors",
+            "type": "support"
+          },
+          {
+            "to": "immortals",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Chronomancer",
+        "sid": "96d14ba2-f73e-489d-9ac6-fbb70a40ee0b",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 70
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1851,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "id": "convergence-of-dominion",
+        "kws": [
+          "Convergence of Dominion",
+          "Fortification",
+          "Frame",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Convergence of Dominion",
+        "sid": "e295866f-2ad5-44d2-8a0b-90b493f77afc",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          },
+          {
+            "per": [
+              2,
+              2
+            ],
+            "pts": 120
+          },
+          {
+            "per": [
+              3,
+              3
+            ],
+            "pts": 180
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1852,
+                1
+              ],
+              [
+                1853,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "id": "cryptothralls",
+        "joins": {
+          "by": [
+            "chronomancer",
+            "geomancer",
+            "orikan-the-diviner",
+            "plasmancer",
+            "psychomancer",
+            "technomancer"
+          ],
+          "one": [
+            "cryptothralls"
+          ]
+        },
+        "kws": [
+          "Cryptothralls",
+          "Infantry"
+        ],
+        "linked": 1,
+        "name": "Cryptothralls",
+        "sid": "4d6eaf80-cd06-49a9-ac3b-62bb2ed57528",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              2,
+              2
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1861,
+                1
+              ],
+              [
+                1862,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "deathmarks",
+        "kws": [
+          "Deathmarks",
+          "Infantry"
+        ],
+        "linked": 1,
+        "name": "Deathmarks",
+        "sid": "19b561fc-2230-4dea-b3e6-92134f862a69",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 60
+          },
+          {
+            "per": [
+              6,
+              10
+            ],
+            "pts": 120
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1820,
+                1
+              ],
+              [
+                1863,
+                1
+              ],
+              [
+                1822,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "id": "doom-scythe",
+        "kws": [
+          "Aircraft",
+          "Doom Scythe",
+          "Fly",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Doom Scythe",
+        "sid": "0d4c8f43-b01b-4902-9f3a-1ec1071e9b53",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 200
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1864,
+                2
+              ],
+              [
+                1820,
+                1
+              ],
+              [
+                1865,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "id": "doomsday-ark",
+        "kws": [
+          "Doomsday Ark",
+          "Fly",
+          "Frame",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Doomsday Ark",
+        "sid": "d8815ee9-a31e-4e79-824d-95b980bbc8ec",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 200
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1866,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "id": "flayed-ones",
+        "kws": [
+          "Flayed Ones",
+          "Infantry"
+        ],
+        "linked": 1,
+        "name": "Flayed Ones",
+        "sid": "43957ba3-d96f-45f1-bf29-6ecda45525ae",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 55
+          },
+          {
+            "per": [
+              6,
+              10
+            ],
+            "pts": 100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3424,
+                1
+              ],
+              [
+                3425,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "gauss-pylon",
+        "kws": [
+          "Fortification",
+          "Vehicle",
+          "Towering",
+          "Titanic",
+          "Gauss Pylon"
+        ],
+        "linked": 1,
+        "name": "Gauss Pylon",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 210
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1867,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "geomancer",
+        "kws": [
+          "Character",
+          "Cryptek",
+          "Geomancer",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "necron-warriors",
+            "type": "support"
+          },
+          {
+            "to": "canoptek-macrocytes",
+            "type": "support"
+          },
+          {
+            "to": "immortals",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Geomancer",
+        "sid": "adf50c66-95cf-4a52-9b16-8ba563c1eac3",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 75
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1820,
+                1
+              ],
+              [
+                1864,
+                2
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "id": "ghost-ark",
+        "kws": [
+          "Dedicated Transport",
+          "Fly",
+          "Frame",
+          "Ghost Ark",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Ghost Ark",
+        "sid": "adc20a6b-4a26-492a-b155-9392789c5ff4",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1868,
+                1
+              ],
+              [
+                1869,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "hexmark-destroyer",
+        "kws": [
+          "Character",
+          "Destroyer Cult",
+          "Hexmark Destroyer",
+          "Infantry"
+        ],
+        "linked": 1,
+        "name": "Hexmark Destroyer",
+        "sid": "92dce0d2-e1b2-44d3-9f8f-a9980fc400bd",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 75
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1870,
+                1
+              ],
+              [
+                1871,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "illuminor-szeras",
+        "kws": [
+          "Character",
+          "Cryptek",
+          "Epic Hero",
+          "Illuminor Szeras",
+          "Infantry"
+        ],
+        "linked": 1,
+        "name": "Illuminor Szeras",
+        "sid": "66ffc38c-100c-4e6a-a1d3-7c9221add922",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 175
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1872,
+                1
+              ],
+              [
+                1861,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                1873
+              ]
+            ],
+            "rep": [
+              1872
+            ],
+            "t": 686
+          }
+        ],
+        "id": "immortals",
+        "kws": [
+          "Battleline",
+          "Immortals",
+          "Infantry"
+        ],
+        "linked": 1,
+        "name": "Immortals",
+        "sid": "1e7ce3f3-9cf9-4453-baea-7849e646a0d1",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 65
+          },
+          {
+            "per": [
+              6,
+              10
+            ],
+            "pts": 130
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1874,
+                1
+              ],
+              [
+                1875,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "imotekh-the-stormlord",
+        "kws": [
+          "Character",
+          "Epic Hero",
+          "Imotekh the Stormlord",
+          "Infantry",
+          "Noble"
+        ],
+        "leads": [
+          {
+            "to": "necron-warriors",
+            "type": "leader"
+          },
+          {
+            "to": "lychguard",
+            "type": "leader"
+          },
+          {
+            "to": "immortals",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Imotekh the Stormlord",
+        "sid": "dc28666d-bfb9-4f83-aacc-b6fc0872bf6b",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1861,
+                1
+              ],
+              [
+                1821,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "id": "lokhust-destroyers",
+        "kws": [
+          "Destroyer Cult",
+          "Fly",
+          "Lokhust Destroyers",
+          "Mounted"
+        ],
+        "linked": 1,
+        "name": "Lokhust Destroyers",
+        "sid": "94cdfe8e-ecc5-47c4-98a1-d4a4b07903cc",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 40
+          },
+          {
+            "per": [
+              2,
+              2
+            ],
+            "pts": 55
+          },
+          {
+            "per": [
+              3,
+              3
+            ],
+            "pts": 80
+          },
+          {
+            "per": [
+              4,
+              6
+            ],
+            "pts": 190
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1861,
+                1
+              ],
+              [
+                1876,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                1877
+              ]
+            ],
+            "rep": [
+              1876
+            ],
+            "t": 687
+          }
+        ],
+        "id": "lokhust-heavy-destroyers",
+        "kws": [
+          "Destroyer Cult",
+          "Fly",
+          "Lokhust Heavy Destroyers",
+          "Mounted"
+        ],
+        "linked": 1,
+        "name": "Lokhust Heavy Destroyers",
+        "sid": "f02aba3e-c2ef-4b45-91d7-6f89937c834a",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 50
+          },
+          {
+            "per": [
+              2,
+              2
+            ],
+            "pts": 100
+          },
+          {
+            "per": [
+              3,
+              3
+            ],
+            "pts": 165
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1878,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1879
+              ]
+            ],
+            "rep": [
+              1878
+            ],
+            "t": 688
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1880
+              ],
+              [
+                1881
+              ]
+            ],
+            "t": 186
+          }
+        ],
+        "id": "lokhust-lord",
+        "kws": [
+          "Character",
+          "Destroyer Cult",
+          "Fly",
+          "Lokhust Lord",
+          "Mounted"
+        ],
+        "leads": [
+          {
+            "to": "lokhust-heavy-destroyers",
+            "type": "leader"
+          },
+          {
+            "to": "lokhust-destroyers",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Lokhust Lord",
+        "sid": "e2081c4c-4286-4b44-b80a-9b536ab752fb",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1913,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1,
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1879
+              ]
+            ],
+            "rep": [
+              1913
+            ],
+            "t": 688
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1881
+              ]
+            ],
+            "t": 685
+          }
+        ],
+        "id": "lord",
+        "kws": [
+          "Infantry",
+          "Character",
+          "Noble",
+          "Lord"
+        ],
+        "leads": [
+          {
+            "to": "immortals",
+            "type": "leader"
+          },
+          {
+            "to": "lychguard",
+            "type": "leader"
+          },
+          {
+            "to": "necron-warriors",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Lord",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 65
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1882,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1883,
+                    1
+                  ],
+                  [
+                    1884,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1882
+            ],
+            "t": 689
+          }
+        ],
+        "id": "lychguard",
+        "kws": [
+          "Infantry",
+          "Lychguard"
+        ],
+        "linked": 1,
+        "name": "Lychguard",
+        "sid": "3564cad2-6d2a-43d8-9fa1-01cf36a45efb",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 80
+          },
+          {
+            "per": [
+              6,
+              10
+            ],
+            "pts": 160
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1885,
+                4
+              ],
+              [
+                1886,
+                1
+              ],
+              [
+                1887,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1888,
+                    4
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1885
+            ],
+            "t": 690
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "monolith",
+        "kws": [
+          "Fly",
+          "Frame",
+          "Monolith",
+          "Titanic",
+          "Towering",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Monolith",
+        "sid": "9d18d47f-ddc1-4eea-b6e1-58dbcd8d005c",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 420
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                225,
+                1
+              ],
+              [
+                1889,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                1890
+              ]
+            ],
+            "rep": [
+              1889
+            ],
+            "t": 691
+          }
+        ],
+        "id": "necron-warriors",
+        "kws": [
+          "Battleline",
+          "Infantry",
+          "Necron Warriors"
+        ],
+        "linked": 1,
+        "name": "Necron Warriors",
+        "sid": "a2c770db-6c8a-4008-8736-96f8a8971ed9",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 85
+          },
+          {
+            "per": [
+              11,
+              20
+            ],
+            "pts": 190
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1891,
+                1
+              ],
+              [
+                1892,
+                1
+              ],
+              [
+                1893,
+                1
+              ],
+              [
+                1894,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "nekrosor-ammentar",
+        "kws": [
+          "Character",
+          "Destroyer Cult",
+          "Epic Hero",
+          "Infantry",
+          "Nekrosor Ammentar"
+        ],
+        "linked": 1,
+        "name": "Nekrosor Ammentar",
+        "sid": "b0c2b90f-deeb-46a7-97e6-2de26919d475",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 195
+          }
+        ],
+        "stands": {
+          "1891": [
+            "Blade tail"
+          ]
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1913,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "id": "nemesor-zahndrekh",
+        "kws": [
+          "Infantry",
+          "Character",
+          "Epic Hero",
+          "Noble",
+          "Nemesor Zahndrekh"
+        ],
+        "leads": [
+          {
+            "to": "immortals",
+            "type": "leader"
+          },
+          {
+            "to": "lychguard",
+            "type": "leader"
+          },
+          {
+            "to": "necron-warriors",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Nemesor Zahndrekh",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 85
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1822,
+                1
+              ],
+              [
+                1820,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "night-scythe",
+        "kws": [
+          "Fly",
+          "Night Scythe",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Night Scythe",
+        "sid": "acd92a6c-c754-45d6-80fb-e20a112818f4",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 125
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1822,
+                1
+              ],
+              [
+                1820,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "night-shroud",
+        "kws": [
+          "Vehicle",
+          "Aircraft",
+          "Fly",
+          "Night Shroud"
+        ],
+        "linked": 1,
+        "name": "Night Shroud",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 140
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1895,
+                1
+              ],
+              [
+                1896,
+                4
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "obelisk",
+        "kws": [
+          "Fly",
+          "Frame",
+          "Obelisk",
+          "Titanic",
+          "Towering",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Obelisk",
+        "sid": "ef491108-65e0-465d-9c70-2906c451e53a",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 280
+          }
+        ],
+        "stands": {
+          "1896": [
+            "Tesla spheres"
+          ]
+        },
+        "step": {
+          "at": 2,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1897,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                3,
+                1
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                1898
+              ]
+            ],
+            "t": 692
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "ophydian-destroyers",
+        "kws": [
+          "Destroyer Cult",
+          "Infantry",
+          "Ophydian Destroyers"
+        ],
+        "linked": 1,
+        "name": "Ophydian Destroyers",
+        "sid": "d0c0ae67-772d-4696-97ae-946495a671f5",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 80
+          },
+          {
+            "per": [
+              4,
+              6
+            ],
+            "pts": 150
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1899,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "orikan-the-diviner",
+        "kws": [
+          "Character",
+          "Chronomancer",
+          "Cryptek",
+          "Epic Hero",
+          "Infantry",
+          "Orikan the Diviner"
+        ],
+        "leads": [
+          {
+            "to": "necron-warriors",
+            "type": "support"
+          },
+          {
+            "to": "immortals",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Orikan the Diviner",
+        "sid": "5f62e852-8419-4993-aca9-6a5b98235516",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 90
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1900,
+                1
+              ],
+              [
+                1848,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1878
+              ],
+              [
+                1901
+              ]
+            ],
+            "rep": [
+              1900,
+              1848
+            ],
+            "t": 693
+          },
+          {
+            "cond": [
+              0,
+              1
+            ],
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1881
+              ]
+            ],
+            "t": 694
+          }
+        ],
+        "id": "overlord",
+        "kws": [
+          "Character",
+          "Infantry",
+          "Noble",
+          "Overlord"
+        ],
+        "leads": [
+          {
+            "to": "necron-warriors",
+            "type": "leader"
+          },
+          {
+            "to": "immortals",
+            "type": "leader"
+          },
+          {
+            "to": "lychguard",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Overlord",
+        "sid": "b3795083-cfd9-404d-9f4e-22ea30951ea3",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 90
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1881,
+                1
+              ],
+              [
+                1848,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "overlord-with-translocation-shroud",
+        "kws": [
+          "Character",
+          "Infantry",
+          "Noble",
+          "Overlord",
+          "Overlord with Translocation Shroud"
+        ],
+        "leads": [
+          {
+            "to": "lychguard",
+            "type": "leader"
+          },
+          {
+            "to": "necron-warriors",
+            "type": "leader"
+          },
+          {
+            "to": "immortals",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Overlord with Translocation Shroud",
+        "sid": "3fc36b72-fd76-402d-b2a1-1bb0dcaab632",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 90
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1902,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "plasmancer",
+        "kws": [
+          "Character",
+          "Cryptek",
+          "Infantry",
+          "Plasmancer"
+        ],
+        "leads": [
+          {
+            "to": "immortals",
+            "type": "support"
+          },
+          {
+            "to": "necron-warriors",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Plasmancer",
+        "sid": "57c6a60f-55cc-4ea3-b7d6-db545d28b625",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1903,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "psychomancer",
+        "kws": [
+          "Character",
+          "Cryptek",
+          "Infantry",
+          "Psychomancer"
+        ],
+        "leads": [
+          {
+            "to": "necron-warriors",
+            "type": "support"
+          },
+          {
+            "to": "immortals",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Psychomancer",
+        "sid": "b9ba3ed6-f3f5-481d-bda5-36c9b3529cd8",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 65
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1904,
+                1
+              ],
+              [
+                1868,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "royal-warden",
+        "kws": [
+          "Character",
+          "Infantry",
+          "Royal Warden"
+        ],
+        "leads": [
+          {
+            "to": "necron-warriors",
+            "type": "leader"
+          },
+          {
+            "to": "immortals",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Royal Warden",
+        "sid": "b89d5daa-8882-4ac0-8891-8af1ebecf596",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 50
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3426,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                3427
+              ],
+              [
+                3428
+              ]
+            ],
+            "rep": [
+              3426
+            ],
+            "t": 1158
+          }
+        ],
+        "id": "sentry-pylon",
+        "kws": [
+          "Fortification",
+          "Vehicle",
+          "Frame",
+          "Sentry Pylon"
+        ],
+        "linked": 1,
+        "name": "Sentry Pylon",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 120
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1909,
+                2
+              ],
+              [
+                1910,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1911,
+                    2
+                  ],
+                  [
+                    1912,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1909
+            ],
+            "t": 695
+          }
+        ],
+        "id": "seraptek-heavy-construct",
+        "kws": [
+          "Frame",
+          "Seraptek Heavy Construct",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Seraptek Heavy Construct",
+        "sid": "3ab9411d-be16-4e33-8133-26186b6f98b8",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 540
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 30
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1905,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                1
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                1898
+              ]
+            ],
+            "t": 692
+          }
+        ],
+        "id": "skorpekh-destroyers",
+        "kws": [
+          "Destroyer Cult",
+          "Infantry",
+          "Skorpekh Destroyers"
+        ],
+        "linked": 1,
+        "name": "Skorpekh Destroyers",
+        "sid": "3f105de1-6aec-406e-b4f3-92f1a8bb2ccb",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 85
+          },
+          {
+            "per": [
+              4,
+              6
+            ],
+            "pts": 170
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1906,
+                1
+              ],
+              [
+                1907,
+                1
+              ],
+              [
+                1908,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "skorpekh-lord",
+        "kws": [
+          "Character",
+          "Destroyer Cult",
+          "Infantry",
+          "Skorpekh Lord"
+        ],
+        "leads": [
+          {
+            "to": "skorpekh-destroyers",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Skorpekh Lord",
+        "sid": "30d3830d-36e9-4e7e-b1c1-41833d2d796a",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 95
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1913,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "technomancer",
+        "kws": [
+          "Character",
+          "Cryptek",
+          "Fly",
+          "Infantry",
+          "Technomancer"
+        ],
+        "leads": [
+          {
+            "to": "necron-warriors",
+            "type": "support"
+          },
+          {
+            "to": "canoptek-wraiths",
+            "type": "support"
+          },
+          {
+            "to": "immortals",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Technomancer",
+        "sid": "c043e2de-3c18-4f29-8b88-35f0e2e856d8",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3429,
+                1
+              ],
+              [
+                1823,
+                2
+              ],
+              [
+                1820,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1821,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1924,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1823
+            ],
+            "t": 1159
+          }
+        ],
+        "id": "tesseract-ark",
+        "kws": [
+          "Vehicle",
+          "Fly",
+          "Tesseract Ark"
+        ],
+        "linked": 1,
+        "name": "Tesseract Ark",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 130
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1914,
+                4
+              ],
+              [
+                1895,
+                1
+              ],
+              [
+                1915,
+                1
+              ],
+              [
+                1916,
+                1
+              ],
+              [
+                1917,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "id": "tesseract-vault",
+        "kws": [
+          "Fly",
+          "Frame",
+          "Tesseract Vault",
+          "Titanic",
+          "Towering",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Tesseract Vault",
+        "sid": "78c48e30-c3ad-4039-affa-955d81c36b36",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 465
+          }
+        ],
+        "stands": {
+          "1914": [
+            "Tesla spheres"
+          ]
+        },
+        "step": {
+          "at": 2,
+          "pts": 40
+        }
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                1918,
+                1
+              ],
+              [
+                1919,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                1920,
+                1
+              ],
+              [
+                1921,
+                1
+              ],
+              [
+                1922,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "supreme": 1
+        },
+        "id": "the-silent-king",
+        "kws": [
+          "Character",
+          "Epic Hero",
+          "The Silent King",
+          "Triarch",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Szarekh"
+          },
+          {
+            "n": "Triarchal Menhir"
+          }
+        ],
+        "modelKws": {
+          "Character": [
+            0
+          ],
+          "The Silent King": [
+            0
+          ]
+        },
+        "name": "The Silent King",
+        "sid": "eaadfab8-5c57-4514-a7ab-9aa8ef1f4a68",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 420
+          }
+        ],
+        "stands": {
+          "1921": [
+            "Scythe of Dust"
+          ]
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                225,
+                1
+              ],
+              [
+                1923,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                1924
+              ],
+              [
+                1925
+              ]
+            ],
+            "rep": [
+              1923
+            ],
+            "t": 696
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                1926
+              ]
+            ],
+            "t": 697
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                1927
+              ],
+              [
+                1928
+              ]
+            ],
+            "t": 682
+          }
+        ],
+        "id": "tomb-blades",
+        "kws": [
+          "Fly",
+          "Mounted",
+          "Tomb Blades"
+        ],
+        "linked": 1,
+        "name": "Tomb Blades",
+        "sid": "21d42f33-bff6-47e9-a97c-9e2edb803e06",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 70
+          },
+          {
+            "per": [
+              4,
+              6
+            ],
+            "pts": 140
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            []
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    3426,
+                    1
+                  ],
+                  [
+                    1822,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    3426,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1822,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "t": 1160
+          }
+        ],
+        "id": "tomb-citadel-walls",
+        "kws": [
+          "Fortification",
+          "Titanic",
+          "Vehicle",
+          "Frame",
+          "Tomb Citadel"
+        ],
+        "linked": 1,
+        "name": "Tomb Citadel Walls",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 180
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1929,
+                1
+              ],
+              [
+                1930,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1,
+          "noEnh": 1,
+          "noWarlord": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "transcendent-ctan",
+        "kws": [
+          "Character",
+          "Fly",
+          "Monster",
+          "Transcendent C’tan"
+        ],
+        "linked": 1,
+        "name": "Transcendent C’tan",
+        "sid": "532d102e-9302-4ca0-afc0-ccc570b895d9",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 340
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1931,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "trazyn-the-infinite",
+        "kws": [
+          "Character",
+          "Epic Hero",
+          "Infantry",
+          "Noble",
+          "Trazyn the Infinite"
+        ],
+        "leads": [
+          {
+            "to": "necron-warriors",
+            "type": "leader"
+          },
+          {
+            "to": "lychguard",
+            "type": "leader"
+          },
+          {
+            "to": "immortals",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Trazyn the Infinite",
+        "sid": "037aa342-ca10-4253-82be-8cfccc28f979",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1932,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1933,
+                    1
+                  ],
+                  [
+                    1934,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1932
+            ],
+            "t": 698
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "triarch-praetorians",
+        "kws": [
+          "Fly",
+          "Infantry",
+          "Praetorians",
+          "Triarch"
+        ],
+        "linked": 1,
+        "name": "Triarch Praetorians",
+        "sid": "67b6e0a0-46c9-428c-b3b1-253d0295317d",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 80
+          },
+          {
+            "per": [
+              6,
+              10
+            ],
+            "pts": 160
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1935,
+                1
+              ],
+              [
+                1936,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1937
+              ],
+              [
+                1938
+              ]
+            ],
+            "rep": [
+              1935
+            ],
+            "t": 699
+          }
+        ],
+        "id": "triarch-stalker",
+        "kws": [
+          "Frame",
+          "Stalker",
+          "Triarch",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Triarch Stalker",
+        "sid": "ecb349c7-2af5-4fc0-8cb0-65c5564ad546",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 110
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "along": [
+          "Nemesor Zahndrekh"
+        ],
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1882,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Necrons"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "id": "vargard-obyron",
+        "kws": [
+          "Infantry",
+          "Character",
+          "Epic Hero",
+          "Vargard Obyron"
+        ],
+        "leads": [
+          {
+            "to": "immortals",
+            "type": "leader"
+          },
+          {
+            "to": "lychguard",
+            "type": "leader"
+          },
+          {
+            "to": "necron-warriors",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Vargard Obyron",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 85
+          }
+        ]
+      }
+    ]
+  }
+}

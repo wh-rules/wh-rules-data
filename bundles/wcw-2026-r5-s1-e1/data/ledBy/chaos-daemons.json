@@ -1,0 +1,124 @@
+{
+  "default": {
+    "beasts-of-nurgle": [
+      [
+        "Horticulous Slimux",
+        "leader"
+      ]
+    ],
+    "bloodcrushers": [
+      [
+        "Skullmaster",
+        "leader"
+      ]
+    ],
+    "bloodletters": [
+      [
+        "Bloodmaster",
+        "leader"
+      ],
+      [
+        "Skulltaker",
+        "leader"
+      ]
+    ],
+    "blue-horrors": [
+      [
+        "Changecaster",
+        "leader"
+      ],
+      [
+        "Fluxmaster",
+        "leader"
+      ]
+    ],
+    "daemonettes": [
+      [
+        "Contorted Epitome",
+        "leader"
+      ],
+      [
+        "Infernal Enrapturess",
+        "leader"
+      ],
+      [
+        "Syll’Esske",
+        "leader"
+      ],
+      [
+        "Tranceweaver",
+        "leader"
+      ]
+    ],
+    "flamers": [
+      [
+        "Exalted Flamer",
+        "leader"
+      ]
+    ],
+    "flesh-hounds": [
+      [
+        "Karanak",
+        "leader"
+      ]
+    ],
+    "hellflayers": [
+      [
+        "Tormentbringer",
+        "leader"
+      ]
+    ],
+    "pink-horrors": [
+      [
+        "Changecaster",
+        "leader"
+      ],
+      [
+        "Fluxmaster",
+        "leader"
+      ]
+    ],
+    "plague-toads": [
+      [
+        "Horticulous Slimux",
+        "leader"
+      ]
+    ],
+    "plaguebearers": [
+      [
+        "Epidemius",
+        "leader"
+      ],
+      [
+        "Poxbringer",
+        "leader"
+      ],
+      [
+        "Sloppity Bilepiper",
+        "leader"
+      ],
+      [
+        "Spoilpox Scrivener",
+        "leader"
+      ]
+    ],
+    "pox-riders": [
+      [
+        "Horticulous Slimux",
+        "leader"
+      ]
+    ],
+    "screamers": [
+      [
+        "Fateskimmer",
+        "leader"
+      ]
+    ],
+    "seekers": [
+      [
+        "Herald of Slaanesh on Steed of Slaanesh",
+        "leader"
+      ]
+    ]
+  }
+}

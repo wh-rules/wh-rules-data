@@ -1,0 +1,612 @@
+{
+  "default": {
+    "detachments": [
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Battle-lust",
+            "points": 20
+          },
+          {
+            "name": "Berzerker Glaive",
+            "points": 35
+          },
+          {
+            "name": "Favoured of Khorne",
+            "points": 20
+          },
+          {
+            "name": "Helm of Brazen Ire",
+            "points": 30
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Berzerker Warband"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Murder-forged Entity (Upgrade)",
+            "points": 15
+          },
+          {
+            "name": "Talons of Butchery (Upgrade)",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Brazen Engines"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Gore-stained Veterans (Upgrade)",
+            "points": 20
+          },
+          {
+            "name": "Sanctified in Slaughter (Upgrade)",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Butchers of Khorne"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Brazen Form",
+            "points": 25
+          },
+          {
+            "name": "Butcher Lord",
+            "points": 10
+          },
+          {
+            "name": "Chosen of the Blood God",
+            "points": 15
+          },
+          {
+            "name": "Strategic Slaughter",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Cult of Blood"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Aggressive Deployment",
+            "points": 20
+          },
+          {
+            "name": "Infernal Infusion",
+            "points": 25
+          },
+          {
+            "name": "Murderous Onslaught",
+            "points": 5
+          },
+          {
+            "name": "Unleash Hell",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Goretrack Onslaught"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Blade of Endless Bloodshed",
+            "points": 30
+          },
+          {
+            "name": "Blood-Forged Armour",
+            "points": 20
+          },
+          {
+            "name": "Disciple of Khorne",
+            "points": 15
+          },
+          {
+            "name": "Icon of War",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Khorne Daemonkin"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Frenzied Focus",
+            "points": 20
+          },
+          {
+            "name": "Killing Clarity",
+            "points": 15
+          },
+          {
+            "name": "Malicious Vigour",
+            "points": 30
+          },
+          {
+            "name": "Violent Demise",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Possessed Slaughterband"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Archslaughterer",
+            "points": 30
+          },
+          {
+            "name": "Gateways to Glory",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Vessels of Wrath"
+      }
+    ],
+    "id": "world-eaters",
+    "legends": [],
+    "name": "World Eaters",
+    "slug": "world-eaters",
+    "sourceUrl": "https://mfm.warhammer-community.com/en/world-eaters",
+    "subfactions": [
+      {
+        "name": "Blood Legions",
+        "units": [
+          {
+            "name": "Bloodcrushers",
+            "options": [
+              {
+                "models": 3,
+                "note": "1st-2nd",
+                "points": 95
+              },
+              {
+                "models": 6,
+                "note": "1st-2nd",
+                "points": 190
+              },
+              {
+                "models": 3,
+                "note": "3rd+",
+                "points": 115
+              },
+              {
+                "models": 6,
+                "note": "3rd+",
+                "points": 210
+              }
+            ]
+          },
+          {
+            "name": "Bloodletters",
+            "options": [
+              {
+                "models": 10,
+                "points": 90
+              }
+            ]
+          },
+          {
+            "name": "Bloodthirster",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-2nd",
+                "points": 320
+              },
+              {
+                "models": 1,
+                "note": "3rd+",
+                "points": 335
+              }
+            ]
+          },
+          {
+            "name": "Flesh Hounds",
+            "options": [
+              {
+                "models": 5,
+                "points": 75
+              },
+              {
+                "models": 10,
+                "points": 150
+              }
+            ]
+          },
+          {
+            "name": "Skarbrand",
+            "options": [
+              {
+                "models": 1,
+                "points": 315
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "units": [
+      {
+        "name": "Angron",
+        "options": [
+          {
+            "models": 1,
+            "points": 330
+          }
+        ]
+      },
+      {
+        "name": "Chaos Land Raider",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 200
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 220
+          }
+        ]
+      },
+      {
+        "name": "Chaos Predator Annihilator",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 130
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 140
+          }
+        ]
+      },
+      {
+        "name": "Chaos Predator Destructor",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 130
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 140
+          }
+        ]
+      },
+      {
+        "name": "Chaos Rhino",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-3rd",
+            "points": 75
+          },
+          {
+            "models": 1,
+            "note": "4th+",
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Chaos Spawn",
+        "options": [
+          {
+            "models": 2,
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Chaos Terminators",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 175
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 350
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 185
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 360
+          }
+        ]
+      },
+      {
+        "name": "Daemon Prince of Khorne",
+        "options": [
+          {
+            "models": 1,
+            "points": 200
+          }
+        ]
+      },
+      {
+        "name": "Daemon Prince of Khorne with Wings",
+        "options": [
+          {
+            "models": 1,
+            "points": 170
+          }
+        ]
+      },
+      {
+        "name": "Defiler",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 270
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 310
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Hades Lascannon",
+            "points": 15
+          },
+          {
+            "name": "Heavy Reaper Autocannon",
+            "points": 15
+          }
+        ]
+      },
+      {
+        "name": "Eightbound",
+        "options": [
+          {
+            "models": 3,
+            "note": "1st-2nd",
+            "points": 125
+          },
+          {
+            "models": 6,
+            "note": "1st-2nd",
+            "points": 250
+          },
+          {
+            "models": 3,
+            "note": "3rd+",
+            "points": 140
+          },
+          {
+            "models": 6,
+            "note": "3rd+",
+            "points": 265
+          }
+        ]
+      },
+      {
+        "name": "Exalted Eightbound",
+        "options": [
+          {
+            "models": 3,
+            "note": "1st-2nd",
+            "points": 130
+          },
+          {
+            "models": 6,
+            "note": "1st-2nd",
+            "points": 260
+          },
+          {
+            "models": 3,
+            "note": "3rd+",
+            "points": 145
+          },
+          {
+            "models": 6,
+            "note": "3rd+",
+            "points": 275
+          }
+        ]
+      },
+      {
+        "name": "Forgefiend",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 140
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 155
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Ectoplasma cannon",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Goremongers",
+        "options": [
+          {
+            "models": 8,
+            "points": 70
+          }
+        ]
+      },
+      {
+        "name": "Helbrute",
+        "options": [
+          {
+            "models": 1,
+            "points": 120
+          }
+        ]
+      },
+      {
+        "name": "Heldrake",
+        "options": [
+          {
+            "models": 1,
+            "points": 175
+          }
+        ]
+      },
+      {
+        "name": "Jakhals",
+        "options": [
+          {
+            "models": 10,
+            "points": 65
+          },
+          {
+            "models": 20,
+            "points": 120
+          }
+        ]
+      },
+      {
+        "name": "Khârn the Betrayer",
+        "options": [
+          {
+            "models": 1,
+            "points": 115
+          }
+        ]
+      },
+      {
+        "name": "Khorne Berzerkers",
+        "options": [
+          {
+            "models": 10,
+            "points": 170
+          },
+          {
+            "models": 20,
+            "points": 330
+          }
+        ]
+      },
+      {
+        "name": "Khorne Lord of Skulls",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 505
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 535
+          }
+        ]
+      },
+      {
+        "name": "Lord Invocatus",
+        "options": [
+          {
+            "models": 1,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Lord on Juggernaut",
+        "options": [
+          {
+            "models": 1,
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Master of Executions",
+        "options": [
+          {
+            "models": 1,
+            "points": 60
+          }
+        ]
+      },
+      {
+        "name": "Maulerfiend",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 140
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 150
+          }
+        ]
+      },
+      {
+        "name": "Slaughterbound",
+        "options": [
+          {
+            "models": 1,
+            "points": 90
+          }
+        ]
+      }
+    ]
+  }
+}

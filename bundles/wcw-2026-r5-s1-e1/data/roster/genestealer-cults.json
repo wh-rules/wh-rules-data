@@ -1,0 +1,2816 @@
+{
+  "default": {
+    "allies": [
+      {
+        "dets": [
+          "Brood Brothers Auxilia"
+        ],
+        "ids": [
+          "astra-militarum:aegis-defence-line",
+          "astra-militarum:armoured-sentinels",
+          "astra-militarum:artillery-team",
+          "astra-militarum:attilan-rough-riders",
+          "astra-militarum:baneblade",
+          "astra-militarum:banehammer",
+          "astra-militarum:banesword",
+          "astra-militarum:basilisk",
+          "astra-militarum:cadian-castellan",
+          "astra-militarum:cadian-command-squad",
+          "astra-militarum:cadian-heavy-weapons-squad",
+          "astra-militarum:cadian-recon-squad",
+          "astra-militarum:cadian-shock-troops",
+          "astra-militarum:catachan-command-squad",
+          "astra-militarum:catachan-heavy-weapons-squad",
+          "astra-militarum:catachan-jungle-fighters",
+          "astra-militarum:centaur-rsv",
+          "astra-militarum:chimera",
+          "astra-militarum:cyclops-demolition-vehicle",
+          "astra-militarum:death-korps-of-krieg",
+          "astra-militarum:death-riders",
+          "astra-militarum:deathstrike",
+          "astra-militarum:doomhammer",
+          "astra-militarum:field-ordnance-battery",
+          "astra-militarum:hellhammer",
+          "astra-militarum:hellhound",
+          "astra-militarum:hippogriff-afv",
+          "astra-militarum:hydra",
+          "astra-militarum:kasrkin",
+          "astra-militarum:krieg-combat-engineers",
+          "astra-militarum:krieg-command-squad",
+          "astra-militarum:krieg-heavy-weapons-squad",
+          "astra-militarum:leman-russ-battle-tank",
+          "astra-militarum:leman-russ-commander",
+          "astra-militarum:leman-russ-demolisher",
+          "astra-militarum:leman-russ-eradicator",
+          "astra-militarum:leman-russ-executioner",
+          "astra-militarum:leman-russ-exterminator",
+          "astra-militarum:leman-russ-punisher",
+          "astra-militarum:leman-russ-vanquisher",
+          "astra-militarum:manticore",
+          "astra-militarum:primaris-psyker",
+          "astra-militarum:rogal-dorn-battle-tank",
+          "astra-militarum:rogal-dorn-commander",
+          "astra-militarum:scout-sentinels",
+          "astra-militarum:shadowsword",
+          "astra-militarum:stormlord",
+          "astra-militarum:stormsword",
+          "astra-militarum:taurox",
+          "astra-militarum:valkyrie",
+          "astra-militarum:wyvern"
+        ],
+        "key": "astra-militarum",
+        "name": "Astra Militarum",
+        "pts": {
+          "incursion": 500,
+          "onslaught": 1500,
+          "strike-force": 1000
+        }
+      },
+      {
+        "dets": [
+          "Final Day"
+        ],
+        "enh": 1,
+        "ids": [
+          "tyranids:deathleaper",
+          "tyranids:gargoyles",
+          "tyranids:hyperadapted-raveners",
+          "tyranids:lictor",
+          "tyranids:mawloc",
+          "tyranids:neurolictor",
+          "tyranids:parasite-of-mortrex",
+          "tyranids:raveners",
+          "tyranids:the-red-terror",
+          "tyranids:trygon",
+          "tyranids:tyrannocyte",
+          "tyranids:von-ryans-leapers",
+          "tyranids:winged-hive-tyrant",
+          "tyranids:winged-tyranid-prime"
+        ],
+        "key": "tyranids",
+        "name": "Tyranids",
+        "pts": {
+          "incursion": 500,
+          "onslaught": 1500,
+          "strike-force": 1000
+        }
+      }
+    ],
+    "detachments": [
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Predatory Instincts",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Abominant"
+                ]
+              },
+              {
+                "kw": [
+                  "Biophagus"
+                ]
+              },
+              {
+                "kw": [
+                  "Patriarch"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Biomorph Adaptation",
+            "pts": 25,
+            "req": [
+              {
+                "kw": [
+                  "Abominant"
+                ]
+              },
+              {
+                "kw": [
+                  "Patriarch"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Mutagenic Regeneration",
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "Abominant"
+                ]
+              },
+              {
+                "kw": [
+                  "Patriarch"
+                ]
+              },
+              {
+                "kw": [
+                  "Biophagus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Alien Majesty",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Abominant"
+                ]
+              },
+              {
+                "kw": [
+                  "Patriarch"
+                ]
+              },
+              {
+                "kw": [
+                  "Biophagus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Biosanctic Broodsurge",
+        "sid": "37b534f4-135f-4d14-bfcb-3fa7ccf9469d"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Martial Espionage",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Genestealer Cults"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Adaptive Reprisal",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Genestealer Cults"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "The Hero Returned",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Genestealer Cults"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Fire-point Commander",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Genestealer Cults"
+                ],
+                "kw": [
+                  "Infantry"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Brood Brothers Auxilia",
+        "sid": "16c40129-6e3f-4714-871a-e1da94934ba7"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Synaptic Auger",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Tyranids"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Enraptured Damnation",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Genestealer Cults"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Vanguard Tyrant",
+            "pts": 25,
+            "req": [
+              {
+                "kw": [
+                  "Winged Hive Tyrant"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Inhuman Integration",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Genestealer Cults"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Final Day",
+        "sid": "68478a72-0983-4fef-8cdb-e4536134d56e"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Gene-tailored Toxins",
+            "pts": 35,
+            "req": [
+              {
+                "ds": "Sanctus",
+                "fac": [
+                  "Genestealer Cults"
+                ]
+              },
+              {
+                "ds": "Locus",
+                "fac": [
+                  "Genestealer Cults"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Contraband Munitions",
+            "pts": 20,
+            "req": [
+              {
+                "ds": "Reductus Saboteur",
+                "fac": [
+                  "Genestealer Cults"
+                ]
+              },
+              {
+                "ds": "Kelermorph",
+                "fac": [
+                  "Genestealer Cults"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Disruption"
+        ],
+        "name": "Heroes of the Uprising",
+        "sid": "e0e6a94f-b219-43ec-95d0-f694f701df09"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Prowling Agitant",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Genestealer Cults"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "A Chink In Their Armour",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Genestealer Cults"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Our Time is Nigh",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Genestealer Cults"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Assassination Edict",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Genestealer Cults"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold",
+          "Reconnaissance"
+        ],
+        "name": "Host of Ascension",
+        "sid": "f8ab87bf-ffeb-4dae-8708-5e04ed4d45c6",
+        "unique": "HOSTS"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Serpentine Tactics",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Genestealer Cults"
+                ],
+                "kw": [
+                  "Mounted"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Cartographic Data-leech",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Genestealer Cults"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Starfall Shells",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Genestealer Cults"
+                ],
+                "kw": [
+                  "Mounted"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Assault Commando",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Genestealer Cults"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Outlander Claw",
+        "sid": "4448633e-99cf-4ada-8651-76dbf12b61c6"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "limit": 3,
+            "name": "Mark of the Star Children (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 30,
+            "req": [
+              {
+                "ds": "Purestrain Genestealers",
+                "fac": [
+                  "Genestealer Cults"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "name": "Talons of the Sire",
+            "pts": 15,
+            "req": [
+              {
+                "ds": "Patriarch",
+                "fac": [
+                  "Genestealer Cults"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Purestrain Broodswarm",
+        "sid": "23ea0315-37ef-410f-a0a2-a6cf622e609f"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Gene-sire’s Reliquant",
+            "pts": 5,
+            "req": [
+              {
+                "kw": [
+                  "Primus"
+                ]
+              },
+              {
+                "kw": [
+                  "Magus"
+                ]
+              },
+              {
+                "kw": [
+                  "Acolyte Iconward"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Denunciator of Tyrants",
+            "pts": 25,
+            "req": [
+              {
+                "kw": [
+                  "Magus"
+                ]
+              },
+              {
+                "kw": [
+                  "Acolyte Iconward"
+                ]
+              },
+              {
+                "kw": [
+                  "Primus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Deeds that Speak to the Masses",
+            "pts": 25,
+            "req": [
+              {
+                "kw": [
+                  "Primus"
+                ]
+              },
+              {
+                "kw": [
+                  "Magus"
+                ]
+              },
+              {
+                "kw": [
+                  "Acolyte Iconward"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Incendiary Inspiration",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Primus"
+                ]
+              },
+              {
+                "kw": [
+                  "Acolyte Iconward"
+                ]
+              },
+              {
+                "kw": [
+                  "Magus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Xenocreed Congregation",
+        "sid": "71b5d36d-cfd6-48ee-b883-fbc73eac91cc"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Inspired to Greatness",
+            "pts": 15,
+            "req": [
+              {
+                "ds": "Magus",
+                "fac": [
+                  "Genestealer Cults"
+                ]
+              },
+              {
+                "ds": "Primus",
+                "fac": [
+                  "Genestealer Cults"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "limit": 3,
+            "name": "Devious Disguises (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "ds": "Neophyte Hybrids",
+                "fac": [
+                  "Genestealer Cults"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Xenocult Masses",
+        "sid": "ef54b4ca-adca-4e8f-9427-ea1cd0e42ed5",
+        "unique": "HOSTS"
+      }
+    ],
+    "name": "Genestealer Cults",
+    "slug": "genestealer-cults",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1506,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                1506,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "aberrants",
+        "kws": [
+          "Aberrants",
+          "Great Devourer",
+          "Infantry"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Aberrant Hypermorph"
+          },
+          {
+            "n": "Aberrant"
+          }
+        ],
+        "modelKws": {},
+        "name": "Aberrants",
+        "sid": "e2a611b2-4381-4b71-a7b5-799af3b7bd72",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 140
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 280
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1507,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "abominant",
+        "kws": [
+          "Abominant",
+          "Character",
+          "Great Devourer",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "aberrants",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Abominant",
+        "sid": "7ccee872-0efc-4317-ba1b-2b29a07a86db",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 85
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                632,
+                1
+              ],
+              [
+                1508,
+                1
+              ],
+              [
+                1509,
+                1
+              ],
+              [
+                1510,
+                1
+              ]
+            ]
+          ]
+        ],
+        "dw": [
+          [
+            0,
+            10
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "dr": 10,
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                1511
+              ],
+              [
+                1512
+              ]
+            ],
+            "rep": [
+              1509
+            ],
+            "t": 563
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                1513
+              ],
+              [
+                1514
+              ]
+            ],
+            "rep": [
+              1508
+            ],
+            "t": 564
+          }
+        ],
+        "id": "achilles-ridgerunners",
+        "kws": [
+          "Achilles Ridgerunners",
+          "Great Devourer",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Achilles Ridgerunners",
+        "sid": "86e6278b-8ff0-40f0-abe3-d697e007024a",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 95
+          },
+          {
+            "per": [
+              2,
+              2
+            ],
+            "pts": 160
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                1515,
+                1
+              ],
+              [
+                646,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                1515,
+                1
+              ],
+              [
+                646,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1516
+              ]
+            ],
+            "rep": [
+              646
+            ],
+            "t": 565
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                3
+              ],
+              [
+                10,
+                6
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1517
+              ]
+            ],
+            "rep": [
+              646,
+              1515
+            ],
+            "t": 566
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1518
+              ]
+            ],
+            "rep": [
+              1515
+            ],
+            "t": 567
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "acolyte-hybrids-with-autopistols",
+        "kws": [
+          "Acolyte Hybrids",
+          "Acolyte Hybrids with Autopistols",
+          "Battleline",
+          "Great Devourer",
+          "Grenades",
+          "Infantry"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Acolyte Leader"
+          },
+          {
+            "n": "Acolyte Hybrid"
+          }
+        ],
+        "modelKws": {},
+        "name": "Acolyte Hybrids with Autopistols",
+        "sid": "e0ae13f2-e9be-4ce6-bdc0-e5c30c83ec18",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 65
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 120
+          }
+        ],
+        "stands": {
+          "1518": [
+            "Leader’s cult weapons"
+          ]
+        }
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                650,
+                1
+              ],
+              [
+                1515,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                650,
+                1
+              ],
+              [
+                1515,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1516
+              ]
+            ],
+            "rep": [
+              650
+            ],
+            "t": 568
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                2
+              ],
+              [
+                10,
+                4
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1519
+              ]
+            ],
+            "rep": [
+              650
+            ],
+            "t": 569
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1518
+              ]
+            ],
+            "rep": [
+              1515
+            ],
+            "t": 567
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "acolyte-hybrids-with-hand-flamers",
+        "kws": [
+          "Acolyte Hybrids",
+          "Acolyte Hybrids with Hand Flamers",
+          "Battleline",
+          "Great Devourer",
+          "Grenades",
+          "Infantry"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Acolyte Leader"
+          },
+          {
+            "n": "Acolyte Hybrid"
+          }
+        ],
+        "modelKws": {},
+        "name": "Acolyte Hybrids with Hand Flamers",
+        "sid": "1451dc1c-a16d-4ba6-9086-d1a9a761bb1c",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 75
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 140
+          }
+        ],
+        "stands": {
+          "1518": [
+            "Leader’s cult weapons"
+          ]
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1520,
+                1
+              ],
+              [
+                104,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "acolyte-iconward",
+        "kws": [
+          "Acolyte Iconward",
+          "Character",
+          "Great Devourer",
+          "Grenades",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "neophyte-hybrids",
+            "type": "leader"
+          },
+          {
+            "to": "acolyte-hybrids-with-autopistols",
+            "type": "leader"
+          },
+          {
+            "to": "hybrid-metamorphs",
+            "type": "leader"
+          },
+          {
+            "to": "acolyte-hybrids-with-hand-flamers",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Acolyte Iconward",
+        "sid": "3a688f06-d483-461d-9fa4-46ee39bcd275",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 50
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                1521,
+                1
+              ],
+              [
+                259,
+                1
+              ],
+              [
+                1522,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                259,
+                1
+              ],
+              [
+                1521,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                2
+              ],
+              [
+                8,
+                4
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                1523
+              ]
+            ],
+            "rep": [
+              259
+            ],
+            "t": 570
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                0,
+                1
+              ],
+              [
+                8,
+                2
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                575
+              ]
+            ],
+            "rep": [
+              1521
+            ],
+            "t": 571
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                1524
+              ],
+              [
+                1525
+              ]
+            ],
+            "rep": [
+              1522
+            ],
+            "t": 572
+          }
+        ],
+        "id": "atalan-jackals",
+        "kws": [
+          "Atalan Jackals",
+          "Great Devourer",
+          "Grenades",
+          "Mounted"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Atalan Jackal"
+          },
+          {
+            "n": "Atalan Wolfquad"
+          }
+        ],
+        "modelKws": {},
+        "name": "Atalan Jackals",
+        "sid": "94255ad7-19e0-4606-839b-6cdd419c132c",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 85
+          },
+          {
+            "comp": [
+              [
+                0,
+                5,
+                8
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "per": [
+              6,
+              9
+            ],
+            "pts": 160
+          },
+          {
+            "comp": [
+              [
+                0,
+                8
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "per": [
+              10,
+              10
+            ],
+            "pts": 150
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1526,
+                1
+              ],
+              [
+                95,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "benefictus",
+        "kws": [
+          "Benefictus",
+          "Character",
+          "Great Devourer",
+          "Infantry",
+          "Psyker"
+        ],
+        "leads": [
+          {
+            "to": "hybrid-metamorphs",
+            "type": "leader"
+          },
+          {
+            "to": "acolyte-hybrids-with-hand-flamers",
+            "type": "leader"
+          },
+          {
+            "to": "neophyte-hybrids",
+            "type": "leader"
+          },
+          {
+            "to": "acolyte-hybrids-with-autopistols",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Benefictus",
+        "sid": "ee915df3-4d84-4c1a-97f9-fcbf8a4de6d8",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 75
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1527,
+                1
+              ],
+              [
+                1528,
+                1
+              ],
+              [
+                1529,
+                1
+              ],
+              [
+                104,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "biophagus",
+        "kws": [
+          "Biophagus",
+          "Character",
+          "Great Devourer",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "aberrants",
+            "type": "support"
+          },
+          {
+            "to": "hybrid-metamorphs",
+            "type": "support"
+          },
+          {
+            "to": "neophyte-hybrids",
+            "type": "support"
+          },
+          {
+            "to": "acolyte-hybrids-with-autopistols",
+            "type": "support"
+          },
+          {
+            "to": "acolyte-hybrids-with-hand-flamers",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Biophagus",
+        "sid": "ad9f991a-2c23-453c-ad90-07e49d725ec2",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 50
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                95,
+                1
+              ],
+              [
+                104,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "clamavus",
+        "kws": [
+          "Character",
+          "Clamavus",
+          "Great Devourer",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "neophyte-hybrids",
+            "type": "support"
+          },
+          {
+            "to": "acolyte-hybrids-with-autopistols",
+            "type": "support"
+          },
+          {
+            "to": "acolyte-hybrids-with-hand-flamers",
+            "type": "support"
+          },
+          {
+            "to": "hybrid-metamorphs",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Clamavus",
+        "sid": "f766ba0b-5b10-478f-a514-cde59ef17946",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 50
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1509,
+                1
+              ],
+              [
+                1530,
+                1
+              ],
+              [
+                1531,
+                1
+              ],
+              [
+                542,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1532
+              ],
+              [
+                1533
+              ]
+            ],
+            "rep": [
+              1509
+            ],
+            "t": 573
+          }
+        ],
+        "id": "goliath-rockgrinder",
+        "kws": [
+          "Frame",
+          "Goliath Rockgrinder",
+          "Great Devourer",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Goliath Rockgrinder",
+        "sid": "63337b5c-3d6c-472b-8a76-5f1741fcc220",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 110
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1530,
+                1
+              ],
+              [
+                542,
+                1
+              ],
+              [
+                210,
+                1
+              ],
+              [
+                696,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {},
+        "id": "goliath-truck",
+        "kws": [
+          "Dedicated Transport",
+          "Frame",
+          "Goliath Truck",
+          "Great Devourer",
+          "Transport",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Goliath Truck",
+        "sid": "a91b365d-7551-4c69-a1a4-14f143553d67",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 75
+          }
+        ],
+        "step": {
+          "at": 4,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                646,
+                1
+              ],
+              [
+                1534,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                646,
+                1
+              ],
+              [
+                1535,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                650
+              ]
+            ],
+            "rep": [
+              646
+            ],
+            "repall": 1,
+            "t": 574
+          },
+          {
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1516
+              ]
+            ],
+            "rep": [
+              646
+            ],
+            "t": 575
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                650
+              ]
+            ],
+            "rep": [
+              646
+            ],
+            "t": 574
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "hybrid-metamorphs",
+        "kws": [
+          "Great Devourer",
+          "Grenades",
+          "Hybrid Metamorphs",
+          "Infantry"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Metamorph Leader"
+          },
+          {
+            "n": "Hybrid Metamorph"
+          }
+        ],
+        "modelKws": {},
+        "name": "Hybrid Metamorphs",
+        "pools": [
+          {
+            "g": [
+              0,
+              2
+            ]
+          }
+        ],
+        "sid": "1e98c75d-3b1a-4226-9267-49fb56e55b17",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 75
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 140
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1536,
+                1
+              ],
+              [
+                104,
+                1
+              ],
+              [
+                333,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "jackal-alphus",
+        "kws": [
+          "Character",
+          "Great Devourer",
+          "Grenades",
+          "Jackal Alphus",
+          "Mounted"
+        ],
+        "leads": [
+          {
+            "to": "atalan-jackals",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Jackal Alphus",
+        "sid": "c6c2aff4-f8b6-4a48-a6ca-053046b1cafb",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 55
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                333,
+                1
+              ],
+              [
+                1537,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "kelermorph",
+        "kws": [
+          "Character",
+          "Great Devourer",
+          "Infantry",
+          "Kelermorph"
+        ],
+        "linked": 1,
+        "name": "Kelermorph",
+        "sid": "6fbb6ec0-f34a-4e0e-be48-062e7b9dc9b9",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1538,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "locus",
+        "kws": [
+          "Character",
+          "Great Devourer",
+          "Infantry",
+          "Locus"
+        ],
+        "leads": [
+          {
+            "to": "neophyte-hybrids",
+            "type": "support"
+          },
+          {
+            "to": "acolyte-hybrids-with-autopistols",
+            "type": "support"
+          },
+          {
+            "to": "acolyte-hybrids-with-hand-flamers",
+            "type": "support"
+          },
+          {
+            "to": "hybrid-metamorphs",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Locus",
+        "sid": "5d89a790-cab7-49c3-8b35-a47160c2245a",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 35
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1539,
+                1
+              ],
+              [
+                104,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "magus",
+        "kws": [
+          "Character",
+          "Great Devourer",
+          "Infantry",
+          "Magus",
+          "Psyker"
+        ],
+        "leads": [
+          {
+            "to": "neophyte-hybrids",
+            "type": "leader"
+          },
+          {
+            "to": "acolyte-hybrids-with-autopistols",
+            "type": "leader"
+          },
+          {
+            "to": "acolyte-hybrids-with-hand-flamers",
+            "type": "leader"
+          },
+          {
+            "to": "hybrid-metamorphs",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Magus",
+        "sid": "efa5cca7-1592-4f51-bb71-4b687b89064d",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 50
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                1540,
+                1
+              ],
+              [
+                6,
+                1
+              ],
+              [
+                646,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                646,
+                1
+              ],
+              [
+                1540,
+                1
+              ],
+              [
+                6,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1541,
+                    1
+                  ],
+                  [
+                    1542,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1541,
+                    1
+                  ],
+                  [
+                    1543,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1540,
+              6
+            ],
+            "t": 576
+          },
+          {
+            "cond": [
+              2,
+              0,
+              null,
+              [
+                3
+              ]
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                1544
+              ]
+            ],
+            "t": 577
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                10,
+                2,
+                1
+              ],
+              [
+                20,
+                4,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                542
+              ],
+              [
+                1545
+              ],
+              [
+                1546
+              ]
+            ],
+            "rep": [
+              1540
+            ],
+            "t": 578
+          },
+          {
+            "in": "stepper",
+            "lim": [
+              [
+                10,
+                2,
+                1
+              ],
+              [
+                20,
+                4,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                574
+              ],
+              [
+                575
+              ],
+              [
+                1547
+              ]
+            ],
+            "rep": [
+              1540
+            ],
+            "t": 578
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "neophyte-hybrids",
+        "kws": [
+          "Battleline",
+          "Great Devourer",
+          "Grenades",
+          "Infantry",
+          "Neophyte Hybrids"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Neophyte Leader"
+          },
+          {
+            "n": "Neophyte Hybrid"
+          }
+        ],
+        "modelKws": {},
+        "name": "Neophyte Hybrids",
+        "sid": "2a1941df-b537-49b6-bf69-c4375c29b167",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 70
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                10,
+                19
+              ]
+            ],
+            "per": [
+              11,
+              20
+            ],
+            "pts": 135
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                95,
+                1
+              ],
+              [
+                104,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "nexos",
+        "kws": [
+          "Character",
+          "Great Devourer",
+          "Infantry",
+          "Nexos"
+        ],
+        "leads": [
+          {
+            "to": "hybrid-metamorphs",
+            "type": "support"
+          },
+          {
+            "to": "neophyte-hybrids",
+            "type": "support"
+          },
+          {
+            "to": "acolyte-hybrids-with-autopistols",
+            "type": "support"
+          },
+          {
+            "to": "acolyte-hybrids-with-hand-flamers",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Nexos",
+        "sid": "f4920653-e487-41ce-aa65-3fe557017422",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 50
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1548,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {
+          "char": 1,
+          "one": 1,
+          "supreme": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "patriarch",
+        "kws": [
+          "Character",
+          "Great Devourer",
+          "Infantry",
+          "Patriarch",
+          "Psyker"
+        ],
+        "leads": [
+          {
+            "to": "purestrain-genestealers",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Patriarch",
+        "sid": "d6ac0b30-bde5-4460-9716-42dd95647a69",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1549,
+                1
+              ],
+              [
+                1550,
+                1
+              ],
+              [
+                1551,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "primus",
+        "kws": [
+          "Character",
+          "Great Devourer",
+          "Infantry",
+          "Primus"
+        ],
+        "leads": [
+          {
+            "to": "acolyte-hybrids-with-autopistols",
+            "type": "leader"
+          },
+          {
+            "to": "hybrid-metamorphs",
+            "type": "leader"
+          },
+          {
+            "to": "acolyte-hybrids-with-hand-flamers",
+            "type": "leader"
+          },
+          {
+            "to": "neophyte-hybrids",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Primus",
+        "sid": "29ba366a-7dc5-414a-8add-962ca223dce1",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1552,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "purestrain-genestealers",
+        "kws": [
+          "Great Devourer",
+          "Infantry",
+          "Purestrain Genestealers"
+        ],
+        "linked": 1,
+        "name": "Purestrain Genestealers",
+        "sid": "b99d0732-524e-43a9-bd3f-b50942e23521",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 75
+          },
+          {
+            "per": [
+              6,
+              10
+            ],
+            "pts": 140
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                95,
+                1
+              ],
+              [
+                1553,
+                1
+              ],
+              [
+                1554,
+                1
+              ],
+              [
+                104,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "reductus-saboteur",
+        "kws": [
+          "Character",
+          "Great Devourer",
+          "Grenades",
+          "Infantry",
+          "Reductus Saboteur"
+        ],
+        "linked": 1,
+        "name": "Reductus Saboteur",
+        "sid": "22bbd2a9-934b-473b-b273-7613d7a04c19",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 70
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1555,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1556,
+                    1
+                  ],
+                  [
+                    95,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1555
+            ],
+            "t": 579
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "sanctus",
+        "kws": [
+          "Character",
+          "Great Devourer",
+          "Infantry",
+          "Sanctus"
+        ],
+        "linked": 1,
+        "name": "Sanctus",
+        "sid": "0411cf07-7224-4d94-98ff-55ec0c3ffdc8",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3387,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Genestealer Cults"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "tectonic-fragdrill",
+        "kws": [
+          "Fortification",
+          "Vehicle",
+          "Frame",
+          "Tectonic Fragdrill"
+        ],
+        "linked": 1,
+        "name": "Tectonic Fragdrill",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 125
+          }
+        ]
+      }
+    ]
+  }
+}

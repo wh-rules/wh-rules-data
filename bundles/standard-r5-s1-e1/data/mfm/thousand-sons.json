@@ -1,0 +1,694 @@
+{
+  "default": {
+    "detachments": [
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Diabolic Savant",
+            "points": 20
+          },
+          {
+            "name": "Duplicitous Malediction",
+            "points": 15
+          },
+          {
+            "name": "Nethershriek Mind-Eater",
+            "points": 10
+          },
+          {
+            "name": "Tome of True Names",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Changehost of Deceit"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Eldritch Vortex of E’Taph",
+            "points": 35
+          },
+          {
+            "name": "Incandaeum",
+            "points": 15
+          },
+          {
+            "name": "Lord of Forbidden Lore",
+            "points": 20
+          },
+          {
+            "name": "Umbralefic Crystal",
+            "points": 30
+          }
+        ],
+        "forceDispositions": [
+          "Disruption",
+          "Priority Assets"
+        ],
+        "name": "Grand Coven"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Arcane Might",
+            "points": 20
+          },
+          {
+            "name": "Empowered Manifestation",
+            "points": 20
+          },
+          {
+            "name": "Empyric Onslaught",
+            "points": 25
+          },
+          {
+            "name": "Noctilith Mantle",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold",
+          "Reconnaissance"
+        ],
+        "name": "Hexwarp Thrallband"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Curse of Life",
+            "points": 20
+          },
+          {
+            "name": "Eruption of Vitality",
+            "points": 35
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Ritual of Regeneration"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Arcane Thralls",
+            "points": 5
+          },
+          {
+            "name": "Lord of the Rubricae",
+            "points": 15
+          },
+          {
+            "name": "Risen Rubricae",
+            "points": 30
+          },
+          {
+            "name": "Stave Abominus",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold",
+          "Priority Assets"
+        ],
+        "name": "Rubricae Phalanx"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Occulus Infernum",
+            "points": 20
+          },
+          {
+            "name": "Walking Rampart",
+            "points": 30
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Sekhetar Cohort"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Thicket of Bladed Bone (Upgrade)",
+            "points": 10
+          },
+          {
+            "name": "Unravelled Fates",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Servants of Change",
+        "unique": "MUTANT"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Biomechanical Mutation",
+            "points": 15
+          },
+          {
+            "name": "Perplexing Cloak",
+            "points": 20
+          },
+          {
+            "name": "Warp-Cursed Runemaster",
+            "points": 10
+          },
+          {
+            "name": "Warp Syphon",
+            "points": 5
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Warpforged Cabal"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Bray Lord",
+            "points": 15
+          },
+          {
+            "name": "Diamond of Distortion",
+            "points": 20
+          },
+          {
+            "name": "Flowing Flesh",
+            "points": 10
+          },
+          {
+            "name": "Warpmeld Dagger",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Warpmeld Pact",
+        "unique": "MUTANT"
+      }
+    ],
+    "id": "thousand-sons",
+    "legends": [],
+    "name": "Thousand Sons",
+    "slug": "thousand-sons",
+    "sourceUrl": "https://mfm.warhammer-community.com/en/thousand-sons",
+    "subfactions": [
+      {
+        "name": "Scintillating Legions",
+        "units": [
+          {
+            "name": "Blue Horrors",
+            "options": [
+              {
+                "models": 10,
+                "points": 90
+              }
+            ]
+          },
+          {
+            "name": "Flamers",
+            "options": [
+              {
+                "models": 3,
+                "points": 65
+              },
+              {
+                "models": 6,
+                "points": 130
+              }
+            ]
+          },
+          {
+            "name": "Kairos Fateweaver",
+            "options": [
+              {
+                "models": 1,
+                "points": 305
+              }
+            ]
+          },
+          {
+            "name": "Lord of Change",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-2nd",
+                "points": 320
+              },
+              {
+                "models": 1,
+                "note": "3rd+",
+                "points": 340
+              }
+            ]
+          },
+          {
+            "name": "Pink Horrors",
+            "options": [
+              {
+                "models": 10,
+                "points": 115
+              }
+            ]
+          },
+          {
+            "name": "Screamers",
+            "options": [
+              {
+                "models": 3,
+                "points": 80
+              },
+              {
+                "models": 6,
+                "points": 160
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "units": [
+      {
+        "name": "Ahriman",
+        "options": [
+          {
+            "models": 1,
+            "points": 105
+          }
+        ]
+      },
+      {
+        "name": "Chaos Land Raider",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 220
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 240
+          }
+        ]
+      },
+      {
+        "name": "Chaos Predator Annihilator",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 140
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 150
+          }
+        ]
+      },
+      {
+        "name": "Chaos Predator Destructor",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 140
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 150
+          }
+        ]
+      },
+      {
+        "name": "Chaos Rhino",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-3rd",
+            "points": 80
+          },
+          {
+            "models": 1,
+            "note": "4th+",
+            "points": 90
+          }
+        ]
+      },
+      {
+        "name": "Chaos Spawn",
+        "options": [
+          {
+            "models": 2,
+            "points": 65
+          }
+        ]
+      },
+      {
+        "name": "Chaos Vindicator",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 185
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 195
+          }
+        ]
+      },
+      {
+        "name": "Daemon Prince of Tzeentch",
+        "options": [
+          {
+            "models": 1,
+            "points": 170
+          }
+        ]
+      },
+      {
+        "name": "Daemon Prince of Tzeentch with Wings",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 170
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 180
+          }
+        ]
+      },
+      {
+        "name": "Defiler",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 300
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 350
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Hades Lascannon",
+            "points": 15
+          },
+          {
+            "name": "Heavy Reaper Autocannon",
+            "points": 15
+          }
+        ]
+      },
+      {
+        "name": "Exalted Sorcerer",
+        "options": [
+          {
+            "models": 1,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Exalted Sorcerer on Disc of Tzeentch",
+        "options": [
+          {
+            "models": 1,
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Forgefiend",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 135
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 145
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Ectoplasma cannon",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Helbrute",
+        "options": [
+          {
+            "models": 1,
+            "points": 110
+          }
+        ]
+      },
+      {
+        "name": "Heldrake",
+        "options": [
+          {
+            "models": 1,
+            "points": 175
+          }
+        ]
+      },
+      {
+        "name": "Infernal Master",
+        "options": [
+          {
+            "models": 1,
+            "points": 105
+          }
+        ]
+      },
+      {
+        "name": "Magnus the Red",
+        "options": [
+          {
+            "models": 1,
+            "points": 455
+          }
+        ]
+      },
+      {
+        "name": "Maulerfiend",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 120
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 130
+          }
+        ]
+      },
+      {
+        "name": "Mutalith Vortex Beast",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 170
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 190
+          }
+        ]
+      },
+      {
+        "name": "Rubric Marines",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-3rd",
+            "points": 115
+          },
+          {
+            "models": 10,
+            "note": "1st-3rd",
+            "points": 210
+          },
+          {
+            "models": 5,
+            "note": "4th+",
+            "points": 125
+          },
+          {
+            "models": 10,
+            "note": "4th+",
+            "points": 220
+          }
+        ]
+      },
+      {
+        "name": "Scarab Occult Terminators",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 200
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 425
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 240
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 465
+          }
+        ]
+      },
+      {
+        "name": "Sekhetar Robots",
+        "options": [
+          {
+            "models": 2,
+            "note": "1st-2nd",
+            "points": 85
+          },
+          {
+            "models": 4,
+            "note": "1st-2nd",
+            "points": 175
+          },
+          {
+            "models": 2,
+            "note": "3rd+",
+            "points": 100
+          },
+          {
+            "models": 4,
+            "note": "3rd+",
+            "points": 190
+          }
+        ]
+      },
+      {
+        "name": "Sorcerer",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 100
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 110
+          }
+        ]
+      },
+      {
+        "name": "Sorcerer in Terminator Armour",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 110
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 120
+          }
+        ]
+      },
+      {
+        "name": "Tzaangor Enlightened",
+        "options": [
+          {
+            "models": 3,
+            "points": 50
+          },
+          {
+            "models": 6,
+            "points": 90
+          }
+        ]
+      },
+      {
+        "name": "Tzaangor Enlightened with Fatecaster Greatbows",
+        "options": [
+          {
+            "models": 3,
+            "points": 55
+          },
+          {
+            "models": 6,
+            "points": 110
+          }
+        ]
+      },
+      {
+        "name": "Tzaangors",
+        "options": [
+          {
+            "models": 10,
+            "points": 75
+          },
+          {
+            "models": 20,
+            "points": 145
+          }
+        ]
+      },
+      {
+        "name": "Tzaangor Shaman",
+        "options": [
+          {
+            "models": 1,
+            "points": 65
+          }
+        ]
+      }
+    ]
+  }
+}

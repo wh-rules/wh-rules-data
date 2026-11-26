@@ -1,0 +1,539 @@
+{
+  "default": {
+    "detachments": [
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Dark Blessings",
+            "points": 10
+          },
+          {
+            "name": "Empyric Suffusion",
+            "points": 15
+          },
+          {
+            "name": "Possessed Blade",
+            "points": 35
+          },
+          {
+            "name": "Warp Walker",
+            "points": 35
+          }
+        ],
+        "forceDispositions": [
+          "Disruption",
+          "Priority Assets"
+        ],
+        "name": "Carnival of Excess"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Pledge of Dark Glory",
+            "points": 25
+          },
+          {
+            "name": "Pledge of Eternal Servitude",
+            "points": 25
+          },
+          {
+            "name": "Pledge of Mortal Pain",
+            "points": 15
+          },
+          {
+            "name": "Pledge of Unholy Fortune",
+            "points": 30
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets",
+          "Purge the Foe"
+        ],
+        "name": "Coterie of the Conceited"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Exalted Patron",
+            "points": 15
+          },
+          {
+            "name": "Soulstain Made Manifest",
+            "points": 15
+          },
+          {
+            "name": "Spiritsliver",
+            "points": 20
+          },
+          {
+            "name": "Tears of the Phoenix",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Court of the Phoenician"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Cacophonic Accompaniment",
+            "points": 20
+          },
+          {
+            "name": "Frenzied Ferocity (Upgrade)",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Elegant Brutes"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Euphoric Crown",
+            "points": 20
+          },
+          {
+            "name": "Howling Plate",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Frenzied Host"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Intoxicating Musk",
+            "points": 20
+          },
+          {
+            "name": "Loathsome Dexterity",
+            "points": 10
+          },
+          {
+            "name": "Steeped in Suffering",
+            "points": 20
+          },
+          {
+            "name": "Tactical Perfection",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Mercurial Host"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Blinding Speed",
+            "points": 25
+          },
+          {
+            "name": "Distortion",
+            "points": 25
+          },
+          {
+            "name": "Faultless Opportunist",
+            "points": 15
+          },
+          {
+            "name": "Rise to the Challenge",
+            "points": 30
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Peerless Bladesmen"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Accomplished Tactician",
+            "points": 35
+          },
+          {
+            "name": "Heretek Adept",
+            "points": 35
+          },
+          {
+            "name": "Spearhead Striker",
+            "points": 20
+          },
+          {
+            "name": "Sublime Prescience",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Rapid Evisceration"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Eager to Prove",
+            "points": 15
+          },
+          {
+            "name": "Proud and Vainglorious",
+            "points": 20
+          },
+          {
+            "name": "Repulsed by Weakness",
+            "points": 25
+          },
+          {
+            "name": "Slayer of Champions",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Slaanesh’s Chosen"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Beguiling Grotesquerie (Upgrade)",
+            "points": 15
+          },
+          {
+            "name": "Eager Patrons (Upgrade)",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Spectacle of Slaughter"
+      }
+    ],
+    "id": "emperors-children",
+    "legends": [],
+    "name": "Emperor’s Children",
+    "slug": "emperors-children",
+    "sourceUrl": "https://mfm.warhammer-community.com/en/emperors-children",
+    "subfactions": [
+      {
+        "name": "Legions of Excess",
+        "units": [
+          {
+            "name": "Daemonettes",
+            "options": [
+              {
+                "models": 10,
+                "points": 100
+              }
+            ]
+          },
+          {
+            "name": "Fiends",
+            "options": [
+              {
+                "models": 3,
+                "points": 90
+              },
+              {
+                "models": 6,
+                "points": 190
+              }
+            ]
+          },
+          {
+            "name": "Keeper of Secrets",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-2nd",
+                "points": 265
+              },
+              {
+                "models": 1,
+                "note": "3rd+",
+                "points": 280
+              }
+            ]
+          },
+          {
+            "name": "Seekers",
+            "options": [
+              {
+                "models": 5,
+                "points": 85
+              },
+              {
+                "models": 10,
+                "points": 155
+              }
+            ]
+          },
+          {
+            "name": "Shalaxi Helbane",
+            "options": [
+              {
+                "models": 1,
+                "points": 315
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "units": [
+      {
+        "name": "Chaos Land Raider",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 210
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 230
+          }
+        ]
+      },
+      {
+        "name": "Chaos Rhino",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-3rd",
+            "points": 70
+          },
+          {
+            "models": 1,
+            "note": "4th+",
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Chaos Spawn",
+        "options": [
+          {
+            "models": 2,
+            "points": 70
+          }
+        ]
+      },
+      {
+        "name": "Chaos Terminators",
+        "options": [
+          {
+            "models": 5,
+            "points": 155
+          }
+        ]
+      },
+      {
+        "name": "Daemon Prince of Slaanesh",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 165
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 180
+          }
+        ]
+      },
+      {
+        "name": "Daemon Prince of Slaanesh with Wings",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 205
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 225
+          }
+        ]
+      },
+      {
+        "name": "Defiler",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 300
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 350
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Heavy Reaper Autocannon",
+            "points": 15
+          },
+          {
+            "name": "Hades Lascannon",
+            "points": 15
+          }
+        ]
+      },
+      {
+        "name": "Flawless Blades",
+        "options": [
+          {
+            "models": 3,
+            "points": 95
+          },
+          {
+            "models": 6,
+            "points": 190
+          }
+        ]
+      },
+      {
+        "name": "Fulgrim",
+        "options": [
+          {
+            "models": 1,
+            "points": 340
+          }
+        ]
+      },
+      {
+        "name": "Heldrake",
+        "options": [
+          {
+            "models": 1,
+            "points": 175
+          }
+        ]
+      },
+      {
+        "name": "Infractors",
+        "options": [
+          {
+            "models": 5,
+            "points": 95
+          },
+          {
+            "models": 10,
+            "points": 175
+          }
+        ]
+      },
+      {
+        "name": "Lord Exultant",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 95
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 105
+          }
+        ]
+      },
+      {
+        "name": "Lord Kakophonist",
+        "options": [
+          {
+            "models": 1,
+            "points": 70
+          }
+        ]
+      },
+      {
+        "name": "Lucius the Eternal",
+        "options": [
+          {
+            "models": 1,
+            "points": 130
+          }
+        ]
+      },
+      {
+        "name": "Maulerfiend",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 120
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 130
+          }
+        ]
+      },
+      {
+        "name": "Noise Marines",
+        "options": [
+          {
+            "models": 6,
+            "note": "1st-2nd",
+            "points": 160
+          },
+          {
+            "models": 6,
+            "note": "3rd+",
+            "points": 175
+          }
+        ]
+      },
+      {
+        "name": "Sorcerer",
+        "options": [
+          {
+            "models": 1,
+            "points": 55
+          }
+        ]
+      },
+      {
+        "name": "Tormentors",
+        "options": [
+          {
+            "models": 5,
+            "points": 85
+          },
+          {
+            "models": 10,
+            "points": 170
+          }
+        ]
+      }
+    ]
+  }
+}

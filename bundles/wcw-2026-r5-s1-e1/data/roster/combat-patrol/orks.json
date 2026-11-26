@@ -1,0 +1,429 @@
+{
+  "default": {
+    "box": "orks",
+    "detachment": {
+      "dp": 0,
+      "enhancements": [
+        {
+          "name": "Extra Platin’",
+          "nonCharOk": 1,
+          "pts": null,
+          "req": [
+            {
+              "ds": "’Ardmob Wartrakk",
+              "fac": [
+                "Orks"
+              ]
+            }
+          ],
+          "type": "upgrade"
+        },
+        {
+          "name": "Rallying War Cry",
+          "pts": null,
+          "req": [
+            {
+              "ds": "’Ardmob Warboss",
+              "fac": [
+                "Orks"
+              ]
+            }
+          ],
+          "type": "miniature"
+        }
+      ],
+      "linkedUnits": [
+        {
+          "count": 1,
+          "unit": "ardmob-wartrakk"
+        },
+        {
+          "count": 1,
+          "unit": "ardmob-boyz-kustom-shoota"
+        },
+        {
+          "count": 1,
+          "unit": "ardmob-weirdboy"
+        },
+        {
+          "count": 1,
+          "unit": "ardmob-gretchin"
+        },
+        {
+          "count": 1,
+          "unit": "ardmob-warboss",
+          "warlord": 1
+        },
+        {
+          "count": 1,
+          "unit": "ardmob-boyz"
+        }
+      ],
+      "name": "’Ardmob",
+      "sid": "c369b4d5-3836-464e-8aed-385307ae369f"
+    },
+    "slug": "orks",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3499,
+                1
+              ],
+              [
+                3500,
+                1
+              ],
+              [
+                3501,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3502,
+                1
+              ],
+              [
+                3503,
+                1
+              ],
+              [
+                3501,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "id": "ardmob-boyz-kustom-shoota",
+        "kws": [
+          "'Ardmob",
+          "Explosives",
+          "Infantry",
+          "Mob"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Boss Nob"
+          },
+          {
+            "n": "Boyz"
+          }
+        ],
+        "modelKws": {},
+        "name": "’Ardmob Boyz",
+        "sid": "63cdcf67-14f9-4233-94eb-e9fc83540fc4",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                3511,
+                1
+              ],
+              [
+                3512,
+                1
+              ],
+              [
+                3513,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3514,
+                1
+              ],
+              [
+                3515,
+                1
+              ],
+              [
+                3513,
+                1
+              ],
+              [
+                3516,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "id": "ardmob-boyz",
+        "kws": [
+          "'Ardmob",
+          "Explosives",
+          "Infantry",
+          "Mob"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Boss Nob"
+          },
+          {
+            "n": "Boyz"
+          }
+        ],
+        "modelKws": {},
+        "name": "’Ardmob Boyz",
+        "sid": "e6444013-4fb5-42af-92a0-9da6cccf630c",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3506,
+                1
+              ],
+              [
+                3507,
+                1
+              ],
+              [
+                3508,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "id": "ardmob-gretchin",
+        "kws": [
+          "'Ardmob",
+          "Grots",
+          "Infantry"
+        ],
+        "linked": 1,
+        "name": "’Ardmob Gretchin",
+        "sid": "78cd83a9-847c-4329-b799-a8b94c237fd1",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3509,
+                1
+              ],
+              [
+                3510,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "ardmob-warboss",
+        "kws": [
+          "'Ardmob",
+          "Character",
+          "Explosives",
+          "Infantry"
+        ],
+        "leads": [
+          {
+            "to": "ardmob-boyz-kustom-shoota",
+            "type": "leader"
+          },
+          {
+            "to": "ardmob-boyz",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "’Ardmob Warboss",
+        "sid": "9c76c38d-b347-447f-8c4d-9345578deca1",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3496,
+                1
+              ],
+              [
+                3497,
+                1
+              ],
+              [
+                3498,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {},
+        "id": "ardmob-wartrakk",
+        "kws": [
+          "'Ardmob",
+          "Mounted",
+          "Speed Freeks"
+        ],
+        "linked": 1,
+        "name": "’Ardmob Wartrakk",
+        "sid": "114ad759-bfc7-47fc-835b-2926d40e7ec6",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3504,
+                1
+              ],
+              [
+                3505,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Orks"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "ardmob-weirdboy",
+        "kws": [
+          "'Ardmob",
+          "Character",
+          "Infantry",
+          "Psyker"
+        ],
+        "leads": [
+          {
+            "to": "ardmob-boyz-kustom-shoota",
+            "type": "leader"
+          },
+          {
+            "to": "ardmob-boyz",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "'Ardmob Weirdboy",
+        "sid": "67524464-74a5-4718-9f39-41153ad1f501",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      }
+    ]
+  }
+}

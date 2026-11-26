@@ -1,0 +1,16 @@
+{
+  "default": {
+    "enh:emissaries-imperatus:Auriferous Orb": [
+      {
+        "en": "▪ **Auriferous Orb** [ANTI-non-MONSTER/VEHICLE 2+, BLINDING LIGHT, DEVASTATING WOUNDS] — Range 12\", A 3, BS 2+, S 1, AP 0, D 1.",
+        "ru": "▪ **Auriferous Orb** [ANTI-non-MONSTER/VEHICLE 2+, BLINDING LIGHT, DEVASTATING WOUNDS] — Range 12\", A 3, BS 2+, S 1, AP 0, D 1."
+      }
+    ],
+    "enh:guardians-of-the-throne:Emperor’s Light": [
+      {
+        "en": "▪ **Emperor’s Light** [EXTRA ATTACKS] — Melee, A 3, WS 2+, S 5, AP -2, D 2.",
+        "ru": "▪ **Emperor’s Light** [EXTRA ATTACKS] — Melee, A 3, WS 2+, S 5, AP -2, D 2."
+      }
+    ]
+  }
+}

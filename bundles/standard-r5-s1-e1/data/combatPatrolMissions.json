@@ -1,0 +1,17 @@
+{
+  "CP_MISSION_PREFIX": "cp-",
+  "cpLayouts": [
+    {
+      "id": "A",
+      "image": "/images/combat-patrol/layout-a.webp"
+    },
+    {
+      "id": "B",
+      "image": "/images/combat-patrol/layout-b.webp"
+    },
+    {
+      "id": "C",
+      "image": "/images/combat-patrol/layout-c.webp"
+    }
+  ]
+}

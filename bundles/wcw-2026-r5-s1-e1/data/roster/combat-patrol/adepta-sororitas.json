@@ -1,0 +1,390 @@
+{
+  "default": {
+    "box": "adepta-sororitas",
+    "detachment": {
+      "dp": 0,
+      "enhancements": [
+        {
+          "name": "Righteous Fervour",
+          "pts": null,
+          "req": [
+            {
+              "fac": [
+                "Adepta Sororitas"
+              ],
+              "kw": [
+                "Canoness"
+              ]
+            }
+          ],
+          "type": "miniature"
+        },
+        {
+          "name": "Divine Miracle",
+          "nonCharOk": 1,
+          "pts": null,
+          "req": [
+            {
+              "ds": "Sanctuary Guardians Battle Sisters Squad",
+              "fac": [
+                "Adepta Sororitas"
+              ]
+            }
+          ],
+          "type": "upgrade"
+        }
+      ],
+      "linkedUnits": [
+        {
+          "count": 1,
+          "unit": "sanctuary-guardians-celestian-sacresants"
+        },
+        {
+          "count": 1,
+          "unit": "sanctuary-guardians-arco-flagellants"
+        },
+        {
+          "count": 1,
+          "unit": "sanctuary-canoness-adalya",
+          "warlord": 1
+        },
+        {
+          "count": 1,
+          "unit": "sanctuary-guardians-battle-sisters-squad"
+        }
+      ],
+      "name": "Sanctuary Guardians",
+      "sid": "9da49913-6ad9-4bfe-85dc-771f1c9758d4"
+    },
+    "slug": "adepta-sororitas",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3555,
+                1
+              ],
+              [
+                3556,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "sanctuary-canoness-adalya",
+        "kws": [
+          "Canoness",
+          "Character",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Sanctuary Guardians"
+        ],
+        "leads": [
+          {
+            "to": "sanctuary-guardians-battle-sisters-squad",
+            "type": "leader"
+          },
+          {
+            "to": "sanctuary-guardians-celestian-sacresants",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Sanctuary Canoness Adalya",
+        "sid": "98040cde-31af-462b-95a6-7192d92df536",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3554,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {},
+        "id": "sanctuary-guardians-arco-flagellants",
+        "kws": [
+          "Imperium",
+          "Infantry",
+          "Penitent",
+          "Sanctuary Guardians"
+        ],
+        "linked": 1,
+        "name": "Sanctuary Guardians Arco-Flagellants",
+        "sid": "822ff2a3-f588-4647-917e-b46065ca0ddd",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            3,
+            [
+              [
+                3557,
+                1
+              ],
+              [
+                3558,
+                1
+              ],
+              [
+                3559,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3560,
+                1
+              ],
+              [
+                3558,
+                1
+              ],
+              [
+                3561,
+                1
+              ],
+              [
+                3559,
+                1
+              ]
+            ]
+          ],
+          [
+            4,
+            [
+              [
+                3558,
+                1
+              ],
+              [
+                3562,
+                1
+              ],
+              [
+                3563,
+                1
+              ],
+              [
+                3559,
+                1
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                3560,
+                1
+              ],
+              [
+                3558,
+                1
+              ],
+              [
+                3559,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                3558,
+                1
+              ],
+              [
+                3564,
+                1
+              ],
+              [
+                3559,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {},
+        "id": "sanctuary-guardians-battle-sisters-squad",
+        "kws": [
+          "Battleline",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Sanctuary Guardians"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Battle Sister with Simulacrum Imperialis"
+          },
+          {
+            "n": "Battle Sister with Ministorum Flamer"
+          },
+          {
+            "n": "Battle Sister"
+          },
+          {
+            "n": "Battle Sister with Ministorum Heavy Flamer"
+          },
+          {
+            "n": "Sister Superior"
+          }
+        ],
+        "modelKws": {},
+        "name": "Sanctuary Guardians Battle Sisters Squad",
+        "sid": "d38c5ef2-6e31-418a-8a63-3cc3060e5b28",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                3552,
+                1
+              ],
+              [
+                3553,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3552,
+                1
+              ],
+              [
+                3553,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adepta Sororitas"
+        ],
+        "flags": {},
+        "id": "sanctuary-guardians-celestian-sacresants",
+        "kws": [
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Sanctuary Guardians"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Sacresant Superior"
+          },
+          {
+            "n": "Celestian Sacresants"
+          }
+        ],
+        "modelKws": {},
+        "name": "Sanctuary Guardians Celestian Sacresants",
+        "sid": "1790cfaf-7e86-4b8c-b889-5b2ffe34f14e",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 0
+          }
+        ]
+      }
+    ]
+  }
+}

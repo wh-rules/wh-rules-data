@@ -1,0 +1,186 @@
+{
+  "default": {
+    "box": "adeptus-custodes-aquilan-talon",
+    "detachment": {
+      "dp": 0,
+      "enhancements": [
+        {
+          "limit": 3,
+          "name": "Goldenwrath (Upgrade)",
+          "nonCharOk": 1,
+          "pts": 10,
+          "req": [
+            {
+              "ds": "Aquilan Talon Contemptor-Achillus Dreadnought"
+            }
+          ],
+          "type": "upgrade"
+        },
+        {
+          "name": "Coronal Plate",
+          "pts": 10,
+          "req": [
+            {
+              "ds": "Aquilan Talon Shield-Captain"
+            }
+          ],
+          "type": "miniature"
+        }
+      ],
+      "linkedUnits": [
+        {
+          "count": 1,
+          "unit": "aquilan-talon-contemptor-achillus-dreadnought"
+        },
+        {
+          "count": 1,
+          "unit": "aquilan-talon-shield-captain",
+          "warlord": 1
+        },
+        {
+          "count": 1,
+          "unit": "aquilan-talon-sentinel-guard-sodality"
+        }
+      ],
+      "name": "Aquilan Talon",
+      "sid": "5263f09d-8a14-4a9d-b3ea-7f27e44e5f02"
+    },
+    "slug": "adeptus-custodes",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3572,
+                1
+              ],
+              [
+                3573,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {},
+        "id": "aquilan-talon-contemptor-achillus-dreadnought",
+        "kws": [
+          "Aquilan Talon",
+          "Contemptor-Achillus Dreadnought",
+          "Dreadnought",
+          "Imperium",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Aquilan Talon Contemptor-Achillus Dreadnought",
+        "sid": "c5750e97-71f5-40e8-8ed4-f72a22315ee1",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3574,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "aquilan-talon-sentinel-guard-sodality",
+        "kws": [
+          "Aquilan Talon",
+          "Battleline",
+          "Imperium",
+          "Infantry",
+          "Sentinel Guard Sodality",
+          "Trusted Sentinel"
+        ],
+        "linked": 1,
+        "name": "Aquilan Talon Sentinel Guard Sodality",
+        "sid": "6fcc8f7b-f311-4b37-a438-28999e05af53",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3575,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Custodes"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "aquilan-talon-shield-captain",
+        "kws": [
+          "Aquilan Talon",
+          "Character",
+          "Imperium",
+          "Infantry",
+          "Shield-Captain"
+        ],
+        "leads": [
+          {
+            "to": "aquilan-wing-sentinel-guard-sodality",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Aquilan Talon Shield-Captain",
+        "sid": "5777eb2d-4c83-4f31-a0a8-6b6f7800e334",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      }
+    ]
+  }
+}

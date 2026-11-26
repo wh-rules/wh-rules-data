@@ -1,0 +1,1933 @@
+{
+  "default": {
+    "entries": [
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "ebec7e58",
+        "kind": "ability",
+        "name": "Askar's Wolfpack Wolf Guard Terminators: Rugged Resilience",
+        "ref": {
+          "kind": "ability",
+          "unit": "askars-wolfpack-wolf-guard-terminators"
+        },
+        "reviewed": true,
+        "sid": "c0a29562-a375-413a-a4c8-1ea25d347923:askars-wolfpack-wolf-guard-terminators",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "ebec7e58",
+        "kind": "ability",
+        "name": "Bjorn the Fell-handed: Legendary Tenacity",
+        "ref": {
+          "kind": "ability",
+          "unit": "bjorn-the-fell-handed"
+        },
+        "reviewed": true,
+        "sid": "8d526639-0c20-449c-a3ae-50cb3ecaeeb4:bjorn-the-fell-handed",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "0f6feb47",
+        "kind": "ability",
+        "name": "Canis Wolfborn: Born of Wolves",
+        "ref": {
+          "kind": "ability",
+          "unit": "canis-wolfborn"
+        },
+        "reviewed": true,
+        "sid": "pack:canis-wolfborn:born-of-wolves",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Scouts 6\"",
+            "when": null
+          }
+        ],
+        "hash": "4d9db6ce",
+        "kind": "ability",
+        "name": "Cyberwolf: Alpha Hunter",
+        "ref": {
+          "kind": "ability",
+          "unit": "cyberwolf"
+        },
+        "reviewed": true,
+        "sid": "pack:cyberwolf:alpha-hunter",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against an enemy unit that is Below Half-strength",
+              "ru": "по вражескому отряду Below Half-strength"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against an enemy unit that is Below Half-strength",
+              "ru": "по вражескому отряду Below Half-strength"
+            }
+          }
+        ],
+        "hash": "f29066d1",
+        "kind": "ability",
+        "name": "Cyberwolf: Close In for the Kill",
+        "ref": {
+          "kind": "ability",
+          "unit": "cyberwolf"
+        },
+        "reviewed": true,
+        "sid": "pack:cyberwolf:close-in-for-the-kill",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "while within 6\" of a friendly SPACE WOLVES CHARACTER model (excluding WULFEN) and not battle-shocked",
+              "ru": "пока в пределах 6\" от дружественной модели SPACE WOLVES CHARACTER (кроме WULFEN) и не battle-shocked"
+            }
+          }
+        ],
+        "hash": "89e2fd70",
+        "kind": "ability",
+        "name": "Fenrisian Wolves: Hunting Hounds",
+        "ref": {
+          "kind": "ability",
+          "unit": "fenrisian-wolves"
+        },
+        "reviewed": true,
+        "sid": "f3066d58-dd3a-4020-9fde-40534ca0ed90:fenrisian-wolves",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "w",
+            "value": 6,
+            "when": null
+          }
+        ],
+        "hash": "44bce391",
+        "kind": "ability",
+        "name": "Fyrri Askar: Storm Shield",
+        "ref": {
+          "kind": "ability",
+          "unit": "fyrri-askar"
+        },
+        "reviewed": true,
+        "sid": "96c353e7-bcfb-412d-98e4-75576b1c92e0:fyrri-askar",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "in the Fight phase, while this unit is within range of an objective",
+              "ru": "в фазе боя, пока отряд в зоне объекта"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "in the Fight phase, while this unit is within range of an objective",
+              "ru": "в фазе боя, пока отряд в зоне объекта"
+            }
+          }
+        ],
+        "hash": "e57d6ad5",
+        "kind": "ability",
+        "name": "Grey Hunters: Cunning Hunters",
+        "ref": {
+          "kind": "ability",
+          "unit": "grey-hunters"
+        },
+        "reviewed": true,
+        "sid": "e4cf49f1-d410-4af6-aeae-60d1128ca309:grey-hunters",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "only": {
+              "name": "Crushing teeth and claws"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "in a turn this unit made a Charge move",
+              "ru": "в ходу, когда отряд совершил Charge"
+            }
+          }
+        ],
+        "hash": "c22900c8",
+        "kind": "ability",
+        "name": "Harald Deathwolf: Lord of the Wolfkin",
+        "ref": {
+          "kind": "ability",
+          "unit": "harald-deathwolf"
+        },
+        "reviewed": true,
+        "sid": "pack:harald-deathwolf:lord-of-the-wolfkin",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "2ec75a42",
+        "kind": "ability",
+        "name": "Harald Deathwolf: Mantle of the Troll King",
+        "ref": {
+          "kind": "ability",
+          "unit": "harald-deathwolf"
+        },
+        "reviewed": true,
+        "sid": "pack:harald-deathwolf:mantle-of-the-troll-king",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "a3d93076",
+        "kind": "ability",
+        "name": "Hounds of Morkai: Morkai’s Howl",
+        "ref": {
+          "kind": "ability",
+          "unit": "hounds-of-morkai"
+        },
+        "reviewed": true,
+        "sid": "pack:hounds-of-morkai:morkai-s-howl",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative",
+            "when": {
+              "en": "while within 3\" of a friendly SPACE WOLVES VEHICLE unit",
+              "ru": "пока в пределах 3\" от дружественного отряда SPACE WOLVES VEHICLE"
+            }
+          }
+        ],
+        "hash": "06400d69",
+        "kind": "ability",
+        "name": "Iron Priest: Iron Priest",
+        "ref": {
+          "kind": "ability",
+          "unit": "iron-priest"
+        },
+        "reviewed": true,
+        "sid": "6b0f24dc-2a81-497a-bd6f-33b04d7b2284:iron-priest",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-below-starting-strength"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "target": "unit",
+            "value": 1,
+            "when": {
+              "en": "while that unit is below its Starting Strength",
+              "ru": "пока отряд ниже Starting Strength"
+            }
+          },
+          {
+            "cond": [
+              "unit-below-half-strength"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "target": "unit",
+            "value": 1,
+            "when": {
+              "en": "while that unit is below its Starting Strength",
+              "ru": "пока отряд ниже Starting Strength"
+            }
+          },
+          {
+            "cond": [
+              "unit-below-half-strength"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "target": "unit",
+            "value": 1,
+            "when": {
+              "en": "while that unit is Below Half-strength",
+              "ru": "пока отряд Below Half-strength"
+            }
+          }
+        ],
+        "hash": "f34e2507",
+        "kind": "ability",
+        "name": "Krom Dragongaze: Refuse to Accept Defeat",
+        "note": "Read as Aleya: Tenacious Spirit (adeptus-custodes), the same text.",
+        "ref": {
+          "kind": "ability",
+          "unit": "krom-dragongaze"
+        },
+        "reviewed": true,
+        "sid": "pack:krom-dragongaze:refuse-to-accept-defeat",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": {
+              "en": "while this model is leading a unit",
+              "ru": "пока модель возглавляет отряд"
+            }
+          },
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": -1,
+            "when": {
+              "en": "while this model is leading a unit",
+              "ru": "пока модель возглавляет отряд"
+            }
+          }
+        ],
+        "hash": "311b9302",
+        "kind": "ability",
+        "name": "Lukas the Trickster: Pelt of the Doppegangrel",
+        "ref": {
+          "kind": "ability",
+          "unit": "lukas-the-trickster"
+        },
+        "reviewed": true,
+        "sid": "pack:lukas-the-trickster:pelt-of-the-doppegangrel",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "a052d3a0",
+        "kind": "ability",
+        "name": "Njal Stormcaller: Murderous Hurricane (psychic level 1)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "High Rune Priest (psyker level 3)",
+          "unit": "njal-stormcaller"
+        },
+        "reviewed": true,
+        "sid": "8950d4a1-67cf-4d2f-a6cd-6620a52ad87c:njal-stormcaller",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "a1b35b85",
+        "kind": "ability",
+        "name": "Njal Stormcaller: Storm Caller (psychic level 1)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "High Rune Priest (psyker level 3)",
+          "unit": "njal-stormcaller"
+        },
+        "reviewed": true,
+        "sid": "83a24ab7-93c2-4a7b-a9b4-8710e6d42c6d:njal-stormcaller",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "5e8fea65",
+        "kind": "ability",
+        "name": "Njal Stormcaller: Tempest's Wrath (psychic level 1)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 1,
+          "set": "High Rune Priest (psyker level 3)",
+          "unit": "njal-stormcaller"
+        },
+        "reviewed": true,
+        "sid": "ffb8cef7-6272-4327-9ce4-f696268527a7:njal-stormcaller",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": null
+          },
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 6,
+            "when": {
+              "en": "in a phase this unit Advanced, with the advance roll changed to a 6",
+              "ru": "в фазе, когда отряд совершил Advance, с advance roll, заменённым на 6"
+            }
+          },
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "ASSAULT",
+            "when": null
+          },
+          {
+            "cond": [
+              "unit-advanced"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "led",
+            "value": 6,
+            "when": {
+              "en": "in a phase this unit Advanced, with the advance roll changed to a 6",
+              "ru": "в фазе, когда отряд совершил Advance, с advance roll, заменённым на 6"
+            }
+          }
+        ],
+        "hash": "a1e19eb2",
+        "kind": "ability",
+        "name": "Njal Stormcaller: Wind Walker",
+        "ref": {
+          "kind": "ability",
+          "unit": "njal-stormcaller"
+        },
+        "reviewed": true,
+        "sid": "0ff439f1-908a-4cd0-950f-3d38730ef9e5:njal-stormcaller",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 2,
+            "when": {
+              "en": "if this unit made a charge move this turn",
+              "ru": "если отряд совершил charge в этом ходу"
+            }
+          }
+        ],
+        "hash": "8bfa6ee9",
+        "kind": "ability",
+        "name": "Ragnar Blackmane: Battle-lust",
+        "ref": {
+          "kind": "ability",
+          "unit": "ragnar-blackmane"
+        },
+        "reviewed": true,
+        "sid": "1e5af9ae-dd29-4f49-9fc4-0acad16fa4fd:ragnar-blackmane",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-leading-blood-claws"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "target": "unit",
+            "value": 1,
+            "when": {
+              "en": "while this model is attached to a BLOOD CLAWS unit",
+              "ru": "пока модель присоединена к отряду BLOOD CLAWS"
+            }
+          },
+          {
+            "cond": [
+              "unit-leading-blood-claws"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while this model is attached to a BLOOD CLAWS unit",
+              "ru": "пока модель присоединена к отряду BLOOD CLAWS"
+            }
+          }
+        ],
+        "hash": "d456c10a",
+        "kind": "ability",
+        "name": "Ragnar Blackmane: War Howl",
+        "ref": {
+          "kind": "ability",
+          "unit": "ragnar-blackmane"
+        },
+        "reviewed": true,
+        "sid": "1ef9fe5a-fd89-44a4-ba15-b89d5bca73f6:ragnar-blackmane",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "in a turn this unit made a Charge move",
+              "ru": "в ходу, когда отряд совершил Charge"
+            }
+          }
+        ],
+        "hash": "7280af0a",
+        "kind": "ability",
+        "name": "Skyclaws: Headstrong",
+        "ref": {
+          "kind": "ability",
+          "unit": "skyclaws"
+        },
+        "reviewed": true,
+        "sid": "pack:skyclaws:headstrong",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "727a781b",
+        "kind": "ability",
+        "name": "Stormfang Gunship: Frozen Prey",
+        "ref": {
+          "kind": "ability",
+          "unit": "stormfang-gunship"
+        },
+        "reviewed": true,
+        "sid": "pack:stormfang-gunship:frozen-prey",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "if this unit made a charge move this turn",
+              "ru": "если отряд совершил charge в этом ходу"
+            }
+          },
+          {
+            "cond": [
+              "unit-charged"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": {
+              "en": "if this unit made a charge move this turn",
+              "ru": "если отряд совершил charge в этом ходу"
+            }
+          }
+        ],
+        "hash": "81439197",
+        "kind": "ability",
+        "name": "Thunderwolf Cavalry: Thunderous Charge",
+        "ref": {
+          "kind": "ability",
+          "unit": "thunderwolf-cavalry"
+        },
+        "reviewed": true,
+        "sid": "5210eeb0-688a-4877-92ba-7c821b6e79e3:thunderwolf-cavalry",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": 1,
+            "when": null
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "also, against this unit’s slayer’s oath",
+              "ru": "также против цели клятвы отряда"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "wound",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "also, against this unit’s slayer’s oath",
+              "ru": "также против цели клятвы отряда"
+            }
+          }
+        ],
+        "hash": "4497acf5",
+        "kind": "ability",
+        "name": "Ulrik the Slayer: Oathbound",
+        "ref": {
+          "kind": "ability",
+          "unit": "ulrik-the-slayer"
+        },
+        "reviewed": true,
+        "sid": "eca05775-4888-49ad-a430-7e22e9c2e04f:ulrik-the-slayer",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-attached-character"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+",
+            "when": {
+              "en": "while attached to a unit that contains another CHARACTER model",
+              "ru": "пока присоединён к отряду, где есть другая модель CHARACTER"
+            }
+          }
+        ],
+        "hash": "ab962b17",
+        "kind": "ability",
+        "name": "Wolf Guard Battle Leader in Terminator Armour: Huskarl to the Jarl",
+        "ref": {
+          "kind": "ability",
+          "unit": "wolf-guard-battle-leader-in-terminator-armour"
+        },
+        "reviewed": true,
+        "sid": "pack:wolf-guard-battle-leader-in-terminator-armour:huskarl-to-the-jarl",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "LETHAL HITS",
+            "when": null
+          }
+        ],
+        "hash": "b443bf84",
+        "kind": "ability",
+        "name": "Wolf Guard Battle Leader in Terminator Armour: Tactical Precision",
+        "ref": {
+          "kind": "ability",
+          "unit": "wolf-guard-battle-leader-in-terminator-armour"
+        },
+        "reviewed": true,
+        "sid": "pack:wolf-guard-battle-leader-in-terminator-armour:tactical-precision",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "LETHAL HITS",
+            "when": null
+          }
+        ],
+        "hash": "b443bf84",
+        "kind": "ability",
+        "name": "Wolf Guard Battle Leader on Thunderwolf: Tactical Precision",
+        "ref": {
+          "kind": "ability",
+          "unit": "wolf-guard-battle-leader-on-thunderwolf"
+        },
+        "reviewed": true,
+        "sid": "pack:wolf-guard-battle-leader-on-thunderwolf:tactical-precision",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          },
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "SUSTAINED HITS 1",
+            "when": null
+          }
+        ],
+        "hash": "5a25e1e4",
+        "kind": "ability",
+        "name": "Wolf Guard Battle Leader: Tempered Ferocity",
+        "ref": {
+          "kind": "ability",
+          "unit": "wolf-guard-battle-leader"
+        },
+        "reviewed": true,
+        "sid": "034419af-dce0-48aa-925c-551cc62870bf:wolf-guard-battle-leader",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "against this unit's quarry",
+              "ru": "против выбранной добычи (quarry)"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "against this unit's quarry",
+              "ru": "против выбранной добычи (quarry)"
+            }
+          }
+        ],
+        "hash": "03fe638d",
+        "kind": "ability",
+        "name": "Wolf Guard Headtakers: Headhunters",
+        "ref": {
+          "kind": "ability",
+          "unit": "wolf-guard-headtakers"
+        },
+        "reviewed": true,
+        "sid": "6a05ab90-3ac5-46fb-b44b-e7e06fc0fdb2:wolf-guard-headtakers",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset",
+              "never"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "Hunting Wolf models only, while within 6\" of a friendly SPACE WOLVES CHARACTER model (excluding WULFEN) and not battle-shocked",
+              "ru": "только модели Hunting Wolf, пока в пределах 6\" от дружественной модели SPACE WOLVES CHARACTER (кроме WULFEN) и не battle-shocked"
+            }
+          }
+        ],
+        "hash": "133a3c07",
+        "kind": "ability",
+        "name": "Wolf Guard Headtakers: Hunting Hounds",
+        "ref": {
+          "kind": "ability",
+          "unit": "wolf-guard-headtakers"
+        },
+        "reviewed": true,
+        "sid": "dc7e4ecc-4ffd-4d49-9db7-ee10d23f6660:wolf-guard-headtakers",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": null
+          }
+        ],
+        "hash": "ebec7e58",
+        "kind": "ability",
+        "name": "Wolf Guard Terminators: Rugged Resilience",
+        "ref": {
+          "kind": "ability",
+          "unit": "wolf-guard-terminators"
+        },
+        "reviewed": true,
+        "sid": "ab352a1b-2f6a-4d03-8306-24c6e3173013:wolf-guard-terminators",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-led"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "while a CHARACTER is leading this unit",
+              "ru": "пока отряд ведёт CHARACTER"
+            }
+          }
+        ],
+        "hash": "7772ab86",
+        "kind": "ability",
+        "name": "Wolf Guard: Chosen Companions",
+        "ref": {
+          "kind": "ability",
+          "unit": "wolf-guard"
+        },
+        "reviewed": true,
+        "sid": "pack:wolf-guard:chosen-companions",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "82199bc3",
+        "kind": "ability",
+        "name": "Wolf Lord on Thunderwolf: Speed of the Hunter",
+        "ref": {
+          "kind": "ability",
+          "unit": "wolf-lord-on-thunderwolf"
+        },
+        "reviewed": true,
+        "sid": "pack:wolf-lord-on-thunderwolf:speed-of-the-hunter",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LANCE",
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "LANCE",
+            "when": null
+          }
+        ],
+        "hash": "596d0ee2",
+        "kind": "ability",
+        "name": "Wolf Priest: Litany of Hate",
+        "ref": {
+          "kind": "ability",
+          "unit": "wolf-priest"
+        },
+        "reviewed": true,
+        "sid": "c2399b89-2877-4b9b-9ad2-0b22a3dc9a63:wolf-priest",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against a unit more than 6\" from any other enemy unit",
+              "ru": "против отряда дальше 6\" от других врагов"
+            }
+          }
+        ],
+        "hash": "16f6758b",
+        "kind": "ability",
+        "name": "Wolf Scouts: Deadly Stalkers",
+        "ref": {
+          "kind": "ability",
+          "unit": "wolf-scouts"
+        },
+        "reviewed": true,
+        "sid": "73e5998c-5956-48c4-9672-6682d24bf9dc:wolf-scouts",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset",
+              "never"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "Hunting Wolf models only, while within 6\" of a friendly SPACE WOLVES CHARACTER model (excluding WULFEN) and not battle-shocked",
+              "ru": "только модели Hunting Wolf, пока в пределах 6\" от дружественной модели SPACE WOLVES CHARACTER (кроме WULFEN) и не battle-shocked"
+            }
+          }
+        ],
+        "hash": "133a3c07",
+        "kind": "ability",
+        "name": "Wolf Scouts: Hunting Hounds",
+        "ref": {
+          "kind": "ability",
+          "unit": "wolf-scouts"
+        },
+        "reviewed": true,
+        "sid": "da0e3ebc-2c88-4af7-854c-bb5fc80369ef:wolf-scouts",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-two-melee"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "TWIN-LINKED",
+            "when": {
+              "en": "if this model is equipped with two melee weapons",
+              "ru": "если модель оснащена двумя оружиями ближнего боя"
+            }
+          }
+        ],
+        "hash": "fe5cf788",
+        "kind": "ability",
+        "name": "Wulfen Dreadnought: Violent Fury",
+        "ref": {
+          "kind": "ability",
+          "unit": "wulfen-dreadnought"
+        },
+        "reviewed": true,
+        "sid": "58308049-cb35-4159-80d1-1cf89d6c9982:wulfen-dreadnought",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "33493e9e",
+        "kind": "ability",
+        "name": "Wulfen with Storm Shields: Hammer Blow",
+        "ref": {
+          "kind": "ability",
+          "unit": "wulfen-with-storm-shields"
+        },
+        "reviewed": true,
+        "sid": "d96146db-3174-4606-bbcd-7f7fc5ac6f20:wulfen-with-storm-shields",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "doctrine-devastator"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": {
+              "en": "while the Devastator Doctrine is active for this unit",
+              "ru": "пока для отряда активна Devastator Doctrine"
+            }
+          }
+        ],
+        "hash": "4b1af9f6",
+        "kind": "armyRule",
+        "name": "Combat Doctrines",
+        "ref": {
+          "kind": "armyRule"
+        },
+        "reviewed": true,
+        "sid": "de2e0296-b1c3-40f0-8dc4-81afd0e9a5c9",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "Infantry models, while within 6\" of a Space Wolves Character (or 12\" of a Wolf Priest) and not Battle-shocked",
+              "ru": "модели Infantry, пока отряд в 6\" от персонажа Space Wolves (или 12\" от Wolf Priest) и не Battle-shocked"
+            }
+          },
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 3,
+            "when": {
+              "en": "Vehicle models, under the same condition",
+              "ru": "модели Vehicle, при том же условии"
+            }
+          }
+        ],
+        "hash": "f9ef08c4",
+        "kind": "armyRule",
+        "name": "Curse of the Wulfen",
+        "ref": {
+          "kind": "armyRule"
+        },
+        "reviewed": true,
+        "sid": "1710499e-3656-4246-9978-65bf43c4c140",
+        "ver": 925
+      },
+      {
+        "det": "Saga of the Beastslayer",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS: CHARACTER/MONSTER/VEHICLE",
+            "when": null
+          }
+        ],
+        "hash": "66c3c476",
+        "kind": "detachmentRule",
+        "name": "Legendary Slayers",
+        "ref": {
+          "det": "saga-of-the-beastslayer",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "1390506b-d445-4234-91ff-7878a2dc9573",
+        "ver": 963
+      },
+      {
+        "det": "Saga of the Great Wolf",
+        "effects": [
+          {
+            "cond": [
+              "doctrine-tactical",
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "Ferocious Strike: while the Tactical Doctrine is active for this unit, against targets within 9\"",
+              "ru": "Ferocious Strike: пока для отряда активна Tactical Doctrine, по целям в пределах 9\""
+            }
+          }
+        ],
+        "hash": "a29b954b",
+        "kind": "detachmentRule",
+        "name": "Master of Wolves",
+        "ref": {
+          "det": "saga-of-the-great-wolf",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "cc1fe2f2-96cb-458b-b97b-12b9f0e2bc35",
+        "ver": 963
+      },
+      {
+        "det": "Askar’s Wolfpack",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Lone Operative 9\"",
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Stealth",
+            "when": null
+          },
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "t",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "b8605c04",
+        "kind": "enhancement",
+        "name": "Lone Hunter",
+        "ref": {
+          "det": "cp:space-wolves",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "908a1c13-a1bb-44de-9af2-1f55652d6c0a",
+        "ver": 925
+      },
+      {
+        "det": "Champions of Fenris",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 2,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "3e78c3dc",
+        "kind": "enhancement",
+        "name": "A Giant Amongst Giants",
+        "ref": {
+          "det": "champions-of-fenris",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "e92789c3-7ac6-4998-85c1-5e4120e7d661",
+        "ver": 995
+      },
+      {
+        "det": "Saga of the Beastslayer",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Wulfen",
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "target": "led",
+            "value": "Wulfen",
+            "when": null
+          },
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 2,
+            "when": null
+          },
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "led",
+            "value": 2,
+            "when": null
+          }
+        ],
+        "hash": "67556d5f",
+        "kind": "enhancement",
+        "name": "Wolf-Touched",
+        "ref": {
+          "det": "saga-of-the-beastslayer",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "db8b035d-704c-4ee9-a762-8f8ebe410543",
+        "ver": 995
+      },
+      {
+        "det": "Saga of the Great Wolf",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "LANCE",
+            "when": null
+          }
+        ],
+        "hash": "1bda95f9",
+        "kind": "enhancement",
+        "name": "Skjald's Foretelling",
+        "ref": {
+          "det": "saga-of-the-great-wolf",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "af0f6c25-cc30-4454-bf03-6ef1a30c0659",
+        "ver": 963
+      },
+      {
+        "det": "Askar’s Wolfpack",
+        "dur": "battle",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "a0d889e1",
+        "kind": "stratagem",
+        "name": "Bestial Dominance",
+        "ref": {
+          "det": "cp:space-wolves",
+          "kind": "stratagem",
+          "name": "Bestial Dominance"
+        },
+        "reviewed": true,
+        "sid": "b610b879-25f7-4480-b150-eaf3476550b9",
+        "ver": 925
+      },
+      {
+        "det": "Askar’s Wolfpack",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-MONSTER 4+",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ANTI-VEHICLE 4+",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "8213bb72",
+        "kind": "stratagem",
+        "name": "Bring It Down",
+        "ref": {
+          "det": "cp:space-wolves",
+          "kind": "stratagem",
+          "name": "Bring It Down"
+        },
+        "reviewed": true,
+        "sid": "ec043755-b8ac-49ac-99e5-364e7f3de998",
+        "ver": 925
+      },
+      {
+        "det": "Champions of Fenris",
+        "dur": "round",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Character",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "b4c984b0",
+        "kind": "stratagem",
+        "name": "Birth of a Saga",
+        "ref": {
+          "det": "champions-of-fenris",
+          "kind": "stratagem",
+          "name": "Birth of a Saga"
+        },
+        "reviewed": true,
+        "sid": "fb9f50da-600b-49ab-9aec-f2bfb95da105",
+        "ver": 995
+      },
+      {
+        "det": "Champions of Fenris",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "d",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "a56282a8",
+        "kind": "stratagem",
+        "name": "Heroic Resolve",
+        "ref": {
+          "det": "champions-of-fenris",
+          "kind": "stratagem",
+          "name": "Heroic Resolve"
+        },
+        "reviewed": true,
+        "sid": "fc6b154a-77e8-4c58-96ef-085df8efc6b3",
+        "ver": 995
+      },
+      {
+        "det": "Saga of the Beastslayer",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LANCE",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "127e1a54",
+        "kind": "stratagem",
+        "name": "Unbridled Feroicity",
+        "ref": {
+          "det": "saga-of-the-beastslayer",
+          "kind": "stratagem",
+          "name": "Unbridled Feroicity"
+        },
+        "reviewed": true,
+        "sid": "c5dc5810-b281-4544-b445-40bb13249e28",
+        "ver": 963
+      },
+      {
+        "det": "Saga of the Great Wolf",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "bf79a709",
+        "kind": "stratagem",
+        "name": "Fangs of the Pack",
+        "ref": {
+          "det": "saga-of-the-great-wolf",
+          "kind": "stratagem",
+          "name": "Fangs of the Pack"
+        },
+        "reviewed": true,
+        "sid": "f0bfde93-d8a5-4170-936a-c8208bc2ef43",
+        "ver": 963
+      },
+      {
+        "det": "Saga of the Great Wolf",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Mobile",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "6ab50acf",
+        "kind": "stratagem",
+        "name": "Fenrisian Ferocity",
+        "ref": {
+          "det": "saga-of-the-great-wolf",
+          "kind": "stratagem",
+          "name": "Fenrisian Ferocity"
+        },
+        "reviewed": true,
+        "sid": "260cbe60-09d3-4f15-a205-5a54af3ae4ee",
+        "ver": 995
+      },
+      {
+        "det": "Saga of the Great Wolf",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+ (vs mortal wounds)",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "5967579f",
+        "kind": "stratagem",
+        "name": "Wolf Totems",
+        "ref": {
+          "det": "saga-of-the-great-wolf",
+          "kind": "stratagem",
+          "name": "Wolf Totems"
+        },
+        "reviewed": true,
+        "sid": "4eb79734-dc04-45a6-8ed5-b8632a7a8a85",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "fb8f103d",
+        "kind": "wargear",
+        "name": "Thunderwolf Cavalry: Storm Shield",
+        "ref": {
+          "item": "storm shield",
+          "kind": "wargear",
+          "unit": "thunderwolf-cavalry"
+        },
+        "reviewed": true,
+        "sid": "7a8d5f30-60bd-457c-889a-dc6c3dbc200b:thunderwolf-cavalry",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": null
+          }
+        ],
+        "hash": "6d6e4478",
+        "kind": "wargear",
+        "name": "Venerable Dreadnought: Blizzard Shield",
+        "ref": {
+          "item": "blizzard shield",
+          "kind": "wargear",
+          "unit": "venerable-dreadnought"
+        },
+        "reviewed": true,
+        "sid": "f6a2c8d7-9b59-45f4-a38c-1888a9e997c2:venerable-dreadnought",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "w",
+            "value": "6",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "6026918c",
+        "kind": "wargear",
+        "name": "Wolf Guard Battle Leader in Terminator Armour: Relic Shield",
+        "ref": {
+          "item": "relic shield",
+          "kind": "wargear",
+          "unit": "wolf-guard-battle-leader-in-terminator-armour"
+        },
+        "reviewed": true,
+        "sid": "pack:wolf-guard-battle-leader-in-terminator-armour:relic-shield",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "5e0ca50d",
+        "kind": "wargear",
+        "name": "Wolf Guard Battle Leader on Thunderwolf: Storm Shield",
+        "ref": {
+          "item": "storm shield",
+          "kind": "wargear",
+          "unit": "wolf-guard-battle-leader-on-thunderwolf"
+        },
+        "reviewed": true,
+        "sid": "pack:wolf-guard-battle-leader-on-thunderwolf:storm-shield",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "24c8e47f",
+        "kind": "wargear",
+        "name": "Wolf Guard Battle Leader: Storm Shield",
+        "ref": {
+          "item": "storm shield",
+          "kind": "wargear",
+          "unit": "wolf-guard-battle-leader"
+        },
+        "reviewed": true,
+        "sid": "33ffd159-0227-4b14-a504-7452ad364393:wolf-guard-battle-leader",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "fb8f103d",
+        "kind": "wargear",
+        "name": "Wolf Guard Headtakers: Storm Shield",
+        "ref": {
+          "item": "storm shield",
+          "kind": "wargear",
+          "unit": "wolf-guard-headtakers"
+        },
+        "reviewed": true,
+        "sid": "7a8d5f30-60bd-457c-889a-dc6c3dbc200b:wolf-guard-headtakers",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "w",
+            "value": "4",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "38451d6c",
+        "kind": "wargear",
+        "name": "Wolf Guard Pack Leader in Terminator Armour: Storm Shield",
+        "note": "Read as Bullgryn Squad: Slabshield (astra-militarum), the same text.",
+        "ref": {
+          "item": "storm shield",
+          "kind": "wargear",
+          "unit": "wolf-guard-pack-leader-in-terminator-armour"
+        },
+        "reviewed": true,
+        "sid": "pack:wolf-guard-pack-leader-in-terminator-armour:storm-shield",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "5e0ca50d",
+        "kind": "wargear",
+        "name": "Wolf Guard Pack Leader with Jump Pack: Storm Shield",
+        "ref": {
+          "item": "storm shield",
+          "kind": "wargear",
+          "unit": "wolf-guard-pack-leader-with-jump-pack"
+        },
+        "reviewed": true,
+        "sid": "pack:wolf-guard-pack-leader-with-jump-pack:storm-shield",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "5e0ca50d",
+        "kind": "wargear",
+        "name": "Wolf Guard Pack Leader: Storm Shield",
+        "ref": {
+          "item": "storm shield",
+          "kind": "wargear",
+          "unit": "wolf-guard-pack-leader"
+        },
+        "reviewed": true,
+        "sid": "pack:wolf-guard-pack-leader:storm-shield",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "w",
+            "value": 1,
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "24c8e47f",
+        "kind": "wargear",
+        "name": "Wolf Guard Terminators: Storm Shield",
+        "ref": {
+          "item": "storm shield",
+          "kind": "wargear",
+          "unit": "wolf-guard-terminators"
+        },
+        "reviewed": true,
+        "sid": "33ffd159-0227-4b14-a504-7452ad364393:wolf-guard-terminators",
+        "ver": 963
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "5e0ca50d",
+        "kind": "wargear",
+        "name": "Wolf Guard: Storm Shield",
+        "ref": {
+          "item": "storm shield",
+          "kind": "wargear",
+          "unit": "wolf-guard"
+        },
+        "reviewed": true,
+        "sid": "pack:wolf-guard:storm-shield",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "w",
+            "value": "7",
+            "when": null
+          }
+        ],
+        "hash": "d4febadd",
+        "kind": "wargear",
+        "name": "Wolf Lord on Thunderwolf: Relic Shield",
+        "note": "Read as Ogryn Bodyguard: Slabshield (astra-militarum), the same text.",
+        "ref": {
+          "item": "relic shield",
+          "kind": "wargear",
+          "unit": "wolf-lord-on-thunderwolf"
+        },
+        "reviewed": true,
+        "sid": "pack:wolf-lord-on-thunderwolf:relic-shield",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "value": "4+",
+            "when": null
+          }
+        ],
+        "hash": "6d6e4478",
+        "kind": "wargear",
+        "name": "Wulfen Dreadnought: Blizzard Shield",
+        "ref": {
+          "item": "blizzard shield",
+          "kind": "wargear",
+          "unit": "wulfen-dreadnought"
+        },
+        "reviewed": true,
+        "sid": "f6a2c8d7-9b59-45f4-a38c-1888a9e997c2:wulfen-dreadnought",
+        "ver": 995
+      }
+    ],
+    "formatVersion": 1,
+    "slug": "space-wolves"
+  }
+}

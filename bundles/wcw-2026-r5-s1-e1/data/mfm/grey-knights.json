@@ -1,0 +1,702 @@
+{
+  "default": {
+    "detachments": [
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Psychic Celerity",
+            "points": 15
+          },
+          {
+            "name": "Vigilance of Titan",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Argent Assault"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Doomseer’s Amulet",
+            "points": 25
+          },
+          {
+            "name": "Grimoire of Conjunctions",
+            "points": 10
+          },
+          {
+            "name": "One Foot in the Future",
+            "points": 15
+          },
+          {
+            "name": "Shield of Prophecy",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Augurium Task Force"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Ephemeral Tome",
+            "points": 15
+          },
+          {
+            "name": "Pyresoul",
+            "points": 20
+          },
+          {
+            "name": "Sigil of the Hunt",
+            "points": 10
+          },
+          {
+            "name": "Sixty-sixth Seal",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Banishers"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Banishing Wave",
+            "points": 20
+          },
+          {
+            "name": "Blinding Aura",
+            "points": 10
+          },
+          {
+            "name": "Purity of Purpose",
+            "points": 15
+          },
+          {
+            "name": "Tome of Forbidden Ways",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Brotherhood Strike"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Boons of Deimos (Upgrade)",
+            "points": 20
+          },
+          {
+            "name": "Precognicient Volleys (Upgrade)",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Fires of Purgation"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Eye of the Augurium",
+            "points": 25
+          },
+          {
+            "name": "Inescapable Judgement",
+            "points": 20
+          },
+          {
+            "name": "Nemesis Rounds",
+            "points": 10
+          },
+          {
+            "name": "Sanctic Reaper",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Hallowed Conclave"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Astral Overlap (Upgrade)",
+            "points": 10
+          },
+          {
+            "name": "Predestined Coordinates (Upgrade)",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Immaterial Interdiction"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Driven by Duty",
+            "points": 10
+          },
+          {
+            "name": "Quickening Foci",
+            "points": 15
+          },
+          {
+            "name": "Sigil of Exigence",
+            "points": 30
+          },
+          {
+            "name": "Spiritus Machina",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Sanctic Spearhead"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Mandulian Reliquary",
+            "points": 20
+          },
+          {
+            "name": "Paragon of Sanctity",
+            "points": 10
+          },
+          {
+            "name": "Phial of the Abyss",
+            "points": 15
+          },
+          {
+            "name": "Radiant Champion",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold",
+          "Purge the Foe"
+        ],
+        "name": "Warpbane Task Force"
+      }
+    ],
+    "id": "grey-knights",
+    "legends": [
+      {
+        "name": "Brother-Captain Stern",
+        "options": [
+          {
+            "models": 1,
+            "points": 90
+          }
+        ]
+      },
+      {
+        "name": "Grey Knights Dreadnought",
+        "options": [
+          {
+            "models": 1,
+            "points": 160
+          }
+        ]
+      },
+      {
+        "name": "Grey Knights Relic Razorback",
+        "options": [
+          {
+            "models": 1,
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Kaldor Draigo",
+        "options": [
+          {
+            "models": 1,
+            "points": 125
+          }
+        ]
+      },
+      {
+        "name": "Servitors",
+        "options": [
+          {
+            "models": 4,
+            "points": 60
+          }
+        ]
+      }
+    ],
+    "name": "Grey Knights",
+    "slug": "grey-knights",
+    "sourceUrl": "https://mfm.warhammer-community.com/en/grey-knights",
+    "subfactions": [],
+    "units": [
+      {
+        "name": "Brother-Captain",
+        "options": [
+          {
+            "models": 1,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Brotherhood Champion",
+        "options": [
+          {
+            "models": 1,
+            "points": 75
+          }
+        ]
+      },
+      {
+        "name": "Brotherhood Chaplain",
+        "options": [
+          {
+            "models": 1,
+            "points": 70
+          }
+        ]
+      },
+      {
+        "name": "Brotherhood Librarian",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 95
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 105
+          }
+        ]
+      },
+      {
+        "name": "Brotherhood Techmarine",
+        "options": [
+          {
+            "models": 1,
+            "points": 75
+          }
+        ]
+      },
+      {
+        "name": "Brotherhood Terminator Squad",
+        "options": [
+          {
+            "models": 4,
+            "points": 150
+          },
+          {
+            "models": 5,
+            "points": 185
+          },
+          {
+            "models": 8,
+            "points": 315
+          },
+          {
+            "models": 10,
+            "points": 380
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Psycannon",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Castellan Crowe",
+        "options": [
+          {
+            "models": 1,
+            "points": 105
+          }
+        ]
+      },
+      {
+        "name": "Grand Master",
+        "options": [
+          {
+            "models": 1,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Grand Master in Nemesis Dreadknight",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 210
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 225
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Sublimator",
+            "points": 15
+          },
+          {
+            "name": "Heavy psycannon",
+            "points": 15
+          }
+        ]
+      },
+      {
+        "name": "Grand Master Voldus",
+        "options": [
+          {
+            "models": 1,
+            "points": 130
+          }
+        ]
+      },
+      {
+        "name": "Grey Knights Thunderhawk Gunship",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 805
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 855
+          }
+        ]
+      },
+      {
+        "name": "Interceptor Squad",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 135
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 270
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 145
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 280
+          }
+        ]
+      },
+      {
+        "name": "Land Raider",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 220
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 240
+          }
+        ]
+      },
+      {
+        "name": "Land Raider Crusader",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 220
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 240
+          }
+        ]
+      },
+      {
+        "name": "Land Raider Redeemer",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 260
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 280
+          }
+        ]
+      },
+      {
+        "name": "Nemesis Dreadknight",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 205
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 220
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Heavy psycannon",
+            "points": 15
+          }
+        ]
+      },
+      {
+        "name": "Paladin Squad",
+        "options": [
+          {
+            "models": 4,
+            "note": "1st-2nd",
+            "points": 185
+          },
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 230
+          },
+          {
+            "models": 8,
+            "note": "1st-2nd",
+            "points": 385
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 490
+          },
+          {
+            "models": 4,
+            "note": "3rd+",
+            "points": 225
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 270
+          },
+          {
+            "models": 8,
+            "note": "3rd+",
+            "points": 425
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 530
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Psycannon",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Purgation Squad",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 115
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 230
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 125
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 240
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Psycannon",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Purifier Squad",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 145
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 290
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 155
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 300
+          }
+        ]
+      },
+      {
+        "name": "Razorback",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-3rd",
+            "points": 75
+          },
+          {
+            "models": 1,
+            "note": "4th+",
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Rhino",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-3rd",
+            "points": 70
+          },
+          {
+            "models": 1,
+            "note": "4th+",
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Stormhawk Interceptor",
+        "options": [
+          {
+            "models": 1,
+            "points": 160
+          }
+        ]
+      },
+      {
+        "name": "Stormraven Gunship",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 280
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 300
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Hurricane Bolter",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Stormtalon Gunship",
+        "options": [
+          {
+            "models": 1,
+            "points": 170
+          }
+        ]
+      },
+      {
+        "name": "Strike Squad",
+        "options": [
+          {
+            "models": 5,
+            "points": 125
+          },
+          {
+            "models": 10,
+            "points": 250
+          }
+        ]
+      },
+      {
+        "name": "Venerable Dreadnought",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 130
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 140
+          }
+        ]
+      }
+    ]
+  }
+}

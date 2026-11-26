@@ -1,0 +1,2505 @@
+{
+  "default": {
+    "allies": [
+      {
+        "ids": [
+          "titan-legions:reaver-titan",
+          "titan-legions:warbringer-nemesis-titan",
+          "titan-legions:warhound-titan",
+          "titan-legions:warlord-titan"
+        ],
+        "key": "adeptus-titanicus",
+        "lim": {
+          "Reaver Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warbringer Nemesis Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warhound Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warlord Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          }
+        },
+        "mutex": 1,
+        "name": "Adeptus Titanicus"
+      },
+      {
+        "free": [
+          {
+            "donor": [
+              "Inquisitor"
+            ],
+            "kw": "Retinue",
+            "recv": [
+              "Inquisitorial Agents"
+            ]
+          },
+          {
+            "donor": [
+              "Character",
+              "Voidfarers"
+            ],
+            "kw": "Retinue",
+            "recv": [
+              "Voidsmen-At-Arms"
+            ]
+          }
+        ],
+        "ids": [
+          "imperial-agents:aquila-kill-team",
+          "imperial-agents:callidus-assassin",
+          "imperial-agents:corvus-blackstar",
+          "imperial-agents:culexus-assassin",
+          "imperial-agents:deathwatch-kill-team",
+          "imperial-agents:eversor-assassin",
+          "imperial-agents:exaction-squad",
+          "imperial-agents:grey-knights-terminator-squad",
+          "imperial-agents:imperial-navy-breachers",
+          "imperial-agents:imperial-rhino",
+          "imperial-agents:inquisitor",
+          "imperial-agents:inquisitor-coteaz",
+          "imperial-agents:inquisitor-draxus",
+          "imperial-agents:inquisitor-greyfax",
+          "imperial-agents:inquisitor-kroyle",
+          "imperial-agents:inquisitorial-agents",
+          "imperial-agents:inquisitorial-chimera",
+          "imperial-agents:ministorum-priest",
+          "imperial-agents:navigator",
+          "imperial-agents:rogue-trader-entourage",
+          "imperial-agents:sanctifiers",
+          "imperial-agents:sisters-of-battle-immolator",
+          "imperial-agents:sisters-of-battle-squad",
+          "imperial-agents:subductor-squad",
+          "imperial-agents:vigilant-squad",
+          "imperial-agents:vindicare-assassin",
+          "imperial-agents:voidsmen-at-arms",
+          "imperial-agents:watch-captain-artemis",
+          "imperial-agents:watch-master"
+        ],
+        "key": "agents-of-the-imperium",
+        "lim": {
+          "Character": {
+            "incursion": 1,
+            "onslaught": 3,
+            "strike-force": 2
+          },
+          "Requisitioned": {
+            "incursion": 1,
+            "onslaught": 2,
+            "strike-force": 1
+          },
+          "Retinue": {
+            "incursion": 1,
+            "onslaught": 3,
+            "strike-force": 2
+          }
+        },
+        "name": "Agents of the Imperium",
+        "up": {
+          "imperial-agents:eversor-assassin": {
+            "1": 110
+          },
+          "imperial-agents:exaction-squad": {
+            "11": 85
+          },
+          "imperial-agents:grey-knights-terminator-squad": {
+            "5": 190
+          },
+          "imperial-agents:inquisitor": {
+            "1": 65
+          },
+          "imperial-agents:inquisitor-coteaz": {
+            "1": 95
+          },
+          "imperial-agents:inquisitor-draxus": {
+            "1": 110
+          },
+          "imperial-agents:inquisitorial-agents": {
+            "6": 60,
+            "11": 120,
+            "12": 120
+          },
+          "imperial-agents:navigator": {
+            "1": 75
+          },
+          "imperial-agents:rogue-trader-entourage": {
+            "4": 105
+          },
+          "imperial-agents:sisters-of-battle-immolator": {
+            "1": 105
+          },
+          "imperial-agents:sisters-of-battle-squad": {
+            "10": 110
+          },
+          "imperial-agents:subductor-squad": {
+            "11": 100
+          },
+          "imperial-agents:vindicare-assassin": {
+            "1": 125
+          },
+          "imperial-agents:voidsmen-at-arms": {
+            "6": 70
+          }
+        }
+      },
+      {
+        "enh": 1,
+        "ids": [
+          "deathwatch:corvus-blackstar",
+          "deathwatch:deathwatch-terminator-squad",
+          "deathwatch:deathwatch-veterans",
+          "deathwatch:decimus-kill-team",
+          "deathwatch:fortis-kill-team",
+          "deathwatch:indomitor-kill-team",
+          "deathwatch:spectrus-kill-team",
+          "deathwatch:talonstrike-kill-team",
+          "deathwatch:watch-captain-artemis",
+          "deathwatch:watch-master"
+        ],
+        "key": "deathwatch",
+        "name": "Deathwatch",
+        "pts": {
+          "incursion": 500,
+          "onslaught": 500,
+          "strike-force": 500
+        }
+      },
+      {
+        "ids": [
+          "imperial-knights:acastus-knight-asterius",
+          "imperial-knights:acastus-knight-porphyrion",
+          "imperial-knights:armiger-helverin",
+          "imperial-knights:armiger-moirax",
+          "imperial-knights:armiger-warglaive",
+          "imperial-knights:canis-rex",
+          "imperial-knights:cerastus-knight-acheron",
+          "imperial-knights:cerastus-knight-atrapos",
+          "imperial-knights:cerastus-knight-castigator",
+          "imperial-knights:cerastus-knight-lancer",
+          "imperial-knights:knight-castellan",
+          "imperial-knights:knight-crusader",
+          "imperial-knights:knight-defender",
+          "imperial-knights:knight-destrier",
+          "imperial-knights:knight-errant",
+          "imperial-knights:knight-gallant",
+          "imperial-knights:knight-paladin",
+          "imperial-knights:knight-preceptor",
+          "imperial-knights:knight-valiant",
+          "imperial-knights:knight-warden",
+          "imperial-knights:questoris-knight-magaera",
+          "imperial-knights:questoris-knight-styrix"
+        ],
+        "key": "imperial-knights",
+        "lim": {
+          "Armiger": {
+            "incursion": 3,
+            "onslaught": 3,
+            "strike-force": 3
+          },
+          "Titanic": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          }
+        },
+        "mutex": 1,
+        "name": "Imperial Knights"
+      }
+    ],
+    "detachments": [
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "limit": 3,
+            "name": "Nightforged Battery (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 10,
+            "req": [
+              {
+                "ds": "Land Speeder Vengeance"
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "limit": 3,
+            "name": "Thundercowl Turbines (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Fly",
+                  "Ravenwing"
+                ]
+              },
+              {
+                "kw": [
+                  "Ravenwing",
+                  "Mounted"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Darkflight Pursuit",
+        "sid": "8ba93ebb-f562-438a-b727-5b17ef81fd3d"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Singular Will",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Deathwing"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Champion of the Deathwing",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Deathwing"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Inner Circle Task Force",
+        "sid": "0af88b8c-951a-442c-987b-85384f0020e7"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Tempered in Battle (Aura)",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Astartes"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Deathwing Assault",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Deathwing"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Ancient Weapons",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Adeptus Astartes"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Lord of the Ravenwing",
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Ravenwing"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Wrath of the Rock",
+        "sid": "195b367e-d4a1-453b-9be4-6831a73cd66b",
+        "unique": "TERMINATOR"
+      }
+    ],
+    "name": "Dark Angels",
+    "sharedDetachmentFrom": {
+      "Deathwatch Support": "deathwatch"
+    },
+    "sharedDetachments": [
+      "Assault Brethren",
+      "Deathwatch Support",
+      "Devastator Brethren",
+      "Gauntlet Task Force",
+      "Gladius Task Force",
+      "Gravis Linebreaker Force",
+      "Gravis Siege Force",
+      "Ironclad Champions",
+      "Ironstorm Spearhead",
+      "Phobos Shadow Force",
+      "Phobos Shock Force",
+      "Stormlance Task Force",
+      "Tactical Brethren",
+      "Tacticus Attack Force",
+      "Tacticus Firestorm Force",
+      "Terminator Storm Force"
+    ],
+    "sharedGrants": {
+      "ancient-in-terminator-armour": [
+        {
+          "kw": "Deathwing"
+        }
+      ],
+      "ballistus-dreadnought": [
+        {
+          "kw": "Deathwing"
+        }
+      ],
+      "bladeguard-ancient": [
+        {
+          "kw": "Deathwing"
+        }
+      ],
+      "bladeguard-veteran-squad": [
+        {
+          "kw": "Deathwing"
+        }
+      ],
+      "brutalis-dreadnought": [
+        {
+          "kw": "Deathwing"
+        }
+      ],
+      "captain-in-terminator-armour": [
+        {
+          "kw": "Deathwing"
+        }
+      ],
+      "captain-on-bike": [
+        {
+          "kw": "Ravenwing"
+        }
+      ],
+      "chaplain-in-terminator-armour": [
+        {
+          "kw": "Deathwing"
+        }
+      ],
+      "chaplain-on-bike": [
+        {
+          "kw": "Ravenwing"
+        }
+      ],
+      "dreadnought": [
+        {
+          "kw": "Deathwing"
+        }
+      ],
+      "invader-atvs": [
+        {
+          "kw": "Ravenwing"
+        }
+      ],
+      "land-raider": [
+        {
+          "kw": "Deathwing"
+        }
+      ],
+      "land-raider-crusader": [
+        {
+          "kw": "Deathwing"
+        }
+      ],
+      "land-raider-redeemer": [
+        {
+          "kw": "Deathwing"
+        }
+      ],
+      "land-speeder": [
+        {
+          "kw": "Ravenwing"
+        }
+      ],
+      "librarian-in-terminator-armour": [
+        {
+          "kw": "Deathwing"
+        }
+      ],
+      "outrider-squad": [
+        {
+          "det": "darkflight-pursuit",
+          "kw": "Battleline"
+        },
+        {
+          "kw": "Ravenwing"
+        }
+      ],
+      "redemptor-dreadnought": [
+        {
+          "kw": "Deathwing"
+        }
+      ],
+      "repulsor": [
+        {
+          "kw": "Deathwing"
+        }
+      ],
+      "repulsor-executioner": [
+        {
+          "kw": "Deathwing"
+        }
+      ],
+      "sternguard-veteran-squad": [
+        {
+          "kw": "Deathwing"
+        }
+      ],
+      "storm-speeder-hailstrike": [
+        {
+          "kw": "Ravenwing"
+        }
+      ],
+      "storm-speeder-hammerstrike": [
+        {
+          "kw": "Ravenwing"
+        }
+      ],
+      "storm-speeder-thunderstrike": [
+        {
+          "kw": "Ravenwing"
+        }
+      ],
+      "stormhawk-interceptor": [
+        {
+          "kw": "Ravenwing"
+        }
+      ],
+      "stormraven-gunship": [
+        {
+          "kw": "Ravenwing"
+        }
+      ],
+      "stormtalon-gunship": [
+        {
+          "kw": "Ravenwing"
+        }
+      ],
+      "terminator-assault-squad": [
+        {
+          "kw": "Deathwing"
+        }
+      ],
+      "terminator-squad": [
+        {
+          "kw": "Deathwing"
+        }
+      ],
+      "vanguard-veteran-squad-with-jump-packs": [
+        {
+          "kw": "Deathwing"
+        }
+      ]
+    },
+    "sharedUnitIds": [
+      "aggressor-squad",
+      "ancient",
+      "ancient-in-terminator-armour",
+      "apothecary",
+      "apothecary-biologis",
+      "assault-intercessor-squad",
+      "assault-intercessors-with-jump-packs",
+      "astraeus",
+      "ballistus-dreadnought",
+      "bladeguard-ancient",
+      "bladeguard-veteran-squad",
+      "brutalis-dreadnought",
+      "captain",
+      "captain-in-gravis-armour",
+      "captain-in-phobos-armour",
+      "captain-in-terminator-armour",
+      "captain-on-bike",
+      "captain-with-jump-pack",
+      "centurion-assault-squad",
+      "centurion-devastator-squad",
+      "cerberus",
+      "chaplain",
+      "chaplain-in-terminator-armour",
+      "chaplain-on-bike",
+      "chaplain-with-jump-pack",
+      "company-heroes",
+      "desolation-squad",
+      "dreadnought",
+      "drop-pod",
+      "eliminator-squad",
+      "eradicator-squad-with-heavy-bolters",
+      "eradicator-squad-with-melta-rifles",
+      "falchion",
+      "firestrike-servo-turrets",
+      "gladiator-lancer",
+      "gladiator-reaper",
+      "gladiator-valiant",
+      "hammerfall-bunker",
+      "heavy-intercessor-squad",
+      "hellblaster-squad",
+      "impulsor",
+      "inceptor-squad",
+      "incursor-squad",
+      "infernus-squad",
+      "infiltrator-squad",
+      "intercessor-squad",
+      "invader-atvs",
+      "invictor-tactical-warsuit",
+      "judiciar",
+      "kratos",
+      "land-raider",
+      "land-raider-crusader",
+      "land-raider-excelsior",
+      "land-raider-redeemer",
+      "land-speeder",
+      "librarian",
+      "librarian-in-phobos-armour",
+      "librarian-in-terminator-armour",
+      "lieutenant",
+      "lieutenant-in-phobos-armour",
+      "lieutenant-with-combi-weapon",
+      "mastodon",
+      "outrider-squad",
+      "predator-annihilator",
+      "predator-destructor",
+      "rapier-carrier",
+      "razorback",
+      "redemptor-dreadnought",
+      "reiver-squad",
+      "relic-razorback",
+      "repulsor",
+      "repulsor-executioner",
+      "rhino",
+      "rhino-primaris",
+      "scout-bike-squad",
+      "scout-squad",
+      "sicaran",
+      "sternguard-veteran-squad",
+      "storm-speeder-hailstrike",
+      "storm-speeder-hammerstrike",
+      "storm-speeder-thunderstrike",
+      "stormhawk-interceptor",
+      "stormraven-gunship",
+      "stormtalon-gunship",
+      "tarantula-air-defence-battery",
+      "tarantula-sentry-battery",
+      "techmarine",
+      "terminator-assault-squad",
+      "terminator-squad",
+      "terrax-pattern-termite",
+      "thunderhawk-gunship",
+      "typhon",
+      "vanguard-veteran-squad",
+      "vanguard-veteran-squad-with-jump-packs",
+      "venerable-dreadnought",
+      "vindicator",
+      "whirlwind"
+    ],
+    "slug": "dark-angels",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1192,
+                1
+              ],
+              [
+                1193,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Dark Angels"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "asmodai",
+        "kws": [
+          "Chaplain",
+          "Character",
+          "Deathwing",
+          "Epic Hero",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Tacticus"
+        ],
+        "leads": [
+          {
+            "to": "infernus-squad",
+            "type": "leader"
+          },
+          {
+            "to": "inner-circle-companions",
+            "type": "leader"
+          },
+          {
+            "to": "assault-intercessor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "intercessor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "bladeguard-veteran-squad",
+            "type": "leader"
+          },
+          {
+            "to": "sternguard-veteran-squad",
+            "type": "leader"
+          },
+          {
+            "to": "hellblaster-squad",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Asmodai",
+        "sid": "00422d3c-a337-4c70-a521-4c3f268fecc6",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1194,
+                1
+              ],
+              [
+                1195,
+                1
+              ],
+              [
+                1196,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Dark Angels"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "azrael",
+        "kws": [
+          "Chapter Master",
+          "Character",
+          "Deathwing",
+          "Epic Hero",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Tacticus"
+        ],
+        "leads": [
+          {
+            "to": "bladeguard-veteran-squad",
+            "type": "leader"
+          },
+          {
+            "to": "intercessor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "inner-circle-companions",
+            "type": "leader"
+          },
+          {
+            "to": "hellblaster-squad",
+            "type": "leader"
+          },
+          {
+            "to": "sternguard-veteran-squad",
+            "type": "leader"
+          },
+          {
+            "to": "infernus-squad",
+            "type": "leader"
+          },
+          {
+            "to": "assault-intercessor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "company-heroes",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Azrael",
+        "sid": "2c8e0331-4d53-44dc-bd48-5a1aacca2818",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 150
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1197,
+                1
+              ],
+              [
+                1198,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Dark Angels"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "belial",
+        "kws": [
+          "Captain",
+          "Character",
+          "Deathwing",
+          "Epic Hero",
+          "Imperium",
+          "Infantry",
+          "Terminator"
+        ],
+        "leads": [
+          {
+            "to": "deathwing-terminator-squad",
+            "type": "leader"
+          },
+          {
+            "to": "deathwing-knights",
+            "type": "leader"
+          },
+          {
+            "to": "terminator-squad",
+            "type": "leader"
+          },
+          {
+            "to": "terminator-assault-squad",
+            "type": "leader"
+          },
+          {
+            "to": "deathwing-command-squad",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Belial",
+        "sid": "28dd278b-fdb7-4c37-9171-c924399c20c1",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                38,
+                1
+              ],
+              [
+                1045,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                38,
+                1
+              ],
+              [
+                1657,
+                1
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                3364,
+                1
+              ]
+            ]
+          ],
+          [
+            3,
+            [
+              [
+                38,
+                1
+              ],
+              [
+                1045,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Dark Angels"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 3,
+            "o": [
+              [
+                1048
+              ],
+              [
+                [
+                  [
+                    2428,
+                    1
+                  ],
+                  [
+                    1345,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              38,
+              1045
+            ],
+            "t": 1105
+          },
+          {
+            "in": "stepper",
+            "m": 3,
+            "o": [
+              [
+                1657
+              ]
+            ],
+            "rep": [
+              1045
+            ],
+            "t": 1106
+          },
+          {
+            "in": "checkbox",
+            "m": 3,
+            "o": [
+              [
+                13
+              ]
+            ],
+            "rep": [
+              1045
+            ],
+            "t": 1107
+          },
+          {
+            "in": "stepper",
+            "keep": [
+              38
+            ],
+            "lim": [
+              [
+                5,
+                1
+              ],
+              [
+                10,
+                2
+              ]
+            ],
+            "m": 3,
+            "o": [
+              [
+                1607
+              ],
+              [
+                2993
+              ],
+              [
+                1681
+              ],
+              [
+                [
+                  [
+                    38,
+                    1
+                  ],
+                  [
+                    2709,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              38
+            ],
+            "t": 1108
+          },
+          {
+            "all": 1,
+            "in": "checkbox",
+            "o": [
+              [
+                1201
+              ]
+            ],
+            "t": 1109
+          }
+        ],
+        "id": "deathwing-command-squad",
+        "kws": [
+          "Infantry",
+          "Imperium",
+          "Deathwing",
+          "Terminator",
+          "Deathwing Command Squad"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Deathwing Ancient"
+          },
+          {
+            "n": "Deathwing Apothecary"
+          },
+          {
+            "n": "Deathwing Champion"
+          },
+          {
+            "n": "Deathwing Command Terminators"
+          }
+        ],
+        "name": "Deathwing Command Squad",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 200
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                3,
+                7
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 400
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                1199,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                1200,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Dark Angels"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1201
+              ]
+            ],
+            "t": 447
+          },
+          {
+            "in": "checkbox",
+            "m": 1,
+            "o": [
+              [
+                1202
+              ]
+            ],
+            "rep": [
+              1199
+            ],
+            "t": 448
+          },
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                1203
+              ]
+            ],
+            "rep": [
+              1200
+            ],
+            "t": 449
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "deathwing-knights",
+        "kws": [
+          "Deathwing",
+          "Imperium",
+          "Infantry",
+          "Terminator"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Deathwing Knights"
+          },
+          {
+            "n": "Knight Master"
+          }
+        ],
+        "modelKws": {},
+        "name": "Deathwing Knights",
+        "sid": "f522bffd-8580-405a-a4e7-063aed70a553",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 255
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                38,
+                1
+              ],
+              [
+                1413,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Dark Angels"
+        ],
+        "flags": {
+          "char": 1,
+          "legends": 1
+        },
+        "gear": [
+          {
+            "ex": 2,
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                1048
+              ],
+              [
+                38
+              ],
+              [
+                1657
+              ],
+              [
+                1200
+              ],
+              [
+                1045
+              ],
+              [
+                2428
+              ],
+              [
+                1345
+              ]
+            ],
+            "rep": [
+              38,
+              1413
+            ],
+            "solo": [
+              0
+            ],
+            "t": 1110
+          }
+        ],
+        "id": "deathwing-strikemaster",
+        "kws": [
+          "Infantry",
+          "Character",
+          "Imperium",
+          "Deathwing",
+          "Terminator",
+          "Lieutenant",
+          "Deathwing Strikemaster"
+        ],
+        "leads": [
+          {
+            "to": "deathwing-command-squad",
+            "type": "support"
+          },
+          {
+            "to": "deathwing-terminator-squad",
+            "type": "support"
+          },
+          {
+            "to": "terminator-assault-squad",
+            "type": "support"
+          },
+          {
+            "to": "terminator-squad",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "name": "Deathwing Strikemaster",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                1204,
+                1
+              ],
+              [
+                1205,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                1204,
+                1
+              ],
+              [
+                1205,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Dark Angels"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1201
+              ]
+            ],
+            "t": 450
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1206
+              ],
+              [
+                1207
+              ]
+            ],
+            "rep": [
+              1205
+            ],
+            "t": 451
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                1206
+              ]
+            ],
+            "rep": [
+              1205
+            ],
+            "t": 452
+          },
+          {
+            "in": "stepper",
+            "keep": [
+              1204
+            ],
+            "lim": [
+              [
+                5,
+                1
+              ],
+              [
+                10,
+                2
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                [
+                  [
+                    1208,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1209,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1210,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1204,
+                    1
+                  ],
+                  [
+                    1211,
+                    1
+                  ]
+                ],
+                10
+              ]
+            ],
+            "rep": [
+              1204
+            ],
+            "t": 453
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "deathwing-terminator-squad",
+        "kws": [
+          "Deathwing",
+          "Imperium",
+          "Infantry",
+          "Terminator"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Deathwing Sergeant"
+          },
+          {
+            "n": "Deathwing Terminators"
+          }
+        ],
+        "modelKws": {},
+        "name": "Deathwing Terminator Squad",
+        "sid": "88aa6d99-b712-42c3-961f-171000c3c481",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 190
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "per": [
+              10,
+              10
+            ],
+            "pts": 380
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 40
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1212,
+                1
+              ],
+              [
+                1213,
+                1
+              ],
+              [
+                1214,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Dark Angels"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "ezekiel",
+        "kws": [
+          "Character",
+          "Deathwing",
+          "Epic Hero",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Librarian",
+          "Psyker",
+          "Tacticus"
+        ],
+        "leads": [
+          {
+            "to": "infernus-squad",
+            "type": "leader"
+          },
+          {
+            "to": "inner-circle-companions",
+            "type": "leader"
+          },
+          {
+            "to": "assault-intercessor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "bladeguard-veteran-squad",
+            "type": "leader"
+          },
+          {
+            "to": "intercessor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "hellblaster-squad",
+            "type": "leader"
+          },
+          {
+            "to": "sternguard-veteran-squad",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Ezekiel",
+        "sid": "93fa929e-1107-4b07-9833-e1236e8df6f9",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 110
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1215,
+                1
+              ],
+              [
+                1216,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Dark Angels"
+        ],
+        "flags": {},
+        "id": "inner-circle-companions",
+        "kws": [
+          "Deathwing",
+          "Imperium",
+          "Infantry",
+          "Tacticus"
+        ],
+        "linked": 1,
+        "name": "Inner Circle Companions",
+        "sid": "99278960-975f-443f-b658-e7da07e2546c",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 90
+          },
+          {
+            "per": [
+              6,
+              6
+            ],
+            "pts": 180
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1219,
+                1
+              ],
+              [
+                1220,
+                1
+              ],
+              [
+                1221,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Dark Angels"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1222
+              ]
+            ],
+            "rep": [
+              1219
+            ],
+            "t": 454
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "land-speeder-vengeance",
+        "kws": [
+          "Fly",
+          "Frame",
+          "Imperium",
+          "Ravenwing",
+          "Speeder",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Land Speeder Vengeance",
+        "sid": "e310b2d0-59b7-44d1-8b5e-60a12f5bcfc6",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 150
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1217,
+                1
+              ],
+              [
+                1218,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Dark Angels"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "lazarus",
+        "kws": [
+          "Captain",
+          "Character",
+          "Deathwing",
+          "Epic Hero",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Tacticus"
+        ],
+        "leads": [
+          {
+            "to": "inner-circle-companions",
+            "type": "leader"
+          },
+          {
+            "to": "assault-intercessor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "intercessor-squad",
+            "type": "leader"
+          },
+          {
+            "to": "bladeguard-veteran-squad",
+            "type": "leader"
+          },
+          {
+            "to": "infernus-squad",
+            "type": "leader"
+          },
+          {
+            "to": "sternguard-veteran-squad",
+            "type": "leader"
+          },
+          {
+            "to": "company-heroes",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Lazarus",
+        "sid": "0828fcb2-0d80-4e42-af5d-d040ccfd3a61",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1223,
+                1
+              ],
+              [
+                1224,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Dark Angels"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "supreme": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "lion-eljonson",
+        "kws": [
+          "Character",
+          "Epic Hero",
+          "Imperium",
+          "Mobile",
+          "Monster",
+          "Primarch"
+        ],
+        "linked": 1,
+        "name": "Lion El'Jonson",
+        "sid": "38867cfd-ef90-473f-9a15-6a297180c6dd",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 415
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1225,
+                1
+              ],
+              [
+                1226,
+                1
+              ],
+              [
+                1227,
+                1
+              ],
+              [
+                1228,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Dark Angels"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1229
+              ]
+            ],
+            "rep": [
+              1227
+            ],
+            "t": 455
+          }
+        ],
+        "id": "nephilim-jetfighter",
+        "kws": [
+          "Aircraft",
+          "Fly",
+          "Imperium",
+          "Ravenwing",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Nephilim Jetfighter",
+        "sid": "51062f7a-15de-4be6-b4c7-ded1bcc9064d",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 200
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                1230,
+                1
+              ],
+              [
+                1231,
+                1
+              ],
+              [
+                1232,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                1230,
+                1
+              ],
+              [
+                1231,
+                1
+              ],
+              [
+                1232,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Dark Angels"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1233
+              ]
+            ],
+            "rep": [
+              1231
+            ],
+            "t": 456
+          },
+          {
+            "in": "stepper",
+            "m": 1,
+            "o": [
+              [
+                1233
+              ]
+            ],
+            "rep": [
+              1231
+            ],
+            "t": 456
+          }
+        ],
+        "id": "ravenwing-black-knights",
+        "kws": [
+          "Explosives",
+          "Imperium",
+          "Mounted",
+          "Ravenwing"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Ravenwing Huntmaster"
+          },
+          {
+            "n": "Ravenwing Black Knight"
+          }
+        ],
+        "modelKws": {},
+        "name": "Ravenwing Black Knights",
+        "pools": [
+          {
+            "g": [
+              0,
+              1
+            ],
+            "lim": [
+              [
+                3,
+                1
+              ],
+              [
+                6,
+                2
+              ]
+            ]
+          }
+        ],
+        "sid": "e479d5a6-6367-4ffa-a143-f8260ec6a358",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 85
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5
+              ]
+            ],
+            "per": [
+              6,
+              6
+            ],
+            "pts": 170
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1234,
+                1
+              ],
+              [
+                1235,
+                1
+              ],
+              [
+                1236,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                1234,
+                1
+              ],
+              [
+                1235,
+                1
+              ],
+              [
+                1237,
+                1
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                1234,
+                1
+              ],
+              [
+                1235,
+                1
+              ],
+              [
+                1236,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Dark Angels"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1238
+              ]
+            ],
+            "rep": [
+              1235
+            ],
+            "t": 456
+          },
+          {
+            "in": "checkbox",
+            "m": 1,
+            "o": [
+              [
+                1238
+              ]
+            ],
+            "rep": [
+              1235
+            ],
+            "t": 456
+          },
+          {
+            "in": "checkbox",
+            "m": 2,
+            "o": [
+              [
+                1238
+              ]
+            ],
+            "rep": [
+              1235
+            ],
+            "t": 456
+          }
+        ],
+        "id": "ravenwing-command-squad",
+        "kws": [
+          "Character",
+          "Explosives",
+          "Imperium",
+          "Mounted",
+          "Ravenwing"
+        ],
+        "leads": [
+          {
+            "to": "outrider-squad",
+            "type": "support"
+          },
+          {
+            "to": "ravenwing-black-knights",
+            "type": "support"
+          }
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Ravenwing Apothecary"
+          },
+          {
+            "n": "Ravenwing Champion"
+          },
+          {
+            "n": "Ravenwing Ancient"
+          }
+        ],
+        "modelKws": {
+          "Character": [
+            1
+          ]
+        },
+        "name": "Ravenwing Command Squad",
+        "pools": [
+          {
+            "g": [
+              0,
+              1,
+              2
+            ],
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ]
+          }
+        ],
+        "sid": "515eaf0d-be4b-4a33-89ae-228f029c2bbf",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 115
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1242,
+                1
+              ],
+              [
+                1243,
+                2
+              ],
+              [
+                1244,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Dark Angels"
+        ],
+        "flags": {},
+        "id": "ravenwing-dark-talon",
+        "kws": [
+          "Aircraft",
+          "Fly",
+          "Imperium",
+          "Ravenwing",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Ravenwing Dark Talon",
+        "sid": "f6b89272-de6b-4255-9024-9c0dcc17a656",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 190
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1239,
+                1
+              ],
+              [
+                1240,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Dark Angels"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1241
+              ]
+            ],
+            "rep": [
+              1239
+            ],
+            "t": 454
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "ravenwing-darkshroud",
+        "kws": [
+          "Fly",
+          "Frame",
+          "Imperium",
+          "Ravenwing",
+          "Speeder",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Ravenwing Darkshroud",
+        "sid": "751aa1e1-089a-4732-bb32-3c327213fee7",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1594,
+                1
+              ],
+              [
+                60,
+                1
+              ],
+              [
+                13,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Dark Angels"
+        ],
+        "flags": {
+          "char": 1,
+          "legends": 1
+        },
+        "id": "ravenwing-talonmaster",
+        "kws": [
+          "Vehicle",
+          "Character",
+          "Fly",
+          "Imperium",
+          "Ravenwing",
+          "Ravenwing Talonmaster"
+        ],
+        "linked": 1,
+        "name": "Ravenwing Talonmaster",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 105
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1245,
+                1
+              ],
+              [
+                1246,
+                1
+              ],
+              [
+                1247,
+                1
+              ],
+              [
+                1248,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes",
+          "Dark Angels"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "sammael",
+        "kws": [
+          "Captain",
+          "Character",
+          "Epic Hero",
+          "Explosives",
+          "Fly",
+          "Frame",
+          "Imperium",
+          "Mounted",
+          "Ravenwing"
+        ],
+        "leads": [
+          {
+            "to": "outrider-squad",
+            "type": "leader"
+          },
+          {
+            "to": "ravenwing-black-knights",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Sammael",
+        "sid": "10040480-4f18-442e-9762-a47d3d4d61aa",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 120
+          }
+        ]
+      }
+    ]
+  }
+}

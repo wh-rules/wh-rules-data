@@ -1,0 +1,104 @@
+{
+  "default": {
+    "bloodcrushers": [
+      [
+        "Disciple of Khorne",
+        "leader",
+        {
+          "by": [
+            "Lord on Juggernaut"
+          ],
+          "det": "Khorne Daemonkin",
+          "enh": 1
+        }
+      ]
+    ],
+    "eightbound": [
+      [
+        "Lord Invocatus",
+        "leader"
+      ],
+      [
+        "Lord on Juggernaut",
+        "leader"
+      ],
+      [
+        "Slaughterbound",
+        "leader"
+      ]
+    ],
+    "exalted-eightbound": [
+      [
+        "Lord Invocatus",
+        "leader"
+      ],
+      [
+        "Lord on Juggernaut",
+        "leader"
+      ],
+      [
+        "Slaughterbound",
+        "leader"
+      ]
+    ],
+    "flesh-hounds": [
+      [
+        "Disciple of Khorne",
+        "leader",
+        {
+          "by": [
+            "Lord on Juggernaut"
+          ],
+          "det": "Khorne Daemonkin",
+          "enh": 1
+        }
+      ]
+    ],
+    "goremongers": [
+      [
+        "Butcher Lord",
+        "leader",
+        {
+          "by": [
+            "Master of Executions",
+            "Slaughterbound"
+          ],
+          "det": "Cult of Blood",
+          "enh": 1
+        }
+      ]
+    ],
+    "jakhals": [
+      [
+        "Butcher Lord",
+        "leader",
+        {
+          "by": [
+            "Master of Executions",
+            "Slaughterbound"
+          ],
+          "det": "Cult of Blood",
+          "enh": 1
+        }
+      ]
+    ],
+    "khorne-berzerkers": [
+      [
+        "Khârn the Betrayer",
+        "leader"
+      ],
+      [
+        "Lord Invocatus",
+        "leader"
+      ],
+      [
+        "Lord on Juggernaut",
+        "leader"
+      ],
+      [
+        "Master of Executions",
+        "leader"
+      ]
+    ]
+  }
+}

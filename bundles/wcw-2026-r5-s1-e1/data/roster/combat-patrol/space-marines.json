@@ -1,0 +1,427 @@
+{
+  "default": {
+    "box": "space-marines",
+    "detachment": {
+      "dp": 0,
+      "enhancements": [
+        {
+          "name": "Blade Masters",
+          "nonCharOk": 1,
+          "pts": null,
+          "req": [
+            {
+              "ds": "Assault Force Vanguard Veteran Squad With Jump Packs",
+              "fac": [
+                "Adeptus Astartes"
+              ]
+            }
+          ],
+          "type": "upgrade"
+        },
+        {
+          "name": "Battle-line Veterans",
+          "nonCharOk": 1,
+          "pts": null,
+          "req": [
+            {
+              "ds": "Assault Force Intercessor Squad",
+              "fac": [
+                "Adeptus Astartes"
+              ]
+            }
+          ],
+          "type": "upgrade"
+        }
+      ],
+      "linkedUnits": [
+        {
+          "count": 1,
+          "unit": "assault-force-intercessor-squad"
+        },
+        {
+          "count": 1,
+          "unit": "assault-force-captain",
+          "warlord": 1
+        },
+        {
+          "count": 1,
+          "unit": "assault-force-vanguard-veteran-squad-with-jump-packs"
+        },
+        {
+          "count": 1,
+          "unit": "assault-force-librarian"
+        },
+        {
+          "count": 1,
+          "unit": "assault-force-land-speeder"
+        }
+      ],
+      "name": "Assault Force",
+      "sid": "c6d78179-7038-46dd-8d4a-9c1f9383fd8b"
+    },
+    "slug": "space-marines",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3484,
+                1
+              ],
+              [
+                3485,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "assault-force-captain",
+        "kws": [
+          "Assault Force",
+          "Character",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Tacticus"
+        ],
+        "linked": 1,
+        "name": "Assault Force Captain",
+        "sid": "4a70c609-1728-4ccb-99be-b609ef18575c",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                3479,
+                1
+              ],
+              [
+                3480,
+                1
+              ],
+              [
+                3481,
+                1
+              ],
+              [
+                3482,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3479,
+                1
+              ],
+              [
+                3480,
+                1
+              ],
+              [
+                3482,
+                1
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                3479,
+                1
+              ],
+              [
+                3480,
+                1
+              ],
+              [
+                3483,
+                1
+              ],
+              [
+                3482,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes"
+        ],
+        "flags": {},
+        "id": "assault-force-intercessor-squad",
+        "kws": [
+          "Assault Force",
+          "Battleline",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Tacticus"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Intercessor"
+          },
+          {
+            "n": "Intercessor Sergeant"
+          },
+          {
+            "n": "Intercessor with Grenade Launcher"
+          }
+        ],
+        "modelKws": {},
+        "name": "Assault Force Intercessor Squad",
+        "sid": "0080dcbd-c2de-4b82-a7a7-e94c47fd54f4",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3492,
+                1
+              ],
+              [
+                3493,
+                1
+              ],
+              [
+                3494,
+                1
+              ],
+              [
+                3495,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes"
+        ],
+        "flags": {},
+        "id": "assault-force-land-speeder",
+        "kws": [
+          "Assault Force",
+          "Fly",
+          "Imperium",
+          "Vehicle"
+        ],
+        "linked": 1,
+        "name": "Assault Force Land Speeder",
+        "sid": "e46bda3b-7f50-4bd0-a7a4-d661e3814485",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3489,
+                1
+              ],
+              [
+                3490,
+                1
+              ],
+              [
+                3491,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "assault-force-librarian",
+        "kws": [
+          "Assault Force",
+          "Character",
+          "Explosives",
+          "Imperium",
+          "Infantry",
+          "Psyker",
+          "Tacticus"
+        ],
+        "leads": [
+          {
+            "to": "assault-force-intercessor-squad",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Assault Force Librarian",
+        "sid": "e45bd259-44a9-4d11-b3f7-b7c60acd1c48",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 0
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                3486,
+                1
+              ],
+              [
+                3487,
+                1
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                3488,
+                1
+              ],
+              [
+                3486,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                3488,
+                1
+              ],
+              [
+                3486,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Adeptus Astartes"
+        ],
+        "flags": {},
+        "id": "assault-force-vanguard-veteran-squad-with-jump-packs",
+        "kws": [
+          "Assault Force",
+          "Explosives",
+          "Fly",
+          "Imperium",
+          "Infantry",
+          "Jump Pack",
+          "Vanguard Veteran Squad"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Vanguard Veteran Sergeant"
+          },
+          {
+            "n": "Vanguard Veteran with Plasma Pistol"
+          },
+          {
+            "n": "Vanguard Veteran"
+          }
+        ],
+        "modelKws": {},
+        "name": "Assault Force Vanguard Veteran Squad With Jump Packs",
+        "sid": "9a248fbd-de4c-497f-8e05-0252056811c0",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 0
+          }
+        ]
+      }
+    ]
+  }
+}

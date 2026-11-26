@@ -1,0 +1,5001 @@
+{
+  "default": {
+    "allies": [
+      {
+        "ids": [
+          "chaos-knights:chaos-acastus-knight-asterius",
+          "chaos-knights:chaos-acastus-knight-porphyrion",
+          "chaos-knights:chaos-cerastus-knight-acheron",
+          "chaos-knights:chaos-cerastus-knight-atrapos",
+          "chaos-knights:chaos-cerastus-knight-castigator",
+          "chaos-knights:chaos-cerastus-knight-lancer",
+          "chaos-knights:chaos-questoris-knight-magaera",
+          "chaos-knights:chaos-questoris-knight-styrix",
+          "chaos-knights:knight-abominant",
+          "chaos-knights:knight-desecrator",
+          "chaos-knights:knight-despoiler",
+          "chaos-knights:knight-rampager",
+          "chaos-knights:knight-ruinator",
+          "chaos-knights:knight-tyrant",
+          "chaos-knights:war-dog-brigand",
+          "chaos-knights:war-dog-executioner",
+          "chaos-knights:war-dog-huntsman",
+          "chaos-knights:war-dog-karnivore",
+          "chaos-knights:war-dog-moirax",
+          "chaos-knights:war-dog-stalker"
+        ],
+        "key": "chaos-knights",
+        "lim": {
+          "Titanic": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "War Dog": {
+            "incursion": 3,
+            "onslaught": 3,
+            "strike-force": 3
+          }
+        },
+        "mutex": 1,
+        "name": "Chaos Knights"
+      },
+      {
+        "dets": [
+          "Shadow Legion"
+        ],
+        "enh": 1,
+        "ids": [
+          "chaos-space-marines:accursed-cultists",
+          "chaos-space-marines:chaos-lord",
+          "chaos-space-marines:chaos-lord-in-terminator-armour",
+          "chaos-space-marines:chaos-lord-with-jump-pack",
+          "chaos-space-marines:chaos-terminator-squad",
+          "chaos-space-marines:chosen",
+          "chaos-space-marines:cultist-firebrand",
+          "chaos-space-marines:cultist-mob",
+          "chaos-space-marines:dark-apostle",
+          "chaos-space-marines:dark-commune",
+          "chaos-space-marines:fellgor-beastmen",
+          "chaos-space-marines:havocs",
+          "chaos-space-marines:legionaries",
+          "chaos-space-marines:master-of-possession",
+          "chaos-space-marines:possessed",
+          "chaos-space-marines:raptors",
+          "chaos-space-marines:sorcerer",
+          "chaos-space-marines:sorcerer-in-terminator-armour",
+          "chaos-space-marines:traitor-enforcer",
+          "chaos-space-marines:traitor-guardsmen-squad",
+          "chaos-space-marines:warp-talons"
+        ],
+        "key": "heretic-astartes",
+        "name": "Heretic Astartes",
+        "pts": {
+          "incursion": 500,
+          "onslaught": 1500,
+          "strike-force": 1000
+        }
+      },
+      {
+        "ids": [
+          "chaos-titan-legions:chaos-reaver-titan",
+          "chaos-titan-legions:chaos-warbringer-nemesis-titan",
+          "chaos-titan-legions:chaos-warhound-titan",
+          "chaos-titan-legions:chaos-warlord-titan"
+        ],
+        "key": "titanicus-traitoris",
+        "lim": {
+          "Reaver Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warbringer Nemesis Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warhound Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warlord Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          }
+        },
+        "mutex": 1,
+        "name": "Titanicus Traitoris"
+      }
+    ],
+    "detachments": [
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Slaughterthirst (Aura)",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Khorne"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Fury’s Cage",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Monster",
+                  "Khorne"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Brazenmaw",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Khorne"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Gateway Unto Damnation",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Monster",
+                  "Khorne"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Blood Legion",
+        "sid": "4489023b-fe35-46d6-9653-4b9f6718aa40"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "limit": 3,
+            "name": "Apocalyptic Steeds (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Mounted"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "limit": 3,
+            "name": "Soul-shattering Charge (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Mounted"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Disruption"
+        ],
+        "name": "Cavalcade of Chaos",
+        "sid": "b3ac1391-84a9-4f8b-8755-d75eccfa5b70"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "A’rgath, The King of Blades",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Khorne"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "The Everstave",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Tzeentch"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "The Endless Gift",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Nurgle"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Soulstealer",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Slaanesh"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold",
+          "Disruption"
+        ],
+        "name": "Daemonic Incursion",
+        "sid": "5357f63c-7c70-459e-aa3b-1ea9c4ef48bb"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "False Majesty (Aura)",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Slaanesh"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Dreaming Crown (Aura)",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Slaanesh"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Avatar of Perfection",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Monster",
+                  "Slaanesh"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Soul Glutton",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Monster",
+                  "Slaanesh"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Legion of Excess",
+        "sid": "e64491c2-1e38-485c-959c-2b0bdf2cffaa"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "exclKw": [
+              "Monster"
+            ],
+            "limit": 3,
+            "name": "Swollen with Power (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Character"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Lords of the Warp",
+        "sid": "fe916344-deef-4c81-99ed-2adae0a8c296"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Cankerblight (Aura)",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Nurgle"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Maggot Maws",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Nurgle"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Droning Shroud (Aura)",
+            "pts": 35,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Monster",
+                  "Nurgle"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Font of Spores (Aura)",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Monster",
+                  "Nurgle"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Plague Legion",
+        "sid": "778d3486-9f71-4253-90b9-c7ca150fc011"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Inescapable Eye",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Tzeentch"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Infernal Puppeteer",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Monster",
+                  "Tzeentch"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Neverblade",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Monster",
+                  "Tzeentch"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Improbable Shield (Aura)",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Tzeentch"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Scintillating Legion",
+        "sid": "d7d52d0d-d7af-4bc4-9a77-6ca0250a1d2c"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Leaping Shadows",
+            "pts": 25,
+            "req": [
+              {
+                "kw": [
+                  "Shadow Legion"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Mantle of Gloom (Aura)",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Shadow Legion"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Fade to Darkness",
+            "pts": 30,
+            "req": [
+              {
+                "kw": [
+                  "Shadow Legion"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Malice Made Manifest",
+            "pts": 25,
+            "req": [
+              {
+                "kw": [
+                  "Shadow Legion"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "excludedUnits": [
+          "kairos-fateweaver",
+          "epidemius",
+          "skarbrand",
+          "syllesske",
+          "the-masque-of-slaanesh",
+          "shalaxi-helbane",
+          "karanak",
+          "daemon-prince-of-chaos",
+          "the-changeling",
+          "skulltaker",
+          "horticulous-slimux",
+          "the-blue-scribes",
+          "rotigus",
+          "daemon-prince-of-chaos-with-wings"
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Shadow Legion",
+        "sid": "95dd7e2e-5318-4271-b9dc-38592794539f"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "limit": 3,
+            "name": "Bane-forged Weapons (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Battleline"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "limit": 3,
+            "name": "Soul-hungry Slaughterers (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Legiones Daemonica"
+                ],
+                "kw": [
+                  "Battleline"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Warptide",
+        "sid": "bdbd5d64-bccf-4d77-bcac-2e19815d1516"
+      }
+    ],
+    "name": "Legiones Daemonica",
+    "slug": "chaos-daemons",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3314,
+                1
+              ],
+              [
+                3315,
+                1
+              ],
+              [
+                3316,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "id": "aetaos-rau-keres",
+        "kws": [
+          "Monster",
+          "Character",
+          "Epic Hero",
+          "Titanic",
+          "Towering",
+          "Fly",
+          "Psyker",
+          "Chaos",
+          "Daemon",
+          "Tzeentch",
+          "Aetaos’rau’keres"
+        ],
+        "linked": 1,
+        "name": "Aetaos’rau’keres",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 315
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3317,
+                1
+              ],
+              [
+                863,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "id": "an-ggrath-the-unbound",
+        "kws": [
+          "Monster",
+          "Character",
+          "Epic Hero",
+          "Titanic",
+          "Towering",
+          "Chaos",
+          "Daemon",
+          "Khorne",
+          "An’ggrath the Unbound"
+        ],
+        "linked": 1,
+        "name": "An’ggrath the Unbound",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 415
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                854,
+                1
+              ],
+              [
+                855,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "supreme": 1
+        },
+        "grants": [
+          {
+            "det": "shadow-legion",
+            "kw": "Shadow Legion"
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "belakor",
+        "kws": [
+          "Be’lakor",
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Epic Hero",
+          "Fly",
+          "Monster",
+          "Psyker"
+        ],
+        "linked": 1,
+        "name": "Be’lakor",
+        "sid": "bd832fd9-cafc-450c-947f-8f41f09a956e",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 390
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                853,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "beasts-of-nurgle",
+        "kws": [
+          "Beast",
+          "Beasts of Nurgle",
+          "Chaos",
+          "Daemon",
+          "Nurgle"
+        ],
+        "linked": 1,
+        "name": "Beasts of Nurgle",
+        "sid": "12ca90e8-0d4c-47c4-a0e1-e483e631eddb",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          },
+          {
+            "per": [
+              2,
+              2
+            ],
+            "pts": 150
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                856,
+                1
+              ],
+              [
+                857,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                856,
+                1
+              ],
+              [
+                857,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "cond": [
+              1,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                858
+              ]
+            ],
+            "t": 331
+          },
+          {
+            "cond": [
+              0,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                859
+              ]
+            ],
+            "t": 332
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "bloodcrushers",
+        "kws": [
+          "Bloodcrushers",
+          "Chaos",
+          "Daemon",
+          "Khorne",
+          "Mounted"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Bloodhunter"
+          },
+          {
+            "n": "Bloodcrusher"
+          }
+        ],
+        "modelKws": {},
+        "name": "Bloodcrushers",
+        "sid": "33c936e5-6094-4fdd-b28c-3156749ffbfd",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 95
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                3,
+                5
+              ]
+            ],
+            "per": [
+              4,
+              6
+            ],
+            "pts": 210
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 40
+        }
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                856,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                856,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "cond": [
+              1,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                858
+              ]
+            ],
+            "t": 333
+          },
+          {
+            "cond": [
+              0,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                859
+              ]
+            ],
+            "t": 334
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "bloodletters",
+        "kws": [
+          "Battleline",
+          "Bloodletters",
+          "Chaos",
+          "Daemon",
+          "Infantry",
+          "Khorne"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Bloodreaper"
+          },
+          {
+            "n": "Bloodletter"
+          }
+        ],
+        "modelKws": {},
+        "name": "Bloodletters",
+        "sid": "b7860901-6ec9-419d-989a-575fd0d55779",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 110
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                860,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "grants": [
+          {
+            "det": "shadow-legion",
+            "kw": "Shadow Legion"
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "bloodmaster",
+        "kws": [
+          "Bloodmaster",
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Infantry",
+          "Khorne"
+        ],
+        "leads": [
+          {
+            "to": "bloodletters",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Bloodmaster",
+        "sid": "3c85c3ce-72fa-4185-a1b2-613a9d00f223",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 65
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                861,
+                1
+              ],
+              [
+                862,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "fixed": 1,
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    863,
+                    1
+                  ],
+                  [
+                    864,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    863,
+                    1
+                  ],
+                  [
+                    865,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              862
+            ],
+            "t": 335
+          }
+        ],
+        "grants": [
+          {
+            "det": "shadow-legion",
+            "kw": "Shadow Legion"
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "bloodthirster",
+        "kws": [
+          "Bloodthirster",
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Fly",
+          "Khorne",
+          "Monster"
+        ],
+        "linked": 1,
+        "name": "Bloodthirster",
+        "sid": "ffe69f08-0df8-48ae-a590-470233040666",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 320
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                866,
+                1
+              ],
+              [
+                867,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                868,
+                1
+              ],
+              [
+                869,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "blue-horrors",
+        "kws": [
+          "Battleline",
+          "Blue",
+          "Brimstone",
+          "Chaos",
+          "Daemon",
+          "Horrors",
+          "Infantry",
+          "Tzeentch"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Blue Horror"
+          },
+          {
+            "n": "Brimstone Horror"
+          }
+        ],
+        "modelKws": {
+          "Blue": [
+            0
+          ],
+          "Brimstone": [
+            1
+          ]
+        },
+        "name": "Blue Horrors",
+        "sid": "64966804-5620-4c7f-91f2-76d79a73de33",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                10
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 125
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                870,
+                1
+              ],
+              [
+                871,
+                1
+              ],
+              [
+                872,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "burning-chariot",
+        "kws": [
+          "Burning Chariot",
+          "Chaos",
+          "Daemon",
+          "Fly",
+          "Mounted",
+          "Tzeentch"
+        ],
+        "linked": 1,
+        "name": "Burning Chariot",
+        "sid": "645112eb-bc21-4987-9589-61641787fca3",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 115
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                873,
+                1
+              ],
+              [
+                874,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "grants": [
+          {
+            "det": "shadow-legion",
+            "kw": "Shadow Legion"
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "changecaster",
+        "kws": [
+          "Changecaster",
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Infantry",
+          "Psyker",
+          "Tzeentch"
+        ],
+        "leads": [
+          {
+            "to": "pink-horrors",
+            "type": "leader"
+          },
+          {
+            "to": "blue-horrors",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Changecaster",
+        "sid": "589b20f9-a8cb-4e72-95c9-037ba5f6d7c0",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                875,
+                1
+              ],
+              [
+                876,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "grants": [
+          {
+            "det": "shadow-legion",
+            "kw": "Shadow Legion"
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "contorted-epitome",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Contorted Epitome",
+          "Infantry",
+          "Psyker",
+          "Slaanesh"
+        ],
+        "leads": [
+          {
+            "to": "daemonettes",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Contorted Epitome",
+        "sid": "d67da639-f9c4-4d9e-9b96-4abd58ca957f",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 115
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "alleg": {
+          "g": "daemonic-allegiance",
+          "gid": "dbd9b3b1",
+          "o": [
+            {
+              "n": "Khorne"
+            },
+            {
+              "n": "Tzeentch"
+            },
+            {
+              "n": "Nurgle"
+            },
+            {
+              "n": "Slaanesh"
+            }
+          ],
+          "req": 1,
+          "t": "Daemonic Allegiance"
+        },
+        "defaults": [
+          [
+            0,
+            [
+              [
+                878,
+                1
+              ],
+              [
+                879,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "daemon-prince-of-chaos",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Daemon Prince of Chaos",
+          "Monster"
+        ],
+        "linked": 1,
+        "name": "Daemon Prince of Chaos",
+        "sid": "808c27e9-cd0e-4633-b323-1da36b732d3d",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 165
+          }
+        ]
+      },
+      {
+        "alleg": {
+          "g": "daemonic-allegiance",
+          "gid": "dbd9b3b1",
+          "o": [
+            {
+              "n": "Khorne"
+            },
+            {
+              "n": "Tzeentch"
+            },
+            {
+              "n": "Nurgle"
+            },
+            {
+              "n": "Slaanesh"
+            }
+          ],
+          "req": 1,
+          "t": "Daemonic Allegiance"
+        },
+        "defaults": [
+          [
+            0,
+            [
+              [
+                879,
+                1
+              ],
+              [
+                878,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "daemon-prince-of-chaos-with-wings",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Daemon Prince of Chaos with Wings",
+          "Fly",
+          "Monster"
+        ],
+        "linked": 1,
+        "name": "Daemon Prince of Chaos with Wings",
+        "sid": "fb1a301d-0a4b-46f3-9834-d08471088128",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 190
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                877,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                877,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "cond": [
+              1,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                858
+              ]
+            ],
+            "t": 336
+          },
+          {
+            "cond": [
+              0,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                859
+              ]
+            ],
+            "t": 337
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "daemonettes",
+        "kws": [
+          "Battleline",
+          "Chaos",
+          "Daemon",
+          "Daemonettes",
+          "Infantry",
+          "Slaanesh"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Alluress"
+          },
+          {
+            "n": "Daemonette"
+          }
+        ],
+        "modelKws": {},
+        "name": "Daemonettes",
+        "sid": "f599362e-1bca-4b0a-a5d4-e47ec0836788",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                880,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "epidemius",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Epic Hero",
+          "Epidemius",
+          "Infantry",
+          "Nurgle"
+        ],
+        "leads": [
+          {
+            "to": "plaguebearers",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Epidemius",
+        "sid": "068d1de7-ae32-4fd3-96e6-ef08995e682b",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                870,
+                1
+              ],
+              [
+                881,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1,
+          "noEnh": 1,
+          "noWarlord": 1
+        },
+        "grants": [
+          {
+            "det": "shadow-legion",
+            "kw": "Shadow Legion"
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "exalted-flamer",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Exalted Flamer",
+          "Fly",
+          "Infantry",
+          "Tzeentch"
+        ],
+        "leads": [
+          {
+            "to": "flamers",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Exalted Flamer",
+        "sid": "c338c543-8ef2-4307-8c52-08a8ed333bb1",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 65
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                874,
+                1
+              ],
+              [
+                873,
+                1
+              ],
+              [
+                871,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "grants": [
+          {
+            "det": "shadow-legion",
+            "kw": "Shadow Legion"
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "fateskimmer",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Fateskimmer",
+          "Fly",
+          "Mounted",
+          "Psyker",
+          "Tzeentch"
+        ],
+        "leads": [
+          {
+            "to": "screamers",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Fateskimmer",
+        "sid": "3d9ed7b4-b062-4beb-b987-0b14c0979005",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 95
+          }
+        ]
+      },
+      {
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {},
+        "id": "feculent-gnarlmaw",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Feculent Gnarlmaw",
+          "Fortification",
+          "Frame",
+          "Nurgle"
+        ],
+        "linked": 1,
+        "name": "Feculent Gnarlmaw",
+        "sid": "315ef9f6-0c00-4e35-b053-37c8e55ed696",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                882,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                882,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "fiends",
+        "kws": [
+          "Beast",
+          "Chaos",
+          "Daemon",
+          "Fiends",
+          "Slaanesh"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Blissbringer"
+          },
+          {
+            "n": "Fiend"
+          }
+        ],
+        "modelKws": {},
+        "name": "Fiends",
+        "sid": "95140fe1-8402-4f34-b349-57eb47c6d78c",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 90
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                3,
+                5
+              ]
+            ],
+            "per": [
+              4,
+              6
+            ],
+            "pts": 190
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 25
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                883,
+                1
+              ],
+              [
+                884,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                883,
+                1
+              ],
+              [
+                884,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "flamers",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Flamers",
+          "Fly",
+          "Infantry",
+          "Tzeentch"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Pyrocaster"
+          },
+          {
+            "n": "Flamer"
+          }
+        ],
+        "modelKws": {},
+        "name": "Flamers",
+        "sid": "a474a3f8-d5ea-42b2-b5ed-16b8b598336e",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 65
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                3,
+                5
+              ]
+            ],
+            "per": [
+              4,
+              6
+            ],
+            "pts": 130
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                885,
+                1
+              ],
+              [
+                886,
+                1
+              ],
+              [
+                887,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                885,
+                1
+              ],
+              [
+                886,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "flesh-hounds",
+        "kws": [
+          "Beast",
+          "Chaos",
+          "Daemon",
+          "Flesh Hounds",
+          "Khorne"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Gore Hound"
+          },
+          {
+            "n": "Flesh Hound"
+          }
+        ],
+        "modelKws": {},
+        "name": "Flesh Hounds",
+        "sid": "207d1da6-aabd-40cc-96ff-6ba0f2facf95",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 80
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 150
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                873,
+                1
+              ],
+              [
+                874,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "grants": [
+          {
+            "det": "shadow-legion",
+            "kw": "Shadow Legion"
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "fluxmaster",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Fluxmaster",
+          "Fly",
+          "Mounted",
+          "Psyker",
+          "Tzeentch"
+        ],
+        "leads": [
+          {
+            "to": "blue-horrors",
+            "type": "leader"
+          },
+          {
+            "to": "pink-horrors",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Fluxmaster",
+        "sid": "86e9ee0e-a9b0-4106-a9e5-8e2e7cb5df83",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 70
+          }
+        ]
+      },
+      {
+        "alleg": {
+          "g": "daemonic-allegiance",
+          "gid": "pack",
+          "o": [
+            {
+              "n": "Khorne"
+            },
+            {
+              "n": "Tzeentch"
+            },
+            {
+              "n": "Nurgle"
+            },
+            {
+              "n": "Slaanesh"
+            }
+          ],
+          "req": 1,
+          "t": "Daemonic Allegiance"
+        },
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3318,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "furies",
+        "kws": [
+          "Infantry",
+          "Chaos",
+          "Daemon",
+          "Fly",
+          "Furies"
+        ],
+        "linked": 1,
+        "name": "Furies",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 40
+          },
+          {
+            "per": [
+              6,
+              10
+            ],
+            "pts": 80
+          }
+        ]
+      },
+      {
+        "alleg": {
+          "g": "daemonic-allegiance",
+          "gid": "pack",
+          "o": [
+            {
+              "n": "Khorne"
+            },
+            {
+              "n": "Tzeentch"
+            },
+            {
+              "n": "Nurgle"
+            },
+            {
+              "n": "Slaanesh"
+            }
+          ],
+          "req": 1,
+          "t": "Daemonic Allegiance"
+        },
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3319,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "giant-chaos-spawn",
+        "kws": [
+          "Monster",
+          "Chaos",
+          "Giant Chaos Spawn"
+        ],
+        "linked": 1,
+        "name": "Giant Chaos Spawn",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 130
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                888,
+                1
+              ],
+              [
+                889,
+                1
+              ],
+              [
+                890,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                891
+              ]
+            ],
+            "rep": [
+              888
+            ],
+            "t": 338
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                892
+              ]
+            ],
+            "rep": [
+              889
+            ],
+            "t": 339
+          }
+        ],
+        "grants": [
+          {
+            "det": "shadow-legion",
+            "kw": "Shadow Legion"
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "great-unclean-one",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Great Unclean One",
+          "Monster",
+          "Nurgle",
+          "Psyker"
+        ],
+        "linked": 1,
+        "name": "Great Unclean One",
+        "sid": "2554476c-6f45-4317-bb68-39738cb037b5",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 265
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                893,
+                1
+              ],
+              [
+                894,
+                1
+              ],
+              [
+                895,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "hellflayers",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Hellflayers",
+          "Mounted",
+          "Slaanesh"
+        ],
+        "linked": 1,
+        "name": "Hellflayers",
+        "sid": "6b1a9534-6d30-4fce-8f59-d333e911fc3b",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 80
+          },
+          {
+            "per": [
+              2,
+              2
+            ],
+            "pts": 160
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                926,
+                1
+              ],
+              [
+                954,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1,
+          "legends": 1
+        },
+        "id": "herald-of-slaanesh-on-steed-of-slaanesh",
+        "kws": [
+          "Mounted",
+          "Character",
+          "Psyker",
+          "Chaos",
+          "Daemon",
+          "Slaanesh",
+          "Herald of Slaanesh"
+        ],
+        "leads": [
+          {
+            "to": "seekers",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Herald of Slaanesh on Steed of Slaanesh",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 70
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                896,
+                1
+              ],
+              [
+                897,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "horticulous-slimux",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Epic Hero",
+          "Horticulous Slimux",
+          "Mounted",
+          "Nurgle"
+        ],
+        "leads": [
+          {
+            "to": "beasts-of-nurgle",
+            "type": "leader"
+          },
+          {
+            "to": "plague-toads",
+            "type": "leader"
+          },
+          {
+            "to": "pox-riders",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Horticulous Slimux",
+        "sid": "a57ab24e-0653-4539-9679-d387bfb8238c",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 120
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                898,
+                1
+              ],
+              [
+                899,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "grants": [
+          {
+            "det": "shadow-legion",
+            "kw": "Shadow Legion"
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "infernal-enrapturess",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Infantry",
+          "Infernal Enrapturess",
+          "Slaanesh"
+        ],
+        "leads": [
+          {
+            "to": "daemonettes",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Infernal Enrapturess",
+        "sid": "b28dd0fb-de7d-4d0e-808a-1760166bb5b7",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                900,
+                1
+              ],
+              [
+                901,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "kairos-fateweaver",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Epic Hero",
+          "Fly",
+          "Kairos Fateweaver",
+          "Monster",
+          "Psyker",
+          "Tzeentch"
+        ],
+        "linked": 1,
+        "name": "Kairos Fateweaver",
+        "sid": "02f35395-f590-4d5c-b524-c20ad3d12c9d",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 305
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                902,
+                1
+              ],
+              [
+                903,
+                1
+              ],
+              [
+                904,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "karanak",
+        "kws": [
+          "Beast",
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Epic Hero",
+          "Karanak",
+          "Khorne"
+        ],
+        "leads": [
+          {
+            "to": "flesh-hounds",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Karanak",
+        "sid": "3c732c1f-3e46-4f12-8981-0ca016f884ff",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 70
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                905,
+                1
+              ],
+              [
+                906,
+                1
+              ],
+              [
+                907,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                908
+              ],
+              [
+                909
+              ],
+              [
+                910
+              ]
+            ],
+            "t": 186
+          }
+        ],
+        "grants": [
+          {
+            "det": "shadow-legion",
+            "kw": "Shadow Legion"
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "keeper-of-secrets",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Keeper of Secrets",
+          "Monster",
+          "Psyker",
+          "Slaanesh"
+        ],
+        "linked": 1,
+        "name": "Keeper of Secrets",
+        "sid": "491a81ba-eee4-484d-b46e-0fa49259021e",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 265
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                911,
+                1
+              ],
+              [
+                912,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                913
+              ],
+              [
+                914
+              ]
+            ],
+            "t": 186
+          }
+        ],
+        "grants": [
+          {
+            "det": "shadow-legion",
+            "kw": "Shadow Legion"
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "lord-of-change",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Fly",
+          "Lord of Change",
+          "Monster",
+          "Psyker",
+          "Tzeentch"
+        ],
+        "linked": 1,
+        "name": "Lord of Change",
+        "sid": "f4779a54-f9b1-4ee7-9564-fd0b1c1a242e",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 320
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                915,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "nurglings",
+        "kws": [
+          "Battleline",
+          "Chaos",
+          "Daemon",
+          "Nurgle",
+          "Nurglings",
+          "Swarm"
+        ],
+        "linked": 1,
+        "name": "Nurglings",
+        "sid": "4abe6b0d-7155-48e3-b228-23055a6c8cbb",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 45
+          },
+          {
+            "per": [
+              4,
+              6
+            ],
+            "pts": 90
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                869,
+                1
+              ],
+              [
+                868,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                916,
+                1
+              ],
+              [
+                917,
+                1
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                867,
+                1
+              ],
+              [
+                866,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "cond": [
+              1,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                858
+              ]
+            ],
+            "t": 340
+          },
+          {
+            "cond": [
+              0,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 0,
+            "o": [
+              [
+                859
+              ]
+            ],
+            "t": 341
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "pink-horrors",
+        "kws": [
+          "Battleline",
+          "Blue",
+          "Brimstone",
+          "Chaos",
+          "Daemon",
+          "Horrors",
+          "Infantry",
+          "Pink",
+          "Tzeentch"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Pink Horror"
+          },
+          {
+            "n": "Blue Horror"
+          },
+          {
+            "n": "Brimstone Horror"
+          }
+        ],
+        "modelKws": {
+          "Blue": [
+            1
+          ],
+          "Brimstone": [
+            2
+          ],
+          "Pink": [
+            0
+          ]
+        },
+        "name": "Pink Horrors",
+        "sid": "3e669e53-47ab-4235-85a7-933b9df00f49",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                10
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 150
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                918,
+                1
+              ],
+              [
+                919,
+                1
+              ],
+              [
+                920,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                920,
+                1
+              ],
+              [
+                918,
+                1
+              ],
+              [
+                919,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "cond": [
+              1,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                858
+              ]
+            ],
+            "t": 344
+          },
+          {
+            "cond": [
+              0,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                859
+              ]
+            ],
+            "t": 345
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "plague-drones",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Fly",
+          "Mounted",
+          "Nurgle",
+          "Plague Drones"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Plaguebringer"
+          },
+          {
+            "n": "Plague Drone"
+          }
+        ],
+        "modelKws": {},
+        "name": "Plague Drones",
+        "sid": "db9a1366-0270-40f4-aa63-d6098fd76490",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 110
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                3,
+                5
+              ]
+            ],
+            "per": [
+              4,
+              6
+            ],
+            "pts": 220
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3054,
+                1
+              ],
+              [
+                3320,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "plague-toads",
+        "kws": [
+          "Beast",
+          "Chaos",
+          "Daemon",
+          "Nurgle",
+          "Plague Toads"
+        ],
+        "linked": 1,
+        "name": "Plague Toads",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 120
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                918,
+                1
+              ]
+            ]
+          ],
+          [
+            1,
+            [
+              [
+                918,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "cond": [
+              1,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                858
+              ]
+            ],
+            "t": 342
+          },
+          {
+            "cond": [
+              0,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                859
+              ]
+            ],
+            "t": 343
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "plaguebearers",
+        "kws": [
+          "Battleline",
+          "Chaos",
+          "Daemon",
+          "Infantry",
+          "Nurgle",
+          "Plaguebearers"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Plagueridden"
+          },
+          {
+            "n": "Plaguebearer"
+          }
+        ],
+        "modelKws": {},
+        "name": "Plaguebearers",
+        "sid": "fca72699-9adc-4144-baf5-055aeee0475f",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ]
+            ],
+            "default": 1,
+            "per": [
+              10,
+              10
+            ],
+            "pts": 115
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3054,
+                1
+              ],
+              [
+                3321,
+                1
+              ],
+              [
+                3320,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "gear": [
+          {
+            "cond": [
+              1,
+              0
+            ],
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                858
+              ]
+            ],
+            "t": 1082
+          },
+          {
+            "cond": [
+              0,
+              0
+            ],
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                859
+              ]
+            ],
+            "t": 1083
+          }
+        ],
+        "id": "pox-riders",
+        "kws": [
+          "Mounted",
+          "Chaos",
+          "Daemon",
+          "Nurgle",
+          "Pox Riders"
+        ],
+        "linked": 1,
+        "name": "Pox Riders",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 160
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                921,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "grants": [
+          {
+            "det": "shadow-legion",
+            "kw": "Shadow Legion"
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "poxbringer",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Infantry",
+          "Nurgle",
+          "Poxbringer",
+          "Psyker"
+        ],
+        "leads": [
+          {
+            "to": "plaguebearers",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Poxbringer",
+        "sid": "f7c342bd-25c4-4cf8-a6af-df5c215a8e98",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                922,
+                1
+              ],
+              [
+                860,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "grants": [
+          {
+            "det": "shadow-legion",
+            "kw": "Shadow Legion"
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "rendmaster-on-blood-throne",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Khorne",
+          "Mounted",
+          "Rendmaster on Blood Throne"
+        ],
+        "linked": 1,
+        "name": "Rendmaster on Blood Throne",
+        "sid": "5ce88428-1361-4d85-bed7-9dade97bb53d",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 160
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                923,
+                1
+              ],
+              [
+                924,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "rotigus",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Epic Hero",
+          "Monster",
+          "Nurgle",
+          "Psyker",
+          "Rotigus"
+        ],
+        "linked": 1,
+        "name": "Rotigus",
+        "sid": "a7c43589-aeae-4691-9e1d-dad89de1ee01",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 280
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                890,
+                1
+              ],
+              [
+                3322,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "id": "scabeiathrax-the-bloated",
+        "kws": [
+          "Monster",
+          "Character",
+          "Epic Hero",
+          "Psyker",
+          "Chaos",
+          "Daemon",
+          "Nurgle",
+          "Scabeiathrax the Bloated"
+        ],
+        "linked": 1,
+        "name": "Scabeiathrax the Bloated",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 275
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                925,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "screamers",
+        "kws": [
+          "Beast",
+          "Chaos",
+          "Daemon",
+          "Fly",
+          "Screamers",
+          "Tzeentch"
+        ],
+        "linked": 1,
+        "name": "Screamers",
+        "sid": "6fa48fbb-d378-491e-8336-34e09a1d3f33",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              3,
+              3
+            ],
+            "pts": 80
+          },
+          {
+            "per": [
+              4,
+              6
+            ],
+            "pts": 160
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            1,
+            [
+              [
+                926,
+                1
+              ],
+              [
+                877,
+                1
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                926,
+                1
+              ],
+              [
+                877,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "cond": [
+              1,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                858
+              ]
+            ],
+            "t": 346
+          },
+          {
+            "cond": [
+              0,
+              0
+            ],
+            "in": "checkbox",
+            "lim": [
+              [
+                0,
+                1
+              ]
+            ],
+            "m": 1,
+            "o": [
+              [
+                859
+              ]
+            ],
+            "t": 347
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "seekers",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Mounted",
+          "Seekers",
+          "Slaanesh"
+        ],
+        "linked": 1,
+        "minis": [
+          {
+            "n": "Heartseeker"
+          },
+          {
+            "n": "Seeker"
+          }
+        ],
+        "modelKws": {},
+        "name": "Seekers",
+        "sid": "06f21828-4c20-4dbb-93c8-9b7f13ae50ea",
+        "sizes": [
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "default": 1,
+            "per": [
+              5,
+              5
+            ],
+            "pts": 85
+          },
+          {
+            "comp": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5,
+                9
+              ]
+            ],
+            "per": [
+              6,
+              10
+            ],
+            "pts": 155
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                927,
+                1
+              ],
+              [
+                928,
+                1
+              ],
+              [
+                929,
+                1
+              ],
+              [
+                905,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "shalaxi-helbane",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Epic Hero",
+          "Monster",
+          "Psyker",
+          "Shalaxi Helbane",
+          "Slaanesh"
+        ],
+        "linked": 1,
+        "name": "Shalaxi Helbane",
+        "sid": "2dede126-3704-4c46-9396-7a78cfceabbc",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 315
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                930,
+                1
+              ],
+              [
+                931,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "skarbrand",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Epic Hero",
+          "Khorne",
+          "Monster",
+          "Skarbrand"
+        ],
+        "linked": 1,
+        "name": "Skarbrand",
+        "sid": "093e7b61-40cb-4318-901e-ecda04fe2d35",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 330
+          }
+        ]
+      },
+      {
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {},
+        "id": "skull-altar",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Fortification",
+          "Frame",
+          "Khorne",
+          "Skull Altar"
+        ],
+        "linked": 1,
+        "name": "Skull Altar",
+        "sid": "ff5b1c2f-a814-4f27-99ce-7fabecb2aa56",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 105
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                932,
+                1
+              ],
+              [
+                933,
+                1
+              ],
+              [
+                922,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {},
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "skull-cannon",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Khorne",
+          "Mounted",
+          "Skull Cannon"
+        ],
+        "linked": 1,
+        "name": "Skull Cannon",
+        "sid": "4241d144-9933-44ef-b04d-230cb8e94cf5",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 100
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                857,
+                1
+              ],
+              [
+                860,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "grants": [
+          {
+            "det": "shadow-legion",
+            "kw": "Shadow Legion"
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "skullmaster",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Khorne",
+          "Mounted",
+          "Skullmaster"
+        ],
+        "leads": [
+          {
+            "to": "bloodcrushers",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Skullmaster",
+        "sid": "c661afea-55c9-4ab3-84bb-8eb582138a63",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 85
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                934,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "skulltaker",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Epic Hero",
+          "Infantry",
+          "Khorne",
+          "Skulltaker"
+        ],
+        "leads": [
+          {
+            "to": "bloodletters",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Skulltaker",
+        "sid": "84fac3b2-1b3e-4a77-b39d-63bdc1338c28",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 85
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                935,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "grants": [
+          {
+            "det": "shadow-legion",
+            "kw": "Shadow Legion"
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "sloppity-bilepiper",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Infantry",
+          "Nurgle",
+          "Sloppity Bilepiper"
+        ],
+        "leads": [
+          {
+            "to": "plaguebearers",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Sloppity Bilepiper",
+        "sid": "a8ad2f03-7674-447b-bb7c-476927ed9b89",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 55
+          }
+        ]
+      },
+      {
+        "alleg": {
+          "g": "daemonic-allegiance",
+          "gid": "95825ac6",
+          "o": [
+            {
+              "n": "Khorne",
+              "wg": 936
+            },
+            {
+              "n": "Tzeentch",
+              "wg": 937
+            },
+            {
+              "n": "Nurgle",
+              "wg": 938
+            },
+            {
+              "n": "Slaanesh",
+              "wg": 939
+            }
+          ],
+          "req": 1,
+          "t": "Daemonic Allegiance"
+        },
+        "defaults": [
+          [
+            0,
+            [
+              [
+                940,
+                1
+              ],
+              [
+                941,
+                1
+              ],
+              [
+                942,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                943
+              ]
+            ],
+            "rep": [
+              940
+            ],
+            "t": 348
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "soul-grinder",
+        "kws": [
+          "Chaos",
+          "Daemon",
+          "Soul Grinder",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Soul Grinder",
+        "sid": "a324f74b-c9a6-484f-be7d-4ef101d368ad",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 180
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "alleg": {
+          "g": "daemonic-allegiance",
+          "gid": "pack",
+          "o": [
+            {
+              "n": "Khorne"
+            },
+            {
+              "n": "Tzeentch"
+            },
+            {
+              "n": "Nurgle"
+            },
+            {
+              "n": "Slaanesh"
+            }
+          ],
+          "req": 1,
+          "t": "Daemonic Allegiance"
+        },
+        "defaults": [
+          [
+            0,
+            [
+              [
+                3323,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "legends": 1
+        },
+        "id": "spined-chaos-beast",
+        "kws": [
+          "Monster",
+          "Chaos",
+          "Spined Chaos Beast"
+        ],
+        "linked": 1,
+        "name": "Spined Chaos Beast",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 145
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                944,
+                1
+              ],
+              [
+                945,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "grants": [
+          {
+            "det": "shadow-legion",
+            "kw": "Shadow Legion"
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "spoilpox-scrivener",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Infantry",
+          "Nurgle",
+          "Spoilpox Scrivener"
+        ],
+        "leads": [
+          {
+            "to": "plaguebearers",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Spoilpox Scrivener",
+        "sid": "82b0a610-b1a6-4620-a72f-c55a7ed4da64",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                946,
+                1
+              ],
+              [
+                947,
+                1
+              ],
+              [
+                948,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "syllesske",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Epic Hero",
+          "Monster",
+          "Psyker",
+          "Slaanesh",
+          "Syll’Esske"
+        ],
+        "leads": [
+          {
+            "to": "daemonettes",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Syll’Esske",
+        "sid": "29fc6baf-382f-4a1e-808a-55b442abcca0",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 120
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                949,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "the-blue-scribes",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Epic Hero",
+          "Fly",
+          "Mounted",
+          "The Blue Scribes",
+          "Tzeentch"
+        ],
+        "linked": 1,
+        "name": "The Blue Scribes",
+        "sid": "a68ff81a-a57b-4070-9d16-2bb1a954a8ce",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 75
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                950,
+                1
+              ],
+              [
+                951,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "the-changeling",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Epic Hero",
+          "Infantry",
+          "Psyker",
+          "The Changeling",
+          "Tzeentch"
+        ],
+        "linked": 1,
+        "name": "The Changeling",
+        "sid": "82991be7-e3c0-45a9-a210-10f7cb75d013",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 105
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                952,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "the-masque-of-slaanesh",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Epic Hero",
+          "Fly",
+          "Infantry",
+          "Slaanesh",
+          "The Masque of Slaanesh"
+        ],
+        "linked": 1,
+        "name": "The Masque of Slaanesh",
+        "sid": "2cb38464-c927-4025-ac6d-a172ee88ea41",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 95
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                953,
+                1
+              ],
+              [
+                894,
+                1
+              ],
+              [
+                893,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "grants": [
+          {
+            "det": "shadow-legion",
+            "kw": "Shadow Legion"
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "tormentbringer",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Mounted",
+          "Psyker",
+          "Slaanesh",
+          "Tormentbringer on Exalted Seeker Chariot"
+        ],
+        "leads": [
+          {
+            "to": "hellflayers",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Tormentbringer",
+        "sid": "727980f2-1dcb-4854-aa5d-9399ea5ddf23",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 135
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                954,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "grants": [
+          {
+            "det": "shadow-legion",
+            "kw": "Shadow Legion"
+          }
+        ],
+        "has": [
+          "Deep Strike"
+        ],
+        "id": "tranceweaver",
+        "kws": [
+          "Chaos",
+          "Character",
+          "Daemon",
+          "Infantry",
+          "Psyker",
+          "Slaanesh",
+          "Tranceweaver"
+        ],
+        "leads": [
+          {
+            "to": "daemonettes",
+            "type": "leader"
+          }
+        ],
+        "linked": 1,
+        "name": "Tranceweaver",
+        "sid": "87404913-c980-4648-8b0c-c0796fcee494",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 60
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                907,
+                1
+              ],
+              [
+                905,
+                1
+              ],
+              [
+                3324,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Legiones Daemonica"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1,
+          "legends": 1
+        },
+        "id": "zarakynel",
+        "kws": [
+          "Monster",
+          "Character",
+          "Epic Hero",
+          "Psyker",
+          "Chaos",
+          "Daemon",
+          "Slaanesh",
+          "Zarakynel"
+        ],
+        "linked": 1,
+        "name": "Zarakynel",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 320
+          }
+        ]
+      }
+    ]
+  }
+}

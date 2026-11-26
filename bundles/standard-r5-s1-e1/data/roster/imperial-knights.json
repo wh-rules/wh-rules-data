@@ -1,0 +1,2448 @@
+{
+  "default": {
+    "allies": [
+      {
+        "dets": [
+          "Questor Forgepact"
+        ],
+        "enh": 1,
+        "ids": [
+          "adeptus-mechanicus:skitarii-marshal",
+          "adeptus-mechanicus:skitarii-rangers",
+          "adeptus-mechanicus:skitarii-vanguard",
+          "adeptus-mechanicus:tech-priest-dominus",
+          "adeptus-mechanicus:tech-priest-manipulus"
+        ],
+        "key": "adeptus-mechanicus",
+        "name": "Adeptus Mechanicus",
+        "pts": {
+          "incursion": 500,
+          "onslaught": 500,
+          "strike-force": 500
+        }
+      },
+      {
+        "ids": [
+          "titan-legions:reaver-titan",
+          "titan-legions:warbringer-nemesis-titan",
+          "titan-legions:warhound-titan",
+          "titan-legions:warlord-titan"
+        ],
+        "key": "adeptus-titanicus",
+        "lim": {
+          "Reaver Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warbringer Nemesis Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warhound Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          },
+          "Warlord Titan": {
+            "incursion": 1,
+            "onslaught": 1,
+            "strike-force": 1
+          }
+        },
+        "mutex": 1,
+        "name": "Adeptus Titanicus"
+      },
+      {
+        "free": [
+          {
+            "donor": [
+              "Inquisitor"
+            ],
+            "kw": "Retinue",
+            "recv": [
+              "Inquisitorial Agents"
+            ]
+          },
+          {
+            "donor": [
+              "Character",
+              "Voidfarers"
+            ],
+            "kw": "Retinue",
+            "recv": [
+              "Voidsmen-At-Arms"
+            ]
+          }
+        ],
+        "ids": [
+          "imperial-agents:aquila-kill-team",
+          "imperial-agents:callidus-assassin",
+          "imperial-agents:corvus-blackstar",
+          "imperial-agents:culexus-assassin",
+          "imperial-agents:deathwatch-kill-team",
+          "imperial-agents:eversor-assassin",
+          "imperial-agents:exaction-squad",
+          "imperial-agents:grey-knights-terminator-squad",
+          "imperial-agents:imperial-navy-breachers",
+          "imperial-agents:imperial-rhino",
+          "imperial-agents:inquisitor",
+          "imperial-agents:inquisitor-coteaz",
+          "imperial-agents:inquisitor-draxus",
+          "imperial-agents:inquisitor-greyfax",
+          "imperial-agents:inquisitor-kroyle",
+          "imperial-agents:inquisitorial-agents",
+          "imperial-agents:inquisitorial-chimera",
+          "imperial-agents:ministorum-priest",
+          "imperial-agents:navigator",
+          "imperial-agents:rogue-trader-entourage",
+          "imperial-agents:sanctifiers",
+          "imperial-agents:sisters-of-battle-immolator",
+          "imperial-agents:sisters-of-battle-squad",
+          "imperial-agents:subductor-squad",
+          "imperial-agents:vigilant-squad",
+          "imperial-agents:vindicare-assassin",
+          "imperial-agents:voidsmen-at-arms",
+          "imperial-agents:watch-captain-artemis",
+          "imperial-agents:watch-master"
+        ],
+        "key": "agents-of-the-imperium",
+        "lim": {
+          "Character": {
+            "incursion": 1,
+            "onslaught": 3,
+            "strike-force": 2
+          },
+          "Requisitioned": {
+            "incursion": 1,
+            "onslaught": 2,
+            "strike-force": 1
+          },
+          "Retinue": {
+            "incursion": 1,
+            "onslaught": 3,
+            "strike-force": 2
+          }
+        },
+        "name": "Agents of the Imperium",
+        "up": {
+          "imperial-agents:eversor-assassin": {
+            "1": 110
+          },
+          "imperial-agents:exaction-squad": {
+            "11": 85
+          },
+          "imperial-agents:grey-knights-terminator-squad": {
+            "5": 190
+          },
+          "imperial-agents:inquisitor": {
+            "1": 65
+          },
+          "imperial-agents:inquisitor-coteaz": {
+            "1": 95
+          },
+          "imperial-agents:inquisitor-draxus": {
+            "1": 110
+          },
+          "imperial-agents:inquisitorial-agents": {
+            "6": 60,
+            "11": 120,
+            "12": 120
+          },
+          "imperial-agents:navigator": {
+            "1": 75
+          },
+          "imperial-agents:rogue-trader-entourage": {
+            "4": 105
+          },
+          "imperial-agents:sisters-of-battle-immolator": {
+            "1": 105
+          },
+          "imperial-agents:sisters-of-battle-squad": {
+            "10": 110
+          },
+          "imperial-agents:subductor-squad": {
+            "11": 100
+          },
+          "imperial-agents:vindicare-assassin": {
+            "1": 125
+          },
+          "imperial-agents:voidsmen-at-arms": {
+            "6": 70
+          }
+        }
+      }
+    ],
+    "detachments": [
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Blessed Plate",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Imperial Knights"
+                ],
+                "kw": [
+                  "Dominus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Archeotech Autoloaders",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Imperial Knights"
+                ],
+                "kw": [
+                  "Dominus"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets"
+        ],
+        "name": "Dominus Foebreakers",
+        "sid": "bf191d4b-5ac6-4e24-a6f6-d962c1a7b068"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Mysterious Guardian",
+            "pts": 35,
+            "req": [
+              {
+                "fac": [
+                  "Imperial Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Sanctuary",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Imperial Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Bringer of Justice",
+            "pts": 30,
+            "req": [
+              {
+                "fac": [
+                  "Imperial Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Hunter’s Eye",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Imperial Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Priority Assets",
+          "Purge the Foe"
+        ],
+        "name": "Freeblade Company",
+        "sid": "c6d159b0-4062-4a44-944c-8e00ee4a7edc"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Acquisitor-at-Arms",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Imperial Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Purgation’s Hand",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Imperial Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Augury Halo",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Imperial Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Vengeful Tread",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Imperial Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold"
+        ],
+        "name": "Gate Warden Lance",
+        "sid": "44cad685-2a76-4309-b842-3e356f75219d"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Magos Questoris",
+            "pts": 20,
+            "req": [
+              {
+                "kw": [
+                  "Tech-Priest"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Knight of the Opus Machina (Aura)",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Imperial Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Disruption"
+        ],
+        "name": "Questor Forgepact",
+        "sid": "05240064-5412-4911-a60b-229ff34c78c3"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Herald of Triumph",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Imperial Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Wyrmslayer Divination",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Imperial Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Pennant of Silvered Fury",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Imperial Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Crushing Condemnation",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Imperial Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Take and Hold",
+          "Reconnaissance"
+        ],
+        "name": "Questoris Companions",
+        "sid": "9c41ff78-125e-402f-a9df-f408825e940b"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Mentor’s Pride",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Imperial Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Fables of Nightmare",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Imperial Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Tales of Heroism",
+            "pts": 10,
+            "req": [
+              {
+                "fac": [
+                  "Imperial Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Martial Tuition",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Imperial Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Spearhead-at-Arms",
+        "sid": "9634aebe-95e3-412b-a881-e33a334ae495",
+        "unique": "ARMIGERS"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "limit": 3,
+            "name": "Gyro-optimised Actuators (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 15,
+            "req": [
+              {
+                "kw": [
+                  "Armiger"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          },
+          {
+            "limit": 3,
+            "name": "Ancestral Overbleed (Upgrade)",
+            "nonCharOk": 1,
+            "pts": 10,
+            "req": [
+              {
+                "kw": [
+                  "Armiger"
+                ]
+              }
+            ],
+            "type": "upgrade"
+          }
+        ],
+        "fds": [
+          "Reconnaissance"
+        ],
+        "name": "Throne-bonded Outriders",
+        "sid": "a6ada922-2612-4ef6-b7ad-6020954ae038",
+        "unique": "ARMIGERS"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Bearer of the Iron Chalice",
+            "pts": 20,
+            "req": [
+              {
+                "fac": [
+                  "Imperial Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Bearer of the Evanescent Ion",
+            "pts": 15,
+            "req": [
+              {
+                "fac": [
+                  "Imperial Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Bearer of the Judicant’s Helm",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Imperial Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          },
+          {
+            "name": "Bearer of the Lancer’s Sigil",
+            "pts": 25,
+            "req": [
+              {
+                "fac": [
+                  "Imperial Knights"
+                ]
+              }
+            ],
+            "type": "miniature"
+          }
+        ],
+        "fds": [
+          "Purge the Foe"
+        ],
+        "name": "Valourstrike Lance",
+        "sid": "00b6b732-e65e-4176-88d9-35e542ee81dc"
+      }
+    ],
+    "name": "Imperial Knights",
+    "noBuild": [
+      "Sir Hekhtur"
+    ],
+    "slug": "imperial-knights",
+    "units": [
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                957,
+                1
+              ],
+              [
+                956,
+                2
+              ],
+              [
+                958,
+                2
+              ],
+              [
+                955,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Imperial Knights"
+        ],
+        "flags": {},
+        "id": "acastus-knight-asterius",
+        "kws": [
+          "Acastus",
+          "Frame",
+          "Imperium",
+          "Knight Asterius",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Acastus Knight Asterius",
+        "sid": "d41ac81a-2383-43a9-b49f-171452b52754",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 785
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 75
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                964,
+                2
+              ],
+              [
+                957,
+                1
+              ],
+              [
+                963,
+                2
+              ],
+              [
+                965,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Imperial Knights"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "stepper",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    966,
+                    2
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    964,
+                    1
+                  ],
+                  [
+                    966,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              964
+            ],
+            "t": 350
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                967
+              ]
+            ],
+            "rep": [
+              965
+            ],
+            "t": 351
+          }
+        ],
+        "id": "acastus-knight-porphyrion",
+        "kws": [
+          "Acastus",
+          "Frame",
+          "Imperium",
+          "Knight Porphyrion",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Acastus Knight Porphyrion",
+        "sid": "685b7218-f701-4101-9e15-c7d1047dc65f",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 725
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 75
+        }
+      },
+      {
+        "condBattleline": 1,
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1006,
+                1
+              ],
+              [
+                1701,
+                1
+              ],
+              [
+                1702,
+                2
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Imperial Knights"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                15
+              ]
+            ],
+            "rep": [
+              1701
+            ],
+            "t": 633
+          }
+        ],
+        "grants": [
+          {
+            "det": "spearhead-at-arms",
+            "kw": "Battleline"
+          }
+        ],
+        "id": "armiger-helverin",
+        "kws": [
+          "Armiger",
+          "Helverin",
+          "Imperium",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Armiger Helverin",
+        "sid": "2c933b0d-6377-4598-9145-3699057ba467",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 140
+          }
+        ]
+      },
+      {
+        "condBattleline": 1,
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1006,
+                1
+              ],
+              [
+                1017,
+                1
+              ],
+              [
+                1016,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Imperial Knights"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1018,
+                    1
+                  ],
+                  [
+                    1019,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1017,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1020,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1021,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1016
+            ],
+            "t": 363
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1018,
+                    1
+                  ],
+                  [
+                    1019,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1020,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1021,
+                    1
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    1016,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1017
+            ],
+            "t": 364
+          }
+        ],
+        "grants": [
+          {
+            "det": "spearhead-at-arms",
+            "kw": "Battleline"
+          }
+        ],
+        "id": "armiger-moirax",
+        "kws": [
+          "Armiger",
+          "Imperium",
+          "Moirax",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Armiger Moirax",
+        "sid": "3e11ebbe-37ce-496b-a347-2cd6f66c63ec",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 150
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 10
+        }
+      },
+      {
+        "condBattleline": 1,
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1703,
+                1
+              ],
+              [
+                1704,
+                1
+              ],
+              [
+                1701,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Imperial Knights"
+        ],
+        "flags": {},
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                15
+              ]
+            ],
+            "rep": [
+              1701
+            ],
+            "t": 633
+          }
+        ],
+        "grants": [
+          {
+            "det": "spearhead-at-arms",
+            "kw": "Battleline"
+          }
+        ],
+        "id": "armiger-warglaive",
+        "kws": [
+          "Armiger",
+          "Imperium",
+          "Vehicle",
+          "Walker",
+          "Warglaive"
+        ],
+        "linked": 1,
+        "name": "Armiger Warglaive",
+        "sid": "3b58910e-ede6-4859-8c4e-3e76ef888e2e",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 140
+          }
+        ]
+      },
+      {
+        "crew": [
+          {
+            "id": "sir-hekhtur",
+            "name": "Sir Hekhtur"
+          }
+        ],
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1705,
+                1
+              ],
+              [
+                1706,
+                1
+              ],
+              [
+                1707,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Imperial Knights"
+        ],
+        "flags": {
+          "char": 1,
+          "epic": 1
+        },
+        "id": "canis-rex",
+        "kws": [
+          "Canis Rex",
+          "Character",
+          "Epic Hero",
+          "Imperium",
+          "Questoris",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Canis Rex",
+        "sid": "4ff8f443-858f-4788-bad0-576ef36b69b8",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 415
+          }
+        ],
+        "stands": {
+          "1707": [
+            "Chainbreaker multi-laser"
+          ]
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                974,
+                1
+              ],
+              [
+                972,
+                1
+              ],
+              [
+                973,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Imperial Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "cerastus-knight-acheron",
+        "kws": [
+          "Cerastus",
+          "Character",
+          "Imperium",
+          "Knight Acheron",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Cerastus Knight Acheron",
+        "sid": "bd104009-e79b-4bd5-80be-4ac7bf33d0ab",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 380
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                984,
+                1
+              ],
+              [
+                985,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Imperial Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "cerastus-knight-atrapos",
+        "kws": [
+          "Cerastus",
+          "Character",
+          "Imperium",
+          "Knight Atrapos",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Cerastus Knight Atrapos",
+        "sid": "d449bcb0-5528-4018-92dd-1558a7a75197",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 420
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                989,
+                1
+              ],
+              [
+                988,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Imperial Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "cerastus-knight-castigator",
+        "kws": [
+          "Cerastus",
+          "Character",
+          "Imperium",
+          "Knight Castigator",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Cerastus Knight Castigator",
+        "sid": "80fa45e9-503b-4b7b-aa41-d7ee308f815a",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 380
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                993,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Imperial Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "cerastus-knight-lancer",
+        "kws": [
+          "Cerastus",
+          "Character",
+          "Imperium",
+          "Knight Lancer",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Cerastus Knight Lancer",
+        "sid": "7bd17189-4fcf-42b0-a632-638d2869cdd4",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 415
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                976,
+                1
+              ],
+              [
+                1708,
+                1
+              ],
+              [
+                1709,
+                2
+              ],
+              [
+                1710,
+                1
+              ],
+              [
+                1711,
+                1
+              ],
+              [
+                1712,
+                2
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Imperial Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1709,
+                    1
+                  ],
+                  [
+                    1708,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1709,
+              1708
+            ],
+            "t": 634
+          }
+        ],
+        "id": "knight-castellan",
+        "kws": [
+          "Character",
+          "Dominus",
+          "Imperium",
+          "Knight Castellan",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Knight Castellan",
+        "sid": "ef6d443e-964e-4a3c-b400-d43c4ee1ba2d",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 425
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 25
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1713,
+                1
+              ],
+              [
+                528,
+                1
+              ],
+              [
+                976,
+                1
+              ],
+              [
+                15,
+                1
+              ],
+              [
+                1714,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Imperial Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1701
+              ]
+            ],
+            "rep": [
+              15
+            ],
+            "t": 635
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1715,
+                    1
+                  ],
+                  [
+                    1701,
+                    1
+                  ]
+                ],
+                15
+              ]
+            ],
+            "rep": [
+              1713
+            ],
+            "t": 636
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1716
+              ],
+              [
+                1717
+              ],
+              [
+                1718
+              ]
+            ],
+            "t": 186
+          }
+        ],
+        "id": "knight-crusader",
+        "kws": [
+          "Character",
+          "Imperium",
+          "Knight Crusader",
+          "Questoris",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Knight Crusader",
+        "sid": "c5698dd4-7a97-4346-94b4-f252e2c3b49e",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 395
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1719,
+                1
+              ],
+              [
+                1720,
+                1
+              ],
+              [
+                1721,
+                1
+              ],
+              [
+                1722,
+                1
+              ],
+              [
+                976,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Imperial Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "id": "knight-defender",
+        "kws": [
+          "Character",
+          "Imperium",
+          "Knight Defender",
+          "Questoris",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Knight Defender",
+        "sid": "3a1758b0-e77b-4162-b619-d4f4fcda92f5",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 385
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 20
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1723,
+                1
+              ],
+              [
+                1724,
+                1
+              ],
+              [
+                976,
+                1
+              ],
+              [
+                1725,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Imperial Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1726
+              ],
+              [
+                1727
+              ]
+            ],
+            "rep": [
+              1725
+            ],
+            "t": 637
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1726
+              ],
+              [
+                1727
+              ]
+            ],
+            "rep": [
+              1724
+            ],
+            "t": 638
+          }
+        ],
+        "id": "knight-destrier",
+        "kws": [
+          "Bellatus",
+          "Character",
+          "Imperium",
+          "Knight Destrier",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Knight Destrier",
+        "sid": "4d52b2e9-17f5-43e1-860c-e9aa910dbe95",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 265
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        },
+        "xpm": [
+          {
+            "k": 1,
+            "s": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          {
+            "k": 1,
+            "s": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1713,
+                1
+              ],
+              [
+                970,
+                1
+              ],
+              [
+                15,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Imperial Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1701
+              ]
+            ],
+            "rep": [
+              15
+            ],
+            "t": 635
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1728
+              ]
+            ],
+            "rep": [
+              970
+            ],
+            "t": 639
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1716
+              ],
+              [
+                1717
+              ],
+              [
+                1718
+              ]
+            ],
+            "t": 186
+          }
+        ],
+        "id": "knight-errant",
+        "kws": [
+          "Character",
+          "Imperium",
+          "Knight Errant",
+          "Questoris",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Knight Errant",
+        "sid": "a553dde4-1318-48ac-926d-0889b7700957",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 355
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1729,
+                1
+              ],
+              [
+                1730,
+                1
+              ],
+              [
+                15,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Imperial Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1701
+              ]
+            ],
+            "rep": [
+              15
+            ],
+            "t": 635
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1716
+              ],
+              [
+                1717
+              ],
+              [
+                1718
+              ]
+            ],
+            "t": 186
+          }
+        ],
+        "id": "knight-gallant",
+        "kws": [
+          "Character",
+          "Imperium",
+          "Knight Gallant",
+          "Questoris",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Knight Gallant",
+        "sid": "3df29f1e-37df-4ba9-b145-2cd47d00a05d",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 355
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                15,
+                1
+              ],
+              [
+                970,
+                1
+              ],
+              [
+                1701,
+                1
+              ],
+              [
+                1715,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Imperial Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1701
+              ]
+            ],
+            "rep": [
+              15
+            ],
+            "t": 635
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1728
+              ]
+            ],
+            "rep": [
+              970
+            ],
+            "t": 639
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1716
+              ],
+              [
+                1717
+              ],
+              [
+                1718
+              ]
+            ],
+            "t": 186
+          }
+        ],
+        "id": "knight-paladin",
+        "kws": [
+          "Character",
+          "Imperium",
+          "Knight Paladin",
+          "Questoris",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Knight Paladin",
+        "sid": "3670f966-ce7d-496c-8e69-5e2dae1c4093",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 375
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1731,
+                1
+              ],
+              [
+                1732,
+                1
+              ],
+              [
+                970,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Imperial Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                15
+              ],
+              [
+                1701
+              ]
+            ],
+            "rep": [
+              1732
+            ],
+            "t": 640
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1728
+              ]
+            ],
+            "rep": [
+              970
+            ],
+            "t": 639
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1716
+              ],
+              [
+                1717
+              ],
+              [
+                1718
+              ]
+            ],
+            "t": 186
+          }
+        ],
+        "id": "knight-preceptor",
+        "kws": [
+          "Character",
+          "Imperium",
+          "Knight Preceptor",
+          "Questoris",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Knight Preceptor",
+        "sid": "bc64a4b1-0ab5-464d-ac3d-fc99326296e8",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 365
+          }
+        ],
+        "stands": {
+          "1732": [
+            "Chainbreaker multi-laser"
+          ]
+        },
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1708,
+                1
+              ],
+              [
+                1733,
+                1
+              ],
+              [
+                1734,
+                1
+              ],
+              [
+                976,
+                1
+              ],
+              [
+                1712,
+                2
+              ],
+              [
+                1709,
+                2
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Imperial Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1709,
+                    1
+                  ],
+                  [
+                    1708,
+                    2
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              1709,
+              1708
+            ],
+            "t": 634
+          }
+        ],
+        "id": "knight-valiant",
+        "kws": [
+          "Character",
+          "Dominus",
+          "Imperium",
+          "Knight Valiant",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Knight Valiant",
+        "sid": "0276c4bf-2421-4685-b1f8-084f1ec773cf",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 390
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                528,
+                1
+              ],
+              [
+                970,
+                1
+              ],
+              [
+                1714,
+                1
+              ],
+              [
+                15,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Imperial Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1701
+              ]
+            ],
+            "rep": [
+              15
+            ],
+            "t": 635
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1728
+              ]
+            ],
+            "rep": [
+              970
+            ],
+            "t": 639
+          },
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                1716
+              ],
+              [
+                1717
+              ],
+              [
+                1718
+              ]
+            ],
+            "t": 186
+          }
+        ],
+        "id": "knight-warden",
+        "kws": [
+          "Character",
+          "Imperium",
+          "Knight Warden",
+          "Questoris",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Knight Warden",
+        "sid": "2cb71140-1822-4293-b775-ca664ef8f680",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 365
+          }
+        ],
+        "step": {
+          "at": 3,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                970,
+                1
+              ],
+              [
+                1002,
+                1
+              ],
+              [
+                1001,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Imperial Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1003,
+                    1
+                  ],
+                  [
+                    1004,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              970
+            ],
+            "t": 358
+          }
+        ],
+        "id": "questoris-knight-magaera",
+        "kws": [
+          "Character",
+          "Imperium",
+          "Knight Magaera",
+          "Questoris",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Questoris Knight Magaera",
+        "sid": "37539dfa-b644-4bda-83db-518dc4999f7d",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 385
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 15
+        }
+      },
+      {
+        "defaults": [
+          [
+            0,
+            [
+              [
+                1010,
+                1
+              ],
+              [
+                970,
+                1
+              ],
+              [
+                1009,
+                1
+              ]
+            ]
+          ]
+        ],
+        "fkws": [
+          "Imperial Knights"
+        ],
+        "flags": {
+          "char": 1
+        },
+        "gear": [
+          {
+            "in": "checkbox",
+            "m": 0,
+            "o": [
+              [
+                [
+                  [
+                    1003,
+                    1
+                  ],
+                  [
+                    1004,
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "rep": [
+              970
+            ],
+            "t": 358
+          }
+        ],
+        "id": "questoris-knight-styrix",
+        "kws": [
+          "Character",
+          "Imperium",
+          "Knight Styrix",
+          "Questoris",
+          "Titanic",
+          "Towering",
+          "Vehicle",
+          "Walker"
+        ],
+        "linked": 1,
+        "name": "Questoris Knight Styrix",
+        "sid": "e37b6366-90f2-4a98-aa43-d73b48f4b988",
+        "sizes": [
+          {
+            "default": 1,
+            "per": [
+              1,
+              1
+            ],
+            "pts": 375
+          }
+        ],
+        "step": {
+          "at": 2,
+          "pts": 15
+        }
+      }
+    ]
+  }
+}

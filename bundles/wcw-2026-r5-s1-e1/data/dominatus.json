@@ -1,0 +1,3032 @@
+{
+  "ALLIANCE_IDS": [
+    "liberators",
+    "oppressors",
+    "raiders"
+  ],
+  "PHASES": [
+    1,
+    2,
+    3
+  ],
+  "dominatusEn": {
+    "agendas": [
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "You control half or more than half of the objectives on the battlefield."
+          ]
+        },
+        "alliance": "liberators",
+        "name": "Planetfall",
+        "phase": 1,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Any Battle Round",
+              "rows": [
+                {
+                  "text": "One or more friendly units made an ingress move this turn and were set up within range of an objective (excluding your home objective).",
+                  "vp": 3
+                }
+              ],
+              "when": "End of your turn"
+            },
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "You control your home objective.",
+                  "vp": 3
+                },
+                {
+                  "text": "You control one or more objectives within your territory (excluding your home objective).",
+                  "vp": 5
+                },
+                {
+                  "text": "You control one or more other objectives.",
+                  "vp": 7
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            }
+          ]
+        },
+        "slug": "planetfall"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "You control your opponent's home objective.",
+            "Your opponent controls no objectives wholly within their territory."
+          ]
+        },
+        "alliance": "liberators",
+        "name": "Vital Strongpoint",
+        "phase": 1,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Any Battle Round",
+              "rows": [
+                {
+                  "text": "You control one or more objectives that your opponent controlled at the start of your turn.",
+                  "vp": 5
+                },
+                {
+                  "text": "You control your opponent's home objective.",
+                  "vp": 10
+                }
+              ],
+              "when": "End of your turn"
+            },
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "For each objective you control within your opponent's territory.",
+                  "vp": 5
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            }
+          ]
+        },
+        "slug": "vital-strongpoint"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "There are no enemy units within your territory."
+          ]
+        },
+        "alliance": "liberators",
+        "name": "Secure Perimeter",
+        "phase": 1,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "You control two or more objectives (excluding your home objective).",
+                  "vp": 5
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            },
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "Your opponent controls no objectives within your territory.",
+                  "vp": 5
+                },
+                {
+                  "text": "There are no enemy units (excluding AIRCRAFT and battle-shocked units) within your deployment zone.",
+                  "vp": 3
+                }
+              ],
+              "when": "End of your turn"
+            }
+          ]
+        },
+        "slug": "secure-perimeter"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "Three or more terrain areas that are not within your deployment zone each have one or more friendly units (excluding AIRCRAFT and battle-shocked units) within them and no enemy units are within those terrain areas."
+          ]
+        },
+        "alliance": "liberators",
+        "name": "Rescue Survivors",
+        "phase": 2,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Any Battle Round",
+              "rows": [
+                {
+                  "text": "For each terrain area that meets all of the following conditions: it is not within your deployment zone; it has one or more friendly units within it (excluding AIRCRAFT and battle-shocked units); it has no enemy units within it.",
+                  "vp": 1
+                },
+                {
+                  "text": "One or more enemy units that started this turn within a terrain area were destroyed this turn.",
+                  "vp": 3
+                },
+                {
+                  "text": "Your opponent controls no objectives within your territory.",
+                  "vp": 3
+                }
+              ],
+              "when": "End of your turn"
+            },
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "You control one or more objectives (excluding your home objective).",
+                  "vp": 4
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            }
+          ]
+        },
+        "slug": "rescue-survivors"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "You have a presence on three or more battlefield edges."
+          ]
+        },
+        "alliance": "liberators",
+        "name": "Encirclement",
+        "phase": 2,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Any Battle Round",
+              "rows": [
+                {
+                  "text": "You have a presence on three or more battlefield edges.",
+                  "vp": 5
+                },
+                {
+                  "text": "Your opponent controls no objectives within your territory.",
+                  "vp": 5
+                }
+              ],
+              "when": "End of your turn"
+            },
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "You control one or more objectives.",
+                  "vp": 5
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            }
+          ],
+          "briefing": [
+            {
+              "label": "Establish Encirclement",
+              "text": "While one or more units from your army (excluding AIRCRAFT and battle-shocked units) are wholly within 6\" of a battlefield edge and more than 9\" from any corner of the battlefield, you have a presence on that battlefield edge."
+            }
+          ]
+        },
+        "slug": "encirclement"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "You discovered the cache and you control the objective it is in."
+          ]
+        },
+        "action": true,
+        "alliance": "liberators",
+        "name": "Hidden Prize",
+        "phase": 2,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Any Battle Round",
+              "rows": [
+                {
+                  "text": "For each terrain area you searched this turn.",
+                  "vp": 5
+                },
+                {
+                  "text": "You discovered the cache this turn.",
+                  "vp": 10
+                }
+              ],
+              "when": "End of your turn"
+            },
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "You control one or more objectives (excluding your home objective).",
+                  "vp": 5
+                },
+                {
+                  "text": "You control the objective with your operation marker on it.",
+                  "vp": 10
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            }
+          ],
+          "briefing": [
+            {
+              "action": "Search — Objective Action",
+              "rows": [
+                {
+                  "label": "Starts",
+                  "text": "Your Shooting phase."
+                },
+                {
+                  "label": "Units",
+                  "text": "One unit within a terrain area that is not within your deployment zone and has not been searched (see below)."
+                },
+                {
+                  "label": "Use limit",
+                  "text": "Twice per turn. Each unit that starts this action this phase must be within a different terrain area."
+                },
+                {
+                  "label": "Completes",
+                  "text": "End of your turn."
+                },
+                {
+                  "label": "Effect",
+                  "text": "That terrain area is searched. If you have not discovered the cache (see below), roll one D6, adding 1 to the result for every other terrain area you have searched. On a 5+, you have discovered the cache; that terrain area becomes an objective if it was not already one, and you place one of your operation markers on it. Once you have discovered the cache, this action cannot be started again."
+                }
+              ]
+            }
+          ]
+        },
+        "slug": "hidden-prize"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "Your opponent controls no objectives within their territory."
+          ],
+          "more": {
+            "any": [
+              "Your opponent's army included one or more TITANIC units and one or more of them are destroyed.",
+              "Three or more of your idol targets are destroyed."
+            ]
+          }
+        },
+        "alliance": "liberators",
+        "name": "Cast Down Their Idols",
+        "phase": 3,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Any Battle Round",
+              "rows": [
+                {
+                  "text": "One or more enemy units that started the turn within range of an objective were destroyed this turn.",
+                  "vp": 5
+                },
+                {
+                  "text": "Your idol target was destroyed this turn.",
+                  "vp": 5
+                },
+                {
+                  "modifier": "cumulative",
+                  "text": "Your idol target was TITANIC and it was destroyed this turn.",
+                  "vp": "+5"
+                }
+              ],
+              "when": "End of a turn"
+            },
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "Your opponent controls no objectives wholly within your territory.",
+                  "vp": 5
+                },
+                {
+                  "text": "You control more objectives than your opponent.",
+                  "vp": 5
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            }
+          ],
+          "briefing": [
+            {
+              "label": "Idol Target",
+              "text": "In your Command phase, select one enemy model on the battlefield that has the highest (or equal highest) W. That model is your idol target."
+            }
+          ]
+        },
+        "slug": "cast-down-their-idols"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "You raised a banner on three or more objectives."
+          ],
+          "more": {
+            "any": [
+              "You raised a banner on every objective."
+            ]
+          }
+        },
+        "action": true,
+        "alliance": "liberators",
+        "name": "Reclaim This World",
+        "phase": 3,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "You control your home objective.*",
+                  "vp": 1
+                },
+                {
+                  "text": "You control your opponent's home objective.*",
+                  "vp": 6
+                },
+                {
+                  "text": "For each other objective you control.*",
+                  "vp": 4
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            }
+          ],
+          "briefing": [
+            {
+              "action": "Raise Banner — Objective Action",
+              "rows": [
+                {
+                  "label": "Starts",
+                  "text": "Your Shooting phase."
+                },
+                {
+                  "label": "Units",
+                  "text": "One unit within range of an objective."
+                },
+                {
+                  "label": "Use limit",
+                  "text": "Unlimited. Each unit that starts this action this phase must be within range of a different objective."
+                },
+                {
+                  "label": "Completes",
+                  "text": "End of your turn."
+                },
+                {
+                  "label": "Effect",
+                  "text": "Select one objective your unit controls that does not have one of your operation markers on it. You raise a banner on that objective; place one of your operation markers on it."
+                }
+              ]
+            },
+            {
+              "label": "*",
+              "text": "If you have raised a banner on that objective, you score double this VP amount instead."
+            }
+          ]
+        },
+        "slug": "reclaim-this-world"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "The enemy WARLORD is destroyed."
+          ],
+          "more": {
+            "any": [
+              "All enemy CHARACTER models are either destroyed or in strategic reserves."
+            ]
+          }
+        },
+        "alliance": "liberators",
+        "name": "Slay the Tyrant",
+        "phase": 3,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Any Battle Round",
+              "rows": [
+                {
+                  "text": "One or more enemy units were destroyed this turn.",
+                  "vp": 5
+                }
+              ],
+              "when": "End of your turn"
+            },
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "You control one or more objectives (excluding your home objective).",
+                  "vp": 5
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            },
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "More enemy units than friendly units were destroyed this battle round.",
+                  "vp": 5
+                }
+              ],
+              "when": "End of the battle round"
+            },
+            {
+              "heading": "End of Battle",
+              "rows": [
+                {
+                  "text": "The enemy WARLORD is destroyed.",
+                  "vp": 5
+                }
+              ]
+            }
+          ]
+        },
+        "slug": "slay-the-tyrant"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "You control two or more objectives within your opponent's territory."
+          ]
+        },
+        "alliance": "oppressors",
+        "name": "Repel the Foe",
+        "phase": 1,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Any Battle Round",
+              "rows": [
+                {
+                  "text": "You control one or more objectives that your opponent controlled at the start of your turn.",
+                  "vp": 5
+                },
+                {
+                  "text": "One or more friendly units (excluding AIRCRAFT and battle-shocked units) are wholly within your opponent's deployment zone.",
+                  "vp": 5
+                }
+              ],
+              "when": "End of your turn"
+            },
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "For each objective you control.",
+                  "vp": 2
+                },
+                {
+                  "modifier": "cumulative",
+                  "text": "For each objective you control within your opponent's territory.",
+                  "vp": "+3"
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            }
+          ]
+        },
+        "slug": "repel-the-foe"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "You control every objective within your territory."
+          ]
+        },
+        "alliance": "oppressors",
+        "name": "Dig In",
+        "phase": 1,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Any Battle Round",
+              "rows": [
+                {
+                  "text": "One or more enemy units were destroyed this turn.",
+                  "vp": 3
+                }
+              ],
+              "when": "End of your turn"
+            },
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "You control one or more objectives within your opponent's territory.",
+                  "vp": 5
+                },
+                {
+                  "text": "For each objective you control within your territory.",
+                  "vp": 3
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            },
+            {
+              "heading": "End of Battle",
+              "rows": [
+                {
+                  "text": "You control your home objective.",
+                  "vp": 10
+                }
+              ]
+            }
+          ]
+        },
+        "slug": "dig-in"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "Three or more objectives (excluding your home objective) have been looted by your army."
+          ]
+        },
+        "action": true,
+        "alliance": "oppressors",
+        "name": "Loot and Scoot",
+        "phase": 1,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "You control one or more objectives (excluding your home objective).",
+                  "vp": 5
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            },
+            {
+              "heading": "End of Battle",
+              "rows": [
+                {
+                  "text": "For each objective looted by your army.",
+                  "vp": 7
+                },
+                {
+                  "text": "For each of your operation markers on a friendly unit.",
+                  "vp": 3
+                }
+              ]
+            }
+          ],
+          "briefing": [
+            {
+              "action": "Loot — Objective Action",
+              "rows": [
+                {
+                  "label": "Starts",
+                  "text": "Your Shooting phase."
+                },
+                {
+                  "label": "Units",
+                  "text": "One unit within range of an objective you control that does not have one of your operation markers on it."
+                },
+                {
+                  "label": "Use limit",
+                  "text": "Up to twice per turn. Each unit that starts this action this phase must be within range of a different objective."
+                },
+                {
+                  "label": "Completes",
+                  "text": "Immediately."
+                },
+                {
+                  "label": "Effect",
+                  "text": "That objective is looted. Place one of your operation markers on that objective and place one of your operation markers on the unit that completed this action (if that unit is destroyed, remove all operation markers from it)."
+                }
+              ]
+            }
+          ]
+        },
+        "slug": "loot-and-scoot"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "Two or more friendly units punched through."
+          ]
+        },
+        "action": true,
+        "alliance": "oppressors",
+        "name": "Breakthrough",
+        "phase": 2,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Any Battle Round",
+              "rows": [
+                {
+                  "text": "One or more friendly units (excluding AIRCRAFT and battle-shocked units) are within 6\" of your opponent's battlefield edge.",
+                  "vp": 5
+                },
+                {
+                  "text": "One or more units punched through this turn.",
+                  "vp": 10
+                }
+              ],
+              "when": "End of your turn"
+            },
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "You control one or more objectives (excluding your home objective).",
+                  "vp": 5
+                },
+                {
+                  "text": "You control one or more objectives within your opponent's territory.",
+                  "vp": 5
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            }
+          ],
+          "briefing": [
+            {
+              "action": "Punch Through — Objective Action",
+              "rows": [
+                {
+                  "label": "Starts",
+                  "text": "Your Shooting phase."
+                },
+                {
+                  "label": "Units",
+                  "text": "One unit that did not make an ingress move this turn and is wholly within 6\" of your opponent's battlefield edge."
+                },
+                {
+                  "label": "Use limit",
+                  "text": "Once per turn."
+                },
+                {
+                  "label": "Completes",
+                  "text": "End of your turn."
+                },
+                {
+                  "label": "Effect",
+                  "text": "Your unit has punched through and is removed from the battlefield (each unit embarked within a TRANSPORT that punched through has also punched through)."
+                }
+              ]
+            }
+          ]
+        },
+        "slug": "breakthrough"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "Your opponent's army included one or more TRANSPORTS and all of those units are destroyed.",
+            "Three or more of your prime targets are destroyed."
+          ]
+        },
+        "alliance": "oppressors",
+        "name": "Convoy Ambush",
+        "phase": 2,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Any Battle Round",
+              "rows": [
+                {
+                  "text": "Your prime target was destroyed this turn.",
+                  "vp": 8
+                },
+                {
+                  "modifier": "cumulative",
+                  "text": "Your prime target was a TRANSPORT and it was destroyed this turn.",
+                  "vp": "+2"
+                }
+              ],
+              "when": "End of a turn"
+            },
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "You control one or more objectives (excluding your home objective).",
+                  "vp": 5
+                },
+                {
+                  "text": "You control more objectives than your opponent.",
+                  "vp": 5
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            }
+          ],
+          "briefing": [
+            {
+              "label": "Prime Target",
+              "text": "In your Command phase, select one enemy unit that is on the battlefield; this must be a MONSTER/VEHICLE unit if possible. Until the start of your next Command phase, that unit is your prime target."
+            }
+          ]
+        },
+        "slug": "convoy-ambush"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "Your opponent's home objective was sabotaged."
+          ]
+        },
+        "action": true,
+        "alliance": "oppressors",
+        "name": "Sabotage Supplies",
+        "phase": 2,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "For each objective you control.",
+                  "vp": 4
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            },
+            {
+              "heading": "End of Battle",
+              "rows": [
+                {
+                  "text": "For each objective that was sabotaged.",
+                  "vp": 5
+                },
+                {
+                  "modifier": "cumulative",
+                  "text": "For each objective within your opponent's territory that was sabotaged.",
+                  "vp": "+5"
+                }
+              ]
+            }
+          ],
+          "briefing": [
+            {
+              "action": "Sabotage — Objective Action",
+              "rows": [
+                {
+                  "label": "Starts",
+                  "text": "Your Shooting phase."
+                },
+                {
+                  "label": "Units",
+                  "text": "One unit within range of an objective (excluding your home objective and an objective that has one of your operation markers on it)."
+                },
+                {
+                  "label": "Use limit",
+                  "text": "Once per turn."
+                },
+                {
+                  "label": "Completes",
+                  "text": "End of your turn."
+                },
+                {
+                  "label": "Effect",
+                  "text": "If your unit is within range of an objective you control, that objective is sabotaged; place one of your operation markers on it."
+                }
+              ]
+            }
+          ]
+        },
+        "slug": "sabotage-supplies"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "Your champion unit controls an objective within your opponent's territory and one or more enemy units were destroyed by your champion unit."
+          ],
+          "more": {
+            "any": [
+              "Your WARLORD unit controls an objective within your opponent's territory and one or more enemy units were destroyed by your WARLORD unit."
+            ]
+          }
+        },
+        "alliance": "oppressors",
+        "name": "Lead by Example",
+        "phase": 3,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Any Battle Round",
+              "rows": [
+                {
+                  "text": "Your champion unit destroyed one or more enemy units this turn.",
+                  "vp": 5
+                },
+                {
+                  "text": "Your champion unit controls one or more objectives (excluding your home objective).",
+                  "vp": 4
+                },
+                {
+                  "text": "Your champion unit is wholly within your opponent's territory.",
+                  "vp": 6
+                }
+              ],
+              "when": "End of your turn"
+            },
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "For each objective you control.",
+                  "vp": 4
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            }
+          ],
+          "briefing": [
+            {
+              "label": "Champions",
+              "text": "In your Command phase, you can select one friendly CHARACTER model (this must be your WARLORD if it is not destroyed). Until the start of your next Command phase, that model's unit is your champion unit."
+            }
+          ]
+        },
+        "slug": "lead-by-example"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "Two or more objectives were razed."
+          ],
+          "more": {
+            "any": [
+              "Every objective in your territory was razed."
+            ]
+          }
+        },
+        "action": true,
+        "alliance": "oppressors",
+        "name": "Ash and Rubble",
+        "phase": 3,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "You control your home objective.",
+                  "vp": 3
+                },
+                {
+                  "text": "For each other objective you control.",
+                  "vp": 5
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            },
+            {
+              "heading": "End of Battle",
+              "rows": [
+                {
+                  "text": "For each objective that was razed.",
+                  "vp": 10
+                }
+              ]
+            }
+          ],
+          "briefing": [
+            {
+              "action": "Raze — Objective Action",
+              "rows": [
+                {
+                  "label": "Starts",
+                  "text": "Your Shooting phase."
+                },
+                {
+                  "label": "Units",
+                  "text": "One unit within range of an objective (excluding your home objective, unless it is the fifth battle round)."
+                },
+                {
+                  "label": "Use limit",
+                  "text": "Once per turn."
+                },
+                {
+                  "label": "Completes",
+                  "text": "End of your opponent's turn, or the end of the battle (whichever comes first)."
+                },
+                {
+                  "label": "Effect",
+                  "text": "Select one objective your unit controls. That objective is razed and is no longer an objective; remove all markers associated with that objective (including operation markers). A razed objective becomes a normal terrain area for the remainder of the battle. Once you have razed three objectives, this action cannot be started again."
+                }
+              ]
+            }
+          ]
+        },
+        "slug": "ash-and-rubble"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "At the end of any battle round, your kill tally was 2+ and at least double that of your opponent."
+          ],
+          "more": {
+            "any": [
+              "At the end of any battle round, your kill tally was 3+ and at least triple that of your opponent."
+            ]
+          }
+        },
+        "alliance": "oppressors",
+        "name": "A Proper Challenge",
+        "phase": 3,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Any Battle Round",
+              "rows": [
+                {
+                  "text": "Your kill tally is 1+.",
+                  "vp": 5
+                },
+                {
+                  "text": "Your kill tally is greater than your opponent's.",
+                  "vp": 5
+                },
+                {
+                  "modifier": "cumulative",
+                  "text": "Your kill tally is 2+ and more than double your opponent's.",
+                  "vp": "+5"
+                }
+              ],
+              "when": "End of the battle round"
+            },
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "You control one or more objectives (excluding your home objective).",
+                  "vp": 5
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            }
+          ],
+          "briefing": [
+            {
+              "label": "Kill Tally",
+              "text": "Keep a kill tally for each player, adding 1 to a player's tally when an enemy unit is destroyed. MONSTER/VEHICLE/CHARACTER units count as 2 units for this tally, unless they are TITANIC units, in which case they count as 3. Reset each player's kill tally at the start of the battle round."
+            }
+          ]
+        },
+        "slug": "a-proper-challenge"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "Three or more enemy units and three or more objectives were scanned during the battle."
+          ]
+        },
+        "action": true,
+        "alliance": "raiders",
+        "name": "Vanguard Recon",
+        "phase": 1,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Any Battle Round",
+              "rows": [
+                {
+                  "text": "One or more enemy units were scanned this turn.",
+                  "vp": 5
+                }
+              ],
+              "when": "End of your turn"
+            },
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "You control one or more objectives.",
+                  "vp": 5
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            },
+            {
+              "heading": "End of Battle",
+              "rows": [
+                {
+                  "text": "For each objective (excluding your home objective) that has been scanned.",
+                  "vp": 4
+                }
+              ]
+            }
+          ],
+          "briefing": [
+            {
+              "action": "Scan Target — Objective Action",
+              "rows": [
+                {
+                  "label": "Starts",
+                  "text": "Your Shooting phase."
+                },
+                {
+                  "label": "Units",
+                  "text": "One unit."
+                },
+                {
+                  "label": "Use limit",
+                  "text": "Twice per turn."
+                },
+                {
+                  "label": "Completes",
+                  "text": "End of your turn."
+                },
+                {
+                  "label": "Effect",
+                  "text": "Select either one enemy unit that meets both of the following conditions, or one objective that meets both of the following conditions: it is within 12\" of and visible to the unit that completed this action; it does not have one of your operation markers on it. That enemy unit or objective is scanned; place one of your operation markers on it."
+                }
+              ]
+            }
+          ]
+        },
+        "slug": "vanguard-recon"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "You recovered the agent."
+          ]
+        },
+        "action": true,
+        "alliance": "raiders",
+        "name": "Establish Contact",
+        "phase": 1,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "For each objective you control.",
+                  "vp": 4
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            },
+            {
+              "heading": "End of Battle",
+              "rows": [
+                {
+                  "text": "You silenced the agent.",
+                  "vp": 8
+                },
+                {
+                  "text": "You recovered the agent.",
+                  "vp": 15
+                }
+              ]
+            }
+          ],
+          "briefing": [
+            {
+              "action": "Contact Agent — Objective Action",
+              "rows": [
+                {
+                  "label": "Starts",
+                  "text": "Your Shooting phase. When a unit starts this action, you must declare whether it will silence or recover the agent."
+                },
+                {
+                  "label": "Units",
+                  "text": "One unit within range of a central objective."
+                },
+                {
+                  "label": "Use limit",
+                  "text": "Once per turn."
+                },
+                {
+                  "label": "Completes",
+                  "text": "End of your turn (if you are silencing the agent) or the end of your opponent's turn (if you are recovering the agent). Once completed, this action cannot be started again."
+                },
+                {
+                  "label": "Effect",
+                  "text": "If your unit is within range of a central objective you control, the agent is silenced or recovered as appropriate."
+                }
+              ]
+            }
+          ]
+        },
+        "slug": "establish-contact"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "One or more BATTLELINE units exfiltrated.",
+            "Two or more non-BATTLELINE units exfiltrated."
+          ]
+        },
+        "action": true,
+        "alliance": "raiders",
+        "name": "Clandestine Infiltration",
+        "phase": 1,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Any Battle Round",
+              "rows": [
+                {
+                  "text": "One or more enemy units that started the turn within your opponent's territory were destroyed this turn.",
+                  "vp": 5
+                },
+                {
+                  "text": "You control one or more objectives within your opponent's territory.",
+                  "vp": 5
+                }
+              ],
+              "when": "End of your turn"
+            },
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "You control more objectives than your opponent.",
+                  "vp": 5
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            },
+            {
+              "heading": "End of Battle",
+              "rows": [
+                {
+                  "text": "One or more friendly units exfiltrated.",
+                  "vp": 10
+                }
+              ]
+            }
+          ],
+          "briefing": [
+            {
+              "action": "Exfiltrate — Objective Action",
+              "rows": [
+                {
+                  "label": "Starts",
+                  "text": "Your Shooting phase."
+                },
+                {
+                  "label": "Units",
+                  "text": "One non-TRANSPORT unit that did not make an ingress move this turn and is wholly within 6\" of your opponent's battlefield edge."
+                },
+                {
+                  "label": "Use limit",
+                  "text": "Once per turn."
+                },
+                {
+                  "label": "Completes",
+                  "text": "End of your turn."
+                },
+                {
+                  "label": "Effect",
+                  "text": "Your unit exfiltrates and is removed from the battlefield."
+                }
+              ]
+            }
+          ]
+        },
+        "slug": "clandestine-infiltration"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "Your elimination target is destroyed."
+          ]
+        },
+        "alliance": "raiders",
+        "name": "A Knife in the Dark",
+        "phase": 2,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Any Battle Round",
+              "rows": [
+                {
+                  "text": "One or more enemy units were destroyed this turn.",
+                  "vp": 3
+                }
+              ],
+              "when": "End of your turn"
+            },
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "For each objective you control.",
+                  "vp": 4
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            },
+            {
+              "heading": "End of Battle",
+              "rows": [
+                {
+                  "text": "Your elimination target is destroyed.",
+                  "vp": 10
+                },
+                {
+                  "modifier": "cumulative",
+                  "text": "Your elimination target was your opponent's WARLORD and it is destroyed.",
+                  "vp": "+5"
+                }
+              ]
+            }
+          ],
+          "briefing": [
+            {
+              "label": "Elimination Target",
+              "text": "In the Resolve Pre-battle Abilities step, select and declare one enemy CHARACTER model in your opponent's army. That model is your elimination target."
+            }
+          ]
+        },
+        "slug": "a-knife-in-the-dark"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "Your WARLORD's unit controls the artefact objective.",
+            "Your WARLORD's unit controlled the artefact objective at the end of three consecutive turns."
+          ]
+        },
+        "alliance": "raiders",
+        "name": "A Thief in the Night",
+        "phase": 2,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Any Battle Round",
+              "rows": [
+                {
+                  "text": "You control the artefact objective.",
+                  "vp": 8
+                }
+              ],
+              "when": "End of your turn"
+            },
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "You control one or more objectives (excluding your home objective).",
+                  "vp": 5
+                },
+                {
+                  "text": "You control more objectives than your opponent.",
+                  "vp": 5
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            },
+            {
+              "heading": "End of Battle",
+              "rows": [
+                {
+                  "text": "You control the artefact objective.",
+                  "vp": 5
+                },
+                {
+                  "modifier": "cumulative",
+                  "text": "Your WARLORD controls the artefact objective.",
+                  "vp": "+5"
+                }
+              ]
+            }
+          ],
+          "briefing": [
+            {
+              "label": "Artefact",
+              "text": "In the Resolve Pre-battle Abilities step, your opponent selects one objective not within their deployment zone. That is the artefact objective; place one of your operation markers on it."
+            }
+          ]
+        },
+        "slug": "a-thief-in-the-night"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "Your WARLORD completed a ritual during the battle."
+          ]
+        },
+        "action": true,
+        "alliance": "raiders",
+        "name": "Seeds of Destruction",
+        "phase": 2,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Any Battle Round",
+              "rows": [
+                {
+                  "text": "One or more enemy units were destroyed this turn.",
+                  "vp": 5
+                }
+              ],
+              "when": "End of your turn"
+            },
+            {
+              "heading": "Any Battle Round",
+              "rows": [
+                {
+                  "text": "A friendly unit completed a ritual this turn.",
+                  "vp": 10
+                }
+              ],
+              "when": "End of a turn"
+            },
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "You control one or more objectives (excluding your home objective).",
+                  "vp": 5
+                },
+                {
+                  "text": "Your opponent controls no central objectives.",
+                  "vp": 5
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            }
+          ],
+          "briefing": [
+            {
+              "action": "Sow the Seeds — Objective Action",
+              "rows": [
+                {
+                  "label": "Starts",
+                  "text": "Your Shooting phase."
+                },
+                {
+                  "label": "Units",
+                  "text": "One unit wholly within 6\" of the centre of the battlefield."
+                },
+                {
+                  "label": "Use limit",
+                  "text": "Once per turn."
+                },
+                {
+                  "label": "Completes",
+                  "text": "End of your opponent's turn, or the end of the battle (whichever comes first)."
+                },
+                {
+                  "label": "Effect",
+                  "text": "If your unit is wholly within 6\" of the centre of the battlefield, it completes a ritual."
+                }
+              ]
+            }
+          ]
+        },
+        "slug": "seeds-of-destruction"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "You have a presence on three or more table quarters."
+          ],
+          "more": {
+            "any": [
+              "There are no enemy units on the battlefield.",
+              "All enemy units on the battlefield (excluding AIRCRAFT and battle-shocked units) are within the same table quarter."
+            ]
+          }
+        },
+        "alliance": "raiders",
+        "name": "Erase All Trace",
+        "phase": 3,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Any Battle Round",
+              "rows": [
+                {
+                  "text": "One or more enemy units were destroyed this turn.",
+                  "vp": 4
+                },
+                {
+                  "text": "You have a presence in three or more table quarters.",
+                  "vp": 3
+                },
+                {
+                  "modifier": "cumulative",
+                  "text": "You have a presence in 4 table quarters.",
+                  "vp": "+2"
+                }
+              ],
+              "when": "End of your turn"
+            },
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "You control one or more objectives (excluding your home objective).",
+                  "vp": 5
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            }
+          ],
+          "briefing": [
+            {
+              "label": "Battle Presence",
+              "text": "While one or more units from your army (excluding AIRCRAFT and battle-shocked units) are wholly within a table quarter and more than 6\" from the centre of the battlefield, you have a presence in that table quarter."
+            }
+          ]
+        },
+        "slug": "erase-all-trace"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "Two or more friendly units extracted spoils."
+          ],
+          "more": {
+            "any": [
+              "Three or more friendly units extracted spoils."
+            ]
+          }
+        },
+        "action": true,
+        "alliance": "raiders",
+        "name": "Extraction",
+        "phase": 3,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Any Battle Round",
+              "rows": [
+                {
+                  "text": "No enemy units (excluding AIRCRAFT and battle-shocked units) are within 6\" of the centre of the battlefield.",
+                  "vp": 3
+                },
+                {
+                  "text": "A friendly unit extracted spoils this turn.",
+                  "vp": 3
+                }
+              ],
+              "when": "End of your turn"
+            },
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "You control one or more objectives (excluding your home objective).",
+                  "vp": 5
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            }
+          ],
+          "briefing": [
+            {
+              "action": "Extraction — Objective Action",
+              "rows": [
+                {
+                  "label": "Starts",
+                  "text": "Your Shooting phase."
+                },
+                {
+                  "label": "Units",
+                  "text": "One non-TRANSPORT unit."
+                },
+                {
+                  "label": "Use limit",
+                  "text": "Once per turn (each unit cannot extract spoils more than once per battle)."
+                },
+                {
+                  "label": "Completes",
+                  "text": "End of your turn."
+                },
+                {
+                  "label": "Effect",
+                  "text": "If your unit is within 3\" of the centre of the battlefield, that unit can extract spoils."
+                }
+              ]
+            }
+          ]
+        },
+        "slug": "extraction"
+      },
+      {
+        "achieved": {
+          "any": [
+            "You gained 35+ VP from this Primary Mission during the battle.",
+            "You recovered three or more of your operation markers."
+          ],
+          "more": {
+            "any": [
+              "The enemy WARLORD was destroyed and you recovered the resulting operation marker."
+            ]
+          }
+        },
+        "alliance": "raiders",
+        "name": "Capture Trophies",
+        "phase": 3,
+        "primary": {
+          "blocks": [
+            {
+              "heading": "Any Battle Round",
+              "rows": [
+                {
+                  "text": "One or more enemy units were destroyed this battle round.",
+                  "vp": 3
+                }
+              ],
+              "when": "End of the battle round"
+            },
+            {
+              "heading": "Second Battle Round Onwards",
+              "rows": [
+                {
+                  "text": "For each objective you control.",
+                  "vp": 4
+                }
+              ],
+              "when": "End of your Command phase (or the end of your turn in the fifth battle round)"
+            },
+            {
+              "heading": "End of Battle",
+              "rows": [
+                {
+                  "text": "For each of your operation markers that was recovered.",
+                  "vp": 6
+                }
+              ]
+            }
+          ],
+          "briefing": [
+            {
+              "label": "Trophies",
+              "text": "When an enemy CHARACTER model is destroyed, before removing it from the battlefield, place one of your operation markers touching its base. When a friendly unit ends a move, each of your operation markers within 1\" of that unit is recovered."
+            }
+          ]
+        },
+        "slug": "capture-trophies"
+      }
+    ],
+    "alliances": [
+      {
+        "id": "liberators",
+        "name": "Liberators"
+      },
+      {
+        "id": "oppressors",
+        "name": "Oppressors"
+      },
+      {
+        "id": "raiders",
+        "name": "Raiders"
+      }
+    ],
+    "briefings": [
+      {
+        "alliance": "liberators",
+        "phase": 1,
+        "rows": [
+          {
+            "branches": [
+              {
+                "agenda": "planetfall",
+                "vs": [
+                  "take-and-hold",
+                  "reconnaissance"
+                ]
+              },
+              {
+                "agenda": "vital-strongpoint",
+                "vs": [
+                  "disruption",
+                  "purge-the-foe",
+                  "priority-assets"
+                ]
+              }
+            ],
+            "mine": [
+              "take-and-hold",
+              "priority-assets"
+            ]
+          },
+          {
+            "branches": [
+              {
+                "agenda": "secure-perimeter",
+                "vs": [
+                  "purge-the-foe",
+                  "disruption",
+                  "reconnaissance"
+                ]
+              },
+              {
+                "agenda": "planetfall",
+                "vs": [
+                  "take-and-hold",
+                  "priority-assets"
+                ]
+              }
+            ],
+            "mine": [
+              "purge-the-foe"
+            ]
+          },
+          {
+            "branches": [
+              {
+                "agenda": "vital-strongpoint",
+                "vs": [
+                  "take-and-hold",
+                  "disruption"
+                ]
+              },
+              {
+                "agenda": "secure-perimeter",
+                "vs": [
+                  "reconnaissance",
+                  "purge-the-foe",
+                  "priority-assets"
+                ]
+              }
+            ],
+            "mine": [
+              "disruption",
+              "reconnaissance"
+            ]
+          }
+        ]
+      },
+      {
+        "alliance": "liberators",
+        "phase": 2,
+        "rows": [
+          {
+            "branches": [
+              {
+                "agenda": "rescue-survivors",
+                "vs": [
+                  "disruption",
+                  "purge-the-foe"
+                ]
+              },
+              {
+                "agenda": "encirclement",
+                "vs": [
+                  "take-and-hold",
+                  "priority-assets",
+                  "reconnaissance"
+                ]
+              }
+            ],
+            "mine": [
+              "reconnaissance",
+              "purge-the-foe"
+            ]
+          },
+          {
+            "branches": [
+              {
+                "agenda": "encirclement",
+                "vs": [
+                  "purge-the-foe",
+                  "take-and-hold"
+                ]
+              },
+              {
+                "agenda": "hidden-prize",
+                "vs": [
+                  "priority-assets",
+                  "reconnaissance",
+                  "disruption"
+                ]
+              }
+            ],
+            "mine": [
+              "disruption"
+            ]
+          },
+          {
+            "branches": [
+              {
+                "agenda": "hidden-prize",
+                "vs": [
+                  "disruption",
+                  "priority-assets"
+                ]
+              },
+              {
+                "agenda": "rescue-survivors",
+                "vs": [
+                  "reconnaissance",
+                  "purge-the-foe",
+                  "take-and-hold"
+                ]
+              }
+            ],
+            "mine": [
+              "priority-assets",
+              "take-and-hold"
+            ]
+          }
+        ]
+      },
+      {
+        "alliance": "liberators",
+        "phase": 3,
+        "rows": [
+          {
+            "branches": [
+              {
+                "agenda": "cast-down-their-idols",
+                "vs": [
+                  "purge-the-foe",
+                  "reconnaissance"
+                ]
+              },
+              {
+                "agenda": "reclaim-this-world",
+                "vs": [
+                  "disruption",
+                  "take-and-hold",
+                  "priority-assets"
+                ]
+              }
+            ],
+            "mine": [
+              "disruption",
+              "priority-assets"
+            ]
+          },
+          {
+            "branches": [
+              {
+                "agenda": "slay-the-tyrant",
+                "vs": [
+                  "purge-the-foe",
+                  "take-and-hold",
+                  "priority-assets"
+                ]
+              },
+              {
+                "agenda": "cast-down-their-idols",
+                "vs": [
+                  "disruption",
+                  "reconnaissance"
+                ]
+              }
+            ],
+            "mine": [
+              "purge-the-foe"
+            ]
+          },
+          {
+            "branches": [
+              {
+                "agenda": "reclaim-this-world",
+                "vs": [
+                  "disruption",
+                  "take-and-hold",
+                  "reconnaissance"
+                ]
+              },
+              {
+                "agenda": "slay-the-tyrant",
+                "vs": [
+                  "purge-the-foe",
+                  "priority-assets"
+                ]
+              }
+            ],
+            "mine": [
+              "reconnaissance",
+              "take-and-hold"
+            ]
+          }
+        ]
+      },
+      {
+        "alliance": "oppressors",
+        "phase": 1,
+        "rows": [
+          {
+            "branches": [
+              {
+                "agenda": "dig-in",
+                "vs": [
+                  "priority-assets",
+                  "purge-the-foe",
+                  "take-and-hold"
+                ]
+              },
+              {
+                "agenda": "loot-and-scoot",
+                "vs": [
+                  "disruption",
+                  "reconnaissance"
+                ]
+              }
+            ],
+            "mine": [
+              "take-and-hold",
+              "disruption"
+            ]
+          },
+          {
+            "branches": [
+              {
+                "agenda": "loot-and-scoot",
+                "vs": [
+                  "take-and-hold",
+                  "disruption",
+                  "priority-assets"
+                ]
+              },
+              {
+                "agenda": "repel-the-foe",
+                "vs": [
+                  "purge-the-foe",
+                  "reconnaissance"
+                ]
+              }
+            ],
+            "mine": [
+              "reconnaissance"
+            ]
+          },
+          {
+            "branches": [
+              {
+                "agenda": "repel-the-foe",
+                "vs": [
+                  "purge-the-foe",
+                  "reconnaissance",
+                  "take-and-hold"
+                ]
+              },
+              {
+                "agenda": "dig-in",
+                "vs": [
+                  "priority-assets",
+                  "disruption"
+                ]
+              }
+            ],
+            "mine": [
+              "purge-the-foe",
+              "priority-assets"
+            ]
+          }
+        ]
+      },
+      {
+        "alliance": "oppressors",
+        "phase": 2,
+        "rows": [
+          {
+            "branches": [
+              {
+                "agenda": "breakthrough",
+                "vs": [
+                  "disruption",
+                  "priority-assets",
+                  "purge-the-foe"
+                ]
+              },
+              {
+                "agenda": "convoy-ambush",
+                "vs": [
+                  "reconnaissance",
+                  "take-and-hold"
+                ]
+              }
+            ],
+            "mine": [
+              "priority-assets",
+              "purge-the-foe"
+            ]
+          },
+          {
+            "branches": [
+              {
+                "agenda": "breakthrough",
+                "vs": [
+                  "disruption",
+                  "take-and-hold",
+                  "purge-the-foe"
+                ]
+              },
+              {
+                "agenda": "sabotage-supplies",
+                "vs": [
+                  "priority-assets",
+                  "reconnaissance"
+                ]
+              }
+            ],
+            "mine": [
+              "take-and-hold"
+            ]
+          },
+          {
+            "branches": [
+              {
+                "agenda": "convoy-ambush",
+                "vs": [
+                  "purge-the-foe",
+                  "priority-assets"
+                ]
+              },
+              {
+                "agenda": "sabotage-supplies",
+                "vs": [
+                  "take-and-hold",
+                  "disruption",
+                  "reconnaissance"
+                ]
+              }
+            ],
+            "mine": [
+              "reconnaissance",
+              "disruption"
+            ]
+          }
+        ]
+      },
+      {
+        "alliance": "oppressors",
+        "phase": 3,
+        "rows": [
+          {
+            "branches": [
+              {
+                "agenda": "lead-by-example",
+                "vs": [
+                  "reconnaissance",
+                  "take-and-hold",
+                  "purge-the-foe"
+                ]
+              },
+              {
+                "agenda": "ash-and-rubble",
+                "vs": [
+                  "disruption",
+                  "priority-assets"
+                ]
+              }
+            ],
+            "mine": [
+              "reconnaissance",
+              "priority-assets"
+            ]
+          },
+          {
+            "branches": [
+              {
+                "agenda": "ash-and-rubble",
+                "vs": [
+                  "take-and-hold",
+                  "reconnaissance",
+                  "priority-assets"
+                ]
+              },
+              {
+                "agenda": "a-proper-challenge",
+                "vs": [
+                  "purge-the-foe",
+                  "disruption"
+                ]
+              }
+            ],
+            "mine": [
+              "disruption"
+            ]
+          },
+          {
+            "branches": [
+              {
+                "agenda": "a-proper-challenge",
+                "vs": [
+                  "purge-the-foe",
+                  "disruption",
+                  "priority-assets"
+                ]
+              },
+              {
+                "agenda": "lead-by-example",
+                "vs": [
+                  "reconnaissance",
+                  "take-and-hold"
+                ]
+              }
+            ],
+            "mine": [
+              "purge-the-foe",
+              "take-and-hold"
+            ]
+          }
+        ]
+      },
+      {
+        "alliance": "raiders",
+        "phase": 1,
+        "rows": [
+          {
+            "branches": [
+              {
+                "agenda": "clandestine-infiltration",
+                "vs": [
+                  "priority-assets",
+                  "reconnaissance"
+                ]
+              },
+              {
+                "agenda": "vanguard-recon",
+                "vs": [
+                  "purge-the-foe",
+                  "disruption",
+                  "take-and-hold"
+                ]
+              }
+            ],
+            "mine": [
+              "take-and-hold",
+              "disruption"
+            ]
+          },
+          {
+            "branches": [
+              {
+                "agenda": "establish-contact",
+                "vs": [
+                  "reconnaissance",
+                  "priority-assets",
+                  "take-and-hold"
+                ]
+              },
+              {
+                "agenda": "clandestine-infiltration",
+                "vs": [
+                  "disruption",
+                  "purge-the-foe"
+                ]
+              }
+            ],
+            "mine": [
+              "reconnaissance"
+            ]
+          },
+          {
+            "branches": [
+              {
+                "agenda": "vanguard-recon",
+                "vs": [
+                  "take-and-hold",
+                  "priority-assets",
+                  "purge-the-foe"
+                ]
+              },
+              {
+                "agenda": "establish-contact",
+                "vs": [
+                  "disruption",
+                  "reconnaissance"
+                ]
+              }
+            ],
+            "mine": [
+              "purge-the-foe",
+              "priority-assets"
+            ]
+          }
+        ]
+      },
+      {
+        "alliance": "raiders",
+        "phase": 2,
+        "rows": [
+          {
+            "branches": [
+              {
+                "agenda": "a-knife-in-the-dark",
+                "vs": [
+                  "purge-the-foe",
+                  "priority-assets"
+                ]
+              },
+              {
+                "agenda": "a-thief-in-the-night",
+                "vs": [
+                  "disruption",
+                  "reconnaissance",
+                  "take-and-hold"
+                ]
+              }
+            ],
+            "mine": [
+              "priority-assets",
+              "reconnaissance"
+            ]
+          },
+          {
+            "branches": [
+              {
+                "agenda": "a-knife-in-the-dark",
+                "vs": [
+                  "priority-assets",
+                  "purge-the-foe",
+                  "take-and-hold"
+                ]
+              },
+              {
+                "agenda": "seeds-of-destruction",
+                "vs": [
+                  "disruption",
+                  "reconnaissance"
+                ]
+              }
+            ],
+            "mine": [
+              "purge-the-foe"
+            ]
+          },
+          {
+            "branches": [
+              {
+                "agenda": "a-thief-in-the-night",
+                "vs": [
+                  "disruption",
+                  "take-and-hold"
+                ]
+              },
+              {
+                "agenda": "seeds-of-destruction",
+                "vs": [
+                  "reconnaissance",
+                  "purge-the-foe",
+                  "priority-assets"
+                ]
+              }
+            ],
+            "mine": [
+              "take-and-hold",
+              "disruption"
+            ]
+          }
+        ]
+      },
+      {
+        "alliance": "raiders",
+        "phase": 3,
+        "rows": [
+          {
+            "branches": [
+              {
+                "agenda": "erase-all-trace",
+                "vs": [
+                  "reconnaissance",
+                  "take-and-hold",
+                  "disruption"
+                ]
+              },
+              {
+                "agenda": "capture-trophies",
+                "vs": [
+                  "priority-assets",
+                  "purge-the-foe"
+                ]
+              }
+            ],
+            "mine": [
+              "priority-assets",
+              "purge-the-foe"
+            ]
+          },
+          {
+            "branches": [
+              {
+                "agenda": "erase-all-trace",
+                "vs": [
+                  "disruption",
+                  "reconnaissance"
+                ]
+              },
+              {
+                "agenda": "extraction",
+                "vs": [
+                  "purge-the-foe",
+                  "take-and-hold",
+                  "priority-assets"
+                ]
+              }
+            ],
+            "mine": [
+              "reconnaissance"
+            ]
+          },
+          {
+            "branches": [
+              {
+                "agenda": "extraction",
+                "vs": [
+                  "take-and-hold",
+                  "purge-the-foe",
+                  "disruption"
+                ]
+              },
+              {
+                "agenda": "capture-trophies",
+                "vs": [
+                  "reconnaissance",
+                  "priority-assets"
+                ]
+              }
+            ],
+            "mine": [
+              "disruption",
+              "take-and-hold"
+            ]
+          }
+        ]
+      }
+    ],
+    "event": {
+      "blocks": [
+        {
+          "body": "### Resources\n▪ Each player must have a Dominatus deck.\n### Warmaster\n▪ The Warhammer Event organiser is the Warmaster.\n▪ At the start of each campaign phase, the Warmaster can select that phase's Location card, instead of rolling.\n▪ The Warmaster can require a player to change their Alliance (see Muster Armies).\n### Changes to the End of Campaign Phase\n▪ The **Acquire Relics** step and the **Discard** step at the end of each campaign phase are resolved at the Determine Mission step of the first battle in the next campaign phase, instead of as described in the Dominatus deck.\n▪ The **Fresh Supplies** and **Test of Mettle** location bonuses are resolved at the Determine Mission step of the first battle in the next campaign phase, instead of as described in the Dominatus deck.\n▪ The **Auspicious Augury** location bonus is resolved as described in the Dominatus deck, but we recommend that each player does so in the presence of a player from another Alliance.",
+          "id": "dom-ev-guidance",
+          "title": "Event Guidance"
+        },
+        {
+          "body": "Excluding Core CP, each player can gain a maximum of 1CP per battle round (including the CP gained when a player discards an active Secondary Mission card).",
+          "id": "dom-ev-cp",
+          "title": "Generating Command Points"
+        },
+        {
+          "body": "The battle follows the Event Companion's mission sequence, with these changes:\n▪ **1. Muster Armies** — once they have mustered their army, a player selects one Force Disposition card available to them and one **Alliance** as described in the Dominatus deck, and records those on their roster.\n▪ **2. Determine Mission** — read aloud the war zone rules from your Location card; Agendas and Declining Agendas as in the Dominatus deck (when declining, Primary Missions are determined by comparing Force Disposition cards). Whether players attempt Agendas or not, the players' Force Disposition cards are used to determine a layout.\n▪ **7. Declare Battle Formations** — players also secretly note down up to 3 Upgrade cards they have earned during the campaign, and which friendly unit each is given to until the end of the battle (a unit cannot have more than one Upgrade card).\n▪ **14. Determine Victor** — each player scores 10VP if their army is painted to a Battle Ready standard. Maximum VP: Primary Mission 45VP (up to 15VP per battle round); Secondary Missions 45VP (up to 15VP per battle round, and a maximum of 20VP per Fixed Secondary Mission card); Battle Ready army 10VP. Once a victor is determined, Agenda Achieved cards and Upgrade draws are resolved as in the Dominatus deck.",
+          "id": "dom-ev-sequence",
+          "title": "Event Mission Sequence"
+        },
+        {
+          "body": "In a Dominatus event, players are paired with a player from another Alliance; beyond that, pair as the Event Companion recommends — first by record, then by win path, then randomly.",
+          "id": "dom-ev-pairings",
+          "title": "Pairings"
+        }
+      ],
+      "intro": "Guidance from GW's Warhammer Dominatus Event Companion for running an organised Dominatus event with the Dominatus deck and the most recent Chapter Approved Mission Deck. It is used alongside the Warhammer Event Companion, whose mission sequence, layouts and pairing advice still apply except where noted here."
+    },
+    "heading": "Dominatus",
+    "locations": [
+      {
+        "bonus": {
+          "body": "While an Alliance has control of this location, when a player in that Alliance draws **Battle Skill** cards, they can draw one additional card before choosing which to keep.",
+          "name": "Battle-Tested"
+        },
+        "grid": "2093-AR:Volcanus",
+        "name": "The Mannheim Gap",
+        "phase": 1,
+        "roll": "1–2",
+        "slug": "the-mannheim-gap",
+        "warZone": [
+          {
+            "body": "The battlefield edges that are not the Attacker's or Defender's battlefield edge are **canyon walls**. When a unit makes an **[gloss:ingress-move:ingress move]**, models in it cannot be set up within 6\" of a canyon wall unless that model has FLY or [core:Deep Strike].",
+            "name": "Canyon Walls"
+          },
+          {
+            "body": "When a unit ends a move (excluding **[gloss:pile-in:pile-in]** and **[gloss:consolidation:consolidation moves]**) within 6\" of a canyon wall, make a **[gloss:hazard-roll:hazard roll]** for that unit.",
+            "name": "Rock Falls"
+          }
+        ]
+      },
+      {
+        "bonus": {
+          "body": "While an Alliance has control of this location, when a player in that Alliance draws **Relic** cards, they can draw one additional card before choosing which to keep.",
+          "name": "Munitions Vaults"
+        },
+        "grid": "5602-AR:Volcanus",
+        "name": "Volcanus Archipelago",
+        "phase": 1,
+        "roll": "3–4",
+        "slug": "volcanus-archipelago",
+        "warZone": [
+          {
+            "body": "In a player's Movement phase, that player can select one friendly unit in **[gloss:strategic-reserves:strategic reserves]**. That unit can make an **[gloss:ingress-move:ingress move]** this phase as if the battle round number was one higher than it actually is (note that this means it could arrive in the first battle round).",
+            "name": "Landing Craft"
+          },
+          {
+            "body": "(Once per battle) Each player can use the **Rapid Ingress** stratagem for 0CP.",
+            "name": "Rapid Reinforcements"
+          }
+        ]
+      },
+      {
+        "bonus": {
+          "body": "While an Alliance has control of this location, when a player in that Alliance draws **Battle Honour** cards, they can draw one additional card before choosing which to keep.",
+          "name": "To the Victor"
+        },
+        "grid": "6741-AR:Volcanus",
+        "name": "The Morpheon Line",
+        "phase": 1,
+        "roll": "5–6",
+        "slug": "the-morpheon-line",
+        "warZone": [
+          {
+            "body": "While a unit has the **[gloss:benefit-of-cover:benefit of cover]**, models in that unit have an **[gloss:invulnerable-save:InSv]** of 5+ against ranged attacks.",
+            "name": "Defence Networks"
+          },
+          {
+            "body": "When an INFANTRY unit **[gloss:remain-stationary:remains stationary]**, **[gloss:hidden:hidden]** models in that unit have a **[gloss:detection-range:detection range]** of 12\" until the end of the turn.",
+            "name": "Foxholes"
+          }
+        ]
+      },
+      {
+        "bonus": {
+          "body": "While an Alliance has control of this location, the location for the next phase of the campaign is not randomly determined by the Warmaster. Instead, in the next Start Campaign Phase step, the players in that Alliance can choose what the next location will be (either by taking a vote or nominating one amongst them to choose).",
+          "name": "Staging Post"
+        },
+        "grid": "3501-AR:Infernus",
+        "name": "Cerbera Base",
+        "phase": 2,
+        "roll": "1–2",
+        "slug": "cerbera-base",
+        "warZone": [
+          {
+            "body": "▪ All units have the SMOKE keyword.\n▪ Models that are not within 24\" of each other are not **[gloss:visible:visible]** to each other.",
+            "name": "Shrouding Smoke"
+          },
+          {
+            "body": "▪ When an AIRCRAFT unit ends an **[gloss:ingress-move:ingress move]**, make a **[gloss:hazard-roll:hazard roll]** for that unit.\n▪ When a FLYING unit ends a move in which it **[gloss:take-to-the-skies:took to the skies]**, make a **hazard roll** for that unit.",
+            "name": "Ash Clouds"
+          }
+        ]
+      },
+      {
+        "bonus": {
+          "body": "When an Alliance first takes control of this location, each player in that Alliance draws 1 random **Battle Skill** or 1 random Phase 1 **Battle Honour** card to keep.",
+          "name": "Fresh Supplies"
+        },
+        "grid": "7830-AR:Phoenix Island",
+        "name": "Victorinius Spaceport",
+        "phase": 2,
+        "roll": "3–4",
+        "slug": "victorinius-spaceport",
+        "warZone": [
+          {
+            "body": "In a player's Movement phase, that player can select one friendly **[gloss:strategic-reserves:strategic reserves]** unit to make a **Surgical Deep Strike**. If they do, while making an **[gloss:ingress-move:ingress move]** with that unit this phase, apply the following:\n▪ **If that unit has Deep Strike:** each model in that unit can be set up anywhere on the battlefield that is more than 6\" horizontally from all enemy units.\n▪ **If that unit does not have Deep Strike:** that unit has [core:Deep Strike].\nAfter ending that move, that player must make a **[gloss:battle-shock-test:battle-shock roll]** for that unit, then make a number of **[gloss:hazard-roll:hazard rolls]** for it equal to half the number of models in that unit (rounding up).",
+            "name": "Surgical Insertion"
+          }
+        ]
+      },
+      {
+        "bonus": {
+          "body": "When an Alliance first takes control of this location, each player in that Alliance can discard one **Battle Honour** and/or one **Battle Skill** card. For each card discarded, they can then choose one card of the same type to replace it with (e.g. a Phase 1 Battle Honour could be replaced with a different Phase 1 Battle Honour card).",
+          "name": "Test of Mettle"
+        },
+        "grid": "7830-AR:Volcanus",
+        "name": "Blackfire Death Pits",
+        "phase": 2,
+        "roll": "5–6",
+        "slug": "blackfire-death-pits",
+        "warZone": [
+          {
+            "body": "▪ When a unit is selected to **[gloss:remain-stationary:remain stationary]** or make an **[gloss:advance-move:advance move]**, make a **[gloss:hazard-roll:hazard roll]** for that unit.\n▪ When a unit **[gloss:declare-charge:declares a charge]**, if one or more of the **[gloss:charge-target:charge targets]** are within a **[gloss:terrain-area:terrain area]**, -1 from the **[gloss:charge-roll:charge roll]**.",
+            "name": "Treacherous Terrain"
+          },
+          {
+            "body": "BATTLELINE units can **[gloss:action:start an action]** in a turn in which they made an **[gloss:advance-move:advance]** or **[gloss:fall-back-move:fall-back move]**.",
+            "name": "Veteran Fighters"
+          }
+        ]
+      },
+      {
+        "bonus": {
+          "body": "When an Alliance first takes control of this location, each player in that Alliance with fewer than 3 **Agenda Achieved** cards can shuffle their mission deck's Secondary Missions deck, then draw the top 4 cards: for each **Fixed Mission** card revealed, that player gains one Agenda Achieved card.",
+          "name": "Auspicious Augury"
+        },
+        "grid": "5067-AR:Volcanus",
+        "name": "Eyes of the Emperor Observatory",
+        "phase": 3,
+        "roll": "1–2",
+        "slug": "eyes-of-the-emperor-observatory",
+        "warZone": [
+          {
+            "body": "(Once per battle) At the start of a player's Command phase, that player can select one of the following options (excluding EPIC HERO/WARLORD units):\n▪ One friendly MONSTER/VEHICLE unit that is **[gloss:destroyed:destroyed]**.\n▪ Three friendly BATTLELINE units that are **destroyed**.\n▪ Any two other friendly units that are **destroyed**.\nThat player then adds the same number of identical new units to their army, in **[gloss:strategic-reserves:strategic reserves]**.",
+            "name": "Second Wave"
+          },
+          {
+            "body": "At the end of the battle round, players randomly select one **[gloss:objective:objective]** on the battlefield. For every unit within range of that objective, roll one D6: on a 4+, that unit suffers D3 **[gloss:mortal-wound:mortal wounds]**.",
+            "name": "Orbital Lance Bombardment"
+          }
+        ]
+      },
+      {
+        "bonus": {
+          "body": "When an Alliance first takes control of this location, each player in that Alliance that has 4 or more **Battle Honour** cards (in total, from any phase) gains 1 **Agenda Achieved** card.",
+          "name": "The Spoils of War"
+        },
+        "grid": "9622-AR:Acheron",
+        "name": "Titangrave",
+        "phase": 3,
+        "roll": "3–4",
+        "slug": "titangrave",
+        "warZone": [
+          {
+            "body": "Players can select one additional unit to have an **Upgrade** (for a total of up to four instead of up to three).",
+            "name": "Vermillion Sanction"
+          },
+          {
+            "body": "When a unit is set up as a result of a **[gloss:move-type:move type]**, make one **[gloss:hazard-roll:hazard roll]** for each of its models set up within range of an **[gloss:objective:objective]**. If one or more of those rolls fails, make a **[gloss:battle-shock-test:battle-shock roll]** for that unit.",
+            "name": "Shielded Mek Shops"
+          },
+          {
+            "body": "▪ When making attacks with a MONSTER/VEHICLE model that targeted a MONSTER/VEHICLE unit, +1 to **[gloss:hit-roll:hit rolls]**.\n▪ When making attacks with a TITANIC model that targeted a TITANIC unit, +1 to **[gloss:wound-roll:wound rolls]**.",
+            "name": "Titan Clash"
+          }
+        ]
+      },
+      {
+        "bonus": {
+          "body": "When an Alliance first takes control of this location, each player in that Alliance that has 3 or more **Battle Skill** cards gains 1 **Agenda Achieved** card.",
+          "name": "A Hard-Fought Victory"
+        },
+        "grid": "1034-AR:Acheron",
+        "name": "Hive Acheron Subsprawl",
+        "phase": 3,
+        "roll": "5–6",
+        "slug": "hive-acheron-subsprawl",
+        "warZone": [
+          {
+            "body": "In the Declare Battle Formations step, each player can select up to three friendly INFANTRY units in **[gloss:strategic-reserves:strategic reserves]**; those units gain the following until the end of the battle:\n▪ [core:Deep Strike].\n▪ When that unit **[gloss:declare-charge:declares a charge]** in a turn in which it made an **[gloss:ingress-move:ingress move]**, you can re-roll the **[gloss:charge-roll:charge roll]**.",
+            "name": "Tunnel Fighters"
+          },
+          {
+            "body": "(Once per battle round) Each player can use the **Epic Challenge** stratagem for 0CP.",
+            "name": "One Shall Stand, One Shall Fall"
+          },
+          {
+            "body": "Each player's WARLORD has the following ability:\n**Front-line Hero (Aura):** while a friendly unit is within 6\" of this model, you can re-roll **[gloss:battle-shock-test:battle-shock rolls]** for that unit.",
+            "name": "Lead from the Front"
+          }
+        ]
+      }
+    ],
+    "rules": {
+      "blocks": [
+        {
+          "body": "An Armageddon campaign is split into 3 **campaign phases**, each of which consists of a number of battles. During each phase, the players will vie for control of a strategic **location**, before moving onto the next phase.\nTaking control of the final location is key to achieving victory, but it is only part of the challenge. Each player also has a set of **Agendas** they must achieve during the campaign. Only commanders who can achieve military success while accomplishing these vital goals will achieve everlasting glory on Armageddon.\nDesigned to be used with any Chapter Approved mission deck, you can play this campaign with as many players as you wish to organise. While you can stretch a single deck across multiple players, we recommend that each player has a deck for themselves for convenience.",
+          "id": "dom-campaigns",
+          "section": true,
+          "title": "Armageddon Campaigns"
+        },
+        {
+          "body": "Dominatus is best run with a **Warmaster**. They will take on the organisation of the campaign so that the other players can focus on playing games. A Warmaster can play in the campaign, but their primary role is to facilitate a smooth and enjoyable experience for all players involved. If such a heroic individual has not already volunteered themselves, the players can instead agree to take up the tasks of a Warmaster between themselves.",
+          "box": true,
+          "id": "dom-warmaster",
+          "title": "Warmaster"
+        },
+        {
+          "body": "The deck contains 89 cards:",
+          "iconList": [
+            {
+              "count": "27 cards",
+              "icon": "dom-agenda",
+              "target": "dom-chapter-agendas",
+              "title": "Agenda deck"
+            },
+            {
+              "count": "9 cards",
+              "icon": "dom-achieved",
+              "target": "dom-agenda-achieved",
+              "title": "Agenda Achieved deck"
+            },
+            {
+              "count": "9 cards",
+              "icon": "dom-briefing",
+              "target": "dom-chapter-briefings",
+              "title": "Briefing deck"
+            },
+            {
+              "count": "9 cards",
+              "icon": "dom-location",
+              "target": "dom-chapter-locations",
+              "title": "Location deck"
+            },
+            {
+              "count": "35 cards — further categorised as **Battle Honour** cards (×11), **Battle Skill** cards (×9) and **Relic** cards (×15).",
+              "icon": "dom-skill",
+              "target": "dom-chapter-upgrades",
+              "title": "Upgrade deck"
+            }
+          ],
+          "id": "dom-deck",
+          "title": "The Deck"
+        },
+        {
+          "body": "**Briefing cards** frame the narrative for each Alliance across the three campaign phases, listing the Agendas players can attempt depending on their Force Disposition and that of their opponent. On the reverse of each is a range of **Outcomes**, depending on how many **Narrative Points** you have gained.\n**Location cards** represent strategically important zones on the planet Armageddon. Each one features a **location bonus**; if an Alliance takes control of a location, all players in that Alliance gain its location bonus for the remainder of the campaign. On the reverse of each are **war zone rules** that apply to every battle fought during the same campaign phase.\n**Agenda cards** represent goals that you can attempt to achieve during each battle in a campaign phase. Each Alliance has a unique set of 9 Agendas: 3 for each campaign phase. One side lists the conditions that, if met, result in that player gaining Agenda Achieved cards; on the reverse is a Primary Mission, which tells you how to gain VP in the battle.",
+          "id": "dom-deck-cards",
+          "title": ""
+        },
+        {
+          "body": "When a player gains an **Agenda Achieved** card, they take one corresponding to their Alliance. These do not have any effect until the end of a campaign phase. A player cannot have more than 3 Agenda Achieved cards at any one time.\nEach card reads: \"At the end of each campaign phase, the Alliance with the most **Agenda Achieved** cards is in **ascendancy**. At the end of campaign phases 1 and 2, shuffle your Alliance's **Relics** deck, then turn over a number of cards equal to the number of **Agenda Achieved** cards you have. Select one of the revealed **Relic** cards to keep, and return the others to the deck.\"",
+          "id": "dom-agenda-achieved",
+          "title": "Agenda Achieved Cards"
+        },
+        {
+          "body": "Upgrade cards are acquired as the campaign unfolds. They represent special abilities that can improve the martial power of your warriors, and come in 3 types:\n▪ **Battle Skill** cards: earned at the end of a battle.\n▪ **Battle Honour** cards: earned at the end of a battle by the victor. There are 5 of these cards that can be earned during the first campaign phase, 5 during the second, and 1 during the third.\n▪ **Relic** cards: the most powerful type of upgrade and the hardest to earn, unlocked by gaining Agenda Achieved cards. There are 5 unique Relic cards for each Alliance.\nSome Upgrade cards list a **bonus effect** that applies when the upgrade is given to a particular type of model; such effects are always in addition to the normal effects listed on the card.\nA player keeps all the Upgrade cards they gain, but they cannot have a duplicate of an Upgrade card.",
+          "id": "dom-upgrades",
+          "title": "Upgrade Cards"
+        },
+        {
+          "body": "Before the campaign begins, the Warmaster should share a **Battle Schedule** with all players, informing them of the number of games each will play, and the army sizes they will need to muster. The default Battle Schedule below is designed to be played comfortably over the course of a weekend for players who can all muster a Strike Force sized army.",
+          "id": "dom-preparing",
+          "section": true,
+          "table": {
+            "headers": [
+              "Campaign phase",
+              "Battles per player",
+              "Battle size"
+            ],
+            "plate": true,
+            "rows": [
+              [
+                "1 (First Encounters Phase)",
+                "2",
+                "Strike Force"
+              ],
+              [
+                "2 (Pitched Battles Phase)",
+                "2",
+                "Strike Force"
+              ],
+              [
+                "3 (Final Mission Phase)",
+                "1",
+                "Strike Force"
+              ]
+            ],
+            "title": "Default Battle Schedule"
+          },
+          "title": "Preparing the Campaign"
+        },
+        {
+          "body": "The Warmaster will need to group all of the players into **Alliances**. A campaign must have an Oppressors Alliance and a Liberators Alliance. It can optionally have a Raiders Alliance as well. Alliances should be organised as evenly as possible, and based on the different factions players are using if possible. Players should play the same faction throughout the campaign.\nThese are guidelines, not requirements; if it suits the group better to organise Alliances differently, the Warmaster should do so.",
+          "boxes": [
+            {
+              "body": "Those who seek to free Armageddon, destroy the occupying forces and reestablish Imperial rule over the planet. The forces of the Imperium would be best suited to this Alliance.",
+              "icon": "dom-liberators",
+              "id": "liberators",
+              "title": "Liberators"
+            },
+            {
+              "body": "Those who wish to destroy Armageddon, slaughter its populace and watch the planet burn. The forces of the Orks are best suited to this Alliance.",
+              "icon": "dom-oppressors",
+              "id": "oppressors",
+              "title": "Oppressors"
+            },
+            {
+              "body": "The Raiders on Armageddon range from xenos warlords to Chaos renegades, all seeking to further their own agendas. This Alliance is best suited to those who carve their own path.",
+              "icon": "dom-raiders",
+              "id": "raiders",
+              "title": "Raiders"
+            }
+          ],
+          "boxesNote": "Once players have been grouped into Alliances, it is time for the struggle for Armageddon to begin!",
+          "id": "dom-alliances",
+          "title": "Alliances"
+        },
+        {
+          "body": "Players start the first campaign phase using the sequence below. After completing phases 1 and 2, start the next campaign phase and repeat this sequence. At the end of phase 3, the campaign ends.",
+          "id": "dom-start",
+          "section": true,
+          "title": "Start the Campaign"
+        },
+        {
+          "body": "At the start of each campaign phase, before any battles are fought, the Warmaster must:\n▪ Roll one D6 to randomly select one of that phase's **Location** cards.\n▪ Players read their Alliance's **Briefing** card for this phase.\n▪ Players gather their Alliance's **Agenda** cards for this phase.",
+          "id": "dom-start-phase",
+          "step": 1,
+          "title": "Start Campaign Phase"
+        },
+        {
+          "body": "Players from opposing Alliances now battle each other. The Warmaster can leave players to arrange games themselves, or organise days and times to help everyone play an equal number of games. In campaigns with a large number of players, each Alliance can be broken down into smaller subgroups that are then matched against each other.\nTo play a battle, the players generate a mission from any Chapter Approved mission deck (the Warmaster may curate this). The mission sequence is supplemented with the following rules.\n### Determine Mission step\n▪ Read aloud all **war zone rules** for that phase from your Location card — these apply to the upcoming battle.\n▪ If both players wish to attempt Agendas in the battle, do not use the Primary Missions in your mission deck. Instead, after revealing Force Disposition cards, the players use their Alliance's current **Briefing** card and use the chart on it to compare their selected Force Disposition with that of their opponent. This combination will result in a specific **Agenda** card, which will state the Primary Mission to use in this battle.",
+          "id": "dom-play-battles",
+          "step": 2,
+          "title": "Play Battles"
+        },
+        {
+          "body": "If one or both players decline to attempt Agendas in a battle, determine Primary Missions as described in your mission deck, but only the player(s) that declined to attempt Agendas can score VP from that Primary Mission. A player that opted to attempt an Agenda cannot score VP from that Primary Mission and instead they use the Primary Mission on their Agenda card.",
+          "box": true,
+          "id": "dom-declining",
+          "title": "Declining Agendas"
+        },
+        {
+          "body": "### Declare Battle Formations step\n▪ Each player can select up to 3 **Upgrade** cards they have earned during the campaign, and give each of those Upgrade cards to a different friendly unit until the end of the battle (a unit cannot have more than one Upgrade card).\n### Determine Victor step\n▪ Each player that opted to attempt an Agenda in the battle checks the conditions listed on their Agenda card. If these are met, that player takes the number of **Agenda Achieved** cards listed.\n▪ During campaign phases 1 and 2: the victor randomly draws 1 **Battle Honour** card from that phase's deck, and their opponent randomly draws 1 **Battle Skill** card. If the battle is a draw, both players randomly draw 1 Battle Skill card.\n▪ If a player gained 1 or more Agenda Achieved cards from the battle, they randomly draw 1 additional card of the same type at the same time. Each player then selects 1 of the drawn cards to keep, and returns the others to their respective decks.\n▪ During campaign phase 3: the victor gains the phase 3 Battle Honour card, **Path to Conquest**, and players prepare for a final climactic battle!",
+          "id": "dom-play-battles-steps",
+          "title": ""
+        },
+        {
+          "body": "At the end of each phase, each Alliance adds up the total number of Battle Honour cards gained from that phase and the number of Agenda Achieved cards its players have. Then, before starting a new phase or ending the campaign, resolve the following:\n1. **Take Control** — the Alliance with the most Battle Honour cards gained during this campaign phase takes control of the current location. If a location bonus defines additional effects when an Alliance takes control, resolve these now. In the event of a tie, tied Alliances use the total number of Battle Honours gained over the course of the entire campaign as a tie-breaker; if there is still a tie, the Warmaster decides how best to resolve it.\n2. **Determine Ascendancy** — the Alliance with the most Agenda Achieved cards is in **ascendancy**. This helps to determine the narrative Outcome of that phase. In the event of a tie, all tied Alliances are in ascendancy.\n3. **Acquire Relics** — at the end of campaign phases 1 and 2, each player takes their Alliance's Relic cards deck and randomly draws a number of cards equal to the number of Agenda Achieved cards that player has. That player selects 1 of those Relic cards to keep and returns the others to the deck.\n4. **Update Narrative Outcome** — the players read their Alliance's Outcome for that phase (on the reverse of their Briefing card). The Outcome depends on the number of **Narrative Points** your Alliance has earned this phase, as described on that card.\n5. **Discard** — players discard all Agenda Achieved cards they have from previous phases.",
+          "id": "dom-end-phase",
+          "step": 3,
+          "title": "End of Campaign Phase"
+        },
+        {
+          "body": "Once the Outcomes of campaign phase 3 have been read, the campaign ends.",
+          "id": "dom-end-campaign",
+          "step": 4,
+          "title": "End Campaign"
+        },
+        {
+          "body": "The reverse of each Briefing card says how an Alliance earns Narrative Points that phase:\n▪ Phases 1 and 2: gain 1 Narrative Point if your Alliance has control of this phase's Location, and gain 1 Narrative Point if your Alliance is in ascendancy (Outcomes for 2, 1 and 0).\n▪ Phase 3: gain 2 Narrative Points if your Alliance has control of this phase's Location, and gain 1 Narrative Point if your Alliance is in ascendancy (Outcomes for 3, 2, 1 and 0).",
+          "id": "dom-narrative-points",
+          "title": "Narrative Points"
+        },
+        {
+          "body": "The Warmaster can modify any of these rules to better suit the needs of their gaming group. While Dominatus is designed to be played over the course of a weekend, a Warmaster could use the deck to run a longer campaign by increasing the number of battles in a phase, remembering that phase 3 should consist of a single climactic final mission. It is also perfectly acceptable to vary the size-limit of players' armies as the campaign evolves, perhaps starting with smaller battle sizes in earlier phases and growing in subsequent ones.\nWarmasters are free to change or introduce new rules to better fit their own narrative, perhaps allowing players to swap factions mid-campaign, or even change Alliance as new pacts are forged and traitors discovered — remembering that their role is to ensure everyone taking part has an enjoyable experience.",
+          "box": true,
+          "id": "dom-modifying",
+          "title": "Modifying Dominatus"
+        }
+      ]
+    },
+    "upgrades": [
+      {
+        "body": "This model's melee weapons have [PRECISION]. While making attacks with this model that targeted a CHARACTER unit, you can re-roll **[gloss:hit-roll:hit rolls]**.",
+        "kind": "honour",
+        "name": "Kingslayer",
+        "phase": 1,
+        "slug": "kingslayer",
+        "who": "One CHARACTER model."
+      },
+      {
+        "body": "This unit's ranged weapons have [ASSAULT] and [HEAVY].",
+        "bonus": {
+          "body": "If this upgrade is given to a MONSTER/VEHICLE model, while making attacks with this model's [BLAST] weapons, you can re-roll **[gloss:hit-roll:hit rolls]** of 1.",
+          "label": "MONSTER/VEHICLE"
+        },
+        "kind": "honour",
+        "name": "Fire and Fury",
+        "phase": 1,
+        "slug": "fire-and-fury",
+        "who": "One CHARACTER model."
+      },
+      {
+        "body": "This unit has [core:Stealth].",
+        "kind": "honour",
+        "name": "Shadow Stalker",
+        "phase": 1,
+        "slug": "shadow-stalker",
+        "who": "One CHARACTER model."
+      },
+      {
+        "body": "In the Fight phase, when an enemy unit that targeted this unit has resolved its attacks, for each model in this unit that was **[gloss:destroyed:destroyed]** as a result of those attacks, roll one D6: for each 5+, the attacking unit suffers 1 **[gloss:mortal-wound:mortal wound]**.",
+        "bonus": {
+          "body": "If this upgrade is given to a MONSTER model, the attacking unit suffers D3 **[gloss:mortal-wound:mortal wounds]** for each 5+ instead.",
+          "label": "MONSTER"
+        },
+        "kind": "honour",
+        "name": "Undying Duty",
+        "phase": 1,
+        "slug": "undying-duty",
+        "who": "One CHARACTER model."
+      },
+      {
+        "body": "While this unit is not **[gloss:battle-shocked:battle-shocked]**, it has +1 OC.",
+        "bonus": {
+          "body": "If this upgrade is given to an INFANTRY model, you can re-roll **[gloss:leadership-roll:leadership rolls]** made for its unit.",
+          "label": "INFANTRY"
+        },
+        "kind": "honour",
+        "name": "Grim Veterans",
+        "phase": 1,
+        "slug": "grim-veterans",
+        "who": "One CHARACTER model."
+      },
+      {
+        "body": "This unit is not **[gloss:visible:visible]** to enemy models unless they are within 18\" of it.",
+        "kind": "honour",
+        "name": "Wraith of Ruin",
+        "phase": 2,
+        "slug": "wraith-of-ruin",
+        "who": "One CHARACTER model."
+      },
+      {
+        "body": "This unit has +2\" M.",
+        "bonus": {
+          "body": "If this upgrade is given to a MONSTER/VEHICLE model, this unit has +3\" M instead.",
+          "label": "MONSTER/VEHICLE"
+        },
+        "kind": "honour",
+        "name": "Swift as the Wind",
+        "phase": 2,
+        "slug": "swift-as-the-wind",
+        "who": "One CHARACTER model."
+      },
+      {
+        "body": "You can re-roll **[gloss:charge-roll:charge rolls]** made for this unit.",
+        "bonus": {
+          "body": "If this upgrade is given to a MOUNTED model, you can re-roll **[gloss:advance-roll:advance rolls]** made for its unit.",
+          "label": "MOUNTED"
+        },
+        "kind": "honour",
+        "name": "Battle Hungry",
+        "phase": 2,
+        "slug": "battle-hungry",
+        "who": "One CHARACTER model."
+      },
+      {
+        "body": "This unit's melee weapons have [SUSTAINED HITS 1].",
+        "bonus": {
+          "body": "If this upgrade is given to a MONSTER/VEHICLE model, this model's melee weapons have [CLEAVE 1].",
+          "label": "MONSTER/VEHICLE"
+        },
+        "kind": "honour",
+        "name": "Ferocious Combatant",
+        "phase": 2,
+        "slug": "ferocious-combatant",
+        "who": "One CHARACTER model."
+      },
+      {
+        "body": "In your Shooting phase, while making attacks with this unit, this unit's weapons that targeted an enemy unit within 18\" have [IGNORES COVER].",
+        "kind": "honour",
+        "name": "Breach and Burn",
+        "phase": 2,
+        "slug": "breach-and-burn",
+        "who": "One CHARACTER model."
+      },
+      {
+        "body": "**End of campaign phase:** at the end of campaign phase 3, the Alliance with the most Phase 3 Battle Honours takes control of the Phase 3 Location.",
+        "kind": "honour",
+        "name": "Path to Conquest",
+        "phase": 3,
+        "slug": "path-to-conquest",
+        "who": ""
+      },
+      {
+        "body": "At the start of the Fight phase, select one enemy unit **[gloss:engaged:engaged]** with this unit. Your opponent must make a **[gloss:battle-shock-test:battle-shock roll]** for that enemy unit.",
+        "bonus": {
+          "body": "If this upgrade is given to a MONSTER/VEHICLE model, when making battle-shock rolls as a result of this upgrade, subtract 1 from the result.",
+          "label": "MONSTER/VEHICLE"
+        },
+        "kind": "skill",
+        "name": "Terrifying Presence",
+        "slug": "terrifying-presence",
+        "who": "One CHARACTER model."
+      },
+      {
+        "body": "In the Redeploy Units step, select up to three friendly units and redeploy them or place them in **[gloss:strategic-reserves:strategic reserves]**. These units do not count towards the strategic reserves limit.",
+        "kind": "skill",
+        "name": "Tactical Redeployment",
+        "slug": "tactical-redeployment",
+        "who": "One CHARACTER model."
+      },
+      {
+        "body": "This unit can **shoot** and **[gloss:declare-charge:declare a charge]** in a turn in which it made a **[gloss:fall-back-move:fall-back move]**.",
+        "bonus": {
+          "body": "If this upgrade is given to an INFANTRY model, this unit can **[gloss:action:start an action]** in a turn in which it made a fall-back move.",
+          "label": "INFANTRY"
+        },
+        "kind": "skill",
+        "name": "Tempered in Battle",
+        "slug": "tempered-in-battle",
+        "who": "One CHARACTER model."
+      },
+      {
+        "body": "While making attacks with this unit with weapons that targeted a unit within 9\", you can re-roll **[gloss:hit-roll:hit rolls]**.",
+        "kind": "skill",
+        "name": "Front-line Champion",
+        "slug": "front-line-champion",
+        "who": "One CHARACTER model."
+      },
+      {
+        "body": "(Once per battle) When a unit's attacks target this unit, this model can use this upgrade. If it does, this unit has an **[gloss:invulnerable-save:InSv]** of 4+ until those attacks have been resolved.",
+        "kind": "skill",
+        "name": "Fortune's Favoured",
+        "slug": "fortunes-favoured",
+        "who": "One CHARACTER model."
+      },
+      {
+        "body": "You start the battle with 1CP.",
+        "bonus": {
+          "body": "If this upgrade is given to your WARLORD, you start the battle with 2CP instead.",
+          "label": "WARLORD"
+        },
+        "kind": "skill",
+        "name": "High Strategy",
+        "slug": "high-strategy",
+        "who": "One CHARACTER model."
+      },
+      {
+        "body": "This model has the following ability:\n**Inspiring Presence (Aura):** while a friendly unit (excluding units **[gloss:half-strength:below half-strength]**) is within 9\" of this model, **[gloss:battle-shock-test:battle-shock rolls]** for that unit are automatically successful.",
+        "bonus": {
+          "body": "If this upgrade is given to your WARLORD, while a friendly unit is within 9\" of this model, that unit has +1 Ld.",
+          "label": "WARLORD"
+        },
+        "kind": "skill",
+        "name": "Natural Leader",
+        "slug": "natural-leader",
+        "who": "One CHARACTER model."
+      },
+      {
+        "body": "This unit has [core:Scouts 6\"].",
+        "bonus": {
+          "body": "If this upgrade is given to a MOUNTED model, this unit has [core:Scouts 9\"] instead.",
+          "label": "MOUNTED"
+        },
+        "kind": "skill",
+        "name": "Lead from the Front",
+        "slug": "lead-from-the-front",
+        "who": "One CHARACTER model."
+      },
+      {
+        "body": "This model has [core:Feel No Pain 6+].",
+        "bonus": {
+          "body": "If this upgrade is given to an INFANTRY/MOUNTED model, it has [core:Feel No Pain 5+] instead.",
+          "label": "INFANTRY/MOUNTED"
+        },
+        "kind": "skill",
+        "name": "Born Survivor",
+        "slug": "born-survivor",
+        "who": "One CHARACTER model."
+      },
+      {
+        "alliance": "liberators",
+        "body": "When this unit is **[gloss:selected-to-fight:selected to fight]**, this model can **channel its soul**. If it does, select 1, 2 or 3 wounds for this model to lose (it cannot lose more than its remaining number of wounds). Until the end of the phase, for each wound this model just lost from channelling its soul, this model's melee weapons have +1 A, S and AP.",
+        "kind": "relic",
+        "name": "Blade of Sacrifice",
+        "slug": "blade-of-sacrifice",
+        "who": "One CHARACTER model (excluding EPIC HEROES)."
+      },
+      {
+        "alliance": "liberators",
+        "body": "In your Command phase, if this unit controls an **[gloss:objective:objective]**, make a **[gloss:leadership-roll:leadership roll]** for this unit: if that roll succeeds, you gain 1CP.",
+        "kind": "relic",
+        "name": "Strategic Laurels",
+        "slug": "strategic-laurels",
+        "who": "One CHARACTER model."
+      },
+      {
+        "alliance": "liberators",
+        "body": "At the start of your first Command phase:\n▪ **If you are using Fixed Missions:** you can discard one of your Fixed Missions and replace it with a different Fixed Mission of your choice.\n▪ **If you are using Tactical Missions:** look at the top 3 cards from your Tactical Missions deck, then place them back on top of that deck face down, in an order of your choice.",
+        "kind": "relic",
+        "name": "The Emperor's Tarot",
+        "slug": "the-emperors-tarot",
+        "who": "One CHARACTER model."
+      },
+      {
+        "alliance": "liberators",
+        "body": "(Once per battle) In your Shooting phase, when this unit is **[gloss:selected-to-shoot:selected to shoot]**, it can use this Relic. If it does, resolve the following sequence:\n1. Select one **[gloss:unengaged:unengaged]** enemy unit within 8\" of this model.\n2. Roll three D6: for each 2+, that enemy unit suffers D3 **[gloss:mortal-wound:mortal wounds]**.\n3. Make one **[gloss:hazard-roll:hazard roll]** for this unit.",
+        "kind": "relic",
+        "name": "Vortex Grenade",
+        "slug": "vortex-grenade",
+        "who": "One CHARACTER model."
+      },
+      {
+        "alliance": "liberators",
+        "body": "▪ This model has an **[gloss:invulnerable-save:InSv]** of 4+.\n▪ This model has +1 T, Sv and W.",
+        "kind": "relic",
+        "name": "Master-crafted Armour",
+        "slug": "master-crafted-armour",
+        "who": "One CHARACTER model (excluding EPIC HEROES)."
+      },
+      {
+        "alliance": "oppressors",
+        "body": "(Once per battle) When this unit is **[gloss:selected-to-fight:selected to fight]**, this model can use this Relic. If it does, select one of this model's melee weapons to gain the following until the end of the phase:\n▪ [DEVASTATING WOUNDS] and [HAZARDOUS].\n▪ Add half the current battle round number (rounding up) to its A and S.",
+        "kind": "relic",
+        "name": "Ruinator",
+        "slug": "ruinator",
+        "who": "One CHARACTER model (excluding EPIC HEROES)."
+      },
+      {
+        "alliance": "oppressors",
+        "body": "This unit has [core:Fights First].",
+        "kind": "relic",
+        "name": "Temporal Talisman",
+        "slug": "temporal-talisman",
+        "who": "One CHARACTER model (excluding EPIC HEROES)."
+      },
+      {
+        "alliance": "oppressors",
+        "body": "▪ This unit has [core:Deep Strike].\n▪ (Once per battle) You can target this unit with the **Rapid Ingress** stratagem for 0CP.",
+        "kind": "relic",
+        "name": "Personal Teleporter",
+        "slug": "personal-teleporter",
+        "who": "One CHARACTER model."
+      },
+      {
+        "alliance": "oppressors",
+        "body": "▪ In your Command phase, this model regains up to D3 lost wounds.\n▪ The first time this model is **[gloss:destroyed:destroyed]**, remove it from the battlefield, then, at the end of the phase, roll one D6, adding 2 to the result if this model is an INFANTRY or MOUNTED model: on a 4+, set this model back up on the battlefield as close as possible to where it was destroyed, **[gloss:unengaged:unengaged]**, with 3 wounds remaining.",
+        "kind": "relic",
+        "name": "Enhanced Bionics",
+        "slug": "enhanced-bionics",
+        "who": "One CHARACTER model."
+      },
+      {
+        "alliance": "oppressors",
+        "body": "▪ This unit has an **[gloss:invulnerable-save:InSv]** of 5+ against ranged attacks.\n▪ While this unit is the target of ranged attacks, for each unmodified **[gloss:save-roll:save roll]** of 6, the attacking unit suffers 1 **[gloss:mortal-wound:mortal wound]** after it has resolved its attacks.",
+        "kind": "relic",
+        "name": "Powerfield Projector",
+        "slug": "powerfield-projector",
+        "who": "One CHARACTER model (excluding EPIC HEROES)."
+      },
+      {
+        "alliance": "raiders",
+        "body": "(Once per battle) At the end of your opponent's Shooting phase, if this unit is **[gloss:unengaged:unengaged]** and it was targeted by one or more attacks this phase, you can remove this unit from the battlefield and place it into **[gloss:strategic-reserves:strategic reserves]**. If you do, when you next make an **[gloss:ingress-move:ingress move]** with this unit, it has [core:Deep Strike] until that move ends.",
+        "kind": "relic",
+        "name": "Displacer Field",
+        "slug": "displacer-field",
+        "who": "One CHARACTER model."
+      },
+      {
+        "alliance": "raiders",
+        "body": "This model has the following aura ability:\n**Agent of Discord (Aura):** when an opponent's stratagem targets an enemy unit within 12\" of this model, increase its cost by 1CP for that use.",
+        "kind": "relic",
+        "name": "Disruption Orb",
+        "slug": "disruption-orb",
+        "who": "One CHARACTER model."
+      },
+      {
+        "alliance": "raiders",
+        "body": "This unit has [core:Infiltrators].",
+        "kind": "relic",
+        "name": "Cloak of Shadows",
+        "slug": "cloak-of-shadows",
+        "who": "One CHARACTER model (excluding EPIC HEROES)."
+      },
+      {
+        "alliance": "raiders",
+        "body": "Enemy units that are making an **[gloss:ingress-move:ingress move]** cannot be set up within 12\" of this model.",
+        "kind": "relic",
+        "name": "Maelstrom Clarion",
+        "slug": "maelstrom-clarion",
+        "who": "One CHARACTER model."
+      },
+      {
+        "alliance": "raiders",
+        "body": "▪ This model's melee weapons have +1 AP and D.\n▪ In the Fight phase, while making attacks with this model, you can re-roll **[gloss:wound-roll:wound rolls]**.",
+        "kind": "relic",
+        "name": "Fate-forged Weapon",
+        "slug": "fate-forged-weapon",
+        "who": "One CHARACTER model (excluding EPIC HEROES)."
+      }
+    ]
+  }
+}

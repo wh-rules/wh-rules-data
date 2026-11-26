@@ -1,0 +1,937 @@
+{
+  "default": {
+    "detachments": [
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Clandestine Operation",
+            "points": 15
+          },
+          {
+            "name": "Combat Landers",
+            "points": 10
+          },
+          {
+            "name": "Digital Weapons",
+            "points": 10
+          },
+          {
+            "name": "Fleetmaster",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Imperialis Fleet"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Ignis Judicium",
+            "points": 10
+          },
+          {
+            "name": "Liber Heresius",
+            "points": 10
+          },
+          {
+            "name": "No Escape",
+            "points": 25
+          },
+          {
+            "name": "Witch Hunter",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Ordo Hereticus, Purgation Force"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Daemon Slayer",
+            "points": 10
+          },
+          {
+            "name": "Formidable Resolve",
+            "points": 5
+          },
+          {
+            "name": "Gift of the Prescient",
+            "points": 20
+          },
+          {
+            "name": "Grimoire of True Names",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Ordo Malleus, Daemon Hunters"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Amulet of Auto-chastisement",
+            "points": 25
+          },
+          {
+            "name": "Beacon Angelis",
+            "points": 30
+          },
+          {
+            "name": "Blackweave Shroud",
+            "points": 15
+          },
+          {
+            "name": "Universal Anathema",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Purge the Foe"
+        ],
+        "name": "Ordo Xenos, Alien Hunters"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Decoy Targets",
+            "points": 15
+          },
+          {
+            "name": "Esoteric Explosives",
+            "points": 10
+          },
+          {
+            "name": "Introneural Biotech",
+            "points": 15
+          },
+          {
+            "name": "Micromelta Rounds",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Veiled Blade Elimination Force"
+      }
+    ],
+    "id": "imperial-agents",
+    "legends": [
+      {
+        "name": "Daemonhost",
+        "options": [
+          {
+            "models": 1,
+            "points": 40
+          },
+          {
+            "models": 2,
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Damned Legionnaires",
+        "options": [
+          {
+            "models": 5,
+            "points": 90
+          },
+          {
+            "models": 10,
+            "points": 180
+          }
+        ]
+      },
+      {
+        "name": "Deathwatch Terminator Squad",
+        "options": [
+          {
+            "models": 5,
+            "points": 210
+          },
+          {
+            "models": 10,
+            "points": 420
+          }
+        ]
+      },
+      {
+        "name": "Fortis Kill Team",
+        "options": [
+          {
+            "models": 5,
+            "points": 100
+          },
+          {
+            "models": 10,
+            "points": 200
+          }
+        ]
+      },
+      {
+        "name": "Indomitor Kill Team",
+        "options": [
+          {
+            "models": 5,
+            "points": 120
+          },
+          {
+            "models": 10,
+            "points": 240
+          }
+        ]
+      },
+      {
+        "name": "Inquisitor Eisenhorn",
+        "options": [
+          {
+            "models": 1,
+            "points": 65
+          }
+        ]
+      },
+      {
+        "name": "Inquisitor in Terminator Armour",
+        "options": [
+          {
+            "models": 1,
+            "points": 70
+          }
+        ]
+      },
+      {
+        "name": "Inquisitor Karamazov",
+        "options": [
+          {
+            "models": 1,
+            "points": 140
+          }
+        ]
+      },
+      {
+        "name": "Inquisitor Ostromandeus",
+        "options": [
+          {
+            "models": 2,
+            "points": 65
+          }
+        ]
+      },
+      {
+        "name": "Janus Draik",
+        "options": [
+          {
+            "models": 1,
+            "points": 40
+          }
+        ]
+      },
+      {
+        "name": "Jokaero Weaponsmith",
+        "options": [
+          {
+            "models": 1,
+            "points": 30
+          }
+        ]
+      },
+      {
+        "name": "Kill Team Cassius",
+        "options": [
+          {
+            "models": 11,
+            "points": 220
+          }
+        ]
+      },
+      {
+        "name": "Neyam Shai Murad",
+        "options": [
+          {
+            "models": 1,
+            "points": 40
+          }
+        ]
+      },
+      {
+        "name": "Proteus Kill Team",
+        "options": [
+          {
+            "models": 5,
+            "points": 160
+          },
+          {
+            "models": 10,
+            "points": 320
+          }
+        ]
+      },
+      {
+        "name": "Spectrus Kill Team",
+        "options": [
+          {
+            "models": 5,
+            "points": 90
+          },
+          {
+            "models": 10,
+            "points": 180
+          }
+        ]
+      },
+      {
+        "name": "Ur-025",
+        "options": [
+          {
+            "models": 1,
+            "points": 55
+          }
+        ]
+      },
+      {
+        "name": "Veteran Bike Squad",
+        "options": [
+          {
+            "models": 3,
+            "points": 70
+          },
+          {
+            "models": 6,
+            "points": 140
+          }
+        ]
+      }
+    ],
+    "name": "Imperial Agents",
+    "slug": "imperial-agents",
+    "sourceUrl": "https://mfm.warhammer-community.com/en/imperial-agents",
+    "subfactions": [
+      {
+        "name": "Agents of the Imperium (allied)",
+        "units": [
+          {
+            "name": "Aquila Kill Team",
+            "options": [
+              {
+                "models": 5,
+                "points": 110
+              },
+              {
+                "models": 10,
+                "points": 210
+              }
+            ]
+          },
+          {
+            "name": "Callidus Assassin",
+            "options": [
+              {
+                "models": 1,
+                "points": 100
+              }
+            ]
+          },
+          {
+            "name": "Corvus Blackstar",
+            "options": [
+              {
+                "models": 1,
+                "points": 180
+              }
+            ]
+          },
+          {
+            "name": "Culexus Assassin",
+            "options": [
+              {
+                "models": 1,
+                "points": 85
+              }
+            ]
+          },
+          {
+            "name": "Deathwatch Kill Team",
+            "options": [
+              {
+                "models": 5,
+                "points": 115
+              },
+              {
+                "models": 10,
+                "points": 220
+              }
+            ]
+          },
+          {
+            "name": "Eversor Assassin",
+            "options": [
+              {
+                "models": 1,
+                "points": 110
+              }
+            ]
+          },
+          {
+            "name": "Exaction Squad",
+            "options": [
+              {
+                "models": 11,
+                "points": 85
+              }
+            ]
+          },
+          {
+            "name": "Grey Knights Terminator Squad",
+            "options": [
+              {
+                "models": 5,
+                "points": 190
+              }
+            ],
+            "wargear": [
+              {
+                "name": "Psycannon",
+                "points": 5
+              }
+            ]
+          },
+          {
+            "name": "Imperial Navy Breachers",
+            "options": [
+              {
+                "models": 10,
+                "points": 90
+              }
+            ]
+          },
+          {
+            "name": "Imperial Rhino",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-3rd",
+                "points": 65
+              },
+              {
+                "models": 1,
+                "note": "4th+",
+                "points": 75
+              }
+            ]
+          },
+          {
+            "name": "Inquisitor",
+            "options": [
+              {
+                "models": 1,
+                "points": 65
+              }
+            ]
+          },
+          {
+            "name": "Inquisitor Coteaz",
+            "options": [
+              {
+                "models": 1,
+                "points": 95
+              }
+            ]
+          },
+          {
+            "name": "Inquisitor Draxus",
+            "options": [
+              {
+                "models": 1,
+                "points": 110
+              }
+            ]
+          },
+          {
+            "name": "Inquisitor Greyfax",
+            "options": [
+              {
+                "models": 1,
+                "points": 65
+              }
+            ]
+          },
+          {
+            "name": "Inquisitorial Agents",
+            "options": [
+              {
+                "models": 6,
+                "points": 60
+              },
+              {
+                "models": 12,
+                "points": 120
+              }
+            ]
+          },
+          {
+            "name": "Inquisitorial Chimera",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-3rd",
+                "points": 60
+              },
+              {
+                "models": 1,
+                "note": "4th+",
+                "points": 70
+              }
+            ]
+          },
+          {
+            "name": "Inquisitor Kroyle",
+            "options": [
+              {
+                "models": 1,
+                "points": 100
+              }
+            ]
+          },
+          {
+            "name": "Ministorum Priest",
+            "options": [
+              {
+                "models": 1,
+                "points": 40
+              }
+            ]
+          },
+          {
+            "name": "Navigator",
+            "options": [
+              {
+                "models": 1,
+                "points": 75
+              }
+            ]
+          },
+          {
+            "name": "Rogue Trader Entourage",
+            "options": [
+              {
+                "models": 4,
+                "points": 105
+              }
+            ]
+          },
+          {
+            "name": "Sanctifiers",
+            "options": [
+              {
+                "models": 9,
+                "points": 100
+              }
+            ]
+          },
+          {
+            "name": "Sisters of Battle Immolator",
+            "options": [
+              {
+                "models": 1,
+                "note": "1st-3rd",
+                "points": 105
+              },
+              {
+                "models": 1,
+                "note": "4th+",
+                "points": 115
+              }
+            ],
+            "wargear": [
+              {
+                "name": "Twin Multi-melta",
+                "points": 15
+              }
+            ]
+          },
+          {
+            "name": "Sisters of Battle Squad",
+            "options": [
+              {
+                "models": 10,
+                "points": 110
+              }
+            ]
+          },
+          {
+            "name": "Subductor Squad",
+            "options": [
+              {
+                "models": 11,
+                "points": 100
+              }
+            ]
+          },
+          {
+            "name": "Vigilant Squad",
+            "options": [
+              {
+                "models": 11,
+                "points": 85
+              }
+            ]
+          },
+          {
+            "name": "Vindicare Assassin",
+            "options": [
+              {
+                "models": 1,
+                "points": 125
+              }
+            ]
+          },
+          {
+            "name": "Voidsmen-At-Arms",
+            "options": [
+              {
+                "models": 6,
+                "points": 70
+              }
+            ]
+          },
+          {
+            "name": "Watch Captain Artemis",
+            "options": [
+              {
+                "models": 1,
+                "points": 75
+              }
+            ]
+          },
+          {
+            "name": "Watch Master",
+            "options": [
+              {
+                "models": 1,
+                "points": 105
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "units": [
+      {
+        "name": "Aquila Kill Team",
+        "options": [
+          {
+            "models": 5,
+            "points": 110
+          },
+          {
+            "models": 10,
+            "points": 210
+          }
+        ]
+      },
+      {
+        "name": "Callidus Assassin",
+        "options": [
+          {
+            "models": 1,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Corvus Blackstar",
+        "options": [
+          {
+            "models": 1,
+            "points": 180
+          }
+        ]
+      },
+      {
+        "name": "Culexus Assassin",
+        "options": [
+          {
+            "models": 1,
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Deathwatch Kill Team",
+        "options": [
+          {
+            "models": 5,
+            "points": 115
+          },
+          {
+            "models": 10,
+            "points": 220
+          }
+        ]
+      },
+      {
+        "name": "Eversor Assassin",
+        "options": [
+          {
+            "models": 1,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Exaction Squad",
+        "options": [
+          {
+            "models": 11,
+            "points": 90
+          }
+        ]
+      },
+      {
+        "name": "Grey Knights Terminator Squad",
+        "options": [
+          {
+            "models": 5,
+            "points": 175
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Psycannon",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Imperial Navy Breachers",
+        "options": [
+          {
+            "models": 10,
+            "points": 90
+          }
+        ]
+      },
+      {
+        "name": "Imperial Rhino",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-3rd",
+            "points": 65
+          },
+          {
+            "models": 1,
+            "note": "4th+",
+            "points": 75
+          }
+        ]
+      },
+      {
+        "name": "Inquisitor",
+        "options": [
+          {
+            "models": 1,
+            "points": 55
+          }
+        ]
+      },
+      {
+        "name": "Inquisitor Coteaz",
+        "options": [
+          {
+            "models": 1,
+            "points": 75
+          }
+        ]
+      },
+      {
+        "name": "Inquisitor Draxus",
+        "options": [
+          {
+            "models": 1,
+            "points": 75
+          }
+        ]
+      },
+      {
+        "name": "Inquisitor Greyfax",
+        "options": [
+          {
+            "models": 1,
+            "points": 65
+          }
+        ]
+      },
+      {
+        "name": "Inquisitorial Agents",
+        "options": [
+          {
+            "models": 6,
+            "points": 50
+          },
+          {
+            "models": 12,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Inquisitorial Chimera",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-3rd",
+            "points": 60
+          },
+          {
+            "models": 1,
+            "note": "4th+",
+            "points": 70
+          }
+        ]
+      },
+      {
+        "name": "Inquisitor Kroyle",
+        "options": [
+          {
+            "models": 1,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Ministorum Priest",
+        "options": [
+          {
+            "models": 1,
+            "points": 40
+          }
+        ]
+      },
+      {
+        "name": "Navigator",
+        "options": [
+          {
+            "models": 1,
+            "points": 60
+          }
+        ]
+      },
+      {
+        "name": "Rogue Trader Entourage",
+        "options": [
+          {
+            "models": 4,
+            "points": 75
+          }
+        ]
+      },
+      {
+        "name": "Sanctifiers",
+        "options": [
+          {
+            "models": 9,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Sisters of Battle Immolator",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-3rd",
+            "points": 90
+          },
+          {
+            "models": 1,
+            "note": "4th+",
+            "points": 100
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Twin Multi-melta",
+            "points": 15
+          }
+        ]
+      },
+      {
+        "name": "Sisters of Battle Squad",
+        "options": [
+          {
+            "models": 10,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Subductor Squad",
+        "options": [
+          {
+            "models": 11,
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Vigilant Squad",
+        "options": [
+          {
+            "models": 11,
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Vindicare Assassin",
+        "options": [
+          {
+            "models": 1,
+            "points": 110
+          }
+        ]
+      },
+      {
+        "name": "Voidsmen-At-Arms",
+        "options": [
+          {
+            "models": 6,
+            "points": 50
+          }
+        ]
+      },
+      {
+        "name": "Watch Captain Artemis",
+        "options": [
+          {
+            "models": 1,
+            "points": 75
+          }
+        ]
+      },
+      {
+        "name": "Watch Master",
+        "options": [
+          {
+            "models": 1,
+            "points": 105
+          }
+        ]
+      }
+    ]
+  }
+}

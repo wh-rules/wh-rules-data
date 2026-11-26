@@ -1,0 +1,25 @@
+{
+  "coreModifiers": [
+    {
+      "effects": [
+        {
+          "cond": [
+            "unit-battle-shocked"
+          ],
+          "on": "profile",
+          "op": "set",
+          "stat": "oc",
+          "value": "-",
+          "when": {
+            "en": "while this unit is Battle-shocked",
+            "ru": "пока отряд Battle-shocked"
+          }
+        }
+      ],
+      "kind": "core",
+      "name": "Battle-shock",
+      "num": "01.07",
+      "sid": "core:01.07"
+    }
+  ]
+}

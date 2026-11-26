@@ -1,0 +1,3253 @@
+{
+  "black-templars": {
+    "intro": "What follow are official rules, and we actively encourage you to use them in your games at home, in stores, clubs, and campaigns. Your classic units and characters are still awesome, and there is no shortage of battles for them still to fight.\n\nAs points values for Legends units are not updated with the same regularity as units in your Codex, we do not recommend their inclusion in competitive Warhammer Events without the permission of the event organisers.\n\nWarhammer Legends come in two varieties:\n\n▪ Units that are no longer part of your army's Codex, but which are still supported with their own datasheets and Legend points in the Munitorum Field Manual. You can include these units in your army in the same way as other units from your Codex, though bear in mind the disclaimer about competitive Warhammer Events, above. Some Legends datasheets represent more than one unit – where this is the case, those will be listed below.\n\n▪ Units that are well represented by other datasheets in your army's Codex - we refer to these as Legendary Proxies units. While these units may differ in significant ways from those described by these datasheets, these rules are the best way to represent these units in your battles. Legends units that use a datasheet shared by more than one unit also use these rules. To use Legendary Proxies units in your army, simply use the relevant datasheet indicated below, complete with its points value(s) in the Munitorum Field Manual, and field your unit as you would any other. When running through the mission sequence, be sure that your opponent understands which units your Legendary Proxies units represent. Bear in mind that Legendary Proxies units may vary in size or base size from the units they are counting as. When an issue arises during battle as a result of this (for example, because a Legendary Proxies unit is visible when the unit it is representing wouldn't be), it is good practice to err in favour of the other player.",
+    "of": "space-marines",
+    "proxies": [
+      {
+        "id": "desolation-squad",
+        "legacy": [
+          "Devastator Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "devastator-squad",
+            "name": "Devastator Squad"
+          }
+        ],
+        "use": "Desolation Squad"
+      },
+      {
+        "id": "lieutenant-in-phobos-armour",
+        "legacy": [
+          "Lieutenant in Reiver Armour",
+          "Sergeant Telion"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "lieutenant-in-reiver-armour",
+            "name": "Lieutenant in Reiver Armour"
+          },
+          {
+            "faction": "space-marines",
+            "id": "sergeant-telion",
+            "name": "Sergeant Telion"
+          }
+        ],
+        "use": "Lieutenant in Phobos Armour"
+      },
+      {
+        "id": "inceptor-squad",
+        "legacy": [
+          "Suppressor Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "suppressor-squad",
+            "name": "Suppressor Squad"
+          }
+        ],
+        "use": "Inceptor Squad"
+      },
+      {
+        "id": "intercessor-squad",
+        "legacy": [
+          "Tactical Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "tactical-squad",
+            "name": "Tactical Squad"
+          }
+        ],
+        "use": "Intercessor Squad"
+      },
+      {
+        "id": "captain",
+        "legacy": [
+          "Ferren Aerios",
+          "Pedro Kantor",
+          "Uriel Ventris",
+          "Primaris Company Champion"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "pedro-kantor",
+            "name": "Pedro Kantor"
+          },
+          {
+            "faction": "space-marines",
+            "id": "uriel-ventris",
+            "name": "Uriel Ventris"
+          },
+          {
+            "faction": "space-marines",
+            "id": "primaris-company-champion",
+            "name": "Primaris Company Champion"
+          }
+        ],
+        "use": "Captain"
+      },
+      {
+        "id": "land-raider",
+        "legacy": [
+          "Land Raider Helios",
+          "Land Raider Prometheus",
+          "Land Raider Terminus Ultra",
+          "Land Raider Proteus",
+          "Land Raider Achilles",
+          "Spartan Assault Tank"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "land-raider-helios",
+            "name": "Land Raider Helios"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-raider-prometheus",
+            "name": "Land Raider Prometheus"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-raider-proteus",
+            "name": "Land Raider Proteus"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-raider-achilles",
+            "name": "Land Raider Achilles"
+          }
+        ],
+        "use": "Land Raider"
+      },
+      {
+        "id": "predator-destructor",
+        "legacy": [
+          "Deimos Predator"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "deimos-predator",
+            "name": "Deimos Predator"
+          }
+        ],
+        "use": "Predator Destructor"
+      },
+      {
+        "id": "venerable-dreadnought",
+        "legacy": [
+          "Chaplain Venerable Dreadnought",
+          "Ironclad Dreadnought"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "chaplain-venerable-dreadnought",
+            "name": "Chaplain Venerable Dreadnought"
+          },
+          {
+            "faction": "space-marines",
+            "id": "ironclad-dreadnought",
+            "name": "Ironclad Dreadnought"
+          }
+        ],
+        "use": "Venerable Dreadnought"
+      },
+      {
+        "id": "land-speeder",
+        "legacy": [
+          "Land Speeder Tempest",
+          "Land Speeder Tornado",
+          "Land Speeder Typhoon",
+          "Land Speeder Storm"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-tempest",
+            "name": "Land Speeder Tempest"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-tornado",
+            "name": "Land Speeder Tornado"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-typhoon",
+            "name": "Land Speeder Typhoon"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-storm",
+            "name": "Land Speeder Storm"
+          }
+        ],
+        "use": "Land Speeder"
+      },
+      {
+        "id": "redemptor-dreadnought",
+        "legacy": [
+          "Carab Culln the Risen",
+          "Relic Contemptor Dreadnought",
+          "Leviathan Dreadnought"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "carab-culln-the-risen",
+            "name": "Carab Culln the Risen"
+          },
+          {
+            "faction": "space-marines",
+            "id": "relic-contemptor-dreadnought",
+            "name": "Relic Contemptor Dreadnought"
+          },
+          {
+            "faction": "space-marines",
+            "id": "leviathan-dreadnought",
+            "name": "Leviathan Dreadnought"
+          }
+        ],
+        "use": "Redemptor Dreadnought"
+      },
+      {
+        "id": "stormraven-gunship",
+        "legacy": [
+          "Caestus Assault Ram",
+          "Xiphon Interceptor",
+          "Storm Eagle Gunship",
+          "Fire Raptor Gunship"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "caestus-assault-ram",
+            "name": "Caestus Assault Ram"
+          },
+          {
+            "faction": "space-marines",
+            "id": "xiphon-interceptor",
+            "name": "Xiphon Interceptor"
+          },
+          {
+            "faction": "space-marines",
+            "id": "storm-eagle-gunship",
+            "name": "Storm Eagle Gunship"
+          },
+          {
+            "faction": "space-marines",
+            "id": "fire-raptor-gunship",
+            "name": "Fire Raptor Gunship"
+          }
+        ],
+        "use": "Stormraven Gunship"
+      },
+      {
+        "id": "lieutenant",
+        "legacy": [
+          "Sergeant Chronus"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "sergeant-chronus",
+            "name": "Sergeant Chronus"
+          }
+        ],
+        "use": "Lieutenant"
+      },
+      {
+        "id": "outrider-squad",
+        "legacy": [
+          "Company Veterans on Bikes",
+          "Bike Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "company-veterans-on-bikes",
+            "name": "Company Veterans on Bikes"
+          },
+          {
+            "faction": "space-marines",
+            "id": "bike-squad",
+            "name": "Bike Squad"
+          }
+        ],
+        "use": "Outrider Squad"
+      },
+      {
+        "id": "thunderhawk-gunship",
+        "legacy": [
+          "Thunderhawk Transporter",
+          "Sokar-pattern Stormbird"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "thunderhawk-transporter",
+            "name": "Thunderhawk Transporter"
+          },
+          {
+            "faction": "space-marines",
+            "id": "sokar-pattern-stormbird",
+            "name": "Sokar-pattern Stormbird"
+          }
+        ],
+        "use": "Thunderhawk Gunship"
+      },
+      {
+        "id": "firestrike-servo-turrets",
+        "legacy": [
+          "Thunderfire Cannon"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "thunderfire-cannon",
+            "name": "Thunderfire Cannon"
+          }
+        ],
+        "use": "Firestrike Servo-turrets"
+      },
+      {
+        "id": "chaplain",
+        "legacy": [
+          "Chaplain Cassius"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "chaplain-cassius",
+            "name": "Chaplain Cassius"
+          }
+        ],
+        "use": "Chaplain"
+      },
+      {
+        "id": "assault-intercessor-squad",
+        "legacy": [
+          "Assault Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "assault-squad",
+            "name": "Assault Squad"
+          }
+        ],
+        "use": "Assault Intercessor Squad"
+      },
+      {
+        "id": "assault-intercessor-squad",
+        "legacy": [
+          "Assault Squad with Jump Packs"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "assault-squad-with-jump-packs",
+            "name": "Assault Squad with Jump Packs"
+          }
+        ],
+        "use": "Assault Intercessor Squad with Jump Packs"
+      },
+      {
+        "id": "company-heroes",
+        "legacy": [
+          "Command Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "command-squad",
+            "name": "Command Squad"
+          }
+        ],
+        "use": "Company Heroes"
+      },
+      {
+        "id": "terminator-assault-squad",
+        "legacy": [
+          "Relic Terminator Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "relic-terminator-squad",
+            "name": "Relic Terminator Squad"
+          }
+        ],
+        "use": "Terminator Assault Squad"
+      },
+      {
+        "id": "scout-squad",
+        "legacy": [
+          "Scout Sniper Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "scout-sniper-squad",
+            "name": "Scout Sniper Squad"
+          }
+        ],
+        "use": "Scout Squad"
+      },
+      {
+        "id": "sternguard-veteran-squad",
+        "legacy": [
+          "Tyrannic War Veterans"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "tyrannic-war-veterans",
+            "name": "Tyrannic War Veterans"
+          }
+        ],
+        "use": "Sternguard Veteran Squad"
+      },
+      {
+        "id": "invader-atvs",
+        "legacy": [
+          "Attack Bike Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "attack-bike-squad",
+            "name": "Attack Bike Squad"
+          }
+        ],
+        "use": "Invader ATVs"
+      },
+      {
+        "id": "whirlwind",
+        "legacy": [
+          "Hunter",
+          "Stalker",
+          "Whirlwind Scorpius"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "hunter",
+            "name": "Hunter"
+          },
+          {
+            "faction": "space-marines",
+            "id": "stalker",
+            "name": "Stalker"
+          },
+          {
+            "faction": "space-marines",
+            "id": "whirlwind-scorpius",
+            "name": "Whirlwind Scorpius"
+          }
+        ],
+        "use": "Whirlwind"
+      },
+      {
+        "id": "ballistus-dreadnought",
+        "legacy": [
+          "Deredeo Dreadnought"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "deredeo-dreadnought",
+            "name": "Deredeo Dreadnought"
+          }
+        ],
+        "use": "Ballistus Dreadnought"
+      },
+      {
+        "id": "storm-speeder-hailstrike",
+        "legacy": [
+          "Javelin Attack Speeder"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "javelin-attack-speeder",
+            "name": "Javelin Attack Speeder"
+          }
+        ],
+        "use": "Storm Speeder Hailstrike"
+      },
+      {
+        "id": "drop-pod",
+        "legacy": [
+          "Death Storm Drop Pod",
+          "Dreadnought Drop Pod"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "dreadnought-drop-pod",
+            "name": "Dreadnought Drop Pod"
+          }
+        ],
+        "use": "Drop Pod"
+      },
+      {
+        "id": "vindicator",
+        "legacy": [
+          "Vindicator Laser Destroyer"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "vindicator-laser-destroyer",
+            "name": "Vindicator Laser Destroyer"
+          }
+        ],
+        "use": "Vindicator"
+      },
+      {
+        "id": "astraeus",
+        "legacy": [
+          "Fellblade Super-heavy Battle Tank"
+        ],
+        "use": "Astraeus"
+      }
+    ],
+    "pub": "Legends: Space Marines"
+  },
+  "blood-angels": {
+    "intro": "What follow are official rules, and we actively encourage you to use them in your games at home, in stores, clubs, and campaigns. Your classic units and characters are still awesome, and there is no shortage of battles for them still to fight.\n\nAs points values for Legends units are not updated with the same regularity as units in your Codex, we do not recommend their inclusion in competitive Warhammer Events without the permission of the event organisers.\n\nWarhammer Legends come in two varieties:\n\n▪ Units that are no longer part of your army's Codex, but which are still supported with their own datasheets and Legend points in the Munitorum Field Manual. You can include these units in your army in the same way as other units from your Codex, though bear in mind the disclaimer about competitive Warhammer Events, above. Some Legends datasheets represent more than one unit – where this is the case, those will be listed below.\n\n▪ Units that are well represented by other datasheets in your army's Codex - we refer to these as Legendary Proxies units. While these units may differ in significant ways from those described by these datasheets, these rules are the best way to represent these units in your battles. Legends units that use a datasheet shared by more than one unit also use these rules. To use Legendary Proxies units in your army, simply use the relevant datasheet indicated below, complete with its points value(s) in the Munitorum Field Manual, and field your unit as you would any other. When running through the mission sequence, be sure that your opponent understands which units your Legendary Proxies units represent. Bear in mind that Legendary Proxies units may vary in size or base size from the units they are counting as. When an issue arises during battle as a result of this (for example, because a Legendary Proxies unit is visible when the unit it is representing wouldn't be), it is good practice to err in favour of the other player.",
+    "of": "space-marines",
+    "proxies": [
+      {
+        "id": "desolation-squad",
+        "legacy": [
+          "Devastator Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "devastator-squad",
+            "name": "Devastator Squad"
+          }
+        ],
+        "use": "Desolation Squad"
+      },
+      {
+        "id": "lieutenant-in-phobos-armour",
+        "legacy": [
+          "Lieutenant in Reiver Armour",
+          "Sergeant Telion"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "lieutenant-in-reiver-armour",
+            "name": "Lieutenant in Reiver Armour"
+          },
+          {
+            "faction": "space-marines",
+            "id": "sergeant-telion",
+            "name": "Sergeant Telion"
+          }
+        ],
+        "use": "Lieutenant in Phobos Armour"
+      },
+      {
+        "id": "inceptor-squad",
+        "legacy": [
+          "Suppressor Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "suppressor-squad",
+            "name": "Suppressor Squad"
+          }
+        ],
+        "use": "Inceptor Squad"
+      },
+      {
+        "id": "intercessor-squad",
+        "legacy": [
+          "Tactical Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "tactical-squad",
+            "name": "Tactical Squad"
+          }
+        ],
+        "use": "Intercessor Squad"
+      },
+      {
+        "id": "captain",
+        "legacy": [
+          "Ferren Aerios",
+          "Pedro Kantor",
+          "Uriel Ventris",
+          "Primaris Company Champion"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "pedro-kantor",
+            "name": "Pedro Kantor"
+          },
+          {
+            "faction": "space-marines",
+            "id": "uriel-ventris",
+            "name": "Uriel Ventris"
+          },
+          {
+            "faction": "space-marines",
+            "id": "primaris-company-champion",
+            "name": "Primaris Company Champion"
+          }
+        ],
+        "use": "Captain"
+      },
+      {
+        "id": "land-raider",
+        "legacy": [
+          "Land Raider Helios",
+          "Land Raider Prometheus",
+          "Land Raider Terminus Ultra",
+          "Land Raider Proteus",
+          "Land Raider Achilles",
+          "Spartan Assault Tank"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "land-raider-helios",
+            "name": "Land Raider Helios"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-raider-prometheus",
+            "name": "Land Raider Prometheus"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-raider-proteus",
+            "name": "Land Raider Proteus"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-raider-achilles",
+            "name": "Land Raider Achilles"
+          }
+        ],
+        "use": "Land Raider"
+      },
+      {
+        "id": "predator-destructor",
+        "legacy": [
+          "Deimos Predator"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "deimos-predator",
+            "name": "Deimos Predator"
+          }
+        ],
+        "use": "Predator Destructor"
+      },
+      {
+        "id": "venerable-dreadnought",
+        "legacy": [
+          "Chaplain Venerable Dreadnought",
+          "Ironclad Dreadnought"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "chaplain-venerable-dreadnought",
+            "name": "Chaplain Venerable Dreadnought"
+          },
+          {
+            "faction": "space-marines",
+            "id": "ironclad-dreadnought",
+            "name": "Ironclad Dreadnought"
+          }
+        ],
+        "use": "Venerable Dreadnought"
+      },
+      {
+        "id": "land-speeder",
+        "legacy": [
+          "Land Speeder Tempest",
+          "Land Speeder Tornado",
+          "Land Speeder Typhoon",
+          "Land Speeder Storm"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-tempest",
+            "name": "Land Speeder Tempest"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-tornado",
+            "name": "Land Speeder Tornado"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-typhoon",
+            "name": "Land Speeder Typhoon"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-storm",
+            "name": "Land Speeder Storm"
+          }
+        ],
+        "use": "Land Speeder"
+      },
+      {
+        "id": "redemptor-dreadnought",
+        "legacy": [
+          "Carab Culln the Risen",
+          "Relic Contemptor Dreadnought",
+          "Leviathan Dreadnought"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "carab-culln-the-risen",
+            "name": "Carab Culln the Risen"
+          },
+          {
+            "faction": "space-marines",
+            "id": "relic-contemptor-dreadnought",
+            "name": "Relic Contemptor Dreadnought"
+          },
+          {
+            "faction": "space-marines",
+            "id": "leviathan-dreadnought",
+            "name": "Leviathan Dreadnought"
+          }
+        ],
+        "use": "Redemptor Dreadnought"
+      },
+      {
+        "id": "stormraven-gunship",
+        "legacy": [
+          "Caestus Assault Ram",
+          "Xiphon Interceptor",
+          "Storm Eagle Gunship",
+          "Fire Raptor Gunship"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "caestus-assault-ram",
+            "name": "Caestus Assault Ram"
+          },
+          {
+            "faction": "space-marines",
+            "id": "xiphon-interceptor",
+            "name": "Xiphon Interceptor"
+          },
+          {
+            "faction": "space-marines",
+            "id": "storm-eagle-gunship",
+            "name": "Storm Eagle Gunship"
+          },
+          {
+            "faction": "space-marines",
+            "id": "fire-raptor-gunship",
+            "name": "Fire Raptor Gunship"
+          }
+        ],
+        "use": "Stormraven Gunship"
+      },
+      {
+        "id": "lieutenant",
+        "legacy": [
+          "Sergeant Chronus"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "sergeant-chronus",
+            "name": "Sergeant Chronus"
+          }
+        ],
+        "use": "Lieutenant"
+      },
+      {
+        "id": "outrider-squad",
+        "legacy": [
+          "Company Veterans on Bikes",
+          "Bike Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "company-veterans-on-bikes",
+            "name": "Company Veterans on Bikes"
+          },
+          {
+            "faction": "space-marines",
+            "id": "bike-squad",
+            "name": "Bike Squad"
+          }
+        ],
+        "use": "Outrider Squad"
+      },
+      {
+        "id": "thunderhawk-gunship",
+        "legacy": [
+          "Thunderhawk Transporter",
+          "Sokar-pattern Stormbird"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "thunderhawk-transporter",
+            "name": "Thunderhawk Transporter"
+          },
+          {
+            "faction": "space-marines",
+            "id": "sokar-pattern-stormbird",
+            "name": "Sokar-pattern Stormbird"
+          }
+        ],
+        "use": "Thunderhawk Gunship"
+      },
+      {
+        "id": "firestrike-servo-turrets",
+        "legacy": [
+          "Thunderfire Cannon"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "thunderfire-cannon",
+            "name": "Thunderfire Cannon"
+          }
+        ],
+        "use": "Firestrike Servo-turrets"
+      },
+      {
+        "id": "chaplain",
+        "legacy": [
+          "Chaplain Cassius"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "chaplain-cassius",
+            "name": "Chaplain Cassius"
+          }
+        ],
+        "use": "Chaplain"
+      },
+      {
+        "id": "assault-intercessor-squad",
+        "legacy": [
+          "Assault Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "assault-squad",
+            "name": "Assault Squad"
+          }
+        ],
+        "use": "Assault Intercessor Squad"
+      },
+      {
+        "id": "assault-intercessor-squad",
+        "legacy": [
+          "Assault Squad with Jump Packs"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "assault-squad-with-jump-packs",
+            "name": "Assault Squad with Jump Packs"
+          }
+        ],
+        "use": "Assault Intercessor Squad with Jump Packs"
+      },
+      {
+        "id": "company-heroes",
+        "legacy": [
+          "Command Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "command-squad",
+            "name": "Command Squad"
+          }
+        ],
+        "use": "Company Heroes"
+      },
+      {
+        "id": "terminator-assault-squad",
+        "legacy": [
+          "Relic Terminator Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "relic-terminator-squad",
+            "name": "Relic Terminator Squad"
+          }
+        ],
+        "use": "Terminator Assault Squad"
+      },
+      {
+        "id": "scout-squad",
+        "legacy": [
+          "Scout Sniper Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "scout-sniper-squad",
+            "name": "Scout Sniper Squad"
+          }
+        ],
+        "use": "Scout Squad"
+      },
+      {
+        "id": "sternguard-veteran-squad",
+        "legacy": [
+          "Tyrannic War Veterans"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "tyrannic-war-veterans",
+            "name": "Tyrannic War Veterans"
+          }
+        ],
+        "use": "Sternguard Veteran Squad"
+      },
+      {
+        "id": "invader-atvs",
+        "legacy": [
+          "Attack Bike Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "attack-bike-squad",
+            "name": "Attack Bike Squad"
+          }
+        ],
+        "use": "Invader ATVs"
+      },
+      {
+        "id": "whirlwind",
+        "legacy": [
+          "Hunter",
+          "Stalker",
+          "Whirlwind Scorpius"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "hunter",
+            "name": "Hunter"
+          },
+          {
+            "faction": "space-marines",
+            "id": "stalker",
+            "name": "Stalker"
+          },
+          {
+            "faction": "space-marines",
+            "id": "whirlwind-scorpius",
+            "name": "Whirlwind Scorpius"
+          }
+        ],
+        "use": "Whirlwind"
+      },
+      {
+        "id": "ballistus-dreadnought",
+        "legacy": [
+          "Deredeo Dreadnought"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "deredeo-dreadnought",
+            "name": "Deredeo Dreadnought"
+          }
+        ],
+        "use": "Ballistus Dreadnought"
+      },
+      {
+        "id": "storm-speeder-hailstrike",
+        "legacy": [
+          "Javelin Attack Speeder"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "javelin-attack-speeder",
+            "name": "Javelin Attack Speeder"
+          }
+        ],
+        "use": "Storm Speeder Hailstrike"
+      },
+      {
+        "id": "drop-pod",
+        "legacy": [
+          "Death Storm Drop Pod",
+          "Dreadnought Drop Pod"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "dreadnought-drop-pod",
+            "name": "Dreadnought Drop Pod"
+          }
+        ],
+        "use": "Drop Pod"
+      },
+      {
+        "id": "vindicator",
+        "legacy": [
+          "Vindicator Laser Destroyer"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "vindicator-laser-destroyer",
+            "name": "Vindicator Laser Destroyer"
+          }
+        ],
+        "use": "Vindicator"
+      },
+      {
+        "id": "astraeus",
+        "legacy": [
+          "Fellblade Super-heavy Battle Tank"
+        ],
+        "use": "Astraeus"
+      }
+    ],
+    "pub": "Legends: Space Marines"
+  },
+  "dark-angels": {
+    "intro": "What follow are official rules, and we actively encourage you to use them in your games at home, in stores, clubs, and campaigns. Your classic units and characters are still awesome, and there is no shortage of battles for them still to fight.\n\nAs points values for Legends units are not updated with the same regularity as units in your Codex, we do not recommend their inclusion in competitive Warhammer Events without the permission of the event organisers.\n\nWarhammer Legends come in two varieties:\n\n▪ Units that are no longer part of your army's Codex, but which are still supported with their own datasheets and Legend points in the Munitorum Field Manual. You can include these units in your army in the same way as other units from your Codex, though bear in mind the disclaimer about competitive Warhammer Events, above. Some Legends datasheets represent more than one unit – where this is the case, those will be listed below.\n\n▪ Units that are well represented by other datasheets in your army's Codex - we refer to these as Legendary Proxies units. While these units may differ in significant ways from those described by these datasheets, these rules are the best way to represent these units in your battles. Legends units that use a datasheet shared by more than one unit also use these rules. To use Legendary Proxies units in your army, simply use the relevant datasheet indicated below, complete with its points value(s) in the Munitorum Field Manual, and field your unit as you would any other. When running through the mission sequence, be sure that your opponent understands which units your Legendary Proxies units represent. Bear in mind that Legendary Proxies units may vary in size or base size from the units they are counting as. When an issue arises during battle as a result of this (for example, because a Legendary Proxies unit is visible when the unit it is representing wouldn't be), it is good practice to err in favour of the other player.",
+    "of": "space-marines",
+    "proxies": [
+      {
+        "id": "desolation-squad",
+        "legacy": [
+          "Devastator Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "devastator-squad",
+            "name": "Devastator Squad"
+          }
+        ],
+        "use": "Desolation Squad"
+      },
+      {
+        "id": "lieutenant-in-phobos-armour",
+        "legacy": [
+          "Lieutenant in Reiver Armour",
+          "Sergeant Telion"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "lieutenant-in-reiver-armour",
+            "name": "Lieutenant in Reiver Armour"
+          },
+          {
+            "faction": "space-marines",
+            "id": "sergeant-telion",
+            "name": "Sergeant Telion"
+          }
+        ],
+        "use": "Lieutenant in Phobos Armour"
+      },
+      {
+        "id": "inceptor-squad",
+        "legacy": [
+          "Suppressor Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "suppressor-squad",
+            "name": "Suppressor Squad"
+          }
+        ],
+        "use": "Inceptor Squad"
+      },
+      {
+        "id": "intercessor-squad",
+        "legacy": [
+          "Tactical Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "tactical-squad",
+            "name": "Tactical Squad"
+          }
+        ],
+        "use": "Intercessor Squad"
+      },
+      {
+        "id": "captain",
+        "legacy": [
+          "Ferren Aerios",
+          "Pedro Kantor",
+          "Uriel Ventris",
+          "Primaris Company Champion"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "pedro-kantor",
+            "name": "Pedro Kantor"
+          },
+          {
+            "faction": "space-marines",
+            "id": "uriel-ventris",
+            "name": "Uriel Ventris"
+          },
+          {
+            "faction": "space-marines",
+            "id": "primaris-company-champion",
+            "name": "Primaris Company Champion"
+          }
+        ],
+        "use": "Captain"
+      },
+      {
+        "id": "land-raider",
+        "legacy": [
+          "Land Raider Helios",
+          "Land Raider Prometheus",
+          "Land Raider Terminus Ultra",
+          "Land Raider Proteus",
+          "Land Raider Achilles",
+          "Spartan Assault Tank"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "land-raider-helios",
+            "name": "Land Raider Helios"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-raider-prometheus",
+            "name": "Land Raider Prometheus"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-raider-proteus",
+            "name": "Land Raider Proteus"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-raider-achilles",
+            "name": "Land Raider Achilles"
+          }
+        ],
+        "use": "Land Raider"
+      },
+      {
+        "id": "predator-destructor",
+        "legacy": [
+          "Deimos Predator"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "deimos-predator",
+            "name": "Deimos Predator"
+          }
+        ],
+        "use": "Predator Destructor"
+      },
+      {
+        "id": "venerable-dreadnought",
+        "legacy": [
+          "Chaplain Venerable Dreadnought",
+          "Ironclad Dreadnought"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "chaplain-venerable-dreadnought",
+            "name": "Chaplain Venerable Dreadnought"
+          },
+          {
+            "faction": "space-marines",
+            "id": "ironclad-dreadnought",
+            "name": "Ironclad Dreadnought"
+          }
+        ],
+        "use": "Venerable Dreadnought"
+      },
+      {
+        "id": "land-speeder",
+        "legacy": [
+          "Land Speeder Tempest",
+          "Land Speeder Tornado",
+          "Land Speeder Typhoon",
+          "Land Speeder Storm"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-tempest",
+            "name": "Land Speeder Tempest"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-tornado",
+            "name": "Land Speeder Tornado"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-typhoon",
+            "name": "Land Speeder Typhoon"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-storm",
+            "name": "Land Speeder Storm"
+          }
+        ],
+        "use": "Land Speeder"
+      },
+      {
+        "id": "redemptor-dreadnought",
+        "legacy": [
+          "Carab Culln the Risen",
+          "Relic Contemptor Dreadnought",
+          "Leviathan Dreadnought"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "carab-culln-the-risen",
+            "name": "Carab Culln the Risen"
+          },
+          {
+            "faction": "space-marines",
+            "id": "relic-contemptor-dreadnought",
+            "name": "Relic Contemptor Dreadnought"
+          },
+          {
+            "faction": "space-marines",
+            "id": "leviathan-dreadnought",
+            "name": "Leviathan Dreadnought"
+          }
+        ],
+        "use": "Redemptor Dreadnought"
+      },
+      {
+        "id": "stormraven-gunship",
+        "legacy": [
+          "Caestus Assault Ram",
+          "Xiphon Interceptor",
+          "Storm Eagle Gunship",
+          "Fire Raptor Gunship"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "caestus-assault-ram",
+            "name": "Caestus Assault Ram"
+          },
+          {
+            "faction": "space-marines",
+            "id": "xiphon-interceptor",
+            "name": "Xiphon Interceptor"
+          },
+          {
+            "faction": "space-marines",
+            "id": "storm-eagle-gunship",
+            "name": "Storm Eagle Gunship"
+          },
+          {
+            "faction": "space-marines",
+            "id": "fire-raptor-gunship",
+            "name": "Fire Raptor Gunship"
+          }
+        ],
+        "use": "Stormraven Gunship"
+      },
+      {
+        "id": "lieutenant",
+        "legacy": [
+          "Sergeant Chronus"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "sergeant-chronus",
+            "name": "Sergeant Chronus"
+          }
+        ],
+        "use": "Lieutenant"
+      },
+      {
+        "id": "outrider-squad",
+        "legacy": [
+          "Company Veterans on Bikes",
+          "Bike Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "company-veterans-on-bikes",
+            "name": "Company Veterans on Bikes"
+          },
+          {
+            "faction": "space-marines",
+            "id": "bike-squad",
+            "name": "Bike Squad"
+          }
+        ],
+        "use": "Outrider Squad"
+      },
+      {
+        "id": "thunderhawk-gunship",
+        "legacy": [
+          "Thunderhawk Transporter",
+          "Sokar-pattern Stormbird"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "thunderhawk-transporter",
+            "name": "Thunderhawk Transporter"
+          },
+          {
+            "faction": "space-marines",
+            "id": "sokar-pattern-stormbird",
+            "name": "Sokar-pattern Stormbird"
+          }
+        ],
+        "use": "Thunderhawk Gunship"
+      },
+      {
+        "id": "firestrike-servo-turrets",
+        "legacy": [
+          "Thunderfire Cannon"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "thunderfire-cannon",
+            "name": "Thunderfire Cannon"
+          }
+        ],
+        "use": "Firestrike Servo-turrets"
+      },
+      {
+        "id": "chaplain",
+        "legacy": [
+          "Chaplain Cassius"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "chaplain-cassius",
+            "name": "Chaplain Cassius"
+          }
+        ],
+        "use": "Chaplain"
+      },
+      {
+        "id": "assault-intercessor-squad",
+        "legacy": [
+          "Assault Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "assault-squad",
+            "name": "Assault Squad"
+          }
+        ],
+        "use": "Assault Intercessor Squad"
+      },
+      {
+        "id": "assault-intercessor-squad",
+        "legacy": [
+          "Assault Squad with Jump Packs"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "assault-squad-with-jump-packs",
+            "name": "Assault Squad with Jump Packs"
+          }
+        ],
+        "use": "Assault Intercessor Squad with Jump Packs"
+      },
+      {
+        "id": "company-heroes",
+        "legacy": [
+          "Command Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "command-squad",
+            "name": "Command Squad"
+          }
+        ],
+        "use": "Company Heroes"
+      },
+      {
+        "id": "terminator-assault-squad",
+        "legacy": [
+          "Relic Terminator Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "relic-terminator-squad",
+            "name": "Relic Terminator Squad"
+          }
+        ],
+        "use": "Terminator Assault Squad"
+      },
+      {
+        "id": "scout-squad",
+        "legacy": [
+          "Scout Sniper Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "scout-sniper-squad",
+            "name": "Scout Sniper Squad"
+          }
+        ],
+        "use": "Scout Squad"
+      },
+      {
+        "id": "sternguard-veteran-squad",
+        "legacy": [
+          "Tyrannic War Veterans"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "tyrannic-war-veterans",
+            "name": "Tyrannic War Veterans"
+          }
+        ],
+        "use": "Sternguard Veteran Squad"
+      },
+      {
+        "id": "invader-atvs",
+        "legacy": [
+          "Attack Bike Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "attack-bike-squad",
+            "name": "Attack Bike Squad"
+          }
+        ],
+        "use": "Invader ATVs"
+      },
+      {
+        "id": "whirlwind",
+        "legacy": [
+          "Hunter",
+          "Stalker",
+          "Whirlwind Scorpius"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "hunter",
+            "name": "Hunter"
+          },
+          {
+            "faction": "space-marines",
+            "id": "stalker",
+            "name": "Stalker"
+          },
+          {
+            "faction": "space-marines",
+            "id": "whirlwind-scorpius",
+            "name": "Whirlwind Scorpius"
+          }
+        ],
+        "use": "Whirlwind"
+      },
+      {
+        "id": "ballistus-dreadnought",
+        "legacy": [
+          "Deredeo Dreadnought"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "deredeo-dreadnought",
+            "name": "Deredeo Dreadnought"
+          }
+        ],
+        "use": "Ballistus Dreadnought"
+      },
+      {
+        "id": "storm-speeder-hailstrike",
+        "legacy": [
+          "Javelin Attack Speeder"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "javelin-attack-speeder",
+            "name": "Javelin Attack Speeder"
+          }
+        ],
+        "use": "Storm Speeder Hailstrike"
+      },
+      {
+        "id": "drop-pod",
+        "legacy": [
+          "Death Storm Drop Pod",
+          "Dreadnought Drop Pod"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "dreadnought-drop-pod",
+            "name": "Dreadnought Drop Pod"
+          }
+        ],
+        "use": "Drop Pod"
+      },
+      {
+        "id": "vindicator",
+        "legacy": [
+          "Vindicator Laser Destroyer"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "vindicator-laser-destroyer",
+            "name": "Vindicator Laser Destroyer"
+          }
+        ],
+        "use": "Vindicator"
+      },
+      {
+        "id": "astraeus",
+        "legacy": [
+          "Fellblade Super-heavy Battle Tank"
+        ],
+        "use": "Astraeus"
+      }
+    ],
+    "pub": "Legends: Space Marines"
+  },
+  "deathwatch": {
+    "intro": "What follow are official rules, and we actively encourage you to use them in your games at home, in stores, clubs, and campaigns. Your classic units and characters are still awesome, and there is no shortage of battles for them still to fight.\n\nAs points values for Legends units are not updated with the same regularity as units in your Codex, we do not recommend their inclusion in competitive Warhammer Events without the permission of the event organisers.\n\nWarhammer Legends come in two varieties:\n\n▪ Units that are no longer part of your army's Codex, but which are still supported with their own datasheets and Legend points in the Munitorum Field Manual. You can include these units in your army in the same way as other units from your Codex, though bear in mind the disclaimer about competitive Warhammer Events, above. Some Legends datasheets represent more than one unit – where this is the case, those will be listed below.\n\n▪ Units that are well represented by other datasheets in your army's Codex - we refer to these as Legendary Proxies units. While these units may differ in significant ways from those described by these datasheets, these rules are the best way to represent these units in your battles. Legends units that use a datasheet shared by more than one unit also use these rules. To use Legendary Proxies units in your army, simply use the relevant datasheet indicated below, complete with its points value(s) in the Munitorum Field Manual, and field your unit as you would any other. When running through the mission sequence, be sure that your opponent understands which units your Legendary Proxies units represent. Bear in mind that Legendary Proxies units may vary in size or base size from the units they are counting as. When an issue arises during battle as a result of this (for example, because a Legendary Proxies unit is visible when the unit it is representing wouldn't be), it is good practice to err in favour of the other player.",
+    "of": "space-marines",
+    "proxies": [
+      {
+        "id": "desolation-squad",
+        "legacy": [
+          "Devastator Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "devastator-squad",
+            "name": "Devastator Squad"
+          }
+        ],
+        "use": "Desolation Squad"
+      },
+      {
+        "id": "lieutenant-in-phobos-armour",
+        "legacy": [
+          "Lieutenant in Reiver Armour",
+          "Sergeant Telion"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "lieutenant-in-reiver-armour",
+            "name": "Lieutenant in Reiver Armour"
+          },
+          {
+            "faction": "space-marines",
+            "id": "sergeant-telion",
+            "name": "Sergeant Telion"
+          }
+        ],
+        "use": "Lieutenant in Phobos Armour"
+      },
+      {
+        "id": "inceptor-squad",
+        "legacy": [
+          "Suppressor Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "suppressor-squad",
+            "name": "Suppressor Squad"
+          }
+        ],
+        "use": "Inceptor Squad"
+      },
+      {
+        "id": "intercessor-squad",
+        "legacy": [
+          "Tactical Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "tactical-squad",
+            "name": "Tactical Squad"
+          }
+        ],
+        "use": "Intercessor Squad"
+      },
+      {
+        "id": "captain",
+        "legacy": [
+          "Ferren Aerios",
+          "Pedro Kantor",
+          "Uriel Ventris",
+          "Primaris Company Champion"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "pedro-kantor",
+            "name": "Pedro Kantor"
+          },
+          {
+            "faction": "space-marines",
+            "id": "uriel-ventris",
+            "name": "Uriel Ventris"
+          },
+          {
+            "faction": "space-marines",
+            "id": "primaris-company-champion",
+            "name": "Primaris Company Champion"
+          }
+        ],
+        "use": "Captain"
+      },
+      {
+        "id": "land-raider",
+        "legacy": [
+          "Land Raider Helios",
+          "Land Raider Prometheus",
+          "Land Raider Terminus Ultra",
+          "Land Raider Proteus",
+          "Land Raider Achilles",
+          "Spartan Assault Tank"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "land-raider-helios",
+            "name": "Land Raider Helios"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-raider-prometheus",
+            "name": "Land Raider Prometheus"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-raider-proteus",
+            "name": "Land Raider Proteus"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-raider-achilles",
+            "name": "Land Raider Achilles"
+          }
+        ],
+        "use": "Land Raider"
+      },
+      {
+        "id": "predator-destructor",
+        "legacy": [
+          "Deimos Predator"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "deimos-predator",
+            "name": "Deimos Predator"
+          }
+        ],
+        "use": "Predator Destructor"
+      },
+      {
+        "id": "venerable-dreadnought",
+        "legacy": [
+          "Chaplain Venerable Dreadnought",
+          "Ironclad Dreadnought"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "chaplain-venerable-dreadnought",
+            "name": "Chaplain Venerable Dreadnought"
+          },
+          {
+            "faction": "space-marines",
+            "id": "ironclad-dreadnought",
+            "name": "Ironclad Dreadnought"
+          }
+        ],
+        "use": "Venerable Dreadnought"
+      },
+      {
+        "id": "land-speeder",
+        "legacy": [
+          "Land Speeder Tempest",
+          "Land Speeder Tornado",
+          "Land Speeder Typhoon",
+          "Land Speeder Storm"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-tempest",
+            "name": "Land Speeder Tempest"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-tornado",
+            "name": "Land Speeder Tornado"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-typhoon",
+            "name": "Land Speeder Typhoon"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-storm",
+            "name": "Land Speeder Storm"
+          }
+        ],
+        "use": "Land Speeder"
+      },
+      {
+        "id": "redemptor-dreadnought",
+        "legacy": [
+          "Carab Culln the Risen",
+          "Relic Contemptor Dreadnought",
+          "Leviathan Dreadnought"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "carab-culln-the-risen",
+            "name": "Carab Culln the Risen"
+          },
+          {
+            "faction": "space-marines",
+            "id": "relic-contemptor-dreadnought",
+            "name": "Relic Contemptor Dreadnought"
+          },
+          {
+            "faction": "space-marines",
+            "id": "leviathan-dreadnought",
+            "name": "Leviathan Dreadnought"
+          }
+        ],
+        "use": "Redemptor Dreadnought"
+      },
+      {
+        "id": "stormraven-gunship",
+        "legacy": [
+          "Caestus Assault Ram",
+          "Xiphon Interceptor",
+          "Storm Eagle Gunship",
+          "Fire Raptor Gunship"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "caestus-assault-ram",
+            "name": "Caestus Assault Ram"
+          },
+          {
+            "faction": "space-marines",
+            "id": "xiphon-interceptor",
+            "name": "Xiphon Interceptor"
+          },
+          {
+            "faction": "space-marines",
+            "id": "storm-eagle-gunship",
+            "name": "Storm Eagle Gunship"
+          },
+          {
+            "faction": "space-marines",
+            "id": "fire-raptor-gunship",
+            "name": "Fire Raptor Gunship"
+          }
+        ],
+        "use": "Stormraven Gunship"
+      },
+      {
+        "id": "lieutenant",
+        "legacy": [
+          "Sergeant Chronus"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "sergeant-chronus",
+            "name": "Sergeant Chronus"
+          }
+        ],
+        "use": "Lieutenant"
+      },
+      {
+        "id": "outrider-squad",
+        "legacy": [
+          "Company Veterans on Bikes",
+          "Bike Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "company-veterans-on-bikes",
+            "name": "Company Veterans on Bikes"
+          },
+          {
+            "faction": "space-marines",
+            "id": "bike-squad",
+            "name": "Bike Squad"
+          }
+        ],
+        "use": "Outrider Squad"
+      },
+      {
+        "id": "thunderhawk-gunship",
+        "legacy": [
+          "Thunderhawk Transporter",
+          "Sokar-pattern Stormbird"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "thunderhawk-transporter",
+            "name": "Thunderhawk Transporter"
+          },
+          {
+            "faction": "space-marines",
+            "id": "sokar-pattern-stormbird",
+            "name": "Sokar-pattern Stormbird"
+          }
+        ],
+        "use": "Thunderhawk Gunship"
+      },
+      {
+        "id": "firestrike-servo-turrets",
+        "legacy": [
+          "Thunderfire Cannon"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "thunderfire-cannon",
+            "name": "Thunderfire Cannon"
+          }
+        ],
+        "use": "Firestrike Servo-turrets"
+      },
+      {
+        "id": "chaplain",
+        "legacy": [
+          "Chaplain Cassius"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "chaplain-cassius",
+            "name": "Chaplain Cassius"
+          }
+        ],
+        "use": "Chaplain"
+      },
+      {
+        "id": "assault-intercessor-squad",
+        "legacy": [
+          "Assault Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "assault-squad",
+            "name": "Assault Squad"
+          }
+        ],
+        "use": "Assault Intercessor Squad"
+      },
+      {
+        "id": "assault-intercessor-squad",
+        "legacy": [
+          "Assault Squad with Jump Packs"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "assault-squad-with-jump-packs",
+            "name": "Assault Squad with Jump Packs"
+          }
+        ],
+        "use": "Assault Intercessor Squad with Jump Packs"
+      },
+      {
+        "id": "company-heroes",
+        "legacy": [
+          "Command Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "command-squad",
+            "name": "Command Squad"
+          }
+        ],
+        "use": "Company Heroes"
+      },
+      {
+        "id": "sternguard-veteran-squad",
+        "legacy": [
+          "Tyrannic War Veterans"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "tyrannic-war-veterans",
+            "name": "Tyrannic War Veterans"
+          }
+        ],
+        "use": "Sternguard Veteran Squad"
+      },
+      {
+        "id": "invader-atvs",
+        "legacy": [
+          "Attack Bike Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "attack-bike-squad",
+            "name": "Attack Bike Squad"
+          }
+        ],
+        "use": "Invader ATVs"
+      },
+      {
+        "id": "whirlwind",
+        "legacy": [
+          "Hunter",
+          "Stalker",
+          "Whirlwind Scorpius"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "hunter",
+            "name": "Hunter"
+          },
+          {
+            "faction": "space-marines",
+            "id": "stalker",
+            "name": "Stalker"
+          },
+          {
+            "faction": "space-marines",
+            "id": "whirlwind-scorpius",
+            "name": "Whirlwind Scorpius"
+          }
+        ],
+        "use": "Whirlwind"
+      },
+      {
+        "id": "ballistus-dreadnought",
+        "legacy": [
+          "Deredeo Dreadnought"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "deredeo-dreadnought",
+            "name": "Deredeo Dreadnought"
+          }
+        ],
+        "use": "Ballistus Dreadnought"
+      },
+      {
+        "id": "storm-speeder-hailstrike",
+        "legacy": [
+          "Javelin Attack Speeder"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "javelin-attack-speeder",
+            "name": "Javelin Attack Speeder"
+          }
+        ],
+        "use": "Storm Speeder Hailstrike"
+      },
+      {
+        "id": "drop-pod",
+        "legacy": [
+          "Death Storm Drop Pod",
+          "Dreadnought Drop Pod"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "dreadnought-drop-pod",
+            "name": "Dreadnought Drop Pod"
+          }
+        ],
+        "use": "Drop Pod"
+      },
+      {
+        "id": "vindicator",
+        "legacy": [
+          "Vindicator Laser Destroyer"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "vindicator-laser-destroyer",
+            "name": "Vindicator Laser Destroyer"
+          }
+        ],
+        "use": "Vindicator"
+      },
+      {
+        "id": "astraeus",
+        "legacy": [
+          "Fellblade Super-heavy Battle Tank"
+        ],
+        "use": "Astraeus"
+      }
+    ],
+    "pub": "Legends: Space Marines"
+  },
+  "orks": {
+    "intro": "What follow are official rules, and we actively encourage you to use them in your games at home, in stores, clubs, and campaigns. Your classic units and characters are still awesome, and there is no shortage of battles for them still to fight.\n\nAs points values for Legends units are not updated with the same regularity as units in your Codex, we do not recommend their inclusion in competitive Warhammer Events without the permission of the event organisers.\n\nWarhammer Legends come in two varieties:\n\n▪ Units that are no longer part of your army's Codex, but which are still supported with their own datasheets and Legend points in the Munitorum Field Manual. You can include these units in your army in the same way as other units from your Codex, though bear in mind the disclaimer about competitive Warhammer Events, above. Some Legends datasheets represent more than one unit – where this is the case, those will be listed below.\n\n▪ Units that are well represented by other datasheets in your army's Codex - we refer to these as Legendary Proxies units. While these units may differ in significant ways from those described by these datasheets, these rules are the best way to represent these units in your battles. Legends units that use a datasheet shared by more than one unit also use these rules. To use Legendary Proxies units in your army, simply use the relevant datasheet indicated below, complete with its points value(s) in the Munitorum Field Manual, and field your unit as you would any other. When running through the mission sequence, be sure that your opponent understands which units your Legendary Proxies units represent. Bear in mind that Legendary Proxies units may vary in size or base size from the units they are counting as. When an issue arises during battle as a result of this (for example, because a Legendary Proxies unit is visible when the unit it is representing wouldn't be), it is good practice to err in favour of the other player.",
+    "proxies": [
+      {
+        "id": "warbuggies",
+        "legacy": [
+          "Boomdakka Snazzwagon",
+          "Kustom Boosta-blasta",
+          "Megatrakk Scrapjet",
+          "Shokkjump Dragsta"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "orks",
+            "id": "boomdakka-snazzwagon",
+            "name": "Boomdakka Snazzwagon"
+          },
+          {
+            "faction": "orks",
+            "id": "kustom-boosta-blasta",
+            "name": "Kustom Boosta-blasta"
+          },
+          {
+            "faction": "orks",
+            "id": "megatrakk-scrapjet",
+            "name": "Megatrakk Scrapjet"
+          },
+          {
+            "faction": "orks",
+            "id": "shokkjump-dragsta",
+            "name": "Shokkjump Dragsta"
+          }
+        ],
+        "use": "Warbuggies"
+      },
+      {
+        "id": "dakkajet",
+        "legacy": [
+          "Attack Fighta"
+        ],
+        "use": "Dakkajet"
+      },
+      {
+        "id": "mek-gunz",
+        "legacy": [
+          "Big Gunz"
+        ],
+        "use": "Mek Gunz"
+      },
+      {
+        "id": "big-mek-in-mega-armour",
+        "legacy": [
+          "Big Mek with Kustom Force Field"
+        ],
+        "use": "Big Mek in Mega Armour equipped with Kustom Force Field"
+      },
+      {
+        "id": "blitza-bommer",
+        "legacy": [
+          "Fighta-Bommer"
+        ],
+        "use": "Blitza-bommer"
+      },
+      {
+        "id": "gunwagon",
+        "legacy": [
+          "Kannonwagon"
+        ],
+        "use": "Gunwagon"
+      },
+      {
+        "id": "gorkanaut",
+        "legacy": [
+          "Mega Dread"
+        ],
+        "use": "Gorkanaut"
+      },
+      {
+        "id": "morkanaut",
+        "legacy": [
+          "Meka Dread"
+        ],
+        "use": "Morkanaut"
+      },
+      {
+        "id": "warbikers",
+        "legacy": [
+          "Nobz on Warbikes"
+        ],
+        "use": "Warbikers"
+      },
+      {
+        "id": "gargantuan-squiggoth",
+        "legacy": [
+          "Squiggoth"
+        ],
+        "use": "Gargantuan Squiggoth"
+      },
+      {
+        "id": "warboss",
+        "legacy": [
+          "Ufthak Blackhawk"
+        ],
+        "use": "Warboss"
+      },
+      {
+        "id": "weirdboy",
+        "legacy": [
+          "Wurrboy"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "orks",
+            "id": "wurrboy",
+            "name": "Wurrboy"
+          }
+        ],
+        "use": "Weirdboy"
+      }
+    ],
+    "pub": "Legends: Orks"
+  },
+  "space-marines": {
+    "intro": "What follow are official rules, and we actively encourage you to use them in your games at home, in stores, clubs, and campaigns. Your classic units and characters are still awesome, and there is no shortage of battles for them still to fight.\n\nAs points values for Legends units are not updated with the same regularity as units in your Codex, we do not recommend their inclusion in competitive Warhammer Events without the permission of the event organisers.\n\nWarhammer Legends come in two varieties:\n\n▪ Units that are no longer part of your army's Codex, but which are still supported with their own datasheets and Legend points in the Munitorum Field Manual. You can include these units in your army in the same way as other units from your Codex, though bear in mind the disclaimer about competitive Warhammer Events, above. Some Legends datasheets represent more than one unit – where this is the case, those will be listed below.\n\n▪ Units that are well represented by other datasheets in your army's Codex - we refer to these as Legendary Proxies units. While these units may differ in significant ways from those described by these datasheets, these rules are the best way to represent these units in your battles. Legends units that use a datasheet shared by more than one unit also use these rules. To use Legendary Proxies units in your army, simply use the relevant datasheet indicated below, complete with its points value(s) in the Munitorum Field Manual, and field your unit as you would any other. When running through the mission sequence, be sure that your opponent understands which units your Legendary Proxies units represent. Bear in mind that Legendary Proxies units may vary in size or base size from the units they are counting as. When an issue arises during battle as a result of this (for example, because a Legendary Proxies unit is visible when the unit it is representing wouldn't be), it is good practice to err in favour of the other player.",
+    "proxies": [
+      {
+        "id": "desolation-squad",
+        "legacy": [
+          "Devastator Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "devastator-squad",
+            "name": "Devastator Squad"
+          }
+        ],
+        "use": "Desolation Squad"
+      },
+      {
+        "id": "lieutenant-in-phobos-armour",
+        "legacy": [
+          "Lieutenant in Reiver Armour",
+          "Sergeant Telion"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "lieutenant-in-reiver-armour",
+            "name": "Lieutenant in Reiver Armour"
+          },
+          {
+            "faction": "space-marines",
+            "id": "sergeant-telion",
+            "name": "Sergeant Telion"
+          }
+        ],
+        "use": "Lieutenant in Phobos Armour"
+      },
+      {
+        "id": "marneus-calgar",
+        "legacy": [
+          "Marneus Calgar in Armour of Antilochus"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "marneus-calgar-in-armour-of-antilochus",
+            "name": "Marneus Calgar in Armour of Antilochus"
+          }
+        ],
+        "use": "Marneus Calgar"
+      },
+      {
+        "id": "inceptor-squad",
+        "legacy": [
+          "Suppressor Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "suppressor-squad",
+            "name": "Suppressor Squad"
+          }
+        ],
+        "use": "Inceptor Squad"
+      },
+      {
+        "id": "intercessor-squad",
+        "legacy": [
+          "Tactical Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "tactical-squad",
+            "name": "Tactical Squad"
+          }
+        ],
+        "use": "Intercessor Squad"
+      },
+      {
+        "id": "captain",
+        "legacy": [
+          "Ferren Aerios",
+          "Pedro Kantor",
+          "Uriel Ventris",
+          "Primaris Company Champion"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "pedro-kantor",
+            "name": "Pedro Kantor"
+          },
+          {
+            "faction": "space-marines",
+            "id": "uriel-ventris",
+            "name": "Uriel Ventris"
+          },
+          {
+            "faction": "space-marines",
+            "id": "primaris-company-champion",
+            "name": "Primaris Company Champion"
+          }
+        ],
+        "use": "Captain"
+      },
+      {
+        "id": "land-raider",
+        "legacy": [
+          "Land Raider Helios",
+          "Land Raider Prometheus",
+          "Land Raider Terminus Ultra",
+          "Land Raider Proteus",
+          "Land Raider Achilles",
+          "Spartan Assault Tank"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "land-raider-helios",
+            "name": "Land Raider Helios"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-raider-prometheus",
+            "name": "Land Raider Prometheus"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-raider-proteus",
+            "name": "Land Raider Proteus"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-raider-achilles",
+            "name": "Land Raider Achilles"
+          }
+        ],
+        "use": "Land Raider"
+      },
+      {
+        "id": "predator-destructor",
+        "legacy": [
+          "Deimos Predator"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "deimos-predator",
+            "name": "Deimos Predator"
+          }
+        ],
+        "use": "Predator Destructor"
+      },
+      {
+        "id": "venerable-dreadnought",
+        "legacy": [
+          "Chaplain Venerable Dreadnought",
+          "Ironclad Dreadnought"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "chaplain-venerable-dreadnought",
+            "name": "Chaplain Venerable Dreadnought"
+          },
+          {
+            "faction": "space-marines",
+            "id": "ironclad-dreadnought",
+            "name": "Ironclad Dreadnought"
+          }
+        ],
+        "use": "Venerable Dreadnought"
+      },
+      {
+        "id": "land-speeder",
+        "legacy": [
+          "Land Speeder Tempest",
+          "Land Speeder Tornado",
+          "Land Speeder Typhoon",
+          "Land Speeder Storm"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-tempest",
+            "name": "Land Speeder Tempest"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-tornado",
+            "name": "Land Speeder Tornado"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-typhoon",
+            "name": "Land Speeder Typhoon"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-storm",
+            "name": "Land Speeder Storm"
+          }
+        ],
+        "use": "Land Speeder"
+      },
+      {
+        "id": "redemptor-dreadnought",
+        "legacy": [
+          "Carab Culln the Risen",
+          "Relic Contemptor Dreadnought",
+          "Leviathan Dreadnought"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "carab-culln-the-risen",
+            "name": "Carab Culln the Risen"
+          },
+          {
+            "faction": "space-marines",
+            "id": "relic-contemptor-dreadnought",
+            "name": "Relic Contemptor Dreadnought"
+          },
+          {
+            "faction": "space-marines",
+            "id": "leviathan-dreadnought",
+            "name": "Leviathan Dreadnought"
+          }
+        ],
+        "use": "Redemptor Dreadnought"
+      },
+      {
+        "id": "stormraven-gunship",
+        "legacy": [
+          "Caestus Assault Ram",
+          "Xiphon Interceptor",
+          "Storm Eagle Gunship",
+          "Fire Raptor Gunship"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "caestus-assault-ram",
+            "name": "Caestus Assault Ram"
+          },
+          {
+            "faction": "space-marines",
+            "id": "xiphon-interceptor",
+            "name": "Xiphon Interceptor"
+          },
+          {
+            "faction": "space-marines",
+            "id": "storm-eagle-gunship",
+            "name": "Storm Eagle Gunship"
+          },
+          {
+            "faction": "space-marines",
+            "id": "fire-raptor-gunship",
+            "name": "Fire Raptor Gunship"
+          }
+        ],
+        "use": "Stormraven Gunship"
+      },
+      {
+        "id": "lieutenant",
+        "legacy": [
+          "Sergeant Chronus"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "sergeant-chronus",
+            "name": "Sergeant Chronus"
+          }
+        ],
+        "use": "Lieutenant"
+      },
+      {
+        "id": "outrider-squad",
+        "legacy": [
+          "Company Veterans on Bikes",
+          "Bike Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "company-veterans-on-bikes",
+            "name": "Company Veterans on Bikes"
+          },
+          {
+            "faction": "space-marines",
+            "id": "bike-squad",
+            "name": "Bike Squad"
+          }
+        ],
+        "use": "Outrider Squad"
+      },
+      {
+        "id": "thunderhawk-gunship",
+        "legacy": [
+          "Thunderhawk Transporter",
+          "Sokar-pattern Stormbird"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "thunderhawk-transporter",
+            "name": "Thunderhawk Transporter"
+          },
+          {
+            "faction": "space-marines",
+            "id": "sokar-pattern-stormbird",
+            "name": "Sokar-pattern Stormbird"
+          }
+        ],
+        "use": "Thunderhawk Gunship"
+      },
+      {
+        "id": "firestrike-servo-turrets",
+        "legacy": [
+          "Thunderfire Cannon"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "thunderfire-cannon",
+            "name": "Thunderfire Cannon"
+          }
+        ],
+        "use": "Firestrike Servo-turrets"
+      },
+      {
+        "id": "chaplain",
+        "legacy": [
+          "Chaplain Cassius"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "chaplain-cassius",
+            "name": "Chaplain Cassius"
+          }
+        ],
+        "use": "Chaplain"
+      },
+      {
+        "id": "assault-intercessor-squad",
+        "legacy": [
+          "Assault Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "assault-squad",
+            "name": "Assault Squad"
+          }
+        ],
+        "use": "Assault Intercessor Squad"
+      },
+      {
+        "id": "assault-intercessor-squad",
+        "legacy": [
+          "Assault Squad with Jump Packs"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "assault-squad-with-jump-packs",
+            "name": "Assault Squad with Jump Packs"
+          }
+        ],
+        "use": "Assault Intercessor Squad with Jump Packs"
+      },
+      {
+        "id": "company-heroes",
+        "legacy": [
+          "Command Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "command-squad",
+            "name": "Command Squad"
+          }
+        ],
+        "use": "Company Heroes"
+      },
+      {
+        "id": "terminator-assault-squad",
+        "legacy": [
+          "Relic Terminator Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "relic-terminator-squad",
+            "name": "Relic Terminator Squad"
+          }
+        ],
+        "use": "Terminator Assault Squad"
+      },
+      {
+        "id": "scout-squad",
+        "legacy": [
+          "Scout Sniper Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "scout-sniper-squad",
+            "name": "Scout Sniper Squad"
+          }
+        ],
+        "use": "Scout Squad"
+      },
+      {
+        "id": "sternguard-veteran-squad",
+        "legacy": [
+          "Tyrannic War Veterans"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "tyrannic-war-veterans",
+            "name": "Tyrannic War Veterans"
+          }
+        ],
+        "use": "Sternguard Veteran Squad"
+      },
+      {
+        "id": "invader-atvs",
+        "legacy": [
+          "Attack Bike Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "attack-bike-squad",
+            "name": "Attack Bike Squad"
+          }
+        ],
+        "use": "Invader ATVs"
+      },
+      {
+        "id": "whirlwind",
+        "legacy": [
+          "Hunter",
+          "Stalker",
+          "Whirlwind Scorpius"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "hunter",
+            "name": "Hunter"
+          },
+          {
+            "faction": "space-marines",
+            "id": "stalker",
+            "name": "Stalker"
+          },
+          {
+            "faction": "space-marines",
+            "id": "whirlwind-scorpius",
+            "name": "Whirlwind Scorpius"
+          }
+        ],
+        "use": "Whirlwind"
+      },
+      {
+        "id": "ballistus-dreadnought",
+        "legacy": [
+          "Deredeo Dreadnought"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "deredeo-dreadnought",
+            "name": "Deredeo Dreadnought"
+          }
+        ],
+        "use": "Ballistus Dreadnought"
+      },
+      {
+        "id": "storm-speeder-hailstrike",
+        "legacy": [
+          "Javelin Attack Speeder"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "javelin-attack-speeder",
+            "name": "Javelin Attack Speeder"
+          }
+        ],
+        "use": "Storm Speeder Hailstrike"
+      },
+      {
+        "id": "drop-pod",
+        "legacy": [
+          "Death Storm Drop Pod",
+          "Dreadnought Drop Pod"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "dreadnought-drop-pod",
+            "name": "Dreadnought Drop Pod"
+          }
+        ],
+        "use": "Drop Pod"
+      },
+      {
+        "id": "vindicator",
+        "legacy": [
+          "Vindicator Laser Destroyer"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "vindicator-laser-destroyer",
+            "name": "Vindicator Laser Destroyer"
+          }
+        ],
+        "use": "Vindicator"
+      },
+      {
+        "id": "astraeus",
+        "legacy": [
+          "Fellblade Super-heavy Battle Tank"
+        ],
+        "use": "Astraeus"
+      }
+    ],
+    "pub": "Legends: Space Marines"
+  },
+  "space-wolves": {
+    "intro": "What follow are official rules, and we actively encourage you to use them in your games at home, in stores, clubs, and campaigns. Your classic units and characters are still awesome, and there is no shortage of battles for them still to fight.\n\nAs points values for Legends units are not updated with the same regularity as units in your Codex, we do not recommend their inclusion in competitive Warhammer Events without the permission of the event organisers.\n\nWarhammer Legends come in two varieties:\n\n▪ Units that are no longer part of your army's Codex, but which are still supported with their own datasheets and Legend points in the Munitorum Field Manual. You can include these units in your army in the same way as other units from your Codex, though bear in mind the disclaimer about competitive Warhammer Events, above. Some Legends datasheets represent more than one unit – where this is the case, those will be listed below.\n\n▪ Units that are well represented by other datasheets in your army's Codex - we refer to these as Legendary Proxies units. While these units may differ in significant ways from those described by these datasheets, these rules are the best way to represent these units in your battles. Legends units that use a datasheet shared by more than one unit also use these rules. To use Legendary Proxies units in your army, simply use the relevant datasheet indicated below, complete with its points value(s) in the Munitorum Field Manual, and field your unit as you would any other. When running through the mission sequence, be sure that your opponent understands which units your Legendary Proxies units represent. Bear in mind that Legendary Proxies units may vary in size or base size from the units they are counting as. When an issue arises during battle as a result of this (for example, because a Legendary Proxies unit is visible when the unit it is representing wouldn't be), it is good practice to err in favour of the other player.",
+    "of": "space-marines",
+    "proxies": [
+      {
+        "id": "desolation-squad",
+        "legacy": [
+          "Devastator Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "devastator-squad",
+            "name": "Devastator Squad"
+          }
+        ],
+        "use": "Desolation Squad"
+      },
+      {
+        "id": "lieutenant-in-phobos-armour",
+        "legacy": [
+          "Lieutenant in Reiver Armour",
+          "Sergeant Telion"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "lieutenant-in-reiver-armour",
+            "name": "Lieutenant in Reiver Armour"
+          },
+          {
+            "faction": "space-marines",
+            "id": "sergeant-telion",
+            "name": "Sergeant Telion"
+          }
+        ],
+        "use": "Lieutenant in Phobos Armour"
+      },
+      {
+        "id": "inceptor-squad",
+        "legacy": [
+          "Suppressor Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "suppressor-squad",
+            "name": "Suppressor Squad"
+          }
+        ],
+        "use": "Inceptor Squad"
+      },
+      {
+        "id": "intercessor-squad",
+        "legacy": [
+          "Tactical Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "tactical-squad",
+            "name": "Tactical Squad"
+          }
+        ],
+        "use": "Intercessor Squad"
+      },
+      {
+        "id": "captain",
+        "legacy": [
+          "Ferren Aerios",
+          "Pedro Kantor",
+          "Uriel Ventris",
+          "Primaris Company Champion"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "pedro-kantor",
+            "name": "Pedro Kantor"
+          },
+          {
+            "faction": "space-marines",
+            "id": "uriel-ventris",
+            "name": "Uriel Ventris"
+          },
+          {
+            "faction": "space-marines",
+            "id": "primaris-company-champion",
+            "name": "Primaris Company Champion"
+          }
+        ],
+        "use": "Captain"
+      },
+      {
+        "id": "land-raider",
+        "legacy": [
+          "Land Raider Helios",
+          "Land Raider Prometheus",
+          "Land Raider Terminus Ultra",
+          "Land Raider Proteus",
+          "Land Raider Achilles",
+          "Spartan Assault Tank"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "land-raider-helios",
+            "name": "Land Raider Helios"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-raider-prometheus",
+            "name": "Land Raider Prometheus"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-raider-proteus",
+            "name": "Land Raider Proteus"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-raider-achilles",
+            "name": "Land Raider Achilles"
+          }
+        ],
+        "use": "Land Raider"
+      },
+      {
+        "id": "predator-destructor",
+        "legacy": [
+          "Deimos Predator"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "deimos-predator",
+            "name": "Deimos Predator"
+          }
+        ],
+        "use": "Predator Destructor"
+      },
+      {
+        "id": "venerable-dreadnought",
+        "legacy": [
+          "Chaplain Venerable Dreadnought",
+          "Ironclad Dreadnought"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "chaplain-venerable-dreadnought",
+            "name": "Chaplain Venerable Dreadnought"
+          },
+          {
+            "faction": "space-marines",
+            "id": "ironclad-dreadnought",
+            "name": "Ironclad Dreadnought"
+          }
+        ],
+        "use": "Venerable Dreadnought"
+      },
+      {
+        "id": "land-speeder",
+        "legacy": [
+          "Land Speeder Tempest",
+          "Land Speeder Tornado",
+          "Land Speeder Typhoon",
+          "Land Speeder Storm"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-tempest",
+            "name": "Land Speeder Tempest"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-tornado",
+            "name": "Land Speeder Tornado"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-typhoon",
+            "name": "Land Speeder Typhoon"
+          },
+          {
+            "faction": "space-marines",
+            "id": "land-speeder-storm",
+            "name": "Land Speeder Storm"
+          }
+        ],
+        "use": "Land Speeder"
+      },
+      {
+        "id": "redemptor-dreadnought",
+        "legacy": [
+          "Carab Culln the Risen",
+          "Relic Contemptor Dreadnought",
+          "Leviathan Dreadnought"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "carab-culln-the-risen",
+            "name": "Carab Culln the Risen"
+          },
+          {
+            "faction": "space-marines",
+            "id": "relic-contemptor-dreadnought",
+            "name": "Relic Contemptor Dreadnought"
+          },
+          {
+            "faction": "space-marines",
+            "id": "leviathan-dreadnought",
+            "name": "Leviathan Dreadnought"
+          }
+        ],
+        "use": "Redemptor Dreadnought"
+      },
+      {
+        "id": "stormraven-gunship",
+        "legacy": [
+          "Caestus Assault Ram",
+          "Xiphon Interceptor",
+          "Storm Eagle Gunship",
+          "Fire Raptor Gunship"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "caestus-assault-ram",
+            "name": "Caestus Assault Ram"
+          },
+          {
+            "faction": "space-marines",
+            "id": "xiphon-interceptor",
+            "name": "Xiphon Interceptor"
+          },
+          {
+            "faction": "space-marines",
+            "id": "storm-eagle-gunship",
+            "name": "Storm Eagle Gunship"
+          },
+          {
+            "faction": "space-marines",
+            "id": "fire-raptor-gunship",
+            "name": "Fire Raptor Gunship"
+          }
+        ],
+        "use": "Stormraven Gunship"
+      },
+      {
+        "id": "lieutenant",
+        "legacy": [
+          "Sergeant Chronus"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "sergeant-chronus",
+            "name": "Sergeant Chronus"
+          }
+        ],
+        "use": "Lieutenant"
+      },
+      {
+        "id": "outrider-squad",
+        "legacy": [
+          "Company Veterans on Bikes",
+          "Bike Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "company-veterans-on-bikes",
+            "name": "Company Veterans on Bikes"
+          },
+          {
+            "faction": "space-marines",
+            "id": "bike-squad",
+            "name": "Bike Squad"
+          }
+        ],
+        "use": "Outrider Squad"
+      },
+      {
+        "id": "thunderhawk-gunship",
+        "legacy": [
+          "Thunderhawk Transporter",
+          "Sokar-pattern Stormbird"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "thunderhawk-transporter",
+            "name": "Thunderhawk Transporter"
+          },
+          {
+            "faction": "space-marines",
+            "id": "sokar-pattern-stormbird",
+            "name": "Sokar-pattern Stormbird"
+          }
+        ],
+        "use": "Thunderhawk Gunship"
+      },
+      {
+        "id": "firestrike-servo-turrets",
+        "legacy": [
+          "Thunderfire Cannon"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "thunderfire-cannon",
+            "name": "Thunderfire Cannon"
+          }
+        ],
+        "use": "Firestrike Servo-turrets"
+      },
+      {
+        "id": "chaplain",
+        "legacy": [
+          "Chaplain Cassius"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "chaplain-cassius",
+            "name": "Chaplain Cassius"
+          }
+        ],
+        "use": "Chaplain"
+      },
+      {
+        "id": "assault-intercessor-squad",
+        "legacy": [
+          "Assault Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "assault-squad",
+            "name": "Assault Squad"
+          }
+        ],
+        "use": "Assault Intercessor Squad"
+      },
+      {
+        "id": "assault-intercessor-squad",
+        "legacy": [
+          "Assault Squad with Jump Packs"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "assault-squad-with-jump-packs",
+            "name": "Assault Squad with Jump Packs"
+          }
+        ],
+        "use": "Assault Intercessor Squad with Jump Packs"
+      },
+      {
+        "id": "company-heroes",
+        "legacy": [
+          "Command Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "command-squad",
+            "name": "Command Squad"
+          }
+        ],
+        "use": "Company Heroes"
+      },
+      {
+        "id": "terminator-assault-squad",
+        "legacy": [
+          "Relic Terminator Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "relic-terminator-squad",
+            "name": "Relic Terminator Squad"
+          }
+        ],
+        "use": "Terminator Assault Squad"
+      },
+      {
+        "id": "scout-squad",
+        "legacy": [
+          "Scout Sniper Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "scout-sniper-squad",
+            "name": "Scout Sniper Squad"
+          }
+        ],
+        "use": "Scout Squad"
+      },
+      {
+        "id": "sternguard-veteran-squad",
+        "legacy": [
+          "Tyrannic War Veterans"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "tyrannic-war-veterans",
+            "name": "Tyrannic War Veterans"
+          }
+        ],
+        "use": "Sternguard Veteran Squad"
+      },
+      {
+        "id": "invader-atvs",
+        "legacy": [
+          "Attack Bike Squad"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "attack-bike-squad",
+            "name": "Attack Bike Squad"
+          }
+        ],
+        "use": "Invader ATVs"
+      },
+      {
+        "id": "whirlwind",
+        "legacy": [
+          "Hunter",
+          "Stalker",
+          "Whirlwind Scorpius"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "hunter",
+            "name": "Hunter"
+          },
+          {
+            "faction": "space-marines",
+            "id": "stalker",
+            "name": "Stalker"
+          },
+          {
+            "faction": "space-marines",
+            "id": "whirlwind-scorpius",
+            "name": "Whirlwind Scorpius"
+          }
+        ],
+        "use": "Whirlwind"
+      },
+      {
+        "id": "ballistus-dreadnought",
+        "legacy": [
+          "Deredeo Dreadnought"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "deredeo-dreadnought",
+            "name": "Deredeo Dreadnought"
+          }
+        ],
+        "use": "Ballistus Dreadnought"
+      },
+      {
+        "id": "storm-speeder-hailstrike",
+        "legacy": [
+          "Javelin Attack Speeder"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "javelin-attack-speeder",
+            "name": "Javelin Attack Speeder"
+          }
+        ],
+        "use": "Storm Speeder Hailstrike"
+      },
+      {
+        "id": "drop-pod",
+        "legacy": [
+          "Death Storm Drop Pod",
+          "Dreadnought Drop Pod"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "dreadnought-drop-pod",
+            "name": "Dreadnought Drop Pod"
+          }
+        ],
+        "use": "Drop Pod"
+      },
+      {
+        "id": "vindicator",
+        "legacy": [
+          "Vindicator Laser Destroyer"
+        ],
+        "legacyRefs": [
+          {
+            "faction": "space-marines",
+            "id": "vindicator-laser-destroyer",
+            "name": "Vindicator Laser Destroyer"
+          }
+        ],
+        "use": "Vindicator"
+      },
+      {
+        "id": "astraeus",
+        "legacy": [
+          "Fellblade Super-heavy Battle Tank"
+        ],
+        "use": "Astraeus"
+      }
+    ],
+    "pub": "Legends: Space Marines"
+  }
+}

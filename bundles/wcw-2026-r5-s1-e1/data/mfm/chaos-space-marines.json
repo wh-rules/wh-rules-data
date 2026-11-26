@@ -1,0 +1,1423 @@
+{
+  "default": {
+    "detachments": [
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Conduit of Chaos",
+            "points": 20
+          },
+          {
+            "name": "Touched by the Warp",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Cabal of Chaos"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Amulet of Tainted Vigour",
+            "points": 20
+          },
+          {
+            "name": "Cultist’s Brand",
+            "points": 30
+          },
+          {
+            "name": "Incendiary Goad",
+            "points": 25
+          },
+          {
+            "name": "Warped Foresight",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Chaos Cult"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Helm of All-Seeing",
+            "points": 25
+          },
+          {
+            "name": "Living Carapace",
+            "points": 15
+          },
+          {
+            "name": "Prime Test Subject",
+            "points": 35
+          },
+          {
+            "name": "Surgical Precision",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold",
+          "Purge the Foe"
+        ],
+        "name": "Creations of Bile"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Crown of Worms",
+            "points": 15
+          },
+          {
+            "name": "Cybinfernal Font",
+            "points": 20
+          },
+          {
+            "name": "Mark of the Soul Forges",
+            "points": 20
+          },
+          {
+            "name": "Wyredjinn",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Cult of the Arkifane"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Cursed Fang",
+            "points": 10
+          },
+          {
+            "name": "Falsehood",
+            "points": 10
+          },
+          {
+            "name": "Shroud of Obfuscation",
+            "points": 15
+          },
+          {
+            "name": "Soul Link",
+            "points": 5
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Deceptors"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Eye of Oblivion",
+            "points": 20
+          },
+          {
+            "name": "Pact of Destruction",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Devotees of Destruction"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Eater of Dread",
+            "points": 15
+          },
+          {
+            "name": "Night’s Shroud",
+            "points": 10
+          },
+          {
+            "name": "Warp-Fuelled Thrusters",
+            "points": 20
+          },
+          {
+            "name": "Willbreaker",
+            "points": 10
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Dread Talons"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Bastion Plate",
+            "points": 10
+          },
+          {
+            "name": "Iron Artifice",
+            "points": 10
+          },
+          {
+            "name": "Ironbound Enmity",
+            "points": 15
+          },
+          {
+            "name": "Warp Tracer",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Fellhammer Siege-Host"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Dread Reputation",
+            "points": 25
+          },
+          {
+            "name": "Eager for Bloodshed",
+            "points": 30
+          },
+          {
+            "name": "Raid Leader",
+            "points": 20
+          },
+          {
+            "name": "Voice of the Tyrant",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Disruption",
+          "Purge the Foe"
+        ],
+        "name": "Huron’s Marauders"
+      },
+      {
+        "dp": 1,
+        "enhancements": [
+          {
+            "name": "Pact of Cursed Pinions",
+            "points": 20
+          },
+          {
+            "name": "Shadowcowl Talisman",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Reconnaissance"
+        ],
+        "name": "Murdertalon Raiders",
+        "unique": "NIGHTMARE"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Greyveil Hex",
+            "points": 25
+          },
+          {
+            "name": "Sorrowscent Vulture",
+            "points": 35
+          },
+          {
+            "name": "Terrorglut Parasite",
+            "points": 20
+          },
+          {
+            "name": "Warp-Fuelled Thrusters",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Nightmare Hunt",
+        "unique": "NIGHTMARE"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Eye of Tzeentch",
+            "points": 15
+          },
+          {
+            "name": "Intoxicating Elixir",
+            "points": 15
+          },
+          {
+            "name": "Orbs of Unlife",
+            "points": 15
+          },
+          {
+            "name": "Talisman of Burning Blood",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Disruption",
+          "Priority Assets"
+        ],
+        "name": "Pactbound Zealots"
+      },
+      {
+        "dp": 3,
+        "enhancements": [
+          {
+            "name": "Despot’s Claim",
+            "points": 15
+          },
+          {
+            "name": "Dread Reaver",
+            "points": 15
+          },
+          {
+            "name": "Mark of the Hound",
+            "points": 25
+          },
+          {
+            "name": "Tyrant’s Lash",
+            "points": 20
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets",
+          "Reconnaissance"
+        ],
+        "name": "Renegade Raiders"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Empyric Symbiote",
+            "points": 15
+          },
+          {
+            "name": "Eyes of the Hunter",
+            "points": 15
+          },
+          {
+            "name": "Fratricidal Trophies",
+            "points": 5
+          },
+          {
+            "name": "Weaponised Hatred",
+            "points": 35
+          }
+        ],
+        "forceDispositions": [
+          "Priority Assets"
+        ],
+        "name": "Renegade Warband"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Forge’s Blessing",
+            "points": 20
+          },
+          {
+            "name": "Invigorated Mechatendrils",
+            "points": 15
+          },
+          {
+            "name": "Soul Harvester",
+            "points": 15
+          },
+          {
+            "name": "Tempting Addendum",
+            "points": 40
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Soulforged Warpack"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Eager for Vengeance",
+            "points": 20
+          },
+          {
+            "name": "Eye of Abaddon",
+            "points": 15
+          },
+          {
+            "name": "Mark of Legend",
+            "points": 10
+          },
+          {
+            "name": "Warmaster’s Gift",
+            "points": 15
+          }
+        ],
+        "forceDispositions": [
+          "Take and Hold"
+        ],
+        "name": "Veterans of the Long War"
+      },
+      {
+        "dp": 2,
+        "enhancements": [
+          {
+            "name": "Akshur’s Binding Runes",
+            "points": 20
+          },
+          {
+            "name": "Eye of the Warp",
+            "points": 15
+          },
+          {
+            "name": "Infernal Fulgurite",
+            "points": 20
+          },
+          {
+            "name": "Tzagulla",
+            "points": 25
+          }
+        ],
+        "forceDispositions": [
+          "Disruption"
+        ],
+        "name": "Warpstrike Champions"
+      }
+    ],
+    "id": "chaos-space-marines",
+    "legends": [
+      {
+        "name": "Blood Slaughterer",
+        "options": [
+          {
+            "models": 1,
+            "points": 160
+          }
+        ]
+      },
+      {
+        "name": "Chaos Deimos Predator",
+        "options": [
+          {
+            "models": 1,
+            "points": 115
+          }
+        ]
+      },
+      {
+        "name": "Chaos Lord on Bike",
+        "options": [
+          {
+            "models": 1,
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Chaos Lord on Disc of Tzeentch",
+        "options": [
+          {
+            "models": 1,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Chaos Lord on Juggernaut",
+        "options": [
+          {
+            "models": 1,
+            "points": 115
+          }
+        ]
+      },
+      {
+        "name": "Chaos Lord on Palanquin of Nurgle",
+        "options": [
+          {
+            "models": 1,
+            "points": 90
+          }
+        ]
+      },
+      {
+        "name": "Chaos Lord on Steed of Slaanesh",
+        "options": [
+          {
+            "models": 1,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Chaos Thunderhawk",
+        "options": [
+          {
+            "models": 1,
+            "points": 840
+          }
+        ]
+      },
+      {
+        "name": "Cultist Mob with Firearms",
+        "options": [
+          {
+            "models": 10,
+            "points": 50
+          },
+          {
+            "models": 20,
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Decimator",
+        "options": [
+          {
+            "models": 1,
+            "points": 165
+          }
+        ]
+      },
+      {
+        "name": "Dreadclaw Drop Pod",
+        "options": [
+          {
+            "models": 1,
+            "points": 115
+          }
+        ]
+      },
+      {
+        "name": "Exalted Champion",
+        "options": [
+          {
+            "models": 1,
+            "points": 70
+          }
+        ]
+      },
+      {
+        "name": "Gellerpox Infected",
+        "options": [
+          {
+            "models": 7,
+            "points": 125
+          }
+        ]
+      },
+      {
+        "name": "Greater Blight Drone",
+        "options": [
+          {
+            "models": 1,
+            "points": 150
+          }
+        ]
+      },
+      {
+        "name": "Greater Brass Scorpion",
+        "options": [
+          {
+            "models": 1,
+            "points": 500
+          }
+        ]
+      },
+      {
+        "name": "Hell Blade",
+        "options": [
+          {
+            "models": 1,
+            "points": 115
+          }
+        ]
+      },
+      {
+        "name": "Hell Talon",
+        "options": [
+          {
+            "models": 1,
+            "points": 140
+          }
+        ]
+      },
+      {
+        "name": "Kharybdis Assault Claw",
+        "options": [
+          {
+            "models": 1,
+            "points": 300
+          }
+        ]
+      },
+      {
+        "name": "Kytan Ravager",
+        "options": [
+          {
+            "models": 1,
+            "points": 400
+          }
+        ]
+      },
+      {
+        "name": "Mutoid Vermin",
+        "options": [
+          {
+            "models": 16,
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Negavolt Cultists",
+        "options": [
+          {
+            "models": 4,
+            "points": 55
+          }
+        ]
+      },
+      {
+        "name": "Renegade Enforcer",
+        "options": [
+          {
+            "models": 1,
+            "points": 65
+          }
+        ]
+      },
+      {
+        "name": "Renegade Heavy Weapons Squad",
+        "options": [
+          {
+            "models": 3,
+            "points": 75
+          }
+        ]
+      },
+      {
+        "name": "Renegade Ogryn Beast Handler",
+        "options": [
+          {
+            "models": 4,
+            "points": 40
+          },
+          {
+            "models": 7,
+            "points": 70
+          }
+        ]
+      },
+      {
+        "name": "Renegade Ogryn Brutes",
+        "options": [
+          {
+            "models": 3,
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Renegade Plague Ogryns",
+        "options": [
+          {
+            "models": 3,
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Rogue Psyker",
+        "options": [
+          {
+            "models": 1,
+            "points": 60
+          }
+        ]
+      },
+      {
+        "name": "Sorcerer on Bike",
+        "options": [
+          {
+            "models": 1,
+            "points": 75
+          }
+        ]
+      },
+      {
+        "name": "Sorcerer on Disc of Tzeentch",
+        "options": [
+          {
+            "models": 1,
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Sorcerer on Palanquin of Nurgle",
+        "options": [
+          {
+            "models": 1,
+            "points": 80
+          }
+        ]
+      },
+      {
+        "name": "Sorcerer on Steed of Slaanesh",
+        "options": [
+          {
+            "models": 1,
+            "points": 85
+          }
+        ]
+      }
+    ],
+    "name": "Chaos Space Marines",
+    "slug": "chaos-space-marines",
+    "sourceUrl": "https://mfm.warhammer-community.com/en/chaos-space-marines",
+    "subfactions": [],
+    "units": [
+      {
+        "name": "Abaddon the Despoiler",
+        "options": [
+          {
+            "models": 1,
+            "points": 300
+          }
+        ]
+      },
+      {
+        "name": "Accursed Cultists",
+        "options": [
+          {
+            "models": 8,
+            "note": "1st-2nd",
+            "points": 90
+          },
+          {
+            "models": 16,
+            "note": "1st-2nd",
+            "points": 185
+          },
+          {
+            "models": 8,
+            "note": "3rd+",
+            "points": 110
+          },
+          {
+            "models": 16,
+            "note": "3rd+",
+            "points": 205
+          }
+        ]
+      },
+      {
+        "name": "Chaos Bikers",
+        "options": [
+          {
+            "models": 3,
+            "points": 80
+          },
+          {
+            "models": 6,
+            "points": 150
+          }
+        ]
+      },
+      {
+        "name": "Chaos Land Raider",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 220
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 240
+          }
+        ]
+      },
+      {
+        "name": "Chaos Lord",
+        "options": [
+          {
+            "models": 1,
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Chaos Lord in Terminator Armour",
+        "options": [
+          {
+            "models": 1,
+            "points": 90
+          }
+        ]
+      },
+      {
+        "name": "Chaos Lord with Jump Pack",
+        "options": [
+          {
+            "models": 1,
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Chaos Predator Annihilator",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 140
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 150
+          }
+        ]
+      },
+      {
+        "name": "Chaos Predator Destructor",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 145
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 155
+          }
+        ]
+      },
+      {
+        "name": "Chaos Rhino",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-3rd",
+            "points": 65
+          },
+          {
+            "models": 1,
+            "note": "4th+",
+            "points": 75
+          }
+        ]
+      },
+      {
+        "name": "Chaos Spawn",
+        "options": [
+          {
+            "models": 2,
+            "points": 60
+          }
+        ]
+      },
+      {
+        "name": "Chaos Terminator Squad",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 185
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 370
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 215
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 400
+          }
+        ]
+      },
+      {
+        "name": "Chaos Vindicator",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 180
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 190
+          }
+        ]
+      },
+      {
+        "name": "Chosen",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 140
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 280
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 150
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 290
+          }
+        ]
+      },
+      {
+        "name": "Cultist Firebrand",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 45
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 50
+          }
+        ]
+      },
+      {
+        "name": "Cultist Mob",
+        "options": [
+          {
+            "models": 10,
+            "points": 50
+          },
+          {
+            "models": 20,
+            "points": 90
+          }
+        ]
+      },
+      {
+        "name": "Cypher",
+        "options": [
+          {
+            "models": 1,
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Dark Apostle",
+        "options": [
+          {
+            "models": 3,
+            "points": 70
+          }
+        ]
+      },
+      {
+        "name": "Dark Commune",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 90
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "name": "Defiler",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 300
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 350
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Heavy Reaper Autocannon",
+            "points": 15
+          },
+          {
+            "name": "Hades Lascannon",
+            "points": 15
+          }
+        ]
+      },
+      {
+        "name": "Fabius Bile",
+        "options": [
+          {
+            "models": 2,
+            "points": 110
+          }
+        ]
+      },
+      {
+        "name": "Fellgor Beastmen",
+        "options": [
+          {
+            "models": 10,
+            "points": 60
+          }
+        ]
+      },
+      {
+        "name": "Forgefiend",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 155
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 165
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Ectoplasma cannon",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Haarken Worldclaimer",
+        "options": [
+          {
+            "models": 1,
+            "points": 95
+          }
+        ]
+      },
+      {
+        "name": "Havocs",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 135
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 145
+          }
+        ]
+      },
+      {
+        "name": "Helbrute",
+        "options": [
+          {
+            "models": 1,
+            "points": 125
+          }
+        ]
+      },
+      {
+        "name": "Heldrake",
+        "options": [
+          {
+            "models": 1,
+            "points": 175
+          }
+        ]
+      },
+      {
+        "name": "Heretic Astartes Daemon Prince",
+        "options": [
+          {
+            "models": 1,
+            "points": 155
+          }
+        ]
+      },
+      {
+        "name": "Heretic Astartes Daemon Prince with Wings",
+        "options": [
+          {
+            "models": 1,
+            "points": 170
+          }
+        ]
+      },
+      {
+        "name": "Huron Blackheart",
+        "options": [
+          {
+            "models": 1,
+            "points": 135
+          }
+        ]
+      },
+      {
+        "name": "Khorne Lord of Skulls",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st",
+            "points": 450
+          },
+          {
+            "models": 1,
+            "note": "2nd+",
+            "points": 475
+          }
+        ]
+      },
+      {
+        "name": "Kravek Morne",
+        "options": [
+          {
+            "models": 1,
+            "points": 130
+          }
+        ]
+      },
+      {
+        "name": "Legionaries",
+        "options": [
+          {
+            "models": 5,
+            "points": 95
+          },
+          {
+            "models": 10,
+            "points": 180
+          }
+        ]
+      },
+      {
+        "name": "Lord Discordant on Helstalker",
+        "options": [
+          {
+            "models": 1,
+            "points": 155
+          }
+        ]
+      },
+      {
+        "name": "Master of Executions",
+        "options": [
+          {
+            "models": 1,
+            "points": 75
+          }
+        ]
+      },
+      {
+        "name": "Master of Possession",
+        "options": [
+          {
+            "models": 1,
+            "points": 65
+          }
+        ]
+      },
+      {
+        "name": "Masters of the Maelstrom",
+        "options": [
+          {
+            "models": 5,
+            "points": 150
+          }
+        ]
+      },
+      {
+        "name": "Maulerfiend",
+        "options": [
+          {
+            "models": 1,
+            "points": 125
+          }
+        ]
+      },
+      {
+        "name": "Mutilators",
+        "options": [
+          {
+            "models": 3,
+            "note": "1st-2nd",
+            "points": 165
+          },
+          {
+            "models": 3,
+            "note": "3rd+",
+            "points": 185
+          }
+        ]
+      },
+      {
+        "name": "Nemesis Claw",
+        "options": [
+          {
+            "models": 5,
+            "points": 105
+          },
+          {
+            "models": 10,
+            "points": 190
+          }
+        ]
+      },
+      {
+        "name": "Noctilith Crown",
+        "options": [
+          {
+            "models": 1,
+            "points": 125
+          }
+        ]
+      },
+      {
+        "name": "Obliterators",
+        "options": [
+          {
+            "models": 2,
+            "note": "1st-2nd",
+            "points": 160
+          },
+          {
+            "models": 2,
+            "note": "3rd+",
+            "points": 170
+          }
+        ]
+      },
+      {
+        "name": "Possessed",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 130
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 260
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 150
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 280
+          }
+        ]
+      },
+      {
+        "name": "Raptors",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 115
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 225
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 125
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 235
+          }
+        ]
+      },
+      {
+        "name": "Red Corsairs Raiders",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 120
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 220
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 130
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 230
+          }
+        ]
+      },
+      {
+        "name": "Red Corsairs Reave-Captain",
+        "options": [
+          {
+            "models": 1,
+            "points": 65
+          }
+        ]
+      },
+      {
+        "name": "Sorcerer",
+        "options": [
+          {
+            "models": 1,
+            "points": 65
+          }
+        ]
+      },
+      {
+        "name": "Sorcerer in Terminator Armour",
+        "options": [
+          {
+            "models": 1,
+            "points": 85
+          }
+        ]
+      },
+      {
+        "name": "Traitor Enforcer",
+        "options": [
+          {
+            "models": 2,
+            "points": 70
+          }
+        ]
+      },
+      {
+        "name": "Traitor Guardsmen Squad",
+        "options": [
+          {
+            "models": 10,
+            "points": 65
+          }
+        ]
+      },
+      {
+        "name": "Vashtorr the Arkifane",
+        "options": [
+          {
+            "models": 1,
+            "points": 220
+          }
+        ]
+      },
+      {
+        "name": "Venomcrawler",
+        "options": [
+          {
+            "models": 1,
+            "note": "1st-2nd",
+            "points": 120
+          },
+          {
+            "models": 1,
+            "note": "3rd+",
+            "points": 130
+          }
+        ]
+      },
+      {
+        "name": "Warpsmith",
+        "options": [
+          {
+            "models": 1,
+            "points": 65
+          }
+        ]
+      },
+      {
+        "name": "Warp Talons",
+        "options": [
+          {
+            "models": 5,
+            "note": "1st-2nd",
+            "points": 130
+          },
+          {
+            "models": 10,
+            "note": "1st-2nd",
+            "points": 290
+          },
+          {
+            "models": 5,
+            "note": "3rd+",
+            "points": 140
+          },
+          {
+            "models": 10,
+            "note": "3rd+",
+            "points": 300
+          }
+        ]
+      }
+    ]
+  }
+}

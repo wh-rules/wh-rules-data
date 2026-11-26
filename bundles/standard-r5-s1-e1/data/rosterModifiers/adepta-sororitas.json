@@ -1,0 +1,2641 @@
+{
+  "default": {
+    "entries": [
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "DEVASTATING WOUNDS",
+            "when": null
+          }
+        ],
+        "hash": "695968a3",
+        "kind": "ability",
+        "name": "Aestred Thurga and Agathae Dolan: Auto-Tapestry of the Emperor’s Judgement",
+        "ref": {
+          "kind": "ability",
+          "unit": "aestred-thurga-and-agathae-dolan"
+        },
+        "reviewed": true,
+        "sid": "4337284e-a5f8-45e5-9fb3-cb8e1ea971c0:aestred-thurga-and-agathae-dolan",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "used-extremis-trigger-word"
+            ],
+            "on": "melee",
+            "only": {
+              "name": "Arco-flails"
+            },
+            "op": "set",
+            "stat": "a",
+            "value": "6",
+            "when": {
+              "en": "while the trigger word is invoked",
+              "ru": "пока произнесено trigger word"
+            }
+          },
+          {
+            "cond": [
+              "used-extremis-trigger-word"
+            ],
+            "on": "melee",
+            "only": {
+              "name": "Arco-flails"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "HAZARDOUS",
+            "when": {
+              "en": "while the trigger word is invoked",
+              "ru": "пока произнесено trigger word"
+            }
+          }
+        ],
+        "hash": "74f242bc",
+        "kind": "ability",
+        "name": "Arco-flagellants: Extremis Trigger Word",
+        "ref": {
+          "kind": "ability",
+          "unit": "arco-flagellants"
+        },
+        "reviewed": true,
+        "sid": "4cbc7c4a-861f-4681-ac63-c26c1b620a4f:arco-flagellants",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "e258d19a",
+        "kind": "ability",
+        "name": "Battle Sanctum: Fortification",
+        "ref": {
+          "kind": "ability",
+          "unit": "battle-sanctum"
+        },
+        "reviewed": true,
+        "sid": "pack:battle-sanctum:fortification",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 3,
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          },
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "343267c3",
+        "kind": "ability",
+        "name": "Canoness with Jump Pack: Divine Deliverance",
+        "ref": {
+          "kind": "ability",
+          "unit": "canoness-with-jump-pack"
+        },
+        "reviewed": true,
+        "sid": "59ee1033-9a10-43cc-b972-674c1dc682dd:canoness-with-jump-pack",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "set",
+            "stat": "inv",
+            "value": "2+",
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "493e6764",
+        "kind": "ability",
+        "name": "Canoness: The Emperor’s Grace",
+        "ref": {
+          "kind": "ability",
+          "unit": "canoness"
+        },
+        "reviewed": true,
+        "sid": "c91f4d2b-d53c-4903-bf71-06ba14a3a2f2:canoness",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "02ce559f",
+        "kind": "ability",
+        "name": "Castigator: Rites of Castigation",
+        "ref": {
+          "kind": "ability",
+          "unit": "castigator"
+        },
+        "reviewed": true,
+        "sid": "ff3354ba-da0e-4213-bf2c-0c903b528dba:castigator",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+ (vs Psychic Attacks and mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "b8b41276",
+        "kind": "ability",
+        "name": "Celestian Insidiants: Rituale Nullificatus",
+        "ref": {
+          "kind": "ability",
+          "unit": "celestian-insidiants"
+        },
+        "reviewed": true,
+        "sid": "e3f31634-4654-45fa-97c5-244ef85c65b1:celestian-insidiants",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": {
+              "en": "against the marked enemy unit",
+              "ru": "по отмеченному вражескому отряду"
+            }
+          }
+        ],
+        "hash": "dcd368bf",
+        "kind": "ability",
+        "name": "Celestian Insidiants: Virtue of Intolerance",
+        "ref": {
+          "kind": "ability",
+          "unit": "celestian-insidiants"
+        },
+        "reviewed": true,
+        "sid": "5ccdafb5-2cf7-4697-b996-812ed7902f05:celestian-insidiants",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 3,
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          },
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "e53a6039",
+        "kind": "ability",
+        "name": "Celestian Sacresant Aveline: Instrument of the Emperor’s Wrath",
+        "ref": {
+          "kind": "ability",
+          "unit": "celestian-sacresant-aveline"
+        },
+        "reviewed": true,
+        "sid": "pack:celestian-sacresant-aveline:instrument-of-the-emperor-s-wrath",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-led"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "when": {
+              "en": "while an ADEPTA SORORITAS CHARACTER is leading this unit",
+              "ru": "пока отряд возглавляет ADEPTA SORORITAS CHARACTER"
+            }
+          }
+        ],
+        "hash": "396e80bb",
+        "kind": "ability",
+        "name": "Celestian Sacresants: Sworn Protectors",
+        "ref": {
+          "kind": "ability",
+          "unit": "celestian-sacresants"
+        },
+        "reviewed": true,
+        "sid": "5f8d3240-9ee1-41a3-ba82-71f68225f681:celestian-sacresants",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+ (vs Psychic Attacks and mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "b8b41276",
+        "kind": "ability",
+        "name": "Crusaders: Spiritual Fortitude",
+        "note": "Read as Celestian Insidiants: Rituale Nullificatus (adepta-sororitas), the same text.",
+        "ref": {
+          "kind": "ability",
+          "unit": "crusaders"
+        },
+        "reviewed": true,
+        "sid": "pack:crusaders:spiritual-fortitude",
+        "ver": 972
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "9e236969",
+        "kind": "ability",
+        "name": "Dogmata: Executioner of Heretics",
+        "ref": {
+          "kind": "ability",
+          "unit": "dogmata"
+        },
+        "reviewed": true,
+        "sid": "bf4ca9bb-ec32-4711-b960-33d77130ff4e:dogmata",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "be69986d",
+        "kind": "ability",
+        "name": "Dogmata: Unflinching Determination",
+        "ref": {
+          "kind": "ability",
+          "unit": "dogmata"
+        },
+        "reviewed": true,
+        "sid": "23f2caff-39c4-4699-b7da-4f6f0d661c05:dogmata",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "237ccbbb",
+        "kind": "ability",
+        "name": "Exorcist: Devastating Refrain",
+        "ref": {
+          "kind": "ability",
+          "unit": "exorcist"
+        },
+        "reviewed": true,
+        "sid": "2d6fa7ff-94b7-4b14-ba9a-2e07817823cd:exorcist",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "unit",
+            "value": "Feel No Pain 5+",
+            "when": null
+          }
+        ],
+        "hash": "ccc78431",
+        "kind": "ability",
+        "name": "Hospitaller: Medicus Ministorum",
+        "ref": {
+          "kind": "ability",
+          "unit": "hospitaller"
+        },
+        "reviewed": true,
+        "sid": "ed6ae2ec-687d-4bb5-9582-8b71e6ede18f:hospitaller",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "sv",
+            "target": "unit",
+            "value": "2+",
+            "when": null
+          },
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "unit",
+            "value": "4+",
+            "when": null
+          }
+        ],
+        "hash": "752f4b85",
+        "kind": "ability",
+        "name": "Imagifier: Stanchion of Holy Martyrs",
+        "ref": {
+          "kind": "ability",
+          "unit": "imagifier"
+        },
+        "reviewed": true,
+        "sid": "bd932220-f498-4fd0-9088-3bb81acdb45b:imagifier",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "against the marked enemy unit",
+              "ru": "по отмеченному вражескому отряду"
+            }
+          }
+        ],
+        "hash": "f017b7b2",
+        "kind": "ability",
+        "name": "Intranzia Fraye: Judged for Execution",
+        "ref": {
+          "kind": "ability",
+          "unit": "intranzia-fraye"
+        },
+        "reviewed": true,
+        "sid": "650bed4b-9806-40d2-8297-1ac566ed458f:intranzia-fraye",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Stealth",
+            "when": null
+          },
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "led",
+            "value": "Stealth",
+            "when": null
+          },
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "vs": "melee",
+            "when": null
+          },
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "target": "led",
+            "value": -1,
+            "vs": "melee",
+            "when": null
+          }
+        ],
+        "hash": "337e357b",
+        "kind": "ability",
+        "name": "Junith Eruita: The Pulpit of Saint Holline’s Basilica",
+        "ref": {
+          "kind": "ability",
+          "unit": "junith-eruita"
+        },
+        "reviewed": true,
+        "sid": "a7f90476-628b-4749-ba68-c02368b7f46b:junith-eruita",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "wound",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "ff1c3e96",
+        "kind": "ability",
+        "name": "Ministorum Priest: Righteous Smiting",
+        "ref": {
+          "kind": "ability",
+          "unit": "ministorum-priest"
+        },
+        "reviewed": true,
+        "sid": "12584d64-1474-48b2-b896-251c429ef437:ministorum-priest",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 3,
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          },
+          {
+            "on": "melee",
+            "once": {
+              "dur": "phase",
+              "per": "unit"
+            },
+            "op": "add",
+            "stat": "s",
+            "value": 3,
+            "when": {
+              "en": "once per battle, while this ability is used",
+              "ru": "раз за битву, пока способность использована"
+            }
+          }
+        ],
+        "hash": "0ff5db45",
+        "kind": "ability",
+        "name": "Ministorum Priest: Zealot",
+        "ref": {
+          "kind": "ability",
+          "unit": "ministorum-priest"
+        },
+        "reviewed": true,
+        "sid": "3814e980-da68-4a95-b974-1ae6ff5c7542:ministorum-priest",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "used-righteous-repugnance"
+            ],
+            "on": "ranged",
+            "only": {
+              "name": "Fidelis"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 3,
+            "when": {
+              "en": "while a Miracle die is discarded for this ability",
+              "ru": "если сброшен Miracle die ради этой способности"
+            }
+          },
+          {
+            "cond": [
+              "used-righteous-repugnance"
+            ],
+            "on": "melee",
+            "only": {
+              "name": "Lance of Illumination"
+            },
+            "op": "add",
+            "stat": "a",
+            "value": 3,
+            "when": {
+              "en": "while a Miracle die is discarded for this ability",
+              "ru": "если сброшен Miracle die ради этой способности"
+            }
+          }
+        ],
+        "hash": "5cec19e1",
+        "kind": "ability",
+        "name": "Morvenn Vahl: Righteous Repugnance",
+        "ref": {
+          "kind": "ability",
+          "unit": "morvenn-vahl"
+        },
+        "reviewed": true,
+        "sid": "1bf65833-c151-4824-8c13-81ca2b562021:morvenn-vahl",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "target": "unit",
+            "value": "LETHAL HITS",
+            "when": null
+          }
+        ],
+        "hash": "abe50645",
+        "kind": "ability",
+        "name": "Palatine: Fury of the Righteous",
+        "ref": {
+          "kind": "ability",
+          "unit": "palatine"
+        },
+        "reviewed": true,
+        "sid": "6436cabf-748e-46d7-9d34-88b1e49cbe52:palatine",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against a MONSTER or VEHICLE unit",
+              "ru": "по отряду MONSTER или VEHICLE"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against a MONSTER or VEHICLE unit",
+              "ru": "по отряду MONSTER или VEHICLE"
+            }
+          }
+        ],
+        "hash": "d8db284c",
+        "kind": "ability",
+        "name": "Paragon Warsuits: Righteous Paragons",
+        "ref": {
+          "kind": "ability",
+          "unit": "paragon-warsuits"
+        },
+        "reviewed": true,
+        "sid": "f928b1b5-2736-4276-802b-3e1c8a4056c7:paragon-warsuits",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against an enemy unit that has destroyed an ADEPTA SORORITAS unit of yours",
+              "ru": "по вражескому отряду, уничтожившему ваш отряд ADEPTA SORORITAS"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against an enemy unit that has destroyed an ADEPTA SORORITAS unit of yours",
+              "ru": "по вражескому отряду, уничтожившему ваш отряд ADEPTA SORORITAS"
+            }
+          }
+        ],
+        "hash": "0836610c",
+        "kind": "ability",
+        "name": "Retributor Squad: Storm of Retribution",
+        "ref": {
+          "kind": "ability",
+          "unit": "retributor-squad"
+        },
+        "reviewed": true,
+        "sid": "d27d6336-58c1-4947-94d0-9a1eac927945:retributor-squad",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+",
+            "when": {
+              "en": "while this unit still contains a Geminae Superia model",
+              "ru": "пока в отряде есть модель Geminae Superia"
+            }
+          }
+        ],
+        "hash": "d5b038c7",
+        "kind": "ability",
+        "name": "Saint Celestine: Lifewards",
+        "ref": {
+          "kind": "ability",
+          "unit": "saint-celestine"
+        },
+        "reviewed": true,
+        "sid": "b2877b4d-767e-4f70-a84f-9621f80b2335:saint-celestine",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while this unit contains a MINISTORUM PRIEST",
+              "ru": "пока в отряде есть MINISTORUM PRIEST"
+            }
+          }
+        ],
+        "hash": "607413e5",
+        "kind": "ability",
+        "name": "Sanctifiers: Ministorum Sermon",
+        "ref": {
+          "kind": "ability",
+          "unit": "sanctifiers"
+        },
+        "reviewed": true,
+        "sid": "125bc084-8a95-4395-88c0-b7e7dfc85e84:sanctifiers",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+ (vs mortal wounds and Psychic Attacks)",
+            "when": null
+          }
+        ],
+        "hash": "0bc281c9",
+        "kind": "ability",
+        "name": "Sanctuary Canoness Adalya: Null Rod",
+        "ref": {
+          "kind": "ability",
+          "unit": "sanctuary-canoness-adalya"
+        },
+        "reviewed": true,
+        "sid": "f0edfa54-75bf-4e69-a5ec-f91f23fd4a56:sanctuary-canoness-adalya",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "used-extremis-trigger-word"
+            ],
+            "on": "melee",
+            "only": {
+              "name": "Arco-flails"
+            },
+            "op": "set",
+            "stat": "a",
+            "value": "6",
+            "when": {
+              "en": "while this ability is used",
+              "ru": "пока способность использована"
+            }
+          },
+          {
+            "cond": [
+              "used-extremis-trigger-word"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "HAZARDOUS",
+            "when": {
+              "en": "while this ability is used",
+              "ru": "пока способность использована"
+            }
+          }
+        ],
+        "hash": "371373d4",
+        "kind": "ability",
+        "name": "Sanctuary Guardians Arco-Flagellants: Extremis Trigger Word",
+        "ref": {
+          "kind": "ability",
+          "unit": "sanctuary-guardians-arco-flagellants"
+        },
+        "reviewed": true,
+        "sid": "e4a88233-98e8-4c9c-9665-409491dfd63d:sanctuary-guardians-arco-flagellants",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "unit-led"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "value": -1,
+            "when": {
+              "en": "while an ADEPTA SORORITAS CHARACTER is leading this unit",
+              "ru": "пока отряд возглавляет ADEPTA SORORITAS CHARACTER"
+            }
+          }
+        ],
+        "hash": "cdadac05",
+        "kind": "ability",
+        "name": "Sanctuary Guardians Celestian Sacresants: Sworn Protectors",
+        "ref": {
+          "kind": "ability",
+          "unit": "sanctuary-guardians-celestian-sacresants"
+        },
+        "reviewed": true,
+        "sid": "6d5dcd31-c979-4889-8f8b-4d15b8c98339:sanctuary-guardians-celestian-sacresants",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "d1c7f32d",
+        "kind": "ability",
+        "name": "Triumph of Saint Katherine: Censer of the Sacred Rose (Aura)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 2,
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "ADEPTA SORORITAS"
+              ]
+            }
+          ],
+          "set": "Relics of the Matriarchs",
+          "unit": "triumph-of-saint-katherine"
+        },
+        "reviewed": true,
+        "sid": "03cea895-25dc-4be7-b50a-82959b8d514f:triumph-of-saint-katherine",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "target": "aura",
+            "value": "Feel No Pain 6+",
+            "when": null
+          }
+        ],
+        "hash": "b2cfdcaf",
+        "kind": "ability",
+        "name": "Triumph of Saint Katherine: Icon of the Valorous Heart (Aura)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 2,
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "ADEPTA SORORITAS"
+              ]
+            }
+          ],
+          "set": "Relics of the Matriarchs",
+          "unit": "triumph-of-saint-katherine"
+        },
+        "reviewed": true,
+        "sid": "743e9016-ef6c-449f-b45c-28828116d1eb:triumph-of-saint-katherine",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "target": "aura",
+            "value": -1,
+            "when": {
+              "en": "while this ability is the one selected",
+              "ru": "пока выбрана эта способность"
+            }
+          }
+        ],
+        "hash": "5afb3513",
+        "kind": "ability",
+        "name": "Triumph of Saint Katherine: Petals of the Bloody Rose (Aura)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 2,
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "ADEPTA SORORITAS"
+              ]
+            }
+          ],
+          "set": "Relics of the Matriarchs",
+          "unit": "triumph-of-saint-katherine"
+        },
+        "reviewed": true,
+        "sid": "7d97856b-0bd3-4e08-bd78-094d7f56b9d0:triumph-of-saint-katherine",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "c8dadf05",
+        "kind": "ability",
+        "name": "Triumph of Saint Katherine: Simulacrum of the Argent Shroud (Aura)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 2,
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "ADEPTA SORORITAS"
+              ]
+            }
+          ],
+          "set": "Relics of the Matriarchs",
+          "unit": "triumph-of-saint-katherine"
+        },
+        "reviewed": true,
+        "sid": "b276fd29-a21e-4b1c-8010-d2910063ffed:triumph-of-saint-katherine",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [],
+        "hash": "156e7e2a",
+        "kind": "ability",
+        "name": "Triumph of Saint Katherine: Simulacrum of the Ebon Chalice (Aura)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 2,
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "ADEPTA SORORITAS"
+              ]
+            }
+          ],
+          "set": "Relics of the Matriarchs",
+          "unit": "triumph-of-saint-katherine"
+        },
+        "reviewed": true,
+        "sid": "825ee2e4-db33-4e11-b0b0-43660036d114:triumph-of-saint-katherine",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "aura",
+            "value": 2,
+            "when": {
+              "en": "while this ability is the one selected",
+              "ru": "пока выбрана эта способность"
+            }
+          }
+        ],
+        "hash": "d6cc8a90",
+        "kind": "ability",
+        "name": "Triumph of Saint Katherine: The Fiery Heart (Aura)",
+        "ref": {
+          "kind": "ability",
+          "pickLimit": 2,
+          "scopes": [
+            {
+              "excludes": [],
+              "modelExcludes": [],
+              "models": [],
+              "targets": [
+                "ADEPTA SORORITAS"
+              ]
+            }
+          ],
+          "set": "Relics of the Matriarchs",
+          "unit": "triumph-of-saint-katherine"
+        },
+        "reviewed": true,
+        "sid": "7d867253-6b26-46a4-ad71-995d88487c37:triumph-of-saint-katherine",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "prophecy-sustained"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "while this is an ability selected for this fight — both only in a turn the unit made a Charge move",
+              "ru": "пока эта способность выбрана на этот бой — обе только в ход с Charge"
+            }
+          },
+          {
+            "cond": [
+              "prophecy-lethal"
+            ],
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while this is an ability selected for this fight — both only in a turn the unit made a Charge move",
+              "ru": "пока эта способность выбрана на этот бой — обе только в ход с Charge"
+            }
+          }
+        ],
+        "hash": "c7fff5e7",
+        "kind": "ability",
+        "name": "Zephyrim Squad: Embodied Prophecy",
+        "ref": {
+          "kind": "ability",
+          "unit": "zephyrim-squad"
+        },
+        "reviewed": true,
+        "sid": "ef7b879b-c102-4e3e-a60d-20b3fa69cd4c:zephyrim-squad",
+        "ver": 925
+      },
+      {
+        "det": "Bringers of Flame",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "per attack against a unit within 6\"",
+              "ru": "за атаку по отряду в пределах 6\""
+            }
+          },
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": null
+          }
+        ],
+        "hash": "fb50d154",
+        "kind": "detachmentRule",
+        "name": "Fervent Purgation",
+        "ref": {
+          "det": "bringers-of-flame",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "cf5a5f6f-6690-416e-816e-f519b647adb8",
+        "ver": 925
+      },
+      {
+        "det": "Champions of Faith",
+        "effects": [
+          {
+            "cond": [
+              "unit-righteous"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 1,
+            "when": {
+              "en": "while the unit is Righteous (selected in your Command phase)",
+              "ru": "пока отряд Righteous (выбран в вашей фазе командования)"
+            }
+          },
+          {
+            "cond": [
+              "unit-righteous"
+            ],
+            "on": "profile",
+            "op": "improve",
+            "stat": "ld",
+            "value": 1,
+            "when": {
+              "en": "while the unit is Righteous (selected in your Command phase)",
+              "ru": "пока отряд Righteous (выбран в вашей фазе командования)"
+            }
+          },
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "weapon",
+            "op": "improve",
+            "stat": "ws",
+            "value": 1,
+            "when": {
+              "en": "Battle Sisters Squad, Celestian Insidiants, Celestian Sacresants and Paragon Warsuits models only, while the unit is Righteous",
+              "ru": "только модели Battle Sisters Squad, Celestian Insidiants, Celestian Sacresants и Paragon Warsuits, пока отряд Righteous"
+            }
+          },
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "ranged",
+            "op": "improve",
+            "stat": "bs",
+            "value": 1,
+            "when": {
+              "en": "Battle Sisters Squad, Celestian Insidiants, Celestian Sacresants and Paragon Warsuits models only, while the unit is Righteous",
+              "ru": "только модели Battle Sisters Squad, Celestian Insidiants, Celestian Sacresants и Paragon Warsuits, пока отряд Righteous"
+            }
+          }
+        ],
+        "hash": "923cb74f",
+        "kind": "detachmentRule",
+        "name": "Righteous Purpose",
+        "ref": {
+          "det": "champions-of-faith",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "7c3dcef7-9883-4679-9de6-7289c696c901",
+        "ver": 931
+      },
+      {
+        "det": "Hallowed Martyrs",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "while that model’s unit is below its Starting Strength",
+              "ru": "пока отряд ниже Starting Strength"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "while that model’s unit is Below Half-strength",
+              "ru": "пока отряд Below Half-strength"
+            }
+          }
+        ],
+        "hash": "7f2e37a7",
+        "kind": "detachmentRule",
+        "name": "The Blood of Martyrs",
+        "ref": {
+          "det": "hallowed-martyrs",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "de580a83-e1b2-4ddd-bd86-450d27e98f32",
+        "ver": 925
+      },
+      {
+        "det": "Penitent Host",
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 3,
+            "when": {
+              "en": "Penitent models, while the Path of the Penitent Vow is active",
+              "ru": "модели Penitent, пока активен обет Path of the Penitent"
+            }
+          },
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "Penitent models, while Absolution in Battle is active and the unit made a Charge move",
+              "ru": "модели Penitent, пока активен Absolution in Battle и отряд совершил чардж"
+            }
+          },
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "Penitent models, while Absolution in Battle is active and the unit made a Charge move",
+              "ru": "модели Penitent, пока активен Absolution in Battle и отряд совершил чардж"
+            }
+          },
+          {
+            "cond": [
+              "atonement-path-of-the-penitent"
+            ],
+            "op": "state",
+            "reach": [
+              "PENITENT"
+            ],
+            "text": {
+              "en": "+3\" Move",
+              "ru": "+3\" к характеристике манёвра"
+            },
+            "when": {
+              "en": "the Vow of Atonement picked in your Command phase",
+              "ru": "обет, выбранный в вашей фазе командования"
+            }
+          },
+          {
+            "cond": [
+              "atonement-absolution-in-battle"
+            ],
+            "op": "state",
+            "reach": [
+              "PENITENT"
+            ],
+            "text": {
+              "en": "If it made a Charge move this turn, its melee weapons have +1 Attacks and Strength when it fights",
+              "ru": "Если юнит совершил манёвр нападения в этом ходу, в бою его оружие ближнего боя имеет +1 к атакам и силе"
+            },
+            "when": {
+              "en": "the Vow of Atonement picked in your Command phase",
+              "ru": "обет, выбранный в вашей фазе командования"
+            }
+          },
+          {
+            "cond": [
+              "atonement-death-before-disgrace"
+            ],
+            "op": "state",
+            "reach": [
+              "PENITENT"
+            ],
+            "text": {
+              "en": "A model destroyed by a melee attack before it has fought: on a 2+ it fights after the attacking unit, then is removed",
+              "ru": "Модель, уничтоженная атакой ближнего боя до того, как сражалась: на 2+ она сражается после атакующего юнита и затем убирается"
+            },
+            "when": {
+              "en": "the Vow of Atonement picked in your Command phase",
+              "ru": "обет, выбранный в вашей фазе командования"
+            }
+          }
+        ],
+        "hash": "53f9029c",
+        "kind": "detachmentRule",
+        "name": "Desperate For Redemption",
+        "ref": {
+          "det": "penitent-host",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "b37890cc-d1f6-460f-ae40-745b6a738e9d",
+        "ver": 981
+      },
+      {
+        "det": "Sacred Champions",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "improve",
+            "stat": "bs",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "improve",
+            "stat": "ws",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "8a8f34b2",
+        "kind": "detachmentRule",
+        "name": "Holy Quest",
+        "ref": {
+          "det": "sacred-champions",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "a5824f3e-ae1b-4dc1-97eb-41a764d9f43f",
+        "ver": 931
+      },
+      {
+        "det": "Sanctified Orators",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "improve",
+            "stat": "ld",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "dde10020",
+        "kind": "detachmentRule",
+        "name": "Hymns of Battle",
+        "ref": {
+          "det": "sanctified-orators",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "602bada8-6b23-48ce-8887-3538496f1e10",
+        "ver": 925
+      },
+      {
+        "det": "Sanctuary Guardians",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "vs": "melee",
+            "when": null
+          }
+        ],
+        "hash": "c654eff7",
+        "kind": "detachmentRule",
+        "name": "Blessed Believers",
+        "ref": {
+          "det": "cp:adepta-sororitas",
+          "kind": "detachmentRule"
+        },
+        "reviewed": true,
+        "sid": "92b25844-f770-40c6-920a-a4a24de42a0a",
+        "ver": 995
+      },
+      {
+        "det": "Army of Faith",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": null
+          }
+        ],
+        "hash": "2dc89a44",
+        "kind": "enhancement",
+        "name": "Blade of Saint Ellynor",
+        "ref": {
+          "det": "army-of-faith",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "1183f5f4-7242-46ba-80c1-2be89be8c9db",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading"
+        ],
+        "det": "Bringers of Flame",
+        "effects": [
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "ranged",
+            "only": {
+              "tag": "TORRENT"
+            },
+            "op": "add",
+            "stat": "a",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "Torrent weapons only, while the bearer is leading the unit",
+              "ru": "только оружие Torrent, пока носитель ведёт отряд"
+            }
+          },
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "ranged",
+            "only": {
+              "notTag": "TORRENT"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "target": "led",
+            "value": "SUSTAINED HITS 1",
+            "when": {
+              "en": "all other ranged weapons, while the bearer is leading the unit",
+              "ru": "всё остальное стрелковое оружие, пока носитель ведёт отряд"
+            }
+          }
+        ],
+        "hash": "2cec313b",
+        "kind": "enhancement",
+        "name": "Fire and Fury",
+        "ref": {
+          "det": "bringers-of-flame",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "153f8261-4beb-4114-9a4a-f82ff261947e",
+        "ver": 925
+      },
+      {
+        "det": "Bringers of Flame",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "set",
+            "stat": "sv",
+            "value": "2+",
+            "when": null
+          }
+        ],
+        "hash": "9b6522ef",
+        "kind": "enhancement",
+        "name": "Iron Surplice of Saint Istalela",
+        "ref": {
+          "det": "bringers-of-flame",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "9304d111-c730-4ba5-bfd6-2224695f9026",
+        "ver": 925
+      },
+      {
+        "det": "Bringers of Flame",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "per Miracle dice discarded when the bearer fights, up to 3",
+              "ru": "за каждую сброшенную кость чуда при выборе носителя для боя, до 3"
+            }
+          },
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "per Miracle dice discarded when the bearer fights, up to 3",
+              "ru": "за каждую сброшенную кость чуда при выборе носителя для боя, до 3"
+            }
+          }
+        ],
+        "hash": "11498b83",
+        "kind": "enhancement",
+        "name": "Righteous Rage",
+        "ref": {
+          "det": "bringers-of-flame",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "c2118c7b-986c-47cb-b2f5-3c82d77dde0f",
+        "ver": 925
+      },
+      {
+        "det": "Champions of Faith",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "grant",
+            "stat": "ability",
+            "value": "PRECISION",
+            "when": null
+          }
+        ],
+        "hash": "c3dc24cf",
+        "kind": "enhancement",
+        "name": "Eyes of the Oracle",
+        "ref": {
+          "det": "champions-of-faith",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "8d24ee09-38f8-4dc5-a0f8-d1d52fc927e3",
+        "ver": 925
+      },
+      {
+        "det": "Champions of Faith",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": null
+          },
+          {
+            "alt": 0,
+            "cond": [
+              "unit-righteous"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 2,
+            "when": {
+              "en": "instead, plus +1 Damage, while the bearer's unit is Righteous",
+              "ru": "вместо этого, плюс +1 к урону, пока отряд носителя Righteous"
+            }
+          },
+          {
+            "cond": [
+              "unit-righteous"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": {
+              "en": "instead, plus +1 Damage, while the bearer's unit is Righteous",
+              "ru": "вместо этого, плюс +1 к урону, пока отряд носителя Righteous"
+            }
+          }
+        ],
+        "hash": "db66fbb9",
+        "kind": "enhancement",
+        "name": "Mark of Devotion",
+        "ref": {
+          "det": "champions-of-faith",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "6d1771ba-9974-4593-aef1-ddcf25f7865c",
+        "ver": 925
+      },
+      {
+        "det": "Hallowed Martyrs",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "set",
+            "stat": "d",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "54e4911e",
+        "kind": "enhancement",
+        "name": "Mantle of Ophelia",
+        "ref": {
+          "det": "hallowed-martyrs",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "ba12b88b-73ac-4fc3-af47-a972cfe31b82",
+        "ver": 925
+      },
+      {
+        "det": "Hallowed Martyrs",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": null
+          },
+          {
+            "alt": 0,
+            "cond": [
+              "unit-lost-wounds"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 2,
+            "when": {
+              "en": "Attacks, Strength and Damage +2 instead, if the bearer has lost one or more wounds",
+              "ru": "атаки, сила и урон +2 вместо +1, если носитель потерял хотя бы одну рану"
+            }
+          },
+          {
+            "alt": 1,
+            "cond": [
+              "unit-lost-wounds"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 2,
+            "when": {
+              "en": "Attacks, Strength and Damage +2 instead, if the bearer has lost one or more wounds",
+              "ru": "атаки, сила и урон +2 вместо +1, если носитель потерял хотя бы одну рану"
+            }
+          },
+          {
+            "alt": 2,
+            "cond": [
+              "unit-lost-wounds"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "d",
+            "value": 2,
+            "when": {
+              "en": "Attacks, Strength and Damage +2 instead, if the bearer has lost one or more wounds",
+              "ru": "атаки, сила и урон +2 вместо +1, если носитель потерял хотя бы одну рану"
+            }
+          }
+        ],
+        "hash": "4c5bff2d",
+        "kind": "enhancement",
+        "name": "Through Suffering, Strength",
+        "ref": {
+          "det": "hallowed-martyrs",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "ae5538f8-1681-4fdd-9cdc-2605f8847aa6",
+        "ver": 925
+      },
+      {
+        "det": "Penitent Host",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "keyword",
+            "value": "Penitent",
+            "when": null
+          }
+        ],
+        "hash": "b1a29995",
+        "kind": "enhancement",
+        "name": "Catechism of Divine Penitence",
+        "ref": {
+          "det": "penitent-host",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "ffc30956-bcf9-41db-9ecc-9b1837a30f89",
+        "ver": 925
+      },
+      {
+        "appliesWhile": [
+          "unit-leading"
+        ],
+        "det": "Penitent Host",
+        "effects": [
+          {
+            "cond": [
+              "unit-leading"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "inv",
+            "target": "led",
+            "value": "5+",
+            "when": {
+              "en": "while the bearer is leading the unit",
+              "ru": "пока носитель ведёт отряд"
+            }
+          }
+        ],
+        "hash": "734f607c",
+        "kind": "enhancement",
+        "name": "Refrain of Enduring Faith",
+        "ref": {
+          "det": "penitent-host",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "1f93ff0c-b24e-4da3-9911-8bcc1e169cbf",
+        "ver": 925
+      },
+      {
+        "det": "Sacred Champions",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "led",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "9f034c7b",
+        "kind": "enhancement",
+        "name": "Perfervid Haste",
+        "ref": {
+          "det": "sacred-champions",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "b025a522-241b-4585-a9d3-06d44400fb69",
+        "ver": 925
+      },
+      {
+        "det": "Sacred Champions",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "add",
+            "stat": "oc",
+            "target": "unit",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "68eebc98",
+        "kind": "enhancement",
+        "name": "Writ of Compunction (Upgrade)",
+        "ref": {
+          "det": "sacred-champions",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "0f265e7f-9e19-4caa-b1f3-42bcda062ef4",
+        "ver": 925
+      },
+      {
+        "det": "Sanctified Orators",
+        "effects": [
+          {
+            "cond": [
+              "hagio-catechism"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "once per turn, while the Catechism of Raging Fervour is the ability used",
+              "ru": "раз в ход, пока выбрана способность Catechism of Raging Fervour"
+            }
+          },
+          {
+            "cond": [
+              "hagio-psalm"
+            ],
+            "on": "weapon",
+            "op": "add",
+            "stat": "s",
+            "target": "led",
+            "value": 1,
+            "when": {
+              "en": "once per turn, while the Psalm of Righteous Smiting is the ability used",
+              "ru": "раз в ход, пока выбрана способность Psalm of Righteous Smiting"
+            }
+          },
+          {
+            "cond": [
+              "hagio-rite"
+            ],
+            "op": "state",
+            "text": {
+              "en": "While it is shooting, enemy units have +6\" detection range",
+              "ru": "Пока он стреляет, вражеские юниты имеют +6\" к дальности обнаружения"
+            },
+            "when": {
+              "en": "once per turn, the ability selected at the start of this phase",
+              "ru": "раз за ход, способность, выбранная в начале фазы"
+            }
+          },
+          {
+            "cond": [
+              "hagio-sermon"
+            ],
+            "op": "state",
+            "text": {
+              "en": "Its Battle-shock rolls automatically succeed",
+              "ru": "Его броски на боевой шок автоматически успешны"
+            },
+            "when": {
+              "en": "once per turn, the ability selected at the start of this phase",
+              "ru": "раз за ход, способность, выбранная в начале фазы"
+            }
+          },
+          {
+            "cond": [
+              "hagio-chorus"
+            ],
+            "op": "state",
+            "when": {
+              "en": "once per turn, the ability selected at the start of this phase",
+              "ru": "раз за ход, способность, выбранная в начале фазы"
+            }
+          },
+          {
+            "cond": [
+              "hagio-chorus"
+            ],
+            "on": "incoming",
+            "op": "add",
+            "stat": "wound",
+            "target": "led",
+            "value": -1,
+            "vs": "s-gt-t",
+            "when": {
+              "en": "once per turn, while the Chorus of Repudiation is the ability used",
+              "ru": "раз в ход, пока выбрана способность Chorus of Repudiation"
+            }
+          }
+        ],
+        "hash": "1a58e00a",
+        "kind": "enhancement",
+        "name": "Hagiomnifex (Upgrade)",
+        "ref": {
+          "det": "sanctified-orators",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "36b50d74-e9ff-4420-9cba-2844461ec80c",
+        "ver": 925
+      },
+      {
+        "det": "Sanctuary Guardians",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "d",
+            "value": 1,
+            "when": null
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "wound",
+            "target": "led",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "cee6d601",
+        "kind": "enhancement",
+        "name": "Righteous Fervour",
+        "ref": {
+          "det": "cp:adepta-sororitas",
+          "kind": "enhancement"
+        },
+        "reviewed": true,
+        "sid": "012d2dd8-e566-4c82-a8e9-932d34ecee04",
+        "ver": 925
+      },
+      {
+        "det": "Army of Faith",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "21ac06be",
+        "kind": "stratagem",
+        "name": "Blinding Radiance",
+        "ref": {
+          "det": "army-of-faith",
+          "kind": "stratagem",
+          "name": "Blinding Radiance"
+        },
+        "reviewed": true,
+        "sid": "ee04ab6a-a93f-40e8-b415-d48b5c5e88ba",
+        "ver": 995
+      },
+      {
+        "det": "Army of Faith",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "5be0535d",
+        "kind": "stratagem",
+        "name": "Divine Guidance",
+        "ref": {
+          "det": "army-of-faith",
+          "kind": "stratagem",
+          "name": "Divine Guidance"
+        },
+        "reviewed": true,
+        "sid": "ee842df1-f44d-45b9-9f16-e1ec47871c8f",
+        "ver": 925
+      },
+      {
+        "det": "Army of Faith",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LANCE",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "1bd9021b",
+        "kind": "stratagem",
+        "name": "Faith and Fury",
+        "ref": {
+          "det": "army-of-faith",
+          "kind": "stratagem",
+          "name": "Faith and Fury"
+        },
+        "reviewed": true,
+        "sid": "76636826-a2ee-46f2-8a54-106731e6ebc8",
+        "ver": 925
+      },
+      {
+        "det": "Army of Faith",
+        "effects": [],
+        "hash": "380fcfb6",
+        "kind": "stratagem",
+        "name": "Light of the Emperor",
+        "ref": {
+          "det": "army-of-faith",
+          "kind": "stratagem",
+          "name": "Light of the Emperor"
+        },
+        "reviewed": true,
+        "sid": "9535f9df-440a-42ed-8ce1-fc2b3b3e2e2a",
+        "ver": 925
+      },
+      {
+        "det": "Army of Faith",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+ (vs mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "0d4f156a",
+        "kind": "stratagem",
+        "name": "Shield of Faith",
+        "ref": {
+          "det": "army-of-faith",
+          "kind": "stratagem",
+          "name": "Shield of Faith"
+        },
+        "reviewed": true,
+        "sid": "b086ec0e-3e1e-40a6-bcfe-f84331200399",
+        "ver": 925
+      },
+      {
+        "det": "Bringers of Flame",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "tag": "TORRENT"
+            },
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "d1199be5",
+        "kind": "stratagem",
+        "name": "Cleansing Flames",
+        "ref": {
+          "det": "bringers-of-flame",
+          "kind": "stratagem",
+          "name": "Cleansing Flames"
+        },
+        "reviewed": true,
+        "sid": "edf56ccf-046e-4f5c-ae39-7ebc3d61d85b",
+        "ver": 925
+      },
+      {
+        "det": "Bringers of Flame",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "grant",
+            "stat": "ability",
+            "value": "LETHAL HITS",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "31322c63",
+        "kind": "stratagem",
+        "name": "Righteous Blows",
+        "ref": {
+          "det": "bringers-of-flame",
+          "kind": "stratagem",
+          "name": "Righteous Blows"
+        },
+        "reviewed": true,
+        "sid": "07a13a5c-5ad0-4a41-ab8c-af3a0b6207d4",
+        "ver": 925
+      },
+      {
+        "det": "Bringers of Flame",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "wound",
+            "value": 1,
+            "when": {
+              "en": "against an enemy unit within 6\" that is within range of an objective marker",
+              "ru": "по вражескому отряду в 6\", который в радиусе маркера цели"
+            }
+          }
+        ],
+        "hash": "9b09a897",
+        "kind": "stratagem",
+        "name": "Rites of Fire",
+        "ref": {
+          "det": "bringers-of-flame",
+          "kind": "stratagem",
+          "name": "Rites of Fire"
+        },
+        "reviewed": true,
+        "sid": "a1cd7972-52b6-447f-9bf3-f0eb542b0401",
+        "ver": 925
+      },
+      {
+        "det": "Bringers of Flame",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "ap",
+            "value": 1,
+            "when": null
+          }
+        ],
+        "hash": "068f028a",
+        "kind": "stratagem",
+        "name": "Shield of Aversion",
+        "ref": {
+          "det": "bringers-of-flame",
+          "kind": "stratagem",
+          "name": "Shield of Aversion"
+        },
+        "reviewed": true,
+        "sid": "4fe78d2e-a1d9-417b-8ff4-2e50ba6065bb",
+        "ver": 925
+      },
+      {
+        "det": "Champions of Faith",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "incoming",
+            "op": "add",
+            "stat": "hit",
+            "value": -1,
+            "when": null
+          }
+        ],
+        "hash": "052836c8",
+        "kind": "stratagem",
+        "name": "Bastion of Faith",
+        "ref": {
+          "det": "champions-of-faith",
+          "kind": "stratagem",
+          "name": "Bastion of Faith"
+        },
+        "reviewed": true,
+        "sid": "08d9a628-8178-473c-8d08-906813c20f7d",
+        "ver": 995
+      },
+      {
+        "det": "Champions of Faith",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 6+ (vs mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "46db95ed",
+        "kind": "stratagem",
+        "name": "Shield of Denial",
+        "ref": {
+          "det": "champions-of-faith",
+          "kind": "stratagem",
+          "name": "Shield of Denial"
+        },
+        "reviewed": true,
+        "sid": "27162b9e-7b88-4242-802f-ab58c931ea8f",
+        "ver": 925
+      },
+      {
+        "det": "Champions of Faith",
+        "dur": "turn",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "cond": [
+              "unit-righteous"
+            ],
+            "on": "melee",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "also, while the unit is Righteous",
+              "ru": "и ещё, пока отряд Righteous"
+            }
+          }
+        ],
+        "hash": "4efb0a8b",
+        "kind": "stratagem",
+        "name": "To The Heart Of Heresy",
+        "ref": {
+          "det": "champions-of-faith",
+          "kind": "stratagem",
+          "name": "To The Heart Of Heresy"
+        },
+        "reviewed": true,
+        "sid": "233adae4-81a7-4967-af0c-8b819f453d70",
+        "ver": 925
+      },
+      {
+        "det": "Chorus of Condemnation",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "DEVASTATING WOUNDS",
+            "when": {
+              "en": "against the enemy unit this stratagem named",
+              "ru": "против юнита, названного стратагемой"
+            }
+          }
+        ],
+        "hash": "114626cc",
+        "kind": "stratagem",
+        "name": "Devastating Reprise",
+        "ref": {
+          "det": "chorus-of-condemnation",
+          "kind": "stratagem",
+          "name": "Devastating Reprise"
+        },
+        "reviewed": true,
+        "sid": "32eebb7c-25ad-4030-88b3-6edfcf6ad3eb",
+        "ver": 925
+      },
+      {
+        "det": "Chorus of Condemnation",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "ranged",
+            "op": "add",
+            "stat": "hit",
+            "value": 1,
+            "when": {
+              "en": "against the one unit selected",
+              "ru": "против одного выбранного отряда"
+            }
+          }
+        ],
+        "hash": "355dac70",
+        "kind": "stratagem",
+        "name": "Harmonised Exorcism",
+        "ref": {
+          "det": "chorus-of-condemnation",
+          "kind": "stratagem",
+          "name": "Harmonised Exorcism"
+        },
+        "reviewed": true,
+        "sid": "696ce713-6868-49bd-ace7-43653c4e6fe6",
+        "ver": 995
+      },
+      {
+        "det": "Penitent Host",
+        "effects": [],
+        "hash": "83e5bff6",
+        "kind": "stratagem",
+        "name": "Boundless Zeal",
+        "ref": {
+          "det": "penitent-host",
+          "kind": "stratagem",
+          "name": "Boundless Zeal"
+        },
+        "reviewed": true,
+        "sid": "cf743f7c-6df2-40ea-96f7-cdb0de92947e",
+        "ver": 925
+      },
+      {
+        "det": "Penitent Host",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "never"
+            ],
+            "on": "profile",
+            "op": "add",
+            "stat": "m",
+            "value": 6,
+            "when": {
+              "en": "for a PENITENT ENGINES unit, instead of an Advance roll",
+              "ru": "для отряда PENITENT ENGINES, вместо броска Advance"
+            }
+          }
+        ],
+        "hash": "99b5dc08",
+        "kind": "stratagem",
+        "name": "Lash of Guilt",
+        "ref": {
+          "det": "penitent-host",
+          "kind": "stratagem",
+          "name": "Lash of Guilt"
+        },
+        "reviewed": true,
+        "sid": "d69e5d7f-ef9c-4822-b6fc-b3b5ba87eb7a",
+        "ver": 925
+      },
+      {
+        "det": "Penitent Host",
+        "dur": "phase",
+        "effects": [
+          {
+            "cond": [
+              "blocked-subset"
+            ],
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+",
+            "when": {
+              "en": "PENITENT models only, while this stratagem is in force",
+              "ru": "только модели PENITENT, пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "7b172a86",
+        "kind": "stratagem",
+        "name": "Purity of Suffering",
+        "ref": {
+          "det": "penitent-host",
+          "kind": "stratagem",
+          "name": "Purity of Suffering"
+        },
+        "reviewed": true,
+        "sid": "b1b62829-e231-428c-ab28-f01ec2e5e05f",
+        "ver": 925
+      },
+      {
+        "det": "Sacred Champions",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 5+ (vs mortal wounds)",
+            "when": null
+          }
+        ],
+        "hash": "ed5a8577",
+        "kind": "stratagem",
+        "name": "Faithful Fortitude",
+        "ref": {
+          "det": "sacred-champions",
+          "kind": "stratagem",
+          "name": "Faithful Fortitude"
+        },
+        "reviewed": true,
+        "sid": "cbaa005e-618e-46f8-b2ef-09858ca6861d",
+        "ver": 925
+      },
+      {
+        "det": "Sacred Champions",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "a",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          },
+          {
+            "on": "melee",
+            "op": "add",
+            "stat": "s",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "7a8873d6",
+        "kind": "stratagem",
+        "name": "Sanctified Blows",
+        "ref": {
+          "det": "sacred-champions",
+          "kind": "stratagem",
+          "name": "Sanctified Blows"
+        },
+        "reviewed": true,
+        "sid": "6e89c116-3112-44b8-ac3b-74181a382434",
+        "ver": 925
+      },
+      {
+        "det": "Sacred Champions",
+        "dur": "turn",
+        "effects": [
+          {
+            "on": "ranged",
+            "op": "grant",
+            "stat": "ability",
+            "value": "ASSAULT",
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "0ffdaff4",
+        "kind": "stratagem",
+        "name": "Unflinching Determination",
+        "ref": {
+          "det": "sacred-champions",
+          "kind": "stratagem",
+          "name": "Unflinching Determination"
+        },
+        "reviewed": true,
+        "sid": "941baf14-ed21-4f5c-a3b3-74d91db967b9",
+        "ver": 925
+      },
+      {
+        "det": "Sanctuary Guardians",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "ranged",
+            "only": {
+              "tag": "TORRENT"
+            },
+            "op": "set",
+            "stat": "a",
+            "value": "6",
+            "when": {
+              "en": "Torrent weapons, while this stratagem is in force",
+              "ru": "Torrent-оружие, пока действует стратагема"
+            }
+          },
+          {
+            "on": "weapon",
+            "op": "add",
+            "stat": "ap",
+            "value": -1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "1b3fca96",
+        "kind": "stratagem",
+        "name": "Fires of Damnation",
+        "ref": {
+          "det": "cp:adepta-sororitas",
+          "kind": "stratagem",
+          "name": "Fires of Damnation"
+        },
+        "reviewed": true,
+        "sid": "dff7be98-fabd-4de4-bdcc-fe507d46a527",
+        "ver": 925
+      },
+      {
+        "det": "Sanctuary Guardians",
+        "dur": "phase",
+        "effects": [
+          {
+            "on": "profile",
+            "op": "improve",
+            "stat": "sv",
+            "value": 1,
+            "when": {
+              "en": "while this stratagem is in force",
+              "ru": "пока действует стратагема"
+            }
+          }
+        ],
+        "hash": "97d04864",
+        "kind": "stratagem",
+        "name": "Take Cover",
+        "ref": {
+          "det": "cp:adepta-sororitas",
+          "kind": "stratagem",
+          "name": "Take Cover"
+        },
+        "reviewed": true,
+        "sid": "437926f7-ad38-4d68-905c-e387c87ec61b",
+        "ver": 995
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "on": "unit",
+            "op": "grant",
+            "stat": "core",
+            "value": "Feel No Pain 4+ (vs mortal wounds and Psychic Attacks)",
+            "when": null
+          }
+        ],
+        "hash": "0cb98d7e",
+        "kind": "wargear",
+        "name": "Canoness: Null Rod",
+        "ref": {
+          "item": "null rod",
+          "kind": "wargear",
+          "unit": "canoness"
+        },
+        "reviewed": true,
+        "sid": "c1a366d8-b7f6-485e-99ac-6a52311d640c:canoness",
+        "ver": 925
+      },
+      {
+        "det": null,
+        "effects": [
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "m",
+            "value": "7\"",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          },
+          {
+            "cond": [
+              "wargear-bearer"
+            ],
+            "on": "profile",
+            "op": "set",
+            "stat": "sv",
+            "value": "3+",
+            "when": {
+              "en": "the bearer only",
+              "ru": "только носитель"
+            }
+          }
+        ],
+        "hash": "607eb6f3",
+        "kind": "wargear",
+        "name": "Mortifiers: Anchorite Sarcophagus",
+        "ref": {
+          "item": "anchorite sarcophagus",
+          "kind": "wargear",
+          "unit": "mortifiers"
+        },
+        "reviewed": true,
+        "sid": "fb07a984-f0d8-42d6-b044-08298622c911:mortifiers",
+        "ver": 925
+      }
+    ],
+    "formatVersion": 1,
+    "slug": "adepta-sororitas"
+  }
+}
